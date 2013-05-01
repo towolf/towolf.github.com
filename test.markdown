@@ -62,6 +62,25 @@ Tilde with postfix lang spec
 ~~~
 {: .language-matlab}
 
+Tilde with plain lang
+=====================
+
+~~~ ruby
+def what?
+42
+end
+~~~
+
+Tilde with plain lang
+=====================
+
+~~~
+def what?
+42
+end
+~~~
+{:lang="ruby"}
+
 
 Tilde with postfix ruby spec
 ============================
@@ -90,6 +109,35 @@ Indented code block lang spec
       printf("Hello world!");
       return 0; 
     }
+
+prefix lang=c
+=============================
+
+{:lang="c"}
+    int main(void) {
+      printf("Hello world!");
+      return 0; 
+    }
+
+postfix lang=c
+=============================
+
+    int main(void) {
+      printf("Hello world!");
+      return 0; 
+    }
+{:lang="c"}
+
+postfix tilde lang=c
+=============================
+
+~~~
+int main(void) {
+  printf("Hello world!");
+  return 0; 
+}
+  ~~~
+{:lang="c"}
 
 Indented code with postfix lang
 ===============================
