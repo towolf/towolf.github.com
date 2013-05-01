@@ -5,6 +5,8 @@ author: towolf
 category: site
 ---
 
+* TOC
+{:toc}
 
 Code blocks
 -----------
@@ -25,18 +27,10 @@ Bare tilde
 [a, b, c] = rot90('abc', 1, 2, [1, 2, 3])
 ~~~
 
-Tilde and braces
-================
+Yaml tag
+========
 
-~~~ {matlab}
+{% highlight matlab %}
 % asd jasöd jaskadlfhds flahfalkjds hfalkds hasld hadlkfhdsflkjahfalkjfds halkds halkdsf
 [a, b, c] = rot90('abc', 1, 2, [1, 2, 3])
-~~~
-
-Tilde and braces and dot
-========================
-
-~~~ {.matlab}
-% asd jasöd jaskadlfhds flahfalkjds hfalkds hasld hadlkfhdsflkjahfalkjfds halkds halkdsf
-[a, b, c] = rot90('abc', 1, 2, [1, 2, 3])
-~~~
+{% endhighlight %}
