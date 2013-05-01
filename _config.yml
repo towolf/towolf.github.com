@@ -2,17 +2,17 @@ title: Psychtoolbox-3
 url: http://towolf.github.com
 permalink: pretty
 pygments: true
-markdown: redcarpet
+markdown: kramdown
 
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
-# 
-# kramdown:
-#   auto_ids: false
-#   footnote_nr: 1
-#   entity_output: as_char
-#   toc_levels: 1..5
-#   use_coderay: false
+# redcarpet:
+# extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
+kramdown:
+  auto_ids: false
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..5
+  use_coderay: false
 
 # rdiscount:
 #   extensions: [smart, generate_toc]
