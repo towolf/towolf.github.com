@@ -5,9 +5,6 @@ author: towolf
 category: site
 ---
 
-* TOC
-{:toc}
-
 
 Code blocks
 -----------
@@ -20,7 +17,7 @@ Backticks
 [a, b, c] = rot90('abc', 1, 2, [1, 2, 3])
 ```
 
-bare tilde
+Bare tilde
 ==========
 
 ~~~ matlab
@@ -28,7 +25,7 @@ bare tilde
 [a, b, c] = rot90('abc', 1, 2, [1, 2, 3])
 ~~~
 
-tilde and braces
+Tilde and braces
 ================
 
 ~~~ {matlab}
@@ -36,7 +33,7 @@ tilde and braces
 [a, b, c] = rot90('abc', 1, 2, [1, 2, 3])
 ~~~
 
-tilde and braces and dot
+Tilde and braces and dot
 ========================
 
 ~~~ {.matlab}
@@ -44,7 +41,7 @@ tilde and braces and dot
 [a, b, c] = rot90('abc', 1, 2, [1, 2, 3])
 ~~~
 
-yaml tag
+Yaml tag
 ========
 
 {% highlight matlab %}
