@@ -7,7 +7,7 @@ markdown: kramdown
 kramdown:
   auto_ids: false
   toc_levels: 1..5
-  use_coderay: false
+  use_coderay: true
 
 # redcarpet:
 #     extensions: ["no_intra_emphasis", "fenced_code_blocks", "strikethrough", "autolink",
