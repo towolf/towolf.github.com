@@ -3,6 +3,7 @@ url: http://towolf.github.com
 permalink: pretty
 pygments: true
 markdown: redcarpet
+
 # 
 # kramdown:
 #   auto_ids: false
