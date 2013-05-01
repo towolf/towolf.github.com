@@ -6,7 +6,7 @@ category: getting-started
 
 #### Contents
 
--  TOC be here
+* auto-gen TOC:
 {:toc}
 
 Operating systems
