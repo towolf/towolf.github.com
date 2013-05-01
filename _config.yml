@@ -4,15 +4,14 @@ permalink: pretty
 pygments: true
 markdown: kramdown
 
-# redcarpet:
-# extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
-
 kramdown:
   auto_ids: false
-  footnote_nr: 1
-  entity_output: as_char
   toc_levels: 1..5
-  use_coderay: true
+  use_coderay: false
+
+# redcarpet:
+#     extensions: ["no_intra_emphasis", "fenced_code_blocks", "strikethrough", "autolink",
+#                  "tables", "with_toc_data", "space_after_headers", "superscript"]
 
 # rdiscount:
 #   extensions: [smart, generate_toc]
