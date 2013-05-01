@@ -60,7 +60,18 @@ Tilde with postfix lang spec
 % asd jasöd jaskadlfhds flahfalkjds hfalkds hasld hadlkfhdsflkjahfalkjfds halkds halkdsf
 [a, b, c] = rot90('abc', 1, 2, [1, 2, 3])
 ~~~
-{:.language-ruby}
+{: .language-matlab}
+
+
+Tilde with postfix ruby spec
+============================
+
+~~~
+def what?
+  42
+end
+~~~
+{: .language-ruby}
 
 Indented code block with class
 ==============================
@@ -71,14 +82,23 @@ Indented code block with class
       return 0; 
     }
 
-Indented code block with class
-==============================
+Indented code block lang spec
+=============================
 
-{:.language-c}
+{: .language-c}
     int main(void) {
       printf("Hello world!");
       return 0; 
     }
+
+Indented code with postfix lang
+===============================
+
+    int main(void) {
+      printf("Hello world!");
+      return 0; 
+    }
+{: .language-c}
 
 Liquid tag
 ==========
