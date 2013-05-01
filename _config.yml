@@ -2,7 +2,7 @@ title: Psychtoolbox-3
 url: http://towolf.github.com
 permalink: pretty
 pygments: true
-# markdown: kramdown
+markdown: redcarpet
 # 
 # kramdown:
 #   auto_ids: false
