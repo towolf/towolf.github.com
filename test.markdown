@@ -44,8 +44,8 @@ Tilde with bare lang
 [a, b, c] = rot90('abc', 1, 2, [1, 2, 3])
 ~~~
 
-Tilde with postfix lang
-=======================
+Tilde with postfix lang class
+=============================
 
 ~~~
 % asd jasöd jaskadlfhds flahfalkjds hfalkds hasld hadlkfhdsflkjahfalkjfds halkds halkdsf
@@ -53,10 +53,28 @@ Tilde with postfix lang
 ~~~
 {.matlab}
 
+Tilde with postfix lang spec
+============================
+
+~~~
+% asd jasöd jaskadlfhds flahfalkjds hfalkds hasld hadlkfhdsflkjahfalkjfds halkds halkdsf
+[a, b, c] = rot90('abc', 1, 2, [1, 2, 3])
+~~~
+{:.language-ruby}
+
 Indented code block with class
 ==============================
 
 {.c}
+    int main(void) {
+      printf("Hello world!");
+      return 0; 
+    }
+
+Indented code block with class
+==============================
+
+{:.language-c}
     int main(void) {
       printf("Hello world!");
       return 0; 
