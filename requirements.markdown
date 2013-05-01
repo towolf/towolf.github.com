@@ -7,8 +7,7 @@ category: getting-started
 #### Contents
 
 -  TOC be here
-{:toc #toc}
-{::options auto_ids="true" toc_levels="2..3"/}
+{:toc}
 
 Operating systems
 -----------------
