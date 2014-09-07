@@ -1,0 +1,22 @@
+---
+layout: mfile
+title: glVertexAttrib4f
+categories:
+  - wrap
+---
+
+glVertexAttrib4f  Interface to OpenGL function glVertexAttrib4f
+
+usage:  glVertexAttrib4f\( index, x, y, z, w \)
+
+C function:  void glVertexAttrib4f\(GLuint index, GLfloat x, GLfloat y, GLfloat z, GLfloat w\)
+
+
+<div class="code_header" style="text-align:right;">
+  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
+  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOpenGL/MOGL/wrap/glVertexAttrib4f.m">current version from GitHub</a> | View <a href=
+  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOpenGL/MOGL/wrap/glVertexAttrib4f.m">changelog</a></span>
+</div>
+<div class="code">
+  <code>./PsychOpenGL/MOGL/wrap/glVertexAttrib4f.m</code>
+</div>

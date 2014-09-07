@@ -1,0 +1,45 @@
+---
+layout: mfile
+title: moglsingle
+categories:
+  - wrap
+---
+
+\-\-\- OBSOLETE \-\-\- OBSOLETE \-\-\- OBSOLETE \-\-\- OBSOLETE \-\-\-
+PSYCHTOOLBOX SPECIFIC single\(\) implementation:
+
+retval = moglsingle\(arg\) \-\- convert into
+a single precision floating point number.
+
+This routine takes an 'arg' of arbitrary
+numeric class and converts it into an equivalent
+object of single precision floating point format.
+
+If a builtin single\(\) function is available,
+as on Matlab and Octave 3.2\+, it calls the builtin
+single\(\) function.
+
+Otherwise \(Octave\) it would call our own special
+implementation.
+
+This is no longer needed as of Octave 3.2.0, but we leave the function
+here as many internal and external code relies on its presence.
+
+# For Octave pre 3.2, this applied:
+
+This is a hack needed to make OpenGL \(MOGL\) work
+on GNU/Octave, despite Octave's lack of a single
+precision data type. Returned values are not
+useful or accessible by Octave. They only have
+meaning for the Psychtoolbox OpenGL functions.
+
+
+
+<div class="code_header" style="text-align:right;">
+  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
+  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOpenGL/MOGL/wrap/moglsingle.m">current version from GitHub</a> | View <a href=
+  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOpenGL/MOGL/wrap/moglsingle.m">changelog</a></span>
+</div>
+<div class="code">
+  <code>./PsychOpenGL/MOGL/wrap/moglsingle.m</code>
+</div>

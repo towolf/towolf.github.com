@@ -1,0 +1,22 @@
+---
+layout: mfile
+title: glIsSampler
+categories:
+  - wrap
+---
+
+glIsSampler  Interface to OpenGL function glIsSampler
+
+usage:  r = glIsSampler\( sampler \)
+
+C function:  GLboolean glIsSampler\(GLuint sampler\)
+
+
+<div class="code_header" style="text-align:right;">
+  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
+  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOpenGL/MOGL/wrap/glIsSampler.m">current version from GitHub</a> | View <a href=
+  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOpenGL/MOGL/wrap/glIsSampler.m">changelog</a></span>
+</div>
+<div class="code">
+  <code>./PsychOpenGL/MOGL/wrap/glIsSampler.m</code>
+</div>
