@@ -3,6 +3,7 @@ layout: mfile
 title: ColourStereoDemo
 categories:
   - BitsPlusDemos
+encoding: UTF-8
 ---
 
 ColourStereoDemo
@@ -15,8 +16,8 @@ tested with version 1.0.5.
 uses the hidden 'LoadNormalizedGammaTable' screen function.
 
 Please note that this demo as configured needs 256MB system ram.
-It also needs the Bits\+\+ from Cambridge Research Systems\!\!
-Designed to be used in the "colour\+\+" enhanced colour mode.
+It also needs the Bits++ from Cambridge Research Systems\!\!
+Designed to be used in the "colour++" enhanced colour mode.
 
 Sections have been lifted from the OSX movie demo etc.
 

@@ -3,6 +3,7 @@ layout: mfile
 title: glGetTexParameterfv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetTexParameterfv  Interface to OpenGL function glGetTexParameterfv

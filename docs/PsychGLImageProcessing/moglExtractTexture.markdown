@@ -3,9 +3,10 @@ layout: mfile
 title: moglExtractTexture
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
-moglExtractTexture\(cmd \[, arg1\]\[, arg2\]\[, ...\]\) \- "MOGL Video texture extraction"
+moglExtractTexture\(cmd \[, arg1\]\[, arg2\]\[, ...\]\) - "MOGL Video texture extraction"
 
 
 The algorithm makes heavy use of GPU based image processing for maximum
@@ -29,77 +30,77 @@ Subcommands, their syntax & meaning:
 ====================================
 
 \[oldflag, oldgain\] = moglExtractTexture\('DebugFlag', flag \[, debugGain\]\);
-\- Set debug flag to value 'flag'. Default is zero. Non\-zero values enable
-different visualizations that may aid debugging non\-working setups. 1 =
+- Set debug flag to value 'flag'. Default is zero. Non-zero values enable
+different visualizations that may aid debugging non-working setups. 1 =
 Show silhouette buffer, 2 = Show trackbuffer, 3 = Show extracted texture.
-A setting of \-1 shows the real rendered image. A value of \-2 disables any
+A setting of -1 shows the real rendered image. A value of -2 disables any
 kind of textual warnings.
 
 The optional 'debugGain' parameter must be a 4 component \[R G B A\] color
-vector with modulation gains for the drawn "debug images" \- simply to
+vector with modulation gains for the drawn "debug images" - simply to
 scale each color channel in intensity to allow for display of values
 outside the standard displayable range between zero and one.
 
 
 context = moglExtractTexture\('CreateContext', window, rect, texCoordMin, texCoordMax, texResolution \[,zThreshold=Off\]\);
-\- Create a "rendercontext" for a single 3D object. Returns a 'context'
+- Create a "rendercontext" for a single 3D object. Returns a 'context'
 handle to it which needs to be passed in to all other functions as
 reference. All following parameters are required and don't have any
 defaults:
 
-'window' Handle of masterwindow \- The onscreen window used for rendering.
+'window' Handle of masterwindow - The onscreen window used for rendering.
 This is not neccessarily the window to which final stimulus will be drawn
 to, but it is needed as a "parent" for all ressources.
 
 'rect' A Psychtoolbox rectangle \[left top right bottom\] that describes
 the size and shape of the input video texture. This rect must have the
-same size as the input video image textures \-\- Lots of internal
+same size as the input video image textures -- Lots of internal
 calculations depend on this geometry spec\!
 
 'texCoordMin' Two element vector which contains the minimum texture
-coordinate values contained in the 3D scene for x\- resp. y\-direction.
+coordinate values contained in the 3D scene for x- resp. y-direction.
 
 'texCoordMax' Two element vector which contains the maximum texture
-coordinate values contained in the 3D scene for x\- resp. y\-direction.
+coordinate values contained in the 3D scene for x- resp. y-direction.
 
 'texResolution' Two element vector which contains the internal resolution
-for x\- resp. y\-direction of the 3D object surface. Higher values mean finer
+for x- resp. y-direction of the 3D object surface. Higher values mean finer
 resolution and less aliasing, but also higher storage requirements and
 longer processing times. This defines the size of returned extracted
 textures.
 
 'zThreshold' Optional zThreshold for occlusion test: By default, it is
 10.0 ie. occlusion test disabled. A value between 0.0 and 1.0 will enable
-occlusion testing \-\- Texels that would correspond to occluded surface patches are
+occlusion testing -- Texels that would correspond to occluded surface patches are
 not extracted. Small numbers \(close to zero\) make the test more sensitive but
 can cause artifacts due to internal numeric roundoff errors. Bigger
 numbers \(closer to one\) make it more robust but less powerful. The
-"sweet\-spot" depends on your hardware and 3D scene. Empirically a setting
+"sweet-spot" depends on your hardware and 3D scene. Empirically a setting
 of 0.0001 is a good value for ATI Radeon X1000 series hardware.
-The default setting \(bigger than 1.0\) will disable occlusion test \-\-
+The default setting \(bigger than 1.0\) will disable occlusion test --
 "Hidden texels" are not ignored, but updated with bogus extracted texture.
 
 
 context = moglExtractTexture\('SetRenderCallback', context, callbackEvalString\);
-\- Define the 'eval' string for this context to be used as rendercallback.
+- Define the 'eval' string for this context to be used as rendercallback.
 Pass in a Matlab command string \(for evaluation via eval\(\) function in the
 Workspace of the calling function\). This string is called/executed during
 each 'Update' cycle. It has to contain the code that performs the actual
 rendering of the 3D scene or object.
 
 The called rendering code \*must not\* glClear\(\) the framebuffer or mess
-around with alpha\-blending state or depth\-buffer/depth\-test settings, nor
+around with alpha-blending state or depth-buffer/depth-test settings, nor
 should it bind any shaders\! It makes sense to disable any kind of
 lighting or texture mapping, as no photorealistic image is rendered, so
 it would be a waste of computation time.
 
 
 context = moglExtractTexture\('DestroyContext', context\);
-\- Destroy a processing context, release all of its ressources.
+- Destroy a processing context, release all of its ressources.
 
 
 \[texBuffer, texId, texTarget\] = moglExtractTexture\('Extract', context, inputTexture \[, newTexture = 0\]\);
-\- Perform an 'Extract' cycle for given context. A new "3D frame" is rendered
+- Perform an 'Extract' cycle for given context. A new "3D frame" is rendered
 via the rendercallback function, then analysed, to provide the 3D surface
 geometry and occlusion info and mapping for texture extraction. This info
 is then used to extract pixel color values from the given video input

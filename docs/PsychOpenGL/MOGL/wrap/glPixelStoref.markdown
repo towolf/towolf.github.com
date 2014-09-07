@@ -3,6 +3,7 @@ layout: mfile
 title: glPixelStoref
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glPixelStoref  Interface to OpenGL function glPixelStoref

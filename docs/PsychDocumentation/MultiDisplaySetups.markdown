@@ -3,9 +3,10 @@ layout: mfile
 title: MultiDisplaySetups
 categories:
   - PsychDocumentation
+encoding: UTF-8
 ---
 
-MultiDisplaySetups \-\- Information for users of multidisplay setups.
+MultiDisplaySetups -- Information for users of multidisplay setups.
 
 This file is a place holder until M.K. remembers what he actually wanted
 to write into it...

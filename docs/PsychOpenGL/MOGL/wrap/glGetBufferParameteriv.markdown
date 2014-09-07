@@ -3,6 +3,7 @@ layout: mfile
 title: glGetBufferParameteriv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetBufferParameteriv  Interface to OpenGL function glGetBufferParameteriv

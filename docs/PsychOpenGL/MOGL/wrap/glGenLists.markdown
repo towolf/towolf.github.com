@@ -3,6 +3,7 @@ layout: mfile
 title: glGenLists
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGenLists  Interface to OpenGL function glGenLists

@@ -3,6 +3,7 @@ layout: mfile
 title: PR655rawspd
 categories:
   - PR655Toolbox
+encoding: UTF-8
 ---
 
 readStr = PR655rawspd\(timeout\)

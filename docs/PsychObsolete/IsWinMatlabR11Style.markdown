@@ -3,6 +3,7 @@ layout: mfile
 title: IsWinMatlabR11Style
 categories:
   - PsychObsolete
+encoding: UTF-8
 ---
 
 resultFlag = IsWinMatlabR11Style

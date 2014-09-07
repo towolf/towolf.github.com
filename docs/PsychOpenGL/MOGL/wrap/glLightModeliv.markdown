@@ -3,6 +3,7 @@ layout: mfile
 title: glLightModeliv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glLightModeliv  Interface to OpenGL function glLightModeliv

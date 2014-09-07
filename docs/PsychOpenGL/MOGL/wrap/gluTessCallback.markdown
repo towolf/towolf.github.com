@@ -3,6 +3,7 @@ layout: mfile
 title: gluTessCallback
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluTessCallback  Interface to OpenGL function gluTessCallback

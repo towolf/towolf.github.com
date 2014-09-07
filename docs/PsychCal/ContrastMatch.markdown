@@ -3,6 +3,7 @@ layout: mfile
 title: ContrastMatch
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
  weight=ContrastMatch\(device,dimWeight,\[foreColor\],\[backColor\]\)
@@ -15,19 +16,19 @@ categories:
  In a more compact notation, L1/Lb=Ld/L0. We set the weight wd that produces
  Ld, and the observer adjusts the weight wb that produces Lb. They are related
  by the gamma function, y=g\(w\), where y is the normalized luminance,
- y=\(L\-L0\)/\(L1\-L0\). We know wb and wd, and we have access to the gamma function,
+ y=\(L-L0\)/\(L1-L0\). We know wb and wd, and we have access to the gamma function,
  so we can compute yb and yd. Solving for L, we have
-    L=y\*\(L1\-L0\)\+L0
+    L=y\*\(L1-L0\)+L0
  Our relation at match can be rewritten as
     L1\*L0=Ld\*Lb
-    0=Ld\*Lb\-L1\*L0
-    =\(yd\*\(L1\-L0\)\+L0\)\*\(yb\*\(L1\-L0\)\+L0\)\-L1\*L0
+    0=Ld\*Lb-L1\*L0
+    =\(yd\*\(L1-L0\)+L0\)\*\(yb\*\(L1-L0\)+L0\)-L1\*L0
     Let's divide by L1^2, and define r=L0/L1.
-    =\(yd\*\(1\-r\)\+r\)\*\(yb\*\(1\-r\)\+r\)\-r
+    =\(yd\*\(1-r\)+r\)\*\(yb\*\(1-r\)+r\)-r
     This is a quadratic equation in r
-    =\(yd\+\(1\-yd\)\*r\)\*\(yb\+\(1\-yb\)\*r\)\-r
-    =yd\*yb\+\(yb\*\(1\-yd\)\+yd\*\(1\-yb\)\-1\)\*r\+\(1\-yd\)\*\(1\-yb\)\*r^2
-    c=\[\(1\-yd\)\*\(1\-yb\) yb\*\(1\-yd\)\+yd\*\(1\-yb\)\-1 yd\*yb\]; % coefficients of quadratic polynomial
+    =\(yd+\(1-yd\)\*r\)\*\(yb+\(1-yb\)\*r\)-r
+    =yd\*yb+\(yb\*\(1-yd\)+yd\*\(1-yb\)-1\)\*r+\(1-yd\)\*\(1-yb\)\*r^2
+    c=\[\(1-yd\)\*\(1-yb\) yb\*\(1-yd\)+yd\*\(1-yb\)-1 yd\*yb\]; % coefficients of quadratic polynomial
     r=roots\(c\)
  The answer, r, is the desired ratio of L0/L1.
 

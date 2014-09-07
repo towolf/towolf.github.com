@@ -3,11 +3,12 @@ layout: mfile
 title: DaqPins
 categories:
   - Daq
+encoding: UTF-8
 ---
 
  DaqPins
- USB\-1208FS pins
- 4\-channel differential mode         8\-channel single\-ended mode
+ USB-1208FS pins
+ 4-channel differential mode         8-channel single-ended mode
  Pin Signal name  Pin Signal name    Pin Signal name  Pin Signal name
   1  CH0 in high  21  Port A0         1  CH0 in       21  Port A0
   2  CH0 in low   22  Port A1         2  CH1 in       22  Port A1
@@ -18,7 +19,7 @@ categories:
   7  CH2 in high  27  Port A6         7  CH4 in       27  Port A6
   8  CH2 in low   28  Port A7         8  CH5 in       28  Port A7
   9  AGND         29  GND             9  AGND         29  GND
- 10  CH3 in high  30  \+5V out        10  CH6 in       30  \+5V out
+ 10  CH3 in high  30  +5V out        10  CH6 in       30  +5V out
  11  CH3 in low   31  GND            11  CH7 in       31  GND
  12  AGND         32  Port B0        12  AGND         32  Port B0
  13  D/A out 0    33  Port B1        13  D/A out 0    33  Port B1
@@ -30,9 +31,9 @@ categories:
  19  SYNC         39  Port B7        19  SYNC         39  Port B7
  20  CTR          40  GND            20  CTR          40  GND
 
-USB\-1408FS same as USB\-1208FS except that pin 16 is listed as 2.5 V
+USB-1408FS same as USB-1208FS except that pin 16 is listed as 2.5 V
 
- USB\-1608FS pins
+ USB-1608FS pins
  Pin Signal name  Pin Signal name
   1  CH0 in       21  DIO0
   2  AGND         22  GND
@@ -52,7 +53,7 @@ USB\-1408FS same as USB\-1208FS except that pin 16 is listed as 2.5 V
  16  AGND         36  SYNC
  17  CAL          37  TRIG\_IN
  18  AGND         38  CTR
- 19  AGND         39  PC \+5V
+ 19  AGND         39  PC +5V
  20  AGND         40  GND
 
  See also Daq, DaqFunctions, DaqTest.

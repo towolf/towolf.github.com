@@ -3,9 +3,10 @@ layout: mfile
 title: SimpleSoundScheduleDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
-SimpleSoundScheduleDemo \- Show simple application of sound schedules.
+SimpleSoundScheduleDemo - Show simple application of sound schedules.
 
 This demo shows a very basic application of PsychPortAudio's sound
 schedule functions. It defines a sequence of 1 second beep tones which are

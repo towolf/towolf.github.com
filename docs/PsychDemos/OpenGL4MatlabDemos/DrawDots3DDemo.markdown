@@ -3,9 +3,10 @@ layout: mfile
 title: DrawDots3DDemo
 categories:
   - OpenGL4MatlabDemos
+encoding: UTF-8
 ---
 
-DrawDots3DDemo \-\- Show fast drawing of 3D dots.
+DrawDots3DDemo -- Show fast drawing of 3D dots.
 
 Usage: DrawDots3DDemo\(\[stereoMode=0\]\[, multiSample=0\]\);
 
@@ -38,15 +39,15 @@ OpenGL display lists to store all data in the fast VRAM of the GPU to
 gain an additional speedup. At the end of these three benchmark runs, the
 demo will end and print out the average redraw rates attainable by the
 three methods. On a modern system with a modern graphics card, you should
-observe quite drastic speedups of GPU\+VRAM vs. GPU vs. Matlab/CPU.
+observe quite drastic speedups of GPU+VRAM vs. GPU vs. Matlab/CPU.
 
-The 4th subdemo simulates a "warp\-flight" by creating a particle fountain
+The 4th subdemo simulates a "warp-flight" by creating a particle fountain
 that approaches the viewer, expanding while doing so.
 
 
 Btw. if you are a proud owner of a good 3D stereo setup, or at least of
 some anaglyph glasses, you should try the stereo display option as well,
-e.g., stereoMode == 8 for red\-blue anaglyphs.
+e.g., stereoMode == 8 for red-blue anaglyphs.
 
 Pressing the ESCape key continues the demo and progresses to next
 subdemo. Mouse clicks will pause some demos, until another mouse click
@@ -54,13 +55,13 @@ continues the demo.
 
 # Optional parameter:
 
-'stereoMode' if set to a non\-zero value, will render at lest the 2nd demo
+'stereoMode' if set to a non-zero value, will render at lest the 2nd demo
 in a binocular stereo presentation mode, using the method specified in
 the 'stereoMode' flag. See for example ImagingStereoDemo for available
 modes.
 
-'multiSample' if set to a non\-zero value will enable multi\-sample
-anti\-aliasing. This however usually doesn't give good results with
+'multiSample' if set to a non-zero value will enable multi-sample
+anti-aliasing. This however usually doesn't give good results with
 smoothed 3D dots.
 
 

@@ -3,6 +3,7 @@ layout: mfile
 title: UpdateAmbient
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
  cal = UpdateAmbient\(cal,newP\_ambient,\[ADD\]\)
@@ -25,7 +26,7 @@ categories:
 ÊIf flag ADD is true, passed ambient is added to current
  value.  Otherwise passed value replaces current value.
  ADD is false if not passed.  Use caution when setting ADD
- true \-\- if the ambient is changing during the experiment
+ true -- if the ambient is changing during the experiment
  you typically don't want to keep adding multiple times.
 
  11/17/93  dhb      Wrote it.

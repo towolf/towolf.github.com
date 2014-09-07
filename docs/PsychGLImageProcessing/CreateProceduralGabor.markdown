@@ -3,6 +3,7 @@ layout: mfile
 title: CreateProceduralGabor
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 \[gaborid, gaborrect\] = CreateProceduralGabor\(windowPtr, width, height \[, nonSymmetric=0\]\[, backgroundColorOffset =\(0,0,0,0\)\]\[, disableNorm=0\]\[, contrastPreMultiplicator=1\]\)
@@ -11,7 +12,7 @@ Creates a procedural texture that allows to draw Gabor stimulus patches
 in a very fast and efficient manner on modern graphics hardware.
 
 This works on GPU's with support for the OpenGL shading language and
-vertex\- and fragment shaders. See ProceduralGaborDemo and
+vertex- and fragment shaders. See ProceduralGaborDemo and
 ProceduralGarboriumDemo for examples on how to use this function.
 ProceduralGaborDemo shows drawing of a single gabor and also allows to
 perform a speed benchmark and a correctness test to verify correct
@@ -28,7 +29,7 @@ small values here would 'cut off' peripheral parts or your gabor. Too big
 values don't hurt wrt. correctness or accuracy, they just hurt
 performance, ie. drawing speed. Use a reasonable size for your purpose.
 
-'nonSymmetric' Optional, defaults to zero. A non\-zero value means that
+'nonSymmetric' Optional, defaults to zero. A non-zero value means that
 you intend to draw gabors whose gaussian hull is not perfectly circular
 symmetric, but a more general ellipsoid. The generated procedural texture
 will honor an additional 'spatial aspect ratio' parameter, at the expense
@@ -61,7 +62,7 @@ describes the size of the gabor support.
 # A typical invocation to draw a single gabor patch may look like this:
 
 [Screen](/docs/Screen)\('DrawTexture', windowPtr, gaborid, \[\], dstRect, Angle, \[\], \[\],
-modulateColor, \[\], kPsychDontDoRotation, \[phase\+180, freq, sc,
+modulateColor, \[\], kPsychDontDoRotation, \[phase+180, freq, sc,
 contrast, aspectratio, 0, 0, 0\]\);
 
 Draws the gabor 'gaborid' into window 'windowPtr', at position 'dstRect',
@@ -77,13 +78,13 @@ does.
 
 Wikipedia's definition \(better readable\): http://en.wikipedia.org/wiki/Gabor\_filter
 See http://tech.groups.yahoo.com/group/psychtoolbox/message/9174 for
-Psychtoolbox forum message 9174 with an in\-dephs discussion of this
+Psychtoolbox forum message 9174 with an in-dephs discussion of this
 function.
 
 
-'Angle' is the optional orientation angle in degrees \(0\-360\), default is zero degrees.
+'Angle' is the optional orientation angle in degrees \(0-360\), default is zero degrees.
 
-'modulateColor' is the base color of the gabor patch \- it defaults to
+'modulateColor' is the base color of the gabor patch - it defaults to
 white, ie. the gabor has only luminance, but no color. If you'd set it to
 \[255 0 0\] you'd get a reddish gabor.
 
@@ -94,7 +95,7 @@ white, ie. the gabor has only luminance, but no color. If you'd set it to
 'sc' is the spatial constant of the gaussian hull function of the gabor, ie.
 the "sigma" value in the exponential function.
 
-'contrast' is the amplitude of your gabor in intensity units \- A factor
+'contrast' is the amplitude of your gabor in intensity units - A factor
 that is multiplied to the evaluated gabor equation before converting the
 value into a color value. 'contrast' may be a bit of a misleading term
 here...
@@ -105,7 +106,7 @@ calling the CreateProceduralGabor\(\) function.
 
 Make sure to use the [Screen](/docs/Screen)\('DrawTextures', ...\); function properly,
 instead of the [Screen](/docs/Screen)\('DrawTexture', ...\); function, if you want to draw
-many different gabors simultaneously \- this is much faster\!
+many different gabors simultaneously - this is much faster\!
 
 
 

@@ -3,6 +3,7 @@ layout: mfile
 title: QuestDemo
 categories:
   - Quest
+encoding: UTF-8
 ---
 
 QuestDemo.m
@@ -15,13 +16,13 @@ likelihood procedure, which they called QUEST, for estimating threshold.
 The Quest toolbox in the Psychtoolbox is a set of MATLAB functions
 that implement all the original QUEST functions, plus several others.
 You can think of it as a Bayesian toolbox for testing observers and
-estimating their thresholds. This QUEST toolbox is self\-contained,
+estimating their thresholds. This QUEST toolbox is self-contained,
 and runs on any computer with MATLAB 5 or better.
 web http://psychtoolbox.org/
 web http://psych.nyu.edu/pelli/software.html\#quest
 
 By commenting and uncommenting five lines below, you can use this file
-to implement three QUEST\-related procedures for measuring threshold.
+to implement three QUEST-related procedures for measuring threshold.
 
 QuestMode: In the original algorithm of Watson & Pelli \(1983\), each
 trial is at the MODE of the posterior pdf. Their final estimate is
@@ -30,7 +31,7 @@ dividing out the prior pdf. \(Subsequent experience has shown that it's
 better not to divide out the prior, simply using MODE of posterior pdf
 throughout.\)
 
-QuestMean: In the improved algorithm of King\-Smith et al. \(1994\), each
+QuestMean: In the improved algorithm of King-Smith et al. \(1994\), each
 trial and the final estimate are at the MEAN of the posterior pdf.
 
 QuestQuantile & QuestMean: In the ideal algorithm of Pelli \(1987\), each
@@ -74,7 +75,7 @@ and conditions \(Nachmias, 1981\). However, you may want to estimate beta
 for the particular conditions of your experiment. QuestBetaAnalysis is
 provided for that purpose, but please think of it as a limited optional
 feature. It allows only two free parameters, threshold and beta. You may
-prefer to use a general\-purpose maximum likelihood fitting program to
+prefer to use a general-purpose maximum likelihood fitting program to
 allow more degrees of freedom in fitting a Weibull function to your
 psychometric data. However, once you've done that it's likely that
 you'll settle on fixed values for all but threshold and use Quest to
@@ -96,26 +97,26 @@ References
 
 Farell, B., & Pelli, D. G. \(1999\). Psychophysical methods, or how to
 measure threshold, and why. In J. G. Robson & R. H. S. Carpenter \(Eds.\),
-A Practical Guide to Vision Research \(pp. 129\-136\). New York: Oxford
+A Practical Guide to Vision Research \(pp. 129-136\). New York: Oxford
 University Press.
 
-King\-Smith, P. E., Grigsby, S. S., Vingrys, A. J., Benes, S. C., and
+King-Smith, P. E., Grigsby, S. S., Vingrys, A. J., Benes, S. C., and
 Supowit, A. \(1994\) Efficient and unbiased modifications of the QUEST
 threshold method: theory, simulations, experimental evaluation and
-practical implementation. Vision Res, 34 \(7\), 885\-912.
+practical implementation. Vision Res, 34 \(7\), 885-912.
 
 Nachmias, J. \(1981\). On the psychometric function for contrast detection.
-Vision Res, 21\(2\), 215\-223.
+Vision Res, 21\(2\), 215-223.
 
 Pelli, D. G. \(1987\) The ideal psychometric procedure. Investigative
 Ophthalmology & Visual Science, 28 \(Suppl\), 366.
 
 Pelli, D. G., & Farell, B. \(1994\). Psychophysical methods. In M. Bass,
 E. W. Van Stryland, D. R. Williams & W. L. Wolfe \(Eds.\), Handbook of
-Optics, 2nd ed. \(Vol. I, pp. 29.21\-29.13\). New York: McGraw\-Hill.
+Optics, 2nd ed. \(Vol. I, pp. 29.21-29.13\). New York: McGraw-Hill.
 
 Watson, A. B. and Pelli, D. G. \(1983\) QUEST: a Bayesian adaptive
-psychometric method. Percept Psychophys, 33 \(2\), 113\-20.
+psychometric method. Percept Psychophys, 33 \(2\), 113-20.
 
 All the papers of which I'm an author can be downloaded as PDF files
 from my web site:

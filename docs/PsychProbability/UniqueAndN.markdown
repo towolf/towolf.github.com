@@ -3,6 +3,7 @@ layout: mfile
 title: UniqueAndN
 categories:
   - PsychProbability
+encoding: UTF-8
 ---
 
 \[uniques,n\] = uniqueen\(input\)

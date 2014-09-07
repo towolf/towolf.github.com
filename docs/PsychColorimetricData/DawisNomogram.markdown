@@ -3,13 +3,14 @@ layout: mfile
 title: DawisNomogram
 categories:
   - PsychColorimetricData
+encoding: UTF-8
 ---
 
 \[T\_absorbance\] = DawisNomogram\(S,lambdaMax\)
 
 Compute normalized absorbance according to the
 nomogram provided in Dawis, 1981, Vision Research,
-Vol. 21, pp. 1427\-1430.
+Vol. 21, pp. 1427-1430.
 
 T\_absorbance contains the absorbance.
 This is specified according to the CVRL web page

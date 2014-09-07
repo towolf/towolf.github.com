@@ -3,6 +3,7 @@ layout: mfile
 title: ProgressBar
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 ProgressBar    Ascii progress bar.

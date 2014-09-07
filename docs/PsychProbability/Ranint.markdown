@@ -3,6 +3,7 @@ layout: mfile
 title: Ranint
 categories:
   - PsychProbability
+encoding: UTF-8
 ---
 
 i = [Ranint](/docs/Ranint)\(\[dim\],n\)

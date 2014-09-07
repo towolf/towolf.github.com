@@ -3,6 +3,7 @@ layout: mfile
 title: glGetTexImage
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetTexImage  Interface to OpenGL function glGetTexImage

@@ -3,6 +3,7 @@ layout: mfile
 title: Ind2Str
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 str = Ind2Str\(p\)

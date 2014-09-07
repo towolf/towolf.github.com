@@ -3,6 +3,7 @@ layout: mfile
 title: GetSecs
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 s=GetSecs
@@ -30,7 +31,7 @@ performance counter is available. Otherwise, or if the high precision timer
 is found to be defective or unreliable, the less accurate timeGetTime\(\)
 system call is used. Some windows systems and pc's are known to have
 defective or unreliable timing facilities under some conditions.
-Psychtoolbox tries to detect and handle such systems at runtime \- it
+Psychtoolbox tries to detect and handle such systems at runtime - it
 performs runtime consistency checks. For a more thorough test, run
 GetSecsTest. See also the FAQ section of the Psychtoolbox Wiki for more
 background info, as well as "help GetSecsTest". Resolution of time on
@@ -50,7 +51,7 @@ On Linux, the gettimeofday\(\) system call is used, which usually has
 microsecond resolution and accuracy. Linux always chooses the highest
 precision clock on a system for that call, usually the processors
 performance counter or the HPET high precision event timer, or the ACPI
-power management timer \- whatever is the best tradeoff between
+power management timer - whatever is the best tradeoff between
 reliability, acccuracy and performance. To our current knowledge, all
 computers running a Linux 2.6 kernel have reliably working clocks.
 

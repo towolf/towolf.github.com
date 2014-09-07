@@ -3,6 +3,7 @@ layout: mfile
 title: AlphaBlendingTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 AlphaBlendingTest\(\[screenNumber\]\)
@@ -16,22 +17,22 @@ AlphaBlendingTest combines tests implemented separately.  You may perform
 any of these tests individually, or call TestAlphaBlending to perform
 them all:
 
-AlphaBlendSettingTest \-
+AlphaBlendSettingTest -
   Test the [Screen](/docs/Screen)\('BlendFunction'\) recalls previously stored
   alpha values.
 
-AlphaMultiplicationTest \-
+AlphaMultiplicationTest -
   Test that alpha multiplication by values 0 and 1 \([Screen](/docs/Screen) 255\) works
   with perfect precision.  OpenGL guarantees perfect precision for those
   alpha values only.
 
-AlphaMultiplicationAccuracyTest \-
+AlphaMultiplicationAccuracyTest -
   Measure the precision of alpha values between 0 and 1 \([Screen](/docs/Screen) 0 and 255\) by
   drawing to the screen, then taking the difference between what was
   drawn to the screen and results of simulated blending done with
-  double\-precision floats.
+  double-precision floats.
 
-AlphaAdditionTest \-
+AlphaAdditionTest -
   Test that addition of source and destination terms has perfect
   precision.
 

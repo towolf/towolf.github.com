@@ -3,6 +3,7 @@ layout: mfile
 title: glIsVertexArray
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glIsVertexArray  Interface to OpenGL function glIsVertexArray

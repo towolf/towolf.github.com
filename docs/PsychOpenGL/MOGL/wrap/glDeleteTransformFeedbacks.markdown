@@ -3,6 +3,7 @@ layout: mfile
 title: glDeleteTransformFeedbacks
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDeleteTransformFeedbacks  Interface to OpenGL function glDeleteTransformFeedbacks

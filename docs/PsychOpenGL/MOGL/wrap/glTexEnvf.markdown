@@ -3,6 +3,7 @@ layout: mfile
 title: glTexEnvf
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glTexEnvf  Interface to OpenGL function glTexEnvf

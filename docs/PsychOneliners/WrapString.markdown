@@ -3,6 +3,7 @@ layout: mfile
 title: WrapString
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 wrappedString=WrapString\(string,\[maxLineLength\]\)

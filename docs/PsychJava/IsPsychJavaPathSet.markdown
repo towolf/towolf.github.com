@@ -3,6 +3,7 @@ layout: mfile
 title: IsPsychJavaPathSet
 categories:
   - PsychJava
+encoding: UTF-8
 ---
 
 isSet=IsPsychJavaPathSet\(newValue\)

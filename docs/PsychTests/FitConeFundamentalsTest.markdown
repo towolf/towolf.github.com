@@ -3,6 +3,7 @@ layout: mfile
 title: FitConeFundamentalsTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 FitConeFundamentalsTest
@@ -14,13 +15,13 @@ by allowing the lambdaMax to vary.
 Note from DHB.  My conclusion after spending some time with
 this is that the best current approach, in the context of the
 CIE fundamentals, is to use the StockmanSharpe nomogram and
-its nominal lambdaMax values.  The fit to the 2\-degree CIE
+its nominal lambdaMax values.  The fit to the 2-degree CIE
 fundamentals is not perfect, but it is pretty good. I think
 the deviations between what is produced by the nominal
 nomogram fit are probaby small compared with our certainty
 about the fundamentals \(this is just intuition, but for example
-the deviations are small compared to those between the Stockman\-Sharpe
-and Smith\-Pokorny fundamentals\).  One could try to develope a better
+the deviations are small compared to those between the Stockman-Sharpe
+and Smith-Pokorny fundamentals\).  One could try to develope a better
 nomogram, for example by taking the ser/ala polymorphism explicitly
 into account when fitting it, but I'm not sure that would win if one
 wants to keep the convenient assumption of constant photopigment

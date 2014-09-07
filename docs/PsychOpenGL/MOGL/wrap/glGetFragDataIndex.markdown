@@ -3,6 +3,7 @@ layout: mfile
 title: glGetFragDataIndex
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetFragDataIndex  Interface to OpenGL function glGetFragDataIndex

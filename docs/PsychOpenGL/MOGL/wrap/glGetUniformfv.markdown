@@ -3,6 +3,7 @@ layout: mfile
 title: glGetUniformfv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetUniformfv  Interface to OpenGL function glGetUniformfv

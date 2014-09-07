@@ -3,6 +3,7 @@ layout: mfile
 title: glGetMultisamplefv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetMultisamplefv  Interface to OpenGL function glGetMultisamplefv

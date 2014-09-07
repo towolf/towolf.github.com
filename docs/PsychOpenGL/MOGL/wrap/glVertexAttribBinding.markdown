@@ -3,6 +3,7 @@ layout: mfile
 title: glVertexAttribBinding
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glVertexAttribBinding  Interface to OpenGL function glVertexAttribBinding

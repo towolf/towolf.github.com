@@ -3,6 +3,7 @@ layout: mfile
 title: KeyboardLatencyTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 KeyboardLatencyTest\(\[triggerlevel=0.01\]\[,modality=0\]\[,submode\]\[,portString\]\)
@@ -23,7 +24,7 @@ and the difference is computed as device latency.
 Sound is captured from the default recording device, waiting
 until the amplitude exceeds some 'triggerlevel'.
 
-The 'modality' flag chooses between keyboard \(==0 \- the default\), and
+The 'modality' flag chooses between keyboard \(==0 - the default\), and
 mouse \(==1\). 'portString' allows to select which keyboard to test on some
 systems \(OS/X and Linux\). It also allows to select which mouse to test on
 Linux, but not on other systems.
@@ -32,9 +33,9 @@ A 'modality' of 2 queries the keyboard, a keypad, a mouse, or other HID
 devices by use of the KbTriggerWait\(\) function. 'submode' specifies the
 KbName\(\) keyCode of the key to test on a keyboard. By default the SPACE
 key is used. For other devices you \*must\* specify a key or button number in
-'submode'. Specifiying numbers of non\-existent keys or buttons will cause
+'submode'. Specifiying numbers of non-existent keys or buttons will cause
 an infinite hang of Matlab or Octave, as there is no way to interrupt the
-function or press a non\-existent key or button. The optional 'portString'
+function or press a non-existent key or button. The optional 'portString'
 specifies the deviceIndex of the device to test. If omitted, the primary
 keyboard is tested.
 
@@ -47,32 +48,32 @@ recalibrating the box. The optional 'submode' flag selects different ways
 of testing the box: A setting of zero will perform a 'ClockRatio'
 calibration to provide exact live timestamps and to test drift
 correction. A setting of 1 will skip this, so live timestamps will
-exhibit clock\-drift and only the post\-hoc timestamps will be somewhat
-exact. A setting of 2 will skip collection of post\-hoc timestamps.
+exhibit clock-drift and only the post-hoc timestamps will be somewhat
+exact. A setting of 2 will skip collection of post-hoc timestamps.
 
-A 'modality' of 5 will exercise the RB\-x30 response pads from Cedrus.
+A 'modality' of 5 will exercise the RB-x30 response pads from Cedrus.
 
 A 'modality' of 6 will exercise the PST serial response button box.
-Setting 'submode' to 1 will optimize for use with FTDI serial\-USB
+Setting 'submode' to 1 will optimize for use with FTDI serial-USB
 converters.
 
 A 'modality' of 7 will exercise the CMU serial response button box.
-Setting 'submode' to 1 will optimize for use with FTDI serial\-USB
+Setting 'submode' to 1 will optimize for use with FTDI serial-USB
 converters.
 
 A 'modality' of 8 will exercise the Bitwhacker emulated response button box.
-Setting 'submode' to 1 will optimize for use with FTDI serial\-USB
+Setting 'submode' to 1 will optimize for use with FTDI serial-USB
 converters.
 
 A 'modality' of 9 will exercise the fORP serial response button box in
 program mode 0.
-Setting 'submode' to 1 will optimize for use with FTDI serial\-USB
+Setting 'submode' to 1 will optimize for use with FTDI serial-USB
 converters.
 
 
 The optional 'portString' argument can be set to define the serial port
 to connect to for response devices that are connected via serial port.
-By default, the proper serial port is auto\-detected, but you can override
+By default, the proper serial port is auto-detected, but you can override
 a wrong detection this way.
 
 

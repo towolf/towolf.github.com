@@ -3,6 +3,7 @@ layout: mfile
 title: SensorToPrimary
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 \[primary\] = SensorToPrimary\(cal,sensor\)

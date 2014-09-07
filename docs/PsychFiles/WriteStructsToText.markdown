@@ -3,6 +3,7 @@ layout: mfile
 title: WriteStructsToText
 categories:
   - PsychFiles
+encoding: UTF-8
 ---
 
 WriteStructsToText\(filename,theStructs\)
@@ -22,7 +23,7 @@ leaving the calling routine to do the opening and closing.
 06/16/03 dhb  Wrote it.
 07/01/03 dhb  Support string fields too.
 08/12/06 dhb  Call filetype only if OS9.
-07/07/13 dhb  Add handling of non\-string filename as fid.
+07/07/13 dhb  Add handling of non-string filename as fid.
 
 
 <div class="code_header" style="text-align:right;">

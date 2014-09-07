@@ -3,6 +3,7 @@ layout: mfile
 title: AssertMex
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 Handle missing or dysfunctional MEX files on Matlab or Octave.

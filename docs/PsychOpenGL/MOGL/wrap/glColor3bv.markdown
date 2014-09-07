@@ -3,6 +3,7 @@ layout: mfile
 title: glColor3bv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glColor3bv  Interface to OpenGL function glColor3bv

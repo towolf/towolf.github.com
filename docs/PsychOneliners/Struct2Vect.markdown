@@ -3,6 +3,7 @@ layout: mfile
 title: Struct2Vect
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 vec = Struct2Vect\(struc,fieldnm\)

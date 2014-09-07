@@ -3,6 +3,7 @@ layout: mfile
 title: glVertexAttrib4ubv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glVertexAttrib4ubv  Interface to OpenGL function glVertexAttrib4ubv

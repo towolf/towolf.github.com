@@ -3,6 +3,7 @@ layout: mfile
 title: glVertex2fv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glVertex2fv  Interface to OpenGL function glVertex2fv

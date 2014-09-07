@@ -3,6 +3,7 @@ layout: mfile
 title: glBlendFuncSeparate
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glBlendFuncSeparate  Interface to OpenGL function glBlendFuncSeparate

@@ -3,16 +3,17 @@ layout: mfile
 title: kPsychNeedImageProcessing
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 rval = kPsychNeedImageProcessing
 
 Return a flag that you can pass to the 'imagingmode' parameter of
-[Screen](/docs/Screen)\('OpenWindow'\) in order to request support for the built\-in image
+[Screen](/docs/Screen)\('OpenWindow'\) in order to request support for the built-in image
 processing pipeline.
 
 If requested, Psychtoolbox will configure itself to support special
-OpenGL shader plugins for all kinds of on\-the\-fly image processing
+OpenGL shader plugins for all kinds of on-the-fly image processing
 operations.
 
 FIXME: More info...

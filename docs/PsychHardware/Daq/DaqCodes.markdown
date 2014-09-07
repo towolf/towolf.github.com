@@ -3,9 +3,10 @@ layout: mfile
 title: DaqCodes
 categories:
   - Daq
+encoding: UTF-8
 ---
 
-Command codes for the USB\-1208FS Daq.
+Command codes for the USB-1208FS Daq.
 0x10    16  DaqAIn                  Read analog in
 0x11    17  DaqAInScan              Read analog in, clocked
 0x12    18  DaqAInStop              Stop input scan
@@ -35,7 +36,7 @@ See also Daq, DaqFunctions, DaqPins.
 
 
 
-Command codes for USB\-1608FS.  Since all overlapped codes are the same,
+Command codes for USB-1608FS.  Since all overlapped codes are the same,
 assume that all codes are the same...  well... except that there are no
 analog output ports apparently, so DaqAOut, DaqAOutScan, and DaqAOutStop
 should not have associated codes.  No 20, 21, or 22.
@@ -74,14 +75,14 @@ should not have associated codes.  No 20, 21, or 22.
 
 
 
-Command codes for USB\-1024LS and similar: Quite different from the 1x08
+Command codes for USB-1024LS and similar: Quite different from the 1x08
 series: A speciality is that reportId must be always zero \(0\) for these
-devices \- they use interrupt endpoint 0 transfers. For the same reason,
-output reports must always by 8 bytes in length \-\- pad them if they're
+devices - they use interrupt endpoint 0 transfers. For the same reason,
+output reports must always by 8 bytes in length -- pad them if they're
 shorter\! Handling of port C of the device may be a bit quirky, as it is
 treated as two ports, a low port and a high port.
 
-This is based on code and command codes found in usb\-1024LS.h and .c,
+This is based on code and command codes found in usb-1024LS.h and .c,
 subroutine files of the free libhid, a GPL'ed cross platform HID device
 library written by Warren Jasper \(<wjasper@tx.ncsu.edu\>\). It has not been
 tested by me on any actual device\! \(MK\).

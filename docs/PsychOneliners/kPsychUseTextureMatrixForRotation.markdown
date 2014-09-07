@@ -3,6 +3,7 @@ layout: mfile
 title: kPsychUseTextureMatrixForRotation
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 kPsychUseTextureMatrixForRotation
@@ -12,13 +13,13 @@ of the [Screen](/docs/Screen)\('DrawTexture'\) and [Screen](/docs/Screen)\('Draw
 
 If this flag is set, the texture drawing functions will use the OpenGL
 TEXTURE\_MATRIX instead of the MODELVIEW\_MATRIX for application of a
-rotation transform \- ie. for rotated drawing of textures.
+rotation transform - ie. for rotated drawing of textures.
 
 # Conceptually you can think of the difference as follows:
 
 Normally, you pass a rectangular, upright 'dstRect' destination rectangle
 that defines the area of the window that should be overdrawn by the
-texture. If the 'rotationAngle' is non\-zero, this 'dstRect' will be
+texture. If the 'rotationAngle' is non-zero, this 'dstRect' will be
 rotated around its center, thereby drawing a rotated texture onto the
 screen. The pixel data is read from the upright 'srcRect' source
 rectangle in the texture image matrix.
@@ -37,7 +38,7 @@ and that you'll have at least d \* sqrt\(2\) pixels space of defined texture
 data around the center of the 'srcRect', when d is the maximum of the
 width and height of the rectangle. Otherwise the "rotated reading" from
 the texture would actually try to read from areas outside the texture
-matrix \- this will create undefined visual results, but most likely not
+matrix - this will create undefined visual results, but most likely not
 what you want.
 
 

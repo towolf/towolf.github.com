@@ -3,6 +3,7 @@ layout: mfile
 title: wintabslowLoop
 categories:
   - WinTab
+encoding: UTF-8
 ---
 
  function slowLoop\(samplingRate\)

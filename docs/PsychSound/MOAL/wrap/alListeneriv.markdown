@@ -3,6 +3,7 @@ layout: mfile
 title: alListeneriv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alListeneriv  Interface to OpenAL function alListeneriv

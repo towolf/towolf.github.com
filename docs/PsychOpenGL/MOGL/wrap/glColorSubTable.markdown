@@ -3,6 +3,7 @@ layout: mfile
 title: glColorSubTable
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glColorSubTable  Interface to OpenGL function glColorSubTable

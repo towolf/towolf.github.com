@@ -3,6 +3,7 @@ layout: mfile
 title: glIsRenderbuffer
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glIsRenderbuffer  Interface to OpenGL function glIsRenderbuffer

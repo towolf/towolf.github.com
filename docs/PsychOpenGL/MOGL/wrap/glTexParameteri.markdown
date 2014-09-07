@@ -3,6 +3,7 @@ layout: mfile
 title: glTexParameteri
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glTexParameteri  Interface to OpenGL function glTexParameteri

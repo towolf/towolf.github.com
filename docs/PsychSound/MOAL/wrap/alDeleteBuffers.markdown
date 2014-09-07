@@ -3,6 +3,7 @@ layout: mfile
 title: alDeleteBuffers
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alDeleteBuffers  Interface to OpenAL function alDeleteBuffers

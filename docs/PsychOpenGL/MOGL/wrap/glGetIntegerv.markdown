@@ -3,6 +3,7 @@ layout: mfile
 title: glGetIntegerv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetIntegerv  Interface to OpenGL function glGetIntegerv

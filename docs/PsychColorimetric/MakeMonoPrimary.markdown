@@ -3,6 +3,7 @@ layout: mfile
 title: MakeMonoPrimary
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 primary = MakeMonoPrimary\(wl,S\)

@@ -3,6 +3,7 @@ layout: mfile
 title: ISO2007MPEComputeType1ContinuousCornealIRUnweightedValue
 categories:
   - PsychISO2007MPE
+encoding: UTF-8
 ---
 
 \[val\_UWattsPerCm2,limit\_UWattsPerCm2\] = ISO2007MPEComputeType1ContinuousCornealIRUnweightedValue\(S,radiance\_WattsPerSrM2,stimulusDurationSecs,stimulusAreaDegrees2\)
@@ -10,7 +11,7 @@ categories:
 Compute the unweighted IR radiation for Type 1 instruments as given on page 8, Table 2,
 5.4.1.4.
 
-Input spectrum is radiance in units of Watts/\[sr\-m2\-wlinterval\].
+Input spectrum is radiance in units of Watts/\[sr-m2-wlinterval\].
 
 Also return the exposure limit for this quantity.
 

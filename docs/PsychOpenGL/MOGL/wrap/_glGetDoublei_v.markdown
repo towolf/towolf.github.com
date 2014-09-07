@@ -3,6 +3,7 @@ layout: mfile
 title: _glGetDoublei_v
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetDoublei\_v  Interface to OpenGL function glGetDoublei\_v

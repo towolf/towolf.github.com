@@ -3,6 +3,7 @@ layout: mfile
 title: glDeleteTextures
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDeleteTextures  Interface to OpenGL function glDeleteTextures

@@ -3,6 +3,7 @@ layout: mfile
 title: glPrioritizeTextures
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glPrioritizeTextures  Interface to OpenGL function glPrioritizeTextures

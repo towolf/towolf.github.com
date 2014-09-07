@@ -3,6 +3,7 @@ layout: mfile
 title: WilliamsRestMTF
 categories:
   - PsychOptics
+encoding: UTF-8
 ---
 
 mtf = WilliamsRestMTF\(s\)

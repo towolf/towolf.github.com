@@ -3,6 +3,7 @@ layout: mfile
 title: BaylorNomogram
 categories:
   - PsychColorimetricData
+encoding: UTF-8
 ---
 
 T = BaylorNomogram\(S,lambdaMax\)

@@ -3,6 +3,7 @@ layout: mfile
 title: GPUTypeFromToGL
 categories:
   - PsychGPGPU
+encoding: UTF-8
 ---
 
 outObj = GPUTypeFromToGL\(cmd, inObj \[, glObjType\]\[, outObj\]\[, keepmapped\]\[, mapflags\]\)
@@ -12,12 +13,11 @@ to initialize Psychtoolbox GPU computing support:
 
 PsychImaging\('AddTask', 'General', 'UseGPGPUCompute', 'GPUmat'\);
 
-Supported 'cmd' commands:
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
+# Supported 'cmd' commands
 
 if cmd is zero, then convert an OpenGL object of type glObjType,
 referenced by handle inObj into a GPU object and return it in outObj. If
-the optional outObj is provided as input argument, try to recycle it \-\-
+the optional outObj is provided as input argument, try to recycle it --
 just fill its content with OpenGL object's content. Otherwise, create an
 outObj of matching format for content. If 'keepmapped' is set to 1, the OpenGL
 object will stay mapped for the GPU compute api, otherwise it gets immediately
@@ -26,7 +26,7 @@ requires more careful management of objects to prevent malfunctions.
 
 If cmd is == 1, then convert GPU object inObj to OpenGL object of type
 glObjType and return it in outObj. Try to recycle a passed in outObj, if
-possible, otherwise create a new one. 'keepmapped' \- see explanation for cmd zero.
+possible, otherwise create a new one. 'keepmapped' - see explanation for cmd zero.
 
 If cmd is == 2, then unmap the OpenGL object. You must do this if you previously
 set the optional 'keepmapped' flag to 1 during a copy operation and now want to
@@ -40,7 +40,7 @@ save some redundant unmap calls.
 If cmd is == 3, then remove the OpenGL object from use by the GPU compute toolkit.
 This must be done before destroying/deleting the OpenGL object, e.g., before
 a call to [Screen](/docs/Screen)\('[Close](/docs/Close)', x\); for a window or texture handle x. This operation
-can be very expensive \-\- on the order of multiple milliseconds, so use sparingly.
+can be very expensive -- on the order of multiple milliseconds, so use sparingly.
 
 If cmd is == 4, all OpenGL objects are removed. Usually used before closing \(all\)
 onscreen windows, e.g., via [Screen](/docs/Screen)\('CloseAll'\) or [sca](/docs/sca). This cache flush is very
@@ -48,10 +48,10 @@ expensive\!
 
 If cmd is == 5, then the given OpenGL object 'inObj' of type glObjType is mapped
 and a CUDA memory pointer is returned, for use with external mex files, so these
-can directly access the mapped resource. The object is mapped read\-only.
+can directly access the mapped resource. The object is mapped read-only.
 
 If cmd is == 6, the same operation as cmd == 5 happens, but the object is mapped
-write\-only.
+write-only.
 
 
 <div class="code_header" style="text-align:right;">

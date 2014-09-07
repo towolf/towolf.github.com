@@ -3,6 +3,7 @@ layout: mfile
 title: glBindVertexArray
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glBindVertexArray  Interface to OpenGL function glBindVertexArray

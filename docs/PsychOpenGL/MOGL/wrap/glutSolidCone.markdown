@@ -3,6 +3,7 @@ layout: mfile
 title: glutSolidCone
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glutSolidCone  Interface to OpenGL function glutSolidCone

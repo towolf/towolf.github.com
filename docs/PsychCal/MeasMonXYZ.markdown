@@ -3,6 +3,7 @@ layout: mfile
 title: MeasMonXYZ
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
  XYZ = MeasMonXYZ\(window,settings,\[syncMode\],\[whichMeterType\]\)
@@ -17,7 +18,7 @@ categories:
  you don't have a meter.
 
  Other valid types:
-  1 \- Use PR650 \(default\)
+  1 - Use PR650 \(default\)
 
  10/26/93  dhb      Wrote it based on ccc code.
  11/12/93  dhb      Modified to use SetColor.

@@ -3,6 +3,7 @@ layout: mfile
 title: glGetSubroutineIndex
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetSubroutineIndex  Interface to OpenGL function glGetSubroutineIndex

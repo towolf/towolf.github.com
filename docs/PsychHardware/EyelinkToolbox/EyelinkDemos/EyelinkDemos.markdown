@@ -3,6 +3,7 @@ layout: mfile
 title: EyelinkDemos
 categories:
   - EyelinkDemos
+encoding: UTF-8
 ---
 
 EyelinkToolbox:EyelinkDemos

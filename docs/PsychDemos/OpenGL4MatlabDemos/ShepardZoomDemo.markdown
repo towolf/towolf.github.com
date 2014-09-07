@@ -3,6 +3,7 @@ layout: mfile
 title: ShepardZoomDemo
 categories:
   - OpenGL4MatlabDemos
+encoding: UTF-8
 ---
 
 ShepardZoomDemo
@@ -10,7 +11,7 @@ ShepardZoomDemo
 This demo implements kind of a visual version of the Shepard tone
 illusion. This is an infinite zoom, by use of an OpenGL technique called
 "Spectral Texturing", a clever way of blending multiple textures
-with each other by use of alpha\-blending...
+with each other by use of alpha-blending...
 
 You can find more information about the technique and stimulus at:
 http://www.kyb.tuebingen.mpg.de/~berger/spectraltexturing/

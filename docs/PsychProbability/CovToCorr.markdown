@@ -3,6 +3,7 @@ layout: mfile
 title: CovToCorr
 categories:
   - PsychProbability
+encoding: UTF-8
 ---
 
 corr = CovToCorr\(K\)

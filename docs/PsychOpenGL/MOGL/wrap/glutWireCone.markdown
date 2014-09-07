@@ -3,6 +3,7 @@ layout: mfile
 title: glutWireCone
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glutWireCone  Interface to OpenGL function glutWireCone

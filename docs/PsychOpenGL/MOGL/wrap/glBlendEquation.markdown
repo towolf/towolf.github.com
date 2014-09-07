@@ -3,6 +3,7 @@ layout: mfile
 title: glBlendEquation
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glBlendEquation  Interface to OpenGL function glBlendEquation

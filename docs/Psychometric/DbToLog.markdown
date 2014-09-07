@@ -3,6 +3,7 @@ layout: mfile
 title: DbToLog
 categories:
   - Psychometric
+encoding: UTF-8
 ---
 
 logUnits = DbToLog\(dbUnits\)

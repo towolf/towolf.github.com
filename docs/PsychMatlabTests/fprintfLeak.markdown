@@ -3,6 +3,7 @@ layout: mfile
 title: fprintfLeak
 categories:
   - PsychMatlabTests
+encoding: UTF-8
 ---
 
 Mathworks Case ID: 319124, reported 11/23/99.

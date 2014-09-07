@@ -3,6 +3,7 @@ layout: mfile
 title: glShaderSource
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glShaderSource  Interface to glShaderSource

@@ -3,6 +3,7 @@ layout: mfile
 title: glCreateShaderProgramv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glCreateShaderProgramv  Interface to OpenGL function glCreateShaderProgramv

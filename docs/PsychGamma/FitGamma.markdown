@@ -3,6 +3,7 @@ layout: mfile
 title: FitGamma
 categories:
   - PsychGamma
+encoding: UTF-8
 ---
 
 \[fit\_out,x,fitComment\] = ...

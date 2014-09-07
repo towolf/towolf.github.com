@@ -3,6 +3,7 @@ layout: mfile
 title: UpdateAmbientSensor
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
  cal = UpdateAmbientSensor\(cal,new\_ambient\_sensor,\[ADD\]\)
@@ -15,7 +16,7 @@ categories:
 ÊIf flag ADD is true, passed ambient is added to current
  value.  Otherwise passed value replaces current value.
  ADD is false if not passed.  Use caution when setting ADD
- true \-\- if the ambient is changing during the experiment
+ true -- if the ambient is changing during the experiment
  you typically don't want to keep adding multiple times.
 
  If instead you want to update in the measurement units,

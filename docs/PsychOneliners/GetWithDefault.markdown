@@ -3,6 +3,7 @@ layout: mfile
 title: GetWithDefault
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 inputVal = GetWithDefault\(prompt,defaultVal\)

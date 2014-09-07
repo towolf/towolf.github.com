@@ -3,6 +3,7 @@ layout: mfile
 title: IsomerizationsFromAbsorptions
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
  \[isomerizationRate\] = IsomerizationsFromAbsorptions\(photonAbsorptionRate,\[quantalEfficiency\]\)

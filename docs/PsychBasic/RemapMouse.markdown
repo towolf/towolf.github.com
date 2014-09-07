@@ -3,9 +3,10 @@ layout: mfile
 title: RemapMouse
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
-\[xo, yo\] = RemapMouse\(win, viewId, xm, ym\); \-\- Map mouse position to stimulus position.
+\[xo, yo\] = RemapMouse\(win, viewId, xm, ym\); -- Map mouse position to stimulus position.
 
 Certain operations, e.g., PsychImaging\('AddTask', ..., 'GeometryCorrection', ...\);
 to perform geometric display correction, will break the 1:1
@@ -44,7 +45,7 @@ Limitations: The function currently only corrects for distortions
 introduced by the tasks implemented in the Psychtoolbox image
 processing pipeline via some of the functions available via
 PsychImaging\(\) function. It does not take other transformations into
-account, e.g., mirroring, arranging displays of a multi\-display setup
+account, e.g., mirroring, arranging displays of a multi-display setup
 in an unusual way etc. You may need to add your own code to take such
 transformations into account.
 

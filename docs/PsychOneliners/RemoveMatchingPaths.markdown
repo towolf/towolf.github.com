@@ -3,6 +3,7 @@ layout: mfile
 title: RemoveMatchingPaths
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 newPathList = RemoveMatchingPaths\(pathList, matchString\)

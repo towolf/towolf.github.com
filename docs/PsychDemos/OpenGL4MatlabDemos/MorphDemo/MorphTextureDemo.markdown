@@ -3,17 +3,18 @@ layout: mfile
 title: MorphTextureDemo
 categories:
   - MorphDemo
+encoding: UTF-8
 ---
 
 function MorphTextureDemo\(\[dotson\]\[, normalson\]\[,stereomode\]\[, usefastoffscreenwindows\]\)
 
-MorphTextureDemo \-\- Demonstrates use of "[moglmorpher](/docs/moglmorpher)" for fast morphing
+MorphTextureDemo -- Demonstrates use of "[moglmorpher](/docs/moglmorpher)" for fast morphing
 and rendering of 3D shapes \*and\* textures. See "help [moglmorpher](/docs/moglmorpher)" for
 info on moglmorphers purpose and capabilities.
 
 This demo will load two morpheable shapes from OBJ files and two
 textures, then morph them continously into each other, using a simple
-sine\-function to define the timecourse of the morph.
+sine-function to define the timecourse of the morph.
 
 Control keys and their meaning: 'a' == Zoom out by moving object away
 from viewer. 'z' == Zoom in by moving object close to viewer. 'k' and 'l'
@@ -30,14 +31,14 @@ Matlab figure window.
 normalson = If set to 1, then the surface normal vectors will get
 visualized as small green lines on the surface.
 
-stereomode = n. For n\>0 this activates stereoscopic rendering \- The shape
+stereomode = n. For n\>0 this activates stereoscopic rendering - The shape
 is rendered from two slightly different viewpoints and one of
-Psychtoolbox's built\-in stereo display algorithms is used to present the
+Psychtoolbox's built-in stereo display algorithms is used to present the
 3D stimulus. This is very preliminary so it doesn't work that well yet.
 
 usefastoffscreenwindows = If set to 0 \(default\), work on any graphics
 card. If you have recent hardware, set it to 1. That will enable support
-for fast offscreen windows \- and a much faster implementation of shape
+for fast offscreen windows - and a much faster implementation of shape
 morphing.
 
 This demo and the morpheable OBJ shapes were contributed by Dr. Quoc C.

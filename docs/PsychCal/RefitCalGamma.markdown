@@ -3,6 +3,7 @@ layout: mfile
 title: RefitCalGamma
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 RefitCalGamma

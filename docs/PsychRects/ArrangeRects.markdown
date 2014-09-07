@@ -3,6 +3,7 @@ layout: mfile
 title: ArrangeRects
 categories:
   - PsychRects
+encoding: UTF-8
 ---
 
 cellRects=ArrangeRects\(n,objectRect,windowRect,\[rightToLeft\]\);

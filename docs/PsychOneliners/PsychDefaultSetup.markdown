@@ -3,9 +3,10 @@ layout: mfile
 title: PsychDefaultSetup
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
-PsychDefaultSetup\(featureLevel\) \- Perform standard setup for Psychtoolbox.
+PsychDefaultSetup\(featureLevel\) - Perform standard setup for Psychtoolbox.
 
 This function performs a few typical "boilerplate" setup operations
 at the beginning of a script to avoid repetitive code at the top of
@@ -31,11 +32,11 @@ systems.
 A 'featureLevel' of 2 will additionally imply the execution of
 [Screen](/docs/Screen)\('ColorRange', window, 1, \[\], 1\); immediately after and whenever
 PsychImaging\('OpenWindow',...\) is called, thereby switching the default
-color range from the classic 0\-255 integer number range to the normalized
-floating point number range 0.0 \- 1.0 to unify color specifications
+color range from the classic 0-255 integer number range to the normalized
+floating point number range 0.0 - 1.0 to unify color specifications
 across differently capable display output devices, e.g., standard 8 bit
 displays vs. high precision 16 bit displays. Please note that clamping of
-valid color values to the 0 \- 1 range is still active and colors will
+valid color values to the 0 - 1 range is still active and colors will
 still be represented by 256 discrete levels \(8 Bit resolution\), unless
 you also use PsychImaging\(\) commands to request unclamped color
 processing or floating point precision framebuffers. This function by

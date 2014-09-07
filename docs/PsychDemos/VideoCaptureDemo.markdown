@@ -3,19 +3,20 @@ layout: mfile
 title: VideoCaptureDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
-Demonstrate simple use of built\-in video capture engine.
+Demonstrate simple use of built-in video capture engine.
 
 VideoCaptureDemo\(\[fullscreen=0\]\[, fullsize=0\]\[, roi=\[0 0 640 480\]\]\[, depth\]\[,deviceId=0\]\[, cameraname\]\[, bpc=8\]\)
 
 VideoCaptureDemo initializes the first attached and supported camera on
-your computer \(e.g, the built\-in iSight of Apple Macintosh computers\),
+your computer \(e.g, the built-in iSight of Apple Macintosh computers\),
 then shows its video image in a Psychtoolbox window.
 
 By default, a capture rate of 30 frames per second is requested, and the
 timecode and interframe interval of each captured image is displayed in
-the top\-left corner of the display. A press of the ESCape key ends the
+the top-left corner of the display. A press of the ESCape key ends the
 demo.
 
 See also ImagingVideoCaptureDemo, VideoDelayloopMiniDemo and a few other
@@ -23,7 +24,7 @@ nice demos.
 
 # Optional parameters:
 
-'fullscreen' If set to non\-zero value, the image is displayed in a
+'fullscreen' If set to non-zero value, the image is displayed in a
 fullscreen window, as usual, otherwise a normal GUI window is used.
 
 'fullsize' If set to 1, the cameras image is scaled up to full screen

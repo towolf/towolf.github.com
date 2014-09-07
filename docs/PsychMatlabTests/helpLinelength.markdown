@@ -3,6 +3,7 @@ layout: mfile
 title: helpLinelength
 categories:
   - PsychMatlabTests
+encoding: UTF-8
 ---
 
 Mathworks Case ID:  41758, reported 4/12/98
@@ -18,7 +19,7 @@ the following observation:
 \>but i discover that the rest of the file is ignored if any
 \>line is longer than around 135 characters.
 
-There seems to be a limit of 131 characters in the M\-file comment lines
+There seems to be a limit of 131 characters in the M-file comment lines
 that will be displayed as help text. I verified this using the following
 commands:
 
@@ -30,7 +31,7 @@ ans =
     1    131
 
 If this number is exceeded, the help text will ignore the rest of the
-M\-file.  I will forward this to our development staff so that they may
+M-file.  I will forward this to our development staff so that they may
 consider addressing this in a future release of Matlab.  As a workaround,
 please keep the comment lines to under a 131 characters in length.
 

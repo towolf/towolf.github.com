@@ -3,6 +3,7 @@ layout: mfile
 title: GetMouseIndices
 categories:
   - PsychHardware
+encoding: UTF-8
 ---
 
 \[mouseIndices, productNames, allInfo\] = GetMouseIndices\(\[typeOnly\]\)

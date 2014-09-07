@@ -3,11 +3,12 @@ layout: mfile
 title: DrawingSpeedTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 DrawingSpeedTest\(\[n=800\]\[,primitivetype=0\]\[,mode=0\]\[,gpumeasure=0\]\)
 
-Tests batch\-drawing performance of some [Screen](/docs/Screen) functions. Batch drawing
+Tests batch-drawing performance of some [Screen](/docs/Screen) functions. Batch drawing
 is a way to submit multiple primitives, e.g., Filled Rects, at once. This
 way the Matlab call overhead and some internal setup overhead is saved
 and drawing should be significantly faster than when issuing single

@@ -3,6 +3,7 @@ layout: mfile
 title: glEvalMesh2
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glEvalMesh2  Interface to OpenGL function glEvalMesh2

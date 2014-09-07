@@ -3,6 +3,7 @@ layout: mfile
 title: PhotoreceptorDimensions
 categories:
   - PsychColorimetricData
+encoding: UTF-8
 ---
 
  dimensions = PhotoreceptorDimensions\(receptorTypes,whichDimension,species,source\)

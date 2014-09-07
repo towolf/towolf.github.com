@@ -3,6 +3,7 @@ layout: mfile
 title: CompareMonCal
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 isSame = CompareMonCal\(cal1,cal2,\[IGNOREDATE\]\)
@@ -11,7 +12,7 @@ Checks if the two calibrations are the same.  Useful
 for preventing blunders if you have programs that
 precompute and save quantities based on monitor calibrations.
 In that case, this can be used to ensure that current
-calibration matches the one used to do the pre\-computing.
+calibration matches the one used to do the pre-computing.
 
 Checks date/time, screen, and computer.  Could check the
 actual data, but that seems like overkill.

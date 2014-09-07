@@ -3,6 +3,7 @@ layout: mfile
 title: MunsellGriddata3
 categories:
   - PsychMunsell
+encoding: UTF-8
 ---
 
  \[w,X,tri\] = MunsellGriddata3\(x,y,z,v,xi,yi,zi,method,options,X,tri\)
@@ -12,18 +13,18 @@ categories:
  This will allows us to precompute the triangulation \(slow\) and
  then interpolate using the same triangulation many times \(fast, we hope\).
 
-GRIDDATA3 Data gridding and hyper\-surface fitting for 3\-dimensional data.
-   W = GRIDDATA3\(X,Y,Z,V,XI,YI,ZI\) fits a hyper\-surface of the form
-   W = F\(X,Y,Z\) to the data in the \(usually\) nonuniformly\-spaced vectors
-   \(X,Y,Z,V\).  GRIDDATA3 interpolates this hyper\-surface at the points
+GRIDDATA3 Data gridding and hyper-surface fitting for 3-dimensional data.
+   W = GRIDDATA3\(X,Y,Z,V,XI,YI,ZI\) fits a hyper-surface of the form
+   W = F\(X,Y,Z\) to the data in the \(usually\) nonuniformly-spaced vectors
+   \(X,Y,Z,V\).  GRIDDATA3 interpolates this hyper-surface at the points
    specified by \(XI,YI,ZI\) to produce W.
 
    \(XI,YI,ZI\) is usually a uniform grid \(as produced by MESHGRID\) and is
    where GRIDDATA3 gets its name.
 
    \[...\] = GRIDDATA3\(X,Y,Z,V,XI,YI,ZI,METHOD\) where METHOD is one of
-       'linear'    \- Tessellation\-based linear interpolation \(default\)
-       'nearest'   \- Nearest neighbor interpolation
+       'linear'    - Tessellation-based linear interpolation \(default\)
+       'nearest'   - Nearest neighbor interpolation
 
    defines the type of surface fit to the data.
    All the methods are based on a Delaunay triangulation of the data.
@@ -36,9 +37,9 @@ GRIDDATA3 Data gridding and hyper\-surface fitting for 3\-dimensional data.
 
    Example:
       rand\('state',0\);
-      x = 2\*rand\(5000,1\)\-1; y = 2\*rand\(5000,1\)\-1; z = 2\*rand\(5000,1\)\-1;
-      v = x.^2 \+ y.^2 \+ z.^2;
-      d = \-0.8:0.05:0.8;
+      x = 2\*rand\(5000,1\)-1; y = 2\*rand\(5000,1\)-1; z = 2\*rand\(5000,1\)-1;
+      v = x.^2 + y.^2 + z.^2;
+      d = -0.8:0.05:0.8;
       \[xi,yi,zi\] = meshgrid\(d,d,d\);
       w = griddata3\(x,y,z,v,xi,yi,zi\);
    Since it is difficult to visualize 4D data sets, use isosurface at 0.8:

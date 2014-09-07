@@ -3,6 +3,7 @@ layout: mfile
 title: EyelinkGetKey
 categories:
   - EyelinkBasic
+encoding: UTF-8
 ---
 
  USAGE: \[key, el\]=EyelinkGetKey\(el\)

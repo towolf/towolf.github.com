@@ -3,6 +3,7 @@ layout: mfile
 title: CountSlotsInGLOperator
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 nrslots = CountSlotsInGLOperator\(gloperator\)

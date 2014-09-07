@@ -3,6 +3,7 @@ layout: mfile
 title: AnsiZ136MPEComputeCe
 categories:
   - PsychAnsiZ136MPE
+encoding: UTF-8
 ---
 
 Ce = AnsiZ136MPEComputeCe\(stimulusSizeDeg\)
@@ -13,7 +14,7 @@ and responsibility in PsychAnsiZ136MPE/Contents.m \(type "help PsychAnsiZ136MPE"
 at the Matlab prompt.
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-Compute constant Ce, ANSI Z136.1\-2007, Table 6, p. 76.
+Compute constant Ce, ANSI Z136.1-2007, Table 6, p. 76.
 
 This is only defined between 400 and 1400 nm.
 

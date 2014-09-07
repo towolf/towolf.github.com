@@ -3,26 +3,27 @@ layout: mfile
 title: DaqDReadBit
 categories:
   - Daq
+encoding: UTF-8
 ---
 
 BitValue=DaqDReadBit\(DeviceIndex,BitNumber\)
-USB\-1608FS: Write digital port. This command writes data to the DIO port
+USB-1608FS: Write digital port. This command writes data to the DIO port
 bits that are configured as outputs.
 "DeviceIndex" is a small integer, the array index specifying which HID
       device in the array returned by PsychHID\('Devices'\) is interface 0
-      of the desired USB\-1608FS box.
+      of the desired USB-1608FS box.
 "BitNumber" an integer from 0 to 8 specifying which bit to read
 See also Daq, DaqFunctions, DaqPins, DaqTest, PsychHIDTest.
 DaqDeviceIndex, DaqDIn, DaqDOut, DaqAIn, DaqAOut, DaqAInScan,DaqAOutScan.
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 \*                                                                            \*
-\* If your Daq is a USB\-1208FS or USB\-1408FS, this code has not been tested;  \*
-\* it probably will not run on your device.  The USB\-1608FS has only one DIO  \*
+\* If your Daq is a USB-1208FS or USB-1408FS, this code has not been tested;  \*
+\* it probably will not run on your device.  The USB-1608FS has only one DIO  \*
 \* port and that is what this code was written to expect.  To make it run on  \*
 \* a 12 or 14 bit device, you should fix this to take an additional input     \*
-\* \(the portnumber\) and to continue to behave as is for the 16\-bit device.    \*
-\* An example of how to do that can be found in DaqDConfigPort.  \-\- mpr       \*
+\* \(the portnumber\) and to continue to behave as is for the 16-bit device.    \*
+\* An example of how to do that can be found in DaqDConfigPort.  -- mpr       \*
 \*                                                                            \*
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 

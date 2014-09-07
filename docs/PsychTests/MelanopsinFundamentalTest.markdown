@@ -3,6 +3,7 @@ layout: mfile
 title: MelanopsinFundamentalTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 MelanopsinFundamentalTest

@@ -3,6 +3,7 @@ layout: mfile
 title: glPixelMapuiv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glPixelMapuiv  Interface to OpenGL function glPixelMapuiv

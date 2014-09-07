@@ -3,6 +3,7 @@ layout: mfile
 title: alGetSourcef
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alGetSourcef  Interface to OpenAL function alGetSourcef

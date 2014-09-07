@@ -3,6 +3,7 @@ layout: mfile
 title: UpdatePsychtoolbox
 categories:
   - .
+encoding: UTF-8
 ---
 
 UpdatePsychtoolbox\(targetdirectory, targetRevision\)
@@ -27,13 +28,13 @@ Normal behaviour is to upgrade your working copy to the latest revision.
 If you provide a specific targetRevision, then this script will
 \*downgrade\* your copy of Psychtoolbox to the specified revision. This is
 only useful if you experience problems after an update and want to revert
-to an earlier known\-to\-be\-good release. Revisions can be specified by a
+to an earlier known-to-be-good release. Revisions can be specified by a
 revision number, a specific date, or by the special flag 'PREV' which
 will downgrade to the revision before the most current one. By executing
 this script multiple times with the 'PREV' specifier, you can
 incrementally downgrade until stuff works for you.
 
-UpdatePsychtoolbox cannot change the beta\-vs\-stable flavor of your
+UpdatePsychtoolbox cannot change the beta-vs-stable flavor of your
 Psychtoolbox. To change the flavor, run DownloadPsychtoolbox again.
 
 

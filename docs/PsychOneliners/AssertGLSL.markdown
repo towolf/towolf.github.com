@@ -3,6 +3,7 @@ layout: mfile
 title: AssertGLSL
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 AssertGLSL

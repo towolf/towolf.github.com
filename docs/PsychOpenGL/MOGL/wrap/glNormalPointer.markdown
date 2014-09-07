@@ -3,6 +3,7 @@ layout: mfile
 title: glNormalPointer
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glNormalPointer  Interface to glNormalPointer

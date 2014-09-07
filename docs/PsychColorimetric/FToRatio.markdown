@@ -3,6 +3,7 @@ layout: mfile
 title: FToRatio
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 ratio = FToRatio\(F\)

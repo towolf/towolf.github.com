@@ -3,6 +3,7 @@ layout: mfile
 title: SplineSrf
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 \[srf\_out\] = SplineSrf\(wls\_in, srf\_in, wls\_out, \[extend\]\)

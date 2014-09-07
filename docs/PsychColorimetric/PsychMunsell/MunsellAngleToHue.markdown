@@ -3,6 +3,7 @@ layout: mfile
 title: MunsellAngleToHue
 categories:
   - PsychMunsell
+encoding: UTF-8
 ---
 
 \[H1,H2\] = MunsellAngleToHue\(angle\)

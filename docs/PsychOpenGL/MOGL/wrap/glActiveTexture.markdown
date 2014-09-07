@@ -3,6 +3,7 @@ layout: mfile
 title: glActiveTexture
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glActiveTexture  Interface to OpenGL function glActiveTexture

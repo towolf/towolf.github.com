@@ -3,6 +3,7 @@ layout: mfile
 title: glVertex4f
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glVertex4f  Interface to OpenGL function glVertex4f

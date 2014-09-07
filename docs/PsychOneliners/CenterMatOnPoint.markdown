@@ -3,6 +3,7 @@ layout: mfile
 title: CenterMatOnPoint
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 \[xinds yinds\] = CenterMatOnPoint\(mat,x,y\)

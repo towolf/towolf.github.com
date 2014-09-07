@@ -3,6 +3,7 @@ layout: mfile
 title: MexTimingLoopTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 MexTimingLoopTest

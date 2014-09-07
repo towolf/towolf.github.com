@@ -3,6 +3,7 @@ layout: mfile
 title: NormLogLikelyRatio
 categories:
   - Psychometric
+encoding: UTF-8
 ---
 
 \[loglikelyr,loglikelys,loglikelyn\] = ...

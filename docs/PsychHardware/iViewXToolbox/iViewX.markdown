@@ -3,6 +3,7 @@ layout: mfile
 title: iViewX
 categories:
   - iViewXToolbox
+encoding: UTF-8
 ---
 
 USAGE: \[result, ivx\]=iViewX\(cstr, ivx \[, params\]\)

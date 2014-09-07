@@ -3,6 +3,7 @@ layout: mfile
 title: PsychKinectCore
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 PsychKinectCore is a MEX file for precise control of the Microsoft XBOX

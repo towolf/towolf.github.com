@@ -3,6 +3,7 @@ layout: mfile
 title: glNormal3dv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glNormal3dv  Interface to OpenGL function glNormal3dv

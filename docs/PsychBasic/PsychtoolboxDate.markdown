@@ -3,6 +3,7 @@ layout: mfile
 title: PsychtoolboxDate
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 PsychtoolboxDate returns the release date, e.g. '1 August 1998'.

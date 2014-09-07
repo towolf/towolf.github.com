@@ -3,6 +3,7 @@ layout: mfile
 title: WestPSFMinutes
 categories:
   - PsychOptics
+encoding: UTF-8
 ---
 
 psf = WestPSFMinutes\(radius\)

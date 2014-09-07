@@ -3,6 +3,7 @@ layout: mfile
 title: glVertexAttribIFormat
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glVertexAttribIFormat  Interface to OpenGL function glVertexAttribIFormat

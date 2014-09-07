@@ -3,6 +3,7 @@ layout: mfile
 title: MakeGrid
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 \[raster\] = MakeGrid\(nrow,ncol,xres,yres,plxres,plyres\)
@@ -25,9 +26,9 @@ output
           vertically X number of raster element horizontally
 
 IH    2008
-DN    2008 v1.1 \- coordinates sometimes faulty
-DN    2008 v1.2 \- coordinates sometimes faulty \(actually solved this
-                  time\) \+ input checking
+DN    2008 v1.1 - coordinates sometimes faulty
+DN    2008 v1.2 - coordinates sometimes faulty \(actually solved this
+                  time\) + input checking
 
 
 <div class="code_header" style="text-align:right;">

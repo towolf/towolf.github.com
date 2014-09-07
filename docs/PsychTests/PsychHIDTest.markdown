@@ -3,6 +3,7 @@ layout: mfile
 title: PsychHIDTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 PsychHIDTest
@@ -12,10 +13,10 @@ devices. We read from the keyboard and mouse. We flicker the keyboard
 LEDs.
 
 NOT RESPONDING? If PsychHID is not responding, e.g. after unplugging and
-re\-plugging the USB connector, try quitting and restarting MATLAB. We
+re-plugging the USB connector, try quitting and restarting MATLAB. We
 find that this reliably restores normal communication.
 
-web http://psychtoolbox.org/usb.html \-browser;
+web http://psychtoolbox.org/usb.html -browser;
 See also DaqTest, PsychHID, PsychHardware.
 
 

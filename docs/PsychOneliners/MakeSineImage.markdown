@@ -3,11 +3,12 @@ layout: mfile
 title: MakeSineImage
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
  \[image\] = MakeSineImage\(freqi,freqj,nRowPixels,\[nColPixels\]\)
 
- Computes a two\-dimensional sine function image.
+ Computes a two-dimensional sine function image.
 
  The image has dimensions nRowPixels by nColPixels.
  If nColPixels is omitted, a square image is returned.

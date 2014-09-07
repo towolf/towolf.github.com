@@ -3,6 +3,7 @@ layout: mfile
 title: glProgramParameteriARB
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glProgramParameteriARB  Interface to OpenGL function glProgramParameteriARB

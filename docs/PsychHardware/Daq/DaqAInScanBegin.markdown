@@ -3,6 +3,7 @@ layout: mfile
 title: DaqAInScanBegin
 categories:
   - Daq
+encoding: UTF-8
 ---
 
 params=DaqAInScanBegin\(DeviceIndex,options\)

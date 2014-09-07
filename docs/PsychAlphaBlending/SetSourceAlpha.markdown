@@ -3,6 +3,7 @@ layout: mfile
 title: SetSourceAlpha
 categories:
   - PsychAlphaBlending
+encoding: UTF-8
 ---
 
 \[newSourceMat, newDestinationMat\]=SetSourceAlpha\(SourceFactorStr, alpha, sourceImage, destinationImage\)

@@ -3,6 +3,7 @@ layout: mfile
 title: tcpip_feval_end
 categories:
   - tcpip
+encoding: UTF-8
 ---
 
 \[arg1,arg2,...\]=tcpip\_feval\_end\(ip\_fid\) get return args from remote feval

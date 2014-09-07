@@ -3,6 +3,7 @@ layout: mfile
 title: SetMouse
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
  SetMouse\(x, y \[, windowPtrOrScreenNumber\]\[, mouseid\]\)
@@ -36,7 +37,7 @@ categories:
  be enough, after calling SetMouse, to simply WaitTicks\(1\) before calling
  GetMouse to be sure of getting the new position.
 
- OS\-X, Linux & WINDOWS:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+ OS-X, Linux & WINDOWS:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
  Psychtoolbox will accept the optional windowPtrOrScreenNumber
  argument and check it for validity.  However, supplying the argument will

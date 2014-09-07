@@ -3,6 +3,7 @@ layout: mfile
 title: FlipTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 FlipTest
@@ -10,7 +11,7 @@ FlipTest
 FlipTest times and plots the intervals between flips of the front and
 back display buffers in a tight loop.  Flips should occur at the video
 frame period.  Result of lipTest are a test of [Priority](/docs/Priority)'s ability to
-gurantee time to MATLAB for real\-time displays.
+gurantee time to MATLAB for real-time displays.
 
 On OS X, the [Screen](/docs/Screen) subfunction '[Flip](/docs/Flip)' replaces 'WaitBlanking' as a means
 of sycnrhonizing updates of video memory with the vertical retrace of your

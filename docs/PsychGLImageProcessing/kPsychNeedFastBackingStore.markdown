@@ -3,6 +3,7 @@ layout: mfile
 title: kPsychNeedFastBackingStore
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 rval = kPsychNeedFastBackingStore

@@ -3,6 +3,7 @@ layout: mfile
 title: bitsGoggles
 categories:
   - BitsPlusToolbox
+encoding: UTF-8
 ---
 
 usage bitsGoggles\(left,right,window\)

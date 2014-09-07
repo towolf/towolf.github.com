@@ -3,6 +3,7 @@ layout: mfile
 title: ComputeDKL_M
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 M = ComputeDKL\_M\(bg,T\_cones,T\_Y\)

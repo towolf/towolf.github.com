@@ -3,6 +3,7 @@ layout: mfile
 title: glRasterPos3sv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glRasterPos3sv  Interface to OpenGL function glRasterPos3sv

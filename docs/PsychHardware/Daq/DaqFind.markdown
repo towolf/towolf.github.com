@@ -3,6 +3,7 @@ layout: mfile
 title: DaqFind
 categories:
   - Daq
+encoding: UTF-8
 ---
 
 Syntax: DeviceIndex = DaqFind

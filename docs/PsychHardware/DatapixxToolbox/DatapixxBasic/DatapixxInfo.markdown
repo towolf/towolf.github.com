@@ -3,6 +3,7 @@ layout: mfile
 title: DatapixxInfo
 categories:
   - DatapixxBasic
+encoding: UTF-8
 ---
 
 DatapixxInfo\(\)

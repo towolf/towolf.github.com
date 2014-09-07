@@ -3,6 +3,7 @@ layout: mfile
 title: GrowRect
 categories:
   - PsychRects
+encoding: UTF-8
 ---
 
 r = GrowRect\(r,horizontalPixels,verticalPixels\)

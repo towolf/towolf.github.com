@@ -3,6 +3,7 @@ layout: mfile
 title: iminfoBuglet
 categories:
   - PsychMatlabTests
+encoding: UTF-8
 ---
 
 Mathworks Case ID 187040, reported 2/99
@@ -19,8 +20,8 @@ IMINFO gives misleading error message.
 \>
 \>However, your imjpginfo.m then fails, with the misleading error message:
 \>
-\>\+imfinfo\('bill.jpg','jpg'\)
-\>??? Reference to non\-existent field 'BitDepth'.
+\>+imfinfo\('bill.jpg','jpg'\)
+\>??? Reference to non-existent field 'BitDepth'.
 \>
 \>Error in ==\> Savoca:Applications:Matlab
 \>5.2:Toolbox:matlab:iofun:private:imjpginfo.m
@@ -40,7 +41,7 @@ Thanks again,
 
 Steve
 
-\-\-
+--
 Steve Eddins, image processing specialist           eddins@mathworks.com
 The MathWorks, Inc.                                 http://www.mathworks.com
 

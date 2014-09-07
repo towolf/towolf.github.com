@@ -3,12 +3,13 @@ layout: mfile
 title: ComputeGammaPoly
 categories:
   - PsychGamma
+encoding: UTF-8
 ---
 
 output = ComputeGammaPoly\(x,input\)
 
 Compute gamma table using polynomial function.
-Relies on Matlab's built\-in polyeval.
+Relies on Matlab's built-in polyeval.
 
 Assumes that 1 is maximum input value
 

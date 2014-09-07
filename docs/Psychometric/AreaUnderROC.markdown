@@ -3,6 +3,7 @@ layout: mfile
 title: AreaUnderROC
 categories:
   - Psychometric
+encoding: UTF-8
 ---
 
 area = AreaUnderROC\(ROC\)

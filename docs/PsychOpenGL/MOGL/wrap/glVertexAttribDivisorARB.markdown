@@ -3,6 +3,7 @@ layout: mfile
 title: glVertexAttribDivisorARB
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glVertexAttribDivisorARB  Interface to OpenGL function glVertexAttribDivisorARB

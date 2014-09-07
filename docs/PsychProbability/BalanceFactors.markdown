@@ -3,6 +3,7 @@ layout: mfile
 title: BalanceFactors
 categories:
   - PsychProbability
+encoding: UTF-8
 ---
 
 BalanceFactors balances a set of factors given the factor levels.  It is
@@ -16,7 +17,7 @@ trials, balanced and, optionally, randomized.
 BalanceFactors must be called with three or more input arguments.  The
 first argument, N, specifies the number of replicates per combination of
 factor levels.  The second argument, RND, determines whether or not the
-returned factors should be shuffled \(non\-zero values lead to shuffling\).
+returned factors should be shuffled \(non-zero values lead to shuffling\).
 
 The remaining input arguments specify the levels for each of a set of
 factors.  Factor levels can be specified as numeric vectors or cell

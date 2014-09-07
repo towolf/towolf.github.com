@@ -3,6 +3,7 @@ layout: mfile
 title: _glGetUniformIndices
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetUniformIndices  Interface to OpenGL function glGetUniformIndices

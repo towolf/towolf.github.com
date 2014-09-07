@@ -3,6 +3,7 @@ layout: mfile
 title: glGenRenderbuffersEXT
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGenRenderbuffersEXT  Interface to OpenGL function glGenRenderbuffersEXT

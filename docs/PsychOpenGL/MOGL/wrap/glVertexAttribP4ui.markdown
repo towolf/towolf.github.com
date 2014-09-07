@@ -3,6 +3,7 @@ layout: mfile
 title: glVertexAttribP4ui
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glVertexAttribP4ui  Interface to OpenGL function glVertexAttribP4ui

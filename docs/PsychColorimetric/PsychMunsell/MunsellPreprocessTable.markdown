@@ -3,6 +3,7 @@ layout: mfile
 title: MunsellPreprocessTable
 categories:
   - PsychMunsell
+encoding: UTF-8
 ---
 
 munsellData = MunsellPreprocessTable

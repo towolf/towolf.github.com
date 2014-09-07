@@ -3,6 +3,7 @@ layout: mfile
 title: glDrawElementsInstancedARB
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDrawElementsInstancedARB  Interface to OpenGL function glDrawElementsInstancedARB

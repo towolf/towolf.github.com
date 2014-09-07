@@ -3,6 +3,7 @@ layout: mfile
 title: GratingDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 GratingDemo

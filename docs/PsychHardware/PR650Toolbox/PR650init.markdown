@@ -3,6 +3,7 @@ layout: mfile
 title: PR650init
 categories:
   - PR650Toolbox
+encoding: UTF-8
 ---
 
 retval = PR650init\(portNumber, \[enableHandshaking\]\)
@@ -21,7 +22,7 @@ In my experience, calling this function directly leads to poor performance
 CMCheckInit in the PsychHardware folder, one folder up the tree from this one
 \(which is presumably PR650Toolbox\).  Calling this function from CMCheckInit
 should provide more reliable establishment of contact and hints on what to
-try if contact fails.  \-\- MPR
+try if contact fails.  -- MPR
 
 
 <div class="code_header" style="text-align:right;">

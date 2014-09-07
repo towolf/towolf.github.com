@@ -3,6 +3,7 @@ layout: mfile
 title: glTexImage2DMultisample
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glTexImage2DMultisample  Interface to OpenGL function glTexImage2DMultisample

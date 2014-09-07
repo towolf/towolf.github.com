@@ -3,6 +3,7 @@ layout: mfile
 title: glPopAttrib
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glPopAttrib  Interface to OpenGL function glPopAttrib

@@ -3,14 +3,15 @@ layout: mfile
 title: BitsPlusImagingColorImageTest
 categories:
   - BitsPlusTests
+encoding: UTF-8
 ---
 
 BitsPlusImagingColorImageTest\(\[realimage\]\[, imagefile\]\[, plotdiffs\]\)
 
-Test use of Color\+\+ mode with imaging pipeline...
+Test use of Color++ mode with imaging pipeline...
 
-Renders a HDR color image, converts it to Bits\+\+ Color\+\+ format, once via
-Matlab Bits\+\+ toolbox function BitsPlusPackColorImage and once via GPU
+Renders a HDR color image, converts it to Bits++ Color++ format, once via
+Matlab Bits++ toolbox function BitsPlusPackColorImage and once via GPU
 based imaging pipeline. Reads back and compares results to assess
 correctness and accuracy of the new GPU implementation.
 

@@ -3,6 +3,7 @@ layout: mfile
 title: glReadnPixelsARB
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glReadnPixelsARB  Interface to OpenGL function glReadnPixelsARB

@@ -3,6 +3,7 @@ layout: mfile
 title: glObjectLabel
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glObjectLabel  Interface to OpenGL function glObjectLabel

@@ -3,6 +3,7 @@ layout: mfile
 title: glIsSampler
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glIsSampler  Interface to OpenGL function glIsSampler

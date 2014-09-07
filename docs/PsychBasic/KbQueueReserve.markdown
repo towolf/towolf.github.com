@@ -3,6 +3,7 @@ layout: mfile
 title: KbQueueReserve
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 Reserve the keyboard queue of the default keyboard for use by the

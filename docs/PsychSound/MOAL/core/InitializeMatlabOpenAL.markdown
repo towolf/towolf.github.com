@@ -3,14 +3,15 @@ layout: mfile
 title: InitializeMatlabOpenAL
 categories:
   - core
+encoding: UTF-8
 ---
 
 InitializeMatlabOpenAL\(\[debuglevel\] \[,snddevicename\] \[, openal\_c\_style\]\)
 
-InitializeMatlabOpenAL \-\- Initialize the OpenAL for Matlab wrapper 'moal'.
+InitializeMatlabOpenAL -- Initialize the OpenAL for Matlab wrapper 'moal'.
 
 Call this function at the beginning of your experiment script if you intend
-to use low\-level OpenAL sound commands in your script as provided by our
+to use low-level OpenAL sound commands in your script as provided by our
 moalcore extension.
 
 This will check if moal is properly installed and upload all required
@@ -28,7 +29,7 @@ http://www.openal.org
 
 Options: All options are optional.
 
-debuglevel = 0 to 3: Setting debuglevel == 0 will disable debug\-output.
+debuglevel = 0 to 3: Setting debuglevel == 0 will disable debug-output.
 A level of 1 will cause MOAL to output error messages and abort your
 scripts execution if it detects any OpenAL error. A level of 2 provides
 additional information that may help you to optimize your code. level 3
@@ -36,7 +37,7 @@ means to be very verbose
 
 snddevicename: Optional. Request a specific sound output device by
 its name. If left out, or if an invalid name is given, OpenAL will
-select a default output device \- the most capable and most efficient
+select a default output device - the most capable and most efficient
 device in your system.
 
 openal\_c\_style = 0 / 1: Optional. If left out or set to zero, all
@@ -44,7 +45,7 @@ constants will be loaded in structs in order to avoid cluttering the
 Matlab workspace too much. You'll have to replace all AL\_xxx calls by
 AL.xxx calls, e.g., AL\_TRUE becomes AL.TRUE .
 If set to one, then all constants will additionally be provided in standard
-C\-Style syntax, aka AL\_TRUE, but this only works in the main function, not
+C-Style syntax, aka AL\_TRUE, but this only works in the main function, not
 in subroutines.
 
 The 'OpenAL for Matlab' low level wrapper moal was implemented by Mario

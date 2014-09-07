@@ -3,6 +3,7 @@ layout: mfile
 title: CreatePseudoGrayLUT
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 lut = CreatePseudoGrayLUT
@@ -32,7 +33,7 @@ win = PsychImaging\('OpenWindow', screenid, ....\);
 # Further explanation:
 
 The technique to represent 10.7 bits \(log2\(1786\)\) of luminance on a 8 bit
-display is called "Pseudo Gray" or "Bit\-Stealing". It adds small delta
+display is called "Pseudo Gray" or "Bit-Stealing". It adds small delta
 values to the different color channels to "tilt" the RGB color vector of
 each pixel a bit away from the "pure luminance' axis. This slight tilt,
 combined with the different emission characteristics of red, green and
@@ -46,7 +47,7 @@ Anyway, this is the "poor man's solution" to high bitdepths luminance
 output, mostly here for illustration and demo purposes. If you need well
 controlled high quality high resolution luminance output, check out our
 different drivers for different high precision display devices like video
-attenuators, the VideoSwitcher, CRS Bits\+\+ box and the ATI 10 bit
+attenuators, the VideoSwitcher, CRS Bits++ box and the ATI 10 bit
 framebuffer driver. See "help PsychImaging" for an overview and usage.
 
 The LUT encoding used here is based solely on the algorithm described at
@@ -59,8 +60,8 @@ algorithm, apparently the principle was described by multiple independent
 authors. There is also a reference to the "Bit stealing" technique by:
 
 Tyler C.W., Chan H., Liu L., McBride B. & Kontsevich L.L. \(1992\)
-"Bit\-stealing: How to get 1786 or more grey levels from an 8\-bit color
-monitor", Proc. SPIE \#1666, pp 351\-364.
+"Bit-stealing: How to get 1786 or more grey levels from an 8-bit color
+monitor", Proc. SPIE \#1666, pp 351-364.
 
 However, i haven't ever read that article, so i don't know if it proposes
 exactly the same procedure although readers of that article told me that

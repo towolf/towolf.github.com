@@ -3,6 +3,7 @@ layout: mfile
 title: MeasSpd
 categories:
   - PsychHardware
+encoding: UTF-8
 ---
 
 \[spectrum,qual\] = MeasSpd\(\[S\],\[meterType\],\[syncMode\]\)
@@ -35,17 +36,17 @@ syncMode = 'off': Don't try to sync, even if meter supports it.
 11/6/96       dhb     Remove extra call to CMETER\('Measure'\).
 6/17/98       dhb     Add meterType switch.
 7/1/98        dhb,jmk Fix bug in switch.
-10/4/99       dhb,mdr Take return of \-1 \(timeout\) to mean no light.
+10/4/99       dhb,mdr Take return of -1 \(timeout\) to mean no light.
               dhb,mdr Remove gHardware and gHardwareMsg globals.
 4/4/00        dhb,jdt Pass S to PC version.
 09/11/00      dhb   Remove colortron support.  It never worked right.
 1/10/02       dhb,ly Make OS9 version use SERIAL.
 2/15/02       dhb   Change name of called routine.
 5/21/02       dgp   Tidied up code, removing superfluous COMPUTER conditional.
-2/26/03       dhb   Change definition of PR\-650 meter type to 1.
-8/26/10       dhb   The PR\-655 line called the PR\-650 code.  Change to call PR\-655
+2/26/03       dhb   Change definition of PR-650 meter type to 1.
+8/26/10       dhb   The PR-655 line called the PR-650 code.  Change to call PR-655
 3/8/11        dhb   Pass syncMode option to speed things up for displays where it doesn't work.
-12/06/12      zlb   Adding PR\-705 support as meter type 6.
+12/06/12      zlb   Adding PR-705 support as meter type 6.
 
 
 <div class="code_header" style="text-align:right;">

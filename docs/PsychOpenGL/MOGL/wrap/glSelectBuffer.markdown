@@ -3,6 +3,7 @@ layout: mfile
 title: glSelectBuffer
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glSelectBuffer  Interface to OpenGL function glSelectBuffer

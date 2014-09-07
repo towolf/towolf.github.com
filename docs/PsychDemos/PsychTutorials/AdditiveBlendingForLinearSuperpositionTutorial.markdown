@@ -3,18 +3,19 @@ layout: mfile
 title: AdditiveBlendingForLinearSuperpositionTutorial
 categories:
   - PsychTutorials
+encoding: UTF-8
 ---
 
 AdditiveBlendingForLinearSuperpositionTutorial\(\[outputdevice='None'\] \[, overlay=1\] \[, colorclut=0\] \[, doGainCorrection=0\]\);
 
 Illustrates use of floating point textures in combination with
-source\-weighted additive alpha blending to create linear superpositions
+source-weighted additive alpha blending to create linear superpositions
 of image patches, in this case of two superimposed gratings. Due to the
-use of additive alpha\-blending, you'll see that the two gratings will
-superimpose onto each other in a mathematically correct way \-\- pixel\-wise
+use of additive alpha-blending, you'll see that the two gratings will
+superimpose onto each other in a mathematically correct way -- pixel-wise
 addition/subtraction of luminance values. The demo uses a 32 bit floating
 point framebuffer on the latest hardware. This allows for an effective 23
-bits of precision in all math done and in the final stimuli \- more than
+bits of precision in all math done and in the final stimuli - more than
 any display device in existence could resolve. On previous generation
 hardware \(older than NVidia Geforce 88000 or ATI Radeon HD2000\), alpha
 blending isn't supported in 32 bpc float precision. Therefore the demo
@@ -33,74 +34,74 @@ standard graphics cards is demonstrated.
 However, by providing the first optional parameter 'outputdevice', you
 can select amongst all devices supported by PTB:
 
-'NoneNoGamma' \- Same as 'None': Use standard 8 bit framebuffer, but
+'NoneNoGamma' - Same as 'None': Use standard 8 bit framebuffer, but
 disable the gamma correction provided by PTB's imaging pipeline. This is
 usually not what you want, but it allows to test how much faster the
 display runs without gamma correction.
 
-'PseudoGray' \- PseudoGray display, also known as "Bit stealing". This
+'PseudoGray' - PseudoGray display, also known as "Bit stealing". This
 technique allows to create the perception of up to 1786 different
 luminance levels on standard 8 bit graphics hardware by use of some
 clever color rendering trick. See "help CreatePseudoGrayLUT" for
 references and details.
 
-'Native10Bit' \- Enables the native 10 bpc framebuffer support on ATI
+'Native10Bit' - Enables the native 10 bpc framebuffer support on ATI
 Radeon X1xxx / HDxxx GPU's when used under Linux or OS/X with the
 PsychtoolboxKernelDriver loaded \(see "help PsychtoolboxKernelDriver" on
 how to do that\). These GPU's do support 10 bits per color channel when
-this special mode is used. If you try this option on MS\-Windows, or
+this special mode is used. If you try this option on MS-Windows, or
 without the driver loaded or with a different GPU, it will just fail.
 
-'VideoSwitcher' \- Enable the Xiangrui Li et al. VideoSwitcher, a special
+'VideoSwitcher' - Enable the Xiangrui Li et al. VideoSwitcher, a special
 type of video attenuator \(see "help PsychVideoSwitcher"\) in standard
 "simple" mode.
 
-'VideoSwitcherCalibrated' \- Enable the Xiangrui Li et al. VideoSwitcher,
+'VideoSwitcherCalibrated' - Enable the Xiangrui Li et al. VideoSwitcher,
 but use the more complex \(and more accurate?\) mode with calibrated lookup
 tables \(see "help PsychVideoSwitcher"\).
 
-'Attenuator' \- Enable support for standard Pelli & Zhang style video
+'Attenuator' - Enable support for standard Pelli & Zhang style video
 attenuators by use of lookup tables.
 
 Then we have support for the different modes of operation of the
-Cambridge Research Systems Bits\+\+ box:
+Cambridge Research Systems Bits++ box:
 
-'Mono\+\+' \- Use 14 bit mono output mode, either with color index overlay
+'Mono++' - Use 14 bit mono output mode, either with color index overlay
 \(if the optional 2nd 'overlay' flag is set to 1, which is the default\),
 or without color index overlay.
 
-'Color\+\+' \- User 14 bits per color component mode.
+'Color++' - User 14 bits per color component mode.
 
 Then we have support for the different modes of operation of the
 VPixx Technologies DPixx \(DataPixx\) box:
 
-'M16' \- Use 16 bit mono output mode, either with color index overlay
+'M16' - Use 16 bit mono output mode, either with color index overlay
 \(if the optional 2nd 'overlay' flag is set to 1, which is the default\),
 or without color index overlay.
 
-'C48' \- User 16 bits per color component mode.
+'C48' - User 16 bits per color component mode.
 
 
-'BrightSide' \- Enable drivers for BrightSide's HDR display. This only
-works if you have a BrightSide HDR display \+ the proper driver libraries
-installed on MS\-Windows. On other operating systems it just uses a simple
+'BrightSide' - Enable drivers for BrightSide's HDR display. This only
+works if you have a BrightSide HDR display + the proper driver libraries
+installed on MS-Windows. On other operating systems it just uses a simple
 dummy emulation of the display with less than spectacular results.
 
-'DualPipeHDR' \- Use experimental output to dual\-pipeline HDR display
+'DualPipeHDR' - Use experimental output to dual-pipeline HDR display
 device.
 
 
 The third optional parameter 'colorclut' if provided, will use color
 lookup table based color correction / mapping, ie., mapping of luminance
-values to RGB values in the framebuffer \- or intensity values if
-applicable. Any non\-zero number will select a different CLUT. Look into
+values to RGB values in the framebuffer - or intensity values if
+applicable. Any non-zero number will select a different CLUT. Look into
 the code for description. This just to demonstrate that you can use CLUT
-based color/intensity correction instead of simple power\-law gamma
+based color/intensity correction instead of simple power-law gamma
 correction if you want.
 
 
 The fourth optional parameter 'doGainCorrection' if provided and set to
-1, will demonstrate use of display per\-pixel gain correction, aka
+1, will demonstrate use of display per-pixel gain correction, aka
 vignetting correction. It will modulate the brightness of each pixel with
 a gain factor, the gains increasing linearly from the left border to the
 right border of the display. See "help VignettingCorrectionDemo" for more
@@ -115,8 +116,8 @@ framebuffer encodings.
 
 The demo shows two superimposed sine wave gratings in the center of the
 screen. You can shift the 2nd grating up and down in subpixel steps by
-use of the cursor up\-/down keys. You can change the contrast of the 2nd
-grating by use of the cursor left\-/right keys. You can move the 2nd
+use of the cursor up-/down keys. You can change the contrast of the 2nd
+grating by use of the cursor left-/right keys. You can move the 2nd
 grating with the mouse, and rotate it clockwise or counterclockwise by
 pressing the mouse buttons. The keys 'i' and 'd' allow to change the
 "encoding gamma" factor used for the gamma correction algorithm. The ESC

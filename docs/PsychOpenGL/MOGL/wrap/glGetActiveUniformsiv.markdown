@@ -3,6 +3,7 @@ layout: mfile
 title: glGetActiveUniformsiv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetActiveUniformsiv  Interface to OpenGL function glGetActiveUniformsiv

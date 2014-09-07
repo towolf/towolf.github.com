@@ -3,6 +3,7 @@ layout: mfile
 title: FunctionFolder
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 filePath=FunctionFolder\(functionName\)

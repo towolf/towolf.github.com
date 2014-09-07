@@ -3,6 +3,7 @@ layout: mfile
 title: FitNakaRushton
 categories:
   - Psychometric
+encoding: UTF-8
 ---
 
 \[params,f\] = FitNakaRushton\(contrast,response,\[params0\]\)

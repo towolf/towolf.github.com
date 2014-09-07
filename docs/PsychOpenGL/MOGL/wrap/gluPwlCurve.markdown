@@ -3,6 +3,7 @@ layout: mfile
 title: gluPwlCurve
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluPwlCurve  Interface to OpenGL function gluPwlCurve

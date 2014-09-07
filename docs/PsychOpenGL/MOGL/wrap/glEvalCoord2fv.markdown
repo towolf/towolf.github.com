@@ -3,6 +3,7 @@ layout: mfile
 title: glEvalCoord2fv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glEvalCoord2fv  Interface to OpenGL function glEvalCoord2fv

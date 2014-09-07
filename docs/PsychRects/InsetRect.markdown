@@ -3,6 +3,7 @@ layout: mfile
 title: InsetRect
 categories:
   - PsychRects
+encoding: UTF-8
 ---
 
 r = InsetRect\(r,dh,dv\)

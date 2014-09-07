@@ -3,6 +3,7 @@ layout: mfile
 title: OldNewRecogExp
 categories:
   - OldNewRecognition
+encoding: UTF-8
 ---
 
 OldNewRecogExp\(subNo,hand\);
@@ -27,15 +28,15 @@ In the test phase, the subject is presented with test images defined in
 the file 'testlist.txt', again in randomized order. Test images are
 presented for a 'duration' of 0.5 seconds or until the subjects responds
 with a keypress. The subject has to press one of two keys, telling if the
-test image is an "old" image \- previously presented in the study phase,
-or a "new" image \- not seen in the study phase. The keys used are 'c' and
+test image is an "old" image - previously presented in the study phase,
+or a "new" image - not seen in the study phase. The keys used are 'c' and
 'm', the mapping of keys to response \("old" or "new"\) is selected by the
-input argument "hand" \-\- allowing to balance for handedness of subjects /
+input argument "hand" -- allowing to balance for handedness of subjects /
 response bias.
 
 At the end of a session \(when all images in the 'testlist.txt' have been
-presented and tested\), the results \- both response of the subject and its
-reaction time \- are stored to a file 'OldNewRecogExp\_xx.dat', where 'xx'
+presented and tested\), the results - both response of the subject and its
+reaction time - are stored to a file 'OldNewRecogExp\_xx.dat', where 'xx'
 is the subject number given as input argument "subNo" to this script.
 
 # Input parameters:
@@ -52,24 +53,24 @@ TEST  PHASE: shown 6 objects, decide whether the object is old or new
 
 # This script demonstrates:
 
-   \- reading from files to get condition on each trial
-   \- randomizing conditions \(for the study and test phase\)
-   \- showing image/collecting response \(response time, accuracy\)
-   \- writing data to file "OldNewRecogExp\_<subNo\>.dat
+   - reading from files to get condition on each trial
+   - randomizing conditions \(for the study and test phase\)
+   - showing image/collecting response \(response time, accuracy\)
+   - writing data to file "OldNewRecogExp\_<subNo\>.dat
 
-Please refer to other included demos for new functions of Psychtoolbox\-3
-vs. the old Psychtoolbox\-2.
+Please refer to other included demos for new functions of Psychtoolbox-3
+vs. the old Psychtoolbox-2.
 
 Other than a few changes how to call the [Screen](/docs/Screen) function,
 and the try ... catch statements, this code replicates a
 typical OS9 experiment
 
-NOTE to previous MacOS\-9 users: OSX is case sensitive\!\!\!
+NOTE to previous MacOS-9 users: OSX is case sensitive\!\!\!
 
 # History:
 
 05/24/05 Quoc Vuong, PhD, University of NewCastle wrote and contributed
-it, as an example for usage of Psychtoolbox\-3, Version 1.0.6.
+it, as an example for usage of Psychtoolbox-3, Version 1.0.6.
 03/01/08 Mario Kleiner modified the code to make use of new functionality
 added in Psychtoolbox 3.0.8.
 

@@ -3,11 +3,12 @@ layout: mfile
 title: moglmorpher
 categories:
   - PsychOpenGL
+encoding: UTF-8
 ---
 
 
-Matlab OpenGL Morpher \- Performs linear morphs between different 3D shapes and
-renders the resulting shape via OpenGL. Supports high\-performance GPU
+Matlab OpenGL Morpher - Performs linear morphs between different 3D shapes and
+renders the resulting shape via OpenGL. Supports high-performance GPU
 based morphing on recent graphics hardware. Also performs linear morphing
 \(linear combinations\) between different texture images.
 
@@ -16,7 +17,7 @@ surface normal vectors and texture coordinate assignments. It then renders the
 resulting shape with its resulting surface normals and texture coordinates in
 an efficient way, using the OpenGL for Matlab \(MOGL\) functions.
 
-It also allows to render single sub\-meshes efficiently, as well as
+It also allows to render single sub-meshes efficiently, as well as
 predictions of screen space 2D \(x,y\) coordinates of vertices in the mesh.
 
 The whole setup for rendering \(rigid orientation and position, camera view transforms,
@@ -28,46 +29,45 @@ For a specific examples of usage, have a look at MorphDemo.m and
 MorphTextureDemo.m.
 
 IMPORTANT: At the end of your script, you must call [moglmorpher](/docs/moglmorpher)\('reset'\)
-to release all ressources and reset [moglmorpher](/docs/moglmorpher) into a well\-defined
+to release all ressources and reset [moglmorpher](/docs/moglmorpher) into a well-defined
 state. Alternatively, you can call 'clear [moglmorpher](/docs/moglmorpher)', e.g., if your
 script aborted with an error. If your forget either of these, you'll see
 some weird error messages about "Invalid window record referenced"
 at invocation of the command.
 
 
-Available subcommands and their meaning:
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
+# Available subcommands and their meaning
 
 [moglmorpher](/docs/moglmorpher)\('ForceGPUMorphingEnabled', enableflag\);
 
-Forcefully enable or disable GPU based morphing. 'enableFlag'==1 \-\>
-Forcefully enable, 'enableFlag'==0 \-\-\> Forcefully disable.
+Forcefully enable or disable GPU based morphing. 'enableFlag'==1 -\>
+Forcefully enable, 'enableFlag'==0 --\> Forcefully disable.
 
 [moglmorpher](/docs/moglmorpher) can perform all morphing computations and rendering completely
 on the GPU on modern graphics hardware that supports this. This provides
 a significant speedup over morphing in Matlab/Octave code on the slower
-CPU. Normally, [moglmorpher](/docs/moglmorpher) auto\-detects if GPU based morphing is possible
+CPU. Normally, [moglmorpher](/docs/moglmorpher) auto-detects if GPU based morphing is possible
 and then enables that feature. If GPU morphing is not possible, it
 reverts to a slower Matlab CPU implementation of morphing. For GPU
 morphing, the Psychtoolbox imaging pipeline needs to be enabled by
-passing an optional valid non\-zero 'imagingMode' flag to the
+passing an optional valid non-zero 'imagingMode' flag to the
 [Screen](/docs/Screen)\('OpenWindow', ...\); call when opening the onscreen window. E.g.,
 the flag 'kPsychNeedFastOffscreenWindows' would enable the pipeline.
 
-There may be cases where either auto\-detection goes wrong, or where you
-don't want to use GPU based morphing, e.g., if your hardware/gfx\-driver
+There may be cases where either auto-detection goes wrong, or where you
+don't want to use GPU based morphing, e.g., if your hardware/gfx-driver
 is defective and GPU morphing doesn't work correctly, or if you want to
 use the [moglmorpher](/docs/moglmorpher)\('renderNormals'\) subfunction which is not yet
 supported in GPU mode, or if you want to perform benchmarking of GPU vs.
-non\-GPU mode. In such cases you can use this subfunction to manually
-enable/disable GPU based morphing, overriding the auto\-detection code.
+non-GPU mode. In such cases you can use this subfunction to manually
+enable/disable GPU based morphing, overriding the auto-detection code.
 
 It's important to call this function before the first invocation of any
 other subfunction\!
 
 GPU based operation should be efficiently supported on all ATI Radeon
-X\-1000 or later hardware and all NVidia Geforce\-6000 and later hardware.
-GPU based operation is not supported under OpenGL\-ES1.x mobile/embedded
+X-1000 or later hardware and all NVidia Geforce-6000 and later hardware.
+GPU based operation is not supported under OpenGL-ES1.x mobile/embedded
 GPUs.
 
 
@@ -76,7 +76,7 @@ window is open\!
 
 
 meshid = [moglmorpher](/docs/moglmorpher)\('addMesh', obj\);
-\-\- Add a new shape to the collection of shapes to be morphed. 'obj'
+-- Add a new shape to the collection of shapes to be morphed. 'obj'
 is a single struct that defines the object: Subfields are obj.faces,
 obj.vertices, obj.texcoords, obj.normals, obj.colors. Their meaning is
 the same as the corresponding parameters in the following 'addMesh'
@@ -88,23 +88,23 @@ obj\{1\}\); to add the first mesh from 'myfile.obj' into the morpher.
 
 
 meshid = [moglmorpher](/docs/moglmorpher)\('addMesh', faces, vertices \[, texcoords\] \[, normals\] \[, colors\]\);
-\-\- Add a new shape to the collection of shapes to be morphed. faces == Index
+-- Add a new shape to the collection of shapes to be morphed. faces == Index
 list that defines the topology of the shape: faces is a 3 by n vector. Each of
 the n columns defines one 3D triangle face, the 3 indices in the column are
 indices into the vertices, texcoords, colors and normals vectors that define the
 properties of the vertices.
 
-vertices == A 3\-by\-m vector that defines the shape of the object: Each of the
+vertices == A 3-by-m vector that defines the shape of the object: Each of the
 m columns defines the 3D position of one of the corresponding m vertices.
 
-normals == A 3\-by\-m vector whose single columns define the \(nx,ny,nz\) components
+normals == A 3-by-m vector whose single columns define the \(nx,ny,nz\) components
 of unit normal surface vectors. The normals vector is optional and only needed if
 you want to do proper lighting calculations on your object.
 
-texcoords == A 2\-by\-m vector of 2D texture coordinates for each corresponding vertex.
+texcoords == A 2-by-m vector of 2D texture coordinates for each corresponding vertex.
 This vector is optional and only needed if you want to apply textures to the object.
 
-colors == A 3\-by\-m or 4\-by\-m vector whose single columns define the
+colors == A 3-by-m or 4-by-m vector whose single columns define the
 \(red,green,blue \[,alpha\]\) vertex color components of each vertex in
 'vertices' of unit normal surface vectors. The colors vector is optional
 and only needed if you want to do lighting calculations on your object.
@@ -112,7 +112,7 @@ Most of the time you won't use vertex colors, but instead assign a
 texture for more flexibility and ease of use.
 Note: The current implementation doesn't support morphing of vertex
 colors. Instead it will simply use the vertex 'color' vector of the last
-added mesh for the morphed output \-\- a fixed assignment of vertex colors.
+added mesh for the morphed output -- a fixed assignment of vertex colors.
 
 The size and dimension of all provided vectors must match \(==be identical\) for all
 shapes. This is required, because otherwise the linear combination of shapes and
@@ -124,7 +124,7 @@ case the numbering may change. See 'deleteMeshAtIndex' for details.
 
 
 [moglmorpher](/docs/moglmorpher)\('deleteMeshAtIndex', meshIndex \[, dontReset=0\]\);
-\-\- Delete the mesh with index 'meshIndex' from the set of keyshapes. All
+-- Delete the mesh with index 'meshIndex' from the set of keyshapes. All
 keyshapes after the deleted meshIndex will "move down" one index. E.g.,
 if you delete the keyshape at meshIndex = 5, then the mesh with previous
 index 6 will become the new mesh with index 5, the mesh with old index 7 will
@@ -140,32 +140,32 @@ deleted meshes, or bad things will happen.
 
 
 [moglmorpher](/docs/moglmorpher)\('renderMesh', meshid\);
-\-\- Render the mesh corresponding to the handle 'meshid'.
+-- Render the mesh corresponding to the handle 'meshid'.
 
 
 oldEnable = [moglmorpher](/docs/moglmorpher)\('assumeSparseMorphWeights', enable\);
-\-\- Enable speed optimizations under the assumption that morph weight
+-- Enable speed optimizations under the assumption that morph weight
 vector contains mostly zero weights, if 'enable' is set to 1. Otherwise
 optimize speed under the assumption of dense weight vectors. The default
 is to assume dense vectors, ie., 'enable' == 0.
 
 Two different algorithms are used, depending on the setting of this
 switch, which have different tradeoffs. However, switching settings here
-is cheap, so you could do it on a per\-morph basis. The optimal choice may
+is cheap, so you could do it on a per-morph basis. The optimal choice may
 depend on complexity of your keyshape models and speed of your GPU, so
 your mileage will vary and you'll need to benchmark both options for
 optimal speed.
 
 
 [moglmorpher](/docs/moglmorpher)\('renderMorph', weights \[,morphnormals=1\]\);
-\-\- Compute a linear combination \(a weighted average\) of all stored meshes, as defined
+-- Compute a linear combination \(a weighted average\) of all stored meshes, as defined
 by the vector 'weights'. Render the final shape.
 For 'count' shapes, weight is a vector of length 'count'. The i'th scalar entry of weight
 is the coefficient used to integrate the i'th shape into the morph.
 
 
 [moglmorpher](/docs/moglmorpher)\('computeMorph', weights \[,morphnormals=1\]\);
-\-\- Same as 'renderMorph', just that rendering of the morphed shape is
+-- Same as 'renderMorph', just that rendering of the morphed shape is
 omitted. You can render the shape later by calling the 'render' subcommand.
 
 finalresult = sum\_for\_i=1\_to\_count\(shape\(i\) \* weights\(i\)\);
@@ -176,23 +176,23 @@ morphing either.
 
 
 [moglmorpher](/docs/moglmorpher)\('render'\);
-\-\- Renders the last shape again. This is either the last rendered mesh or the last linear
+-- Renders the last shape again. This is either the last rendered mesh or the last linear
 combination.
 
 
 glListHandle = [moglmorpher](/docs/moglmorpher)\('renderToDisplaylist'\);
-\-\- Same as subcommand 'render', but the shape is not rendered as an image to the
+-- Same as subcommand 'render', but the shape is not rendered as an image to the
 framebuffer, but stored to a new OpenGL display list. A unique 'glListHandle' to
 the new list is returned. Using this handle one can render the object
 later on via the command glCallList\(glListHandle\); and delete it via
 glDeleteLists\(glListHandle, 1\);
 
-Unsupported on OpenGL\-ES.
+Unsupported on OpenGL-ES.
 
 
 [moglmorpher](/docs/moglmorpher)\('renderRange' \[, startfaceidx=0\] \[, endfaceidx\]\);
 [moglmorpher](/docs/moglmorpher)\('renderRangeToDisplayList' \[, startfaceidx=0\] \[, endfaceidx\]\);
-\-\- Like 'render' and 'renderToDisplayList', except that the range of
+-- Like 'render' and 'renderToDisplayList', except that the range of
 faces \(triangles or quads\) can be restricted to a subrange of the mesh.
 By default, the full mesh is rendered. 'startfaceidx' Allows start at
 given index instead of index zero. 'endfaceidx' Allows end at
@@ -201,46 +201,46 @@ given index instead of the last face index in the mesh.
 Caution: Face indices count in units of surface primitives. 1 count = 1
 triangle or quad, depending on the type of your mesh.
 
-Caution: Face indices are zero\-based\! The first element is at index zero.
-This is different from the one\-based indexing of vertices in the
+Caution: Face indices are zero-based\! The first element is at index zero.
+This is different from the one-based indexing of vertices in the
 functions 'renderNormals' and 'getVertexPositions', where index 1 denotes
 the first vertex in the mesh.
 
 
 [moglmorpher](/docs/moglmorpher)\('renderNormals' \[,normalLength=1\] \[, startidx=1\] \[, endidx\]\);
-\-\- Renders the surface normal vectors of the last shape in green, either at unit\-length,
+-- Renders the surface normal vectors of the last shape in green, either at unit-length,
 or at 'normalLength' if this argument is provided. This is a helper function for
 checking the correctness of computed normals. It is very slow\!
 
 
 vpos = [moglmorpher](/docs/moglmorpher)\('getVertexPositions', windowPtr \[, startidx=1\] \[, endidx\]\);
-\-\- Compute and return a matrix which contains the projected screen space coordinates of all
+-- Compute and return a matrix which contains the projected screen space coordinates of all
 vertices that would be rendered when calling [moglmorpher](/docs/moglmorpher)\('render'\). windowPtr is the handle
 of the window into which we render. Optional arguments startidx and endidx define the
 index of the first vertex, resp. the last vertex to transform. The returned 'vpos' is a
-vcount\-by\-3 matrix, where vcount is the number of returned vertices, and row i contains the
+vcount-by-3 matrix, where vcount is the number of returned vertices, and row i contains the
 projected 3D position of the i'th vertex vcount\(i,:\) = \(screen\_x, screen\_y, depth\_z\);
-Unsupported on OpenGL\-ES.
+Unsupported on OpenGL-ES.
 
 count = [moglmorpher](/docs/moglmorpher)\('getMeshCount'\);
-\-\- Returns number of stored shapes.
+-- Returns number of stored shapes.
 
 
 textureCoordinates = [moglmorpher](/docs/moglmorpher)\('getTexCoords'\);
-\-\- Returns current vector of textureCoordinates as used for rendering
+-- Returns current vector of textureCoordinates as used for rendering
 meshes.
 
 
 \[vertices, normals\] = [moglmorpher](/docs/moglmorpher)\('getGeometry'\);
-\-\- Returns current vector of 'vertices' and \(optionally\) normals as used
+-- Returns current vector of 'vertices' and \(optionally\) normals as used
 for rendering meshes. Call this after \(at least one call to\)
 'computeMorph' or 'renderMorph' to retrieve the current morphed mesh.
-vertices and normals are 3\-by\-n matrices, each column encoding the three
+vertices and normals are 3-by-n matrices, each column encoding the three
 components \(x,y,z\) of a single 3D vertex position or vertex normal.
 
 
 \[texid, gltexid, gltextarget\] = [moglmorpher](/docs/moglmorpher)\('morphTexture', windowPtr, morphWeights, keyTextures\);
-\-\- Compute a linear combination of the Psychtoolbox textures stored in
+-- Compute a linear combination of the Psychtoolbox textures stored in
 vector 'keyTextures', using the values in vector 'morphWeights' as
 weights. Return handles to the computed \(morphed\) texture. 'texid' is a
 Psychtoolbox texture handle \(e.g., for use with [Screen](/docs/Screen)\('DrawTexture'\)\),
@@ -255,13 +255,13 @@ You must not close it or bad things will happen\!
 
 
 [moglmorpher](/docs/moglmorpher)\('reset'\);
-\-\- Resets the [moglmorpher](/docs/moglmorpher) \- deletes all internal data structures.
+-- Resets the [moglmorpher](/docs/moglmorpher) - deletes all internal data structures.
 
 
 # CONTEXT MANAGEMENT FUNCTIONS:
 
 [moglmorpher](/docs/moglmorpher)\(\) supports use of more than one morph context. This is useful
-if you have to morph multiple separate morph\-models. You can create
+if you have to morph multiple separate morph-models. You can create
 and setup one dedicated context for each such model. Then you can switch
 between contexts before executing [moglmorpher](/docs/moglmorpher)\(\) commands. The commands
 will always apply to the current set context. Once you're done, you can
@@ -270,24 +270,24 @@ delete contexts.
 Context switching is not free\! It comes at a modest cost in terms of
 computation time spent if you have GPU based morphing enabled. It can
 consume significant time if you use software only morphing with models of
-non\-trivial size.
+non-trivial size.
 
 Use of these functions is optional. If you don't use them to create your
 own contexts, [moglmorpher](/docs/moglmorpher) will create a single default context and use
 that. This ensures backwards compatibility to old scripts and
-single\-context scripts.
+single-context scripts.
 
 # The following functions allow context management:
 
 context = [moglmorpher](/docs/moglmorpher)\('createContext' \[, windowPtr\]\);
-\-\- Create a new morphing context, attached to onscreen window 'windowPtr'
-\- or the default window if 'windowPtr' is omitted. Return it in
+-- Create a new morphing context, attached to onscreen window 'windowPtr'
+- or the default window if 'windowPtr' is omitted. Return it in
 'context'. If you want to setup and then use the 'context', you will need
 to call 'setContext'.
 
 
 oldcontext = [moglmorpher](/docs/moglmorpher)\('setContext', context\);
-\-\- Set 'context' as the new morph context, return the previously set
+-- Set 'context' as the new morph context, return the previously set
 current context optionally in 'oldcontext'. All other [moglmorpher](/docs/moglmorpher)\(\)
 commands always operate on the current morph context until you change the
 morphcontext to a new current morph context with this 'setContext'
@@ -298,13 +298,13 @@ contexts.
 
 
 currentContext = [moglmorpher](/docs/moglmorpher)\('getContext'\);
-\-\- Return the currently set morph context. If 'createContext' and
+-- Return the currently set morph context. If 'createContext' and
 'setContext' weren't used, this is the default context which was
 automatically created by [moglmorpher](/docs/moglmorpher).
 
 
 context = [moglmorpher](/docs/moglmorpher)\('deleteContext', context\);
-\-\- Delete given 'context' and release all its associated resources,
+-- Delete given 'context' and release all its associated resources,
 return an emptied out copy in the optional return argument 'context'.
 
 IMPORTANT: You \*must\* delete all contexts with this method which have

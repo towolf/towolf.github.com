@@ -3,6 +3,7 @@ layout: mfile
 title: glDebugMessageControlARB
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDebugMessageControlARB  Interface to OpenGL function glDebugMessageControlARB

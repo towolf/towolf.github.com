@@ -3,6 +3,7 @@ layout: mfile
 title: AlphaMultiplicationAccuracyTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 \[maximumError, roundTypeStr, independentFlag\]=AlphaMultiplicationAccuracyTest\(\[screenNumber\]\)
@@ -13,7 +14,7 @@ TestAlphaMultiplicationAccuracy measures accuracy of intermediate values.
 
 Return argument "maximumError" is the maximum unsigned difference between
 OpenGL alpha multiplication and  simulated alpha blending in MATLAB using
-double\-precisions floating point multiplication.
+double-precisions floating point multiplication.
 
 # Values of maximumError fall into three categories:
 
@@ -23,7 +24,7 @@ double\-precisions floating point multiplication.
 0.5 <= maximumError < 1   : OpenGL truncates or rounds up. For a single
                             multiplication, Accuracy is off  0.5 parts
                             in 255 more than would multiplying luminances
-                            using floating\-point values and rounding.
+                            using floating-point values and rounding.
 
 maximumError \>= 1         : Something is wrong.
 
@@ -38,9 +39,9 @@ TestAlphaMultiplicationAccuracy also tests that multiplication errors are
 independent of the choice of blending factor string and the blending
 surface, setting return argument "independentFlag" accordingly.
 
-Because in OpenGL pixel color components are ultimately encoded as 8\-bit
+Because in OpenGL pixel color components are ultimately encoded as 8-bit
 integers in video RAM, the results of OpenGL alpha multiplicaion will be
-less accurate than those predicted by floating\-point calculations.  If
+less accurate than those predicted by floating-point calculations.  If
 OpenGL rounds to the nearest integer then the alpha multiply error will
 be less than 0.5. This is the limit of precision of the color components
 of a pixel. Therefore, when alpha blending rounds to the nearest integer,
@@ -58,7 +59,7 @@ source and destination surfaces may be multiplied before they are added.
 We test blending accuracy becasue OpenGL makes no gurantees.  The OpenGL
 policy on alpha multiplician is summarized here:
 
-http://msdn.microsoft.com/library/default.asp?url=/library/en\-us/opengl/glfunc01\_4vs3.asp
+http://msdn.microsoft.com/library/default.asp?url=/library/en-us/opengl/glfunc01\_4vs3.asp
 
         "Despite the apparent precision of the above equations, blending
         arithmetic is not exactly specified, because blending operates with

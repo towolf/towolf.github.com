@@ -3,6 +3,7 @@ layout: mfile
 title: glGetActiveAttrib
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetActiveAttrib  Interface to OpenGL function glGetActiveAttrib

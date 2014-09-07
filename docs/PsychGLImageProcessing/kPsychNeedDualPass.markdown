@@ -3,12 +3,13 @@ layout: mfile
 title: kPsychNeedDualPass
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 rval = kPsychNeedDualPass
 
 Return a flag that you can pass to the 'imagingmode' parameter of
-[Screen](/docs/Screen)\('OpenWindow'\) in order to request support for dual\-pass
+[Screen](/docs/Screen)\('OpenWindow'\) in order to request support for dual-pass
 processing in the builtin imaging pipeline.
 
 FIXME: More info...

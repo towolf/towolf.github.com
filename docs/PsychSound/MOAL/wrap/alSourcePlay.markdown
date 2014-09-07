@@ -3,6 +3,7 @@ layout: mfile
 title: alSourcePlay
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alSourcePlay  Interface to OpenAL function alSourcePlay

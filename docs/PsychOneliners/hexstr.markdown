@@ -3,6 +3,7 @@ layout: mfile
 title: hexstr
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 str=[hexstr](/docs/hexstr)\(n\)

@@ -3,6 +3,7 @@ layout: mfile
 title: alGetDouble
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alGetDouble  Interface to OpenAL function alGetDouble

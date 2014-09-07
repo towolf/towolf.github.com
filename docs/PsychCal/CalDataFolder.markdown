@@ -3,6 +3,7 @@ layout: mfile
 title: CalDataFolder
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 directory=CalDataFolder\(\[forceDemo\],\[calFileName\],\[calDir\]\)
@@ -38,7 +39,7 @@ Denis Pelli 2/28/98 change "CalDat" to "PsychCalData"
 4/2/13   dhb  Add calFileName and associated behavior.
 6/2/13   dhb  Make this properly return subfolder containing calibration file
               if .mat is not postpended.
-6/10/13  dhb  Fix buglet introduced 6/2/13 \-\- need to handle empty calFileName \(thanks to MS for
+6/10/13  dhb  Fix buglet introduced 6/2/13 -- need to handle empty calFileName \(thanks to MS for
               identifying the problem and the fix.
 
 

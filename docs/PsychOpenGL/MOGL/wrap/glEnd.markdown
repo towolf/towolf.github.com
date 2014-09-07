@@ -3,6 +3,7 @@ layout: mfile
 title: glEnd
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glEnd  Interface to OpenGL function glEnd

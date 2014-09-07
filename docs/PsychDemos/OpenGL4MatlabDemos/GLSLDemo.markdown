@@ -3,17 +3,18 @@ layout: mfile
 title: GLSLDemo
 categories:
   - OpenGL4MatlabDemos
+encoding: UTF-8
 ---
 
-GLSLDemo \- Demonstrate use of the GLSL OpenGL Shading language in the
+GLSLDemo - Demonstrate use of the GLSL OpenGL Shading language in the
 Psychtoolbox.
 
 The OpenGL shading language \(GLSL\) allows to write specialized programs
 which are uploaded into the graphics hardware itself. These programs
 are then executed very efficiently in the grahpics hardware. So called
-Vertex\-Shaders are executed on a per\-vertex basis. They calculate and
-manipulate per\-vertex properties, e.g., displacement, color, normal
-vectors. So called Fragment\-Shaders are executed for each single fragment
+Vertex-Shaders are executed on a per-vertex basis. They calculate and
+manipulate per-vertex properties, e.g., displacement, color, normal
+vectors. So called Fragment-Shaders are executed for each single fragment
 or pixel that is drawn into the backbuffer. They allow, e.g., to implement
 your own lighting model or perform image processing on your image.
 
@@ -21,9 +22,9 @@ GLSL programs are very similar in their syntax to the C programming language,
 its basically C, extended by functions for matrix and vector math and for
 typical graphics purpose.
 
-A specific piece of graphics hardware may only support either vertex\-shaders,
-or fragment\-shaders or none at all, as these features are pretty new in the
-world of computer\-graphics, so this demo may not run at all or at least some
+A specific piece of graphics hardware may only support either vertex-shaders,
+or fragment-shaders or none at all, as these features are pretty new in the
+world of computer-graphics, so this demo may not run at all or at least some
 shaders will either fail or give unexpected results. If you want to make
 use of GLSL you'll need to equip your computer with up to date graphics
 hardware.
@@ -31,7 +32,7 @@ hardware.
 This demo loads a collection of shaders. It applies the shaders to a
 collection of objects, demonstrating some visual effects. This is early
 beta code, so don't expect too much. It mostly demonstrates how to get
-started with shader\-programming in Psychtoolbox.
+started with shader-programming in Psychtoolbox.
 
 Press the 'n' key to toggle between different objects.
 Press the SPACE key to toggle between the different shaders.

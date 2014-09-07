@@ -3,13 +3,14 @@ layout: mfile
 title: BlurredVideoCaptureDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
-BlurredVideoCaptureDemo \- Show application of image filters to videocaptured images.
+BlurredVideoCaptureDemo - Show application of image filters to videocaptured images.
 
 This demo shows how to apply 2D convolution kernels to a live video
 stream captured from an attached default camera. Convolution is not
-performed on the cpu by Matlab/Octave, but executed hardware\-accelerated
+performed on the cpu by Matlab/Octave, but executed hardware-accelerated
 on the GPU for potentially much higher speed.
 
 # Usage:
@@ -19,7 +20,7 @@ BlurredVideoCaptureDemo\(\[filtertype=1\]\[, kwidth=11\]\[, deviceIndex=0\]\)
 # 'filtertype' is optional and can be:
 
 0 = None.
-1 = Gaussian blur \- This is the default.
+1 = Gaussian blur - This is the default.
 2 = Prewitt operator.
 3 = Unsharp operator.
 4 = Sobel operator.
@@ -33,7 +34,7 @@ available.
 'kwidth' = Optional convolution kernel width in pixels. Defaults to 11.
 
 'deviceIndex' = Optional index of the video capture device. Defaults to
-auto\-selected default video source.
+auto-selected default video source.
 
 Press any key to finish the demo.
 

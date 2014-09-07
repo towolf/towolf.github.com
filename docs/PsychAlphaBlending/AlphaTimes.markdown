@@ -3,6 +3,7 @@ layout: mfile
 title: AlphaTimes
 categories:
   - PsychAlphaBlending
+encoding: UTF-8
 ---
 
 matProduct=AlphaTimes\(mat1, alpha\)

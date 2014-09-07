@@ -3,6 +3,7 @@ layout: mfile
 title: MovingLineDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 MovingLineDemo\(\[xv=10\]\[, twolines=0\]\[, screenid=max\]\)
@@ -18,7 +19,7 @@ The optional parameter 'twolines' selects if one line or a pair of lines
 should be drawn. By default, twolines==0, ie., a single line is drawn.
 
 The optional parameter 'screenid' selects the display screen to use for
-display, it defaults to the secondary display on multi\-display setups.
+display, it defaults to the secondary display on multi-display setups.
 
 Hold down the right mouse button to pause the animation. Press the left
 mouse button to exit the demo.
@@ -32,14 +33,14 @@ way CRT monitors and TFT flat panel display devices display moving
 stimuli. It shows artifacts that are due to both the display technology
 and due to perceptual effects in the visual system.
 
-On a well working CRT monitor, which is an impulse\-type display with fast
+On a well working CRT monitor, which is an impulse-type display with fast
 response time, you should see a sharp and clearly separated moving pair
 of lines. On a LCD display with its high latency response behaviour and
-its working principle as a hold\-type display, you should see a
-significant "smear" or "blur" of the line pair \-\- or maybe not even a
+its working principle as a hold-type display, you should see a
+significant "smear" or "blur" of the line pair -- or maybe not even a
 pair of distinctive lines anymore. This is due to technical limitations
 of the display technology and due to the "bad" interaction between
-hold\-type displays and smooth pursuit eye movements caused by tracking of
+hold-type displays and smooth pursuit eye movements caused by tracking of
 certain types of moving stimuli.
 
 

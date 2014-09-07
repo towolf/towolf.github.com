@@ -3,6 +3,7 @@ layout: mfile
 title: ComputeDiffLimit
 categories:
   - PsychOptics
+encoding: UTF-8
 ---
 
 s0 = ComputeDiffLimit\(pupil,nm\)
@@ -16,7 +17,7 @@ See page 120 in Goodman.
     "s0" is highest spatial frequency passed by the pupil in cycles/deg
 
 Goodman, J. W. \(1968\) Introduction to Fourier Optics.
-San Francisco: McGraw\-Hill. Page 120.
+San Francisco: McGraw-Hill. Page 120.
 
 Goodman's formula involves di, which I think is the distance to the
 image. Goodman's formula gives the limit in

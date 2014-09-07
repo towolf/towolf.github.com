@@ -3,6 +3,7 @@ layout: mfile
 title: AppleVersion
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 versionString=AppleVersion\(gestaltString\)

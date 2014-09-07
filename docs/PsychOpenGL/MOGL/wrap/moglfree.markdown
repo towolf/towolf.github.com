@@ -3,9 +3,10 @@ layout: mfile
 title: moglfree
 categories:
   - wrap
+encoding: UTF-8
 ---
 
-moglfree\(ptr\) \-\- Free a memory buffer inside mogl which was previously
+moglfree\(ptr\) -- Free a memory buffer inside mogl which was previously
 created via a call to ptr = moglmalloc\(...\) or ptr = moglcalloc\(...\).
 ptr = A pointer to the buffer to free. This is the handle returned by
 moglmalloc\(\) or moglcalloc\(\).

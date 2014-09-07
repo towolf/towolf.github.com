@@ -3,6 +3,7 @@ layout: mfile
 title: FitGammaExtPFun
 categories:
   - PsychGamma
+encoding: UTF-8
 ---
 
 \[err,con\] = FitGammaExtPFun\(x,values,measurements\)

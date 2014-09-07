@@ -3,6 +3,7 @@ layout: mfile
 title: EyelinkInit
 categories:
   - EyelinkOneLiners
+encoding: UTF-8
 ---
 
 USAGE: \[result dummy\]=EyelinkInit\(\[dummy=0\]\[enableCallbacks=1\]\)
@@ -22,7 +23,7 @@ enableCallbacks: Set to 0 for operation without callbacks and
                  dispatcher function PsychEyelinkDispatchCallback.m.
                  Provide namestring of your own dispatcher function if
                  you want to enable callbacks and video display with a
-                 non\-standard, customized dispatcher.
+                 non-standard, customized dispatcher.
 
 # Optional return arguments:
 

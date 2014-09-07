@@ -3,6 +3,7 @@ layout: mfile
 title: GetChar
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 \[ch, when\] = GetChar\(\[getExtendedData\], \[getRawCode\]\)
@@ -13,8 +14,8 @@ Characters flushed by FlushEvents are all ignored by GetChar. Characters
 are returned in the first return argument "ch".
 
 Please read the 'help ListenChar' carefully to understand various
-limitations and caveats of this function, and to learn about \- often
-better \- alternatives.
+limitations and caveats of this function, and to learn about - often
+better - alternatives.
 
 CAUTION: Do not rely on the keypress timestamps returned by GetChar
 without fully reading and understanding this help text. Run your own
@@ -53,21 +54,21 @@ will not be collected and "when" will be returned empty.  This speeds up
 calls to this function. If ommitted or set to 1, the "when" data
 structure is filled.  getRawCode set to 1 will set "ch" to be the integer
 ACII code of the available character.  If ommitted or set to 0, "ch" will
-be in char format. When running under Linux in "matlab \-nojvm" mode or on
+be in char format. When running under Linux in "matlab -nojvm" mode or on
 Octave, "when" will be returned empty. When running on any other
-operating system under Octave or in "matlab \-nojvm" mode, or on Windows
+operating system under Octave or in "matlab -nojvm" mode, or on Windows
 Vista and later versions of the Windows OS, when will only contain a
 valid timestamp, but all other fields will be meaningless.
 
-GetChar and CharAvail are character\-oriented \(and slow\), whereas KbCheck
-and KbWait are keypress\-oriented \(and fast\). If only a meta key \(like
+GetChar and CharAvail are character-oriented \(and slow\), whereas KbCheck
+and KbWait are keypress-oriented \(and fast\). If only a meta key \(like
 <option\> or <shift\>\) was hit, KbCheck will return true, because a key was
 pressed, but CharAvail will return false, because no character was
 generated. See KbCheck.
 
 CharAvail and GetChar use the system event queue to retrieve the character
 generated, not the raw key press\(es\) per se. If the user presses "a",
-GetChar returns 'a', but if the user presses option\-e followed by "a",
+GetChar returns 'a', but if the user presses option-e followed by "a",
 this selects an accented a, "?", which is treated by GetChar as a single
 character, even though it took the user three keypresses \(counting the
 option key\) to produce it.
@@ -81,8 +82,8 @@ high precision system timer. The "when.secs" time reported by GetChar is
 converted from Java timebase to Psychtoolboxs timebase. Due to conversion
 errors mostly out of our control, the reported values can be off by
 multiple dozen or even hundreds of milliseconds from what KbWait, KbCheck
-or GetSecs would report. Example: A high\-end Pentium\-4 3.2 Ghz system
-running Windows\-XP has been measured to be off by 40 to 70 milliseconds.
+or GetSecs would report. Example: A high-end Pentium-4 3.2 Ghz system
+running Windows-XP has been measured to be off by 40 to 70 milliseconds.
 
 Some Java implementations are also known to have problems/bugs in
 timestamping keyboard presses properly and each Matlab version on each
@@ -90,10 +91,10 @@ operating system is bundled with a different Java version, so some Matlab
 versions may be reliable with respect to GetChars timing, whereas others
 are not.
 
-\-\-\-\> If precise timing of the keypress is important, use KbCheck or
+---\> If precise timing of the keypress is important, use KbCheck or
 KbWait or KbQueueXXX functions or KbEventGet for consistent results\!
 
-OS X / Windows\-XP / Linux with Matlab and Java enabled: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+OS X / Windows-XP / Linux with Matlab and Java enabled: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 JAVA PATH: The GetChar implementation for Matlab is based on Java.
 Therefore, the Psychtoolbox subfolder PsychJava must be added to Matlabs
@@ -116,8 +117,8 @@ calling ListenChar\(2\), so your Matlab console stays nice and clean. Don't
 forget to call ListenChar\(1\) or ListenChar\(0\) though before the end of
 your script. If Matlab returns to its command prompt without reenabling
 keyboard input via ListenChar\(0\) or ListenChar\(1\), Matlab will be left
-with a dead keyboard until you press the CTRL\+C key combo. This silencing
-of clutter does currently not work in matlab \-nojvm mode, or if you use
+with a dead keyboard until you press the CTRL+C key combo. This silencing
+of clutter does currently not work in matlab -nojvm mode, or if you use
 GNU/Octave instead of Matlab.
 
 OTHER "when" RETURN ARGUMENT FIELDS: Owing to differences in what

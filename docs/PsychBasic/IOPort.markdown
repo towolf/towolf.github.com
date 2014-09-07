@@ -3,15 +3,16 @@ layout: mfile
 title: IOPort
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 [IOPort](/docs/IOPort) is a MEX file for precise control of input/output hardware, e.g.,
-Serial ports \(or emulated serial ports like Serial\-over\-USB etc.\),
+Serial ports \(or emulated serial ports like Serial-over-USB etc.\),
 parallel ports, network ports, and special digital I/O boxes.
 
 Goal: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-It provides a unified cross\-platform interface to such devices and tries
+It provides a unified cross-platform interface to such devices and tries
 to bundle functionality in one MEX file that is common to all those
 devices, but implemented differently on each of them. An example would be
 sending of trigger signals: The step to send a trigger signal is always

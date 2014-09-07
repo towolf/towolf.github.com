@@ -3,6 +3,7 @@ layout: mfile
 title: MacularTransmittance
 categories:
   - PsychColorimetricData
+encoding: UTF-8
 ---
 
 \[macTransmit,macDensity\] = MacularTransmittance\(S,\[species\],\[source\],\[fieldSizeDegrees\]\)
@@ -14,17 +15,17 @@ Allowable species:
   Human \(Default\)
 
 Allowable sources:
-  CIE \(Default\)            \- CIE 170\-1:2006 values.
-  Bone                     \- From Bone et al.  See CVRL database.
-  WyszeckiStiles           \- From W&S, Table 2\(2.4.6\), p. 112.
-  Vos                      \- From Vos.  See CVRL database.
-  None                     \- Unity transmittance.
+  CIE \(Default\)            - CIE 170-1:2006 values.
+  Bone                     - From Bone et al.  See CVRL database.
+  WyszeckiStiles           - From W&S, Table 2\(2.4.6\), p. 112.
+  Vos                      - From Vos.  See CVRL database.
+  None                     - Unity transmittance.
 
 For the CIE option, can pass fieldSizeDegrees \[Default 2 degrees\].
 This was buggy until the version of 5/8/12.
 
 The Bone values that we use a the basis for this calculation
-match those in  CIE 170\-1:2006, Table 6.4 for a 2\-degree observer.
+match those in  CIE 170-1:2006, Table 6.4 for a 2-degree observer.
 
 The answer is returned in a row vector.  This function
 depends on data contained in directory

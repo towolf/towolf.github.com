@@ -3,6 +3,7 @@ layout: mfile
 title: DriftDemo5
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 function DriftDemo5\(angle, cyclespersecond, f, drawmask\)
@@ -16,7 +17,7 @@ second drifting grating with a different orientation.
 
 The demo ends after a key press or after 20 seconds have elapsed.
 
-The demo uses alpha\-blending and color buffer masking for masking the
+The demo uses alpha-blending and color buffer masking for masking the
 gratings with circular apertures.
 
 # Parameters:

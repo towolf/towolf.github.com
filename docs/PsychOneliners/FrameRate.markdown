@@ -3,6 +3,7 @@ layout: mfile
 title: FrameRate
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 hz=FrameRate\(\[windowOrScreenNumber\]\)

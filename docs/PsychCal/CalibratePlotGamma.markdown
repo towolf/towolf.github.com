@@ -3,6 +3,7 @@ layout: mfile
 title: CalibratePlotGamma
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 fig = CalibratePlotGamma\(cal,\[fig\]\)

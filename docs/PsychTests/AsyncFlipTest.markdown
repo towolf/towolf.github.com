@@ -3,12 +3,13 @@ layout: mfile
 title: AsyncFlipTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
-AsyncFlipTest \- Stress\-Test & Benchmark async flips.
+AsyncFlipTest - Stress-Test & Benchmark async flips.
 
 This exercises the async flip implementation in some simulated
-workloads, to test its reliability on a given GPU \+ driver \+ operaring
+workloads, to test its reliability on a given GPU + driver + operaring
 system combo, and to benchmark its timing behaviour.
 
 The reliability and performance of async flips depends strongly
@@ -29,7 +30,7 @@ In the second part you should see a monochrome \(workload = 1\),
 colorful \(workload = 2\) random dot image. For workload = 0
 you should see a black background, and in the center of the
 screen a rectangle with a flickering green background and a
-yellow text "Hallo ;\-\)". If you see something else, your
+yellow text "Hallo ;-\)". If you see something else, your
 operating system or graphics driver has a bug. If you see
 irregular flicker then your system is not up to the task at
 the current video refresh rate, ie., it skips many presentation

@@ -3,6 +3,7 @@ layout: mfile
 title: glFramebufferRenderbufferEXT
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glFramebufferRenderbufferEXT  Interface to OpenGL function glFramebufferRenderbufferEXT

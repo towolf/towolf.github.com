@@ -3,6 +3,7 @@ layout: mfile
 title: QuestPdf
 categories:
   - Quest
+encoding: UTF-8
 ---
 
 p=QuestPdf\(q,t\)

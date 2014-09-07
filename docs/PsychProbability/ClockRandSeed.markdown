@@ -3,11 +3,12 @@ layout: mfile
 title: ClockRandSeed
 categories:
   - PsychProbability
+encoding: UTF-8
 ---
 
 \[seed,whichGen\] = ClockRandSeed\(\[seed\],\[whichGen\]\)
 
-ClockRandSeed seeds the random number from the time\-of\-day clock. If seed
+ClockRandSeed seeds the random number from the time-of-day clock. If seed
 is passed this is used instead.
 
 The multiplier 1e6 in fix\(1e6\*sum\(clock\)\) is bigger than the 100

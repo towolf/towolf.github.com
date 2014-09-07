@@ -3,6 +3,7 @@ layout: mfile
 title: SplineRaw
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 \[spec\_out\] = SplineRaw\(wls\_in, spec\_in, wls\_out, \[extend\]\)

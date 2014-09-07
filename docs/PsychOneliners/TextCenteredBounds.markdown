@@ -3,6 +3,7 @@ layout: mfile
 title: TextCenteredBounds
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 bounds=TextCenteredBounds\(window,text\)
@@ -11,7 +12,7 @@ Returns the smallest enclosing rect for the drawn text, relative to the
 current location. This bound is based on the actual pixels drawn, so it
 incorporates effects of text smoothing, etc. All text is drawn on the
 same baseline, horizontally centered by using the x offset
-\-[Screen](/docs/Screen)\(w,'TextWidth',string\)/2. "text" may be a cell array or matrix of
+-[Screen](/docs/Screen)\(w,'TextWidth',string\)/2. "text" may be a cell array or matrix of
 1 or more strings. The strings are drawn one on top of another, all
 horizontally centered at the current position, before the bounds are
 calculated. This returns the smallest box that will contain all the
@@ -19,7 +20,7 @@ strings. The prior contents of the scratch window are lost. Usually it
 should be an offscreen window, so the user won't see it. If you only
 know your nominal text size and number of characters, you might do this
 
-w=[Screen](/docs/Screen)\(\-1,'OpenOffscreenWindow',\[\],\[0 0 1.5\*textSize\*length\(string\) 2\*textSize\],1\);
+w=[Screen](/docs/Screen)\(-1,'OpenOffscreenWindow',\[\],\[0 0 1.5\*textSize\*length\(string\) 2\*textSize\],1\);
 
 The suggested window size in that call is generously large because there
 aren't any guarantees from the font makers about how big the text might

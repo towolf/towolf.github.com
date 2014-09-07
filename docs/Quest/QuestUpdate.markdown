@@ -3,6 +3,7 @@ layout: mfile
 title: QuestUpdate
 categories:
   - Quest
+encoding: UTF-8
 ---
 
 q=QuestUpdate\(q,intensity,response\)

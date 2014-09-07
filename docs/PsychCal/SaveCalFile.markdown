@@ -3,6 +3,7 @@ layout: mfile
 title: SaveCalFile
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 SaveCalFile\(cal, \[filespec\], \[dir\]\)

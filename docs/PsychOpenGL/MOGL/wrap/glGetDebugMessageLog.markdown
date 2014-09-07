@@ -3,6 +3,7 @@ layout: mfile
 title: glGetDebugMessageLog
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetDebugMessageLog  Interface to OpenGL function glGetDebugMessageLog

@@ -3,6 +3,7 @@ layout: mfile
 title: AlphaImageTutorial
 categories:
   - PsychTutorials
+encoding: UTF-8
 ---
 
 AlphaImageTutorial

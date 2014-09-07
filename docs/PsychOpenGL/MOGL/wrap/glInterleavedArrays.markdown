@@ -3,6 +3,7 @@ layout: mfile
 title: glInterleavedArrays
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glInterleavedArrays  Interface to OpenGL function glInterleavedArrays

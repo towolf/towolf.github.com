@@ -3,6 +3,7 @@ layout: mfile
 title: gluEndPolygon
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluEndPolygon  Interface to OpenGL function gluEndPolygon

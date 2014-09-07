@@ -3,6 +3,7 @@ layout: mfile
 title: FindSerialPort
 categories:
   - PsychHardware
+encoding: UTF-8
 ---
 
 Syntax: PortNumber = FindSerialPort\(\[PortString\]\[, forIOPort=0\]\[, dontFail=0\]\)
@@ -10,12 +11,12 @@ Syntax: PortNumber = FindSerialPort\(\[PortString\]\[, forIOPort=0\]\[, dontFail
 Purpose: Find serial port number/name associated with a particular input string.
 
 If the optional parameter 'PortString' is omitted, the routine will use a
-built\-in list of default serial port names to search for. Otherwise it
+built-in list of default serial port names to search for. Otherwise it
 will try to find a serial port with a name matching 'PortString'.
 
 If the optional flag 'forIOPort' is zero or left out, the routine will return
 a 'PortNumber' compatible with use of the SerialComm\(\) serial port driver
-for MacOS/X with Matlab. If 'forIOPort' is non\-zero, it will return a
+for MacOS/X with Matlab. If 'forIOPort' is non-zero, it will return a
 serial port device string in 'PortNumber', suitable for use with the new
 [IOPort](/docs/IOPort) serial port driver which works on all operating systems and
 runtime environments.
@@ -31,7 +32,7 @@ Please note that support of SerialComm for OS/X is a legacy, only left
 for backwards compatibility\! New code should only use the new [IOPort](/docs/IOPort)
 driver and therefore set the 'forIOPort' flag to 1.
 
-For intersting in\-depths comments on the use of this function with PR\-650
+For intersting in-depths comments on the use of this function with PR-650
 style photometers, read the source code of this file.
 
 

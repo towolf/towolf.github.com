@@ -3,6 +3,7 @@ layout: mfile
 title: DriftingMaskedGratingTutorial
 categories:
   - PsychTutorials
+encoding: UTF-8
 ---
 
 function DriftDemo2\(angle, cyclespersecond, f, drawmask\)
@@ -16,15 +17,15 @@ passed or after the user hits a key.
 This demo illustrates how to draw an animated grating online by use of
 only one grating texture. We create one texture with a static sine
 grating. In each successive frame we only draw a rectangular subregion of
-the sine\-texture onto the screen, basically showing the texture through
-an aperture. The subregion \- and therefore our "aperture" is shifted each
+the sine-texture onto the screen, basically showing the texture through
+an aperture. The subregion - and therefore our "aperture" is shifted each
 frame, so we create the impression of a moving grating.
 
-The demo also shows how to use alpha\-blending for masking the grating
+The demo also shows how to use alpha-blending for masking the grating
 with a gaussian transparency mask \(a texture with transparency layer\).
 
 And finally, we demonstrate rotated drawing, as well as how to emulate
-the old OS\-9 'WaitBlanking' command with the new '[Flip](/docs/Flip)' command.
+the old OS-9 'WaitBlanking' command with the new '[Flip](/docs/Flip)' command.
 
 # Parameters:
 
@@ -36,7 +37,7 @@ drawmask = If set to 1, then a gaussian aperture is drawn over the grating
 # CopyWindow vs. DrawTexture:
 
 In the OS 9 Psychtoolbox, [Screen](/docs/Screen) \('CopyWindow"\) was used for all
-time\-critical display of images, in particular for display of the movie
+time-critical display of images, in particular for display of the movie
 frames in animated stimuli. In contrast, [Screen](/docs/Screen)\('DrawTexture'\) should not
 be used for display of all graphic elements,  but only for  display of
 MATLAB matrices.  For all other graphical elements, such as lines,  rectangles,

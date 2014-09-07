@@ -3,6 +3,7 @@ layout: mfile
 title: glDisableVertexAttribArray
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDisableVertexAttribArray  Interface to OpenGL function glDisableVertexAttribArray

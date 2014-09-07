@@ -3,6 +3,7 @@ layout: mfile
 title: glGetClipPlane
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetClipPlane  Interface to OpenGL function glGetClipPlane

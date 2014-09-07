@@ -3,6 +3,7 @@ layout: mfile
 title: ShiftSpectra
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 out = ShiftSpectra\(in,Sin,shift\)

@@ -3,6 +3,7 @@ layout: mfile
 title: alSourceUnqueueBuffers
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alSourceUnqueueBuffers  Interface to OpenAL function alSourceUnqueueBuffers

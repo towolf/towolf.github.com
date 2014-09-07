@@ -3,6 +3,7 @@ layout: mfile
 title: DriftDemo6
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 function DriftDemo6\(angle, cyclespersecond, f\)
@@ -24,9 +25,9 @@ it will abort.
 Compared to previous demos, we apply the aperture to the grating texture
 while drawing the grating texture, ie. in a single drawing pass, instead
 of applying it in a 2nd pass after the grating has been drawn already.
-This is simpler and faster than the dual\-pass method. For this, we store
+This is simpler and faster than the dual-pass method. For this, we store
 the grating pattern in the luminance channel of a single texture, and the
-alpha\-mask in the alpha channel of \*the same texture\*. During drawing, we
+alpha-mask in the alpha channel of \*the same texture\*. During drawing, we
 apply a special texture filter shader \(created via
 MakeTextureDrawShader\(\)\). This shader allows to treat the alpha channel
 separate from the luminance or rgb channels of a texture: It applies the

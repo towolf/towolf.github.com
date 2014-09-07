@@ -3,6 +3,7 @@ layout: mfile
 title: MergeCell
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 Merges contents of multiple cell arrays into one big cell array

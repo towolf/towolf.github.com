@@ -3,6 +3,7 @@ layout: mfile
 title: DegreesToRetinalMM
 categories:
   - PsychColorimetricData
+encoding: UTF-8
 ---
 
  mm = DegreesToRetinalMM\(degs,eyeLengthMM\)

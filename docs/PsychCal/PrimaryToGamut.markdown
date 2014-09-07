@@ -3,6 +3,7 @@ layout: mfile
 title: PrimaryToGamut
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
  \[gamut, badIndex\] = PrimaryToGamut\(cal,primary\)

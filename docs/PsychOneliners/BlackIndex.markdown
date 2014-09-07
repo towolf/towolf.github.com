@@ -3,6 +3,7 @@ layout: mfile
 title: BlackIndex
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 color=BlackIndex\(windowPtrOrScreenNumber\)

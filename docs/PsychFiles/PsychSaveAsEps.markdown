@@ -3,11 +3,12 @@ layout: mfile
 title: PsychSaveAsEps
 categories:
   - PsychFiles
+encoding: UTF-8
 ---
 
 SaveAsEps\(filename,m,\[pageRect\],\[resolution\]\);
 Based on WindowToEps.c of the VideoToolbox.
-Copyright © 1996\-2003 Denis G. Pelli
+Copyright © 1996-2003 Denis G. Pelli
 
 SaveAsEps converts a grayscale image \(in a Matlab matrix\) to a
 PostScript file that a LaserWriter or Linotype will accurately render on
@@ -16,7 +17,7 @@ file type 'EPSF', commonly referred to as an "eps" file. Most word
 processors, e.g. Word and PageMaker, know how to import eps files.
 Macintoshes only understand QuickDraw, not PostScript, so they don't
 know what image the PostScript code would produce. The Macintosh file
-"creator" of the eps file is set to Microsoft Word, so double\-clicking
+"creator" of the eps file is set to Microsoft Word, so double-clicking
 it will open it as a Word document containg the image.
 
 I suggest you use the $25 shareware Macintosh application EPS¥Factory
@@ -34,16 +35,16 @@ To import into Word, use the Insert:Picture or
 Insert:File command. Once imported, you can get Word to rescale the
 image by dragging the image's lower right corner while holding down the
 shift key. Try the VideoToolbox demo Grating. Bear in mind that
-on\-screen you're looking at the PICT, whereas, when you print on a
+on-screen you're looking at the PICT, whereas, when you print on a
 LaserWriter, the image is produced by the PostScript code. When in your
-word processor, the on\-screen images will look best if you use the
+word processor, the on-screen images will look best if you use the
 Monitors control panel to set your monitor to 256 Grays, but this won't
 affect printing.
 
 The filename, by convention, should end in '.eps' to indicate that it's
 an encapsulated postscript file, but this is not enforced. The file's
 type is set to 'EPSF' with creator 'R\*ch'. \(This creator corresponds to
-BBEdit, so double\-clicking will open it as a text file in BBEdit, which
+BBEdit, so double-clicking will open it as a text file in BBEdit, which
 includes a Special:SendPostScript command for downloading poscript
 images to the laserwriter. You can change the creator to be anything you
 want.\)
@@ -79,11 +80,11 @@ the halftone; the printer automatically resamples your image to produce
 the halftone.
     If you specify cellsPerInch \(resolution\>0\) then the printer will be
 asked to print its halftone with that many halftone cells per inch. E.g.
-to produce a halftone original for subsequent one\-to\-one reproduction in
+to produce a halftone original for subsequent one-to-one reproduction in
 a journal, you'll want the cells to be coarse enough for them to
-reproduce without re\-screening, e.g. 100 cells per inch.
+reproduce without re-screening, e.g. 100 cells per inch.
     Alternatively, if you specify grayLevels \(resolution<0\) then the printer
-will be asked to print its halftone with cells containing grayLevels\-1
+will be asked to print its halftone with cells containing grayLevels-1
 printer pixels, yielding the specified number of gray levels. E.g. you
 might want to force your 300 dpi LaserWriter to use big cells yielding
 256 gray levels.
@@ -95,13 +96,13 @@ size and scale of the image,
 
 # The default pageRect is equivalent to this:
 
-        pageRect=SetRect\(0,\-0,size\(m,2\),\-size\(m,1\)\);% Adobe coordinates
+        pageRect=SetRect\(0,-0,size\(m,2\),-size\(m,1\)\);% Adobe coordinates
         pageRect=CenterRect\(pageRect,SetRect\(0,11,8.5,0\)\*72\);
         SaveAsEps\('test.eps',m,pageRect\);
 
 Tiling is something we often want to do, creating a huge image by taping
 many pages together. You accomplish this by repeatedly printing the huge
-image\-\-only one pageful appears each time\-\-shifting the image so that
+image--only one pageful appears each time--shifting the image so that
 eventually every bit has been printed. \(It's slow, since the whole image
 is transmitted to the printer each time.\) Here's an example that creates
 a big "width" by "height" image. We tile onto multiple 8.5"x11" pages,
@@ -113,7 +114,7 @@ using 7.5"x10" of each page, allowing for 0.5" nonprinting margins:
         for i=0:7.5\*72:width
             for j=0:10\*72:height
                 pageRect=mosaicRect;
-                OffsetRect\(&pageRect,\-i,\-j\);
+                OffsetRect\(&pageRect,-i,-j\);
                 ImageToPs\('test.ps',m,pageRect\);
             end
         end
@@ -137,15 +138,15 @@ CE Software
 1854 Fuller Road
 PO Box 65580
 West Des Moines, Iowa 50265
-\(515\)\-224\-1995
+\(515\)-224-1995
 
 # You may also want to read:
 
 Adobe Systems \(1985\) PostScript Language Reference Manual, Second
-Edition. Reading, MA: Addison\-Wesley.
+Edition. Reading, MA: Addison-Wesley.
 
 Pelli, D. G. \(1987\) Programming in PostScript: Imaging on paper from a
-mathematical description. BYTE, 12 \(5\), 185\-202.
+mathematical description. BYTE, 12 \(5\), 185-202.
 
 # BUGS:
 The "resolution" parameter is ignored by my Apple LaserWriter 16/600.

@@ -3,11 +3,12 @@ layout: mfile
 title: KbName
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 kbNameResult = KbName\(arg\)
 
-    KbName maps between KbCheck\-style keyscan codes and key names.
+    KbName maps between KbCheck-style keyscan codes and key names.
 
     \* If arg is a string designating a key label then KbName returns the
       keycode of the indicated key.
@@ -17,12 +18,12 @@ kbNameResult = KbName\(arg\)
     \* If no argument is supplied then KbName waits one second and then
     calls KbCheck.  KbName then returns a cell array holding the names of
     all keys which were down at the time of the KbCheck call. The
-    one\-second delay preceeding the call to KbCheck avoids catching the
+    one-second delay preceeding the call to KbCheck avoids catching the
     <return\> keypress used to execute the KbName function.
 
   \* If arg is 'UnifyKeyNames', KbName will switch its internal naming
     scheme from the operating system specific scheme \(which was used in
-    the old Psychtoolboxes on MacOS\-9 and on Windows\) to the MacOS\-X
+    the old Psychtoolboxes on MacOS-9 and on Windows\) to the MacOS-X
     naming scheme, thereby allowing to use one common naming scheme for
     all operating systems, increasing portability of scripts. It is
     recommended to call KbName\('UnifyKeyNames'\); at the beginning of each
@@ -31,26 +32,26 @@ kbNameResult = KbName\(arg\)
       them\) if you find some.
 
   \* If arg is 'KeyNames', KbName will print out a table of all
-    keycodes\-\>keynames mappings.
+    keycodes-\>keynames mappings.
 
   \* If arg is 'KeyNamesOSX', KbName will print out a table of all
-    keycodes\-\>keynames mappings for MacOS\-X.
+    keycodes-\>keynames mappings for MacOS-X.
 
   \* If arg is 'KeyNamesOS9', KbName will print out a table of all
-    keycodes\-\>keynames mappings for MacOS\-9.
+    keycodes-\>keynames mappings for MacOS-9.
 
   \* If arg is 'KeyNamesWindows', KbName will print out a table of all
-    keycodes\-\>keynames mappings for M$\-Windows.
+    keycodes-\>keynames mappings for M$-Windows.
 
   \* If arg is 'KeyNamesLinux', KbName will print out a table of all
-    keycodes\-\>keynames mappings for GNU/Linux, X11.
+    keycodes-\>keynames mappings for GNU/Linux, X11.
 
     KbName deals with keys, not characters. See KbCheck help for an
     explanation of keys, characters, and keycodes.
 
   Please note that KbName always assumes a US keyboard layout. Changing
   the keyboard layout settings in your operating system will have no
-  effect. If a keyboard with non\-US layout is connected, e.g, a german
+  effect. If a keyboard with non-US layout is connected, e.g, a german
   keyboard layout, then certain keys may not match. E.g., on a german
   keyboard, the 'Y' key will be reported as 'Z' key and the 'Z' key will
   be reported as 'Y' key, because these two keys are interchanged on the
@@ -68,7 +69,7 @@ kbNameResult = KbName\(arg\)
     represented in character sets are assigned names describing those
     symbols  or the key function, for example the space bar is named
     "space" and the apple  key is named "apple".  Some keyboards have
-    identically\-labelled keys distinguished
+    identically-labelled keys distinguished
   only by their positions on the keyboard, for example, left and right
   shift  keys.  Windows operating systems more recent than Windows 95 can
   distinguish between such keys.  To name such keys, we precede the key

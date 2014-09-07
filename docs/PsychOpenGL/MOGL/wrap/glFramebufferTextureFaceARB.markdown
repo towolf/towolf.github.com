@@ -3,6 +3,7 @@ layout: mfile
 title: glFramebufferTextureFaceARB
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glFramebufferTextureFaceARB  Interface to OpenGL function glFramebufferTextureFaceARB

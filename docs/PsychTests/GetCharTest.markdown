@@ -3,6 +3,7 @@ layout: mfile
 title: GetCharTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 GetCharTest\(\[startAt\]\)

@@ -3,6 +3,7 @@ layout: mfile
 title: tcpip_write
 categories:
   - tcpip
+encoding: UTF-8
 ---
 
 unsent = tcpip\_write\(fid, arg2, arg3, . . .\)

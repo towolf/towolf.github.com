@@ -3,6 +3,7 @@ layout: mfile
 title: BasicToneMapCalFormat
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 outputXYZCalFormat = BasicToneMapCalFormat\(inputXYZCalFormat, maxLum\)

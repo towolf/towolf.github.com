@@ -3,6 +3,7 @@ layout: mfile
 title: glBlitFramebuffer
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glBlitFramebuffer  Interface to OpenGL function glBlitFramebuffer

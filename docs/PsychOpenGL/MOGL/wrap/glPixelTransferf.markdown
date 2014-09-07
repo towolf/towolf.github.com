@@ -3,6 +3,7 @@ layout: mfile
 title: glPixelTransferf
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glPixelTransferf  Interface to OpenGL function glPixelTransferf

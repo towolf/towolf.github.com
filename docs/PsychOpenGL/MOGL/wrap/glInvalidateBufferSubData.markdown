@@ -3,6 +3,7 @@ layout: mfile
 title: glInvalidateBufferSubData
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glInvalidateBufferSubData  Interface to OpenGL function glInvalidateBufferSubData

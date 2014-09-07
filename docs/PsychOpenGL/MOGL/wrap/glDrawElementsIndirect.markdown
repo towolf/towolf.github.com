@@ -3,6 +3,7 @@ layout: mfile
 title: glDrawElementsIndirect
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDrawElementsIndirect  Interface to OpenGL function glDrawElementsIndirect

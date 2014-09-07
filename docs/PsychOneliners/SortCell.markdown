@@ -3,6 +3,7 @@ layout: mfile
 title: SortCell
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
  SortCell    Sort a cell array in ascending order.

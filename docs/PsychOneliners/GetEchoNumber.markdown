@@ -3,6 +3,7 @@ layout: mfile
 title: GetEchoNumber
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 number = GetEchoNumber\(window, msg, x, y \[, textColor\]\[, bgColor\]\[, deviceIndex\]\[, untilTime=inf\]\[, KbCheck args...\]\)
@@ -20,7 +21,7 @@ is handled correctly, ie., it erases the last typed number.
 'window' = Window to draw to. 'msg' = A message string displayed to
 prompt for input. 'x', 'y' = Start position of message prompt.
 'textColor' = Color to use for drawing the text. 'bgColor' = Background
-color for text. By default, the background is transparent. If a non\-empty
+color for text. By default, the background is transparent. If a non-empty
 'bgColor' is specified it will be used. The current alpha blending
 setting will affect the appearance of the text if 'bgColor' is specified\!
 

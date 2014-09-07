@@ -3,12 +3,13 @@ layout: mfile
 title: PsychKinect
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
-PsychKinect \-\- Control and access the Microsoft Kinect depth camera.
+PsychKinect -- Control and access the Microsoft Kinect depth camera.
 
 This is a high level driver to allow convenient access to the Microsoft
-Kinect box. The Kinect is a depth\-sensing "3D camera". The Kinect
+Kinect box. The Kinect is a depth-sensing "3D camera". The Kinect
 consists of a standard color camera \(like any standard USB webcam\)
 to capture a scene at 640x480 pixels resolution in RGB8 color with up to
 30 frames per second. In addition it has a depth sensor that measures the
@@ -28,13 +29,13 @@ Matlab version 7.4 \(R2007a\) and later. It is also supported on
 GNU/Linux with Matlab or Octave and on Intel based Macintosh computers
 under OS/X with Matlab or Octave. The driver supports all versions of
 the Microsoft Kinect on Linux and OSX, but currently only the original
-XBOX\-360 Kinect under Microsoft Windows.
+XBOX-360 Kinect under Microsoft Windows.
 
 To use this driver you need:
 1. A Microsoft Kinect \(price tag about 150$ at December 2010\).
 2. A interface cable to connect the Kinect to a standard USB port of a
-   computer \- sold separately or included in standalone Kinects.
-3. The free and open\-source libfreenect \+ libusb libraries and drivers
+   computer - sold separately or included in standalone Kinects.
+3. The free and open-source libfreenect + libusb libraries and drivers
    from the OpenKinect project \(Homepage: http://www.openkinect.org \)
 
 You need to install these libraries separately, otherwise our driver will
@@ -51,16 +52,16 @@ help for them by typing PsychKinectCore FUNCTIONNAME ? as usual, with
 FUNCTIONNAME being the name of the function you want to get help for.
 
 PsychKinect\('Shutdown'\);
-\- Release all internal resources of PsychKinect.
+- Release all internal resources of PsychKinect.
 
 
 PsychKinect\('ApplyCalibrationFile', kinect, calibFileName\);
-\- Load Kinect calibration from a .yml calibration file 'calibFileName', as
+- Load Kinect calibration from a .yml calibration file 'calibFileName', as
 created by rgbDemo software and apply it to Kinect with handle 'kinect'.
 
 
 kobject = PsychKinect\('CreateObject', window, kinect \[, oldkobject\]\);
-\- Create a new kobject for the specified 'window', using the Kinect box
+- Create a new kobject for the specified 'window', using the Kinect box
 specified by the given 'kinect' handle. Recycle 'oldkobject' so save
 memory and resources if 'oldkobject' is provided. Otherwise create a new
 object.
@@ -76,8 +77,8 @@ kobject can then by accessed directly \(it is a struct variable\) or passed
 to other PsychKinect functions for display and processing.
 
 PsychKinect\('DeleteObject', window, kobject\);
-\- Delete given 'kobject' for given 'window' once you no longer need it.
-During a work\-loop you could also pass 'kobject' to the next
+- Delete given 'kobject' for given 'window' once you no longer need it.
+During a work-loop you could also pass 'kobject' to the next
 PsychKinect\('CreateObject', ...\); call as 'oldkobject' to recycle it for
 reasons of computational efficiency.
 
@@ -88,7 +89,7 @@ window\); calls, as 2D mode is needed.
 PsychKinect\('DrawObject', window, kobject \[, drawtype=0\]\);
 Draw the 3D scene stored in 'kobject' into the 'window' selected. Use the
 current OpenGL settings for this. 'drawtype' is optional and defines kind
-of rendering: 0 \(the default\) draws a colored point\-cloud of all sensed
+of rendering: 0 \(the default\) draws a colored point-cloud of all sensed
 3D points. 1 draws a dense textured 3D surface mesh.
 
 This function must be enclosed between [Screen](/docs/Screen)\('BeginOpenGL', window\);

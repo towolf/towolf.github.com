@@ -3,12 +3,13 @@ layout: mfile
 title: InitializePsychSound
 categories:
   - PsychSound
+encoding: UTF-8
 ---
 
 InitializePsychSound\(\[reallyneedlowlatency=0\]\)
 
-This routine loads the PsychPortAudio sound driver for high\-precision,
-low\-latency, multi\-channel sound playback and recording.
+This routine loads the PsychPortAudio sound driver for high-precision,
+low-latency, multi-channel sound playback and recording.
 
 Call it at the beginning of your experiment script, optionally providing
 the 'reallyneedlowlatency' flag set to one to push really hard for low
@@ -22,12 +23,12 @@ initialization.
 
 PsychPortAudio on Windows supports three different Windows sound systems,
 MME, DirectSound and ASIO. Only ASIO is suitable for research grade
-auditory stimulation with support for multi\-channel sound cards and for
-high\-precision and low\-latency sound timing and time\-stamping. If you
-want reliable timing and time\-stamping with latencies and accuracy better
+auditory stimulation with support for multi-channel sound cards and for
+high-precision and low-latency sound timing and time-stamping. If you
+want reliable timing and time-stamping with latencies and accuracy better
 than 500 msecs, you \*must\* have a decent ASIO sound card with proper
 vendor supplied ASIO drivers installed in your computer. A regular card,
-for example built\-in sound chips of your computer, will not suffice and
+for example built-in sound chips of your computer, will not suffice and
 we will not guarantee any reasonable timing precision at all\!
 
 The Windows MME \(MultiMediaExtensions\) sound system has typical latencies
@@ -49,8 +50,8 @@ Technologies GmbH."
 
 For cards without native ASIO drivers, there's the free ASIO4ALL driver,
 downloadable from http://asio4all.com, which may or may not work well on
-your specific sound card \- The driver emulates the ASIO interface on top
-of the WDM\-KS \(Windows Driver Model Kernel Streaming\) API from Microsoft,
+your specific sound card - The driver emulates the ASIO interface on top
+of the WDM-KS \(Windows Driver Model Kernel Streaming\) API from Microsoft,
 so the quality depends on the underlying WDM driver. For research grade
 use, please do yourself a favor and invest in a real ASIO card.
 
@@ -58,9 +59,9 @@ If you manage to get such an ASIO enabled sound driver working on your
 sound hardware, and your ASIO enabled driver and sound card are of
 sufficiently high quality, you can enjoy latencies as low as 5 msecs and
 a sound onset accuracy with a standard deviation from the mean of less
-than 0.1 milliseconds on MS\-Windows \- We measured around 20 microseconds
-on some setups, e.g., the M\-Audio Delta 1010\-LT soundcard under
-Windows\-XP SP2.
+than 0.1 milliseconds on MS-Windows - We measured around 20 microseconds
+on some setups, e.g., the M-Audio Delta 1010-LT soundcard under
+Windows-XP SP2.
 
 Using OS/X or Linux will usually get you comparably good or better
 results with most standard sound hardware, due to the technically

@@ -3,6 +3,7 @@ layout: mfile
 title: glMateriali
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glMateriali  Interface to OpenGL function glMateriali

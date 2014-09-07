@@ -3,6 +3,7 @@ layout: mfile
 title: ISO2007MPEComputeType1ContinuousRadiancePCWeightedValue
 categories:
   - PsychISO2007MPE
+encoding: UTF-8
 ---
 
 \[val\_UWattsPerSrCm2,limit\_UWattsPerSrCm2\] = ISO2007MPEComputeType1ContinuousRadiancePCWeightedValue\(...
@@ -11,7 +12,7 @@ categories:
  Compute the weighted aphakic \(photochemical\) radiance for Type 1 instruments as given on page 8, Table 2,
  5.4.1.3.b.
 
- Input spectrum is radiance in units of Watts/\[sr\-m2\-wlinterval\].
+ Input spectrum is radiance in units of Watts/\[sr-m2-wlinterval\].
 
  Also return the exposure limit for this quantity.
 
@@ -33,7 +34,7 @@ categories:
  flux through two apertures at a known distance apart.  It would then make sense that you'd
  want to know the radiance defined by the direction subtended by a 7 mm aperture at the
  cornea, e.g. right where a large pupil would be.  If you measure using some other device
- \(e.g. a PhotoResearch PR\-XXX that directly obtains radiance and do so from the eye position,
+ \(e.g. a PhotoResearch PR-XXX that directly obtains radiance and do so from the eye position,
  that also seems reasonable.
 
  \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*

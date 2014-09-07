@@ -3,6 +3,7 @@ layout: mfile
 title: LinesDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 Line motion demo using SCREEN\('DrawLines'\) subfunction

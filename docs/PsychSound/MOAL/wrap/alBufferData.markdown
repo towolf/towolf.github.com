@@ -3,6 +3,7 @@ layout: mfile
 title: alBufferData
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alBufferData  Interface to OpenAL function alBufferData

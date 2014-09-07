@@ -3,6 +3,7 @@ layout: mfile
 title: AlphaBlend
 categories:
   - PsychAlphaBlending
+encoding: UTF-8
 ---
 
 newImage=AlphaBlend\(sourceFactorStr, destinationFactorStr, sourceImage, destinationImage\)

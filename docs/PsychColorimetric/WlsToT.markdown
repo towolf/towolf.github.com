@@ -3,6 +3,7 @@ layout: mfile
 title: WlsToT
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 T = WlsToT\(wls,\[sd\]\)

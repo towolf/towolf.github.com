@@ -3,6 +3,7 @@ layout: mfile
 title: glUniform3d
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glUniform3d  Interface to OpenGL function glUniform3d

@@ -3,6 +3,7 @@ layout: mfile
 title: GetKeypadIndices
 categories:
   - PsychHardware
+encoding: UTF-8
 ---
 
 keypadIndices= GetKeypadIndices

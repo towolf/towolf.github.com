@@ -3,6 +3,7 @@ layout: mfile
 title: gluCheckExtension
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluCheckExtension  Interface to OpenGL function gluCheckExtension

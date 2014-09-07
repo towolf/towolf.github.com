@@ -3,9 +3,10 @@ layout: mfile
 title: pnet_getvar
 categories:
   - tcp_udp_ip
+encoding: UTF-8
 ---
 
-PNET\_GETVAR \- Gets any matlab variable \(number\-, cell\-, struct\- or object \-array\) from pnet.
+PNET\_GETVAR - Gets any matlab variable \(number-, cell-, struct- or object -array\) from pnet.
 
 # Syntax:
 

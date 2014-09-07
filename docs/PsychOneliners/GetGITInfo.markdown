@@ -3,6 +3,7 @@ layout: mfile
 title: GetGITInfo
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
  gitInfo = GetGITInfo\(directory\)
@@ -12,10 +13,10 @@ categories:
  essentially a wrapper around the shell command "git".
 
  Input:
- directory \(string\) \- Directory name of interest.
+ directory \(string\) - Directory name of interest.
 
  Output:
- gitInfo \(struct\) \- Structure containing the following information:
+ gitInfo \(struct\) - Structure containing the following information:
    Path
    Describe
     Revision

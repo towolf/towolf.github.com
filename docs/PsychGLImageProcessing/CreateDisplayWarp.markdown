@@ -3,6 +3,7 @@ layout: mfile
 title: CreateDisplayWarp
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 \[warpstruct, filterMode\] = CreateDisplayWarp\(window, calibfilename \[, showCalibOutput=0\]\);
@@ -42,20 +43,20 @@ Psychtoolbox provides multiple different interactive setup routines that
 allow you to create a calibration file for your setup. Currently the
 following routines are provided:
 
-DisplayUndistortionBVL.m    \-\- Undistortion based on 3rd order polynomial
-surface. This is the recommended calibration procedure for most cases \-
-Proven in real\-world use on many different display types.
+DisplayUndistortionBVL.m    -- Undistortion based on 3rd order polynomial
+surface. This is the recommended calibration procedure for most cases -
+Proven in real-world use on many different display types.
 
-DisplayUndistortionBezier.m \-\- Undistortion based on a NURBS surface \(Non
+DisplayUndistortionBezier.m -- Undistortion based on a NURBS surface \(Non
 uniform rational bezier spline surface\). A simple procedure.
 
-DisplayUndistortionHalfCylinder.m \-\- Undistortion for projection of
-images to a half\-cylindrical projection surface.
+DisplayUndistortionHalfCylinder.m -- Undistortion for projection of
+images to a half-cylindrical projection surface.
 
-DisplayUndistortionSphere.m \-\- Undistortion for projection of
-images to a spherical or half\-spherical projection surface.
+DisplayUndistortionSphere.m -- Undistortion for projection of
+images to a spherical or half-spherical projection surface.
 
-DisplayUndistortionCSV.m \-\- Import undistortion information from
+DisplayUndistortionCSV.m -- Import undistortion information from
 a .csv file with a warp mesh description suitable for use with NVidia's
 Warp API. This creates a compatible display warping to use of that NVidia
 technology.

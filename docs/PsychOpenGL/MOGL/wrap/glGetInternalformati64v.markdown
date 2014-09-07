@@ -3,6 +3,7 @@ layout: mfile
 title: glGetInternalformati64v
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetInternalformati64v  Interface to OpenGL function glGetInternalformati64v

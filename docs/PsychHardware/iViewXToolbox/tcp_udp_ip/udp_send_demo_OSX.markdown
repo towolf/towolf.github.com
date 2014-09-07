@@ -3,9 +3,10 @@ layout: mfile
 title: udp_send_demo_OSX
 categories:
   - tcp_udp_ip
+encoding: UTF-8
 ---
 
-UDP\_SEND\_DEMO \- a demo that sends a squence of doubles in network byte order to local or remote host
+UDP\_SEND\_DEMO - a demo that sends a squence of doubles in network byte order to local or remote host
 
 Syntax:
   UDP\_SEND\_DEMO

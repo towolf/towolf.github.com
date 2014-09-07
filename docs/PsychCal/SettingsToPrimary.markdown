@@ -3,6 +3,7 @@ layout: mfile
 title: SettingsToPrimary
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 \[primary\] = SettingsToPrimary\(cal,settings\)
@@ -13,7 +14,7 @@ the gamma correction.
 
 # INPUTS:
   calibration globals
-  settings \-\- column vectors in device settings
+  settings -- column vectors in device settings
 
 
 <div class="code_header" style="text-align:right;">

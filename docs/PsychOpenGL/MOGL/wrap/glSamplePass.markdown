@@ -3,6 +3,7 @@ layout: mfile
 title: glSamplePass
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glSamplePass  Interface to OpenGL function glSamplePass

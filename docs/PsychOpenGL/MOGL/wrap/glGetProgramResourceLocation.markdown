@@ -3,6 +3,7 @@ layout: mfile
 title: glGetProgramResourceLocation
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetProgramResourceLocation  Interface to OpenGL function glGetProgramResourceLocation

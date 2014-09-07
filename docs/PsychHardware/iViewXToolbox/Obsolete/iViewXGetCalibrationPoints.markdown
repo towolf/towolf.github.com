@@ -3,6 +3,7 @@ layout: mfile
 title: iViewXGetCalibrationPoints
 categories:
   - Obsolete
+encoding: UTF-8
 ---
 
 could we skip this if we are sure we have the correct info?

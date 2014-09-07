@@ -3,6 +3,7 @@ layout: mfile
 title: glBindProgramPipeline
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glBindProgramPipeline  Interface to OpenGL function glBindProgramPipeline

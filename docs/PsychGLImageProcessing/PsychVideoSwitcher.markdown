@@ -3,6 +3,7 @@ layout: mfile
 title: PsychVideoSwitcher
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 PsychVideoSwitcher\(command \[,arg1, arg2, .....\]\);
@@ -22,7 +23,7 @@ following subcommands are supported with the following options:
 
 
 PsychVideoSwitcher\('SwitchMode', screenIdx, enableLuminanceMode \[, VideoSwitcherIsABox\]\)
-\- Switch programmatically between high precision luminance mode and
+- Switch programmatically between high precision luminance mode and
 standard RGB true color display mode. 'screenIdx' is the screen index of the
 for the display screen to switch.
 
@@ -48,12 +49,12 @@ as the switching strategy is different.
 
 
 PsychVideoSwitcher\('SetTrigger', win, triggerLine \[, count=infinite\]\);
-\- Set trigger line and options for VideoSwitcher connected to the display
+- Set trigger line and options for VideoSwitcher connected to the display
 of onscreen window 'win'.
 
 'triggerLine' defines the vertical \(y\) position of a trigger line to be
 drawn to the green channel of the final image, in order to trigger the
-trigger\-circuit of the VideoSwitcher. If you set it to a negative value
+trigger-circuit of the VideoSwitcher. If you set it to a negative value
 or to empty \[\], triggering will be disabled \(This is the default\).
 
 'count' Optional: Number of redraw cycles \(invocations of
@@ -68,7 +69,7 @@ trigger pulse per video refresh is possible.
 
 
 PsychVideoSwitcher\('SetBackgroundLuminanceHint', win, luminance\);
-\- Tell the driver the 'luminance' value of the background pixels of
+- Tell the driver the 'luminance' value of the background pixels of
 onscreen windows 'win'. The driver will use this hint to optimize
 conversion of background pixels. This allows for a quite significant
 speedup if your stimulus only covers a fraction of the display area and
@@ -78,23 +79,23 @@ simple driver.
 
 
 RGBImage = PsychVideoSwitcher\('MapLuminanceToRGB', lum, ratio \[, trigger\]\);
-\- Perform conversion of a luminance image into a RGBImage. This is a pure
+- Perform conversion of a luminance image into a RGBImage. This is a pure
 Matlab based implementation for graphics hardware that is not capable of
 supporting the imaging pipeline.
 
  Inputs:
     lum: luminance \(MxN matrix with values from 0 to 1\)
     ratio: blue to red ratio of the video switcher
-    trigger: when non\-zero, a trigger will be sent in current frame
+    trigger: when non-zero, a trigger will be sent in current frame
         trigger=1 or 'top', the first line of image
-        trigger=2 or 'auto',  the first line with non\-zero image
+        trigger=2 or 'auto',  the first line with non-zero image
         trigger=3 or 'middle', the middle line of image
     If you omit ratio, you should give it in this code
  Output: RGB image \(MxNx3 matrix with values from 0 to 255\)
 
 
 RGBImage = PsychVideoSwitcher\('MapLuminanceToRGBCalibrated', lum, ratio, lut \[, trigger\]\)
-\- Perform conversion of a luminance image into a RGBImage. This is a pure
+- Perform conversion of a luminance image into a RGBImage. This is a pure
 Matlab based implementation for graphics hardware that is not capable of
 supporting the imaging pipeline.
 
@@ -102,9 +103,9 @@ supporting the imaging pipeline.
     lum: luminance \(MxN matrix with values from 0 to 1\)
     ratio: blue to red ratio of the video switcher
     lut: The 257 slots calibrated luminance table as described below.
-    trigger: when non\-zero, a trigger will be sent in current frame
+    trigger: when non-zero, a trigger will be sent in current frame
         trigger=1 or 'top', the first line of image
-        trigger=2 or 'auto',  the first line with non\-zero image
+        trigger=2 or 'auto',  the first line with non-zero image
         trigger=3 or 'middle', the middle line of image
     If you omit ratio, you should give it in this code
  Output: RGB image \(MxNx3 matrix with values from 0 to 255\)
@@ -133,7 +134,7 @@ For detail, check the paper http://lobes.usc.edu/Journals/JNM03.pdf
 
 
 \[btrr, lut\] = PsychVideoSwitcher\('GetDefaultConfig', win\);
-\- Get default 'btrr' parameter and 'lut' lookup table from configuration
+- Get default 'btrr' parameter and 'lut' lookup table from configuration
 files and return them. This function can be used by you to get switcher
 parameters for use with the Matlab conversion functions above. It will be
 automatically used by the imaging pipeline \(by PsychImaging\(\) command\) if
@@ -146,13 +147,13 @@ whose path you get if you type mypath = PsychtoolboxConfigDir\('VideoSwitcher'\)
 You can store a configuration file specific to a display screen
 'screenid' \(with the numbering as in [Screen](/docs/Screen)\('Screens'\)\). The file should
 have the name SettingsforScreen\_X.mat with X being the screen number,
-e.g., SettingsforScreen\_0.mat . This allows you to store per\-display
+e.g., SettingsforScreen\_0.mat . This allows you to store per-display
 device settings. Alternatively you can store settings in a "global"
 config file named GlobalSettings.mat if they are not specific to the
 display. The stored mat file should contain up to two variables:
 
 The variable 'btrr' should store the measured/calibrated BTRR
-Blue\-To\-Red\-Ratio for yor switcher and display setup. This variable is
+Blue-To-Red-Ratio for yor switcher and display setup. This variable is
 mandatory.
 
 The optional variable 'lut' would be a 257 elements double vector of
@@ -168,18 +169,18 @@ save 'GlobalSettings.mat' btrr lut
 
 
 
-Internal helper functions for Psychtoolbox \- Must not be called from
+Internal helper functions for Psychtoolbox - Must not be called from
 normal user code\!\!
 
 luttexid = PsychVideoSwitcher\('GetLUTTexture', win, lut, btrr, shader\);
-\- Convert blue\-to\-luminance calibration lookup table 'lut' into a lookup
+- Convert blue-to-luminance calibration lookup table 'lut' into a lookup
 table texture for the imaging pipeline, set it up and return a texture
 handle 'luttexid' to it. 'btrr' is the required BTRR value. 'shader' is
 the GLSL shader handle of the output formatting shader used.
 
 
 PsychVideoSwitcher\(win\);
-\- If 'win' is a numeric onscreen window handle, perform all operations to
+- If 'win' is a numeric onscreen window handle, perform all operations to
 implement the green channel trigger functionality for onscreen window
 'win'. This routine uses MOGL glXXX\(\) functions to implement drawing of
 proper trigger pixel values to the green channel for trigger creation.

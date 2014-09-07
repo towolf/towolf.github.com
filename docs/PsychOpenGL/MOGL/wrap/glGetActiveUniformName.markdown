@@ -3,6 +3,7 @@ layout: mfile
 title: glGetActiveUniformName
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetActiveUniformName  Interface to OpenGL function glGetActiveUniformName

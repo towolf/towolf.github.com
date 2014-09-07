@@ -3,6 +3,7 @@ layout: mfile
 title: alBufferfv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alBufferfv  Interface to OpenAL function alBufferfv

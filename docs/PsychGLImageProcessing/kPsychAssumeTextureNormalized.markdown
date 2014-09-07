@@ -3,6 +3,7 @@ layout: mfile
 title: kPsychAssumeTextureNormalized
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 rc = kPsychAssumeTextureNormalized

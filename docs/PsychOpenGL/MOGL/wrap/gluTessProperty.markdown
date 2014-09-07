@@ -3,6 +3,7 @@ layout: mfile
 title: gluTessProperty
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluTessProperty  Interface to OpenGL function gluTessProperty

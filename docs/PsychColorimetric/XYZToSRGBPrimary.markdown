@@ -3,6 +3,7 @@ layout: mfile
 title: XYZToSRGBPrimary
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 \[rgb,M\] = XYZToSRGBPrimary\(XYZ\)
@@ -12,15 +13,15 @@ coordinates.  These are linear device
 coordinates for the primaries of the sRGB
 standard.  If your input is scaled in the
 gamut of the monitor, the numbers will come
-out in the range 0\-1.  You may want to scale
-the result into the range 0\-1 before applying
+out in the range 0-1.  You may want to scale
+the result into the range 0-1 before applying
 sRGB gamma correction.
 
 Originally implemented from conversion matrix as specified at:
   http://www.srgb.com/basicsofsrgb.htm
 It turns out this was the draft standard.  The site above is gone
 You can still find the draft standard at:
-  http://www.colour.org/tc8\-05/Docs/colorspace/61966\-2\-1.pdf
+  http://www.colour.org/tc8-05/Docs/colorspace/61966-2-1.pdf
 
 I can't find the official technical standard on the web, but
 there is pretty good agreement across web sources.  Wikipedia

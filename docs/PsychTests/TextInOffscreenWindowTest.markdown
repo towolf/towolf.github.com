@@ -3,6 +3,7 @@ layout: mfile
 title: TextInOffscreenWindowTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 TextInOffscreenWindowTest

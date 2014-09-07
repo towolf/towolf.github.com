@@ -3,6 +3,7 @@ layout: mfile
 title: glUniformMatrix3dv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glUniformMatrix3dv  Interface to OpenGL function glUniformMatrix3dv

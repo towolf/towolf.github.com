@@ -3,6 +3,7 @@ layout: mfile
 title: AddPsychJavaPath
 categories:
   - PsychJava
+encoding: UTF-8
 ---
 
 Add Psychtoolbox directories containing Java classes to the path

@@ -3,17 +3,18 @@ layout: mfile
 title: HDRRead
 categories:
   - BrightSideDisplay
+encoding: UTF-8
 ---
 
 img = HDRRead\(imgfilename\[, continueOnError=0\]\[, flipit=0\]\)
 Read a high dynamic range image file and return it as Matlab double
 matrix, suitable for use with [Screen](/docs/Screen)\('MakeTexture'\) and friends.
 
-'imgfilename' \- Filename of the HDR image file to load.
-Returns 'img' \- A double precision matrix of size h x w x c where h is
+'imgfilename' - Filename of the HDR image file to load.
+Returns 'img' - A double precision matrix of size h x w x c where h is
 the height of the input image, w is the width and c is the number of
 color channels: 1 for luminance images, 2 for luminance images with alpha
-channel, 3 for true\-color RGB images, 4 for RGB images with alpha
+channel, 3 for true-color RGB images, 4 for RGB images with alpha
 channel.
 
 'continueOnError' Optional flag. If set to 1, HDRRead won't abort on

@@ -3,6 +3,7 @@ layout: mfile
 title: Datapixx
 categories:
   - DatapixxBasic
+encoding: UTF-8
 ---
 
 Datapixx is a MEX file for precise control of the DataPixx device from

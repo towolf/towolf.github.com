@@ -3,6 +3,7 @@ layout: mfile
 title: DotRotDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 dot motion demo using SCREEN\('DrawDots'\) subfunction

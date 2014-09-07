@@ -3,11 +3,12 @@ layout: mfile
 title: tcpip
 categories:
   - tcpip
+encoding: UTF-8
 ---
 
-Tcpip toolbox version 1.2.x  2000\-12\-14 for MATLAB 5.x 6.x
+Tcpip toolbox version 1.2.x  2000-12-14 for MATLAB 5.x 6.x
 
-Copyrigtht \(C\) Peter Rydesäter 1998 \- 2000, Mitthögskolan, SWEDEN
+Copyrigtht \(C\) Peter Rydesäter 1998 - 2000, Mitthögskolan, SWEDEN
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -21,9 +22,9 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
-Foundation, Inc., 59 Temple Place \- Suite 330, Boston, MA  02111\-1307, USA.
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
-Please, send me an e\-mail if you use this and/or improve it.
+Please, send me an e-mail if you use this and/or improve it.
 
 Main implementation:              Implementation of windows support:
 ===================
@@ -31,7 +32,7 @@ Main implementation:              Implementation of windows support:
 Peter Rydesäter                   Mario Bergeron
 Mitthögskolan                     LYR Signal Processing
 Östersund,Sweden                  Québec, Canada
-e\-mail:Peter.Rydesater@ite.mh.se  e\-mail: Mario.Bergeron@lyre.qc.ca
+e-mail:Peter.Rydesater@ite.mh.se  e-mail: Mario.Bergeron@lyre.qc.ca
 
 
 Toolbox to do tcpip connection over internet
@@ -49,7 +50,7 @@ Between matlab processes or other applications.
 Use tcpip\_open to do a remote connection and get
 a returned handler number that is used for all
 other command.
-tcpip\_servsocket is used to act as a multi\-connection
+tcpip\_servsocket is used to act as a multi-connection
 server.
 All I/O operation is non blocking except tcpip\_servopen
 and tcpip\_write
@@ -76,8 +77,8 @@ tcpip\_viewbuff   Returns whats in receiving buffer but will not empty it.
 tcpip\_write      Sends an array of bytes to connection.
 popmail\_demo     Demo program that read mail from pop mail server.
 webserver\_demo   Matlab as a little webserver, does matlab calculations.
-tcpipmex.c       C\-source for the mex file that is core of this toolbox.
-tcpipmex         m\-file that will compile the .c\-file to mex for your platform.
+tcpipmex.c       C-source for the mex file that is core of this toolbox.
+tcpipmex         m-file that will compile the .c-file to mex for your platform.
 tcpipmex.dll     mex file \(.dll file\) for Windows 95/98, Windows NT
 tcpipmex.mexlx   mex file for Intel Linux matlab 5.x
 tcpipmex.mexglx  mex file for Intel Linux matlab 6.x

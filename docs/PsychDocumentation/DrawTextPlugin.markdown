@@ -3,9 +3,10 @@ layout: mfile
 title: DrawTextPlugin
 categories:
   - PsychDocumentation
+encoding: UTF-8
 ---
 
-DrawTextPlugin \-\- The plugin\-based [Screen](/docs/Screen)\('DrawText'\) text renderer.
+DrawTextPlugin -- The plugin-based [Screen](/docs/Screen)\('DrawText'\) text renderer.
 
 You may have arrived here because [Screen](/docs/Screen)\(\) instructed you to go here
 after [Screen](/docs/Screen) failed to load the external text renderer plugin.
@@ -13,32 +14,32 @@ after [Screen](/docs/Screen) failed to load the external text renderer plugin.
 On both GNU/Linux and Apple MacOS/X, the functions [Screen](/docs/Screen)\('DrawText'\) and
 [Screen](/docs/Screen)\('TextBounds'\) can use an external text rendering plugin for
 drawing and handling of high quality text. This allows for advanced text
-layout and formatting, high\-quality anti\-aliased rendering of text at
+layout and formatting, high-quality anti-aliased rendering of text at
 arbitrary text sizes, support for modern fonts like TrueType, and support
 for drawing of the full international Unicode character set.
 
-The plugin\-based textrenderer can be selected on OS/X and Linux by
+The plugin-based textrenderer can be selected on OS/X and Linux by
 using the command [Screen](/docs/Screen)\('[Preference](/docs/Preference)', 'TextRenderer', 2\). On Linux, the
-plugin\-based renderer is used by default without need for this command.
+plugin-based renderer is used by default without need for this command.
 On OS/X, normally Apple's ATSU text renderer would be used, so this
 plugin renderer needs to be manually selected if desired.
 
-The text renderer plugin implements a high\-speed renderer based on a
+The text renderer plugin implements a high-speed renderer based on a
 combination of multiple free software libraries for text rendering and
 text handling:
 
-\* OGLFT \(http://oglft.sourceforge.net/\) the OpenGL\-FreeType library.
-\* The FreeType\-2 \(http://freetype.sourceforge.net/\) library.
+\* OGLFT \(http://oglft.sourceforge.net/\) the OpenGL-FreeType library.
+\* The FreeType-2 \(http://freetype.sourceforge.net/\) library.
 \* The FontConfig \(http://www.fontconfig.org\) library.
 
 The FontConfig library is used to find the optimal font and font
 settings, given a specific font specification by your user code, a process
-known as "font matching". FontConfig internally uses the FreeType\-2
+known as "font matching". FontConfig internally uses the FreeType-2
 library to handle the font files on your system and to gather all needed
 information for the matching process.
 
-After a font and settings have been selected, FreeType\-2 is used to load
-the font and convert it into high\-quality character glyphs, then the
+After a font and settings have been selected, FreeType-2 is used to load
+the font and convert it into high-quality character glyphs, then the
 OGLFT library is used to convert these glyphs into a format optimized for
 fast drawing with OpenGL. OGLFT also performs caching of glyphs, text
 layout, measurement of text dimensions and bounding boxes and the actual
@@ -50,12 +51,12 @@ Our actual plugin coordinates all these operations and communicates with
 The source code of the plugin can be found in the Psychtoolbox source
 tree under PsychSourceGL/Cohorts/FTGLTextRenderer/
 
-The plugins themselves \- one per operating system \- are stored in the
+The plugins themselves - one per operating system - are stored in the
 Psychtoolbox/PsychBasic/PsychPlugins folder of your Psychtoolbox
 installation. This is where [Screen](/docs/Screen)\(\) expects to find the plugins for
 dynamic loading.
 
-The plugins require a working installation of the FreeType\-2 and
+The plugins require a working installation of the FreeType-2 and
 FontConfig libraries on your operating system, ie., somewhere in the
 system library search path.
 
@@ -67,14 +68,14 @@ In the unlikely case they are missing on your Linux setup, something like
 the following commands \(on a Debian compatible system like Ubuntu Linux\)
 should do the job:
 
-sudo apt\-get install freetype
-sudo apt\-get install fontconfig
+sudo apt-get install freetype
+sudo apt-get install fontconfig
 
 You may need to search around a bit or use your graphical package manager
 if the names don't match perfectly.
 
-On OS/X, these libraries are part of the X\-Server, so if you have an
-X\-Server installed, you'll have those libraries available.
+On OS/X, these libraries are part of the X-Server, so if you have an
+X-Server installed, you'll have those libraries available.
 
 # Reasons for failure to load the plugin:
 
@@ -84,7 +85,7 @@ X\-Server installed, you'll have those libraries available.
 
    cd\(\[PsychtoolboxRoot '/PsychBasic/PsychPlugins'\]\);
    Run system\('ldd libptbdrawtext\_ftgl.so.\*'\) on Linux or
-   Run system\('otool \-L libptbdrawtext\_ftgl.dylib'\) on OS/X.
+   Run system\('otool -L libptbdrawtext\_ftgl.dylib'\) on OS/X.
 
    This will print out a list of all libraries \(and their versions\)
    required by the plugin, and some diagnostic to tell you if matching
@@ -93,15 +94,15 @@ X\-Server installed, you'll have those libraries available.
 
 2. The plugin can't be found in your Psychtoolbox/PsychBasic/PsychPlugins
    folder, either because it is missing, or the path to that folder can't
-   be found. In the former case, run UpdatePsychtoolbox again \-
+   be found. In the former case, run UpdatePsychtoolbox again -
    something's broken with your Psychtoolbox installation. In the latter
    case you can try to copy the plugin directly into one of the system
-   library folders, e.g., /usr/lib /lib or /usr/local/lib \- This way the
+   library folders, e.g., /usr/lib /lib or /usr/local/lib - This way the
    system may be able to automatically locate the plugin.
 
 3. Other: Use Google to search the Psychtoolbox forum and the internet
-   for help, check for info on the Psychtoolbox Wiki and \- if everything
-   else fails \- contact the Psychtoolbox forum for help. In the latter
+   for help, check for info on the Psychtoolbox Wiki and - if everything
+   else fails - contact the Psychtoolbox forum for help. In the latter
    case, describe exactly your system, what troubleshooting steps you
    performed and the exact results of these steps and their output.
 

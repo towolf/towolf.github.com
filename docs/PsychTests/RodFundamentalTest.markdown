@@ -3,6 +3,7 @@ layout: mfile
 title: RodFundamentalTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 RodFundamentalTest

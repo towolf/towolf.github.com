@@ -3,6 +3,7 @@ layout: mfile
 title: glGenVertexArrays
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGenVertexArrays  Interface to OpenGL function glGenVertexArrays

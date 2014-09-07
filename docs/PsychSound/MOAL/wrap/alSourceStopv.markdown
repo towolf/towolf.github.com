@@ -3,6 +3,7 @@ layout: mfile
 title: alSourceStopv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alSourceStopv  Interface to OpenAL function alSourceStopv

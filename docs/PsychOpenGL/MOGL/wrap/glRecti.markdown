@@ -3,6 +3,7 @@ layout: mfile
 title: glRecti
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glRecti  Interface to OpenGL function glRecti

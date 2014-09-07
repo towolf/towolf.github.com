@@ -3,6 +3,7 @@ layout: mfile
 title: SetRect
 categories:
   - PsychRects
+encoding: UTF-8
 ---
 
  newRect = SetRect\(left,top,right,bottom\);

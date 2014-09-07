@@ -3,6 +3,7 @@ layout: mfile
 title: glGetBooleanv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetBooleanv  Interface to glGetBooleanv

@@ -3,9 +3,10 @@ layout: mfile
 title: PsychJavaTrouble
 categories:
   - PsychJava
+encoding: UTF-8
 ---
 
-PsychJavaTrouble \-\- What to do if Java\-based Psychtoolbox functions fail?
+PsychJavaTrouble -- What to do if Java-based Psychtoolbox functions fail?
 
 You probably arrived at this help text because of an error in execution
 of one of the Psychtoolbox Java based functions, e.g., ListenChar,
@@ -15,7 +16,7 @@ There are four common reasons for failure of Java based Psychtoolbox
 functions:
 
 1. You run Matlab in nojvm mode, i.e., you started Matlab via 'matlab
-\-nojvm'. In that case, Matlabs Java virtual machine is disabled and so
+-nojvm'. In that case, Matlabs Java virtual machine is disabled and so
 are all Java based Psychtoolbox functions. In that case you need to
 restart Matlab with its Java VM enabled.
 
@@ -36,7 +37,7 @@ printed file should contain the path to the PsychJava folder. If it
 doesn't, you may want to edit the file yourself \('which classpath.txt'
 tells you the location of the file\) or ask a system administrator to do
 it for you. After editing the file you need to restart Matlab. Instead of
-manual editing you can also call this function as PsychJavaTrouble\(1\); \-
+manual editing you can also call this function as PsychJavaTrouble\(1\); -
 This will try to automatically modify the classpath.txt or
 javaclasspath.txt file if your Matlab runs with sufficient permissions,
 e.g., administrator permissions.
@@ -52,13 +53,13 @@ adding it to experiment scripts may impair proper working of that
 scripts.
 
 4. You didn't restart Matlab after the Psychtoolbox installer asked you
-to do so. \-\> Restart Matlab and retry.
+to do so. -\> Restart Matlab and retry.
 
 5. The versions of GetCharJava bundled with Psychtoolbox are incompatible
 with the version of Java installed on your machine or bundled with your
 version of Matlab. If you have a Java SDK installed on your machine,
 Psychtoolbox will try to compile a matching version of GetCharJava. This
-should succeed on OS\-X but is unlikely to work on Windows, because that
+should succeed on OS-X but is unlikely to work on Windows, because that
 system does not have a javac compiler installed by default.
 
 6. Other reasons: Post to the Psychtoolbox forum and ask for help.

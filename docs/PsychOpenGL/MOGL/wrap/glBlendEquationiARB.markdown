@@ -3,6 +3,7 @@ layout: mfile
 title: glBlendEquationiARB
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glBlendEquationiARB  Interface to OpenGL function glBlendEquationiARB

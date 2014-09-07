@@ -3,6 +3,7 @@ layout: mfile
 title: DisplayUndistortionBezier
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 DisplayUndistortionBezier\(\[caliboutfilename\] \[, xnum=2\]\[, ynum=2\]\[, subdivision=100\]\[, imagename=default\]\[, screenid=max\]\[, stereomode=0\]\[, winrect=\[\]\]\[, calibinfilename\]\[, refimagename\]\)
@@ -31,8 +32,8 @@ show up undistorted on the display device.
 
 1. Recent graphics hardware with support for the PTB imaging pipeline:
 See our Wiki for recommendations. However, all ATI cards starting with
-Radeon 9500 and all NVidia cards of type GeForce\-FX5200 and later, as
-well as the Intel\-GMA 950 and later should be able to do it, although
+Radeon 9500 and all NVidia cards of type GeForce-FX5200 and later, as
+well as the Intel-GMA 950 and later should be able to do it, although
 more recent cards will have a higher performance.
 
 2. A calibration file that defines the warp transformation to apply. Your
@@ -73,12 +74,12 @@ use. Higher numbers mean finer and more flexible control, but also a more
 tedious calibration for you. Their number doesn't affect runtime
 behaviour of your stimulus script. For simple trapezoid correction or
 translation/rotation, the minimum allowed number of control points xnum=2
-and ynum=2 is sufficient \- this is the default. For most other purposes
+and ynum=2 is sufficient - this is the default. For most other purposes
 a 3 by 3 grid of control points xnum=3 and ynum=3 may suffice. However,
 you are not limited by any upper bound...
 
 'subdivision' Number of vertical and horizontal subdivisions of the
-bezier surface \- the grid resolution: Higher numbers mean higher accuracy
+bezier surface - the grid resolution: Higher numbers mean higher accuracy
 but also higher computational overhead in your script. However, recent
 graphics hardware shouldn't have much problems handling reasonably sized
 meshes. Defaults to a 100 by 100 grid.
@@ -92,9 +93,9 @@ max\([Screen](/docs/Screen)\('Screens'\)\) by default.
 
 'stereomode' Stereomode for which calibration should be applied: Defaults
 to 0 == Mono mode. \[6 1\] would mean: "Use stereomode 6 \(Anaglyph stereo\)
-and the right\-eye view \(1\)".
+and the right-eye view \(1\)".
 
-'winrect' Size of the calibration window: Defaults to full\-screen.
+'winrect' Size of the calibration window: Defaults to full-screen.
 
 'calibinfilename' Defaults to none. If provided, results of a previous
 calibration are loaded from file 'calibinfilename' instead of starting

@@ -3,6 +3,7 @@ layout: mfile
 title: ColMean
 categories:
   - PsychProbability
+encoding: UTF-8
 ---
 
 theMean = ColMean\(matrix\)

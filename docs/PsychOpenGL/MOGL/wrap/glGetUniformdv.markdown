@@ -3,6 +3,7 @@ layout: mfile
 title: glGetUniformdv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetUniformdv  Interface to OpenGL function glGetUniformdv

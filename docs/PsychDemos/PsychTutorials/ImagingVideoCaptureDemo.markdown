@@ -3,6 +3,7 @@ layout: mfile
 title: ImagingVideoCaptureDemo
 categories:
   - PsychTutorials
+encoding: UTF-8
 ---
 
 [Screen](/docs/Screen)\('[Preference](/docs/Preference)', 'Verbosity', 10\);

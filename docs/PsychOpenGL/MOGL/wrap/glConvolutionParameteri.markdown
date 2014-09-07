@@ -3,6 +3,7 @@ layout: mfile
 title: glConvolutionParameteri
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glConvolutionParameteri  Interface to OpenGL function glConvolutionParameteri

@@ -3,6 +3,7 @@ layout: mfile
 title: XYZToLuv
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 luv = XYZToLuv\(xyz,whiteXYZ\)

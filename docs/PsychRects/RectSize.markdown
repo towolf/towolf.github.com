@@ -3,6 +3,7 @@ layout: mfile
 title: RectSize
 categories:
   - PsychRects
+encoding: UTF-8
 ---
 
 \[width,height\] = RectSize\(rect\)

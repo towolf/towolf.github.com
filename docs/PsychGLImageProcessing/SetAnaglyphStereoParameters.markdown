@@ -3,16 +3,17 @@ layout: mfile
 title: SetAnaglyphStereoParameters
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 retval = SetAnaglyphStereoParameters\(subcommand, windowPtr, \[red green blue\]\);
 
-Change parameters of built\-in anaglyph stereo display function at
+Change parameters of built-in anaglyph stereo display function at
 runtime. Allows to change all relevant settings of the algorithm at any
 time in your script. You need to open your onscreen window with the
 'stereomode' parameter set to one of the anaglyph modes \(i.e. one of
-6=Red\-Green anaglyph, 7=Green\-Red, 8=Red\-Blue, 9=Blue\-Red, where
-Red\-Green means "Left eye displayed in red channel, right eye displayed
+6=Red-Green anaglyph, 7=Green-Red, 8=Red-Blue, 9=Blue-Red, where
+Red-Green means "Left eye displayed in red channel, right eye displayed
 in green channel"\).
 
 Anaglyph stereo also works in stereo modes 2, 3, 4, 5 and 10 if you used
@@ -21,7 +22,7 @@ PsychImaging\('AddTask', 'LeftView', 'DisplayColorCorrection', 'AnaglyphStereo'\
 ... and ...
 PsychImaging\('AddTask', 'RightView', 'DisplayColorCorrection', 'AnaglyphStereo'\)
 ... setup sequence to add an anaglyph shader to the end of each view
-channel. However, in those "non\-pure" exotic anaglyph modes only a subset
+channel. However, in those "non-pure" exotic anaglyph modes only a subset
 of the commands mentioned here work, specifically the ones for advanced
 anaglyph display, ie., subfunctions 'ColorAnaglyphMode' and friends. Inverted mode
 or simple mode or changing NTSC weights or simple gains does not work in
@@ -39,61 +40,60 @@ windowPtr = PsychImaging\('OpenWindow', screenid, bgcolor, \[\], \[\], \[\], ste
 See 'help PsychImaging' and 'help PsychGLImageProcessing' for an overview
 of the imaging pipeline.
 
-Parameters and their meaning:
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
+# Parameters and their meaning
 
 'windowPtr' is the handle to a anaglyph stereo onscreen window.
 
 # 'subcommand' can be one of:
 
-'LeftGains' \- Provide \(in optional vector \[red green blue\]\) per\-channel
-color gains for computation of the left\-eye channel. This allows to
+'LeftGains' - Provide \(in optional vector \[red green blue\]\) per-channel
+color gains for computation of the left-eye channel. This allows to
 adjust the output colors to optimally match the color emission / filter
-profile of your anaglyph glasses and monitor \- Reduce ghosting / visual
+profile of your anaglyph glasses and monitor - Reduce ghosting / visual
 crosstalk. E.g.
 
 SetAnaglyphStereoParameters\('LeftGains', win, \[1.0 0.0 0.0\]\); sets the
-red\-gain for the left eye image to 1.0 and disables output of the left
+red-gain for the left eye image to 1.0 and disables output of the left
 eye image into the green or blue channels. This is the default setting
-for Red\-Green or Red\-Blue anaglyph, left eye view only goes into red
+for Red-Green or Red-Blue anaglyph, left eye view only goes into red
 channel.
 
 The command always returns the old gains as a 3 component vector.
 
-'RightGains' \- See left gains, but this time for right image:
+'RightGains' - See left gains, but this time for right image:
 SetAnaglyphStereoParameters\('RightGains', win, \[0.0 0.7 0.0\]\);
-would set the green channel to 70% output intensity and disable the red\-
-and blue channels. This is a typical setting for Red\-Green anaglyph
+would set the green channel to 70% output intensity and disable the red-
+and blue channels. This is a typical setting for Red-Green anaglyph
 stereo: Right eye only written to green color channel, but with reduced
-output intensity to compensate for the stronger green\-sensitivity of the
+output intensity to compensate for the stronger green-sensitivity of the
 human eye.
 
-'ColorToLuminanceWeights' \- Set the color to luminance conversion
+'ColorToLuminanceWeights' - Set the color to luminance conversion
 weights: PTB converts all color images into pure luminance \(greyscale\)
 images before distributing them into the color channels via the formula:
-Luminance = redvalue \* redweight \+ bluevalue \* blueweight \+ greenvalue \*
+Luminance = redvalue \* redweight + bluevalue \* blueweight + greenvalue \*
 greenweight.
 
-The default red\- green\- and blue\-weights are \(0.3, 0.59, 0.11\), so:
-L = 0.3\*red \+ 0.59\*green \+ 0.11\*blue. This is according to NTSC standard
+The default red- green- and blue-weights are \(0.3, 0.59, 0.11\), so:
+L = 0.3\*red + 0.59\*green + 0.11\*blue. This is according to NTSC standard
 \(if i remember correctly\!\). You can change the weights via:
 
 SetAnaglyphStereoParameters\('ColorToLuminanceWeights', win, \[redweight greenweight blueweight\]\);
 
 The command always returns the old weights as a 3 component vector.
 
-'BackgroundColorBias' \- Set the "background color" for inverted anaglyph
-mode. This color value is added to each pixel. It defaults to zero \- bias
+'BackgroundColorBias' - Set the "background color" for inverted anaglyph
+mode. This color value is added to each pixel. It defaults to zero - bias
 free display. For inverted mode, one usually sets it to maximum output
 intensity, so that the default background is a bright output.
 
-'InvertedMode' \- Switch to inverted display mode, i.e., set the
+'InvertedMode' - Switch to inverted display mode, i.e., set the
 'BackgroundColorBias' and color gains properly. The image is displayed in
-an inverted fashion, like a photo\-negative. This allows for less ghosting
+an inverted fashion, like a photo-negative. This allows for less ghosting
 artifacts if your stimulus is sparse, e.g., dots and lines. This trick
 was proposed by Massimiliano di Luca.
 
-'NormalMode' \- Switch from inverted mode to normal anaglyph mode.
+'NormalMode' - Switch from inverted mode to normal anaglyph mode.
 Background color bias is set to zero, gains a positive.
 
 # Color reproduction in color images with Anaglyphs:
@@ -103,7 +103,7 @@ SetAnaglyphStereoParameters\('ColorAnaglyphMode', win \[,LeftMatrix\] \[,RightMa
 This switches to a more flexible anaglyph implementation, where the
 output color is calculated as:
 
-\[redout, greenout, blueout\]' = LeftMatrix \* \[leftred, leftgreen, leftblue\]' \+ RightMatrix \* \[rightred, rightgreen, rightblue\]'
+\[redout, greenout, blueout\]' = LeftMatrix \* \[leftred, leftgreen, leftblue\]' + RightMatrix \* \[rightred, rightgreen, rightblue\]'
 
 where \[redout, greenout, blueout\] == Final anaglyph color pixel.
       \[leftred, leftgreen, leftblue\] == Input left eye pixel color.
@@ -143,7 +143,7 @@ Wherever this overlay has an alpha color value of zero, the stimulus will
 be shown. Wherever its alpha value is greater than zero, the overlays
 image will be shown.
 
-'GetHandle' \- Return GLSL handle to anaglyph shader. Allows to modify the
+'GetHandle' - Return GLSL handle to anaglyph shader. Allows to modify the
 shader itself, e.g., replace it by your own customized shader. Only for
 OpenGL experts\!
 

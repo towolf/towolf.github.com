@@ -3,6 +3,7 @@ layout: mfile
 title: ComputeWeibTAFC
 categories:
   - Psychometric
+encoding: UTF-8
 ---
 
 pCorrect = ComputeWeibTAFC\(x,alpha,beta\)
@@ -13,7 +14,7 @@ psychometric function is applied to the whole matrix.
 If 'x' is a matrix and the parameters are vectors, the
 parameters are taken as applying to separate columns.
 
-   pCorrect = \( 1.0 \- 0.5\*exp\( \- \(x./alpha\).^beta \) \)
+   pCorrect = \( 1.0 - 0.5\*exp\( - \(x./alpha\).^beta \) \)
 
 9/15/93  jms         Added some special casing to deal with matrix inputs
                      with/without vectors of parameters

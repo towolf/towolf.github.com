@@ -3,6 +3,7 @@ layout: mfile
 title: FlushCalFile
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 FlushCalFile\(\[filespec\],\[nKeep\]\)

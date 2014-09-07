@@ -3,6 +3,7 @@ layout: mfile
 title: glTexCoordP3uiv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glTexCoordP3uiv  Interface to OpenGL function glTexCoordP3uiv

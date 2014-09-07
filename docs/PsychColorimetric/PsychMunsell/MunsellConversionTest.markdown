@@ -3,6 +3,7 @@ layout: mfile
 title: MunsellConversionTest
 categories:
   - PsychMunsell
+encoding: UTF-8
 ---
 
 MunsellConversionToTest

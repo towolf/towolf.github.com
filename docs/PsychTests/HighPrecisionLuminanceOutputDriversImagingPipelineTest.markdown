@@ -3,6 +3,7 @@ layout: mfile
 title: HighPrecisionLuminanceOutputDriversImagingPipelineTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 HighPrecisionLuminanceOutputDriversImagingPipelineTest\(whichDriver, \[whichScreen\]\[,plotdiffs=0\]\[, forcesuccess=0\]\)
@@ -19,7 +20,7 @@ capable to correctly convert a high dynamic range / high bit precision
 luminance image into a output format suitable for driving one of the
 supported high precision luminance output devices, e.g., different Pelli,
 Zhang, Watson style video attenuators, Xiangru Li et al. VideoSwitchers,
-Pseudo\-Gray output formatters, etc.
+Pseudo-Gray output formatters, etc.
 
 It does so by generating a test stimulus, converting it into a properly
 formatted image via the "known good" Matlab reference implementation of
@@ -36,7 +37,7 @@ stimulus conversion will not work via the imaging pipeline.
 The required parameter 'whichDriver' defines the type of output driver to
 test. It can be any of the following:
 
-\* 'GenericLUT': Test the generic lookup\-table based driver that can handle
+\* 'GenericLUT': Test the generic lookup-table based driver that can handle
 arbitrary devices, albeit not with maximum speed. 'whichDriver' must be a
 struct with the following fields:
 
@@ -44,10 +45,10 @@ whichDriver.name = 'GenericLUT'
 
 # Then either one of these for testing of a generic LUT:
 
-whichDriver.bpc = Bitdepths of LUT to test \- Anything between 1 and 16.
-whichDriver.nslots = Size of LUT in slots \- Anything between 2 and 65536.
+whichDriver.bpc = Bitdepths of LUT to test - Anything between 1 and 16.
+whichDriver.nslots = Size of LUT in slots - Anything between 2 and 65536.
 
-Alternatively you can test with an existing self\-created LUT:
+Alternatively you can test with an existing self-created LUT:
 whichDriver.lut = A 3 rows by nslots column uint8 matrix which encodes
 the LUT: Rows 1,2 and 3 encode Red, Green and Blue channel, each of the
 'nslots' columns encodes a LUT slot. The driver will map luminance values
@@ -56,8 +57,8 @@ then readout the stored column vector with the output RGBA8 pixels to
 poke into the framebuffer.
 
 \* 'VideoSwitcherSimple': Test the "simple" driver for the VideoSwitcher
-video attenuator. The simple driver implements a closed\-form solution, a
-formula, to map luminance values between 0.0 \- 1.0 to output values for
+video attenuator. The simple driver implements a closed-form solution, a
+formula, to map luminance values between 0.0 - 1.0 to output values for
 the Red and Blue channel, just using the 'BTRR' ratio as parameter. This
 is the fast driver, as it doesn't need any lookup tables.
 
@@ -68,8 +69,8 @@ the Psychtoolbox configuration directory.
 \* 'VideoSwitcherCalibrated': Test the LUT based driver for the VideoSwitcher
 video attenuator. This driver computes the Blue channel value by
 searching for the given luminance value in a 256 entry lookup table, then
-uses a closed\-form formula to compute the Red channel drive value from
-the luminance and the looked\-up blue channel value. This is slower due to table
+uses a closed-form formula to compute the Red channel drive value from
+the luminance and the looked-up blue channel value. This is slower due to table
 lookups and requires more involved calibration procedures to build a
 lookup table, but it is also potentially more accurate.
 

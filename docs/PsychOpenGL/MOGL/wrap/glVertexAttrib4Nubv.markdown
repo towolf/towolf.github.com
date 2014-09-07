@@ -3,6 +3,7 @@ layout: mfile
 title: glVertexAttrib4Nubv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glVertexAttrib4Nubv  Interface to OpenGL function glVertexAttrib4Nubv

@@ -3,6 +3,7 @@ layout: mfile
 title: IsMinimumOSXVersion
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 rc = IsMinimumOSXVersion\(major, minor, point\);

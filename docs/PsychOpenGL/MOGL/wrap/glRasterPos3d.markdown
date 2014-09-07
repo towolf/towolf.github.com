@@ -3,6 +3,7 @@ layout: mfile
 title: glRasterPos3d
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glRasterPos3d  Interface to OpenGL function glRasterPos3d

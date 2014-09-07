@@ -3,6 +3,7 @@ layout: mfile
 title: glIndexub
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glIndexub  Interface to OpenGL function glIndexub

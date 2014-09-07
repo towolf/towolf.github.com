@@ -3,6 +3,7 @@ layout: mfile
 title: gluDisk
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluDisk  Interface to OpenGL function gluDisk

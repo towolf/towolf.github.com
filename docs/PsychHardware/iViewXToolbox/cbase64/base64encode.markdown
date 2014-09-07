@@ -3,6 +3,7 @@ layout: mfile
 title: base64encode
 categories:
   - cbase64
+encoding: UTF-8
 ---
 
 BASE64ENCODE Perform base64 encoding on a string.
@@ -14,17 +15,17 @@ BASE64ENCODE Perform base64 encoding on a string.
    EOL be empty if you do not want the encoded string broken into lines.
 
    STR and EOL don't have to be strings \(i.e., char arrays\).  The only
-   requirement is that they are vectors containing values in the range 0\-255.
+   requirement is that they are vectors containing values in the range 0-255.
 
    This function may be used to encode strings into the Base64 encoding
-   specified in RFC 2045 \- MIME \(Multipurpose Internet Mail Extensions\).  The
+   specified in RFC 2045 - MIME \(Multipurpose Internet Mail Extensions\).  The
    Base64 encoding is designed to represent arbitrary sequences of octets in a
-   form that need not be humanly readable.  A 65\-character subset
-   \(\[A\-Za\-z0\-9\+/=\]\) of US\-ASCII is used, enabling 6 bits to be represented per
+   form that need not be humanly readable.  A 65-character subset
+   \(\[A-Za-z0-9+/=\]\) of US-ASCII is used, enabling 6 bits to be represented per
    printable character.
 
    Examples
-   \-\-\-\-\-\-\-\-
+   --------
 
    If you want to encode a large file, you should encode it in chunks that are
    a multiple of 57 bytes.  This ensures that the base64 lines line up and

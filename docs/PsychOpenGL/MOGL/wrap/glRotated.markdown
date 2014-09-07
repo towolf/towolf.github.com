@@ -3,6 +3,7 @@ layout: mfile
 title: glRotated
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glRotated  Interface to OpenGL function glRotated

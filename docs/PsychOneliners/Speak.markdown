@@ -3,6 +3,7 @@ layout: mfile
 title: Speak
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 Use speech output to speak a given text.
@@ -11,7 +12,7 @@ Use speech output to speak a given text.
 
 \[ ret \] = Speak\(text \[, voice\]\[, rate\]\[, volume\]\[, pitch\]\[, language\]\);
 
-The function returns an optional 'ret'urn code 0 on success, non\-zero
+The function returns an optional 'ret'urn code 0 on success, non-zero
 on failure to speak the requested text.
 
 'text' must be a text to speak, either a text string or a cell array
@@ -25,24 +26,24 @@ The names of the available voices differ across operating systems.
 Linux supports, e.g., male1,  male2,  male3,  female1,  female2,
 female3, child\_male, child\_female.
 
-OS/X: Type "\!say \-v ?" in Matlab to get a list of supported voices.
+OS/X: Type "\!say -v ?" in Matlab to get a list of supported voices.
 
 The optional 'rate' parameter controls speed of speaking on OS/X and
 Linux. On OS/X it defines the number of words per minute, on Linux a
-value between \-100 and \+100 defines slower or faster speed.
+value between -100 and +100 defines slower or faster speed.
 
 The optional 'volume' parameter allows control of loudness on Linux:
-Value range is \-100 to \+ 100.
+Value range is -100 to + 100.
 
 The optional 'pitch' parameter allows control of pitch on Linux:
-Value range is \-100 to \+ 100.
+Value range is -100 to + 100.
 
 The optional 'language' parameter allows control of the output language
 on Linux. E.g., 'de' would output in german language, 'en' english
 language. The text string must be a valid ISO language code string.
 
-Note: Speak on MS\-Windows requires the .NET framework to be installed.
-Note: Speak on Linux requires the spd\-say command to be installed. This
+Note: Speak on MS-Windows requires the .NET framework to be installed.
+Note: Speak on Linux requires the spd-say command to be installed. This
 is the case by default, e.g., at least on Ubuntu Linux 12.04 and later.
 
 Examples:

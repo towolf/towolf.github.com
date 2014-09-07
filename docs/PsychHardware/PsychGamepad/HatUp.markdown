@@ -3,6 +3,7 @@ layout: mfile
 title: HatUp
 categories:
   - PsychGamepad
+encoding: UTF-8
 ---
 
 result = HatUp

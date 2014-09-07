@@ -3,6 +3,7 @@ layout: mfile
 title: MouseTraceDemo2
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 MouseTraceDemo2
@@ -20,7 +21,7 @@ See also: PsychDemos, MouseTraceDemo, GetMouse.
 
 4/23/05  mk       Derived from MouseTraceDemoOSX: Uses new "Don't clear" mode of [Flip](/docs/Flip).
                   to avoid redrawing the whole past mousetrace after each
-                  [Flip](/docs/Flip) \-\-\> Faster.
+                  [Flip](/docs/Flip) --\> Faster.
 
 
 <div class="code_header" style="text-align:right;">

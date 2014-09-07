@@ -3,6 +3,7 @@ layout: mfile
 title: GL_SRC_ALPHA
 categories:
   - PsychAlphaBlending
+encoding: UTF-8
 ---
 
 constantString=GL\_SRC\_ALPHA

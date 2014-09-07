@@ -3,6 +3,7 @@ layout: mfile
 title: glGetQueryObjectui64v
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetQueryObjectui64v  Interface to OpenGL function glGetQueryObjectui64v

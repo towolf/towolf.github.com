@@ -3,6 +3,7 @@ layout: mfile
 title: PhotopigmentNomogram
 categories:
   - PsychColorimetricData
+encoding: UTF-8
 ---
 
 T\_absorbance = PhotopigmentNomogram\(S,lambdaMax,\[source\]\)

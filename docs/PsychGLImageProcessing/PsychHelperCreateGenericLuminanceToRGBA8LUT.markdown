@@ -3,21 +3,22 @@ layout: mfile
 title: PsychHelperCreateGenericLuminanceToRGBA8LUT
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 luttex = PsychHelperCreateGenericLuminanceToRGBA8LUT\(lut\);
 
-Helper function for PsychImaging\(\) \- Don't call from usercode\!
+Helper function for PsychImaging\(\) - Don't call from usercode\!
 
 Used by PsychImaging\(....,'EnableGenericHighPrecisionLuminanceOutput', lut\);
-Converts a luminance \-\> RGB8 or RGBA8 LUT as provided in the 3\- or 4 rows
+Converts a luminance -\> RGB8 or RGBA8 LUT as provided in the 3- or 4 rows
 by n columns matrix 'lut' into an equivalent RGBA8 lookup table texture,
 then returns the texture handle to the calling routine.
 
 'lut' = 3 rows by nslots columns uint8 matrix for LUT's that map the
-input luminance value range \[0.0 \- 1.0\] to the integral 0 \- nslots range,
+input luminance value range \[0.0 - 1.0\] to the integral 0 - nslots range,
 then lookup the corresponding RGB8 output pixel in the lut. If 'lut' has
-4 rows, then the 4th row encodes alpha\-channel \- This is only useful for
+4 rows, then the 4th row encodes alpha-channel - This is only useful for
 debugging, as teh alpha channel can't be output to the external device.
 
 # Implementation details:

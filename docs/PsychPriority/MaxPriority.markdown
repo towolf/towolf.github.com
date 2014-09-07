@@ -3,6 +3,7 @@ layout: mfile
 title: MaxPriority
 categories:
   - PsychPriority
+encoding: UTF-8
 ---
 
 priorityLevel=MaxPriority\(\[windowPtrOrScreenNumber\],\['WaitBlanking'\],\['PeekBlanking'\],...

@@ -3,6 +3,7 @@ layout: mfile
 title: glDebugMessageControl
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDebugMessageControl  Interface to OpenGL function glDebugMessageControl

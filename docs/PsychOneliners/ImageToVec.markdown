@@ -3,6 +3,7 @@ layout: mfile
 title: ImageToVec
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 \[vec,nRows,nCols\] = ImageToVec\(image\)

@@ -3,6 +3,7 @@ layout: mfile
 title: Var2Str
 categories:
   - PsychFiles
+encoding: UTF-8
 ---
 
 str = Var2Str\(in,name\)
@@ -10,7 +11,7 @@ str = Var2Str\(in,name\)
 Takes variable IN and creates a string representation of it that would
 return the original variable when fed to eval\(\). NAME is the name of the variable
 that will be printed in this string.
-Can process any \(combination of\) MATLAB built\-in datatype
+Can process any \(combination of\) MATLAB built-in datatype
 
 examples:
   Var2Str\(\{4,7,'test',@exp\}\)

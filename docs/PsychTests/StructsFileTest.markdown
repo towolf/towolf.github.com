@@ -3,6 +3,7 @@ layout: mfile
 title: StructsFileTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 StructsFileTest

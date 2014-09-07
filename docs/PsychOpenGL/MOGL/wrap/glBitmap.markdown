@@ -3,6 +3,7 @@ layout: mfile
 title: glBitmap
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glBitmap  Interface to OpenGL function glBitmap

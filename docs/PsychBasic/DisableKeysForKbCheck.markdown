@@ -3,6 +3,7 @@ layout: mfile
 title: DisableKeysForKbCheck
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 olddisabledkeys = DisableKeysForKbCheck\(\[disablekeys\]\)

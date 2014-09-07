@@ -3,6 +3,7 @@ layout: mfile
 title: MeasureDpi
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 dpi=MeasureDpi\(\[theScreen\]\)

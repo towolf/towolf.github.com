@@ -3,6 +3,7 @@ layout: mfile
 title: CalibrateMonDrvr
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 cal = CalibrateMonDrvr\(cal,USERPROMPT,whichMeterType,blankOtherScreen\)

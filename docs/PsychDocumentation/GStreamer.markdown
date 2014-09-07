@@ -3,11 +3,12 @@ layout: mfile
 title: GStreamer
 categories:
   - PsychDocumentation
+encoding: UTF-8
 ---
 
-[GStreamer](/docs/GStreamer) \- Installation instructions for the [GStreamer](/docs/GStreamer) media framework.
+[GStreamer](/docs/GStreamer) - Installation instructions for the [GStreamer](/docs/GStreamer) media framework.
 
-Psychtoolbox uses the [GStreamer](/docs/GStreamer) multi\-media framework for all multi\-media
+Psychtoolbox uses the [GStreamer](/docs/GStreamer) multi-media framework for all multi-media
 related operations.
 
 All movie playback, movie creation, video capture and video recording
@@ -23,13 +24,13 @@ limited in functionality or performance if you don't use a recent version
 of [GStreamer](/docs/GStreamer). Do not install [GStreamer](/docs/GStreamer) version 1.0 or later\! We need 0.10
 and won't work with 1.0 yet.
 
-[GStreamer](/docs/GStreamer) is a free software / open\-source multimedia framework. The
+[GStreamer](/docs/GStreamer) is a free software / open-source multimedia framework. The
 summary on its webpage tells us:
 
-"[GStreamer](/docs/GStreamer) is a library for constructing graphs of media\-handling
+"[GStreamer](/docs/GStreamer) is a library for constructing graphs of media-handling
 components. The applications it supports range from simple Ogg/Vorbis
 playback, audio/video streaming to complex audio \(mixing\) and video
-\(non\-linear editing\) processing.
+\(non-linear editing\) processing.
 
 Applications can take advantage of advances in codec and filter
 technology transparently. Developers can add new codecs and filters by
@@ -47,13 +48,13 @@ based embedded devices.
 # Installation instructions:
 
 
-GNU/Linux: Any half\-way recent Linux distribution will include support
+GNU/Linux: Any half-way recent Linux distribution will include support
 for [GStreamer](/docs/GStreamer) in its package management system, so you can easily install
 it via the software management tool of your system. If you install PTB
 via NeuroDebian then most [GStreamer](/docs/GStreamer) packages will get automatically
 installed, with exception of some optional packages, so read on.
 
-You will need at least the core [GStreamer](/docs/GStreamer) runtime and the gstreamer\-base
+You will need at least the core [GStreamer](/docs/GStreamer) runtime and the gstreamer-base
 set of plugins, but we recommend to install all available plugins for
 full functionality and performance. Modern desktop distros usually
 already ship with these.
@@ -68,23 +69,23 @@ specifically add them to your system depending on your format needs.
 
 # E.g., on Debian or Ubuntu:
 
-    sudo apt\-get install gstreamer0.10\-plugins\-bad\-multiverse
-    gstreamer0.10\-plugins\-ugly\-multiverse
+    sudo apt-get install gstreamer0.10-plugins-bad-multiverse
+    gstreamer0.10-plugins-ugly-multiverse
 
-Ubuntu 14.04\-LTS removed the [GStreamer](/docs/GStreamer) FFMPEG plugins from the standard
+Ubuntu 14.04-LTS removed the [GStreamer](/docs/GStreamer) FFMPEG plugins from the standard
 distribution, so you will need to install those plugins from a 3rd
-party multi\-media PPA. Do so by performing these additional setup steps:
+party multi-media PPA. Do so by performing these additional setup steps:
 
-sudo apt\-add\-repository ppa:mc3man/trusty\-media
-sudo apt\-get update
-sudo apt\-get install gstreamer0.10\-ffmpeg
+sudo apt-add-repository ppa:mc3man/trusty-media
+sudo apt-get update
+sudo apt-get install gstreamer0.10-ffmpeg
 
 
-# MS\-Windows and Apple MacOSX:
+# MS-Windows and Apple MacOSX:
 
-You must install [GStreamer](/docs/GStreamer) if you want to use multi\-media functions\! If
-you don't intend to use multi\-media functions then installation of
-[GStreamer](/docs/GStreamer) is optional on MS\-Windows, but possibly not on OSX.
+You must install [GStreamer](/docs/GStreamer) if you want to use multi-media functions\! If
+you don't intend to use multi-media functions then installation of
+[GStreamer](/docs/GStreamer) is optional on MS-Windows, but possibly not on OSX.
 
 # Download and install the latest [GStreamer](/docs/GStreamer) runtimes from:
 
@@ -98,7 +99,7 @@ video formats and all functionality. Without this, many popular video
 formats like H264 video will not play at all, or video recording / video
 capture and similar functions will not work. In fact, even our own demos,
 e.g., SimpleMovieDemo \*will fail\* if you don't have all codecs installed\!
-\-\> If SimpleMovieDemo doesn't work, then the most likely cause is that
+-\> If SimpleMovieDemo doesn't work, then the most likely cause is that
 you didn't select all [GStreamer](/docs/GStreamer) packages for installation, so restart the
 installer and repeat installation with the full set of packages.
 
@@ -107,32 +108,32 @@ On Apple MacOSX, optionally you can also install [GStreamer](/docs/GStreamer) ve
 via the Homebrew package manager, building the very latest [GStreamer](/docs/GStreamer) from
 source code. This is more effort and takes more time for download and
 installation, but may provide some extra features for video capture and
-possibly enhanced performance for video playback of high\-resolution,
-high\-framerate movies:
+possibly enhanced performance for video playback of high-resolution,
+high-framerate movies:
 
 Get Homebrew at ...
 
 http://mxcl.github.com/homebrew
 
-# then add the Homebrew\-Versions repository via typing \(in your terminal window\):
+# then add the Homebrew-Versions repository via typing \(in your terminal window\):
 
 brew tap homebrew/versions
 
 # ... then install all components of the [GStreamer](/docs/GStreamer) 0.10 series via:
 
-brew install gstreamer010 gst\-plugins\-base010 gst\-plugins\-good010
-gst\-plugins\-bad010 gst\-plugins\-ugly010
+brew install gstreamer010 gst-plugins-base010 gst-plugins-good010
+gst-plugins-bad010 gst-plugins-ugly010
 
 # Then install our own FFMPEG [GStreamer](/docs/GStreamer) formula via:
 
-brew install gst\-ffmpeg010
+brew install gst-ffmpeg010
 
 # ... or if that doesn't work, try the following alternative:
 
-brew install https://raw.github.com/Psychtoolbox\-3/homebrew\-versions/gst\-ffmpeg010/gst\-ffmpeg010.rb
+brew install https://raw.github.com/Psychtoolbox-3/homebrew-versions/gst-ffmpeg010/gst-ffmpeg010.rb
 
 After a couple minutes of download and compile time, you'll have a fully
-functional [GStreamer](/docs/GStreamer) compiled from source \- assuming everything goes
+functional [GStreamer](/docs/GStreamer) compiled from source - assuming everything goes
 well, that is.
 
 

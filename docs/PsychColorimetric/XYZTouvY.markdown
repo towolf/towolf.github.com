@@ -3,6 +3,7 @@ layout: mfile
 title: XYZTouvY
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 uvY = XYZTouvY\(XYZ,\[compute1960\]\)

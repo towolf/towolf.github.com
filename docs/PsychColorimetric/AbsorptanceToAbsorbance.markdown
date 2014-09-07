@@ -3,6 +3,7 @@ layout: mfile
 title: AbsorptanceToAbsorbance
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 \[absorbanceSpectra, absorbanceSpectraWls\] =...
@@ -21,7 +22,7 @@ Both absorptance spectra and absorbance spectra describe quantal absorption.
 Absorbance spectra are normalized to a peak value of 1.
 Absorptance spectra are the proportion of quanta actually absorbed.
 
-Equation: absorptanceSpectra = 1 \- 10.^\(\-OD \* absorbanceSpectra\)
+Equation: absorptanceSpectra = 1 - 10.^\(-OD \* absorbanceSpectra\)
 
 Multiple spectra may be passed in the rows of absorbanceSpectra.  If
 so, then the same number of densities should be passed in the vector
@@ -38,7 +39,7 @@ from constituant parts, and thus probably don't need to do that.  See
 
 Originally written by HH, Copyright HH, Vista Lab, 2010
 
-8/11/13  dhb  Moved into PTB, modified comments so as not to refer to non\-PTB routines.
+8/11/13  dhb  Moved into PTB, modified comments so as not to refer to non-PTB routines.
          dhb  That this actually inverts is tested in IsomerizationsInEyeDemo.
 12/02/13 dhb  Fix spelling of "absorptance" in routine names and throughout.
 

@@ -3,6 +3,7 @@ layout: mfile
 title: PR655init
 categories:
   - PR655Toolbox
+encoding: UTF-8
 ---
 
 retval = PR655init\(portNumber, \[enableHandshaking\]\)
@@ -20,7 +21,7 @@ necessary with the PR655, so one run of this seems to do the trick.
 "usbmodem\*" seems to cover every instance I've run into. Not sure about
 the prevalance of using usbmodem as a generic identifier, but if you can
 afford the PR655, you're probably on some more respectable form of internet
-connection. \-TBC
+connection. -TBC
 
 
 

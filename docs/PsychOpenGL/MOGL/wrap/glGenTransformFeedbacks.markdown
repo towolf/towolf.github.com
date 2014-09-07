@@ -3,6 +3,7 @@ layout: mfile
 title: glGenTransformFeedbacks
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGenTransformFeedbacks  Interface to OpenGL function glGenTransformFeedbacks

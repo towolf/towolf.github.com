@@ -3,6 +3,7 @@ layout: mfile
 title: HatCenter
 categories:
   - PsychGamepad
+encoding: UTF-8
 ---
 
 result = HatCenter

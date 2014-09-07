@@ -3,6 +3,7 @@ layout: mfile
 title: CalibratePlotAmbient
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 fig = CalibratePlotAmbient\(cal,\[fig\]\)

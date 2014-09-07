@@ -3,6 +3,7 @@ layout: mfile
 title: Rush
 categories:
   - PsychPriority
+encoding: UTF-8
 ---
 
 [Rush](/docs/Rush)\(rushedCode, priorityLevel\)

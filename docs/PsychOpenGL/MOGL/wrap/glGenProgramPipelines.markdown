@@ -3,6 +3,7 @@ layout: mfile
 title: glGenProgramPipelines
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGenProgramPipelines  Interface to OpenGL function glGenProgramPipelines

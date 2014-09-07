@@ -3,6 +3,7 @@ layout: mfile
 title: compatibility
 categories:
   - EyelinkToolbox
+encoding: UTF-8
 ---
 
 % compatability notes
@@ -28,7 +29,7 @@ USAGE: \[result dummy\]=EyelinkInit\(\[dummy=0\]\[enableCallbacks=0\]\)
   enableCallbacks: Omit, or set to 0 for operation without callbacks and
                    without display of eye camera images on the Subject PC.
 
-With these set, things should work as they used to \(but you'll loose the eye\-image\!\).
+With these set, things should work as they used to \(but you'll loose the eye-image\!\).
 
 Frans Cornelissen,
 Santa Barbara, 29th July 2010

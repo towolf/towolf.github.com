@@ -3,6 +3,7 @@ layout: mfile
 title: RandDim
 categories:
   - PsychProbability
+encoding: UTF-8
 ---
 
 mat = RandDim\(in,dim\)

@@ -3,6 +3,7 @@ layout: mfile
 title: IsOSX
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 resultFlag = IsOSX\(\[is64=0\]\)

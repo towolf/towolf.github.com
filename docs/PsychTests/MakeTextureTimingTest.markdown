@@ -3,6 +3,7 @@ layout: mfile
 title: MakeTextureTimingTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 MakeTextureTimingTest

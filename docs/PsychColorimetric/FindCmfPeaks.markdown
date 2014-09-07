@@ -3,6 +3,7 @@ layout: mfile
 title: FindCmfPeaks
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
  \[peakWls,peakVals\] = FindCmfPeaks\(S\_xxx,T\_xxx\)

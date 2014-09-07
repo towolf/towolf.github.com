@@ -3,6 +3,7 @@ layout: mfile
 title: ErrorCatchDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 

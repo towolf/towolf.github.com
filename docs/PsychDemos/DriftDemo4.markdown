@@ -3,6 +3,7 @@ layout: mfile
 title: DriftDemo4
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 function DriftDemo4\(\[angle=0\]\[, cyclespersecond=1\]\[, freq=1/360\]\[, gratingsize=360\]\[, internalRotation=0\]\)
@@ -11,12 +12,12 @@ function DriftDemo4\(\[angle=0\]\[, cyclespersecond=1\]\[, freq=1/360\]\[, grati
 Display an animated grating, using the new [Screen](/docs/Screen)\('DrawTexture'\) command.
 This demo demonstrates fast drawing of such a grating via use of procedural
 texture mapping. It only works on hardware with support for the GLSL
-shading language, vertex\- and fragmentshaders. The demo ends if you press
+shading language, vertex- and fragmentshaders. The demo ends if you press
 any key on the keyboard.
 
-The grating is not encoded into a texture, but instead a little algorithm \- a
-procedural texture shader \- is executed on the graphics processor \(GPU\)
-to compute the grating on\-the\-fly during drawing.
+The grating is not encoded into a texture, but instead a little algorithm - a
+procedural texture shader - is executed on the graphics processor \(GPU\)
+to compute the grating on-the-fly during drawing.
 
 This is very fast and efficient\! All parameters of the grating can be
 changed dynamically. For a similar approach wrt. Gabors, check out

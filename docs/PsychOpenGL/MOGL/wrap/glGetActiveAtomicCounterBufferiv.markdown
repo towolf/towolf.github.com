@@ -3,6 +3,7 @@ layout: mfile
 title: glGetActiveAtomicCounterBufferiv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetActiveAtomicCounterBufferiv  Interface to OpenGL function glGetActiveAtomicCounterBufferiv

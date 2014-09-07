@@ -3,6 +3,7 @@ layout: mfile
 title: moglMakeGLHDRTexture
 categories:
   - PsychOpenGL
+encoding: UTF-8
 ---
 
 gltexId = moglMakeGLHDRTexture\(hdrImage, gltextarget \[, halffloat\]\)
@@ -22,10 +23,10 @@ floating point precision instead of 8 bpc fixed point precision.
 
 'hdrImage' must be a \(height, width, 4\) matrix of type 'double' or
 'single', where channel 1=Red, 2=Green, 3=Blue, 4=Alpha. The numeric
-range \(0.0 \- 1.0\) maps to \(minimum intensity \- maximum intensity\).
+range \(0.0 - 1.0\) maps to \(minimum intensity - maximum intensity\).
 
 If 'halffloat' is set to 1 \(default is 0\), then the texture is created as
-half\-precision floating point texture, ie 16 bpc floats. This saves
+half-precision floating point texture, ie 16 bpc floats. This saves
 memory and bandwidth and allows for floating point filtering on Geforce
 6000 and 7000 series.
 

@@ -3,6 +3,7 @@ layout: mfile
 title: BalanceTrials
 categories:
   - PsychProbability
+encoding: UTF-8
 ---
 
 BalanceTrials balances a set of factors given the factor levels.  It is
@@ -15,7 +16,7 @@ values for each trial, balanced and, optionally, randomized.
 BalanceTrials must be called with three or more input arguments.  The
 first argument, NTRIALS, specifies the number of trials desired.  The
 second argument, RAND, determines whether or not the returned factors
-should be shuffled \(non\-zero values lead to shuffling\).
+should be shuffled \(non-zero values lead to shuffling\).
 
 The remaining input arguments specify the levels for each of a set of
 factors.  Factor levels can be specified as numeric vectors or cell

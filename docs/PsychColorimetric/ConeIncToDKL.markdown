@@ -3,6 +3,7 @@ layout: mfile
 title: ConeIncToDKL
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 \[dkl\] = ConeIncToDKL\(coneInc,bg\)

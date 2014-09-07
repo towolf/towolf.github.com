@@ -3,6 +3,7 @@ layout: mfile
 title: kPsychNeed16BPCFloat
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 rval = kPsychNeed16BPCFloat

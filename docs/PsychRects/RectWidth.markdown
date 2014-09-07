@@ -3,6 +3,7 @@ layout: mfile
 title: RectWidth
 categories:
   - PsychRects
+encoding: UTF-8
 ---
 
 width = RectWidth\(rect\)

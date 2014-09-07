@@ -3,6 +3,7 @@ layout: mfile
 title: PsychRTBox
 categories:
   - PsychHardware
+encoding: UTF-8
 ---
 
 Driver for the USTC reaction time button box \(RTBox\) by Xiangrui Li et al.
@@ -18,11 +19,11 @@ hardware itself, in case this driver doesn't work with your box or
 firmware.
 
 The RTBox is a USB device which provides 4 response buttons \(pushbuttons\)
-for subject responses and can report any button press\- or release by the
+for subject responses and can report any button press- or release by the
 subject. Additionally it has an input for reporting of external
-electronic trigger signals and a photo\-diode input for reporting of
-visual stimulus onset. The box uses a built\-in high\-resolution clock to
-timestamp all button\- or trigger events, independent of the host
+electronic trigger signals and a photo-diode input for reporting of
+visual stimulus onset. The box uses a built-in high-resolution clock to
+timestamp all button- or trigger events, independent of the host
 computers clock in order to make it more reliable for response time
 measurements than most other response devices. It also buffers all events
 internally, so experiment scripts can read back events when it is most
@@ -31,7 +32,7 @@ GetSecs timebase for direct comparison with timestamps from GetSecs,
 WaitSecs, KbCheck et al., [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\) and PsychPortAudio, etc. This
 simplifies reaction time calculations. Timestamps can also be reported in
 the timebase of the boxe, e.g., time of a button press relative to the
-photo\-diode light trigger signal or electronic trigger signal, if this is
+photo-diode light trigger signal or electronic trigger signal, if this is
 more convenient for a given experiment setup.
 
 Current versions of the RTBox have additional functionality, e.g., more
@@ -58,13 +59,13 @@ The following subcommands are currently suppported:
 
 
 handle = PsychRTBox\('Open' \[, deviceID\] \[, skipSync=0\]\);
-\-\- Try to open a connected RTBox, return a device handle 'handle' to it
+-- Try to open a connected RTBox, return a device handle 'handle' to it
 on success. The handle can be used in all further subcommands to refer to
-the box. By default, all USB ports \(or rather USB\-Serial ports\) are scanned
+the box. By default, all USB ports \(or rather USB-Serial ports\) are scanned
 for a connected RTBox and the driver will connect to the first box found.
 Alternatively you can specify which box to use via the optional
 'deviceID' namestring. This can be either the name of a box, or the name
-of the USB\-Serial port to which the box is connected. This way you can avoid
+of the USB-Serial port to which the box is connected. This way you can avoid
 scanning of all ports and disambiguate in case multiple boxes are
 connected to your computer.
 
@@ -81,7 +82,7 @@ will perform an initial clock synchronization.
 
 
 clockRatio = PsychRTBox\('ClockRatio' \[, handle\] \[, durationSecs\]\);
-\-\- Perform a clock drift calibration between the computers GetSecs host
+-- Perform a clock drift calibration between the computers GetSecs host
 clock and the internal clock of the box 'handle'. Restrict calibration to
 a maximum of 'durationSecs' \(default 60 seconds if omitted\). Return the
 computed 'clockRatio' and use it for all further operations.
@@ -98,7 +99,7 @@ drift, thereby providing the accuracy needed for reaction time studies.
 The clockRatio value tells, how many seconds of GetSecs time elapse when
 the box clock measures 1 second elapsed time. Ideally this value would be
 1, ie. both clocks run at the same speed. A more realistic value would be,
-e.g., 1.000009 \-\- The computer clock goes 9 microseconds faster than the
+e.g., 1.000009 -- The computer clock goes 9 microseconds faster than the
 box clock, so the drift will accumulate an error of 9 microseconds for
 each elapsed second of your study.
 
@@ -130,15 +131,15 @@ provides the most accurate timestamps.
 
 
 \[syncResult, clockRatio\] = PsychRTBox\('SyncClocks' \[, handle\]\);
-\-\- Synchronize or resynchronize the clocks of the host computer and the
+-- Synchronize or resynchronize the clocks of the host computer and the
 box. Return result in 'syncResult' and the current clockRatio in
 'clockRatio'. This routine is automatically carried out during invocation
 of PsychRTBox\('ClockRatio'\); but you can repeat the sync procedure
 anytime between trials via this subfunction for extra accuracy at the
-expense of about 0.5 \- 1 second additional time for each invocation. You
+expense of about 0.5 - 1 second additional time for each invocation. You
 would typically execute this function at the start of each large block of
 trials, or before start of each trial if you are really picky about
-super\-exact timing. The syncResult contains three values:
+super-exact timing. The syncResult contains three values:
 
 syncResult\(1\) = Host time \(GetSecs time\) at time of clock sync.
 
@@ -148,7 +149,7 @@ syncResult\(3\) = Confidence interval for the accuracy of the sync. This
 value \(in seconds\) provides a reliable upper bound for the possible error
 introduced in all reported timestamps from the box. The real error may be
 significantly smaller, this is just an upper bound that you can check.
-Typical results on a well working system should be in the sub\-millisecond
+Typical results on a well working system should be in the sub-millisecond
 range, e.g., 0.0003 seconds or 0.3 msecs. Typical results on a rather
 noisy system would be around 0.001 second or 1 msec. Results worse than 2
 msecs indicate some problem with your system setup that should be fixed
@@ -160,25 +161,25 @@ a call to PsychRTBox\('SyncConstraints'\).
 
 
 \[oldmaxDurationSecs, oldgoodEnoughSecs, oldrequiredSecs, oldsyncMethod\] = PsychRTBox\('SyncConstraints'\[, maxDurationSecs\]\[, goodEnoughSecs\]\[, requiredSecs\]\[, syncMethod\]\);
-\-\- Change the constraints to apply during calls to PsychRTBox\('SyncClocks'\);
+-- Change the constraints to apply during calls to PsychRTBox\('SyncClocks'\);
 Optionally return old settings.
 
 'maxDurationSecs' limits any call to 'SyncClocks' to a duration of at
 most the given number of seconds. Calibration aborts after at most that
-time, even if unsuccessfull \- in that case with an error message. By
+time, even if unsuccessfull - in that case with an error message. By
 default, the duration is limited to 0.5 seconds.
 'goodEnoughSecs' Calibration will finish before 'maxDurationSecs' have
 elapsed, if the result is more accurate than an error of at most
 'goodEnoughSecs'. By default, this is set to zero seconds, i.e.,
 calibration will always take 'maxDurationSecs'.
-'requiredSecs' \- The calibration will only use samples with an
+'requiredSecs' - The calibration will only use samples with an
 uncertainty of at most 'requiredSecs'. If not even a single sample of the
 required precision can be acquired within 'maxDurationSecs', the call
 will fail with an error, indicating that your system setup doesn't
 provide the required timing precision for your demands. By default, the
 minimum required precision is 0.0013 seconds, ie., it will tolerate an
 error of at most 1.3 msecs.
-'syncMethod' \- Select the synchronization method to use. Either, method 0
+'syncMethod' - Select the synchronization method to use. Either, method 0
 \(prewrite sync\), or method 1 \(postwrite sync\), or method 2 \(average\). If
 you want to know the difference between the methods, please consult the
 source code of this file and read the code for the subroutine 'function
@@ -191,14 +192,14 @@ that.
 
 
 oldverbose = PsychRTBox\('Verbosity' \[, handle\], verbosity\);
-\-\- Set level of verbosity for driver: 0 = Shut up. 1 = Report errors
+-- Set level of verbosity for driver: 0 = Shut up. 1 = Report errors
 only. 2 = Report warnings as well. 3 = Report additional status info. 4 =
-Be very verbose about what is going on. The default setting is 3 \-\-
+Be very verbose about what is going on. The default setting is 3 --
 Report moderate status output.
 
 
 devinfo = PsychRTBox\('BoxInfo' \[, handle\] \[, newdevinfo\]\);
-\-\- Return a struct 'devinfo' with all information about the current
+-- Return a struct 'devinfo' with all information about the current
 status and parameter settings for RTBox 'handle'. Optionally set a new
 struct with updated parameters via 'newdevinfo'. This function is mostly
 useful for debugging and benchmarking the driver itself. Most information
@@ -206,28 +207,28 @@ contained in 'devinfo' will be useless for your purpose.
 
 
 PsychRTBox\('[Close](/docs/Close)', handle\);
-\-\- [Close](/docs/Close) connection to specific box 'handle'. Release all associated
+-- [Close](/docs/Close) connection to specific box 'handle'. Release all associated
 ressources.
 
 
 PsychRTBox\('CloseAll'\);
-\-\- [Close](/docs/Close) connections to all attached RTBox devices. Reset the PsychRTBox
+-- [Close](/docs/Close) connections to all attached RTBox devices. Reset the PsychRTBox
 driver completely. You'll usually use this function at the end of your
 experiment script to clean up.
 
 
 oldeventspec = PsychRTBox\('Enable' \[,handle\]\[, eventspec\]\);
-\-\- Enable specified type of event 'eventspec' on box 'handle'. This
+-- Enable specified type of event 'eventspec' on box 'handle'. This
 allows to enable detection and reporting of a specific type of event. By
-default, only reporting of push\-button press is enabled, as this is the
+default, only reporting of push-button press is enabled, as this is the
 most common use of a response box.
 
 The following names are valid for the name string 'eventspec':
-'press' = Report push\-button press. This is the default setting.
-'release' = Report push\-button release.
+'press' = Report push-button press. This is the default setting.
+'release' = Report push-button release.
 'pulse' = Report electronic trigger events on external input port.
-'light' = Report reception of light flashes by photo\-diode on light port.
-'tr' = Report reception of scanner trigger "TR" \(TTL input from pin 7 of DB\-9 port\).
+'light' = Report reception of light flashes by photo-diode on light port.
+'tr' = Report reception of scanner trigger "TR" \(TTL input from pin 7 of DB-9 port\).
 'all' = Enable all events.
 
 If called without the 'eventspec' parameter, the function will return the
@@ -235,9 +236,9 @@ names of all currently enabled events.
 
 
 oldeventspec = PsychRTBox\('Disable' \[,handle\]\[, eventspec\]\);
-\-\- Disable specified type of event 'eventspec' on box 'handle'. This
+-- Disable specified type of event 'eventspec' on box 'handle'. This
 allows to disable detection and reporting of a specific type of event. By
-default, only reporting of push\-button press is enabled, as this is the
+default, only reporting of push-button press is enabled, as this is the
 most common use of a response box.
 
 See 'Enable' call for help on parameters.
@@ -249,7 +250,7 @@ information about events. For this you use these commands:
 
 
 PsychRTBox\('Start' \[, handle\] \[, dontwaitforstart=0\]\);
-\-\- Start event detection and reporting by the box. The box will start
+-- Start event detection and reporting by the box. The box will start
 detecting button and trigger events from here on and record them in the
 event buffer.
 
@@ -260,11 +261,11 @@ The optional 'dontwaitforstart' parameter, if set to 1, will ask the
 'Start' function to return control as soon as possible, ie., without
 waiting for confirmation of the box that event reporting has actually
 started. By default, the routine waits for an acknowledgement from the
-box, which can take 16 \- 30 msecs in some cases.
+box, which can take 16 - 30 msecs in some cases.
 
 
 PsychRTBox\('Stop' \[, handle\]\);
-\-\- Stop event detection and reporting by the box. The box will ignore
+-- Stop event detection and reporting by the box. The box will ignore
 detecting button and trigger events from here on and no longerrecord them
 in the event buffer.
 
@@ -272,14 +273,14 @@ You will usually call this at the end of a response period.
 
 
 PsychRTBox\('Clear' \[, handle\] \[, syncClocks=0\] \[, dontRestart=0\]\);
-\-\- Stop event detection and reporting by the box, clear all recorded
+-- Stop event detection and reporting by the box, clear all recorded
 events so far, then restart reporting if it was active before calling
 this function.
 
 Instead of calling 'Start' and 'Stop' to mark the start and end of a
 response period in a trial you can also simply use this function at the
 beginning of a trial \(or its response period\) to discard any stale data
-from a previous trial \(or non\-response interval\).
+from a previous trial \(or non-response interval\).
 
 You can prevent an automatic restart of event reporting by setting the
 optional flag 'dontRestart' to a value of 1.
@@ -290,19 +291,19 @@ same as calling PsychRTBox\('SyncClocks'\).
 
 
 \[time, event, boxtime\] = PsychRTBox\('GetSecs' \[, handle\] \[, interTimeout=0.1\] \[, maxTimeout=interTimeout\] \[, maxItems=inf\]\);
-\-\- Retrieve recorded events from the box 'handle'.
+-- Retrieve recorded events from the box 'handle'.
 
 By default, as many events are returned as are available within the
 test interval, but you can select a specific number of wanted events
 by setting the optional parameter 'maxItems'. If there aren't any pending
 events from the box, by default the driver waits for up to 0.1 seconds
 for events to arrive. You can change this 'interTimeout' interval via the
-positive \(non\-zero\) 'interTimeout' parameter. The function will return if
+positive \(non-zero\) 'interTimeout' parameter. The function will return if
 no new events show up within 'interTimeout' seconds. If something shows
 up, the deadline for return is extended by 'interTimeout' seconds. You
 can set an absolute upper limit to the response interval via the
 'maxTimeout' parameter. That defaults to 'interTimeout' if omitted.
-Please note that after an event is detected by the box, up to 16\-32 msecs
+Please note that after an event is detected by the box, up to 16-32 msecs
 can elapse until the event is received by the computer, so you may not
 want to set these timeout values too small\!
 
@@ -324,9 +325,9 @@ expressed in box clock time. See below for a use of that.
 '3' = 3rd button pressed, '3up' = 3rd button released.
 '4' = 4th button pressed, '4up' = 4th button released.
 'pulse' = electronic pulse received on electronic pulse input port.
-'light' = Light pulse received by photo\-diode connected to light input port.
-'tr' = Scanner trigger "TR" \(TTL input from pin 7 of DB\-9 port\) received.
-'serial' = PsychRTBox\('Trigger'\) Softwaretrigger signal received on USB\-Serial port.
+'light' = Light pulse received by photo-diode connected to light input port.
+'tr' = Scanner trigger "TR" \(TTL input from pin 7 of DB-9 port\) received.
+'serial' = PsychRTBox\('Trigger'\) Softwaretrigger signal received on USB-Serial port.
 
 Note: 'tr' is only supported on boxes with Firmware version 3.0 or later.
 
@@ -343,7 +344,7 @@ for the accuracy of these timestamps and tips for obtaining optimal
 accuracy.
 
 Additionally the event times are also returned in 'boxtime', but this
-time expressed in box time \-\- the time of the box internal clock.
+time expressed in box time -- the time of the box internal clock.
 
 
 There are multiple variants of this query command with the same optional
@@ -351,7 +352,7 @@ input arguments, but different return arguments. All of these return
 timestamps in box time without remapping to GetSecs time by calling:
 
 \[boxtime, event\] = PsychRTBox\('BoxSecs' ...\);
-\-\- Timestamps are in raw box clock time, everything else is the same as
+-- Timestamps are in raw box clock time, everything else is the same as
 in PsychRTBox\('GetSecs' ...\).
 
 If you have the 'boxtime' timestamps from one of the previous functions
@@ -359,7 +360,7 @@ around, you can map them later to GetSecs time with very high precision
 at the end of your experiment session via:
 
 \[GetSecs, Stddev\] = PsychRTBox\('BoxsecsToGetsecs' \[, handle\], boxTimes\);
-\-\- Perform a post\-hoc mapping of a vector of raw box timestamps
+-- Perform a post-hoc mapping of a vector of raw box timestamps
 'boxTimes' into a vector of host clock 'GetSecs' timestamps. Return some
 error measure in 'Stddev' as well, if available.
 
@@ -382,13 +383,13 @@ as in PsychRTBox\('BoxSecs' ...\);
 
 E.g., PsychRTBox\('serial', ...\); Returns timestamps relative to the first
 occurence of a electronic input port trigger signal since the last query.
-PsychRTBox\('light', ...\); Returns timestamps relative to photo\-diode
+PsychRTBox\('light', ...\); Returns timestamps relative to photo-diode
 light pulse. PsychRTBox\('1'\); returns relative to press of 1st button,
 etc. etc.
 
 
 sendTime = PsychRTBox\('SerialTrigger' \[, handle\]\);
-\-\- Send a software generated trigger to the box via the serial port
+-- Send a software generated trigger to the box via the serial port
 connection. This will register as a event of type 'serial' and you can
 retrieve timestamps relative to the first trigger within a response
 period via the PsychRTBox\('serial', ...\); command.
@@ -398,22 +399,22 @@ sendTime = PsychRTBox\('EngageLightTrigger \[, handle\]\);
 sendTime = PsychRTBox\('EngagePulseTrigger \[, handle\]\);
 sendTime = PsychRTBox\('EngageTRTrigger \[, handle\]\);
 
-\-\- Engage trigger input on the box for reception of a one\-shot trigger
+-- Engage trigger input on the box for reception of a one-shot trigger
 signal. This function will return immediately after submitting the
-request to the box. It may take up to 5 msecs worst\-case until the
+request to the box. It may take up to 5 msecs worst-case until the
 trigger input is really enabled. If you want to wait for the trigger to
 be really enabled, call, e.g., PsychRTBox\('Enable', handle, 'lighton'\); instead,
 as that function will wait until the trigger is really active.
 
 Trigger events are special: If a trigger has been received, the
-box auto\-disables the trigger input, preventing reception of any
+box auto-disables the trigger input, preventing reception of any
 further trigger events, until the trigger gets reenabled. The trigger gets
 reenabled on many occasions if it has been enabled once via the
 PsychRTBox\('Enable', ...\); command, e.g., at each call to
 PsychRTBox\('Start'\); or PsychRTBox\('Clear'\). If you want to enable the
-trigger on\-the\-fly, then this function is your friend.
+trigger on-the-fly, then this function is your friend.
 
-The reason why light trigger auto\-disables itself is because a typical
+The reason why light trigger auto-disables itself is because a typical
 CRT display monitor would generate such trigger signals at the rate of
 video refresh, once your stimulus is displayed, e.g., at a rate of 100
 Hz. Usually you only want to know one defined timestamp of initial
@@ -424,7 +425,7 @@ Similar reasoning applies to Pulse and TR triggers.
 
 
 oldNames = PsychRTBox\('ButtonNames' \[, handle\] \[, newNames\]\);
-\-\- Query or assign labels for the four response box buttons other than
+-- Query or assign labels for the four response box buttons other than
 the default names.
 
 This function allows to assign arbitrary names to the four buttons on the
@@ -444,14 +445,14 @@ assigning the same name to multiple buttons is not allowed.
 
 
 oldIntervals = PsychRTBox\('DebounceInterval' \[, handle\] \[, debounceSecs\]\);
-\-\- Query current button debounce intervals \(in 4\-element vector
+-- Query current button debounce intervals \(in 4-element vector
 'oldIntervals', one value for each button\), and optionally set new
 debounce interval in seonds via the optional argument 'debounceSecs'.
 'debounceSecs' can be a scalar, in which case the same setting is applied
-to all buttons, or a 4\-element row vector, e.g., \[0.1, 0.1, 0.1, 0.1\] to
+to all buttons, or a 4-element row vector, e.g., \[0.1, 0.1, 0.1, 0.1\] to
 set an individual interval for each of the four buttons.
 
-The built\-in debouncer prevents multiple button responses \(button press
+The built-in debouncer prevents multiple button responses \(button press
 or release actions\) from getting recorded/reported within some
 'debounceSecs' debounce interval. After a button has changed state, only
 the type \(press or release\), identity \(which button\) and timestamp \(when\)
@@ -478,11 +479,11 @@ get a minimum 0.3 msecs debounce period from the hardware itself.
 
 Later versions of the firmware support the following
 PsychRTBox\('HardwareDebounce'\) command to control the hardware debounce
-interval more fine\-grained.
+interval more fine-grained.
 
 
 \[oldValue\] = PsychRTBox\('HardwareDebounce' \[, handle\] \[, scanNum\]\);
-\-\- Set/get hardware debouncer setting. The hardware will treat a button
+-- Set/get hardware debouncer setting. The hardware will treat a button
 event as valid only if the button state stays stable for at least
 'scanNum' scanning iterations of the firmware. The scan interval is about
 67 microseconds. The valid scanNum is from 1 through 255, with a default
@@ -493,7 +494,7 @@ above.
 
 
 buttonState = PsychRTBox\('ButtonDown' \[, handle\] \[, whichButtons\]\);
-\-\- This reports the current button state of all response buttons of box
+-- This reports the current button state of all response buttons of box
 'handle', or a subset of response buttons if specified by the optional
 'whichButtons' argument, e.g., whichButton = \{'1', '4'\} to only test
 buttons 1 and 4. 'buttonState' is a vector which contains a 1 for each
@@ -510,23 +511,23 @@ the response interval, e.g., while the box is PsychRTBox\('Stop'\)'ped with
 no need for timestamps, this may be an option.
 
 Due to the design of the USB bus, the query may be outdated wrt. to the
-real state by up to 16 \- 21 msecs, depending on operating system and
+real state by up to 16 - 21 msecs, depending on operating system and
 driver configuration.
 
 
 buttonState = PsychRTBox\('WaitButtonDown' \[, handle\] \[, whichButtons\]\);
-\-\- Wait until at least one of the specified buttons in 'whichButtons' is
+-- Wait until at least one of the specified buttons in 'whichButtons' is
 pressed down. If 'whichButtons' is omitted, all buttons are tested.
 
 
 PsychRTBox\('WaitButtonUp' \[, handle\] \[, whichButtons\]\);
-\-\- Wait until all of the specified buttons in 'whichButtons' are
+-- Wait until all of the specified buttons in 'whichButtons' are
 released. If 'whichButtons' is omitted, all buttons are tested.
 
 
 \[timeSent, confidence\] = PsychRTBox\('TTL' \[, handle\] \[, eventCode=1\]\);
-\- Send TTL to DB\-25 port \(pin 8 is bit 0\). The second input is event code
-\(default 1 if omitted\), 4\-bit \(0~15\) for box versions < 5, and 8\-bit
+- Send TTL to DB-25 port \(pin 8 is bit 0\). The second input is event code
+\(default 1 if omitted\), 4-bit \(0~15\) for box versions < 5, and 8-bit
 \(0~255\) for later versions. It can also be equivalent binary string, such
 as '0011'.
 
@@ -542,9 +543,9 @@ EEG event code support.
 
 
 \[oldValue\] = PsychRTBox\('TTLWidth' \[, handle\]\[, widthSecs\]\);
-\- Set/get TTL pulse width in seconds. The default width is 0.97e\-3, ie.
+- Set/get TTL pulse width in seconds. The default width is 0.97e-3, ie.
 97 microseconds when the device is opened. The actual width may have some
-small variation. The supported width ranges from 0.14e\-3 to 35e\-3 secs. A
+small variation. The supported width ranges from 0.14e-3 to 35e-3 secs. A
 infinite width 'inf' is also supported. Infinite width means the TTL will
 stay until it is changed by the next PsychRTBox\('TTL'\) command, such as
 PsychRTBox\('TTL',0\).
@@ -552,13 +553,13 @@ PsychRTBox\('TTL',0\).
 This function is only supported for v3.0 RTBoxes and later, the ones with
 EEG event code port support.
 
-In Version <5.0, the TTL width at DB\-25 pins 17~24 is controlled by a
+In Version <5.0, the TTL width at DB-25 pins 17~24 is controlled by a
 potentiometer inside the box. In Version \>= 5, the width is also
 controlled by 'TTLWidth' command.
 
 
 \[oldValue\] = RTBox\('TTLResting' \[, handle\]\[, newLevel\]\);
-\- Set/get TTL polarity for DB\-25 pins 1~8. The default is 0, meaning the
+- Set/get TTL polarity for DB-25 pins 1~8. The default is 0, meaning the
 TTL resting is low. If you set newLevel to nonzero, the resting TTL will
 be high level. If you need different polarity for different pins, let us
 know. This function is only supported with firmware version 3.1 and

@@ -3,14 +3,15 @@ layout: mfile
 title: IsomerizationsInEyeDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 IsomerizationsInEyeDemo
 
 Shows how to compute photoreceptor isomerizations using toolbox
 routines.  These calculations are for the human eye,
-starting with a spectrum as measured by the PR\-650
-in watts/sr\-m^2\-wlinterval, or with a relative spectrum
+starting with a spectrum as measured by the PR-650
+in watts/sr-m^2-wlinterval, or with a relative spectrum
 and a photopic troland value.
 
 NOTE, DHB, 7/19/13. This demo routine and its associated data routines

@@ -3,6 +3,7 @@ layout: mfile
 title: glColorTableParameterfv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glColorTableParameterfv  Interface to OpenGL function glColorTableParameterfv

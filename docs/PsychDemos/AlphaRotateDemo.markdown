@@ -3,6 +3,7 @@ layout: mfile
 title: AlphaRotateDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 AlphaRotateDemo\(numFrames, ifis\)

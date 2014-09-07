@@ -3,9 +3,10 @@ layout: mfile
 title: udp_plotter_demo
 categories:
   - tcp_udp_ip
+encoding: UTF-8
 ---
 
-UDP\_PLOTTER\_DEMO \- Opens a figure and starts to listen for UDP packages to plot.
+UDP\_PLOTTER\_DEMO - Opens a figure and starts to listen for UDP packages to plot.
 Syntax:
   UDP\_PLOTTER\_DEMO
 or

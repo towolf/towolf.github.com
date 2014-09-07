@@ -3,6 +3,7 @@ layout: mfile
 title: glColorTable
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glColorTable  Interface to OpenGL function glColorTable

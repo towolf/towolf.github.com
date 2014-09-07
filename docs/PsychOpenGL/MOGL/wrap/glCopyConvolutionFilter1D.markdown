@@ -3,6 +3,7 @@ layout: mfile
 title: glCopyConvolutionFilter1D
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glCopyConvolutionFilter1D  Interface to OpenGL function glCopyConvolutionFilter1D

@@ -3,6 +3,7 @@ layout: mfile
 title: MinExpEntStair
 categories:
   - PsychStairCase
+encoding: UTF-8
 ---
 
 Minimum Expected Entropy Staircase
@@ -20,7 +21,7 @@ to test over.
 By default, a psychometric function ranging from 0% to 100% is used, as
 is suitable for discrimination experiments with a standard in the middle
 of the possible stimulus parameter range. For other paradigms, such as
-n\-AFC detection tasks, one can set the guessrate input during staircase
+n-AFC detection tasks, one can set the guessrate input during staircase
 init to 1/num\_alternatives, e.g. .5 when doing a 2IFC detection task.
 This guess rate is thus not the rate at which participants guess instead
 of do your task \(thats the lapse rate\), it the minimum rate of correct
@@ -50,12 +51,12 @@ relatively few trials are sufficient \(less than are needed to for final
 estimates of PSE and DL\). Throwing out trials for the staircase
 computation yields robustness without much cost.
 
-Another option would be to load a non\-uniform prior on the space of
+Another option would be to load a non-uniform prior on the space of
 possible location/mean/PSE and dispersion/slope parameters \(known as mu
-and sigma respectively for a cumulative Gaussian \- see option
+and sigma respectively for a cumulative Gaussian - see option
 'loadprior'\). Probe sampling will then stay reasonable in early trials
 even if there were a couple bad responses. But this strategy is not as
-robust as using a random subset \-\- bad trials will continue to have an
+robust as using a random subset -- bad trials will continue to have an
 effect throughout.
 
 In absence of anything to base the optimal probe value on, the first
@@ -71,22 +72,22 @@ trial is an easy one so the participant knows what to expect.
 
 Another measure for robustness is to choose a small lapse rate. If lapse
 would be zero and a response error is made by the observer, immediately a
-whole range of mean\-slope combinations becomes impossible. If lapse rate
-is non\-zero, these would still have a non\-zero probability and the
+whole range of mean-slope combinations becomes impossible. If lapse rate
+is non-zero, these would still have a non-zero probability and the
 staircase can rebound. Therefore a lapse rate of 5% or even more
 depending on task difficulty is always recommended. NB: in the default
 discrimination setup of the staircase \(guessrate is not specified or set
 to 0\), half of the lapse rate is taken off the bottom of the psychometric
 function and half is taken off the top. So if the lapse rate is 0.05, the
 psychometric function will range from 0.025 to 0.975. In the setup for a
-n\-AFC detection experiment when the psychometric function has a lower
+n-AFC detection experiment when the psychometric function has a lower
 bound of 1/num\_alternatives, the lapse rate is taken off the top. So when
 the guess\_rate is set to .5 \(2AFC\) and the pase rate is set to .05, the
 psychometric function will range from 0.05 to 0.95.
 Note that the staircase does not support a 0 lapse rate in the first
-place as it works with log\-probability and we get in trouble if we would
-take the log of a 0 probability. Any lapse rate lower than 1e\-10 will be
-adjusted to 1e\-10 upon calling the 'init' function.
+place as it works with log-probability and we get in trouble if we would
+take the log of a 0 probability. Any lapse rate lower than 1e-10 will be
+adjusted to 1e-10 upon calling the 'init' function.
 
 If the staircase gets stuck at one of the bounds of the probe set, check
 that the sign of the slope space matches the expected sign of the
@@ -101,7 +102,7 @@ observer to indicate the slower interval, the slopes in our slope set
 would not match the task, and the staircase would get stuck at one of the
 probe bounds. In this case, the lower end of the probe space is
 associated with the response 1 and the higher end with the response
-0\-\-we'd thus have a negative slope for the fitted cumulative probability
+0--we'd thus have a negative slope for the fitted cumulative probability
 function.
 
 The staircase currently only supports logistic and cumulative Gaussian
@@ -117,7 +118,7 @@ The above discussion assumes that response inputs to 'process\_resp' are
 either 0 or 1 \(see note above about their meaning\) though in practice
 anything larger than 0 is treated as 1 and anything lower than 0,
 including 0, is treated as 0. the staircase can thus easily be integrated
-with programs that use a 1, \-1 response scheme.
+with programs that use a 1, -1 response scheme.
 
 For actual offline fitting of your data, you would probably want to use a
 dedicated toolbox such as Prins, N & Kingdom, F. A. A. \(2009\) Palamedes:
@@ -139,7 +140,7 @@ References:
 
  Discussions of conceptually similar staircases can be found in:
  Kontsevich LL & Tyler CW \(1999\). Bayesian adaptive estimation of
-   psychometric slope and threshold. Vision Res 39\(16\), pp. 2729\-37
+   psychometric slope and threshold. Vision Res 39\(16\), pp. 2729-37
  Lesmes LA, Lu ZL, Baek J & Albright TD \(2010\). Bayesian adaptive
    estimation of the contrast sensitivity function: The quick CSF method.
    Journal of Vision 10\(3\), article 17

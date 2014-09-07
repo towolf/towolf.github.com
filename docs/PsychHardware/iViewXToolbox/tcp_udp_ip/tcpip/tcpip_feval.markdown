@@ -3,6 +3,7 @@ layout: mfile
 title: tcpip_feval
 categories:
   - tcpip
+encoding: UTF-8
 ---
 
 tcpip\_feval\(ip\_fid,no\_ret\_args,'fun\_name',arg1,arg2,...\) remote "feval"

@@ -3,6 +3,7 @@ layout: mfile
 title: XYZToF
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 F = XYZToF\(XYZ,white\)

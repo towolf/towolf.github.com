@@ -3,18 +3,19 @@ layout: mfile
 title: MorphDemo
 categories:
   - MorphDemo
+encoding: UTF-8
 ---
 
 function MorphDemo\(\[textureon\]\[, dotson\]\[, normalson\]\[, stereomode\]\)
-MorphDemo \-\- Demonstrates use of "[moglmorpher](/docs/moglmorpher)" for fast morphing
+MorphDemo -- Demonstrates use of "[moglmorpher](/docs/moglmorpher)" for fast morphing
 and rendering of 3D shapes. See "help [moglmorpher](/docs/moglmorpher)" for info on
 moglmorphers purpose and capabilities.
 
 This demo will load two morpheable shapes from OBJ files and then
-morph them continously into each other, using a simple sine\-function
+morph them continously into each other, using a simple sine-function
 to define the timecourse of the morph.
 
-The demo is OpenGL\-ES1 compatible, with some restrictions: Only cpu based,
+The demo is OpenGL-ES1 compatible, with some restrictions: Only cpu based,
 slower morphing. The dotson flag is ignored.
 
 Control keys and their meaning:
@@ -36,9 +37,9 @@ vertex 2D coordinates are also visualized in a standard Matlab figure window.
 normalson = If set to 1, then the surface normal vectors will get visualized as
 small green lines on the surface.
 
-stereomode = n. For n\>0 this activates stereoscopic rendering \- The shape is
+stereomode = n. For n\>0 this activates stereoscopic rendering - The shape is
 rendered from two slightly different viewpoints and one of Psychtoolbox's
-built\-in stereo display algorithms is used to present the 3D stimulus. This
+built-in stereo display algorithms is used to present the 3D stimulus. This
 is very preliminary so it doesn't work that well yet.
 
 

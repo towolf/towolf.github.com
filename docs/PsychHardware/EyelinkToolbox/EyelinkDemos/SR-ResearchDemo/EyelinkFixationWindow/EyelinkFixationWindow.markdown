@@ -3,6 +3,7 @@ layout: mfile
 title: EyelinkFixationWindow
 categories:
   - EyelinkFixationWindow
+encoding: UTF-8
 ---
 
 

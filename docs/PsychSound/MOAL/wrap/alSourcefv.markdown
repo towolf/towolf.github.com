@@ -3,6 +3,7 @@ layout: mfile
 title: alSourcefv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alSourcefv  Interface to OpenAL function alSourcefv

@@ -3,6 +3,7 @@ layout: mfile
 title: glHistogram
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glHistogram  Interface to OpenGL function glHistogram

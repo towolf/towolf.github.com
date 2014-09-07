@@ -3,6 +3,7 @@ layout: mfile
 title: tcpip_sendfile
 categories:
   - tcpip
+encoding: UTF-8
 ---
 
 

@@ -3,6 +3,7 @@ layout: mfile
 title: MultiWindowLockStepTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 MultiWindowLockStepTest\(\[nrwins=10\]\[, separateScreens=0\]\);
@@ -27,11 +28,11 @@ If 'nrwins' is omitted, a simple test with only two windows is
 conducted. One window flips after 10 seconds, the other after 20
 seconds.
 
-If the optional parameter 'separateScreens' is set to a non\-zero
+If the optional parameter 'separateScreens' is set to a non-zero
 setting, then the different onscreen windows are not opened
 on the same display screen 0, but each one on a separate screen.
 Performance can differ significantly between one screen and
-multi\-screen, as the operating system will use very different
+multi-screen, as the operating system will use very different
 underlying algorithms and methods to handle flips on windows,
 depending on their placement on different displays or not. Each
 operating system will also behave differently.

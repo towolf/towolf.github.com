@@ -3,6 +3,7 @@ layout: mfile
 title: PsychGetCamIdForSpec
 categories:
   - PsychVideoCapture
+encoding: UTF-8
 ---
 
 Return deviceIndex of a specified camera, one that matches given criteria.
@@ -11,7 +12,7 @@ Return deviceIndex of a specified camera, one that matches given criteria.
 
 Searches for video sources which match given criteria. A handle to the
 first source that satisfies the criteria is returned in argument
-'deviceIndex' \- You can open a connection to the source via
+'deviceIndex' - You can open a connection to the source via
 [Screen](/docs/Screen)\('OpenVideoCapture', windowPtr, deviceIndex, ...\);
 
 The 2nd optional return argument contains the complete 'dev'ice
@@ -26,7 +27,7 @@ accept any class. This matches against the 'ClassName' property of the
 list returned by [Screen](/docs/Screen)\('VideoCaptureDevices'\).
 
 'inputNameOrPort' selects the i'th input device of a matching class if an
-index is given \(zero\-based\), or a specific named device, e.g., 'iSight'
+index is given \(zero-based\), or a specific named device, e.g., 'iSight'
 for the builtin iSight camera of Apple hardware.
 
 'instance' If multiple devices match, take the i'th device where i ==

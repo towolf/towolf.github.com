@@ -3,6 +3,7 @@ layout: mfile
 title: MeasXYZ
 categories:
   - PsychHardware
+encoding: UTF-8
 ---
 
  \[XYZ,qual\] = MeasXYZ\(\[meterType\]\)

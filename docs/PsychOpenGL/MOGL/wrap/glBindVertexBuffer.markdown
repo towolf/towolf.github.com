@@ -3,6 +3,7 @@ layout: mfile
 title: glBindVertexBuffer
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glBindVertexBuffer  Interface to OpenGL function glBindVertexBuffer

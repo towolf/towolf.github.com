@@ -3,6 +3,7 @@ layout: mfile
 title: TrolandsToLum
 categories:
   - PsychRadiometric
+encoding: UTF-8
 ---
 
 luminance = TrolandsToLum\(trolands,pupilAreaMM\)

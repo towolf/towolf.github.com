@@ -3,6 +3,7 @@ layout: mfile
 title: glGetObjectLabel
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetObjectLabel  Interface to OpenGL function glGetObjectLabel

@@ -3,6 +3,7 @@ layout: mfile
 title: GetTicks
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 ticks = GetTicks

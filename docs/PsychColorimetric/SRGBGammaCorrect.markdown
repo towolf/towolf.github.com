@@ -3,6 +3,7 @@ layout: mfile
 title: SRGBGammaCorrect
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 RGB = SRGBGammaCorrect\(rgb,\[SCALE\]\)
@@ -18,7 +19,7 @@ The gamma correction stage of the SRGB standard converts inputs in the
 range \[0,1\] into gamma corrected output in the same range.
 
 This routine then multiplies the \[0,1\] output by 255 and quantizes
-to integer values.  None\-the\-less, it still returns the output as
+to integer values.  None-the-less, it still returns the output as
 a double \(rather than uint8\) matrix.  I \(DHB\) am not sure this was
 a good design decision, but am for now \(6/15/11\) leaving it as is
 to avoid breaking code that relies on the current implementation.

@@ -3,6 +3,7 @@ layout: mfile
 title: FindNeighborCorr
 categories:
   - PsychProbability
+encoding: UTF-8
 ---
 
 corr = FindNeighborCorr\(X\)

@@ -3,13 +3,14 @@ layout: mfile
 title: KbStrokeWait
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 \[secs, keyCode, deltaSecs\] = KbStrokeWait\(\[deviceNumber\]\[, untilTime=inf\]\[, more optional args for KbWait\]\);
 
 KbStrokeWait waits for a single keystroke of your subject, ie. it waits
 until all keys on the keyboard are released, after that it waits for a
-single keystroke \- a single press of a key, followed by releasing the key
+single keystroke - a single press of a key, followed by releasing the key
 again. After the subject has finished its "keystroke" and released the key,
 KbStrokeWait returns the keyboard state and timestamp of the key press.
 

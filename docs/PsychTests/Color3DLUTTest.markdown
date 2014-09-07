@@ -3,6 +3,7 @@ layout: mfile
 title: Color3DLUTTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 A simple test/demo of use of 3D CLUT color correction.

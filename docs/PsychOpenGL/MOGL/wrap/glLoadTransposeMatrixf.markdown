@@ -3,6 +3,7 @@ layout: mfile
 title: glLoadTransposeMatrixf
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glLoadTransposeMatrixf  Interface to OpenGL function glLoadTransposeMatrixf

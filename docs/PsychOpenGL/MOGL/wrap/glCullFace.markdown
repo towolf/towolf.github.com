@@ -3,6 +3,7 @@ layout: mfile
 title: glCullFace
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glCullFace  Interface to OpenGL function glCullFace

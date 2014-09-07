@@ -3,6 +3,7 @@ layout: mfile
 title: glColorP3uiv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glColorP3uiv  Interface to OpenGL function glColorP3uiv

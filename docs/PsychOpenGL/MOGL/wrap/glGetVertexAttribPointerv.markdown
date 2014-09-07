@@ -3,6 +3,7 @@ layout: mfile
 title: glGetVertexAttribPointerv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetVertexAttribPointerv  Interface to glGetVertexAttribPointerv

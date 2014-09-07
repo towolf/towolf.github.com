@@ -3,6 +3,7 @@ layout: mfile
 title: glInvalidateTexImage
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glInvalidateTexImage  Interface to OpenGL function glInvalidateTexImage

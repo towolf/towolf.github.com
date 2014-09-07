@@ -3,6 +3,7 @@ layout: mfile
 title: FindCovLinMod
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 \[B,w0,Kw\] = FindCovLinMod\(Kx,nDim,\[x0\]\)

@@ -3,6 +3,7 @@ layout: mfile
 title: GLSLCLUTAnimDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 

@@ -3,6 +3,7 @@ layout: mfile
 title: MultiNormalPDF
 categories:
   - PsychProbability
+encoding: UTF-8
 ---
 
 prob = NormalPDF\(x,u,K\)

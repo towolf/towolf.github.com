@@ -3,6 +3,7 @@ layout: mfile
 title: CalibrateFitYoked
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 cal = CalibrateFitYoked\(cal\)

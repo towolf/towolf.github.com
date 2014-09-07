@@ -3,6 +3,7 @@ layout: mfile
 title: alListener3i
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alListener3i  Interface to OpenAL function alListener3i

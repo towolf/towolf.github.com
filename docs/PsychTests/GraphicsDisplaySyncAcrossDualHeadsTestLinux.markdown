@@ -3,6 +3,7 @@ layout: mfile
 title: GraphicsDisplaySyncAcrossDualHeadsTestLinux
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 GraphicsDisplaySyncAcrossDualHeadsTestLinux\(\[screenids\] \[, nrtrials=6000\] \[, driftsync=0\]\)

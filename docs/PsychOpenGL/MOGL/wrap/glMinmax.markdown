@@ -3,6 +3,7 @@ layout: mfile
 title: glMinmax
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glMinmax  Interface to OpenGL function glMinmax

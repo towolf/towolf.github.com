@@ -3,6 +3,7 @@ layout: mfile
 title: Gestalt
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 gestaltBits = [Gestalt](/docs/Gestalt)\(selector\)
@@ -10,19 +11,19 @@ gestaltBits = [Gestalt](/docs/Gestalt)\(selector\)
 OS X: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 [Gestalt](/docs/Gestalt) calls the eponymous Macintosh system function [Gestalt](/docs/Gestalt), a
-general\-purpose function that reports on particular features of your
-computer.  [Gestalt](/docs/Gestalt) accepts "selector", a four\-character string identifying
-the feature you wish to query and returns "gestaltBits", a 32\-element
+general-purpose function that reports on particular features of your
+computer.  [Gestalt](/docs/Gestalt) accepts "selector", a four-character string identifying
+the feature you wish to query and returns "gestaltBits", a 32-element
 logical array holding the result of the query.
 
 # For example:
 
   gestaltbits = gestalt\('sysa'\)
 
-     gestaltbits\(32\) will be 1 if run from a 680x0\-based Macintosh, while
-     gestaltbits\(31\) will be 1 if run from a PowerPC\-based Macintosh.
+     gestaltbits\(32\) will be 1 if run from a 680x0-based Macintosh, while
+     gestaltbits\(31\) will be 1 if run from a PowerPC-based Macintosh.
 
-For a list of four\-character selector codes, see the Carbon [Gestalt](/docs/Gestalt)
+For a list of four-character selector codes, see the Carbon [Gestalt](/docs/Gestalt)
 Manager Reference
 web http://developer.apple.com/ ;
 
@@ -30,16 +31,16 @@ If the call to Carbon [Gestalt](/docs/Gestalt) returns an error then MATLAB [Ges
 the error code in a double instead of gestaltBits in a logical array.
 [Gestalt](/docs/Gestalt) error codes are:
 
-  gestaltUnknownErr       \-5550   An unknown error.
-  gestaltUndefSelectorErr \-5551   An undefined selector was
+  gestaltUnknownErr       -5550   An unknown error.
+  gestaltUndefSelectorErr -5551   An undefined selector was
                                     passed to the [Gestalt](/docs/Gestalt) Manager.
-  gestaltDupSelectorErr   \-5552   You tried to add an entry
+  gestaltDupSelectorErr   -5552   You tried to add an entry
                                     that already existed.
-  gestaltLocationErr      \-5553   The gestalt function ptr was not in the
+  gestaltLocationErr      -5553   The gestalt function ptr was not in the
                                     system heap.
 
 In MATLAB 6.0 and greater the Psychtoolbox supplies [Gestalt](/docs/Gestalt). [Gestalt](/docs/Gestalt) is a
-work\-alike implementation of the identically\-named function previously
+work-alike implementation of the identically-named function previously
 provided by MATLAB.  The only differences between Psychtoolbox [Gestalt](/docs/Gestalt) and
 MATLAB [Gestalt](/docs/Gestalt) are:
 
@@ -64,7 +65,7 @@ MATLAB [Gestalt](/docs/Gestalt) are:
 
   2. Psychtoolbox [Gestalt](/docs/Gestalt) will return the error code in the event of any
      [Gestalt](/docs/Gestalt) error.  MATLAB [Gestalt](/docs/Gestalt) will return the error code in the
-     event of error code \-5551.  Its behavior for other error codes is
+     event of error code -5551.  Its behavior for other error codes is
      unknown.
 
 OS 9: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_

@@ -3,6 +3,7 @@ layout: mfile
 title: alIsSource
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alIsSource  Interface to OpenAL function alIsSource

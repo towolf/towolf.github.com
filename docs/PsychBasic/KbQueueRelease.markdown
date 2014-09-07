@@ -3,6 +3,7 @@ layout: mfile
 title: KbQueueRelease
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
  KbQueueRelease\(\[deviceIndex\]\)
@@ -42,7 +43,7 @@ categories:
   KbQueueCreate\(\[deviceNumber, keyList\]\)
       Creates the queue for the specified \(or default\) device number
         If the device number is less than zero, the default device is used.
-      keyList is an optional 256\-length vector of doubles \(not logicals\)
+      keyList is an optional 256-length vector of doubles \(not logicals\)
         with each element corresponding to a particular key \(use KbName
         to map between keys and their positions\). If the double value
         corresponding to a particular key is zero, events for that key
@@ -116,10 +117,10 @@ categories:
        already scored events.
 
  KbQueueRelease\(\)
-      Releases queue\-associated resources; once called, KbQueueCreate
+      Releases queue-associated resources; once called, KbQueueCreate
         must be invoked before using any of the other routines
 
-      This routine is called automatically at clean\-up \(e.g., when
+      This routine is called automatically at clean-up \(e.g., when
         'clear mex' is invoked and can be omitted expense of keeping
         memory allocated and an additional thread running unnecesarily
 

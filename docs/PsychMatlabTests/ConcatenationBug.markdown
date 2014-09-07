@@ -3,6 +3,7 @@ layout: mfile
 title: ConcatenationBug
 categories:
   - PsychMatlabTests
+encoding: UTF-8
 ---
 
 Mathworks Case ID:  84454, reported 7/17/98
@@ -30,7 +31,7 @@ char\(\{'a'
 'b'\}\)
 ??? 'b'\}
        |
-Missing operator, comma, or semi\-colon.
+Missing operator, comma, or semi-colon.
 
 
 Shouldn't the braces work consistently?

@@ -3,6 +3,7 @@ layout: mfile
 title: TextInitBugTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 TestInitBugTest

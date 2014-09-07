@@ -3,6 +3,7 @@ layout: mfile
 title: iviewexample
 categories:
   - iViewXToolbox
+encoding: UTF-8
 ---
 
 Short MATLAB example program that uses the iViewX and Psychophysics

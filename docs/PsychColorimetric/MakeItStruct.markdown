@@ -3,6 +3,7 @@ layout: mfile
 title: MakeItStruct
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 wlstruct = MakeItStruct\(S\)

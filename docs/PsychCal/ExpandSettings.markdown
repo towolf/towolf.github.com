@@ -3,6 +3,7 @@ layout: mfile
 title: ExpandSettings
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 settingsE = ExpandSettings\(settings,nBases\)

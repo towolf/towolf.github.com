@@ -3,6 +3,7 @@ layout: mfile
 title: QuestMode
 categories:
   - Quest
+encoding: UTF-8
 ---
 
 \[t,p\]=QuestMode\(q\)

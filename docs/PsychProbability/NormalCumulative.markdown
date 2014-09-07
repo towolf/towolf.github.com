@@ -3,6 +3,7 @@ layout: mfile
 title: NormalCumulative
 categories:
   - PsychProbability
+encoding: UTF-8
 ---
 
 function prob = NormalCumulative\(x,u,var\)

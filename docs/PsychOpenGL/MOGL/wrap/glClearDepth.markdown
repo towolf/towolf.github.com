@@ -3,6 +3,7 @@ layout: mfile
 title: glClearDepth
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glClearDepth  Interface to OpenGL function glClearDepth

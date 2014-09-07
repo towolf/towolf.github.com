@@ -3,6 +3,7 @@ layout: mfile
 title: glAlphaFunc
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glAlphaFunc  Interface to OpenGL function glAlphaFunc

@@ -3,6 +3,7 @@ layout: mfile
 title: JavaClockTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 JavaClockTest

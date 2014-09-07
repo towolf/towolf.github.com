@@ -3,6 +3,7 @@ layout: mfile
 title: glColorMask
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glColorMask  Interface to OpenGL function glColorMask

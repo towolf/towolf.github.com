@@ -3,6 +3,7 @@ layout: mfile
 title: NormalDraw
 categories:
   - PsychProbability
+encoding: UTF-8
 ---
 
 x = NormalDraw\(ndraws,u,var\)

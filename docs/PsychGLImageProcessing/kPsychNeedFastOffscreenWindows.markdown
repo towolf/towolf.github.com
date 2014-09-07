@@ -3,6 +3,7 @@ layout: mfile
 title: kPsychNeedFastOffscreenWindows
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 rval = kPsychNeedFastOffscreenWindows

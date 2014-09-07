@@ -3,9 +3,10 @@ layout: mfile
 title: HelloShapesDemo
 categories:
   - ECVP2013
+encoding: UTF-8
 ---
 
-HelloShapesDemo \- Draw some basic shapes in different colors.
+HelloShapesDemo - Draw some basic shapes in different colors.
 
 
 <div class="code_header" style="text-align:right;">

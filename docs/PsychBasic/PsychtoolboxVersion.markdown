@@ -3,6 +3,7 @@ layout: mfile
 title: PsychtoolboxVersion
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 OS X, Windows, Linux: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
@@ -12,16 +13,16 @@ OS X, Windows, Linux: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 Return a string identifying this release of the Psychtoolbox.
 The first three numbers identify the base version of Psychtoolbox:
 
-\- Leftmost: Increments indicate a disruptive change in the feature
+- Leftmost: Increments indicate a disruptive change in the feature
 set and design of the software, by abrupt introduction of design changes.
 This should never happen, as this would mean a completely new product,
 entirely incompatible with the old software.
 
-\- Middle: Increments indicate significant enhancements or changes in
+- Middle: Increments indicate significant enhancements or changes in
 functionality. This will usually only happen every couple of years at
 most.
 
-\- Rightmost: A counter to distinguish multiple releases having the same
+- Rightmost: A counter to distinguish multiple releases having the same
 leftmost and middle version numbers. This happens if there are backwards
 incompatible changes to the programming interface or functionality which
 may require code adjustments in user code. It also happens if we cancel
@@ -51,9 +52,9 @@ regarding your working copy of Psychtoolbox.
 Be aware that execution of the PsychtoolboxVersion command can take a
 lot of time \(in the order of multiple seconds to 1 minute\).
 
-Most Psychtoolbox mex files now provide a built\-in 'Version' command
+Most Psychtoolbox mex files now provide a built-in 'Version' command
 which returns version for themselves.  The version string for the
-built\-in version numbers contains a fourth numeric field named "build".
+built-in version numbers contains a fourth numeric field named "build".
 The build number is a unique serial number.  Mex files distinquished only
 by build numbers were compiled from identical C source files.
 

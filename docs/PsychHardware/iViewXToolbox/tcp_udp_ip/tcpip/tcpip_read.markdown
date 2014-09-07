@@ -3,6 +3,7 @@ layout: mfile
 title: tcpip_read
 categories:
   - tcpip
+encoding: UTF-8
 ---
 
 str=tcpip\_read\(fid,len,datatype\)

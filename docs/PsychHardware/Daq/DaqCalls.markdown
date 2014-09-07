@@ -3,6 +3,7 @@ layout: mfile
 title: DaqCalls
 categories:
   - Daq
+encoding: UTF-8
 ---
 
 Examples for each function in the Daq Toolbox.
@@ -14,9 +15,9 @@ Examples for each function in the Daq Toolbox.
        params=DaqAInScanContinue\(DeviceIndex,options\);       % Continue sampling: transfer data from Mac OS to PsychHID. \(works\)
 \[data,params\]=DaqAInScanEnd\(DeviceIndex,options\);            % End sampling: data are returned. \(works\)
           err=DaqALoadQueue\(DeviceIndex,channel,gain\);       % Set channel gains \(works\)
-          err=DaqAOut\(DeviceIndex,channel,v\);                % Write analog out \(does not work with 1608FS \-\- no analog output\)
-       params=DaqAOutScan\(DeviceIndex,v,options\);            % Clocked analog out \(does not work with 1608FS \-\- no analog output\)
-          err=DaqAOutStop\(DeviceIndex\);                      % Stop output scan \(does not work with 1608FS \-\- no analog output\)
+          err=DaqAOut\(DeviceIndex,channel,v\);                % Write analog out \(does not work with 1608FS -- no analog output\)
+       params=DaqAOutScan\(DeviceIndex,v,options\);            % Clocked analog out \(does not work with 1608FS -- no analog output\)
+          err=DaqAOutStop\(DeviceIndex\);                      % Stop output scan \(does not work with 1608FS -- no analog output\)
 
 \* Digital input/output commands
           err=DaqDConfigPort\(DeviceIndex,port,direction\);    % Configure digital port \(works\)

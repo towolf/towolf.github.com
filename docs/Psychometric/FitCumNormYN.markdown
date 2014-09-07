@@ -3,11 +3,12 @@ layout: mfile
 title: FitCumNormYN
 categories:
   - Psychometric
+encoding: UTF-8
 ---
 
 \[uEst,varEst\] = FitCumNormYN\(inputs,nYes,nNo\)
 
-Fits a cumulative normal function to the passed yes\-no data.
+Fits a cumulative normal function to the passed yes-no data.
 Requires the optimization toolbox.
 
 # INPUTS:

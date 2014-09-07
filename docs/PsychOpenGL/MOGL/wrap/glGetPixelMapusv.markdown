@@ -3,6 +3,7 @@ layout: mfile
 title: glGetPixelMapusv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetPixelMapusv  Interface to OpenGL function glGetPixelMapusv

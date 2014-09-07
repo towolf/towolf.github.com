@@ -3,18 +3,19 @@ layout: mfile
 title: GarboriumDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
-GarboriumDemo\(\[ngabors=200\] \[, internalRotation=0\]\) \-\- An aquarium full of cute little gabors\!
+GarboriumDemo\(\[ngabors=200\] \[, internalRotation=0\]\) -- An aquarium full of cute little gabors\!
 
 This demo shows how to use the [Screen](/docs/Screen)\('DrawTextures'\) command to draw a
-large number of similar images quickly \- in this case, Gabor patches of
+large number of similar images quickly - in this case, Gabor patches of
 different position, size and orientation. It also shows how to achieve
 fast, mathematically correct, linear superposition of image patches by
 use of alpha blending and the Psychtoolbox imaging pipeline. While you
 could always achieve proper superposition by precomputing large images in
 Matlab, then drawing them as textures, the use of alpha blending allows
-to offload the computations to your graphics hardware \- this allows
+to offload the computations to your graphics hardware - this allows
 speedups by factors of more than 100x in some cases\!
 
 The demo shows "an aquarium" of many cute little gabor patches, each moving

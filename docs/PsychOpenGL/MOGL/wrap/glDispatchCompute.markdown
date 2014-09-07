@@ -3,6 +3,7 @@ layout: mfile
 title: glDispatchCompute
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDispatchCompute  Interface to OpenGL function glDispatchCompute

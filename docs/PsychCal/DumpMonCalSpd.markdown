@@ -3,6 +3,7 @@ layout: mfile
 title: DumpMonCalSpd
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 DumpMonCalSpd

@@ -3,6 +3,7 @@ layout: mfile
 title: _alGetListener3f
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alGetListener3f  Interface to OpenAL function alGetListener3f

@@ -3,6 +3,7 @@ layout: mfile
 title: glMapGrid2d
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glMapGrid2d  Interface to OpenGL function glMapGrid2d

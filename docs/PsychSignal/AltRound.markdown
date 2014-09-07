@@ -3,6 +3,7 @@ layout: mfile
 title: AltRound
 categories:
   - PsychSignal
+encoding: UTF-8
 ---
 
 out = AltRound\(nr,factor\)
@@ -18,7 +19,7 @@ Thus:
   AltRound\(1449 ,100\) = 1400.
 
 DN 2008
-DN 2009\-02\-02 Support non\-scalar factor input
+DN 2009-02-02 Support non-scalar factor input
 
 
 <div class="code_header" style="text-align:right;">

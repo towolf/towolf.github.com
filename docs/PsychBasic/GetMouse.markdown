@@ -3,6 +3,7 @@ layout: mfile
 title: GetMouse
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 \[x,y,buttons,focus,valuators,valinfo\] = GetMouse\(\[windowPtrOrScreenNumber\]\[, mouseDev\]\)
@@ -23,8 +24,8 @@ pointer device to query if your system has multiple pointer devices.
 Currently Linux only, silently ignored on other operating systems.
 
 On Linux, the optional 'valuator' return argument contains the current
-values of all axis on a multi\-axis device, ie., a device which not only
-has an x\- and y\-axis like a conventional mouse. E.g., digitizer tablets
+values of all axis on a multi-axis device, ie., a device which not only
+has an x- and y-axis like a conventional mouse. E.g., digitizer tablets
 \(like the "Wacom" pen tablets\), may also have axis \(also called "valuators"\)
 which report pen rotation, pen tilt and yaw angle wrt. the tablet surface,
 distance to the tablet surface, or normal and tangential pen pressure.
@@ -33,7 +34,7 @@ Joysticks may return info about additional sliders, wheels or other controls
 beyond the deflection of the joystick itself.
 
 'valuators' is a vector with one double value per axis on Linux. On OS/X
-or MS\-Windows, valuator is an empty matrix.
+or MS-Windows, valuator is an empty matrix.
 
 The optional 'valinfo' struct array contains one struct per valuator.
 The struct contains fields with info about a valuator, e.g., minimum
@@ -67,7 +68,7 @@ for the user to release the mouse button, ending the current click, before
 you begin waiting for the next mouse press.
 
 Alternatively, you can also use the GetClicks\(\) function to wait for
-mouse\-clicks and return the mouse position of first click and the number
+mouse-clicks and return the mouse position of first click and the number
 of mouse button clicks.
 
 fprintf\('Please click the mouse now.\\n'\);
@@ -95,14 +96,14 @@ multiple mice and will always return the unified state of all mice.
 
 LINUX: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-GetMouse can distinguish between multiple mouse\-like devices. It can return
+GetMouse can distinguish between multiple mouse-like devices. It can return
 information about additional axis \(valuators\). GetMouse not only returns
 status info about mouse/trackpad/trackball devices, but also info about
 Pen digitizer tablets \(e.g., Wacom tablets\), touch pads and touch screens,
 and joystick/gamepad devices. Usually you'd use the GamePad\(\) function though
 for Joystick/Gamepad query.
 
-M$\-Windows: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+M$-Windows: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 # Limitations:
 

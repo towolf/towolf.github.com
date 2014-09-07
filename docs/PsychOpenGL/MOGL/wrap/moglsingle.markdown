@@ -3,12 +3,13 @@ layout: mfile
 title: moglsingle
 categories:
   - wrap
+encoding: UTF-8
 ---
 
-\-\-\- OBSOLETE \-\-\- OBSOLETE \-\-\- OBSOLETE \-\-\- OBSOLETE \-\-\-
+--- OBSOLETE --- OBSOLETE --- OBSOLETE --- OBSOLETE ---
 PSYCHTOOLBOX SPECIFIC single\(\) implementation:
 
-retval = moglsingle\(arg\) \-\- convert into
+retval = moglsingle\(arg\) -- convert into
 a single precision floating point number.
 
 This routine takes an 'arg' of arbitrary
@@ -16,7 +17,7 @@ numeric class and converts it into an equivalent
 object of single precision floating point format.
 
 If a builtin single\(\) function is available,
-as on Matlab and Octave 3.2\+, it calls the builtin
+as on Matlab and Octave 3.2+, it calls the builtin
 single\(\) function.
 
 Otherwise \(Octave\) it would call our own special

@@ -3,6 +3,7 @@ layout: mfile
 title: BackupCluts
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 Backup current clut gamma tables of screens for later restoration via RestoreCluts\(\).

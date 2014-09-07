@@ -3,6 +3,7 @@ layout: mfile
 title: glGetProgramInterfaceiv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetProgramInterfaceiv  Interface to OpenGL function glGetProgramInterfaceiv

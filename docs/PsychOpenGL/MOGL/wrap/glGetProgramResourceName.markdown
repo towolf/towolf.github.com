@@ -3,6 +3,7 @@ layout: mfile
 title: glGetProgramResourceName
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetProgramResourceName  Interface to OpenGL function glGetProgramResourceName

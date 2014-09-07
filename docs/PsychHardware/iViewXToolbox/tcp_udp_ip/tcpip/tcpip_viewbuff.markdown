@@ -3,6 +3,7 @@ layout: mfile
 title: tcpip_viewbuff
 categories:
   - tcpip
+encoding: UTF-8
 ---
 
 str=tcpip\_viewbuff\(fid,len\)

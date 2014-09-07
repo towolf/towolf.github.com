@@ -3,6 +3,7 @@ layout: mfile
 title: BreakLines
 categories:
   - PsychFiles
+encoding: UTF-8
 ---
 
 strArray=BreakLines\(str\)

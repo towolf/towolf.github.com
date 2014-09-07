@@ -3,6 +3,7 @@ layout: mfile
 title: EXGetEyeLinkTime
 categories:
   - EyelinkTests
+encoding: UTF-8
 ---
 
 time = EXGetEyeLinkTime returns the timestamp from the EyeLink.

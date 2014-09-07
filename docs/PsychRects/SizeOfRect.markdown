@@ -3,6 +3,7 @@ layout: mfile
 title: SizeOfRect
 categories:
   - PsychRects
+encoding: UTF-8
 ---
 
 s=SizeOfRect\(rect\);

@@ -3,6 +3,7 @@ layout: mfile
 title: glDrawBuffer
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDrawBuffer  Interface to OpenGL function glDrawBuffer

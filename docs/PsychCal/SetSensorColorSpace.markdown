@@ -3,6 +3,7 @@ layout: mfile
 title: SetSensorColorSpace
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 \[cal,errorRet\] = SetSensorColorSpace\(cal, T\_sensor, S\_sensor, \[quiet\]\)

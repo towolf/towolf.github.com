@@ -3,6 +3,7 @@ layout: mfile
 title: MonoImageToSRGB
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 rgbImage = MonoImageToSRGB\(monoImage,xy,\[SCALE\]\)

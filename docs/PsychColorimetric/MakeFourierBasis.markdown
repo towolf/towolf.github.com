@@ -3,6 +3,7 @@ layout: mfile
 title: MakeFourierBasis
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 \[B\] = MakeFourierBasis\(wls,nbasis\);

@@ -3,31 +3,32 @@ layout: mfile
 title: ComputeNakaRushton
 categories:
   - Psychometric
+encoding: UTF-8
 ---
 
 \[response\] =  ComputeNakaRushton\(params,contrast\)
 
-Compute the Naka\-Rushton function on passed vector of contrasts.
+Compute the Naka-Rushton function on passed vector of contrasts.
 Several different forms may be computed depending on length of
 passed params vector.
 
 length\(params\) == 2
   sigma = params\(1\)
   n = params\(2\)
-  response = contrast^n/\[contrast^n \+ sigma^n\]
+  response = contrast^n/\[contrast^n + sigma^n\]
 
 length\(params\) == 3
   Rmax = params\(1\)
   sigma = params\(2\)
   n = params\(3\)
-  response = Rmax\*\[contrast^n\]/\[contrast^n \+ sigma^n\]
+  response = Rmax\*\[contrast^n\]/\[contrast^n + sigma^n\]
 
 length\(params\) == 4
   Rmax = params\(1\)
   sigma = params\(2\)
   n = params\(3\)
   m = params\(4\)
-  response = Rmax\*\[contrast^n\]/\[contrast^m \+ sigma^m\]
+  response = Rmax\*\[contrast^n\]/\[contrast^m + sigma^m\]
 
 8/1/05    dhb, pr     Wrote from FitLightnessOrient version
 8/2/07    dhb         Rewrote to allow several different forms depending

@@ -3,6 +3,7 @@ layout: mfile
 title: glTexBufferRange
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glTexBufferRange  Interface to OpenGL function glTexBufferRange

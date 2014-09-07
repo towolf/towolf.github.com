@@ -3,6 +3,7 @@ layout: mfile
 title: CumNormYNFitFun
 categories:
   - Psychometric
+encoding: UTF-8
 ---
 
 \[f,g\] = CumulativeFitFun\(x,level,nYes,nNo\)

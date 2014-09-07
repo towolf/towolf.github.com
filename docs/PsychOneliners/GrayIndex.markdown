@@ -3,6 +3,7 @@ layout: mfile
 title: GrayIndex
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 color=GrayIndex\(windowPtrOrScreenNumber,\[reflectance\]\)

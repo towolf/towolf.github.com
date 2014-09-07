@@ -3,6 +3,7 @@ layout: mfile
 title: NomogramDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 NomogramDemo

@@ -3,6 +3,7 @@ layout: mfile
 title: PR650getsyncfreq
 categories:
   - PR650Toolbox
+encoding: UTF-8
 ---
 
 syncFreq = PR650getsyncfreq

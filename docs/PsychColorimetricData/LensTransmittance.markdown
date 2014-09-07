@@ -3,6 +3,7 @@ layout: mfile
 title: LensTransmittance
 categories:
   - PsychColorimetricData
+encoding: UTF-8
 ---
 
 \[lensTransmit,lensDensity\] = LensTransmittance\(S,\[species\],\[source\],\[ageInYears\],\[pupilDiameterMM\]\)
@@ -13,17 +14,17 @@ Allowable species:
   Human \(Default\)
 
 Allowable sources:
-  StockmanSharpe \(Default\) \- Stockman, Sharpe, & Fach \(1999\).
-  CIE                      \- Formula from CIE 170\-1:2006.
-  WyszeckiStiles           \- W&S, Table 1\(2.4.6\), p. 109.  First data set in table.
-  None                     \- Unity transmittance.
+  StockmanSharpe \(Default\) - Stockman, Sharpe, & Fach \(1999\).
+  CIE                      - Formula from CIE 170-1:2006.
+  WyszeckiStiles           - W&S, Table 1\(2.4.6\), p. 109.  First data set in table.
+  None                     - Unity transmittance.
 
 The answer is returned in a row vector.  This function
 depends on data contained in directory
 PsychColorimetricData:PsychColorimetricMatFiles.
 
 The CIE source will take age in years and pupil size in mm.
-The default age is 32.  The acceptable range is 20\-80.
+The default age is 32.  The acceptable range is 20-80.
 The default pupil size is 3 mm.  Sizes less than 3 are treated
 as 3.  Sizes greater than 7 are treated as 7.  The interpolation
 between 3 and 7 doesn't appear to be part of the standard but

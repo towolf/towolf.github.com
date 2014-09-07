@@ -3,23 +3,24 @@ layout: mfile
 title: DatarecordingFromISCANDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 Template for asynchronous data collection and timestamping from serial port.
 
-DatarecordingFromSerialPortDemo\(\[portSpec=auto\-detect\]\[, sampleFreq=240\]\[maxComponents=2\]\[, baudRate=115200\]\[, specialSettings=None\]\)
+DatarecordingFromSerialPortDemo\(\[portSpec=auto-detect\]\[, sampleFreq=240\]\[maxComponents=2\]\[, baudRate=115200\]\[, specialSettings=None\]\)
 
 This demo shows how to perform efficient data recording of data from an
-ISCAN eyetracker which is connected to the serial port or a USB\-Serial
+ISCAN eyetracker which is connected to the serial port or a USB-Serial
 converter. The device is assumed to stream data in packets of at most
 'maxComponents' gaze sample components in ASCII streaming mode.
 
 The demo connects to the first found serial port, or optionally the port
 given by the 'portSpec' parameter, e.g., 'COM5'. It connects at a
-baudrate of 'baudRate' Baud, by default without flow\-control, with 8
+baudrate of 'baudRate' Baud, by default without flow-control, with 8
 databits, 1 stopbit and no parity, but you can set arbitrary settings via
 the optional 'specialSettings' string \(see [IOPort](/docs/IOPort) OpenSerialPort?
-online\-help for possible parameters\).
+online-help for possible parameters\).
 
 Then it allocates receivebufferspace for up to 1 hour of uninterrupted
 recording, then starts background recording of data.
@@ -52,17 +53,17 @@ left DQW screen. Then click on the "Serial" tab if this is not already in
 the foreground. Choose "Raw Binary" or "Raw ASCII" as the output type
 depending on your preference. Two parameter banks with six parameters
 each, for a total of up to 12 parameters may be output with each data
-sample. To begin, select "Param Bank" 1 and fill the channels \(01 \-\> 06\)
+sample. To begin, select "Param Bank" 1 and fill the channels \(01 -\> 06\)
 with the desired parameters by selecting from the pop up list activated
 by clicking on the "..." button to the right of each channel. Fill the
 channels in order and be sure that unused channels have parameter
 "................" selected to minimize data transmission time. If more
 than 6 parameters are desired, select "Param Bank" 2 and proceed as above
-to fill in channels 07 \-\> 12. With the above steps completed, whenever
+to fill in channels 07 -\> 12. With the above steps completed, whenever
 "Track Active" is enabled a data packet will be output via the specified
 COM port for each system data sample. The data packet will consist of
-each of the non\-blank channel data values for the parameters specified in
-channel order \(01 \-\> 12\).
+each of the non-blank channel data values for the parameters specified in
+channel order \(01 -\> 12\).
 
 To enable the serial input capability in DQW: In the DQW "System
 Configuration" dialog, select the "Serial I/O" tab. Of the available COM
@@ -71,7 +72,7 @@ match the remote data sending system, and select "Input" as active. Click
 on "OK" to register changes to the system configuration. With the above
 steps completed, the DQW system is ready to receive serial commands from
 a remote source. All DQW remote serial commands are single bytes between
-128 and 255 \(80 \-\> FF Hex\). Whenever "Track Active" is enabled, the DQW
+128 and 255 \(80 -\> FF Hex\). Whenever "Track Active" is enabled, the DQW
 system can receive and record any single serial byte between 0 and 127
 \(00 and 7F Hex\) as a synchronizing data marker. These bytes are
 represented as parameter "SerIn0" wherever parameter selections are made

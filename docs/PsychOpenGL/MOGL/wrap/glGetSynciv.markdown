@@ -3,6 +3,7 @@ layout: mfile
 title: glGetSynciv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetSynciv  Interface to OpenGL function glGetSynciv

@@ -3,6 +3,7 @@ layout: mfile
 title: glGetShaderSource
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetShaderSource  Interface to OpenGL function glGetShaderSource

@@ -3,6 +3,7 @@ layout: mfile
 title: PR650measspd
 categories:
   - PR650Toolbox
+encoding: UTF-8
 ---
 
 \[spd,qual\] = PR650measspd\(S,\[syncMode\]\)

@@ -3,6 +3,7 @@ layout: mfile
 title: NameFrequency
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 fName=NameFrequency\(fValue, \[numDecimalPlaces\]\)

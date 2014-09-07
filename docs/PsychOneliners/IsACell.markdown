@@ -3,6 +3,7 @@ layout: mfile
 title: IsACell
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 bool = IsACell\(input,fhndl\)
@@ -19,7 +20,7 @@ check if there is any element in the cell extending
 over more than 2 dimensions:
 fhndl = @\(x\)ndims\(x\)\>2
 
-DN    2008\-05\-28
+DN    2008-05-28
 
 
 <div class="code_header" style="text-align:right;">

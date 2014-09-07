@@ -3,6 +3,7 @@ layout: mfile
 title: IsWin
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 resultFlag = IsWin\(\[is64=0\]\)

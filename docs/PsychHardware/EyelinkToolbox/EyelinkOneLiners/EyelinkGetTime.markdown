@@ -3,6 +3,7 @@ layout: mfile
 title: EyelinkGetTime
 categories:
   - EyelinkOneLiners
+encoding: UTF-8
 ---
 
 USAGE: eltime=EyelinkGetTime\(el \[, maxwait\]\)

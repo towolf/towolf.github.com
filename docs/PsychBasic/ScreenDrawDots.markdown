@@ -3,15 +3,16 @@ layout: mfile
 title: ScreenDrawDots
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
-Workaround\-Wrapper for the [Screen](/docs/Screen)\('DrawDots'\) function.
+Workaround-Wrapper for the [Screen](/docs/Screen)\('DrawDots'\) function.
 
 Usage: ScreenDrawDots\(windowPtr, xy \[, dotdiameter=1\]\[, dotcolor=white\]\[, center2D\]\[, dot\_type=1\]\);
 
 This function is the equivalent of the [Screen](/docs/Screen)\('DrawDots'\) subfunction
 for fast drawing of 2D dots. It has the same parameters as that function,
-so it can be used as a drop\-in replacement in many cases.
+so it can be used as a drop-in replacement in many cases.
 
 On most systems, this function will simply call [Screen](/docs/Screen)\('DrawDots',...\);
 passing it all parameters you provided, so you'll get exactly that

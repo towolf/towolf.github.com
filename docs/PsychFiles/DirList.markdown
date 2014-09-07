@@ -3,6 +3,7 @@ layout: mfile
 title: DirList
 categories:
   - PsychFiles
+encoding: UTF-8
 ---
 
 str = DirList\(dirnm,qdispfiles,lim,pref, folderFilter, fileFilter, qRelPath\)

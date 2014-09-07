@@ -3,6 +3,7 @@ layout: mfile
 title: NameBytes
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 bytesName=NameBytes\(numBytes \[,abbreviateFlag\]\)
@@ -15,7 +16,7 @@ of bytes in more readable form.  For example:
 
     ans =
 
-       1.3422e\+09
+       1.3422e+09
 
     \>\> NameBytes\(c.hw.physmem\)
 

@@ -3,6 +3,7 @@ layout: mfile
 title: glFramebufferRenderbuffer
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glFramebufferRenderbuffer  Interface to OpenGL function glFramebufferRenderbuffer

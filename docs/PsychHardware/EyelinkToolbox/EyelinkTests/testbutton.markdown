@@ -3,6 +3,7 @@ layout: mfile
 title: testbutton
 categories:
   - EyelinkTests
+encoding: UTF-8
 ---
 
 John Palmer

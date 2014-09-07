@@ -3,20 +3,21 @@ layout: mfile
 title: PanelFitterDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
-PanelFitterDemo \- Demonstrate use of the panel fitter.
+PanelFitterDemo - Demonstrate use of the panel fitter.
 
 This demo shows how to use [Screen](/docs/Screen)\(\)'s panel fitter function by using the
-high\-level setup code in PsychImaging\(\).
+high-level setup code in PsychImaging\(\).
 
 The panelfitter allows to implement "rotated framebuffers", which have a
 shape \(width and height in pixels\) that corresponds to a display device
 that is rotated by increments of 90 degrees with respect to its "natural"
 upright orientation \(typically landscape\). E.g., assume you have a flat
-panel with a natural landscape orientation \- more wide than high \- and a
+panel with a natural landscape orientation - more wide than high - and a
 resolution of 1920 x 1080 pixels. Now for some reason you want to turn
-your panel into "portrait" orientation \- more high than wide \- by
+your panel into "portrait" orientation - more high than wide - by
 rotating it by 90 degrees. Drawing stimulus images for such a rotated
 display would be inconvenient, as everything would be shown tilted by 90
 degrees to your subject. Here the panelfitter can help by providing a
@@ -33,7 +34,7 @@ Why not simply use the "Rotate display" buttons or settings in the
 display control GUI of your operating system? Because the method by which
 operating systems and graphics cards do implement that display rotation
 will usually severely interfere with visual stimulus onset timing and/or
-stimulus onset timestamping \-\- you lose control over your stimulus
+stimulus onset timestamping -- you lose control over your stimulus
 presentation timing. Our panelfitter makes sure timing stays under
 control.
 
@@ -47,9 +48,9 @@ to their fixed pixel grid. If you want to set such a display to a
 different resolution, your graphics hardware or display device will use
 digital image processing to scale and resize the input video signal from
 its set resolution to the native resolution of the device. This
-introduces lag due to processing delays, and possibly non\-deterministic
+introduces lag due to processing delays, and possibly non-deterministic
 timing variance in visual stimulus onset, therefore you should avoid such
-non\-native resolutions and run your displays at native \(maximum\)
+non-native resolutions and run your displays at native \(maximum\)
 resolution. If you still want to display stimulus images at a different
 size than the panels native resolution, the panelfitter can help you. It
 provides you with a framebuffer of selectable size and then performs the
@@ -62,7 +63,7 @@ strategy for placing and scaling the image onto the panel.
 
 Again, operating systems allow you to select different resolutions and
 fitting modes in their display GUI controls, but the methods by which
-non\-native resolutions and fittings are implemented by current operating
+non-native resolutions and fittings are implemented by current operating
 systems and graphics cards can severely interfere with stimulus onset
 timing and timestamping, or with low level stimulus properties, due to
 the digital filtering, resampling and blurring involved. Our panelfitter
@@ -73,13 +74,13 @@ properties.
 
 a\) Currently display rotation and image scaling don't go well together.
    One or the other works well, but both combined can exhibit bugs and
-   artifacts. These are limitations of our current high\-level setup code.
-   You could probably use the [Screen](/docs/Screen)\('PanelFitter'\) low\-level setup
+   artifacts. These are limitations of our current high-level setup code.
+   You could probably use the [Screen](/docs/Screen)\('PanelFitter'\) low-level setup
    command directly to get a well working solution for your specific
    needs, should you require scaling and rotation at the same time. Or
-   you could fix and extend our high\-level setup code in PsychImaging.m.
+   you could fix and extend our high-level setup code in PsychImaging.m.
 
-b\) Multisample anti\-aliasing does not work together with display rotation
+b\) Multisample anti-aliasing does not work together with display rotation
    on older graphics hardware, or with Apple OSX versions up to and
    including 10.9 "Mavericks". It will work on modern GPU's under Linux
    or Windows if they at least support OpenGL 3.2, but not on the same

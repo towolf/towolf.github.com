@@ -3,12 +3,13 @@ layout: mfile
 title: MinimumMotionExp
 categories:
   - PsychExampleExperiments
+encoding: UTF-8
 ---
 
 MinimumMotionExp\(\[writeResult=0\]\)
 
 Minimum motion luminance measurement \(Anstis and Cavanagh\). Rapid,
-precise, and works well down to 1hz, or 1  cpd. Self\-contained script,
+precise, and works well down to 1hz, or 1  cpd. Self-contained script,
 with optional gamma file input or default.
 
 Measures red/green and blue/green foveal or extrafoveal equiluminance

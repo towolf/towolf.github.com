@@ -3,6 +3,7 @@ layout: mfile
 title: VecToImage
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 image = VecToImage\(vec,\[nRows,nCols\]\)

@@ -3,6 +3,7 @@ layout: mfile
 title: glDrawArrays
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDrawArrays  Interface to OpenGL function glDrawArrays

@@ -3,6 +3,7 @@ layout: mfile
 title: AlphaImageDemo
 categories:
   - AlphaImageDemo
+encoding: UTF-8
 ---
 
 AlphaImageDemo

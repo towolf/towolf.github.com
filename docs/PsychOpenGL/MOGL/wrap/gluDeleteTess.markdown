@@ -3,6 +3,7 @@ layout: mfile
 title: gluDeleteTess
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluDeleteTess  Interface to OpenGL function gluDeleteTess

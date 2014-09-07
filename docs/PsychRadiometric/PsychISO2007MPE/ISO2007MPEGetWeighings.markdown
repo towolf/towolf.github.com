@@ -3,6 +3,7 @@ layout: mfile
 title: ISO2007MPEGetWeighings
 categories:
   - PsychISO2007MPE
+encoding: UTF-8
 ---
 
 \[wls,weightingR,weightingA,weightingS,wls\_R,rawWeigtingR,wls\_A,rawWeightingA,wls\_S,rawWeightingS\] = ISO2007MPEGetWeighings\(S\)

@@ -3,6 +3,7 @@ layout: mfile
 title: KbMapKey
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 q = KbMapKey\(KeyNums,keyCode\)

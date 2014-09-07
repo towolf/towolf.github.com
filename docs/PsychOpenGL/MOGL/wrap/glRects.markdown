@@ -3,6 +3,7 @@ layout: mfile
 title: glRects
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glRects  Interface to OpenGL function glRects

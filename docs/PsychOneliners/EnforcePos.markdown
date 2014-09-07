@@ -3,6 +3,7 @@ layout: mfile
 title: EnforcePos
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
  out = EnforcePos\(in\)

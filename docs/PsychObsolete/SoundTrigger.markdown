@@ -3,6 +3,7 @@ layout: mfile
 title: SoundTrigger
 categories:
   - PsychObsolete
+encoding: UTF-8
 ---
 
 Basic test and demo of the sound recording/capture functionality of the
@@ -10,7 +11,7 @@ new PsychSound\(\) function.
 
 Parameters: duration = Recordingcapacity \(in seconds\) of the sound capture
 buffer. After recording of sound has been started, PsychSound will
-perform continuous recording into an internal ring\-buffer with a storage capacity
+perform continuous recording into an internal ring-buffer with a storage capacity
 of 'duration' seconds, until recording gets stopped again. Soundrecording
 is done asynchronously as an automatic background process, independent of
 Matlabs/Psychtoolboxs execution. This way you can continue execution of
@@ -19,7 +20,7 @@ your Matlab script \(sound output, response collection, visual output,
 amount of new recorded sound data in the buffer and you can fetch this
 data from the buffer into a Matlab matrix at any time during of after
 recording. Be aware though that if the buffers capacity is exhausted, it
-will dispose old sound data to store new one \- only the last 'duration'
+will dispose old sound data to store new one - only the last 'duration'
 seconds of the most recently recorded sound are kept.
 
 # This leaves you with two options:
@@ -27,7 +28,7 @@ seconds of the most recently recorded sound are kept.
 a\) Request a buffer big enough to store the full duration of your
 recording from Start of capture until the end, and read out the recorded
 data into a Matlab matrix after the end of the recording. This is the
-most easy to implement \(nice linear control flow Start\-\>Stop\-\>Fetch\), but
+most easy to implement \(nice linear control flow Start-\>Stop-\>Fetch\), but
 you have to know the maximum duration in advance, and you'll potentially
 use up significant amounts of memory.
 

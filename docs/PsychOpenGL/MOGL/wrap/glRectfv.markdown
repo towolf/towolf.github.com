@@ -3,6 +3,7 @@ layout: mfile
 title: glRectfv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glRectfv  Interface to OpenGL function glRectfv

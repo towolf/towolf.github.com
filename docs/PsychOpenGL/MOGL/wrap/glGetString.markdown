@@ -3,6 +3,7 @@ layout: mfile
 title: glGetString
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetString  Interface to glGetString

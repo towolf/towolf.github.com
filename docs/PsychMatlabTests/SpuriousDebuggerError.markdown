@@ -3,6 +3,7 @@ layout: mfile
 title: SpuriousDebuggerError
 categories:
   - PsychMatlabTests
+encoding: UTF-8
 ---
 
 Mathworks Case ID:  230201, reported 5/7/99
@@ -19,7 +20,7 @@ SPURIOUS ERROR MESSAGE: In earlier versions, before 5.2.1, the Debugger
 wouldn't allow debugging of files in the Toolbox. Now it does \(yay\!\), but
 when you press the bug symbol, Matlab first beeps spuriously, giving the
 misleading error message,
-"??? Error using ==\> dbstatus Can't find M\-file function."
+"??? Error using ==\> dbstatus Can't find M-file function."
 as it nevertheless opens the file in the Debugger and allows subsequent
 debugging.
 
@@ -31,7 +32,7 @@ premier apple developer
 
 # Hello:
 
-I am writing in response to your e\-mail of May 11, in which you reported an
+I am writing in response to your e-mail of May 11, in which you reported an
 extrainous error when debugging toolbox functions.
 
 Thank you for taking the itme ot report this to us.

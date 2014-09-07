@@ -3,11 +3,12 @@ layout: mfile
 title: SetCompressedStereoSideBySideParameters
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 SetCompressedStereoSideBySideParameters\(win, \[0, 0\], \[0.5, 1\], \[0.5, 0\], \[0.5, 1\]\);
 
-Change parameters for over\-under stereo to side\-by\-side stereo so that
+Change parameters for over-under stereo to side-by-side stereo so that
 the imaging mode will work in a display that horizontally stretches left
 and right frames to fill the full res window.
 
@@ -19,12 +20,12 @@ PsychImaging\('AddTask', 'General', 'SideBySideCompressedStereo'\);
 ... is called during window setup.
 
 You can call the function yourself after PsychImaging\('OpenWindow', ...\);
-if you want to use non\-default composition parameters for side\-by\-side
+if you want to use non-default composition parameters for side-by-side
 stereo presentation.
 
-# This is how compressed side\-by\-side stereo works:
+# This is how compressed side-by-side stereo works:
 
-1. Usercode draws stimuli into the left\-eye and righ\-eye framebuffers at
+1. Usercode draws stimuli into the left-eye and righ-eye framebuffers at
    full display resolution.
 
 2. [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\) compresses those stimuli horizontally into the output
@@ -32,10 +33,10 @@ stereo presentation.
 
 3. At display time, the display stretches half frames to full width:
    \_\_\_\_\_\_\_\_\_        \_\_\_\_\_\_\_\_\_       \_\_\_\_\_\_\_\_\_
-   | L | R |   \-\-\-\> | <\-L\-\>  |  \+   | <\-R\-\>  |
-   \-\-\-\-\-\-\-\-\-        \-\-\-\-\-\-\-\-\-\-      \-\-\-\-\-\-\-\-\-\-
+   | L | R |   ---\> | <-L-\>  |  +   | <-R-\>  |
+   ---------        ----------      ----------
 
-Side\-by\-side compressed images are one of several popular stereo HDMI
+Side-by-side compressed images are one of several popular stereo HDMI
 formats.
 
 The stereo mode must have been set to 2 or 3 for this to work, or the
@@ -52,8 +53,8 @@ of drawing the stereo views.
 All parameters except the onscreen 'win'dowhandle are optional and have
 reasonable builtin defaults:
 
-'leftOffset' = Top\-Left \[x,y\] offset of left eye framebuffer in relative
-coordinates \[0,0\] == top\-left of framebuffer, \[1,0\] == 1 display window
+'leftOffset' = Top-Left \[x,y\] offset of left eye framebuffer in relative
+coordinates \[0,0\] == top-left of framebuffer, \[1,0\] == 1 display window
 width to the right, \[2,0\] == 2 display window widths to the right etc.
 
 'leftScale' = Scaling of left eye image buffer. E.g., \[1,1\] == Don't
@@ -62,7 +63,7 @@ height.
 
 'rightOffset', 'rightScale' == Ditto for right eye image.
 
-This function was inspired and co\-implemented by David Hoffman.
+This function was inspired and co-implemented by David Hoffman.
 
 
 

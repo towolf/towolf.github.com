@@ -3,6 +3,7 @@ layout: mfile
 title: glPixelMapfv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glPixelMapfv  Interface to OpenGL function glPixelMapfv

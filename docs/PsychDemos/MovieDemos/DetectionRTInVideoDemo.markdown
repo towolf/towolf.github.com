@@ -3,31 +3,32 @@ layout: mfile
 title: DetectionRTInVideoDemo
 categories:
   - MovieDemos
+encoding: UTF-8
 ---
 
 
 DetectionRTInVideoDemo\(moviename, timeOfEvent, trials\)
 
 A demo implementation of how to collect reaction time for detection of a
-specific time\-locked event in a movie file.
+specific time-locked event in a movie file.
 
 Parameters:
-moviename \- Filename of moviefile to use. If none is provided, then the
+moviename - Filename of moviefile to use. If none is provided, then the
 simple DualDiscs collision movie is used which is part of PTB.
 
-timeOfEvent \- Time \(in seconds\) when the timelocked event happens which
+timeOfEvent - Time \(in seconds\) when the timelocked event happens which
 should be detected by the subject. Default is time of contact of the
 DualDiscs collision.
 
-trials \- Number of trials to run. Defaults to 10 or ESC key press.
+trials - Number of trials to run. Defaults to 10 or ESC key press.
 
-How the demo works: Read the source code \- its well documented ;\-\)
+How the demo works: Read the source code - its well documented ;-\)
 This demo demonstrates the optimal way if you have movies with sound
 \(that needs to be played in sync with the video\) or long movies that
 don't fit into memory or that you don't want to load into memory.
 
-It uses automatic synchronized audio\-video playback. The central
-while\-loop checks for arrival of new frames for display and displays them
+It uses automatic synchronized audio-video playback. The central
+while-loop checks for arrival of new frames for display and displays them
 when their time has come. It also registers subjects keypress responses
 and does all the bookkeeping and sanity checking.
 

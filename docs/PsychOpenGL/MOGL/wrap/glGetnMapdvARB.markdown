@@ -3,6 +3,7 @@ layout: mfile
 title: glGetnMapdvARB
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetnMapdvARB  Interface to OpenGL function glGetnMapdvARB

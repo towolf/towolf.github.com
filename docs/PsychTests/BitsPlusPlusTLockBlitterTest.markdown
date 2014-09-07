@@ -3,12 +3,13 @@ layout: mfile
 title: BitsPlusPlusTLockBlitterTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 BitsPlusPlusTLockBlitterTest\(\[screenId\]\)
 
-Test if the old style Bits\+\+ T\-Lock code generation and the new style
-built\-in T\-Lock code generation yield identical results.
+Test if the old style Bits++ T-Lock code generation and the new style
+built-in T-Lock code generation yield identical results.
 
 'screenId' == Display screen to test. Defaults to max\([Screen](/docs/Screen)\('Screens'\)\).
 

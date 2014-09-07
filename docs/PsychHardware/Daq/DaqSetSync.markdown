@@ -3,13 +3,14 @@ layout: mfile
 title: DaqSetSync
 categories:
   - Daq
+encoding: UTF-8
 ---
 
 err=DaqSetSync\(DeviceIndex,type\)
-USB\-1208FS: Configure sync input/output.
+USB-1208FS: Configure sync input/output.
 "DeviceIndex" is a small integer, the array index specifying which HID
         device in the array returned by PsychHID\('Devices'\) is interface
-        0 of the desired USB\-1208FS box.
+        0 of the desired USB-1208FS box.
 "type" is 0 for master, 1 for slave with continuous clock, or 2 for slave
         with gated clock.
 This command configures the sync signal.  The sync signal may be used to
@@ -28,7 +29,7 @@ continuous clock, an additional sync pulse is required to set up the
 AInScan.  If configured as a slave with a gated clock the additional sync
 pulse is not required.  However, if a sync pulse is received while the
 AInScan setup is being performed by the device, improper operation may
-result.  This is intended for use when synchronizing with another USB\-1208FS,
+result.  This is intended for use when synchronizing with another USB-1208FS,
 where the sync signal will not be present until the master device has
 been issued an AInScan command. The device will switch the SYNC pin to
 the appropriate input/output state when this command is received.

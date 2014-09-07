@@ -3,6 +3,7 @@ layout: mfile
 title: glProvokingVertex
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glProvokingVertex  Interface to OpenGL function glProvokingVertex

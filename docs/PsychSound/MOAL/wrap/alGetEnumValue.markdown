@@ -3,6 +3,7 @@ layout: mfile
 title: alGetEnumValue
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alGetEnumValue  Interface to OpenAL function alGetEnumValue

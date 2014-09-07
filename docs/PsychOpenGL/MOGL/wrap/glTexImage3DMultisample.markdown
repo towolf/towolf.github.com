@@ -3,6 +3,7 @@ layout: mfile
 title: glTexImage3DMultisample
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glTexImage3DMultisample  Interface to OpenGL function glTexImage3DMultisample

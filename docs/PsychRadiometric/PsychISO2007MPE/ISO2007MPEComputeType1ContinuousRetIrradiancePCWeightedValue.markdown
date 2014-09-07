@@ -3,6 +3,7 @@ layout: mfile
 title: ISO2007MPEComputeType1ContinuousRetIrradiancePCWeightedValue
 categories:
   - PsychISO2007MPE
+encoding: UTF-8
 ---
 
 function \[val\_UWattsPerCm2,limit\_UWattsPerCm2\] = ISO2007MPEComputeType1ContinuousRetIrradiancePCWeightedValue\(...
@@ -11,7 +12,7 @@ function \[val\_UWattsPerCm2,limit\_UWattsPerCm2\] = ISO2007MPEComputeType1Conti
 Compute the weighted aphakic \(photochemical\) retinal irradiance for Type 1 instruments as given on page 8, Table 2,
 5.4.1.3.a.
 
-Input spectrum is radiance in units of Watts/\[sr\-m2\-wlinterval\].
+Input spectrum is radiance in units of Watts/\[sr-m2-wlinterval\].
 
 Also return the exposure limit for this quantity.
 

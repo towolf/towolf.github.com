@@ -3,6 +3,7 @@ layout: mfile
 title: glGetProgramInfoLog
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetProgramInfoLog  Interface to OpenGL function glGetProgramInfoLog

@@ -3,6 +3,7 @@ layout: mfile
 title: DescribeComputer
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 DescribeComputer prints out several lines of text about the computing

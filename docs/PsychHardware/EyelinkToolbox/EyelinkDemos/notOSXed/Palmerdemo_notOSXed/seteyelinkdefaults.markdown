@@ -3,6 +3,7 @@ layout: mfile
 title: seteyelinkdefaults
 categories:
   - Palmerdemo_notOSXed
+encoding: UTF-8
 ---
 
 function that sets all standard defaults for eyelink used by Shadlen Lab

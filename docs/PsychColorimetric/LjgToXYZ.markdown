@@ -3,6 +3,7 @@ layout: mfile
 title: LjgToXYZ
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 XYZ = LjgToXYZ\(Ljg\)

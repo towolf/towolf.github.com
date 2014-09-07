@@ -3,6 +3,7 @@ layout: mfile
 title: KbEventFlush
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 nflushed = KbEventFlush\(\[deviceIndex\]\)

@@ -3,6 +3,7 @@ layout: mfile
 title: glDetachShader
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDetachShader  Interface to OpenGL function glDetachShader

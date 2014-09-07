@@ -3,6 +3,7 @@ layout: mfile
 title: glClearNamedBufferSubDataEXT
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glClearNamedBufferSubDataEXT  Interface to OpenGL function glClearNamedBufferSubDataEXT

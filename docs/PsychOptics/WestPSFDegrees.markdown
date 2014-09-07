@@ -3,6 +3,7 @@ layout: mfile
 title: WestPSFDegrees
 categories:
   - PsychOptics
+encoding: UTF-8
 ---
 
 psf = WestPSFDegrees\(radius\)

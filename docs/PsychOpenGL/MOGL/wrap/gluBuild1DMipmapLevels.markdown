@@ -3,6 +3,7 @@ layout: mfile
 title: gluBuild1DMipmapLevels
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluBuild1DMipmapLevels  Interface to OpenGL function gluBuild1DMipmapLevels

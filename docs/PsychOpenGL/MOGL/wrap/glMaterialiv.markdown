@@ -3,6 +3,7 @@ layout: mfile
 title: glMaterialiv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glMaterialiv  Interface to OpenGL function glMaterialiv

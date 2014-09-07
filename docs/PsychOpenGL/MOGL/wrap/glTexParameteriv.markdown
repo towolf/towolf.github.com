@@ -3,6 +3,7 @@ layout: mfile
 title: glTexParameteriv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glTexParameteriv  Interface to OpenGL function glTexParameteriv

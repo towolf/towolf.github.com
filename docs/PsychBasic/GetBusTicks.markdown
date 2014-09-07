@@ -3,6 +3,7 @@ layout: mfile
 title: GetBusTicks
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 ticks = GetBusTicks
@@ -11,7 +12,7 @@ OS X: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 Return the number of system bus ticks since startup.  The period of the
 bus tick clock depends on the model and frequency of your CPU. Use
-GetSecs instead for reliable, high\-precision time measurement in standard
+GetSecs instead for reliable, high-precision time measurement in standard
 units.
 
 Bus ticks returned by GetBusTicks are not the same as ticks returned by

@@ -3,6 +3,7 @@ layout: mfile
 title: FitWeibTAFC
 categories:
   - Psychometric
+encoding: UTF-8
 ---
 
  \[alpha,beta,thresh92\] = FitWeibTAFC\(inputs,nCorrect,nError,...

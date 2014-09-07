@@ -3,18 +3,18 @@ layout: mfile
 title: InstallKinect
 categories:
   - PsychDocumentation
+encoding: UTF-8
 ---
 
-InstallKinect \- Kinect driver installation instructions.
+InstallKinect - Kinect driver installation instructions.
 
-MS\-Windows:
-\-\-\-\-\-\-\-\-\-\-\-
+# MS-Windows
 
-Psychtoolbox on Windows currently only supports the original XBOX\-360 Kinect,
+Psychtoolbox on Windows currently only supports the original XBOX-360 Kinect,
 not the more recent versions of "Kinect for Windows". Use GNU/Linux if you want
 to use those.
 
-1. Unzip the file Psychtoolbox/PsychContributed/Kinect\-v16\-WindowsDrivers.zip
+1. Unzip the file Psychtoolbox/PsychContributed/Kinect-v16-WindowsDrivers.zip
    into a temporary folder, e.g., C:\\tmp\\KinectDrivers.
 
 2. Plug in your Kinect box into a USB port via the interface cable.
@@ -47,8 +47,7 @@ The current Kinect low level drivers are still early prototypes, so
 expect occassional bugs or weird behaviour.
 
 
-GNU/Linux:
-\-\-\-\-\-\-\-\-\-\-
+# GNU/Linux
 
 If you use the Psychtoolbox distribution provided by the NeuroDebian
 project \(http://neuro.debian.net\) there's nothing to do. It should "just
@@ -60,17 +59,17 @@ window and type this sequence of commands, providing your administrator
 password as requested. \(Same procedure for Debian 4.0 or later\)
 
    a\) Add the NeuroDebian repository to your software sources, as described
-      at http://neuro.debian.net\#how\-to\-use\-this\-repository
-   b\) sudo apt\-get update
-   c\) sudo apt\-get install freenect
+      at http://neuro.debian.net\#how-to-use-this-repository
+   b\) sudo apt-get update
+   c\) sudo apt-get install freenect
    d\) sudo adduser YOURNAME video
-      \-\-\> \(YOURNAME\) is your user login name\!
+      --\> \(YOURNAME\) is your user login name\!
    e\) Log out and Log in again.
 
-For non\-Debian or non\-Ubuntu Linux distributions, you'll need to install
+For non-Debian or non-Ubuntu Linux distributions, you'll need to install
 a version of libfreenect that is compatible to version 0.1.2 via whatever
 means your system provides to do this. If you want to also use the Kinect for
-Windows, instead of only the "original" XBOX\-360 kinect, then you will need
+Windows, instead of only the "original" XBOX-360 kinect, then you will need
 libfreenect version 0.2 or later. Using version 0.2 or later of libfreenect
 will also allow you to skip the following setup step 2:
 
@@ -80,8 +79,8 @@ and microphones of the Kinect as regular sound and video devices, e.g.,
 for use by the Psychtoolbox videocapture and recording functions or other
 video apps \(Skype, etc.\). This however blocks use of the Kinect by our
 PsychKinect\(\) driver. If you want the Kinect as 3D depths camera with
-our driver or other Kinect\-specific software, you need to disable the
-standard Linux kinect driver "gspca\_kinect" by black\-listing it. On
+our driver or other Kinect-specific software, you need to disable the
+standard Linux kinect driver "gspca\_kinect" by black-listing it. On
 Ubuntu Linux \(and probably most other distributions\) you can do this
 by copying the file linux\_blacklist\_kinectvideo from Psychtoolboxs
 PsychContributed folder to Linux /etc/modprobe.d/ directory as a root
@@ -92,8 +91,7 @@ administrator rights \(as the script calls the sudo command\).
 3. After this procedure, the Kinect should be fully useable by Psychtoolbox.
 
 
-Mac OS/X:
-\-\-\-\-\-\-\-\-\-
+# Mac OS/X
 
 See the OS/X section at http://openkinect.org/wiki/Getting\_Started
 You will need libfreenect version 0.1.2 or compatible for this to work.
@@ -106,23 +104,22 @@ and "brew install autoconfig", and potentially cmake before one can
 "brew install libfreenect".
 
 If you want to also use the Kinect for Windows, instead of only the
-"original" XBOX\-360 kinect, then you will need libfreenect version 0.3 or
+"original" XBOX-360 kinect, then you will need libfreenect version 0.3 or
 later.
 
 PsychKinectCore links dynamically against those two libraries. We don't
 distribute them for now, as that would require us to distribute the
-corresponding source code of libusb\-1.0.0 as well due to LGPLv2
+corresponding source code of libusb-1.0.0 as well due to LGPLv2
 requirements.
 
 
-# CAVEATS:
-\-\-\-\-\-\-\-\-
+# CAVEATS
 
 This is still early prototype software, expect bugs, bumps and hickups.
 
 The Kinect driver has been successfully tested with "Microsoft XBox
 Kinect". This version doesn't yet work with "Microsoft Kinect for
-Windows", due to lack of support in the libfreenect\-0.1.2 library.
+Windows", due to lack of support in the libfreenect-0.1.2 library.
 
 Further installation instructions for other systems can be found at
 http://openkinect.org/wiki/Getting\_Started
@@ -134,8 +131,8 @@ developed and licensed to you by their respective developers, the members
 of the OpenKinect community. See the respective web sites and licenses
 for copyright, authors, credits etc.:
 
-libusb \- The underlying USB communication library is licensed under LGPL.
-libfreenect \- The Kinect driver is dual\-licensed \(at your option\) under
+libusb - The underlying USB communication library is licensed under LGPL.
+libfreenect - The Kinect driver is dual-licensed \(at your option\) under
 GPLv2 or Apache license.
 
 The source code of the Windows version of the Kinect driver and libusb
@@ -143,14 +140,14 @@ can be found after checking out Psychtoolbox's C source code from our GIT
 repository \(see "help UseTheSource" for instructions\) as a zip file
 under:
 
-Psychtoolbox\-3/PsychSourceGL/Cohorts/Kinect\-v16\-withsource.zip
+Psychtoolbox-3/PsychSourceGL/Cohorts/Kinect-v16-withsource.zip
 
 The source code for libfreenect \(Unix aka Linux / MacOS/X\) can be found
 under:
 
 web: http://openkinect.org/wiki/Contributing\_Code
 
-# The source code of libusb\-1.0 can be found at:
+# The source code of libusb-1.0 can be found at:
 
 web: http://www.libusb.org/
 

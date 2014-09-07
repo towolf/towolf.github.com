@@ -3,6 +3,7 @@ layout: mfile
 title: FitWeibullTAFCTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 FitWeibTAFCTest

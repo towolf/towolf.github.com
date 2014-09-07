@@ -3,6 +3,7 @@ layout: mfile
 title: RetIrradiancePerDegrees2AndEyeLengthToRetIrradiancePerArea
 categories:
   - PsychRadiometric
+encoding: UTF-8
 ---
 
 retIrradiance\_PerArea = RetIrradiancePerDegrees2AndEyeLengthToRetIrradiancePerArea\(retIrradiance\_PerDegrees2,eyeLength\)

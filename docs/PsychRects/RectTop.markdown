@@ -3,6 +3,7 @@ layout: mfile
 title: RectTop
 categories:
   - PsychRects
+encoding: UTF-8
 ---
 
 yTop = rect\(RectTop\)

@@ -3,9 +3,10 @@ layout: mfile
 title: PsychEyelinkDispatchCallback
 categories:
   - EyelinkBasic
+encoding: UTF-8
 ---
 
-Retrieve live eye\-image from Eyelink, show it in onscreen window.
+Retrieve live eye-image from Eyelink, show it in onscreen window.
 
 This function is normally called from within the Eyelink\(\) mex file.
 Normal user code only calls it once to supply the eyelink defaults struct.
@@ -32,13 +33,13 @@ camera and displays it in the previously assigned onscreen window.
 
 History:ed
 15.3.2009 Derived from MemoryBuffer2TextureDemo.m \(MK\).
- 4.4.2009 Updated to use EyelinkGetKey \+ fixed eyelinktex persistence crash \(edf\).
+ 4.4.2009 Updated to use EyelinkGetKey + fixed eyelinktex persistence crash \(edf\).
 11.4.2009 Cleaned up. Should be ready for 1st release, although still
           pretty alpha quality. \(MK\).
 15.6.2010 Added some drawing routines to get standard behaviour back. Enabled
           use of the callback by default. Clarified in helptext that user
           normally should not have to worry about calling this file. \(fwc\)
-20.7.2010 drawing of instructions, eye\-image\+title, playing sounds in seperate functions
+20.7.2010 drawing of instructions, eye-image+title, playing sounds in seperate functions
 
 1.2.2010 nj modified to allow for cross hair and fix bugs
 

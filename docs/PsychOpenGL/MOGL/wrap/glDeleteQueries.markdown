@@ -3,6 +3,7 @@ layout: mfile
 title: glDeleteQueries
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDeleteQueries  Interface to OpenGL function glDeleteQueries

@@ -3,6 +3,7 @@ layout: mfile
 title: GetRawProcessList
 categories:
   - PsychPriority
+encoding: UTF-8
 ---
 
 processListString=GetRawProcessList
@@ -10,7 +11,7 @@ processListString=GetRawProcessList
 OS X: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 Return in a single string the process list as retuned by the BSD ps
-command.  Specifically: ps \-caxwl
+command.  Specifically: ps -caxwl
 
 OS 9: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 

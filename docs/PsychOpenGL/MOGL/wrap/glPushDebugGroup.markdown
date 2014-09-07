@@ -3,6 +3,7 @@ layout: mfile
 title: glPushDebugGroup
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glPushDebugGroup  Interface to OpenGL function glPushDebugGroup

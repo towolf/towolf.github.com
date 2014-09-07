@@ -3,52 +3,53 @@ layout: mfile
 title: DaqALoadQueue
 categories:
   - Daq
+encoding: UTF-8
 ---
 
 err=DaqALoadQueue\(DeviceIndex,channel,range\)
-USB\-1208FS: Load the channel/gain queue. The USB\-1208FS can scan an
+USB-1208FS: Load the channel/gain queue. The USB-1208FS can scan an
 arbitrary sequence of analog input channels, each with an arbitrary gain
 setting. DaqALoadQueue allows you to specify that sequence.
 "DeviceIndex" is a small integer, the array index specifying which HID
     device in the array returned by PsychHID\('Devices'\) is interface 0
-    of the desired USB\-1208FS box.
+    of the desired USB-1208FS box.
 "channel" is a vector of length 1 to 8; each value \(0 to 15\) selects any of
-    various single\-ended or differential measurements.
+    various single-ended or differential measurements.
  "channel"    Measurement
-     0        0\-1 \(differential\)
-     1        2\-3 \(differential\)
-     2        4\-5 \(differential\)
-     3        6\-7 \(differential\)
-     4        1\-0 \(differential\)
-     5        3\-2 \(differential\)
-     6        5\-4 \(differential\)
-     7        7\-6 \(differential\)
-     8          0 \(single\-ended\)
-     9          1 \(single\-ended\)
-    10          2 \(single\-ended\)
-    11          3 \(single\-ended\)
-    12          4 \(single\-ended\)
-    13          5 \(single\-ended\)
-    14          6 \(single\-ended\)
-    15          7 \(single\-ended\)
+     0        0-1 \(differential\)
+     1        2-3 \(differential\)
+     2        4-5 \(differential\)
+     3        6-7 \(differential\)
+     4        1-0 \(differential\)
+     5        3-2 \(differential\)
+     6        5-4 \(differential\)
+     7        7-6 \(differential\)
+     8          0 \(single-ended\)
+     9          1 \(single-ended\)
+    10          2 \(single-ended\)
+    11          3 \(single-ended\)
+    12          4 \(single-ended\)
+    13          5 \(single-ended\)
+    14          6 \(single-ended\)
+    15          7 \(single-ended\)
 "range" is a vector of the same length, with values of 0 to 7, specifying
     the desired gain \(and voltage range\) for the corresponding channel...
-    unless we're talking channels greater than 7.  Single\-ended inputs always
-    have a range of \+/\- 10 V, so if you try to set the range to anything other
-    than zero for a single\-ended measurement, your setting will be ignored.
+    unless we're talking channels greater than 7.  Single-ended inputs always
+    have a range of +/- 10 V, so if you try to set the range to anything other
+    than zero for a single-ended measurement, your setting will be ignored.
     For differential measurements \(channels 0:7\), the mapping between the
     values passed to this function and the gain \(and actual range\) are:
-    0 for 1x \(\+/\-20 V\),    1 for 2x \(\+/\-10 V\),
-    2 for 4x \(\+/\-5 V\),     3 for 5x \(\+/\-4 V\),
-    4 for 8x \(\+/\-2.5 V\),   5 for 10x \(\+/\-2 V\),
-    6 for 16x \(\+/\-1.25 V\), 7 for 20x \(\+/\-1 V\).
+    0 for 1x \(+/-20 V\),    1 for 2x \(+/-10 V\),
+    2 for 4x \(+/-5 V\),     3 for 5x \(+/-4 V\),
+    4 for 8x \(+/-2.5 V\),   5 for 10x \(+/-2 V\),
+    6 for 16x \(+/-1.25 V\), 7 for 20x \(+/-1 V\).
 
-USB\-1608FS:
-"DeviceIndex" has the same meaning here as for the USB\-1208FS.
+USB-1608FS:
+"DeviceIndex" has the same meaning here as for the USB-1208FS.
 "channel" is a bit different...
 Only single ended inputs are defined for the 1608FS, so channels range
 only from 0 through 7.  Also, when the gain queue is loaded, it is
-supposed to be loaded for all 8 channels \-\- AInScan does not allow you to
+supposed to be loaded for all 8 channels -- AInScan does not allow you to
 use the gain queue as a way to determine which channels to check; you can
 \*NOT\* scan an arbitrary sequence of channels in a 1608 box like you can
 with a 1208 \(and I believe 1408\) box.  There also appears to be no way to
@@ -71,10 +72,10 @@ channels?  Anyhoo...
 "range" has the same conceptual meaning for the 1608 as it does for the
 1208, but the numbers are different:
 
-    0 for 1x \(\+/\- 10 V\),      1 for 2x \(\+/\- 5 V\),
-    2 for 4x \(\+/\- 2.5 V\),     3 for 5x \(\+/\- 2 V\),
-    4 for 8x \(\+/\- 1.25 V\),    5 for 10x \(\+/\- 1 V\),
-    6 for 16x \(\+/\- 0.625 V\),  7 for 32x \(\+/\- 0.3125 V\).
+    0 for 1x \(+/- 10 V\),      1 for 2x \(+/- 5 V\),
+    2 for 4x \(+/- 2.5 V\),     3 for 5x \(+/- 2 V\),
+    4 for 8x \(+/- 1.25 V\),    5 for 10x \(+/- 1 V\),
+    6 for 16x \(+/- 0.625 V\),  7 for 32x \(+/- 0.3125 V\).
 
 See also Daq, DaqFunctions, DaqPins, DaqTest, PsychHidTest, DaqAIn,
 DaqAInScan, DaqAInScanBegin.

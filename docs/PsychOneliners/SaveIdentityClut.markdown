@@ -3,12 +3,13 @@ layout: mfile
 title: SaveIdentityClut
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 savedClut = SaveIdentityClut\(windowPtr \[, LUT\]\)
 
-This routine defines a LUT or LUT\-type for use as identity gamma lookup
-table for applications that need such a table, e.g., Bits\+ box,
+This routine defines a LUT or LUT-type for use as identity gamma lookup
+table for applications that need such a table, e.g., Bits+ box,
 VideoSwitcher, Video attenuators, the BrightSide HDR display etc.
 
 It writes the LUT into a config file. The function LoadIdentityClut\(\)
@@ -17,7 +18,7 @@ will use the written LUT from that config file, if such a file exists.
 You can either pass a full blown LUT in the optional argument 'LUT', or
 you can pass a LUT id code \(see codes and corresponding LUT's in the
 source code of LoadIdentityClut.m\). If you omit the argument, then the
-function will readout and store the current CLUT of the given display \-
+function will readout and store the current CLUT of the given display -
 in the hope that the current LUT is actually an identity CLUT.
 
 windowPtr is optional: It can be omitted, in which case the LUT of the

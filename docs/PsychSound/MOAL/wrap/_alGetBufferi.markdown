@@ -3,6 +3,7 @@ layout: mfile
 title: _alGetBufferi
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alGetBufferi  Interface to OpenAL function alGetBufferi

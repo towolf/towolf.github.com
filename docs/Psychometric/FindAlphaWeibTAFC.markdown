@@ -3,6 +3,7 @@ layout: mfile
 title: FindAlphaWeibTAFC
 categories:
   - Psychometric
+encoding: UTF-8
 ---
 
 threshold = FindThreshWeibTAFC\(pCorrect,threshold,beta\)

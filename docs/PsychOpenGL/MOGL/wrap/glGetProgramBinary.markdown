@@ -3,6 +3,7 @@ layout: mfile
 title: glGetProgramBinary
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetProgramBinary  Interface to OpenGL function glGetProgramBinary

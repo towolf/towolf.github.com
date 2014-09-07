@@ -3,6 +3,7 @@ layout: mfile
 title: GL_ONE_MINUS_DST_COLOR
 categories:
   - PsychAlphaBlending
+encoding: UTF-8
 ---
 
 constantString=GL\_ONE\_MINUS\_DST\_COLOR

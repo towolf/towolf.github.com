@@ -3,6 +3,7 @@ layout: mfile
 title: glVertexAttribL3d
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glVertexAttribL3d  Interface to OpenGL function glVertexAttribL3d

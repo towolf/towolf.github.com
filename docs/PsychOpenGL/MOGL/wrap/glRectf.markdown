@@ -3,6 +3,7 @@ layout: mfile
 title: glRectf
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glRectf  Interface to OpenGL function glRectf

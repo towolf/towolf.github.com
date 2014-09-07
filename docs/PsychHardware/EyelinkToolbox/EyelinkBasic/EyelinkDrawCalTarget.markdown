@@ -3,6 +3,7 @@ layout: mfile
 title: EyelinkDrawCalTarget
 categories:
   - EyelinkBasic
+encoding: UTF-8
 ---
 
  draw simple calibration target

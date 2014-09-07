@@ -3,6 +3,7 @@ layout: mfile
 title: HideCursor
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 HideCursor\(\[screenid=0\]\[, mouseid\]

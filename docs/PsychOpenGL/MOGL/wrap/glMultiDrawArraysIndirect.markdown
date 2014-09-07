@@ -3,6 +3,7 @@ layout: mfile
 title: glMultiDrawArraysIndirect
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glMultiDrawArraysIndirect  Interface to OpenGL function glMultiDrawArraysIndirect

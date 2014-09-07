@@ -3,6 +3,7 @@ layout: mfile
 title: MinimalisticOpenGLDemo
 categories:
   - OpenGL4MatlabDemos
+encoding: UTF-8
 ---
 
 MinimalisticOpenGLDemo\(\[multiSample\]\[, imagingPipeline\]\[, checkerBoardTexture\]\[, doAccumulate=0\]\)
@@ -24,19 +25,19 @@ texture using [Screen](/docs/Screen)\('MakeTexture'\), then provides this textur
 standard OpenGL compatible texture using [Screen](/docs/Screen)\('GetOpenGLTexture'\).
 This standard texture is applied to a sphere using standard OpenGL commands
 and finally the sphere is drawn as a rotating object in a simple animation
-loop. \-\-\> You'll see a rotating earth.
+loop. --\> You'll see a rotating earth.
 
 Stop the demo by pressing any key and it will finish.
 
-The optional parameter 'multiSample' allows to enable anti\-aliased
+The optional parameter 'multiSample' allows to enable anti-aliased
 drawing with 'multiSample' samples per pixel on hardware that supports
 this.
 
-The optional parameter 'imagingPipeline' allows \(if set to non\-zero
+The optional parameter 'imagingPipeline' allows \(if set to non-zero
 value\) to enable the PTB image processing pipeline, just to test that as
 well.
 
-The optional parameter 'checkerBoardTexture' allows \(if set to non\-zero
+The optional parameter 'checkerBoardTexture' allows \(if set to non-zero
 value\) to apply a checkerboard texture to the spinning sphere, instead of
 a "earth surface texture image". This demonstrates algorithmic texture
 generation and the use of trilinear mipmap filtering to improve image
@@ -44,8 +45,8 @@ quality for high frequency edges and such...
 
 The optional parameter 'doAccumulate' allows to demonstrate an additional
 motion blur effect by use of the accumulation buffer. If you set the
-imagingPipeline flag to zero and doAccumulate to 1, then use of the \-
-nowadays deprecated and extremely slow \- accumulation buffer is
+imagingPipeline flag to zero and doAccumulate to 1, then use of the -
+nowadays deprecated and extremely slow - accumulation buffer is
 demonstrated. If you set imagingPipeline to 1 and doAccumulate to 2 then
 a new fast technique is demonstrated. Both achieve the same visual effect
 with very similar code, but the latter technique is well supported on
@@ -55,39 +56,39 @@ recent hardware, much more flexible and much faster.
 # Notable implementation details regarding use of OpenGL:
 
 The call InitializeMatlabOpenGL at the top of the script initializes the
-Matlab\-OpenGL toolbox and enables the 3D gfx support in Psychtoolbox to
+Matlab-OpenGL toolbox and enables the 3D gfx support in Psychtoolbox to
 allow proper interfacing between the OpenGL toolbox and Psychtoolbox.
 
 After this call, all OpenGL functions are made available to Matlab with
-the same \- or a very similar \- calling syntax as in the C programming
+the same - or a very similar - calling syntax as in the C programming
 language. OpenGL constants are made available in a format that is optimized
 for Matlab, where the first underscore is replaced by a dot, e.g.,
-GL.DEPTH\_TEST, instead of the C\-style GL\_DEPTH\_TEST.
+GL.DEPTH\_TEST, instead of the C-style GL\_DEPTH\_TEST.
 
 In order to execute OpenGL 3D drawing commands to draw 3D stims into a
-Psychtoolbox Onscreen\- or offscreen window, one needs to call
+Psychtoolbox Onscreen- or offscreen window, one needs to call
 [Screen](/docs/Screen)\('BeginOpenGL', windowPtr\). After OpenGL drawing and before
 execution of standard [Screen](/docs/Screen)\(\) commands, one needs to call
 [Screen](/docs/Screen)\('EndOpenGL', windowPtr\) to tell Psychtoolbox that 3D drawing is
 finished.
 
 Some OpenGL functions that return complex parameters to Matlab are not
-yet implemented \- this is work in progress. The performance will be also
-lower than when coding in a compiled language like C\+\+ or C \-\- that's the
-Matlab tax you'll have to pay ;\-\)
+yet implemented - this is work in progress. The performance will be also
+lower than when coding in a compiled language like C++ or C -- that's the
+Matlab tax you'll have to pay ;-\)
 
 The toolbox checks after execution of each single OpenGL command if it
 caused some error. It aborts your script with an error message, if so. If
 you are happy with your code and want to disable these error checks in
 order to squeeze out a bit more speed, you can call
 InitializeMatlabOpenGL\(0,0\) instead of InitializeMatlabOpenGL at the top
-of your script. This will disable automatic error\-checking. You can then
-use the commands gluErrorString or glGetError to perform manual error\-checks
+of your script. This will disable automatic error-checking. You can then
+use the commands gluErrorString or glGetError to perform manual error-checks
 in your code if you want.
 
 Apart from that, use of OpenGL for Matlab is the same as OpenGL for the C
 programming language. If you are used to OpenGL coding in C, it should be
-a zero effort transition to code in Matlab\+PTB. If you don't know OpenGL
+a zero effort transition to code in Matlab+PTB. If you don't know OpenGL
 then get yourself one of the many good books or visit one of the many
 OpenGL tutorials on the internet.
 
@@ -103,9 +104,9 @@ http://www.opengl.org
 
 The OpenGL for Matlab toolbox was developed and contributed under
 GPL license by Prof. Richard F. Murray, University of York, Canada and
-ported to M$\-Windows and GNU/Linux and tuned by Mario Kleiner.
+ported to M$-Windows and GNU/Linux and tuned by Mario Kleiner.
 
-The earth surface JPEG\-image is taken from the Linux/KDE application
+The earth surface JPEG-image is taken from the Linux/KDE application
 kdeworldclock. kdeworldclock and its components are licensed under
 GPL.
 

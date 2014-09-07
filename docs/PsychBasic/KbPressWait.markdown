@@ -3,6 +3,7 @@ layout: mfile
 title: KbPressWait
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 \[secs, keyCode, deltaSecs\] = KbPressWait\(\[deviceNumber\]\[, untilTime=inf\]\[, more optional args for KbWait\]\);
@@ -21,7 +22,7 @@ operation and returned values.
 
 You'll typically use this function to ask your subject for a response and
 you want to continue your script immediately without delay, even if the
-subject keeps the key pressed for a while \-\- a typical usage would be if
+subject keeps the key pressed for a while -- a typical usage would be if
 you want to change the stimulus immediately after response, eg, blank the
 display etc.
 

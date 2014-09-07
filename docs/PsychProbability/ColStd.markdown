@@ -3,6 +3,7 @@ layout: mfile
 title: ColStd
 categories:
   - PsychProbability
+encoding: UTF-8
 ---
 
 theMean = ColStd\(matrix\)

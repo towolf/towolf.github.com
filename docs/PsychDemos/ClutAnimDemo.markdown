@@ -3,6 +3,7 @@ layout: mfile
 title: ClutAnimDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 ClutAnimDemo\(\[method=0\]\)
@@ -18,7 +19,7 @@ Synchronization can't be guaranteed, only that a good effort is made to
 achieve sync. A 'method' setting of 2 will use the Psychtoolbox image
 processing pipeline to implement clut animation, instead of updating the
 hardware gamma tables. This is the only reliable method with respect to
-timing precision. It is also the only method that works on MS\-Windows.
+timing precision. It is also the only method that works on MS-Windows.
 However, it requires recent graphics hardware and a bit more computation
 time.
 

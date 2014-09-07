@@ -3,6 +3,7 @@ layout: mfile
 title: BitsPlusMonoPackTest
 categories:
   - BitsPlusToolbox
+encoding: UTF-8
 ---
 
 BitsPlusMonoPackTest

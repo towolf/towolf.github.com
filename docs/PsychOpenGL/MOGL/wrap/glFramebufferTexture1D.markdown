@@ -3,6 +3,7 @@ layout: mfile
 title: glFramebufferTexture1D
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glFramebufferTexture1D  Interface to OpenGL function glFramebufferTexture1D

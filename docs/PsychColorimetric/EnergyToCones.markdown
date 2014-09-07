@@ -3,6 +3,7 @@ layout: mfile
 title: EnergyToCones
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 cones = EnergyToCones\(wl,energy,S\_cones,T\_cones\)

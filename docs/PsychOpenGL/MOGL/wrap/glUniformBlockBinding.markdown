@@ -3,6 +3,7 @@ layout: mfile
 title: glUniformBlockBinding
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glUniformBlockBinding  Interface to OpenGL function glUniformBlockBinding

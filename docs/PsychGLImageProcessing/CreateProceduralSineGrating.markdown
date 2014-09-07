@@ -3,6 +3,7 @@ layout: mfile
 title: CreateProceduralSineGrating
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 \[gratingid, gratingrect\] = CreateProceduralSineGrating\(windowPtr, width, height \[, backgroundColorOffset =\(0,0,0,0\)\] \[, radius=inf\]\[, contrastPreMultiplicator=1\]\)
@@ -40,7 +41,7 @@ describes the size of the support.
 # A typical invocation to draw a grating patch looks like this:
 
 [Screen](/docs/Screen)\('DrawTexture', windowPtr, gratingid, \[\], dstRect, Angle, \[\], \[\],
-modulateColor, \[\], \[\], \[phase\+180, freq, contrast, 0\]\);
+modulateColor, \[\], \[\], \[phase+180, freq, contrast, 0\]\);
 
 Draws the grating 'gratingid' into window 'windowPtr', at position 'dstRect'
 or in the center if dstRect is set to \[\]. Make sure 'dstRect' has the
@@ -48,16 +49,16 @@ size of 'gratingrect' to avoid spatial distortions\! You could do, e.g.,
 dstRect = OffsetRect\(gratingrect, xc, yc\) to place the grating centered at
 screen position \(xc,yc\). 'Angle' is the optional orientation angle,
 default is zero degrees. 'modulateColor' is the base color of the grating
-patch \- it defaults to white, ie. the grating has only luminance, but no
+patch - it defaults to white, ie. the grating has only luminance, but no
 color. If you'd set it to \[255 0 0\] you'd get a reddish grating. 'phase' is
 the phase of the grating in degrees, 'freq' is its spatial frequency in
 cycles per pixel, 'contrast' is the contrast of your grating.
 
 For a zero degrees grating:
-g\(x,y\) = modulatecolor \* contrast \* contrastPreMultiplicator \* sin\(x\*2\*pi\*freq \+ phase\) \+ Offset.
+g\(x,y\) = modulatecolor \* contrast \* contrastPreMultiplicator \* sin\(x\*2\*pi\*freq + phase\) + Offset.
 
 Make sure to use the [Screen](/docs/Screen)\('DrawTextures', ...\); function properly to
-draw many different gratings simultaneously \- this is much faster\!
+draw many different gratings simultaneously - this is much faster\!
 
 
 

@@ -3,6 +3,7 @@ layout: mfile
 title: IccProfile
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 icc=IccProfile\(command,file,icc\)
@@ -33,7 +34,7 @@ IccProfile\('LongDump',file,\[tag\]\)                % ""
             folder \(in the System Folder\).
 "icc"       is a Matlab struct.
 "folder"    path string gives location of ColorSync Profiles folder.
-"tag"       is a four\-character string identifying a chunk of
+"tag"       is a four-character string identifying a chunk of
             information in the icc profile, e.g. 'rTRC' for the red
             Tone Reproduction Curve \(i.e. gamma curve for red phosphor\)
             or 'gXYZ' for the the X,Y,Z color coordinates of the green
@@ -70,8 +71,8 @@ web http://developer.apple.com/techpubs/macos8/MultimediaGraphics/ColorSyncManag
 # EXPLANATION OF TAG TYPE:
 
 Most of the information in a profile is stored as chunks of data,
-called elements. Each element has a unique 4\-character tag name and
-a 4\-character tag type. IccProfile accepts every tag name, and
+called elements. Each element has a unique 4-character tag name and
+a 4-character tag type. IccProfile accepts every tag name, and
 installs a corresponding field in your icc struct, with the same
 name \(e.g. 'desc'\). However, IccProfile will be able to transfer the
 content of the profile element to your struct only if IccProfile
@@ -87,12 +88,12 @@ Date and time               'dtim'    'calt'
 Viewing conditions          'view'    'view'
 Measurement type            'meas'    'meas'
 Data \(unformatted\)          'data'
-Unsigned 8\-bit int array    'ui08'
-Unsigned 16\-bit int array   'ui16'
-Unsigned 32\-bit int array   'ui32'
-Unsigned 64\-bit int array   'ui64'
-Unsigned 32\-bit fixed array 'uf32'
-Signed 32\-bit fixed array   'sf32'
+Unsigned 8-bit int array    'ui08'
+Unsigned 16-bit int array   'ui16'
+Unsigned 32-bit int array   'ui32'
+Unsigned 64-bit int array   'ui64'
+Unsigned 32-bit fixed array 'uf32'
+Signed 32-bit fixed array   'sf32'
 Video card gamma            'vcgt'    'vcgt'
 Make and model              'mmod'    'mmod'
 
@@ -119,7 +120,7 @@ NOTE: IccProfile may report errors in an apparently good profile.
 This is because icclib enforces the ICC standard more strictly than
 ColorSync does, so it picks up errors that were previously missed.
 \(On 7/31/00 we reported to Apple two such errors, affecting most of their
-ColorSync Profiles, and added a work\-around to IccProfile.\)
+ColorSync Profiles, and added a work-around to IccProfile.\)
 You can try running Apple's "Profile First Aid", which detects and
 fixs some common profile errors, though it too is less strict than
 icclib. "Profile First Aid" 3.0.1 is installed in the Apple
@@ -142,18 +143,18 @@ ColorBlind ProveIt\! software $50
 Does not include colorimeter. Can be used alone, using perceptual
 matching, or with the Sequel Chroma 4 colorimeter, below.
 web http://www.color.com/Products/proveit.html ;
-web http://www.inkjetmall.com/store/prove\-it.html ;
+web http://www.inkjetmall.com/store/prove-it.html ;
 
 Sequel Chroma 4 CRT & LCD monitor colorimeter $249
 Requires software, which is not included. Compatible with ColorBlind
 and Monaco.
-web http://www.inkjetmall.com/store/measuring\-devices.html\#monitors ;
+web http://www.inkjetmall.com/store/measuring-devices.html\#monitors ;
 
 Monaco EZColor software $299
 MonacoSENSOR colorimeter $249 \(or both together for $499\)
 web http://www.monacosys.com/monacoezcolor.html ;
 
-The ColorBlind\+Sequel package, for $299, is cheaper than the $499
+The ColorBlind+Sequel package, for $299, is cheaper than the $499
 Monaco package, and the ColorBlind software seems to be at least as
 highly regarded as Monaco's by Jon Cone and others using it to
 calibrate their monitors for critical digital color printing.

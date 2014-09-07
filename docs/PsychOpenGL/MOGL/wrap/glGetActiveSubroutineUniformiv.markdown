@@ -3,6 +3,7 @@ layout: mfile
 title: glGetActiveSubroutineUniformiv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetActiveSubroutineUniformiv  Interface to OpenGL function glGetActiveSubroutineUniformiv

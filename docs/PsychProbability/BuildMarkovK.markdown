@@ -3,6 +3,7 @@ layout: mfile
 title: BuildMarkovK
 categories:
   - PsychProbability
+encoding: UTF-8
 ---
 
 K = BuildMarkovK\(n,r,var\)

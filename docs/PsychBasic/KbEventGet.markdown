@@ -3,6 +3,7 @@ layout: mfile
 title: KbEventGet
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 \[event, nremaining\] = KbEventGet\(\[deviceIndex\]\[, maxWaitTimeSecs=0\]\)
@@ -31,7 +32,7 @@ struct currently contains the following fields:
 'Pressed' = 1 for a key press event, 0 for a key release event.
 
 'CookedKey' = Keycode translated into a GetChar\(\) style ASCII character code.
-Or zero if key does not have a corresponding character. Or \-1 if mapping
+Or zero if key does not have a corresponding character. Or -1 if mapping
 is unsupported for given event. This does not yet work correctly on OSX.
 
 Keyboard event buffers are a different way to access the information

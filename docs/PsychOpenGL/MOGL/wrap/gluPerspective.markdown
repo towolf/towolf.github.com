@@ -3,6 +3,7 @@ layout: mfile
 title: gluPerspective
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluPerspective  Interface to OpenGL function gluPerspective

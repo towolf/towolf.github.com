@@ -3,6 +3,7 @@ layout: mfile
 title: glIndexMask
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glIndexMask  Interface to OpenGL function glIndexMask

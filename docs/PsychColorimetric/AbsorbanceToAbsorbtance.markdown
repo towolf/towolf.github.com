@@ -3,6 +3,7 @@ layout: mfile
 title: AbsorbanceToAbsorbtance
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 \[absorbtanceSpectra, absorbtanceSpectraWls\] =...

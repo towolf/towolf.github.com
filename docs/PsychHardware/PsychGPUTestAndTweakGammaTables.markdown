@@ -3,12 +3,13 @@ layout: mfile
 title: PsychGPUTestAndTweakGammaTables
 categories:
   - PsychHardware
+encoding: UTF-8
 ---
 
 
-PsychGPUTestAndTweakGammaTables \- Test and tweak GPU hardware gamma tables.
+PsychGPUTestAndTweakGammaTables - Test and tweak GPU hardware gamma tables.
 
-This function is a helper function used for high\-precision display
+This function is a helper function used for high-precision display
 devices like the Bits\# from CRS and DataPixx/ViewPixx/ProPixx from VPixx,
 which need identity passthrough of framebuffer pixel data to the video outputs
 without any interference by the GPU and other intermediate encoder circuitry.
@@ -20,7 +21,7 @@ The function is called by toolboxes for special display output hardware
 and makes use of / calls back into hardware specific functions of that
 hardware to allow an iterative feedback loop of parameter tweaks and
 measurements to execute in order to optimize gamma tables for optimal
-pixel passthrough after other hardware\-independent measures have failed.
+pixel passthrough after other hardware-independent measures have failed.
 
 The routine is, e.g., used by the 'GPUEncoderTest' / 'CheckGPUSanity'
 functions of the PsychDatapixx and BitsPlusPlus functions.
@@ -29,7 +30,7 @@ Input parameters: \(Mandatory\)
 'win' = Onscreen window handle for onscreen window which displays to the
         external high precision display device.
 
-'deviceType' = Type of device: 0 = VPixx Inc. Data\-/View\-/Pro\-Pixx.
+'deviceType' = Type of device: 0 = VPixx Inc. Data-/View-/Pro-Pixx.
                                1 = CRS Bits\#
 
 'injectFault' = 1 = Intentionally setup a slightly faulty LUT to perturb

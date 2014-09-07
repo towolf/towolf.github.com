@@ -3,6 +3,7 @@ layout: mfile
 title: glMultiTexCoord3f
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glMultiTexCoord3f  Interface to OpenGL function glMultiTexCoord3f

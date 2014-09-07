@@ -3,14 +3,15 @@ layout: mfile
 title: uvTols
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 ls = [uvTols](/docs/uvTols)\(uv\)
 
-Convert CIE u'v' chromaticity to cone chromaticity ls, L/\(L\+M\+S\), S/\(L\+M\+S\).
+Convert CIE u'v' chromaticity to cone chromaticity ls, L/\(L+M+S\), S/\(L+M+S\).
 
-Uses regression conversion matrix based on Judd\-Vos XYZ and
-Smith\-Pokorny cone fundamentals to get from XYX to LMS.  This
+Uses regression conversion matrix based on Judd-Vos XYZ and
+Smith-Pokorny cone fundamentals to get from XYX to LMS.  This
 is an exact linear transformation and so you don't get as many
 weird little numerical things happening when you apply this to
 uv for spectral lights.

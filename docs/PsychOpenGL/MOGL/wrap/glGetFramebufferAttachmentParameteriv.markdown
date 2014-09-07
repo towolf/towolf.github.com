@@ -3,6 +3,7 @@ layout: mfile
 title: glGetFramebufferAttachmentParameteriv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetFramebufferAttachmentParameteriv  Interface to OpenGL function glGetFramebufferAttachmentParameteriv

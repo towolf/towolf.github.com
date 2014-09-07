@@ -3,6 +3,7 @@ layout: mfile
 title: _alGetListeneri
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alGetListeneri  Interface to OpenAL function alGetListeneri

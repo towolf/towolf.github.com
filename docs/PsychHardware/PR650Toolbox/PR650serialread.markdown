@@ -3,6 +3,7 @@ layout: mfile
 title: PR650serialread
 categories:
   - PR650Toolbox
+encoding: UTF-8
 ---
 
 serialData = PR650serialread

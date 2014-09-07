@@ -3,6 +3,7 @@ layout: mfile
 title: EyelinkDoDriftCorrect
 categories:
   - EyelinkBasic
+encoding: UTF-8
 ---
 
  USAGE: result=dodriftcorrect\(el \[, x, y, draw, allowsetup\]\)

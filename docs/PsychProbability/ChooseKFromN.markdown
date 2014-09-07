@@ -3,6 +3,7 @@ layout: mfile
 title: ChooseKFromN
 categories:
   - PsychProbability
+encoding: UTF-8
 ---
 
  choice = ChooseKFromN\(n,k,\[unique\]\)

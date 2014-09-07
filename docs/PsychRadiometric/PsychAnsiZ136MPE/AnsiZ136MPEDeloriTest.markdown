@@ -3,6 +3,7 @@ layout: mfile
 title: AnsiZ136MPEDeloriTest
 categories:
   - PsychAnsiZ136MPE
+encoding: UTF-8
 ---
 
 AnsiZ136DeloriTest
@@ -22,7 +23,7 @@ light and values obtained from Delori's spreadsheet.
 other radiometric quanties that I could not find computed in Delori's spreadsheet.\)
 
 Delori's spreadsheet is described in footnote 49 of Delori et al. \(2007,
-JOSA A, 24, pp.1250\-1265\).  That footnote indicates that the spreadsheet
+JOSA A, 24, pp.1250-1265\).  That footnote indicates that the spreadsheet
 will be shared as long as recipients accept full responsibility for its use.
 The version of Delori's spreadsheet used to get these numbers is 0cLC\_0.9.9.
 

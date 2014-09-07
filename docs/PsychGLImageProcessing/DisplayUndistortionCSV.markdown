@@ -3,6 +3,7 @@ layout: mfile
 title: DisplayUndistortionCSV
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 scal = DisplayUndistortionCSV\(calibinfilename \[, caliboutfilename\]\[, screenid\]\)
@@ -27,8 +28,8 @@ will show up undistorted on the display device.
 
 1. Recent graphics hardware with support for the PTB imaging pipeline:
 See our Wiki for recommendations. However, all ATI cards starting with
-Radeon 9500 and all NVidia cards of type GeForce\-FX5200 and later, as
-well as the Intel\-GMA 950 and later should be able to do it, although
+Radeon 9500 and all NVidia cards of type GeForce-FX5200 and later, as
+well as the Intel-GMA 950 and later should be able to do it, although
 more recent cards will have a higher performance.
 
 2. A calibration file that defines the warp transformation to apply. Your
@@ -40,19 +41,18 @@ DisplayUndistortionCSV defines a continous mapping \(x', y'\) = f\(x, y\)
 from uncorrected input pixel locations \(x,y\) in your stimulus image to
 output locations \(x', y'\) on your display. This mapping is defined by a
 linear mesh of quadrilaterals, as read from the given input file. The
-file format is compatible with the Warp\-API of NVidia's proprietary
-graphics drivers for some high\-end Quadro GPUs on Windows\-7 and later.
+file format is compatible with the Warp-API of NVidia's proprietary
+graphics drivers for some high-end Quadro GPUs on Windows-7 and later.
 
 
-How to use:
-\-\-\-\-\-\-\-\-\-\-\-
+# How to use
 
 
 # Execute the function with the following parameters:
 
 
 `calibinfilename` is the path and filename of an existing calibration
-file. This must be a ASCII file with a one\-line header, describing the
+file. This must be a ASCII file with a one-line header, describing the
 meaning of the data columns, followed by at least 4 lines with numeric
 calibration data. Each line defines a data row, which has six columns,
 delimited with a semicolon ';'. The columns of a row have the following
@@ -76,17 +76,17 @@ projected to location \(vx,vy\) of the warped output framebuffer. Quads are
 defined by 4 vertices which define their corners. Pixel sampling and
 output locations inside quads are bilinearly interpolated for a smooth
 warp grid. The origin of the calibration coordinate system is the
-top\-left framebuffer / screen corner \(0,0\), x\-axis points to the right,
-y\-axis points downwards. All coordinates are normalized to a unit square
-screen. The range 0.0 \- 1.0 maps to the screen width or height \(0.0 =
+top-left framebuffer / screen corner \(0,0\), x-axis points to the right,
+y-axis points downwards. All coordinates are normalized to a unit square
+screen. The range 0.0 - 1.0 maps to the screen width or height \(0.0 =
 Left or Top, 1.0 = Right or bottom\) and is subject to rescaling for a
-specific displays real resolution. Values outside the 0\-1 range are
+specific displays real resolution. Values outside the 0-1 range are
 allowed. The corresponding mesh locations will be clipped to screen
 corners during warping.
 
 The file format described here is the format expected by NVidia's
-Warp\-API, as implemented in some binary NVidia graphics drivers for some
-high\-end Quadro graphics cards on Windows\-7 and later. This allows to
+Warp-API, as implemented in some binary NVidia graphics drivers for some
+high-end Quadro graphics cards on Windows-7 and later. This allows to
 reuse the file for both NVidia proprietary distortion correction and for
 Psychtoolbox.
 
@@ -104,7 +104,7 @@ filename for the output file.
 
 
 This script will print out a little snippet of code that you can paste
-and include into your experiment script \- That will automatically load
+and include into your experiment script - That will automatically load
 the calibration result file and apply the proper undistortion operation.
 
 

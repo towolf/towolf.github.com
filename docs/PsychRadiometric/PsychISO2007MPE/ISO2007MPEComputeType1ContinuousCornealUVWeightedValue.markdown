@@ -3,6 +3,7 @@ layout: mfile
 title: ISO2007MPEComputeType1ContinuousCornealUVWeightedValue
 categories:
   - PsychISO2007MPE
+encoding: UTF-8
 ---
 
 \[val\_UWattsPerCm2,limit\_UWattsPerCm2\] = ISO2007MPEComputeType1ContinuousCornealUVWeightedValue\(S,radiance\_WattsPerSrM2,weightingS,stimulusDurationSecs,stimulusAreaDegrees2\)
@@ -10,7 +11,7 @@ categories:
 Compute the weighted UV radiation for Type 1 instruments as given on page 7, Table 2,
 5.4.1.1.
 
-Input spectrum is radiance in units of Watts/\[sr\-m2\-wlinterval\].
+Input spectrum is radiance in units of Watts/\[sr-m2-wlinterval\].
 
 Also return the exposure limit for this quantity.
 

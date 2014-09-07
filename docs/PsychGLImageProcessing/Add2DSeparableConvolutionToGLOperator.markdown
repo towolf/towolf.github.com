@@ -3,13 +3,14 @@ layout: mfile
 title: Add2DSeparableConvolutionToGLOperator
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 Add2DSeparableConvolutionToGLOperator\(gloperator, kernel1, kernel2 \[, opname\] \[, nrinputchannels\] \[, nroutchannels\] \[, debug\] \[, shadertype\]\)
 
 Add a separable 2D pair of convolution kernels to GL operator 'gloperator'.
 
-'kernel1' and 'kernel2' are a simple 1\-by\-n or m\-by\-1 matrices of floating
+'kernel1' and 'kernel2' are a simple 1-by-n or m-by-1 matrices of floating
 point numbers with m and n being odd numbers, e.g., 1, 3, 5, 7, 9, ...
 Each entry in the kernel matrices is used as a weight factor for the
 convolution. First kernel1 is applied
@@ -23,7 +24,7 @@ debugging aid.
 
 'nrinputchannels' = The number of image channels to use as input for the
 convolution. Possible values are: 3 = Red, Green and Blue color channels are
-provided as part of a true\-color image, don't use the alpha channel \(if
+provided as part of a true-color image, don't use the alpha channel \(if
 any\) for convolution but just pass it through unmodified. 1 = The image
 only defines a luminance channel for convolution, an \(optional\) alpha
 channel is passed through unmodified. 4 = Use all four channels \(Red,
@@ -42,9 +43,9 @@ channels independently.
 Filter a RGB\(A\) image: nrinputchannels = 3, nroutchannels = 3.
 Filter a RGB\(A\) image into grayscale: nrinputchannels = 3, nroutchannels = 1.
 Filter a luminance\(A\) image: inputchannels = 1, filteredoutchannels = 1.
-Generic filtering of 4\-channel data: nrinputchannels = 4, nroutchannels = 4.
+Generic filtering of 4-channel data: nrinputchannels = 4, nroutchannels = 4.
 
-'debug' Optional debug flag: If set to non\-zero, will output some debug
+'debug' Optional debug flag: If set to non-zero, will output some debug
 info about the shader.
 
 'shadertype' \(Optional\) The type of internal implementation to choose for

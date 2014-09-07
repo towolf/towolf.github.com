@@ -3,24 +3,25 @@ layout: mfile
 title: ReceivingTriggerFromSerialPortDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 Template for asynchronous trigger collection and timestamping from serial port.
 
-ReceivingTriggerFromSerialPortDemo\(\[sampleFreq=120\]\[, baudRate=115200\]\[, portSpec=auto\-detect\]\[, specialSettings=None\]\)
+ReceivingTriggerFromSerialPortDemo\(\[sampleFreq=120\]\[, baudRate=115200\]\[, portSpec=auto-detect\]\[, specialSettings=None\]\)
 
 This demo shows how to perform efficient trigger recording from an
-external trigger device which is connected to the serial port or a USB\-Serial
+external trigger device which is connected to the serial port or a USB-Serial
 converter. The device is assumed to send trigger bytes at a rate of at most
 'sampleFreq' Hz. Typical devices would be fMRI / TMS / MEG / EEG systems
 or other research equipment.
 
 The demo connects to the first found serial port, or optionally the port
 given by the 'portSpec' parameter, e.g., 'COM5'. It connects at a
-baudrate of 'baudRate' Baud, by default without flow\-control, with 8
+baudrate of 'baudRate' Baud, by default without flow-control, with 8
 databits, 1 stopbit and no parity, but you can set arbitrary settings via
 the optional 'specialSettings' string \(see [IOPort](/docs/IOPort) OpenSerialPort?
-online\-help for possible parameters\).
+online-help for possible parameters\).
 
 Then it allocates receivebufferspace for up to 1 hour of uninterrupted
 recording, then starts background recording of data.

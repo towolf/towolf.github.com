@@ -3,6 +3,7 @@ layout: mfile
 title: GiveFeedback
 categories:
   - Psychometric
+encoding: UTF-8
 ---
 
  GiveFeedback\(correct\)
@@ -18,7 +19,7 @@ categories:
  4/14/00   dhb  Fix call to [Snd](/docs/Snd) for windows.
  4/13/02    dgp  Eliminate obsolete calls to SndPlay. Just call [Snd](/docs/Snd) on both platforms.
                  It's important to specify the sample rate, because the default is
-                 platform\-dependent.
+                 platform-dependent.
  11/15/03  dhb  Wait for sound to complete before returning.  Failure to do so
                  was causing problems when [Snd](/docs/Snd)\('[Close](/docs/Close)'\) was called by calling
                  routine.

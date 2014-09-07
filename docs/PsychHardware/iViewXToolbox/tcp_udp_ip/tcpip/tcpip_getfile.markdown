@@ -3,6 +3,7 @@ layout: mfile
 title: tcpip_getfile
 categories:
   - tcpip
+encoding: UTF-8
 ---
 
 

@@ -3,6 +3,7 @@ layout: mfile
 title: FitConeFundamentalsWithNomogram
 categories:
   - PsychColorimetricData
+encoding: UTF-8
 ---
 
 \[fitFundamentals,params,fitError\] = FitConeFundamentalsWithNomogram\(T\_targetQuantal,staticParams,params0\)

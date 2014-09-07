@@ -3,6 +3,7 @@ layout: mfile
 title: glConvolutionFilter1D
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glConvolutionFilter1D  Interface to OpenGL function glConvolutionFilter1D

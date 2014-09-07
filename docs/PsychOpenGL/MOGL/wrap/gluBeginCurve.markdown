@@ -3,6 +3,7 @@ layout: mfile
 title: gluBeginCurve
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluBeginCurve  Interface to OpenGL function gluBeginCurve

@@ -3,6 +3,7 @@ layout: mfile
 title: glSampleMaskSGIS
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glSampleMaskSGIS  Interface to OpenGL function glSampleMaskSGIS

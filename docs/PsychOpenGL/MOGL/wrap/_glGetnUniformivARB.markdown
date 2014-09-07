@@ -3,6 +3,7 @@ layout: mfile
 title: _glGetnUniformivARB
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetnUniformivARB  Interface to OpenGL function glGetnUniformivARB

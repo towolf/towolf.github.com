@@ -3,6 +3,7 @@ layout: mfile
 title: HatLeftDown
 categories:
   - PsychGamepad
+encoding: UTF-8
 ---
 
 result = HatLeftDown

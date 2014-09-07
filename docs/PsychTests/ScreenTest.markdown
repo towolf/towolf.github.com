@@ -3,6 +3,7 @@ layout: mfile
 title: ScreenTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 ScreenTest

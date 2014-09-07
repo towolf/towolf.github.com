@@ -3,6 +3,7 @@ layout: mfile
 title: gluProject
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluProject  Interface to OpenGL function gluProject

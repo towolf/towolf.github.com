@@ -3,6 +3,7 @@ layout: mfile
 title: gluNurbsCurve
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluNurbsCurve  Interface to OpenGL function gluNurbsCurve

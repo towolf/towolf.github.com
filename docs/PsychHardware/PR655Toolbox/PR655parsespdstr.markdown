@@ -3,6 +3,7 @@ layout: mfile
 title: PR655parsespdstr
 categories:
   - PR655Toolbox
+encoding: UTF-8
 ---
 
 spd = PR655parsespdstr\(readStr,S\)

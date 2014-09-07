@@ -3,6 +3,7 @@ layout: mfile
 title: LoadGLSLProgramFromFiles
 categories:
   - PsychOpenGL
+encoding: UTF-8
 ---
 
 handle = LoadGLSLProgramFromFiles\(filenames \[, debug\] \[, extraShaders\]\)
@@ -15,11 +16,11 @@ output, 3 = Don't compile and link anymore, but print out the shaders
 source code as OpenGL would see it.
 
 The program can then be used at any time by calling glUseProgram\(handle\). One
-can switch back to the standard OpenGL fixed\-function pipeline by calling
+can switch back to the standard OpenGL fixed-function pipeline by calling
 glUseProgram\(0\). The same handles can be passed to the
 [Screen](/docs/Screen)\('MakeTexture', ...\), [Screen](/docs/Screen)\('DrawTexture', ...\); et al. routines
-to define procedural textures \- or some processing operations on them
-via the  'textureShader' argument \-\- See 'help ProceduralShadingAPI' for
+to define procedural textures - or some processing operations on them
+via the  'textureShader' argument -- See 'help ProceduralShadingAPI' for
 more info about procedural texturing. The handle is also used to build
 GLOperators for [Screen](/docs/Screen)\('TransformTexture'\) or as plugins for the imaging
 pipeline: See 'help CreateGLOperator' or 'help AddToGLOperator' for info.
@@ -36,8 +37,8 @@ name are linked into a program. E.g., shaderfiles = 'Phonglighting' will
 try to link all files starting with Phonglighting.
 
 The optional argument 'extraShaders' if present, should be a vector of
-additinal shader handles \- Handles returned by the LoadShaderFromFile\(\)
-or by your self\-compiled shaders via glCompileShader\(\). All precompiled
+additinal shader handles - Handles returned by the LoadShaderFromFile\(\)
+or by your self-compiled shaders via glCompileShader\(\). All precompiled
 shaders referenced by those handles get also linked into the final GLSL
 program.
 

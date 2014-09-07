@@ -3,6 +3,7 @@ layout: mfile
 title: streq
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 equal=streq\(a,b\)

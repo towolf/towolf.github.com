@@ -3,6 +3,7 @@ layout: mfile
 title: glFlushMappedBufferRange
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glFlushMappedBufferRange  Interface to OpenGL function glFlushMappedBufferRange

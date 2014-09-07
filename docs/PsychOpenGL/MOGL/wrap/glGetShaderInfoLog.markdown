@@ -3,6 +3,7 @@ layout: mfile
 title: glGetShaderInfoLog
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetShaderInfoLog  Interface to OpenGL function glGetShaderInfoLog

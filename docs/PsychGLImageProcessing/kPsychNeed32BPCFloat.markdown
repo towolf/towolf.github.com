@@ -3,6 +3,7 @@ layout: mfile
 title: kPsychNeed32BPCFloat
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 rval = kPsychNeed32BPCFloat
@@ -18,7 +19,7 @@ floating point numbers.
 FIXME: More info...
 
 This is part of the Psychtoolbox imaging pipeline and only works on modern
-graphics hardware, e.g., ATI Radeon X1000 and later, NVidia Geforce\-6000
+graphics hardware, e.g., ATI Radeon X1000 and later, NVidia Geforce-6000
 and later. Check the www.psychtoolbox.org Wiki for graphics hardware
 recommendations and for a description of PTB's image processing
 capabilities.

@@ -3,6 +3,7 @@ layout: mfile
 title: AltSize
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 varargout = AltSize\(in,arg\)

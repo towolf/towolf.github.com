@@ -3,6 +3,7 @@ layout: mfile
 title: QuestCreate
 categories:
   - Quest
+encoding: UTF-8
 ---
 
  q=QuestCreate\(tGuess,tGuessSd,pThreshold,beta,delta,gamma,\[grain\],\[range\],\[plotIt\]\)
@@ -12,7 +13,7 @@ categories:
  scale, which usually corresponds to log10 contrast.
 
  QuestCreate saves in struct q the parameters for a Weibull psychometric function:
- p2=delta\*gamma\+\(1\-delta\)\*\(1\-\(1\-gamma\)\*exp\(\-10.^\(beta\*\(x\-xThreshold\)\)\)\);
+ p2=delta\*gamma+\(1-delta\)\*\(1-\(1-gamma\)\*exp\(-10.^\(beta\*\(x-xThreshold\)\)\)\);
  where x represents log10 contrast relative to threshold. The Weibull
  function itself appears only in QuestRecompute, which uses the
  specified parameter values in q to compute a psychometric function
@@ -33,7 +34,7 @@ categories:
  typically set tGuessSd=3 and range=5 when intensity represents log
  contrast. If necessary, you should restrict the range yourself, outside
  of Quest. Here, in QuestCreate, you tell Quest about your prior beliefs,
- and you should try to be open\-minded, giving Quest a generously large
+ and you should try to be open-minded, giving Quest a generously large
  range to consider as possible values of threshold. For each trial you
  will later ask Quest to suggest a test intensity. It is important to
  realize that what Quest returns is just what you asked for, a
@@ -48,7 +49,7 @@ categories:
  and let Quest consider all possibilities.
 
  There is one exception to the above advice of always being generous with
- tGuessSd. Occasionally we find that we have a working Quest\-based
+ tGuessSd. Occasionally we find that we have a working Quest-based
  program that measures threshold, and we discover that we need to measure
  the proportion correct at a particular intensity. Instead of writing a
  new program, or modifying the old one, it is often more convenient to
@@ -72,12 +73,12 @@ categories:
  delta is the fraction of trials on which the observer presses blindly.
     Typically 0.01.
  gamma is the fraction of trials that will generate response 1 when
-    intensity==\-inf.
+    intensity==-inf.
  grain is the quantization \(step size\) of the internal table. E.g. 0.01.
  range is the intensity difference between the largest and smallest
     intensity that the internal table can store. E.g. 5. This interval will
     be centered on the initial guess tGuess, i.e.
-    tGuess\+\(\-range/2:grain:range/2\). "range" is used only momentarily here,
+    tGuess+\(-range/2:grain:range/2\). "range" is used only momentarily here,
     to determine "dim", which is retained in the quest struct. "dim" is the
     number of distinct intensities that the internal table can store, e.g.
     500. QUEST assumes that intensities outside of this interval have zero
@@ -85,7 +86,7 @@ categories:
     cost of making "range" too big is some extra storage and computation,
     which are usually negligible. The cost of making "range" too small is
     that you prejudicially exclude what are actually possible values for
-    threshold. Getting out\-of\-range warnings from QuestUpdate is one
+    threshold. Getting out-of-range warnings from QuestUpdate is one
     possible indication that your stated range is too small.
 
  See Quest.

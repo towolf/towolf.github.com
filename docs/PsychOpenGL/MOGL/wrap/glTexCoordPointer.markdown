@@ -3,6 +3,7 @@ layout: mfile
 title: glTexCoordPointer
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glTextCoordPointer  Interface to glTexCoordPointer

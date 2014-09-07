@@ -3,6 +3,7 @@ layout: mfile
 title: ComputeGammaWeib
 categories:
   - PsychGamma
+encoding: UTF-8
 ---
 
 output = ComputeGammaWeib\(x,input\)

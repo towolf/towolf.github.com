@@ -3,6 +3,7 @@ layout: mfile
 title: KbWait
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 \[secs, keyCode, deltaSecs\] = KbWait\(\[deviceNumber\]\[, forWhat=0\]\[, untilTime=inf\]\)
@@ -48,8 +49,8 @@ via:
  KbWait\(\[\], 2\);
 
 If you would set 'forWhat' to 3 then it would wait for releasing the key
-after pressing it againg, ie. waitForAllKeysReleased \-\> waitForKeypress
-\-\> waitForAllKeysReleased \-\> Return \[secs, keyCode\] of the key press.
+after pressing it againg, ie. waitForAllKeysReleased -\> waitForKeypress
+-\> waitForAllKeysReleased -\> Return \[secs, keyCode\] of the key press.
 
 
 OSX and Linux: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
@@ -57,11 +58,11 @@ OSX and Linux: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
 KbWait uses the PsychHID function, a general purpose function for
 reading from the Human Interface Device \(HID\) class of USB devices.
 
-KbWait tests the first USB\-HID keyboard device by default. Optionally
+KbWait tests the first USB-HID keyboard device by default. Optionally
 you can pass in a 'deviceNumber' to test a different keyboard if multiple
-keyboards are connected to your machine.  If deviceNumber is \-1, all
-keyboard devices will be checked.  If deviceNumber is \-2, all keypad
-devices \(if any\) will be checked. If deviceNumber is \-3, all keyboard and
+keyboards are connected to your machine.  If deviceNumber is -1, all
+keyboard devices will be checked.  If deviceNumber is -2, all keypad
+devices \(if any\) will be checked. If deviceNumber is -3, all keyboard and
 keypad devices will be checked. The device numbers to be checked are
 determined only on the first call to the function.  If these numbers
 change, the function can be reset using "clear KbWait".

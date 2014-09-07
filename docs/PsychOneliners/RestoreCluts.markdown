@@ -3,6 +3,7 @@ layout: mfile
 title: RestoreCluts
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 RestoreCluts
@@ -12,7 +13,7 @@ from backup copies made during calls to LoadIdentityClut\(\) or
 BackupCluts\(\). This is mostly meant to undo changes made when operating
 high precision display devices and similar equipment.
 
-This is a no\-operation if there aren't any CLUT's to restore.
+This is a no-operation if there aren't any CLUT's to restore.
 
 
 

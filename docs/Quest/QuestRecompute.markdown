@@ -3,6 +3,7 @@ layout: mfile
 title: QuestRecompute
 categories:
   - Quest
+encoding: UTF-8
 ---
 
 q=QuestRecompute\(q \[,plotIt=0\]\)
@@ -15,7 +16,7 @@ to recompute the pdf. \(QuestRecompute does nothing if q.updatePdf is
 false.\)
 
 QuestCreate saves in struct q the parameters for a Weibull psychometric function:
-p2=delta\*gamma\+\(1\-delta\)\*\(1\-\(1\-gamma\)\*exp\(\-10.^\(beta\*\(x\-xThreshold\)\)\)\);
+p2=delta\*gamma+\(1-delta\)\*\(1-\(1-gamma\)\*exp\(-10.^\(beta\*\(x-xThreshold\)\)\)\);
 where x represents log10 contrast relative to threshold. The Weibull
 function itself appears only in QuestRecompute, which uses the
 specified parameter values in q to compute a psychometric function
@@ -33,12 +34,12 @@ so it would quite easy to do.
 "dim" is the number of distinct intensities that the internal tables in q can store,
 e.g. 500. This vector, of length "dim", with increment size "grain",
 will be centered on the initial guess tGuess, i.e.
-tGuess\+\[\-range/2:grain:range/2\]. QUEST assumes that intensities outside
+tGuess+\[-range/2:grain:range/2\]. QUEST assumes that intensities outside
 of this interval have zero prior probability, i.e. they are impossible
 values for threshold. The cost of making "dim" too big is some extra
 storage and computation, which are usually negligible. The cost of
 making "dim" too small is that you prejudicially exclude what are
-actually possible values for threshold. Getting out\-of\-range warnings
+actually possible values for threshold. Getting out-of-range warnings
 from QuestUpdate is one possible indication that your stated range is
 too small.
 

@@ -3,16 +3,17 @@ layout: mfile
 title: psychsendmail
 categories:
   - cbase64
+encoding: UTF-8
 ---
 
-SENDMAIL Send Internet e\-mail
+SENDMAIL Send Internet e-mail
   Using SENDMAIL \(which needs the TCP/UDP/IP toolbox, freely available from
-  http://petrydpc.ite.mh.se/tools/\) it is possible to send e\-mail messages
+  http://petrydpc.ite.mh.se/tools/\) it is possible to send e-mail messages
   from the Matlab prompt. This can be useful when you want to be notified
   when large jobs terminate on remote machines.
 
 Usage
-  \[RETCODE\] = SENDMAIL\(FROM, TO, SUBJ, MESG \[, FILENAME\]\) send an e\-mail with
+  \[RETCODE\] = SENDMAIL\(FROM, TO, SUBJ, MESG \[, FILENAME\]\) send an e-mail with
   subject SUBJ and contents MESG to the email address in TO, with
   the From: field set to FROM.
 
@@ -20,7 +21,7 @@ Usage
   string, or a cell array of strings.
 
   RETCODE is 0 if the message was sent succesfully, otherwise it
-  has the value \-1.
+  has the value -1.
 
   The optional argument FILENAME is a string containing the
   filename of the file to be attached to the message. It may

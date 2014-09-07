@@ -3,6 +3,7 @@ layout: mfile
 title: fprintfBug
 categories:
   - PsychMatlabTests
+encoding: UTF-8
 ---
 
 Mathworks Case ID:  201530, reported 3/19/99
@@ -11,7 +12,7 @@ FPRINTF may interpret the first argument as a filename.
 
 Dear Denis,
 
-I am responding to your e\-mails of March 19, concerning FPRINTF.
+I am responding to your e-mails of March 19, concerning FPRINTF.
 
 \> in my first message \(below\) i noted that
 \>
@@ -46,7 +47,7 @@ example:
   fprintf\('%d\\n',4\);
 
 If you have further questions regarding this issue, please be sure to
-mention the above case ID number in your e\-mail response to me.
+mention the above case ID number in your e-mail response to me.
 
 Sincerely,
 

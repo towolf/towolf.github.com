@@ -3,6 +3,7 @@ layout: mfile
 title: alBufferi
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alBufferi  Interface to OpenAL function alBufferi

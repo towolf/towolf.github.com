@@ -3,6 +3,7 @@ layout: mfile
 title: glProgramParameteri
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glProgramParameteri  Interface to OpenGL function glProgramParameteri

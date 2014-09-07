@@ -3,6 +3,7 @@ layout: mfile
 title: GetBusTicksTick
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 busTickPeriod = GetBusTicksTick
@@ -11,7 +12,7 @@ OS X: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 Return the period of the GetBusTicks clock.  The period of the
 GetBusTicks clock depends on your model of CPU and its clock speed.
-For reliable high\-precision timing in standard units of seconds use
+For reliable high-precision timing in standard units of seconds use
 GetSecs instead of GetBusTicks.
 
 GetBusTicksTick returns the period of the GetBusTicks clock.  The

@@ -3,6 +3,7 @@ layout: mfile
 title: StaleDirectoryCacheBug
 categories:
   - PsychMatlabTests
+encoding: UTF-8
 ---
 
 
@@ -89,10 +90,10 @@ the cache, or you could rebuild the entire cache, by calling path\(path\).
 Rebuilding the cache would be quite acceptable since this will be
 triggered only when a new file is added \(which is rare\), not when an
 existing file is modified. Thus the needed code is trivial, the
-performance loss is negligible, and the increase in user\-perceived
+performance loss is negligible, and the increase in user-perceived
 reliability of operation enormously increased. It is hard to describe how
-incredibly distressing it is to find Matlab saying that a just\-saved file
-does not exist. No amount of documenting of such counter\-intuitive
+incredibly distressing it is to find Matlab saying that a just-saved file
+does not exist. No amount of documenting of such counter-intuitive
 behavior will make users "expect" this.
 
 \>This is in response to Case ID:  230202
@@ -111,7 +112,7 @@ behavior will make users "expect" this.
 \>the file defining the function has been updated.  This can take a lot of
 \>time, and seems unnecessary for functions which change very seldomly, such
 \>as those found in the \\toolbox subdirectories. Therefore, the status for
-\>M\-files in these subdirectories are 'cached'.  Note that the files
+\>M-files in these subdirectories are 'cached'.  Note that the files
 \>themselves are not compiled and in memory, it's just that Matlab keeps
 \>track of what and where these files are.
 \>
@@ -128,7 +129,7 @@ behavior will make users "expect" this.
 \>
 \>This process applies to all functions.  The difference between user
 \>functions and toolbox functions is that Matlab keeps a cache of all of the
-\>dates for M\-files in the \\toolbox directories.  This cache is faster than
+\>dates for M-files in the \\toolbox directories.  This cache is faster than
 \>actually looking at the date on the physical file, and it is only updated
 \>when the path is changed.  Thus, even if the \\toolbox\\function.m file has
 \>been changed, the \*cache\* still indicates that Matlab should use the
@@ -137,7 +138,7 @@ behavior will make users "expect" this.
 \>
 \>Now, we realize the for a few people, such as those developing toolboxes,
 \>this poses a problem.  However, for the overwhelming majority of our users
-\>that frequently run the toolbox functions, and do not save their m\-files
+\>that frequently run the toolbox functions, and do not save their m-files
 \>under the toolbox directory, performance is more important than the
 \>accuracy of running the proper file.
 \>
@@ -171,18 +172,18 @@ behavior will make users "expect" this.
 
 Hello Denis,
 
-I am writing in response to your e\-mail of May 26, 1999, in which you asked
+I am writing in response to your e-mail of May 26, 1999, in which you asked
 about recaching files when saving from a toolbox/ directory.
 
 Thank you for clarifying your request.  I think I understand what you mean.
- It seems kind of obvious \- if you save a file in the toolbox/ directory
+ It seems kind of obvious - if you save a file in the toolbox/ directory
 from the Editor/Debugger, we could simply rebuild the cache at that point.
 
 This stems back from the days of Matlab 4.2c and earlier, before there was
-an Editor/Debugger.  Since m\-files are just text files, they could \(and
+an Editor/Debugger.  Since m-files are just text files, they could \(and
 still can\) be opened and modified in any text editor.  When the file was
 saved, Matlab would have no way of knowing that changes were made to a
-function unless it re\-loaded the function.  Because the toolbox/ functions
+function unless it re-loaded the function.  Because the toolbox/ functions
 were cached \(along with the last modified date\), the changes would never
 get recognized.
 
@@ -191,7 +192,7 @@ part when someone saves a file to a toolbox/ directory.  The only problem
 is if someone chooses not to use the Editor, we will not be able to account
 for this.
 
-However, I do think this is a good idea, so I have re\-opened this issue
+However, I do think this is a good idea, so I have re-opened this issue
 with our development staff to see if they can implement this for a future
 release.
 
@@ -207,7 +208,7 @@ Hi Rob,
 
 Denis has cc'd me on his exchange with respect to the
 stale directory cache issue.  I just wanted to add
-a few post\-scripts.
+a few post-scripts.
 
 a\) In version 5.2, typing path\(path\) is often not
 sufficient to cause Matlab \(on the Mac\) to recognize

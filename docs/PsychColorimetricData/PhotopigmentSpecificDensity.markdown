@@ -3,6 +3,7 @@ layout: mfile
 title: PhotopigmentSpecificDensity
 categories:
   - PsychColorimetricData
+encoding: UTF-8
 ---
 
  densities = PhotopigmentSpecificDensity\(receptorTypes,\[species\],\[source\]\)

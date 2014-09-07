@@ -3,6 +3,7 @@ layout: mfile
 title: TwoStateQuery
 categories:
   - Utilities
+encoding: UTF-8
 ---
 
  Syntax: UserResponse = TwoStateQuery\(TheQuestion,\[TheChoices\]\)
@@ -17,7 +18,7 @@ categories:
                            just spaces
                         6/30/05 mpr     forced underscores to remain as underscores instead of
                            indicating subscript
-                        3/27/06 mpr     changed returned value to \-1 when user deletes window;
+                        3/27/06 mpr     changed returned value to -1 when user deletes window;
                            note that this is dangerous because how a closed
                            window affects subsequent program behavior is not
                            implemented the same way in all code calling this
@@ -29,7 +30,7 @@ categories:
            9/29/06 mpr   repainted buttons in version 7
            1/14/07 mpr   undid previoius fix because button color bug is almost
                              fixed
-          5/20/13    mk Add text only fallback for Octave and non\-GUI.
+          5/20/13    mk Add text only fallback for Octave and non-GUI.
 
 
 <div class="code_header" style="text-align:right;">

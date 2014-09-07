@@ -3,6 +3,7 @@ layout: mfile
 title: glMultiDrawElements
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glMultiDrawElements  Interface to OpenGL function glMultiDrawElements

@@ -3,6 +3,7 @@ layout: mfile
 title: gluUnProject
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluUnProject  Interface to OpenGL function gluUnProject

@@ -3,6 +3,7 @@ layout: mfile
 title: RestrictKeysForKbCheck
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 Restrict operation of KbCheck et al. to a subset of keys on the keyboard.

@@ -3,6 +3,7 @@ layout: mfile
 title: LoadCalFile
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 \[cal, cals, fullFilename\] = LoadCalFile\(\[filespec\], \[whichCal\], \[dir\]\)

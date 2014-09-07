@@ -3,6 +3,7 @@ layout: mfile
 title: EXPCreateStatic2DConvolutionShader
 categories:
   - PsychGLSLShaders
+encoding: UTF-8
 ---
 
 \[shader configstring\] = EXPCreateStatic2DConvolutionShader\(kernel \[, nrinputchannels=3\]\[, nroutchannels=3\]\[, debug\]\[, shadertype\]\)
@@ -16,14 +17,14 @@ Usually you won't call this routine directly, but use
 Add2DConvolutionToGLOperator\(\) instead. It allows convenient setup of
 convolution operators of arbitrary size and complexity to GLOperators
 for use with [Screen](/docs/Screen)\('TransformTexture'\); and for use with the stimulus
-post\-processing pipeline. Only if you want to create small convolution
-kernels for single\-pass convolution of textures, you'll use this routine
+post-processing pipeline. Only if you want to create small convolution
+kernels for single-pass convolution of textures, you'll use this routine
 directly and use the returned 'shader' as argument to [Screen](/docs/Screen)\('DrawTexture'\)
 or [Screen](/docs/Screen)\('MakeTexture'\) as 'textureShader' argument.
 
 # Parameters:
 
-'kernel' is a simple 2D m\-by\-n matrix of floating point numbers with m and
+'kernel' is a simple 2D m-by-n matrix of floating point numbers with m and
 n being odd numbers, e.g., 1x1, 3x3, 5x5, 7x7, 9x9,..., 1x3, 1x9, 7x1 ...
 Each entry in the kernel is used as a weight factor.
 
@@ -33,7 +34,7 @@ processing toolbox, see "help fspecial" for more information.
 
 'nrinputchannels' = The number of image channels to use as input for the
 convolution. Possible values are: 3 = Red, Green and Blue color channels are
-provided as part of a true\-color image, don't use the alpha channel \(if
+provided as part of a true-color image, don't use the alpha channel \(if
 any\) for convolution but just pass it through unmodified. 1 = The image
 only defines a luminance channel for convolution, an \(optional\) alpha
 channel is passed through unmodified. 4 = Use all four channels \(Red,
@@ -52,9 +53,9 @@ channels independently.
 Filter a RGB\(A\) image: nrinputchannels = 3, nroutchannels = 3.
 Filter a RGB\(A\) image into grayscale: nrinputchannels = 3, nroutchannels = 1.
 Filter a luminance\(A\) image: inputchannels = 1, filteredoutchannels = 1.
-Generic filtering of 4\-channel data: nrinputchannels = 4, nroutchannels = 4.
+Generic filtering of 4-channel data: nrinputchannels = 4, nroutchannels = 4.
 
-'debug' Optional debug flag: If set to non\-zero, will output some debug
+'debug' Optional debug flag: If set to non-zero, will output some debug
 info about the shader.
 
 'shadertype' \(Optional\) The type of internal implementation to choose for
@@ -68,7 +69,7 @@ future implementation may change significantly\! Don't trust its results
 without validation against a known good reference implementation\!
 
 NOTES: Filtermode 2 and 3 not fully implemented for the general case\!
-\-\-\-\> No separable 1D kernels, no support for all input\-\>output mappings
+---\> No separable 1D kernels, no support for all input-\>output mappings
 
 
 <div class="code_header" style="text-align:right;">

@@ -3,6 +3,7 @@ layout: mfile
 title: IsPsychStartupImplantedInStartup
 categories:
   - PsychInitialize
+encoding: UTF-8
 ---
 
 isImplanted = IsPsychStartupImplantedInStartup

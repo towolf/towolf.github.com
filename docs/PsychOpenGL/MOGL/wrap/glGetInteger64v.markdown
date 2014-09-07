@@ -3,6 +3,7 @@ layout: mfile
 title: glGetInteger64v
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetInteger64v  Interface to OpenGL function glGetInteger64v

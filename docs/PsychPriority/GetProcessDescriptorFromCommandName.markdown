@@ -3,6 +3,7 @@ layout: mfile
 title: GetProcessDescriptorFromCommandName
 categories:
   - PsychPriority
+encoding: UTF-8
 ---
 
 processDescriptor=GetProcessDescriptorFromCommandName\(commandName\)

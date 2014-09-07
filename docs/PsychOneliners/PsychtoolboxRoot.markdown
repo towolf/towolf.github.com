@@ -3,6 +3,7 @@ layout: mfile
 title: PsychtoolboxRoot
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 path=PsychtoolboxRoot

@@ -3,6 +3,7 @@ layout: mfile
 title: RectOfMatrix
 categories:
   - PsychRects
+encoding: UTF-8
 ---
 
 rect = RectOfMatrix\(mat\)

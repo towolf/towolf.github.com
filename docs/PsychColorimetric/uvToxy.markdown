@@ -3,6 +3,7 @@ layout: mfile
 title: uvToxy
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 xy = [uvToxy](/docs/uvToxy)\(uv,\[compute1960\]\)

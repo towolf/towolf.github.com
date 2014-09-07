@@ -3,6 +3,7 @@ layout: mfile
 title: glBeginQueryIndexed
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glBeginQueryIndexed  Interface to OpenGL function glBeginQueryIndexed

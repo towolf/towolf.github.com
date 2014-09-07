@@ -3,6 +3,7 @@ layout: mfile
 title: glNormal3b
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glNormal3b  Interface to OpenGL function glNormal3b

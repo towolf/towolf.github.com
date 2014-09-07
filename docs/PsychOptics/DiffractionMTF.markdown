@@ -3,11 +3,12 @@ layout: mfile
 title: DiffractionMTF
 categories:
   - PsychOptics
+encoding: UTF-8
 ---
 
 mtf = DiffractionMTF\(s,pupil,nm\)
 
-Compute the diffraction\-limited MTF
+Compute the diffraction-limited MTF
 for incoherent light.
 
     s = spatial frequency in c/deg
@@ -15,7 +16,7 @@ for incoherent light.
     nm = wavelength in nm
 
 Goodman, J. W. \(1968\) Introduction to Fourier Optics.
-San Francisco: McGraw\-Hill.
+San Francisco: McGraw-Hill.
 
 
 <div class="code_header" style="text-align:right;">

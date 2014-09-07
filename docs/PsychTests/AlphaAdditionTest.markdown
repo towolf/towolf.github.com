@@ -3,6 +3,7 @@ layout: mfile
 title: AlphaAdditionTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 failFlag=AlphaAdditionTest\(\[screenNumber\]\)

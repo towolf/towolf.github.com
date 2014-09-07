@@ -3,6 +3,7 @@ layout: mfile
 title: glRotatef
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glRotatef  Interface to OpenGL function glRotatef

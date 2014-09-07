@@ -3,21 +3,22 @@ layout: mfile
 title: VideoCaptureDC1394
 categories:
   - PsychVideoCapture
+encoding: UTF-8
 ---
 
-VideoCaptureDC1394 \- Setup instructions for IEEE\-1394 firewire video
+VideoCaptureDC1394 - Setup instructions for IEEE-1394 firewire video
 capture.
 
 Psychtoolbox on GNU/Linux and MacOSX supports a special video capture
-engine for IIDC compliant machine vision cameras connected via IEEE\-1394
-firewire bus or via USB bus and Firewire\-over\-USB protocol.
+engine for IIDC compliant machine vision cameras connected via IEEE-1394
+firewire bus or via USB bus and Firewire-over-USB protocol.
 
 This engine with engineID 1, as selectable via ...
 [Screen](/docs/Screen)\('[Preference](/docs/Preference)', 'DefaultVideocaptureEngine', 1\)
-... provides especially precise low\-level control over the cameras, high
-framerates, low\-latency and high timing precision.
+... provides especially precise low-level control over the cameras, high
+framerates, low-latency and high timing precision.
 
-The engine is based on the open\-source library libdc1394. For more info
+The engine is based on the open-source library libdc1394. For more info
 about it see 'help VideoCapture' in the section about professional class
 video capture engines.
 
@@ -27,21 +28,21 @@ On Linux, usually no installation is required if you use the Psychtoolbox
 provided by Debian or Ubuntu via the Debian main package archive or the
 NeuroDebian project. If you have a different Linux distribution, you'll
 need to install the "libdc1394" package via your distributions software
-manager, e.g., via "sudo apt\-get install libdc1394" on a Debian based
+manager, e.g., via "sudo apt-get install libdc1394" on a Debian based
 system.
 
 The software manager on Linux will keep your system up to date with the
 latest stable version of the library.
 
-On MacOS/X for 64\-Bit Matlab & Octave: [Screen](/docs/Screen)\(\) links dynamically against
-a system\-installed .dylib version of the library, if such a version is
+On MacOS/X for 64-Bit Matlab & Octave: [Screen](/docs/Screen)\(\) links dynamically against
+a system-installed .dylib version of the library, if such a version is
 installed on your system. A precompiled library can be found in the
 Psychtoolbox/PsychVideoCapture/ subfolder as libdc1394.22.dylib. Copy it
 into the /usr/local/lib/ folder via executing this function
 'VideoCaptureDC1394' and entering your administrator password on request.
 The corresponding source code of this library can be found in the source
 code distribution of Psychtoolbox \(see "help UseTheSource"\) under:
-PsychSourceGL/Cohorts/libDC1394/ as libdc1394\-2.2.0.tar at the moment of
+PsychSourceGL/Cohorts/libDC1394/ as libdc1394-2.2.0.tar at the moment of
 this writing. However, you can download the most recent copies of the
 libraries from libDC's sourceforge website anytime and install it instead
 to get access to the latest features and bugfixes. Another way to get the

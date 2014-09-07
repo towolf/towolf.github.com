@@ -3,6 +3,7 @@ layout: mfile
 title: DisplayUndistortionBVL
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 \[scal\] = DisplayUndistortionBVL\(\[caliboutfilename\]\[, screenid\]\[, xnum=37\]\[, ynum=27\]\[, referenceImage=None\]\[, stereomode=0\]\)
@@ -15,7 +16,7 @@ pipeline \(see below\).
 This code was contributed by the members of the Banks Vision Lab at
 University of California, Berkeley. It is a subset of their internal
 "BVL" library and used since many years for their display devices,
-haploscopes etc., so it should be reasonably bug\-free and mature.
+haploscopes etc., so it should be reasonably bug-free and mature.
 
 Many display devices, e.g., video beamers and most CRT displays cause
 some amount of spatial distortion to your visual stimuli during display.
@@ -30,8 +31,8 @@ will show up undistorted on the display device.
 
 1. Recent graphics hardware with support for the PTB imaging pipeline:
 See our Wiki for recommendations. However, all ATI cards starting with
-Radeon 9500 and all NVidia cards of type GeForce\-FX5200 and later, as
-well as the Intel\-GMA 950 and later should be able to do it, although
+Radeon 9500 and all NVidia cards of type GeForce-FX5200 and later, as
+well as the Intel-GMA 950 and later should be able to do it, although
 more recent cards will have a higher performance.
 
 2. A calibration file that defines the warp transformation to apply. Your
@@ -46,7 +47,7 @@ corresponding calibration file is saved for later use with that display.
 DisplayUndistortionBVL defines a continous mapping \(x', y'\) = f\(x, y\)
 from uncorrected input pixel locations \(x,y\) in your stimulus image to
 output locations \(x', y'\) on your display. This mapping is defined by a
-3rd order, 2\-dimensional polynomial that is fitted to the calibration data.
+3rd order, 2-dimensional polynomial that is fitted to the calibration data.
 
 
 # How to use:
@@ -74,7 +75,7 @@ default rectilinear calibration grid of equally spaced points.
 'calibinfilename' was provided, the screenid encoded in that file will be
 used. Otherwise, the provided screenid will be used. If this parameter is
 omitted, PTB will use the single screen on a single display setup. On a
-multi\-display setup, PTB will ask for the screenid.
+multi-display setup, PTB will ask for the screenid.
 
 'xnum' and 'ynum' Optional number of horizontal and vertical calibration
 points to use. Their number doesn't affect runtime behaviour of your
@@ -102,12 +103,12 @@ possible on your display from the viewpoint of your subject.
 The best way to do this is to build a real mechanical rectilinear grid of
 fine wires and mount it to your display as a "real world" reference for a
 perfect grid. Then you move the displayed calibration dots so that they
-perfectly align with the crossings of the horizontal\- and vertical wires
+perfectly align with the crossings of the horizontal- and vertical wires
 of your mechanical reference grid.
 
 # Mouse operation:
 
-In 'global mode' \(when you see the hair\-cross in the center of the
+In 'global mode' \(when you see the hair-cross in the center of the
 screen\), the mouse buttons do the following:
 
 'Left mouse' or 'l' key:   Switch to local mode.
@@ -124,7 +125,7 @@ Following global parameters can be adjusted in global mode:
 In 'local mode': The location of a selected dot or a selection of dots
 can be changed:
 
-'Left mouse' \+ mouse drag: Select a single dot close to mouse cursor, or
+'Left mouse' + mouse drag: Select a single dot close to mouse cursor, or
                            draw a bounding rectangle around a region of
                            dots to select.
 
@@ -136,7 +137,7 @@ can be changed:
 
 # Keys and their meaning:
 
-'l' 'm' and 'r' buttons are synonyms for left\- middle\- and right mouse
+'l' 'm' and 'r' buttons are synonyms for left- middle- and right mouse
 buttons. However, its much more convenient to use a three button mouse.
 
 Cursor arrow keys move selected dot\(s\) or change selected global
@@ -150,7 +151,7 @@ structure 'scal' which contains all calibration results will also be
 returned by this function as optional return argument.
 
 This script will print out a little snippet of code that you can paste
-and include into your experiment script \- That will automatically load
+and include into your experiment script - That will automatically load
 the calibration result file and apply the proper undistortion operation.
 
 

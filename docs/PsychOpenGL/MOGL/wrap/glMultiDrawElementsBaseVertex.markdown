@@ -3,6 +3,7 @@ layout: mfile
 title: glMultiDrawElementsBaseVertex
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glMultiDrawElementsBaseVertex  Interface to OpenGL function glMultiDrawElementsBaseVertex

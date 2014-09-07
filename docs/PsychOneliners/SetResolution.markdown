@@ -3,6 +3,7 @@ layout: mfile
 title: SetResolution
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 oldRes=SetResolution\(screenNumber,width,height,\[hz\],\[pixelSize\]\)

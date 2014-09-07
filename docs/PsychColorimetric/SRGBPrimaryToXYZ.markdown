@@ -3,13 +3,14 @@ layout: mfile
 title: SRGBPrimaryToXYZ
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 XYZ = SRGBPrimaryToXYZ\(rgb\)
 
 Convert between sRGB primaries and CIE XYZ.
 The rgb are linear device coordinates for the primaries of the sRGB
-standard.  One would expect these to be in the range 0\-1, although
+standard.  One would expect these to be in the range 0-1, although
 any scaling will simply propogate through to the XYZ coordinates.
 
 See XYZToSRGBPrimary

@@ -3,6 +3,7 @@ layout: mfile
 title: NormalizeGamma
 categories:
   - PsychGamma
+encoding: UTF-8
 ---
 
 \[gammaOut\] = NormalizeGamma\(gamma\)

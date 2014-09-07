@@ -3,6 +3,7 @@ layout: mfile
 title: glIndexd
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glIndexd  Interface to OpenGL function glIndexd

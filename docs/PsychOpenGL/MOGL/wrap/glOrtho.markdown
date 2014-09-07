@@ -3,6 +3,7 @@ layout: mfile
 title: glOrtho
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glOrtho  Interface to OpenGL function glOrtho

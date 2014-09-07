@@ -3,6 +3,7 @@ layout: mfile
 title: WattsToRetIrradiance
 categories:
   - PsychRadiometric
+encoding: UTF-8
 ---
 
  \[irradiance, irradianceS\] =...
@@ -11,7 +12,7 @@ categories:
  The assumption underlying this routine is that the relative spectrum of a light
  is available, as well as the total power of the light passing through an aperture
  of known size.  This is the situation in the apparatus we use in Sterling's lab.
-    The routine computes the irradiance \(watts/um^2\-wlinterval\) from the relative spectrum
+    The routine computes the irradiance \(watts/um^2-wlinterval\) from the relative spectrum
  \(relative power, not relative quanta\) and a measurement of the total power in watts,
  given the radiometer properties specified.
 

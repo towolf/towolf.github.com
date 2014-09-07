@@ -3,6 +3,7 @@ layout: mfile
 title: URandSel
 categories:
   - PsychProbability
+encoding: UTF-8
 ---
 
 sel = RandSel\(in,n\)

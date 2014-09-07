@@ -3,11 +3,12 @@ layout: mfile
 title: BitsPlusFirstLineTest
 categories:
   - BitsPlusTests
+encoding: UTF-8
 ---
 
 BitsPlusFirstLIneTest
 
-Test first\-line interface for bitsplus clut.
+Test first-line interface for bitsplus clut.
 
 
 <div class="code_header" style="text-align:right;">

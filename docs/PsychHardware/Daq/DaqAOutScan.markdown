@@ -3,10 +3,11 @@ layout: mfile
 title: DaqAOutScan
 categories:
   - Daq
+encoding: UTF-8
 ---
 
 params=DaqAOutScan\(DeviceIndex,v,options\)
-USB\-1208FS: Analog output scan. Produce sampled analog output voltage
+USB-1208FS: Analog output scan. Produce sampled analog output voltage
 waveforms on one or two channels. This command sends the values in "v"
 \(one column per channel\) to the specified range of \(one or two\) output
 channels.
@@ -19,17 +20,17 @@ channels.
 "params.end" is when the final report was sent to device.
 "DeviceIndex" is a small integer, the array index specifying which HID
       device in the array returned by PsychHID\('Devices'\) is interface 0
-      of the desired USB\-1208FS box.
+      of the desired USB-1208FS box.
 "v" is a matrix, with one column per channel. \(If you're using only one
       channel, then you're allowed to send the vector as either a column
       or a row.\) Each value is a double, in the range 0 to 1, which will
       produce an output voltage in the range 0 to 4.095 V.
-"options.FirstChannel" is the first channel of the scan \(0 \- 1\). \(formerly
-      "options.lowChannel" \-\- that terminology is deprecated.\)
-"options.LastChannel" is the last channel of the scan \(0 \- 1\), and must
+"options.FirstChannel" is the first channel of the scan \(0 - 1\). \(formerly
+      "options.lowChannel" -- that terminology is deprecated.\)
+"options.LastChannel" is the last channel of the scan \(0 - 1\), and must
       be greater than or equal to options.FirstChannel. The values
       options.FirstChannel and options.LastChannel specify the channel
-      range for the scan. \(Formerly "options.highChannel" \-\- that terminology
+      range for the scan. \(Formerly "options.highChannel" -- that terminology
       is deprecated.\)
 "options.f" is the desired sampling frequency, sample/channel/s, in the
       range 0.596/c to 10e6/c Hz, where c is the number of channels to be
@@ -39,7 +40,7 @@ channels.
       device will wait until the appropriate trigger edge is detected,
       then begin emitting samples at the specified rate.
 "options.getReports" is 1 \(default\) = wait to receive report from
-      USB\-1208FS before sending each block of data in "v". 0 = send
+      USB-1208FS before sending each block of data in "v". 0 = send
       blocks of data at what should be the right rate.
 "options.print" is 1 = enable diagnostic printing; 0 \(default\) no
       diagnostics.

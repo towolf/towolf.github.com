@@ -3,6 +3,7 @@ layout: mfile
 title: glGetMaterialfv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetMaterialfv  Interface to OpenGL function glGetMaterialfv

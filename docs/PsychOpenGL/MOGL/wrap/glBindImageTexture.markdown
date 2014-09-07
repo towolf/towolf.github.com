@@ -3,6 +3,7 @@ layout: mfile
 title: glBindImageTexture
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glBindImageTexture  Interface to OpenGL function glBindImageTexture

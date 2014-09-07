@@ -3,6 +3,7 @@ layout: mfile
 title: UnitTestRunAll
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 this script runs all m files in PsychTests/UnitTests, each of which is

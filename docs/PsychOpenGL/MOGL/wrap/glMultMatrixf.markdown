@@ -3,6 +3,7 @@ layout: mfile
 title: glMultMatrixf
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glMultMatrixf  Interface to OpenGL function glMultMatrixf

@@ -3,6 +3,7 @@ layout: mfile
 title: glShadeModel
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glShadeModel  Interface to OpenGL function glShadeModel

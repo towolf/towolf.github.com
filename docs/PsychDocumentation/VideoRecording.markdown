@@ -3,9 +3,10 @@ layout: mfile
 title: VideoRecording
 categories:
   - PsychDocumentation
+encoding: UTF-8
 ---
 
-VideoRecording \- Parameter settings, howtos and tips for Video recording.
+VideoRecording - Parameter settings, howtos and tips for Video recording.
 
 This file describes how to use the [GStreamer](/docs/GStreamer) and DC1394 video capture engines
 for video \(and audio\) recording into movie files. The [GStreamer](/docs/GStreamer) engine is
@@ -13,17 +14,17 @@ available on all operating systems and can record both video and sound.
 The DC1394 engine is available on Linux and OSX and can currently only
 record video, but no simultaneous audio.
 
-\- Check VideoRecordingDemo for regular video recording via [GStreamer](/docs/GStreamer)\! On
-  both MacOSX and MS\-Windows, one often needs to pass special settings or
-  codec types for video recording and especially combined video \+ audio
+- Check VideoRecordingDemo for regular video recording via [GStreamer](/docs/GStreamer)\! On
+  both MacOSX and MS-Windows, one often needs to pass special settings or
+  codec types for video recording and especially combined video + audio
   recording to work. That demo illustrates at least one set of settings
   which were shown to work on OSX and Windows in December 2013.
 
-\- Check VideoDVCamCaptureDemo for video recording from DV cameras. These
+- Check VideoDVCamCaptureDemo for video recording from DV cameras. These
   cameras seem to need special treatment on all systems, but especially
-  on MS\-Windows and the demo shows how to do that.
+  on MS-Windows and the demo shows how to do that.
 
-\- Check VideoMultiCameraCaptureDemo for video capture and recording from
+- Check VideoMultiCameraCaptureDemo for video capture and recording from
   multiple professional class IIDC/DCAM compliant firewire and USB cameras
   on Linux and OSX via the DC1394 engine.
 
@@ -45,7 +46,7 @@ it tries to use for video and audio encoding, together with reasonable
 default parameters. It works its way down the list, starting with the most
 suitable/efficient codec, until it finds a codec that is supported on
 your system. Not all codecs may be installed by default on your operating
-system. Especially proprietary, non\-free, or patent\-encumbered codecs may
+system. Especially proprietary, non-free, or patent-encumbered codecs may
 not be installed on your system. You may have to select them explicitely
 in the software center of your distribution \(see "help [GStreamer](/docs/GStreamer)"\).
 
@@ -57,22 +58,22 @@ If you want to chose a specific codec and \(optionally\) its settings,
 start the parameter string with ':CodecType=', followed by the settings.
 
 Some video codecs are supported by our automatic setup code. These will
-automatically select matching audio codecs and audio\-video multiplexers
+automatically select matching audio codecs and audio-video multiplexers
 and reasonable default settings, so they are convenient for you to use:
 
 x264enc:         A highly optimized H264 video encoder, automatically combined with the
-                 faacenc or ffenc\_aac MPEG\-4 AAC audio encoder and an AVI file
+                 faacenc or ffenc\_aac MPEG-4 AAC audio encoder and an AVI file
                  multiplexer or Quicktime mov file multiplexer.
 
-xvidenc:         The XVid MPEG\-4 video encoder \+ AAC audio in a AVI file.
+xvidenc:         The XVid MPEG-4 video encoder + AAC audio in a AVI file.
 
-ffenc\_mpeg4:     Another MPEG\-4 video encoder \+ AAC audio in a AVI file.
+ffenc\_mpeg4:     Another MPEG-4 video encoder + AAC audio in a AVI file.
 
 theoraenc:       The Ogg Theora video encoder with Ogg Vorbis audio encoder and
                  Ogg file format multiplexer \(.ogv files\).
 
-vp8enc\_webm:     The VP\-8 video codec with Ogg Vorbis audio in a WEBM \(.webm\)
-                 video container \(HTML\-5 video\).
+vp8enc\_webm:     The VP-8 video codec with Ogg Vorbis audio in a WEBM \(.webm\)
+                 video container \(HTML-5 video\).
 
 vp8enc\_matroska: As above, but in a matroska file container.
 
@@ -80,7 +81,7 @@ ffenc\_h263p:     H.263 video encoder with AAC audio in a Quicktime container.
 
 yuvraw:          Raw, uncompressed YUV video data with AAC audio in a avi container.
 
-huffyuv:         Huffman encoded YUV raw video data \+ AAC audio in a
+huffyuv:         Huffman encoded YUV raw video data + AAC audio in a
                  matroska container. This is a lossless video codec, but
                  it creates relatively large files.
 
@@ -91,14 +92,14 @@ ffenc\_sgi:       Stores video as a sequence of RLE compressed, lossless
                  files.
 
 The huffyuv and ffenc\_sgi encoders are mostly useful if you need
-bit\-exact image storage or storage of raw video sensor data \(Bayer color
+bit-exact image storage or storage of raw video sensor data \(Bayer color
 filter format\), or of high bit depths video data, ie., with more than 8
 bpc. For most common use cases you can achieve qualitatively good enough
 results at much smaller file sizes with the standard lossy codecs.
 
-Psychtoolbox supports high\-level settings, which are relatively easy to
+Psychtoolbox supports high-level settings, which are relatively easy to
 use and understand. We describe these first. Psychtoolbox also supports
-low\-level tweaking of codec specific settings, which require significant
+low-level tweaking of codec specific settings, which require significant
 knowledge about video and audio encoding and lots of tinkering, but
 provide fine grained control over every tiny aspect of the recording
 process.
@@ -124,14 +125,13 @@ average video bitrate of 1000 kilobits/sec.
 
 # The following high level parameters are supported:
 
-Video encoding settings:
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
+# Video encoding settings
 
-Interlaced=0/1 \- Tell codec if input video material is interlaced. This
+Interlaced=0/1 - Tell codec if input video material is interlaced. This
                  allows to optimize encoding further for smaller file size
                  and better quality.
 
-Keyframe=x     \- Set the maximum keyframe interval to at most 'x' frames.
+Keyframe=x     - Set the maximum keyframe interval to at most 'x' frames.
                  Most video players can only seek/navigate in a video with
                  keyframe granularity. E.g., a keyframe setting of 10 would
                  mean that one can only move forward/backward or address a
@@ -143,14 +143,14 @@ Keyframe=x     \- Set the maximum keyframe interval to at most 'x' frames.
                  keyframe distances automatically, possibly dynamically,
                  depending on visual scene content.
 
-Videobitrate=x kb/s  \- Select video bit rate in kilobits per second. A direct
+Videobitrate=x kb/s  - Select video bit rate in kilobits per second. A direct
                        control of the tradeoff filesize vs. quality. Bigger
                        numbers mean higher quality and larger files. Codecs
                        interpret this number as target average rate or maximum
                        rate, depending on codec. Many codecs select this
                        parameter dynamically \(variable bitrate coding VBR\).
 
-Videoquality=x \- A value between 0.0 and 1.0 to select target video quality
+Videoquality=x - A value between 0.0 and 1.0 to select target video quality
                  between 0% and 100%. This controls different aspects of the
                  encoding process, but bigger values mean higher quality and
                  sometimes bigger filesize and sometimes higher cpu processor
@@ -159,73 +159,70 @@ Videoquality=x \- A value between 0.0 and 1.0 to select target video quality
                  may need to lower video quality, so your poor machine can
                  cope.
 
-Audio encoding settings:
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
+# Audio encoding settings
 
-Audioquality=x \- See Videoquality, this time for the audio encoding.
+Audioquality=x - See Videoquality, this time for the audio encoding.
 
-Audiobitrate=x kb/s  \- See Videobitrate, this time for the audio encoding.
+Audiobitrate=x kb/s  - See Videobitrate, this time for the audio encoding.
 
-Multiplexer / File format settings:
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
+# Multiplexer / File format settings
 
-Timeresolution=x \- How fine should time be resolved in the recorded footage?
+Timeresolution=x - How fine should time be resolved in the recorded footage?
                    A value of x means to divide 1 second into x units, i.e.,
                    provide a time granularity of 1/x th of a second. This
                    influences file size, accuracy of time based navigation in
                    the video, possibly the accuracy of returned movie presentation
-                   timestamps and of audio\-video sync. If omitted, defaults to
+                   timestamps and of audio-video sync. If omitted, defaults to
                    1/1000 th second aka 1 msec granularity.
 
-Faststart=0/1    \- If set to 1, optimize recorded files for a fast load and start
+Faststart=0/1    - If set to 1, optimize recorded files for a fast load and start
                    of playback in players. This is usually what you want, so it is
                    on by default.
 
-Bigfiles=0/1     \- If set to 1, allow recording of movie files with a size greater
+Bigfiles=0/1     - If set to 1, allow recording of movie files with a size greater
                    than 2 GB. This is usually what you want, but it may cause
                    compatibility problems with playback software which can't handle
                    the "big file" file format.
 
 
-Specifying low\-level settings:
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
+# Specifying low-level settings
 
 For more control you can also specify the various codec types and their
-low level settings in the syntax of the "gst\-launch" [GStreamer](/docs/GStreamer) command
-line utility. This disables use of the high\-level settings and provides
+low level settings in the syntax of the "gst-launch" [GStreamer](/docs/GStreamer) command
+line utility. This disables use of the high-level settings and provides
 full control:
 
 A video codec type and settings string is prefixed with: 'VideoCodec='
 followed by codec name and settings, postfixed with ':::', e.g.,
-'VideoCodec=x264enc speed\-preset=1 noise\-reduction=100000 :::'.
+'VideoCodec=x264enc speed-preset=1 noise-reduction=100000 :::'.
 
 A audio codec type and settings follows the same logic, with the
 'AudioCodec=' prefix, e.g., 'AudioCodec=faac :::'
 
-A multiplexer is chosen via the 'Muxer=' prefix, but no low\-level
-settings can be passed to the multiplexer, only high\-level settings as
+A multiplexer is chosen via the 'Muxer=' prefix, but no low-level
+settings can be passed to the multiplexer, only high-level settings as
 described above.
 
-A specific \(non\-auto\-selected\) audio source and its settings can be
+A specific \(non-auto-selected\) audio source and its settings can be
 chosen via the 'AudioSource=' prefix, e.g., 'AudioSource=pulsesrc :::' to
 select an audio input provided by the PulseAudio sound server explicitely.
 
 A full example string to select codecs and other low level settings would
 look like this:
-':CodecType=VideoCodec=x264enc speed\-preset=1 noise\-reduction=100000 ::: AudioCodec=faac ::: AudioSource=pulsesrc ::: Muxer=avimux'
+':CodecType=VideoCodec=x264enc speed-preset=1 noise-reduction=100000 ::: AudioCodec=faac ::: AudioSource=pulsesrc ::: Muxer=avimux'
 
-Intermixing of high\-level and low\-level settings is also possible:
+Intermixing of high-level and low-level settings is also possible:
 ':CodecType=x264enc Keyframe=1 Videobitrate=8192 AudioCodec=alawenc ::: AudioSource=pulsesrc ::: Muxer=qtmux'
 This would select the x264enc H264 video codec, with high level settings,
-and additionally choose \(low\-level\) a specific audio codec, audio source
+and additionally choose \(low-level\) a specific audio codec, audio source
 and multiplexer.
 
 You can find a list of supported codecs, sources and multiplexers by
-typing 'gst\-inspect' in a Unix or Windows terminal window. You can
-list the available low\-level settings \(aka properties\) via gst\-inspect codecname.
+typing 'gst-inspect' in a Unix or Windows terminal window. You can
+list the available low-level settings \(aka properties\) via gst-inspect codecname.
 
-E.g., to list all available low\-level properties of the x264enc codec,
-you'd type "gst\-inspect x264enc" in a terminal window.
+E.g., to list all available low-level properties of the x264enc codec,
+you'd type "gst-inspect x264enc" in a terminal window.
 
 Please note that if you don't choose a Psychtoolbox supported video codec
 from the list provided above, then you will need to specify all audio

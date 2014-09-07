@@ -3,6 +3,7 @@ layout: mfile
 title: glRectd
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glRectd  Interface to OpenGL function glRectd

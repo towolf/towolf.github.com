@@ -3,6 +3,7 @@ layout: mfile
 title: glPolygonMode
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glPolygonMode  Interface to OpenGL function glPolygonMode

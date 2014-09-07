@@ -3,6 +3,7 @@ layout: mfile
 title: RadianceToRetIrradiance
 categories:
   - Obsolete
+encoding: UTF-8
 ---
 
 irradianceWattsPerUm2 = RadianceToRetIrradiance\(radianceWattsPerM2Sr,radianceS,pupilAreaMm2,eyeLengthMm\)
@@ -10,13 +11,13 @@ irradianceWattsPerUm2 = RadianceToRetIrradiance\(radianceWattsPerM2Sr,radianceS,
 Perform the geometric calculations necessary to convert a measurement of source
 radiance to corresponding retinal irradiance.
 
-  Input radianceWattsPerM2Sr should be in units of power/m^2\-sr\-wlinterval.
+  Input radianceWattsPerM2Sr should be in units of power/m^2-sr-wlinterval.
   Input radianceS gives the wavelength sampling information.
   Input pupilAreaMm2 should be in units of mm^2.
   Input eyeLengthMm should be the length of the eye in mm.
-  Output irradianceWattsPerUm2 is in units of power/um^2\-wlinterval.
+  Output irradianceWattsPerUm2 is in units of power/um^2-wlinterval.
 
-  Light power may be expressed in watts or quanta\-sec or in your
+  Light power may be expressed in watts or quanta-sec or in your
   favorite units.  Indeed, it may also be passed as energy rather
   than power.
 
@@ -31,7 +32,7 @@ calling code.
 
 7/10/03  dhb  Wrote it.
 11/06/03 dhb  Fixed comments about units, as per Lu Yin email.
-3/29/12  dhb  Comment on output units was wrong.  It said power/um^2\-sec\-wlinterval
+3/29/12  dhb  Comment on output units was wrong.  It said power/um^2-sec-wlinterval
               but the 'sec' part makes no sense given the 'power' in the numerator.
 2/28/13  dhb  Make units clear in variable names.
 3/6/13   dhb  Rewrite to use new conversion function.  Move to Obsolete directory.

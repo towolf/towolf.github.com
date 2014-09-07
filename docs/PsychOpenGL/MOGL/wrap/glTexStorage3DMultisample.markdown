@@ -3,6 +3,7 @@ layout: mfile
 title: glTexStorage3DMultisample
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glTexStorage3DMultisample  Interface to OpenGL function glTexStorage3DMultisample

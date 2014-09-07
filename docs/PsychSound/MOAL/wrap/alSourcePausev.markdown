@@ -3,6 +3,7 @@ layout: mfile
 title: alSourcePausev
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alSourcePausev  Interface to OpenAL function alSourcePausev

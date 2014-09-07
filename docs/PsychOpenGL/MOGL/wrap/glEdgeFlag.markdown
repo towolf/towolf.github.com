@@ -3,6 +3,7 @@ layout: mfile
 title: glEdgeFlag
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glEdgeFlag  Interface to OpenGL function glEdgeFlag

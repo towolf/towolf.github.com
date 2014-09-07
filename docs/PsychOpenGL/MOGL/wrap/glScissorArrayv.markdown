@@ -3,6 +3,7 @@ layout: mfile
 title: glScissorArrayv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glScissorArrayv  Interface to OpenGL function glScissorArrayv

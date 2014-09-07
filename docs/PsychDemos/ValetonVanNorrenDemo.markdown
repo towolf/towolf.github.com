@@ -3,6 +3,7 @@ layout: mfile
 title: ValetonVanNorrenDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 ValetonVanNorrenDemo

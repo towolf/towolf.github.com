@@ -3,6 +3,7 @@ layout: mfile
 title: RetIrradianceToRadiance
 categories:
   - Obsolete
+encoding: UTF-8
 ---
 
 radianceWattsPerM2Sr = RetIrradianceToRadiance\(irradianceWattsPerUm2,irradianceS,pupilAreaMm2,eyeLengthMm\)
@@ -10,13 +11,13 @@ radianceWattsPerM2Sr = RetIrradianceToRadiance\(irradianceWattsPerUm2,irradiance
 Perform the geometric calculations necessary to convert a measurement of retinal
 irradiance to the source radiance that would produce it.
 
-  Input irradianceWattsPerUm2 is in units of power/um^2\-wlinterval.
+  Input irradianceWattsPerUm2 is in units of power/um^2-wlinterval.
   Input irradianceS gives the wavelength sampling information.
   Input pupilAreaMm2 should be in units of mm^2.
   Input eyeLengthMm should be the length of the eye in mm.
-  Output radianceWattsPerM2Sr is in units of power/m^2\-sr\-wlinterval.
+  Output radianceWattsPerM2Sr is in units of power/m^2-sr-wlinterval.
 
-  Light power may be expressed in watts or quanta\-sec or in your
+  Light power may be expressed in watts or quanta-sec or in your
   favorite units.  Indeed, it may also be passed as energy rather
   than power.
 

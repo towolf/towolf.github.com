@@ -3,6 +3,7 @@ layout: mfile
 title: PhotopigmentAxialDensity
 categories:
   - PsychColorimetricData
+encoding: UTF-8
 ---
 
  densities = PhotopigmentAxialDensity\(receptorTypes,\[species\],\[source\],\[fieldSizeDegrees\]\)
@@ -41,8 +42,8 @@ categories:
  The CIE method takes a field size argument.  This
  overrides the specified foveal or not part of the
  cone string.  If the field type is not passed and
- the method is CIE, it is set to 10\-degrees for Scone, Mcone,
- and Lcone, and to 2\-degrees for FovealScone, FovealMCone, and
+ the method is CIE, it is set to 10-degrees for Scone, Mcone,
+ and Lcone, and to 2-degrees for FovealScone, FovealMCone, and
  FovealLCone.
 
  The fieldSizeDegrees argument is ignored for sources other than

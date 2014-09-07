@@ -3,6 +3,7 @@ layout: mfile
 title: glScaled
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glScaled  Interface to OpenGL function glScaled

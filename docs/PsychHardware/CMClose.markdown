@@ -3,6 +3,7 @@ layout: mfile
 title: CMClose
 categories:
   - PsychHardware
+encoding: UTF-8
 ---
 
 CMClose\(\[meterType\]\)
@@ -20,8 +21,8 @@ meterType 6 is the PR705
 4/13/02  dgp    Cosmetic.
 2/26/03  dhb  Added more meter types.
 3/27/03  dhb, jmh  Fix up default argument.
-2/07/09  mk, tbc  Add PR\-655 support.
-12/04/12 zlb  Add PR\-705 support.
+2/07/09  mk, tbc  Add PR-655 support.
+12/04/12 zlb  Add PR-705 support.
 
 
 <div class="code_header" style="text-align:right;">

@@ -3,6 +3,7 @@ layout: mfile
 title: glDrawArraysInstancedBaseInstance
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDrawArraysInstancedBaseInstance  Interface to OpenGL function glDrawArraysInstancedBaseInstance

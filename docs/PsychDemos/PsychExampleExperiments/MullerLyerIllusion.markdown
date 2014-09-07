@@ -3,11 +3,12 @@ layout: mfile
 title: MullerLyerIllusion
 categories:
   - PsychExampleExperiments
+encoding: UTF-8
 ---
 
 results = MullerLyerIllusion\(subID\)
 
-Presenting the Muller\-Lyer Illusion with the Psychtoolbox, complete experiment.
+Presenting the Muller-Lyer Illusion with the Psychtoolbox, complete experiment.
 
 # Input:
 
@@ -40,7 +41,7 @@ line length can be either 1 or 2, these values will be taken as
 indices into the 1 x 2 vector hll \(half line length, difference of 10%\)
 using indices allows the stimuli to be scaled by a random factor in each trial
 
-head direction can be \-1 \(outward pointing\), 0 \(no head\) or 1
+head direction can be -1 \(outward pointing\), 0 \(no head\) or 1
 \(inward pointing\); 0 is not used in the present design
 
 
@@ -48,7 +49,7 @@ Written by N. Ruh, 15/02/2008.
 
 # Exemplary reference:
 
-  Restle F & Decker J \(1977\) Size of the Mueller\-Lyer illusion as a
+  Restle F & Decker J \(1977\) Size of the Mueller-Lyer illusion as a
   function of its dimensions: Theory and data. Perception & Psychophysics 21:489–503
 
 History:

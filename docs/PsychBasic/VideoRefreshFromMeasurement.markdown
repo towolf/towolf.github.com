@@ -3,6 +3,7 @@ layout: mfile
 title: VideoRefreshFromMeasurement
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 ifi = VideoRefreshFromMeasurement\(window \[, samples=600\]\);
@@ -21,7 +22,7 @@ one of multiple calibration strategies, preferring more accurate ones but
 falling back to less accurate ones if the accurate ones are not supported
 by your system:
 
-1. On MacOS/X it tries to use low\-level VBL interrupt timestamps.
+1. On MacOS/X it tries to use low-level VBL interrupt timestamps.
 2. If that fails it tries to get the measurement from the beamposition
    measurement method.
 3. If that fails it returns the measurment from

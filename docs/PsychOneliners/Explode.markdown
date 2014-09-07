@@ -3,6 +3,7 @@ layout: mfile
 title: Explode
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 outputcell = [Explode](/docs/Explode)\(vect,splitvect,mode\)

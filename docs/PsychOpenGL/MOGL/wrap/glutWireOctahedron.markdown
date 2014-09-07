@@ -3,6 +3,7 @@ layout: mfile
 title: glutWireOctahedron
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glutWireOctahedron  Interface to OpenGL function glutWireOctahedron

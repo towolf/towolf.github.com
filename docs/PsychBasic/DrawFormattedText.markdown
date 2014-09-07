@@ -3,6 +3,7 @@ layout: mfile
 title: DrawFormattedText
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 \[nx, ny, textbounds\] = DrawFormattedText\(win, tstring \[, sx\]\[, sy\]\[, color\]\[, wrapat\]\[, flipHorizontal\]\[, flipVertical\]\[, vSpacing\]\[, righttoleft\]\[, winRect\]\)
@@ -12,7 +13,7 @@ some basic formatting. The text string 'tstring' may contain newline
 characters '\\n'. Whenever a newline character '\\n' is encountered, a
 linefeed and carriage return is performed, breaking the text string into
 lines. 'sx' defines the left border of the text: If it is left out, text
-starts at x\-position zero, otherwise it starts at the specified position
+starts at x-position zero, otherwise it starts at the specified position
 'sx'. If sx=='center', then each line of text is horizontally centered in
 the window. If sx=='right', then each line of text is right justified to
 the right border of the target window, or of 'winRect' if provided. 'sy'
@@ -25,7 +26,7 @@ color from previous text drawing commands is used. 'wrapat', if provided,
 will automatically break text strings longer than 'wrapat' characters
 into newline separated strings of roughly 'wrapat' characters. This is
 done by calling the WrapString function \(See 'help WrapString'\). 'wrapat'
-mode may not work reliably with non\-ASCII text strings, e.g., UTF\-8
+mode may not work reliably with non-ASCII text strings, e.g., UTF-8
 encoded uint8 strings on all systems.
 
 The optional flag 'flipHorizontal' if set to 1 will mirror the text
@@ -36,7 +37,7 @@ The optional argument 'vSpacing' sets the spacing between the lines. Default
 value is 1.
 
 The optional argument 'righttoleft' if set to 1, will ask to draw the
-text string in right\-to\-left reading direction, e.g., for scripts which
+text string in right-to-left reading direction, e.g., for scripts which
 read right to left
 
 The optional argument 'winRect' allows to specify a \[left top right bottom\]
@@ -45,7 +46,7 @@ the rectangle of the whole 'win'dow is used.
 
 The function employs clipping by default. Text lines that are detected as
 lying completely outside the 'win'dow or optional 'winRect' will not be
-drawn, but clipped away. This allows to draw multi\-page text \(multiple
+drawn, but clipped away. This allows to draw multi-page text \(multiple
 screen heights\) without too much loss of drawing speed. If you find the
 clipping to interfere with text layout of exotic texts/fonts at exotic
 sizes and formatting, you can define the global variable...
@@ -58,8 +59,8 @@ ptb\_drawformattedtext\_disableClipping = 1;
 Clipping also gets disabled if you request the optional 3rd return
 parameter 'textbounds' to ensure correct computation of a bounding box
 that covers the complete text. You can enforce clipping by setting
-ptb\_drawformattedtext\_disableClipping = \-1; however, computed bounding
-boxes will then only describe the currently visible \(non\-clipped\) text.
+ptb\_drawformattedtext\_disableClipping = -1; however, computed bounding
+boxes will then only describe the currently visible \(non-clipped\) text.
 
 
 The function returns the new \(nx, ny\) position of the text drawing cursor

@@ -3,6 +3,7 @@ layout: mfile
 title: glBindAttribLocation
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glBindAttribLocation  Interface to OpenGL function glBindAttribLocation

@@ -3,6 +3,7 @@ layout: mfile
 title: glDeleteRenderbuffersEXT
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDeleteRenderbuffersEXT  Interface to OpenGL function glDeleteRenderbuffersEXT

@@ -3,6 +3,7 @@ layout: mfile
 title: SensorToCyl
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 cyl = SensorToCyl\(sensor\)

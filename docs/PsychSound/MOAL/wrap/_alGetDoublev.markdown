@@ -3,6 +3,7 @@ layout: mfile
 title: _alGetDoublev
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alGetDoublev  Interface to OpenAL function alGetDoublev

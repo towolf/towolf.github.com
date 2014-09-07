@@ -3,6 +3,7 @@ layout: mfile
 title: gluBeginPolygon
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluBeginPolygon  Interface to OpenGL function gluBeginPolygon

@@ -3,6 +3,7 @@ layout: mfile
 title: PupilDiameterFromLum
 categories:
   - PsychColorimetricData
+encoding: UTF-8
 ---
 
  \[diam,area,trolands\] = PupilDiameterFromLum\(lum,\[source\]\)
@@ -16,7 +17,7 @@ categories:
    PokornySmith: \(default\)
             Formula is Eq. 1 from: Pokorny and Smith, "How much light
             reaches the retina", Colour Vision Deficiences XIII \(C.
-            Cavonius, ed.\), pp. 491\-511.
+            Cavonius, ed.\), pp. 491-511.
 
         DeGrootGebhard:
             Formula is De Groot and Gebhard's from
@@ -30,27 +31,27 @@ categories:
 
  Notes:
     a\) The calculations of the DeGroot/Gebhard formula do not seem to agree with the
-        same calculations as expressed in Figure 2\(2.4.5\) on the same page of W\+S.  One would
+        same calculations as expressed in Figure 2\(2.4.5\) on the same page of W+S.  One would
         need to go back to the original literature to sort out what is going on.
 
     b\) In terms of the different methods, Joel Pokorny \(1999, personal communication\) says:
         The average pupil diameter/luminance functions in the literature vary enormously.
         This can be seen in the figures in
 
-            Moon, P. and D. E. Spencer \(1944\). "On the Stiles\-Crawford Effect."
-            Journal of the Optical Society of America 34: 319\-329.
+            Moon, P. and D. E. Spencer \(1944\). "On the Stiles-Crawford Effect."
+            Journal of the Optical Society of America 34: 319-329.
 
         and
 
             de Groot, S. G. and J. W. Gebhard \(1952\). "Pupil size as determined
             by adapting luminance." Journal of the Optical Society of America
-            42: 492\-495.
+            42: 492-495.
 
         For example, the Reeves \(1918, "The visibility of radiation." Transactions of the
-        Illuminating Engineering Society 13: 101\-109\) pupil diameter function is displaced
+        Illuminating Engineering Society 13: 101-109\) pupil diameter function is displaced
         roughly 1.5 log units higher on the luminance axis than Crawford's \(1936, "The dependence
         of pupil size upon external light stimulus under static and variable conditions."
-        Proceedings of the Royal Society B \(London\) 121\(B\): 376\-395\) average data.
+        Proceedings of the Royal Society B \(London\) 121\(B\): 376-395\) average data.
 
     Both Moon and Spenser & DeGroot and Gebhard sought functions which were compromises
         between existing data sets.  LeGrand's function shows good correspondence with

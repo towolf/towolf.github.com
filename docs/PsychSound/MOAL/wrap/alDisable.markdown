@@ -3,6 +3,7 @@ layout: mfile
 title: alDisable
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alDisable  Interface to OpenAL function alDisable

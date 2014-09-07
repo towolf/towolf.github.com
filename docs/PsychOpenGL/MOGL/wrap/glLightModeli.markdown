@@ -3,6 +3,7 @@ layout: mfile
 title: glLightModeli
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glLightModeli  Interface to OpenGL function glLightModeli

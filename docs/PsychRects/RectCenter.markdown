@@ -3,6 +3,7 @@ layout: mfile
 title: RectCenter
 categories:
   - PsychRects
+encoding: UTF-8
 ---
 
    \[x,y\] = RectCenter\(rect\);

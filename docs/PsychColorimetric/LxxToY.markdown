@@ -3,6 +3,7 @@ layout: mfile
 title: LxxToY
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 Y = LxxToY\(Lxx,white\)

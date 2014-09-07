@@ -3,12 +3,13 @@ layout: mfile
 title: BitsPlusImagingMonoTest
 categories:
   - BitsPlusTests
+encoding: UTF-8
 ---
 
 BitsPlusImagingMonoTest\(\[testdrawingcmds\]\)
 
-Test of built\-in Mono\+\+ output conversion shader of PTB
-imaging pipeline. This is meant to test Bits\+\+ Mono\+\+
+Test of built-in Mono++ output conversion shader of PTB
+imaging pipeline. This is meant to test Bits++ Mono++
 conversion of GPU against reference implementation of
 Matlab BitsPlus toolbox.
 

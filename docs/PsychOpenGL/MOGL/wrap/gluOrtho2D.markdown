@@ -3,6 +3,7 @@ layout: mfile
 title: gluOrtho2D
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluOrtho2D  Interface to OpenGL function gluOrtho2D

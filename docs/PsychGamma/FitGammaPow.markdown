@@ -3,6 +3,7 @@ layout: mfile
 title: FitGammaPow
 categories:
   - PsychGamma
+encoding: UTF-8
 ---
 
 \[fit\_out,x,err\] = FitGammaPow\(values\_in,measurements,values\_out,x0\)

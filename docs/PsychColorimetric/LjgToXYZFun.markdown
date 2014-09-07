@@ -3,6 +3,7 @@ layout: mfile
 title: LjgToXYZFun
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 \[f,g\] = LjgToXYZFun\(XYZ,Ljg\)

@@ -3,6 +3,7 @@ layout: mfile
 title: pursuit
 categories:
   - pursuit
+encoding: UTF-8
 ---
 
 

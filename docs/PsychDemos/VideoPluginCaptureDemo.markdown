@@ -3,9 +3,10 @@ layout: mfile
 title: VideoPluginCaptureDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
-Demonstrate simple use of built\-in video capture engine.
+Demonstrate simple use of built-in video capture engine.
 
 VideoMultiCameraCaptureDemo\(\[deviceIds=all\]\[, syncmode=0\]\[, movieName\]\)
 
@@ -15,8 +16,8 @@ in the optional vector 'deviceIds', and then shows their video feeds
 in individual Psychtoolbox windows.
 
 The optional 'syncmode' flag allows to select synchronization strategy
-for multi\-cam capture: 0 = None, all free\-running. 4 = Software sync,
-8 = Firewire Bus\-Sync, 16 = Hardware \(TTL\) trigger sync.
+for multi-cam capture: 0 = None, all free-running. 4 = Software sync,
+8 = Firewire Bus-Sync, 16 = Hardware \(TTL\) trigger sync.
 
 The optional 'movieName' string, if provided, will enable video recording
 of each cameras video into a dedicated movie file, which consists of the
@@ -24,11 +25,11 @@ movieName and a unique camera number.
 
 By default, a capture rate of 30 frames per second at a resolution of
 640 x 480 pixels is requested, and the timecode and interframe interval
-of each captured image is displayed in the top\-left corner of each window.
+of each captured image is displayed in the top-left corner of each window.
 A press of the ESCape key ends the demo. The demo also ends automatically
 after a timeout of 10 minutes is reached.
 
-This demo has various hard\-coded parameters which allow you to tinker with
+This demo has various hard-coded parameters which allow you to tinker with
 things like Bayer filtering on the camera, versus on the host cpu, versus
 offline later on during playback of recorded video, to select different
 tradeoffs between quality, cpu load, speed and bus bandwidth use. It also

@@ -3,6 +3,7 @@ layout: mfile
 title: DropCalBits
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 cal = DropCalBits\(cal,whichScreen,\[forceBit\]\)

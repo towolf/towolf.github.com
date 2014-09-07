@@ -3,6 +3,7 @@ layout: mfile
 title: glActiveShaderProgram
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glActiveShaderProgram  Interface to OpenGL function glActiveShaderProgram

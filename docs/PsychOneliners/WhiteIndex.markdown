@@ -3,6 +3,7 @@ layout: mfile
 title: WhiteIndex
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 color=WhiteIndex\(windowPtrOrScreenNumber\)

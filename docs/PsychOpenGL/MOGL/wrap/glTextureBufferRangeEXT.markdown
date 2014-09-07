@@ -3,6 +3,7 @@ layout: mfile
 title: glTextureBufferRangeEXT
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glTextureBufferRangeEXT  Interface to OpenGL function glTextureBufferRangeEXT

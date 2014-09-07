@@ -3,11 +3,12 @@ layout: mfile
 title: Eyelink
 categories:
   - EyelinkBasic
+encoding: UTF-8
 ---
 
 
-    The EyelinkToolbox can be used to ceate eye\-movement experiments and
-   control the SR\-Research Eyelink� gazetrackers
+    The EyelinkToolbox can be used to ceate eye-movement experiments and
+   control the SR-Research Eyelink� gazetrackers
    \(http://www.eyelinkinfo.com/\) from within Matlab.
    It is incorporated into the PsychToolbox \(http://www.psychtoolbox.org/\).
    and uses the functions provided by the PsychToolBox for graphics and sound.

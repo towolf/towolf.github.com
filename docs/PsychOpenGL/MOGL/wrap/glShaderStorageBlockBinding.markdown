@@ -3,6 +3,7 @@ layout: mfile
 title: glShaderStorageBlockBinding
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glShaderStorageBlockBinding  Interface to OpenGL function glShaderStorageBlockBinding

@@ -3,6 +3,7 @@ layout: mfile
 title: glBufferData
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glBufferData  Interface to OpenGL function glBufferData

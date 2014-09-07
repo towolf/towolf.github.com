@@ -3,6 +3,7 @@ layout: mfile
 title: AlphaSum
 categories:
   - PsychAlphaBlending
+encoding: UTF-8
 ---
 
 sumImage=AlphaSum\(image1, image2\)

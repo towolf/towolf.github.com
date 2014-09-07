@@ -3,6 +3,7 @@ layout: mfile
 title: StrPad
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 str = StrPad\(in,length,padchar\)

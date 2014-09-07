@@ -3,6 +3,7 @@ layout: mfile
 title: bitsEncodeDIO
 categories:
   - BitsPlusToolbox
+encoding: UTF-8
 ---
 
  encodedDIOdata = bitsEncodeDIO\(Mask, Data, Command, windowPtr, \[setGammaTable\]\)

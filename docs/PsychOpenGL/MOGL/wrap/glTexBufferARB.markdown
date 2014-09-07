@@ -3,6 +3,7 @@ layout: mfile
 title: glTexBufferARB
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glTexBufferARB  Interface to OpenGL function glTexBufferARB

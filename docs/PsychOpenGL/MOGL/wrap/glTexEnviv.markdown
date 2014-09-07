@@ -3,6 +3,7 @@ layout: mfile
 title: glTexEnviv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glTexEnviv  Interface to OpenGL function glTexEnviv

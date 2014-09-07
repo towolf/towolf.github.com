@@ -3,6 +3,7 @@ layout: mfile
 title: CharAvail
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 \[avail, numChars\] = CharAvail
@@ -15,14 +16,14 @@ configurations it is just empty, so do not rely on numChars providing
 meaningful results, unless you've tested it on your specific setup.
 
 Please read the 'help ListenChar' carefully to understand various
-limitations and caveats of this function, and to learn about \- often
-better \- alternatives.
+limitations and caveats of this function, and to learn about - often
+better - alternatives.
 
 Note that this routine does not actually remove characters from the event
 queue. Call GetChar to remove characters from the queue.
 
-GetChar and CharAvail are character\-oriented \(and slow\), whereas KbCheck
-and KbWait are keypress\-oriented \(and fast\). See KbCheck.
+GetChar and CharAvail are character-oriented \(and slow\), whereas KbCheck
+and KbWait are keypress-oriented \(and fast\). See KbCheck.
 
 See also: GetChar, ListenChar, FlushEvents, KbCheck, KbWait, KbDemo,
 KbQueueDemo.

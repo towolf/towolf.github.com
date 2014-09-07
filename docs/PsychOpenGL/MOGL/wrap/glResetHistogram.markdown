@@ -3,6 +3,7 @@ layout: mfile
 title: glResetHistogram
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glResetHistogram  Interface to OpenGL function glResetHistogram

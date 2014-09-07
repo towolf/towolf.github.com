@@ -3,6 +3,7 @@ layout: mfile
 title: gluGetTessProperty
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluGetTessProperty  Interface to OpenGL function gluGetTessProperty

@@ -3,6 +3,7 @@ layout: mfile
 title: ResolutionTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 ResolutionTest prints screen resolutions reported by [Screen](/docs/Screen) 'Resolution'

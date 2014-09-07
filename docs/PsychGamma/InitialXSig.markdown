@@ -3,6 +3,7 @@ layout: mfile
 title: InitialXSig
 categories:
   - PsychGamma
+encoding: UTF-8
 ---
 
 x = InitialXSig\(xp\)

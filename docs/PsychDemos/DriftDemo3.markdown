@@ -3,12 +3,13 @@ layout: mfile
 title: DriftDemo3
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 function DriftDemo3\(\[cyclespersecond=1\]\[, p=32\]\)
 
 Display an animated grating using the new [Screen](/docs/Screen)\('DrawTexture'\) command.
-In the OpenGL\-Psychtoolbox [Screen](/docs/Screen)\('DrawTexture'\) replaces
+In the OpenGL-Psychtoolbox [Screen](/docs/Screen)\('DrawTexture'\) replaces
 [Screen](/docs/Screen)\('CopyWindow'\). The demo will stop after 60 seconds have
 passed or after the user hits a key.
 
@@ -23,7 +24,7 @@ very fast and efficient method, which only works on recent graphics
 hardware, see DriftDemo4.
 
 We create one single texture with a static sine grating. The texture
-is a power\-of\-two texture, one whose width and height are powers of two.
+is a power-of-two texture, one whose width and height are powers of two.
 
 Such textures can be drawn in a special scrolling mode, as if they
 would extend in each direction to infinity, periodically repeating
@@ -44,7 +45,7 @@ p = Spatial period of grating in pixels.
 # CopyWindow vs. DrawTexture:
 
 In the OS 9 Psychtoolbox, [Screen](/docs/Screen) \('CopyWindow"\) was used for all
-time\-critical display of images, in particular for display of the movie
+time-critical display of images, in particular for display of the movie
 frames in animated stimuli. In contrast, [Screen](/docs/Screen)\('DrawTexture'\) should not
 be used for display of all graphic elements,  but only for  display of
 MATLAB matrices.  For all other graphical elements, such as lines,  rectangles,

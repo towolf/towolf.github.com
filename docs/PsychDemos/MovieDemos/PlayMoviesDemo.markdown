@@ -3,9 +3,10 @@ layout: mfile
 title: PlayMoviesDemo
 categories:
   - MovieDemos
+encoding: UTF-8
 ---
 
-PlayMoviesDemo\(moviename \[, backgroundMaskOut\]\[, tolerance\]\[, pixelFormat=4\]\[, maxThreads=\-1\]\)
+PlayMoviesDemo\(moviename \[, backgroundMaskOut\]\[, tolerance\]\[, pixelFormat=4\]\[, maxThreads=-1\]\)
 
 This demo accepts a pattern for a valid moviename, e.g.,
 moviename=`\*.mpg`, then it plays all movies in the current working
@@ -19,9 +20,9 @@ videos may provide you with useful information for your daily work.
 
 This demo uses automatic asynchronous playback for synchronized playback
 of video and sound. Each movie plays until end, then rewinds and plays
-again from the start. Pressing the Cursor\-Up/Down key pauses/unpauses the
+again from the start. Pressing the Cursor-Up/Down key pauses/unpauses the
 movie and increases/decreases playback rate.
-The left\- right arrow keys jump in 1 seconds steps. SPACE jumps to the
+The left- right arrow keys jump in 1 seconds steps. SPACE jumps to the
 next movie in the list. ESC ends the demo.
 
 If the optional RGB color vector backgroundMaskOut is provided, then
@@ -42,9 +43,9 @@ and 6 play back color video. 4 is the default, 5 or 6 may provide
 significantly improved playback performance on modern GPUs.
 
 If the optional `maxThreads` is specified, it defines the maximum number
-of parallel processing threads that should be used by multi\-threaded
+of parallel processing threads that should be used by multi-threaded
 video codecs for playback. A setting of n selects n threads, a setting of
-zero asks to auto\-select an optimum number of threads for a given
+zero asks to auto-select an optimum number of threads for a given
 computer. By default, a codec specific default number is used, typically
 one thread.
 

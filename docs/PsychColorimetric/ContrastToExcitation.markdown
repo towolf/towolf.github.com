@@ -3,6 +3,7 @@ layout: mfile
 title: ContrastToExcitation
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 excitation = ContrastToExcitation\(contrast,reference\)

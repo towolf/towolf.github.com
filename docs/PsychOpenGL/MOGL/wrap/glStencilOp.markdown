@@ -3,6 +3,7 @@ layout: mfile
 title: glStencilOp
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glStencilOp  Interface to OpenGL function glStencilOp

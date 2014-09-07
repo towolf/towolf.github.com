@@ -3,6 +3,7 @@ layout: mfile
 title: DefaultPhotoreceptors
 categories:
   - PsychColorimetricData
+encoding: UTF-8
 ---
 
 photoreceptors = DefaultPhotoreceptors\(kind\)
@@ -11,17 +12,17 @@ Return a structure containing default sources
 for photoreceptor complements of various kinds.
 
 Available kinds
-  LivingHumanFovea \(Default\) \- Human foveal cones in the eye
-  LivingHumanMelanopsinTsujimura2010 \- Estimate of melanopsin gc spectral sensitivity in living eye
-  LivingDog \- Canine
-  GuineaPig \- Guinea pig in dish
+  LivingHumanFovea \(Default\) - Human foveal cones in the eye
+  LivingHumanMelanopsinTsujimura2010 - Estimate of melanopsin gc spectral sensitivity in living eye
+  LivingDog - Canine
+  GuineaPig - Guinea pig in dish
 
 See also:  FillInPhotoreceptors, PrintPhotoreceptors, RetIrradianceToIsoRecSec
  IsomerizationsInEyeDemo, IsomerizationsInDishDemo, ComputeCIEConeFundamentals,
  RodFundamentalTest, MelanopsinFundamentalTest.
 
 NOTES: Should probably update the parameters for LivingHumanFovea so that
-they produce the Stockman\-Sharpe fundamentals.  This should be pretty
+they produce the Stockman-Sharpe fundamentals.  This should be pretty
 straightforward, now that all the pieces are implemented as via ComputeCIEConeFundamentals.
 
 7/25/03  dhb  Wrote it.

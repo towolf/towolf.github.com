@@ -3,6 +3,7 @@ layout: mfile
 title: glWindowPos2d
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glWindowPos2d  Interface to OpenGL function glWindowPos2d

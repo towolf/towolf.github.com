@@ -3,6 +3,7 @@ layout: mfile
 title: glCopyColorSubTable
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glCopyColorSubTable  Interface to OpenGL function glCopyColorSubTable

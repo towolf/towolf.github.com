@@ -3,6 +3,7 @@ layout: mfile
 title: glTextureView
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glTextureView  Interface to OpenGL function glTextureView

@@ -3,6 +3,7 @@ layout: mfile
 title: _alGetFloatv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alGetFloatv  Interface to OpenAL function alGetFloatv

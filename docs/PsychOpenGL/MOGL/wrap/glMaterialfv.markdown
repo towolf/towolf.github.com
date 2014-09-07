@@ -3,6 +3,7 @@ layout: mfile
 title: glMaterialfv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glMaterialfv  Interface to OpenGL function glMaterialfv

@@ -3,6 +3,7 @@ layout: mfile
 title: FitCumNormYNTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 FitCumNormYNTest

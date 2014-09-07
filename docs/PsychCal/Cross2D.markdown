@@ -3,6 +3,7 @@ layout: mfile
 title: Cross2D
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 output = Cross2D\(v1,v2\)

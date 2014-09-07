@@ -3,6 +3,7 @@ layout: mfile
 title: RefitCalYoked
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 RefitCalYoked

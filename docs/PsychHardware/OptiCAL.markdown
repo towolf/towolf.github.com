@@ -3,9 +3,10 @@ layout: mfile
 title: OptiCAL
 categories:
   - PsychHardware
+encoding: UTF-8
 ---
 
-OptiCAL \- Psychtoolbox [IOPort](/docs/IOPort) interface to the CRS OptiCAL luminance
+OptiCAL - Psychtoolbox [IOPort](/docs/IOPort) interface to the CRS OptiCAL luminance
           meter device
 
 Usage:
@@ -15,17 +16,17 @@ Usage:
   \>\> OptiCAL\('CloseAll'\)
 
 Inputs:
-  command   \- string 'Open', 'Read', '[Close](/docs/Close)', or 'CloseAll'
-  port      \- string device \(e.g. '/dev/ttyS0'\)
-  handle    \- double handle
+  command   - string 'Open', 'Read', '[Close](/docs/Close)', or 'CloseAll'
+  port      - string device \(e.g. '/dev/ttyS0'\)
+  handle    - double handle
 
 Outputs:
-  handle    \- double handle
-  lum       \- luminance in cd/m^2
+  handle    - double handle
+  lum       - luminance in cd/m^2
 
 Note:
   Requires read and write access to the serial port \(Ubuntu: add user to
-  the dialout group\). Not yet tested with USB\-to\-serial adapters.
+  the dialout group\). Not yet tested with USB-to-serial adapters.
 
 References:
   \[1\] Haenel, V. \(2010\). Pure python interface to CRS OptiCAL. Retrieved

@@ -3,6 +3,7 @@ layout: mfile
 title: gluEndCurve
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluEndCurve  Interface to OpenGL function gluEndCurve

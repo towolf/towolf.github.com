@@ -3,6 +3,7 @@ layout: mfile
 title: glAreTexturesResident
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glAreTexturesResident  Interface to glAreTexturesResident

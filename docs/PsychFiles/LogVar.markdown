@@ -3,6 +3,7 @@ layout: mfile
 title: LogVar
 categories:
   - PsychFiles
+encoding: UTF-8
 ---
 
 fname = LogVar\(var,name,dirnm\)

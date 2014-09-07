@@ -3,6 +3,7 @@ layout: mfile
 title: PrintStruct
 categories:
   - PsychAlpha
+encoding: UTF-8
 ---
 
 function PrintStruct\(dataStruct, \[filePtr\], \[indentChar\], \[numIndentSpaces\], \[numberFormat\]\)

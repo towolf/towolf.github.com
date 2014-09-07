@@ -3,6 +3,7 @@ layout: mfile
 title: glScalef
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glScalef  Interface to OpenGL function glScalef

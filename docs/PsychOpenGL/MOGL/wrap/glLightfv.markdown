@@ -3,6 +3,7 @@ layout: mfile
 title: glLightfv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glLightfv  Interface to OpenGL function glLightfv

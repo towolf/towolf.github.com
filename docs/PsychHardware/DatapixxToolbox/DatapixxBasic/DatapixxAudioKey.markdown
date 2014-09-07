@@ -3,39 +3,39 @@ layout: mfile
 title: DatapixxAudioKey
 categories:
   - DatapixxBasic
+encoding: UTF-8
 ---
 
-DatapixxAudioKey \- A prototype implementation of a DataPixx
-audio\-key/voice\-key.
+DatapixxAudioKey - A prototype implementation of a DataPixx
+audio-key/voice-key.
 
 This allows to record audio from the Datapixx, optionally synchronized to
 visual stimulus onset, optionally with simple but precise timestamping of
 onset of audio signals.
 
-This is an experimental proof\-of\-concept prototype\! Its name, behaviour
-and interface may change without warning in future beta\-releases\!
+This is an experimental proof-of-concept prototype\! Its name, behaviour
+and interface may change without warning in future beta-releases\!
 
 
-Subfunctions and their meaning:
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
+# Subfunctions and their meaning
 
 DatapixxAudioKey\('Open' \[, sampleRate\]\[, lrMode\]\[, inputJack\]\[, inputGain\]\);
-\- Open audio system for recording. This will stop any running audio
+- Open audio system for recording. This will stop any running audio
 acquisition operations. Audio sampling will be performed at the given
 optional 'sampleRate' between 8000 Hz and 96Khz with the given number of
 audio input channels 'lrMode' \(0 = Mono: Average of left and right
 channel, 1 = Only left channel, 2 = Only right channel, 3 = Stereo\).
-Optionally select 'inputJack' as audio input \(1=Microphone, 2=Line\-In\)
+Optionally select 'inputJack' as audio input \(1=Microphone, 2=Line-In\)
 and 'inputGain' as input amplifier gain. If no 'inputJack' is specified
 and no input is preselected, 'inputJack' will default to microphone
 input.
 
 
 DatapixxAudioKey\('[Close](/docs/Close)'\);
-\- [Close](/docs/Close) audio subsystem after stopping any running acquisition operations.
+- [Close](/docs/Close) audio subsystem after stopping any running acquisition operations.
 
 \[startTimeBox, startTimeGetSecs\] = DatapixxAudioKey\('CaptureNow' \[, maxDurationSecs=30\]\[, startOffsetSecs=0\]\[,bufferBaseAddress=20e6\] \[, numBufferFrames=maxScheduleFrames\]\);
-\- Start audio capture immediately \(ie., with minimum possible delay on
+- Start audio capture immediately \(ie., with minimum possible delay on
 your system\), return a 'startTimeBox' timestamp in Datapixx clock time of
 when capture actually started or will start, taking the 'startOffsetSecs'
 into account. You can also use the 2nd optional return argument
@@ -58,7 +58,7 @@ possible.
 
 
 DatapixxAudioKey\('CaptureAtFlip'\[, flipCount=next\]\[, maxDurationSecs=30\]\[, startOffsetSecs=0\]\[,bufferBaseAddress=20e6\] \[, numBufferFrames=maxScheduleFrames\]\);
-\- Schedule start of audio capture synchronized to the visual stimulus
+- Schedule start of audio capture synchronized to the visual stimulus
 onset of a future [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\) or [Screen](/docs/Screen)\('AsyncFlipBegin'\) command.
 All parameters are identical to the ones for DatapixxAudioKey\('CaptureNow',...\),
 except for the first optional parameter 'flipCount'. 'flipCount' defines
@@ -67,7 +67,7 @@ set to zero or \[\], capture will be triggered by the next flip command.
 Otherwise it will be triggered by the flip command with the given
 'flipCount'. You can query the current flipCount via PsychDatapixx\('FlipCount'\).
 
-Example: Setting flipCount = PsychDatapixx\('FlipCount'\) \+ 10; would start
+Example: Setting flipCount = PsychDatapixx\('FlipCount'\) + 10; would start
 audio capture at the 10'th invocation of a flip command from now.
 
 This function doesn't return a capture start timestamp as capture will
@@ -76,12 +76,12 @@ future.
 
 
 \[audiodata, onsetTimeSecs\] = DatapixxAudioKey\('GetResponse'\[, amountSecs=current\]\[, blocking=1\]\[, stopCapture=0\]\);
-\- Try to fetch available captured audiodata from a running capture
+- Try to fetch available captured audiodata from a running capture
 operation. Only call this function after a capture operation has been
 started via DatapixxAudioKey\('CaptureNow'\) or scheduled for start at a
 certain flipCount via DatapixxAudioKey\('CaptureAtFlip'\) and the flip is
 imminent, i.e., after the flip command for that flip has been called
-already. The function will error\-out if you call it too early\!
+already. The function will error-out if you call it too early\!
 
 The optional 'amountSecs' asks the driver to return exactly
 'amountSecs' worth of audio data. By default it will return whatever
@@ -95,8 +95,8 @@ setting of zero will keep capture running until manually stopped or until
 it stops by itself.
 
 'audiodata' is the vector or matrix of captured audiodata. 1 Row for mono
-recording, or a 2\-row matrix \(one row for each audio channel\) in stereo
-recording modes. Each value is an audio signal sample in range \[\-1 ; 1\].
+recording, or a 2-row matrix \(one row for each audio channel\) in stereo
+recording modes. Each value is an audio signal sample in range \[-1 ; 1\].
 
 'onsetTimeSecs' is the time since start of audio capture when a certain
 level of loudness \(as set by DatapixxAudioKey\('TriggerLevel'\)\) was first
@@ -107,7 +107,7 @@ the next call to this function, if any.
 
 
 oldLevel = DatapixxAudioKey\('TriggerLevel' \[, newLevel\]\);
-\- Return old and optionally set new trigger threshold level for the
+- Return old and optionally set new trigger threshold level for the
 timestamping of onset of audio signals in DatapixxAudioKey\('GetResponse'\).
 
 'oldLevel' is the current/old level. 'newLevel' is the optional new
@@ -116,7 +116,7 @@ of max signal intensity as trigger level.
 
 
 DatapixxAudioKey\('AutoTriggerLevel', silenceSecs\);
-\- Auto\-Select trigger threshold level for audio onset timestamping. After
+- Auto-Select trigger threshold level for audio onset timestamping. After
 start of audio capture, there must be a period of silence, where the only
 signal recorded is due to noise in the microphone/amplifiers etc, not due
 to actual signal. You must provide the minimum duration of this time
@@ -125,11 +125,11 @@ of guaranteed silence at start of recording. During recording, the
 function will use this chunk of silence to compute an optimal trigger
 level, which is 10% louder than the loudest sample in the silence block
 and then use that triggerlevel as if DatapixxAudioKey\('TriggerLevel'\) had
-been called with that auto\-selected level.
+been called with that auto-selected level.
 
 
 DatapixxAudioKey\('StopCapture'\);
-\- Stop audio capture as soon as possible.
+- Stop audio capture as soon as possible.
 
 
 

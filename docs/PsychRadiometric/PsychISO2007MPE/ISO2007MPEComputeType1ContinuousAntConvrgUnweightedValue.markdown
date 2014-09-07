@@ -3,6 +3,7 @@ layout: mfile
 title: ISO2007MPEComputeType1ContinuousAntConvrgUnweightedValue
 categories:
   - PsychISO2007MPE
+encoding: UTF-8
 ---
 
 \[val\_UWattsPerCm2,limit\_UWattsPerCm2\] = ISO2007MPEComputeType1ContinuousAntConvrgUnweightedValue\(S,irradiance\_uWattsPerCm2,stimulusDurationSecs\)
@@ -19,7 +20,7 @@ NOTE: This routine has not been tested, since I \(DHB\) don't have any instrumen
 stimulus.  I added it as a placeholder for convenience.  There is an error statement to keep it from being used
 until it is tested.
 
-Input spectrum is radiance in units of UWatts/\[m2\-wlinterval\].
+Input spectrum is radiance in units of UWatts/\[m2-wlinterval\].
 
 Also return the exposure limit for this quantity.
 

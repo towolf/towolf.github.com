@@ -3,6 +3,7 @@ layout: mfile
 title: PredictVisualOnsetForTime
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 tonset = PredictVisualOnsetForTime\(window, when \[, refreshinterval\]\)

@@ -3,6 +3,7 @@ layout: mfile
 title: Screen
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 [Screen](/docs/Screen) is a MEX file for precise control of the video display. [Screen](/docs/Screen) has
@@ -46,14 +47,14 @@ order, without omitting earlier ones, but you can use the empty matrix
 # WHEN YOU GET A MATLAB ERROR
 
 If your computer only has one screen \(the typical scenario\) and your
-program produces a Matlab error while your full\-screen window is open,
+program produces a Matlab error while your full-screen window is open,
 you'll hear the beep, but you won't be able to see the Matlab Command
 Window. Follow the instructions below for bringing forward the command
 window, then type clear screen to flush just the [Screen](/docs/Screen) MEX file, or
 "clear mex" to flush all the MEX files. When flushed, as part of its
 exit sequence, [Screen](/docs/Screen) closes all its windows, restores the screen's normal
 color table, and shows the cursor. Or you can get just those effects,
-without flushing, by calling [Screen](/docs/Screen)\('CloseAll'\) or [sca](/docs/sca) \- which is an
+without flushing, by calling [Screen](/docs/Screen)\('CloseAll'\) or [sca](/docs/sca) - which is an
 abbreviation for [Screen](/docs/Screen)\('CloseAll'\).
 
 You can use Matlab's EVAL command to do this for you automatically. E.g.
@@ -82,9 +83,9 @@ on next vertical blank by a call to [Screen](/docs/Screen)\('[Flip](/docs/Flip)'
 See MovieDemoOSX and DriftDemoOSX for examples of how to create and show
 movies this way.
 
-Off\-screen windows are invisible, but useful as an intermediate place to
+Off-screen windows are invisible, but useful as an intermediate place to
 create and store images for later display. Copying from window to window
-is very fast. It's easy to precompute a series of off\-screen windows
+is very fast. It's easy to precompute a series of off-screen windows
 and then show them as a movie, in real time, one per video frame:
 
         % make movie
@@ -93,11 +94,11 @@ and then show them as a movie, in real time, one per video frame:
       white = WhiteIndex\(window\);
         for i=1:100
             movie\(i\)=[Screen](/docs/Screen)\('OpenOffscreenWindow', window, 0, rect\);
-            [Screen](/docs/Screen)\('FillOval', movie\(i\), white, \[0 0 2 2\]\*\(i\-1\)\);
+            [Screen](/docs/Screen)\('FillOval', movie\(i\), white, \[0 0 2 2\]\*\(i-1\)\);
         end;
 
         % show movie
-        for i=\[1:100 100:\-1:1\] % forwards and backwards
+        for i=\[1:100 100:-1:1\] % forwards and backwards
             [Screen](/docs/Screen)\('CopyWindow',movie\(i\),window,rect,rect\);
             [Screen](/docs/Screen)\('[Flip](/docs/Flip)', window\);
         end;
@@ -106,32 +107,32 @@ and then show them as a movie, in real time, one per video frame:
 
 # Stopping programs:
 
-Command\-zero brings the Matlab Command window forward. \(Type a zero
-"0" while holding the apple\-cloverleaf "command" key down.\)
+Command-zero brings the Matlab Command window forward. \(Type a zero
+"0" while holding the apple-cloverleaf "command" key down.\)
 
-Ctrl\-C halts any program.  \(Type a "c" while holding down the "Ctrl"
-key\). Sometimes, Ctrl\-C fails to halt progams executing in a Matlab process
-run with the "\-nojvm" option. To halt a runaway Psychtoolbox script in
+Ctrl-C halts any program.  \(Type a "c" while holding down the "Ctrl"
+key\). Sometimes, Ctrl-C fails to halt progams executing in a Matlab process
+run with the "-nojvm" option. To halt a runaway Psychtoolbox script in
 Psychtoolbox you might resort to the Windows Task Manager to kill
-the Matlab process.  \(Use Ctrl\-Alt\-Delete to open a window from which
+the Matlab process.  \(Use Ctrl-Alt-Delete to open a window from which
 you can start the Task Manager.\)
 
 # Windows:
 
-Ctrl\-Alt\-Delete allows you to launch the Windows task manager, which
+Ctrl-Alt-Delete allows you to launch the Windows task manager, which
 reduces the Psychtoolbox onscreen windows when it opens. \(Simultaneosly
 press the "Ctrl", "Alt", and "Delete" keys.\)  There are also simpler ways of
 reducing the Psychtoolbox window which are specific to particular
 versions of Windows.
-Windows 2000:   Alt\-Tab will bring another application to the foreground,
+Windows 2000:   Alt-Tab will bring another application to the foreground,
             minimizing the Matlab Psychtoolbox window.
 
-OS\-X:
-Apple\-Command\-Escape executes "Force Quit" on Matlab, closing Matlab and all
+# OS-X:
+Apple-Command-Escape executes "Force Quit" on Matlab, closing Matlab and all
 of its windows.
 
 Linux:
-Ctrl\-Alt\-Escape, followed by a mouse click kills the onscreen windows and your
+Ctrl-Alt-Escape, followed by a mouse click kills the onscreen windows and your
 Matlab session.
 
 
@@ -153,7 +154,7 @@ web http://www.yahoogroups.com/messages/psychtoolbox/ ;
 If you find a bug, please report it to the forum:
 web mailto:psychtoolbox@yahoogroups.com ;
 
-It will help greatly if you can supply a  minimal\-length program that exhibits
+It will help greatly if you can supply a  minimal-length program that exhibits
 the bug. And please include as much information about your hardware and software
 setup to document the context in which you're running, e.g., Computer type, graphics
 card type and model, operating system, Matlab version, Psychtoolbox version and flavor

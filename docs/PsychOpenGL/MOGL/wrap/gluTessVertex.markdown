@@ -3,6 +3,7 @@ layout: mfile
 title: gluTessVertex
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluTessVertex  Interface to OpenGL function gluTessVertex

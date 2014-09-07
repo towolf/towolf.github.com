@@ -3,6 +3,7 @@ layout: mfile
 title: AlphaDestinationTerm
 categories:
   - PsychAlphaBlending
+encoding: UTF-8
 ---
 
 newDestinationMat=AlphaDestinationTerm\(destinationFactorStr, sourceMatrix, destinationMatrix\)
@@ -17,7 +18,7 @@ alpha factor selected by string 'sourceFactor'.
 The source image matrix 'sourceMat' is required because destination
 factor strings may select alpha values from the source image.
 
-AlphaDestinationTerm calculates with double\-precision \(64\-bit\) floating
+AlphaDestinationTerm calculates with double-precision \(64-bit\) floating
 point arithmatitic whereas the precision of an OpenGL renderer which it
 simulates is unspecified, except that OpenGL guarantees perfect precision
 for alpha values 0 and 1 \(255 via [Screen](/docs/Screen)\).  Comparison of

@@ -3,23 +3,24 @@ layout: mfile
 title: ComputeCIEConeFundamentals
 categories:
   - PsychColorimetricData
+encoding: UTF-8
 ---
 
 \[T\_quantalAbsorptionsNormalized,T\_quantalAbsorptions,T\_quantalIsomerizations\] = ComputeCIEConeFundamentals\(S,fieldSizeDegrees,ageInYears,pupilDiameterMM,\[lambdaMax\],\[whichNomogram\],\[LserWeight\],\[DORODS\],\[rodAxialDensity\]\)
 
 Function to compute normalized cone quantal sensitivities
-from underlying pieces, as specified in CIE 170\-1:2006.
+from underlying pieces, as specified in CIE 170-1:2006.
 
 This standard allows customizing the fundamentals for
 field size, observer age, and pupil size in mm.
 
-To get the Stockman\-Sharpe/CIE 2\-deg fundamentals, use
+To get the Stockman-Sharpe/CIE 2-deg fundamentals, use
   fieldSizeDegrees = 2;
   ageInYears = 32;
   pupilDiameterMM = 3;
 and don't pass the rest of the arguments.
 
-To get the Stockman\-Sharpe/CIE 10\-deg fundamentals, use
+To get the Stockman-Sharpe/CIE 10-deg fundamentals, use
   fieldSizeDegrees = 10;
   ageInYears = 32;
   pupilDiameterMM = 3;
@@ -36,7 +37,7 @@ the probability that a photon will be absorbed.  The second is the probability
 that the photon will cause a photopigment isomerization.  It is the latter
 that is what you want to compute isomerization rates from retinal illuminance.
 See note at the end of function FillInPhotoreceptors for some information about
-convention.  In particular, this routine takes pre\-retinal absorption into
+convention.  In particular, this routine takes pre-retinal absorption into
 account in its computation of probability of absorptions and isomerizations,
 so that the relevant retinal illuminant is one computed without accounting for
 those factors.  This routine does not account for light attenuation due to
@@ -55,9 +56,9 @@ whichNomogram can be any source understood by the routine
 PhotopigmentNomogram.  To obtain the nomogram behavior, pass a lambdaMax vector.
 You can then also optionally pass a nomogram source \(default: StockmanSharpe\).
 
-The nominal values of lambdaMax to fit the CIE 2\-degree fundamentals with the
-Stockman\-Sharpe nomogram are 558.9, 530.3, and 420.7 nm for the LMS cones respectively.
-These in fact do a reasonable job of reconstructing the CIE 2\-degree fundamentals, although
+The nominal values of lambdaMax to fit the CIE 2-degree fundamentals with the
+Stockman-Sharpe nomogram are 558.9, 530.3, and 420.7 nm for the LMS cones respectively.
+These in fact do a reasonable job of reconstructing the CIE 2-degree fundamentals, although
 there are small deviations from what you get if you simply read in the tabulated cone
 absorbances.  Thus starting with these as nominal values and shifting is a reasonable way to
 produce fundamentals tailored to observers with different known photopigments.
@@ -67,14 +68,14 @@ between the ser/ala variants to be be 2.7 nm \(ser longer\).
 
 If you pass lambaMax and its length is 4, then first two values are treated as
 the peak wavelengths of the ser/ala variants of the L cone pigment, and these
-are then weighted according to LserWeight and \(1\-LserWeight\).  The default
+are then weighted according to LserWeight and \(1-LserWeight\).  The default
 for LserWeight is 0.56.  After travelling it for a distance to try to get better
 agreement between the nomogram based fundamentals and the tabulated fundamentals
 I \(DHB\) gave up and decided that using a single lambdaMax is as good as anything
 else I could come up with. If you are interested, see FitConeFundametnalsTest.
 
 This function also has an option to compute rod spectral sensitivities, using
-the pre\-retinal values that come from the CIE standard.  Set DORODS = true on
+the pre-retinal values that come from the CIE standard.  Set DORODS = true on
 call.  You then need to explicitly pass a single lambdaMax value.  You can
 also pass an optional rodAxialDensity value.  If you don't pass that, the
 routine uses the 'Alpern' estimate for 'Human'/'Rod' embodied in routine

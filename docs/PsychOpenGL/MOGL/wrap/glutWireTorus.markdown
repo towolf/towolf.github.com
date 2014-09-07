@@ -3,6 +3,7 @@ layout: mfile
 title: glutWireTorus
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glutWireTorus  Interface to OpenGL function glutWireTorus

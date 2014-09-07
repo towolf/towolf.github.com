@@ -3,6 +3,7 @@ layout: mfile
 title: glGenBuffers
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGenBuffers  Interface to OpenGL function glGenBuffers

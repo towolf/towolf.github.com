@@ -3,6 +3,7 @@ layout: mfile
 title: LabLuvTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 LabLuvTest

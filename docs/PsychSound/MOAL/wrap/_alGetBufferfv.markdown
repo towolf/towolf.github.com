@@ -3,6 +3,7 @@ layout: mfile
 title: _alGetBufferfv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alGetBufferfv  Interface to OpenAL function alGetBufferfv

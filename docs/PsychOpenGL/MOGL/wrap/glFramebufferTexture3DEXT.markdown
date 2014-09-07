@@ -3,6 +3,7 @@ layout: mfile
 title: glFramebufferTexture3DEXT
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glFramebufferTexture3DEXT  Interface to OpenGL function glFramebufferTexture3DEXT

@@ -3,6 +3,7 @@ layout: mfile
 title: SensorToPolar
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
  \[pol\] = SensorToPolar\(sensor\)
@@ -15,7 +16,7 @@ categories:
  See also PolarToSensor, SensorToCyl, CylToSensor.
 
  9/9/93 jms It didn't work for matrix inputs, because a
-                matrix '^' needed to be a by\-element '.^'
+                matrix '^' needed to be a by-element '.^'
  9/26/93 dhb   Added calData argument.
  2/6/94  jms   Changed 'polar' to 'pol'
  2/20/94 jms   Added single argument case to avoid cData

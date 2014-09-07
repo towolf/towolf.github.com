@@ -3,31 +3,32 @@ layout: mfile
 title: DaqTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 DaqTest
 
 DaqTest assesses the Daq Toolbox, which provides communication with a
-particular USB data acquisition device \(daq\): the USB\-1208FS made by
+particular USB data acquisition device \(daq\): the USB-1208FS made by
 Measurement Computing \(see URL below\). This daq costs $150 and offers "50
-kHz" input and output 12\-bit sampling of analog voltages \(8 in, 2 out\)
+kHz" input and output 12-bit sampling of analog voltages \(8 in, 2 out\)
 and 16 digital i/o lines, with signals brought out to screw terminals.
 \("50 kHz" is a theoretical upper limit: as of 18 April 2005 we attain 2
-kHz.\) The USB\-1208FS is the size of a wallet and is powered through its
+kHz.\) The USB-1208FS is the size of a wallet and is powered through its
 USB cable. The Daq Toolbox gives you complete control of it from within
 Matlab, via the PsychHID extension.
 
-DaqTest assesses all the functions provided by the USB\-1208FS firmware.
-\(Some risky tests, below, have been turned off, but can be re\-enabled by
+DaqTest assesses all the functions provided by the USB-1208FS firmware.
+\(Some risky tests, below, have been turned off, but can be re-enabled by
 the adventurous user.\) DaqFunctions gives a brief description of every
 function.
 
 NOT RESPONDING? If PsychHID is not responding, e.g. after unplugging and
-re\-plugging the USB connector of your device, try quitting and restarting
+re-plugging the USB connector of your device, try quitting and restarting
 MATLAB. We find that this reliably restores normal communication.
 
-web http://www.http://www.measurementcomputing.com/cbicatalog/directory.asp?dept\_id=403 \-browser;
-web http://psychtoolbox.org/daq.html \-browser;
+web http://www.http://www.measurementcomputing.com/cbicatalog/directory.asp?dept\_id=403 -browser;
+web http://psychtoolbox.org/daq.html -browser;
 See also: Daq, DaqFunctions, DaqPins,PsychHIDTest,PsychHID,PsychHardware,
 DaqDeviceIndex, DaqDIn, DaqDOut, DaqAIn, DaqAOut, DaqAInScan, DaqAOutScan
 

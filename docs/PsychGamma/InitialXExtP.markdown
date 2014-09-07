@@ -3,6 +3,7 @@ layout: mfile
 title: InitialXExtP
 categories:
   - PsychGamma
+encoding: UTF-8
 ---
 
 x = InitialXExtP\(xp\)

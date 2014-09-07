@@ -3,6 +3,7 @@ layout: mfile
 title: glDrawElements
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDrawElements  Interface to OpenGL function glDrawElements

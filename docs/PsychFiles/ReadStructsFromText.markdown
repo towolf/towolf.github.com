@@ -3,6 +3,7 @@ layout: mfile
 title: ReadStructsFromText
 categories:
   - PsychFiles
+encoding: UTF-8
 ---
 
 theStructs = ReadStructsFromText\(filename\)

@@ -3,6 +3,7 @@ layout: mfile
 title: HalfRect
 categories:
   - PsychGamma
+encoding: UTF-8
 ---
 
 output = HalfRect\(input\)

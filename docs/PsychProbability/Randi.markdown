@@ -3,6 +3,7 @@ layout: mfile
 title: Randi
 categories:
   - PsychProbability
+encoding: UTF-8
 ---
 
 i=[Randi](/docs/Randi)\(n,\[dims\]\)

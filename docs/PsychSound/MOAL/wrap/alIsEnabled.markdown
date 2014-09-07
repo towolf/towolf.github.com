@@ -3,6 +3,7 @@ layout: mfile
 title: alIsEnabled
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alIsEnabled  Interface to OpenAL function alIsEnabled

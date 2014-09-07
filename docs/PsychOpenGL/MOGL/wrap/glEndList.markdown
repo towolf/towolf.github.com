@@ -3,6 +3,7 @@ layout: mfile
 title: glEndList
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glEndList  Interface to OpenGL function glEndList

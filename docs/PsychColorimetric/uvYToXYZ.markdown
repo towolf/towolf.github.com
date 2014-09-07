@@ -3,6 +3,7 @@ layout: mfile
 title: uvYToXYZ
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 XYZ = [uvYToXYZ](/docs/uvYToXYZ)\(uvY,\[compute1960\]\)

@@ -3,15 +3,16 @@ layout: mfile
 title: ExpandingRingsDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
-ExpandingRingsDemo\(\[ringtype=0\]\) \-\- Generate an "expanding rings"
+ExpandingRingsDemo\(\[ringtype=0\]\) -- Generate an "expanding rings"
 stimulus by use of GLSL shaders and Psychtoolbox procedural textures.
 
 This demo illustrates the use of "procedural textures" with Psychtoolbox.
 A procedural texture is a texture that is not directly represented by an
 image matrix in memory, but the image content of the texture is generated
-on the fly during drawing of the texture by means of a small algorithm \-
+on the fly during drawing of the texture by means of a small algorithm -
 a shader. The shader implements some mathematical formula or model which
 is evaluated to generate image content, or it reads content of a data
 matrix and transforms it into a picture. Psychtoolbox supports both,
@@ -19,7 +20,7 @@ purely virtual textures of unlimited size that are purely algorithmically
 generated, and hybrid textures where an algorithm transforms the textures
 content into something to be drawn.
 
-The algorithm has to be implemented by a GLSL shader program \- a vertex
+The algorithm has to be implemented by a GLSL shader program - a vertex
 shader, geometry shader, fragment shader or any combination of them. The
 shader program is read from a file, compiled and then attached to the
 texture at texture creation time. Procedural textures only work with
@@ -29,7 +30,7 @@ hardware fragment shaders.
 This demo implements a procedural texture which shows a set of rings that
 can expand and move. The shader gets attached to a purely virtual
 texture. The texture is drawn via the standard [Screen](/docs/Screen)\('DrawTexture'\)
-command \-\- your graphics processor generates the image content of the
+command -- your graphics processor generates the image content of the
 stimulus on the fly during drawing of the texture via execution of the
 shader at each output pixel location.
 

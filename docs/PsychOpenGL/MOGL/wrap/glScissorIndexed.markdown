@@ -3,6 +3,7 @@ layout: mfile
 title: glScissorIndexed
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glScissorIndexed  Interface to OpenGL function glScissorIndexed

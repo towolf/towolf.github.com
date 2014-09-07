@@ -3,6 +3,7 @@ layout: mfile
 title: PR650setsyncfreq
 categories:
   - PR650Toolbox
+encoding: UTF-8
 ---
 
 PR650setsyncfreq\(syncFreq\)

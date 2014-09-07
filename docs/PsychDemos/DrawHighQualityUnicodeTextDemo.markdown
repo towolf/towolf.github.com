@@ -3,23 +3,24 @@ layout: mfile
 title: DrawHighQualityUnicodeTextDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 DrawHighQualityUnicodeTextDemo
 
-This demo shows how to draw high\-quality, anti\-aliased text, and some
+This demo shows how to draw high-quality, anti-aliased text, and some
 japanese text encoded in Unicode.
 
 MacOS/X has text fonts with support for japanese characters preinstalled,
 so this should just work out of the box. Have a look at the code of the
 demo on how to select a suitable font, and how to read unicode text from
-the filesystem. The \(commented out\) reading code for SHIFT\_JIS \-\> Unicode
+the filesystem. The \(commented out\) reading code for SHIFT\_JIS -\> Unicode
 conversion would only work on recent Matlab releases. Older releases need
-different approaches \- also different wrt. PowerPC vs. IntelMac. That's
-why we hard\-coded the text in this demo \-\- Want to have it working even
+different approaches - also different wrt. PowerPC vs. IntelMac. That's
+why we hard-coded the text in this demo -- Want to have it working even
 on old Matlab 6...
 
-On MS\-Windows you will need to install the special east\-asian font
+On MS-Windows you will need to install the special east-asian font
 support kit in order to be able to draw japanese text.
 How to do this? See...
 

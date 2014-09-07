@@ -3,6 +3,7 @@ layout: mfile
 title: glTranslatef
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glTranslatef  Interface to OpenGL function glTranslatef

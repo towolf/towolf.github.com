@@ -3,6 +3,7 @@ layout: mfile
 title: XYZToLab
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 lab = XYZToLab\(xyz,whiteXYZ\)

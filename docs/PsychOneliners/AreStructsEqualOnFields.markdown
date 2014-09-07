@@ -3,6 +3,7 @@ layout: mfile
 title: AreStructsEqualOnFields
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 areEqual = AreStructsEqualOnFields\(struct1,struct2,theFields\)

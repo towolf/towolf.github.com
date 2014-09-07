@@ -3,9 +3,10 @@ layout: mfile
 title: kPsychGUIWindow
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
-kPsychGUIWindow \-\- Create onscreen windows with behaviour of normal GUI windows.
+kPsychGUIWindow -- Create onscreen windows with behaviour of normal GUI windows.
 
 This flag can be passed to the optional 'specialFlags' parameter of
 [Screen](/docs/Screen)\('OpenWindow', ...\) or PsychImaging\('OpenWindow', ...\).
@@ -28,7 +29,7 @@ stimulus onset for this mode will not be guaranteed. Performance may be
 reduced. Other limitations may apply.
 
 GUI window mode is a "best effort" behaviour, as Psychtoolbox is not
-really designed to be \- or exactly behave \- like a regular GUI toolkit.
+really designed to be - or exactly behave - like a regular GUI toolkit.
 
 
 

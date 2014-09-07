@@ -3,6 +3,7 @@ layout: mfile
 title: SettingsToSensorAcc
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 \[sensor,primaryE\] = SettingsToSensorAcc\(cal,settings\)

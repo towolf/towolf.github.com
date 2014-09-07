@@ -3,12 +3,13 @@ layout: mfile
 title: BitsPlusMovieDemo
 categories:
   - BitsPlusDemos
+encoding: UTF-8
 ---
 
 BitsPlusMovieDemo
 
 BitsPlusMovieDemo displays a counterphase flickering grating, by lookup
-table animation, using the Bits\+\+ box.
+table animation, using the Bits++ box.
 
 Note that you need to precompute the cluts and write them into
 offscreen memory in advance, so that the blits happen fast.  In

@@ -3,6 +3,7 @@ layout: mfile
 title: gluCylinder
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluCylinder  Interface to OpenGL function gluCylinder

@@ -3,9 +3,10 @@ layout: mfile
 title: SyncTrouble
 categories:
   - PsychDocumentation
+encoding: UTF-8
 ---
 
-SyncTrouble \-\- Causes and solutions for synchronization problems.
+SyncTrouble -- Causes and solutions for synchronization problems.
 
 You most probably arrived at this help page because Psychtoolbox
 aborted with "SYNCHRONIZATION FAILURE" or a similar error message and
@@ -14,10 +15,10 @@ asked you to read this page.
 BACKGROUND: Why proper synchronization to retrace is important.
 
 When executing [Screen](/docs/Screen)\('OpenWindow'\), Psychtoolbox executes different
-calibration routines to find out if back\- and frontbuffer swaps \(what
+calibration routines to find out if back- and frontbuffer swaps \(what
 [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\) does\) are properly synchronized to the vertical retrace
 signal \(also known as VBL\) of your display. At the same time, it measures
-the real monitor video refresh interval \- the elapsed time between two
+the real monitor video refresh interval - the elapsed time between two
 VBL signals. It is crucial for flicker free, tear free, properly timed
 visual stimulus presentation that buffer swaps only happen during the VBL
 period of the display. The VBL \(vertical blank\) is the small gap in time
@@ -26,10 +27,10 @@ starts redrawing its display surface starting at the first scanline
 again. This small gap is a neccessity for CRT displays and it is
 preserved for compatibility reasons or other technical reasons on flat
 panels and video beamers. After issuing the [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\) command, the
-graphics hardware finalizes all pending drawing\- and imageprocessing
+graphics hardware finalizes all pending drawing- and imageprocessing
 operations in the backbuffer of an onscreen window to make sure that the
 final stimulus image is ready in the backbuffer for presentation. Then it
-waits for onset of the next VBL interval before flipp'ing the back\- and
+waits for onset of the next VBL interval before flipp'ing the back- and
 frontbuffer of the onscreen window: The previous backbuffer with your
 newly drawn stimulus becomes the frontbuffer, so it will get scanned out
 and displayed to the subject, starting with the next refresh cycle of
@@ -54,7 +55,7 @@ Without proper synchronization, you would see very strong visual flicker
 and tearing artifacts in animated \(movie / moving\) stimuli, you would not
 have any well defined stimulus onset for sequences of static stimuli or
 rapid stimulus presentation, and no means of synchronizing visual
-stimulus presentation to any external stimulation\- or acquisition devices
+stimulus presentation to any external stimulation- or acquisition devices
 like fMRI, EEG, sound, ... You also would not have any accurate way of
 getting a stimulus onset timestamp.
 
@@ -79,7 +80,7 @@ devices updates slower than 25 Hz or faster than 250 Hz. Each sample is
 also tested against the expected value provided by the operating system,
 e.g., if the operating system reports a nominal refresh rate of 100 Hz,
 then a sample should have a duration of roughly 1000 ms / 100 Hz == 10
-milliseconds. We accept any sample in a range of \+/\- 20% around this
+milliseconds. We accept any sample in a range of +/- 20% around this
 expected value as valid, because timing jitter present in any computer
 system can cause some deviation from the expected value. Samples that
 don't pass this basic test are rejected. Valid samples are used to update
@@ -90,16 +91,16 @@ is not possible to satisfy this criteria during a five second measurement
 interval, then the calibration is aborted and repeated for up to three
 times. Failure to get a valid measurement during up to three calibration
 runs is indicating massive timing problems or the inability of the
-gfx\-hardware to properly synchronize buffer swaps to the vertical
+gfx-hardware to properly synchronize buffer swaps to the vertical
 retrace. This leads to abortion with the "SYNCHRONIZATION FAILURE" error
 message. Assuming that this calibration loop did provide a valid mean
 measurement of monitor refresh, the value is checked against the value
-reported by the operating system and \- on MacOS\-X \- against the result of
+reported by the operating system and - on MacOS-X - against the result of
 an independent measurement loop that uses direct queries of rasterbeam
 positions to measure the monitor refresh interval. Only if all available
 measurements yield similar results, the test is finally rated as PASSED,
 Psychtoolbox continues execution and the computed monitor refresh
-interval is used internally for all built\-in timing checks and for
+interval is used internally for all built-in timing checks and for
 properly timed stimulus presentation.
 
 # REASONS FOR FAILING THE SYNC TESTS AND HOW TO FIX THEM:
@@ -108,12 +109,12 @@ There are multiple classes of possible causes for sync failure. Work down
 this list of causes and solutions down until your problem is resolved or
 you hit the bottom of the list:
 
-1. Wrong configuration settings: This usually only affects MS\-Windows
+1. Wrong configuration settings: This usually only affects MS-Windows
 systems, where the display settings control panel for your graphics card
 allows to customize a couple of graphics driver parameters. Some of these
 settings can cause sync failure if they are wrong:
 
-\-\> Make sure the "Synchronize bufferswaps to the vertical retrace" option
+-\> Make sure the "Synchronize bufferswaps to the vertical retrace" option
 is set to "Application controlled" or "Application controlled, default to
 on". The wording of the option differs between different graphics cards,
 search for something like that. Examples of other names: "Wait for
@@ -122,36 +123,36 @@ to off and \*not\* application controlled, then the sync tests will fail
 because the hardware doesn't synchronize its image onset \(bufferswap\) to
 the video refresh cycle of your display.
 
-\-\> Make sure the "Triple buffering" setting is off, or if you can select
+-\> Make sure the "Triple buffering" setting is off, or if you can select
 some "Multibuffering" setting, that it is set to "double buffering" or
 "wait for 1 video refresh" or "swap every refresh". This option may not
 exist, but if it does, any other setting will cause the sync tests to
 possibly succeed, but later stimulus onset timestamping to fail with
 errors.
 
-\-\> If there is an option "Buffer swap mode" or "Bufferswap strategy", it
+-\> If there is an option "Buffer swap mode" or "Bufferswap strategy", it
 should be set to "Auto select" or "Page flipping" or "Exchange buffers".
 The so called "Copy buffers" or "Blitting" option would result in lower
 performance and inaccurate timing.
 
-\-\> On dual/multi display setups MS\-Windows allows you to assign one
+-\> On dual/multi display setups MS-Windows allows you to assign one
 monitor the role of the "primary monitor" or "primary display". It is
 important that the display device which you use for stimulus presentation
 is the "primary display", otherwise random things may go wrong wrt. sync
 tests and timing.
 
-\-\> If you have the choice to set your multi\-monitor configuration to
+-\> If you have the choice to set your multi-monitor configuration to
 either "dual display mode"/"dual display performance mode"/"separate
 displays" or instead to "extended desktop mode" or "horizontal spanning",
 you should choose "extended desktop mode" or "horizontal spanning" modes
 for best timing and stimulus quality. Please note that this choice
-doesn't exist anymore on Windows\-Vista and later.
+doesn't exist anymore on Windows-Vista and later.
 
-\-\> On all operating systems in dual display or multi display mode it is
+-\> On all operating systems in dual display or multi display mode it is
 important that you configure both displays for exactly the same color
 depths, resolution and refresh rate if you want to present stimuli across
 multiple displays, e.g., for binocular stereoscopic presentation on a
-dual\-display setup. If there is some option you can choose for "genlocked
+dual-display setup. If there is some option you can choose for "genlocked
 modes" or "genlocked modes only", choose or enable that one. Failing to
 configure dual display setups like this will cause massive timing
 problems or tearing artifacts on one of the display if you do dual
@@ -178,19 +179,19 @@ large number of problems can be resolved by a simple driver update\!
 Most systems can't provide reliable research grade timing if you don't
 display your stimuli in fullscreen windows, but use windowed mode
 instead. This can lead to sync failures, problems with timestamping and
-other performance problems. Only use non\-fullscreen windows for
+other performance problems. Only use non-fullscreen windows for
 development, debugging and leisure, not for running your studies\!
 
 Some systems have serious problems if more than one graphics card is
 connected and enabled on the computer. They only work well in
-single\-display mode or dual display mode from a single dual\-output
+single-display mode or dual display mode from a single dual-output
 graphics card.
 
-Microsoft Windows Vista and Windows\-7/8 may provide poor performance on
+Microsoft Windows Vista and Windows-7/8 may provide poor performance on
 dual display setups if you present on both displays simultaneously,
 although your mileage may vary widely depending on exact setup.
 
-On Vista and Windows\-7/8, you may run into drastic timing and performance
+On Vista and Windows-7/8, you may run into drastic timing and performance
 problems if the stimulus presentation window loses the "keyboard focus".
 The window with the "keyboard focus" is the one which is in the
 foreground \(in front of all other windows\), has its titlebar highlighted
@@ -198,27 +199,27 @@ instead of shaded \(assuming it has a titlebar\) and receives all keyboard
 input, i.e., key presses. Therefore we assign "keyboard focus" to our
 onscreen windows automatically. However, if the user clicks into windows
 other than our window with the mouse, or onto the desktop background, or
-uses key combos like ALT\+TAB or Windows\+TAB to switch between windows,
+uses key combos like ALT+TAB or Windows+TAB to switch between windows,
 our window will "lose" the keyboard focus and severe timing and
 performance problems may occur. Obviously if any window on the screen is
 highlighted, this means it \*has stolen\* the keyboard focus from our
 window. This weird keyboard focus problem is an unfortunate design
-decision \(or rather design flaw\) of the Windows Vista/Win\-7 graphics
+decision \(or rather design flaw\) of the Windows Vista/Win-7 graphics
 subsystem. There isn't anything we or the graphics cards vendors could do
-about it, so you'll have to accept it and work\-around it. Of course this
-becomes mostly a problem on dual\-display setups where one display shows
+about it, so you'll have to accept it and work-around it. Of course this
+becomes mostly a problem on dual-display setups where one display shows
 the desktop and GUI, so avoid such configurations if you can.
 
 # Further examples:
 
 On most systems, graphics adapters are only capable of properly timed
 bufferswaps and proper visual stimulus onset timestamps syncing to
-retrace if the onscreen window is a full\-screen window. Synchronization
+retrace if the onscreen window is a full-screen window. Synchronization
 fails if the onscreen window only covers part of the screen \(i.e., when
 providing a 'rect' argument to [Screen](/docs/Screen)\('OpenWindow'\) other than the
-default full\-screen rect\). Solution is to only use fullscreen windows for
-stimulus presentation. On Windows, Linux and MacOS\-X, some graphics cards
-\(e.g., many \- if not all \- mobile graphics cards built into Laptops\) are
+default full-screen rect\). Solution is to only use fullscreen windows for
+stimulus presentation. On Windows, Linux and MacOS-X, some graphics cards
+\(e.g., many - if not all - mobile graphics cards built into Laptops\) are
 only capable of synchronizing to the retrace of one display. On a single
 display setup, this will simply work. On a dual display setup, e.g.,
 Laptop connected to external video beamer or CRT, the driver/hardware can
@@ -226,7 +227,7 @@ sync to the wrong output device. A simple, although inconvenient solution
 is to disable the internal flat panel of a Laptop while running your
 study, so the hardware is guaranteed to sync to the external display.
 Depending on the hardware it may also help to try dual display output
-with either: Non\-mirror mode, running both displays at different refresh
+with either: Non-mirror mode, running both displays at different refresh
 rates, mirror mode running both displays at different rates, mirror mode
 running both displays at exactly the same resolution, color depth and
 refresh rate. You'll have to try, as it has been found to be highly
@@ -238,7 +239,7 @@ hardware, the system may enter a state where the electronics is not
 capable of performing drawing operations in hardware, either because it
 runs out of video memory ressources, or because it is lacking the
 neccessary features. In that case, some drivers \(e.g., on Microsoft
-Windows or MacOS\-X\) may activate a software rendering fallback\-path: The
+Windows or MacOS-X\) may activate a software rendering fallback-path: The
 graphics engine is switched off, all rendering is performed by slow
 software in system memory on the cpu and the final image is copied to the
 onscreen framebuffer. While this produces visually correct stimuli,
@@ -246,24 +247,24 @@ presentation timing is completely screwed and not synchronized to the
 monitors refresh at all. On Microsoft Windows, Psychtoolbox will detect
 this case and output some warnings to the Matlab window.
 
-Possible causes of such an overload: Running with anti\-aliasing enabled
+Possible causes of such an overload: Running with anti-aliasing enabled
 at a setting that is too high for the given screen resolution \(see 'help
 AntiAliasing'\), or running at a display resolution that is too high,
 given the amount of video memory installed on your graphics adapter.
 There may be other cases, although we didn't encounter any of them up to
 now. The same could happen if you run a dual display setup that is not
-switched to mirror\-mode \(or clone mode\), so you take up twice the amount
+switched to mirror-mode \(or clone mode\), so you take up twice the amount
 of video memory for two separate framebuffers.
 
 Troubleshooting: Try lower display resolutions and multisampling levels,
-switch dual display setups into mirror\-mode if possible, or buy a
+switch dual display setups into mirror-mode if possible, or buy a
 graphics adapter with more onboard memory.
 
 6. General system overload: If you run too many applications on your
-system in parallel to your Psychtoolbox\+Matlab/Octave session, then these
+system in parallel to your Psychtoolbox+Matlab/Octave session, then these
 applications may cause significant timing jitter in your system, so the
-execution of Psychtoolbox \- and its measurement loops \- becomes
-non\-deterministic up to the point of being unuseable.
+execution of Psychtoolbox - and its measurement loops - becomes
+non-deterministic up to the point of being unuseable.
 
 Troubleshooting: Quit and disable all applications and services not
 needed for your study, then retry. The usual suspects are: Virus
@@ -271,7 +272,7 @@ scanners, applications accessing the network or the harddiscs,
 applications like iTunes, system software update...
 
 7. Bad drivers or hardware in your system that interferes with general
-system timing: This is difficult to diagnose. At least on MS\-Windows, you
+system timing: This is difficult to diagnose. At least on MS-Windows, you
 can download a free tool "dpclat.exe" from the internet \(Use Google to
 find it\). If you run it, it will tell you if there are potential problems
 with your systems timing and give hints on how to resolve them.
@@ -328,7 +329,7 @@ default.
 'maxDeviation' sets a tolerance threshold for the maximum percentual
 deviation of the measured video refresh interval duration from the
 duration suggested by the operating system \(the nominal value\). Our
-default setting of 0.1 allows for \+/\- 10% of tolerance between
+default setting of 0.1 allows for +/- 10% of tolerance between
 measurement and expectation before we fail our tests.
 
 'maxDuration' Controls the maximum duration of a single test run in
@@ -337,7 +338,7 @@ neccessary. A well working system will complete the tests in less than 1
 second though.
 
 Empirically we've found that especially Microsoft Windows Vista and
-Windows\-7 may need some tweaking of these parameters, as some of those
+Windows-7 may need some tweaking of these parameters, as some of those
 setups do have rather noisy timing.
 
 
@@ -353,7 +354,7 @@ The script PerceptualVBLSyncTest\(\) shows some flickering stimulus on the
 screen and allows you to assess visually, if synchronization works
 properly.
 
-Both tests are for the really cautious: The built\-in test of
+Both tests are for the really cautious: The built-in test of
 [Screen](/docs/Screen)\('OpenWindow'\) should be able to catch about 99% of all conceivable
 synchronization problems.
 
@@ -366,23 +367,23 @@ BeampositionQueries' for more info about display issues.
 1. Just as on all other operating systems, timed visual stimulus onset
 and stimulus onset timestamping is not reliable on regular \(non
 fullscreen\) windows, windows that don't cover the complete desktop of a
-Psychtoolbox screen \(also known as X\-[Screen](/docs/Screen)\) or transparent windows,
+Psychtoolbox screen \(also known as X-[Screen](/docs/Screen)\) or transparent windows,
 e.g., when the PsychDebugWindowConfiguration\(\) command was used. Use of
 rotated display output \(90, 180, 270 degrees etc.\) will also prevent
 proper timing, just as on the other systems.
 
-Your windows must be non\-transparent, decoration/borderless, fullscreen
-and cover a complete X\-Window system screen. On a multi\-display setup
+Your windows must be non-transparent, decoration/borderless, fullscreen
+and cover a complete X-Window system screen. On a multi-display setup
 that means that either your window must cover all connected displays, or
-you need to setup separate X\-Screens in the graphics driver control panel
+you need to setup separate X-Screens in the graphics driver control panel
 GUI or the /etc/X11/xorg.conf file for different displays, so that all
-stimulus displays are grouped in one \(or multiple\) X\-[Screen](/docs/Screen) which are
+stimulus displays are grouped in one \(or multiple\) X-[Screen](/docs/Screen) which are
 fully covered by your PTB onscreen window, and other displays, e.g.,
-operator GUI displays, are grouped into a different X\-[Screen](/docs/Screen).
+operator GUI displays, are grouped into a different X-[Screen](/docs/Screen).
 
 2. A major source of timing trouble can be 3D desktop compositors. Either
 use a user interface that doesn't employ a desktop compositor, e.g., the
-GNOME\-2 classic 2D desktop, LXDE or XFCE desktop, or configure your
+GNOME-2 classic 2D desktop, LXDE or XFCE desktop, or configure your
 desktop compositor of choice to
 "unredirect\_fullscreen\_windows", which will disable the compositor for
 Psychtoolbox fullscreen windows. With most versions of the Compiz
@@ -391,7 +392,7 @@ compositor, the command ...
 PsychGPUControl\('FullScreenWindowDisablesCompositor', 1\);
 
 ... can do this setup step for you. The KDE KWin window manager \(and
-probably the latest version of GNOME\-3\) will automatically unredirect
+probably the latest version of GNOME-3\) will automatically unredirect
 fullscreen windows and go out of the way. The same will happen on compiz
 with Ubuntu Linux 12.04.2 LTS or later. If you use a different desktop
 compositor, and on a few versions of compiz, the command doesn't yet
@@ -404,26 +405,26 @@ plugin, and there check the checkbox named "Unredirect Fullscreen
 Windows", to make sure that Compiz won't interfere with visual timing on
 fullscreen windows. If in doubt, just use a desktop session without 3D
 compositor for running the actual data collection of your studies.
-Examples of desktops which use a compositor: Ubuntu Unity, GNOME\-3,
-GNOME\-2, KWin. Examples which don't use a compositor: GNOME\-2 classic,
+Examples of desktops which use a compositor: Ubuntu Unity, GNOME-3,
+GNOME-2, KWin. Examples which don't use a compositor: GNOME-2 classic,
 Mate desktop, XFCE at its default setting on Ubuntu.
 
 If you use the NVidia or AMD proprietary graphics drivers, frequent
 synchronization failures, or other sync related warnings, or unsteady,
 irregularly timed flicker during PerceptualVBLSyncTest indicate that a
-desktop compositor is in use. On Linux with the free and open\-source
+desktop compositor is in use. On Linux with the free and open-source
 graphics drivers radeon, nouveau or intel, PTB will output warnings about
-non\-pageflipped flips in such a case. It will also output warnings if the
+non-pageflipped flips in such a case. It will also output warnings if the
 proprietary driver is recent enough to support detecting this.
 
 3. Another reason for timestamping problems can be the use of
-triple\-buffering.
+triple-buffering.
 
 Psychtoolbox would warn you, at least when the free graphics drivers are
 in use, about some error in "PsychOSGetSwapCompletionTimestamp" and some
 system configuration problems.
 
-On such setups, triple\-buffering can be disabled with driver specific
+On such setups, triple-buffering can be disabled with driver specific
 options in xorg.conf:
 
 # On Intel graphics drivers, add the options:
@@ -435,7 +436,7 @@ On the nouveau driver for NVidia cards, add:
 Option "SwapLimit" "1"
 Option "GLXVBlank" "on"
 
-On Linux with the open\-source intel, nouveau and radeon graphics drivers,
+On Linux with the open-source intel, nouveau and radeon graphics drivers,
 the script OMLBasicTest allows some additional correctness checks.
 
 

@@ -3,6 +3,7 @@ layout: mfile
 title: glClearAccum
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glClearAccum  Interface to OpenGL function glClearAccum

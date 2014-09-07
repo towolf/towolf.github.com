@@ -3,6 +3,7 @@ layout: mfile
 title: EyeLinkPicture
 categories:
   - SR-ResearchDemo
+encoding: UTF-8
 ---
 
  Short MATLAB example that uses the Eyelink and Psychophysics Toolboxes
@@ -22,7 +23,7 @@ categories:
         the experiment graphics
  07/13/10  fwc made to work with new toolbox with callback and updated to
                enable eye image display, added "cleanup" function,
-               reenabled try\-catch
+               reenabled try-catch
  09/20/12 srresearch updated to allow:
                1. Transfer the image to host. \(STEP 7.1\)
                2. Change the calibration colors and turn on/off the

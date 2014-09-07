@@ -3,6 +3,7 @@ layout: mfile
 title: CreateGLOperator
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 gloperator = CreateGLOperator\(windowPtr \[, imagingmode\] \[, shaderhandle\] \[, opname\] \[,..shader options\]\)
@@ -17,7 +18,7 @@ when its not needed anymore. It gets automatically disposed when its associated 
 that affect how this operator works. Most useful flags are:
 kPsychNeedDualPass if this operator should contain exactly two
 operations, e.g., if it defines a separable convolution which consists of
-two 1\-D convolution passes, or kPsychNeedMultiPass if this operator should
+two 1-D convolution passes, or kPsychNeedMultiPass if this operator should
 contain more than two operations. Also useful are kPsychNeed16BPCFloat or
 kPsychNeed32BPCFloat if you expect results of the operator to be signed
 or to require floating point resolution. You can use 'mor' to combine
@@ -33,9 +34,9 @@ provide possible additional arguments for it.
 If you want to add multiple operations to the operator, you can use the
 AddToGLOperator\(\) command.
 
-GLOperators can also get assigned to the builtin stimulus post\-processing
+GLOperators can also get assigned to the builtin stimulus post-processing
 pipeline if they should affect all created visual stimuli. See 'help
-PsychImaging' \- the section about 'AddGLOperator'
+PsychImaging' - the section about 'AddGLOperator'
 
 
 

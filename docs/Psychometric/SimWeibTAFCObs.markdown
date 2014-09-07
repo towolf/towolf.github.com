@@ -3,6 +3,7 @@ layout: mfile
 title: SimWeibTAFCObs
 categories:
   - Psychometric
+encoding: UTF-8
 ---
 
 response = SimWeibTAFCObs\(log10Intensity,alpha,beta\)

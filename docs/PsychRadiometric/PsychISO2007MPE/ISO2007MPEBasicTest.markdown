@@ -3,6 +3,7 @@ layout: mfile
 title: ISO2007MPEBasicTest
 categories:
   - PsychISO2007MPE
+encoding: UTF-8
 ---
 
 ISO2007MPEBasicTest

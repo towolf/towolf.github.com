@@ -3,6 +3,7 @@ layout: mfile
 title: glDeleteSamplers
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDeleteSamplers  Interface to OpenGL function glDeleteSamplers

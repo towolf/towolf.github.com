@@ -3,17 +3,18 @@ layout: mfile
 title: TextOffByOneBugTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 TextBug
-Demonstrates an off\-by\-one bug in [Screen](/docs/Screen)\('Drawtext'\). The rendered text
-is drawn \+1 pixel to the right of where it should be. This leaves the
+Demonstrates an off-by-one bug in [Screen](/docs/Screen)\('Drawtext'\). The rendered text
+is drawn +1 pixel to the right of where it should be. This leaves the
 leftmost pixel unused, and clips off the rightmost pixel of the string.
 The bug is demonstrated here by drawing a letter twice, first in green as
 part of a string that has a space added \(so no clipping occurs\) and is
 then overwritten in black, without the added space. A green right edge is
 apparent in many rendered characters, at least in the Sloan font whose
-characters have no built\-in spacing. The program also finds the bounding
+characters have no built-in spacing. The program also finds the bounding
 box of each character. For Sloan, the top bound is always zero, which is
 correct, but the left bound is always 1, which should also be zero.
 

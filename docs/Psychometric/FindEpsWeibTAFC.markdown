@@ -3,6 +3,7 @@ layout: mfile
 title: FindEpsWeibTAFC
 categories:
   - Psychometric
+encoding: UTF-8
 ---
 
 epsilon = FindEpsWeibTAFC\(pCorrect,beta\)

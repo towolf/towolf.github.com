@@ -3,6 +3,7 @@ layout: mfile
 title: GetPID
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 pid=GetPID

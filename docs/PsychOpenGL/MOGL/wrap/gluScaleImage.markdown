@@ -3,6 +3,7 @@ layout: mfile
 title: gluScaleImage
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluScaleImage  Interface to OpenGL function gluScaleImage

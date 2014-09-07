@@ -3,6 +3,7 @@ layout: mfile
 title: UnionRect
 categories:
   - PsychRects
+encoding: UTF-8
 ---
 
 newRect = UnionRect\(a,b\)

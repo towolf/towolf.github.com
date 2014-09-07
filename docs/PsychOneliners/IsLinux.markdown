@@ -3,6 +3,7 @@ layout: mfile
 title: IsLinux
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 resultFlag = IsLinux\(\[is64=0\]\)

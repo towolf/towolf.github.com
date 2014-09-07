@@ -3,6 +3,7 @@ layout: mfile
 title: GetSVNInfo
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
  svnInfo = GetSVNInfo\(directoryOrFile\)
@@ -12,10 +13,10 @@ categories:
  essentially a wrapper around the shell command "svn info".
 
  Input:
- directoryOrFile \(string\) \- Directory or file name of interest.
+ directoryOrFile \(string\) - Directory or file name of interest.
 
  Output:
- svnInfo \(struct\) \- Structure containing the following information:
+ svnInfo \(struct\) - Structure containing the following information:
    Path
     URL
     RepositoryRoot

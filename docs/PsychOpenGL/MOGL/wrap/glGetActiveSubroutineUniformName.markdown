@@ -3,6 +3,7 @@ layout: mfile
 title: glGetActiveSubroutineUniformName
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetActiveSubroutineUniformName  Interface to OpenGL function glGetActiveSubroutineUniformName

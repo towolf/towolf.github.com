@@ -3,6 +3,7 @@ layout: mfile
 title: glFeedbackBuffer
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glFeedbackBuffer  Interface to OpenGL function glFeedbackBuffer

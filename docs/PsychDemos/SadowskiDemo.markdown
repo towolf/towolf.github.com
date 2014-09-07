@@ -3,6 +3,7 @@ layout: mfile
 title: SadowskiDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 SadowskiDemo\(\[imgName\]\);

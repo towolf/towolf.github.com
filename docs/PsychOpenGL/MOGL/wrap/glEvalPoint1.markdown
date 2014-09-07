@@ -3,6 +3,7 @@ layout: mfile
 title: glEvalPoint1
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glEvalPoint1  Interface to OpenGL function glEvalPoint1

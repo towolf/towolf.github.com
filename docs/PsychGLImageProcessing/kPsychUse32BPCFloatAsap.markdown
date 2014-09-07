@@ -3,6 +3,7 @@ layout: mfile
 title: kPsychUse32BPCFloatAsap
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 rval = kPsychUse32BPCFloatAsap

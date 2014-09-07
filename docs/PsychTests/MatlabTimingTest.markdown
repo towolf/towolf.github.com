@@ -3,6 +3,7 @@ layout: mfile
 title: MatlabTimingTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 MatlabTimingTest
@@ -16,7 +17,7 @@ Granting MATLAB "time constraint" priority prevents any other thread on the
 system from preempting the main MATLAB thread. Other threads recieve
 CPU time only at the discretion of the main MATLAB thread which executes
 your MATLAB scripts and functions.  Therefore, the delay between
-the nth and the \(n\+1\)th timing loop is not caused by other threads
+the nth and the \(n+1\)th timing loop is not caused by other threads
 preempting MATLAB, but instead by some activity of MATLAB itself or the script which it executes.
 
 MatlabTimingTest samples the time using GetSecsMex, a custom mex file

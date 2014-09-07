@@ -3,6 +3,7 @@ layout: mfile
 title: glDepthRangeIndexed
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDepthRangeIndexed  Interface to OpenGL function glDepthRangeIndexed

@@ -3,6 +3,7 @@ layout: mfile
 title: gluTessNormal
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluTessNormal  Interface to OpenGL function gluTessNormal

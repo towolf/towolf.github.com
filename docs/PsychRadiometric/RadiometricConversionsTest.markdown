@@ -3,6 +3,7 @@ layout: mfile
 title: RadiometricConversionsTest
 categories:
   - PsychRadiometric
+encoding: UTF-8
 ---
 
 RadiometricConversionsTest

@@ -3,6 +3,7 @@ layout: mfile
 title: glGetUniformBlockIndex
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetUniformBlockIndex  Interface to OpenGL function glGetUniformBlockIndex

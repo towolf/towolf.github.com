@@ -3,6 +3,7 @@ layout: mfile
 title: glFramebufferTextureLayer
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glFramebufferTextureLayer  Interface to OpenGL function glFramebufferTextureLayer

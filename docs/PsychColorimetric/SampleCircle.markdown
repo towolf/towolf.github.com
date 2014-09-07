@@ -3,6 +3,7 @@ layout: mfile
 title: SampleCircle
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 units = sampleCircle\(nTheta,elevation\)

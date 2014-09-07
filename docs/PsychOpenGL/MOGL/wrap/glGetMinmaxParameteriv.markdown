@@ -3,6 +3,7 @@ layout: mfile
 title: glGetMinmaxParameteriv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetMinmaxParameteriv  Interface to OpenGL function glGetMinmaxParameteriv

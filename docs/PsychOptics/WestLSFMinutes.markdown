@@ -3,6 +3,7 @@ layout: mfile
 title: WestLSFMinutes
 categories:
   - PsychOptics
+encoding: UTF-8
 ---
 
 lsf = WestLSFMinutes\(distance\)

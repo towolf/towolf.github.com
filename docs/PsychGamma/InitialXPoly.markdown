@@ -3,6 +3,7 @@ layout: mfile
 title: InitialXPoly
 categories:
   - PsychGamma
+encoding: UTF-8
 ---
 
 x = InitialXPoly\(values\_in,measurements\)

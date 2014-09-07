@@ -3,6 +3,7 @@ layout: mfile
 title: glStencilFuncSeparate
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glStencilFuncSeparate  Interface to OpenGL function glStencilFuncSeparate

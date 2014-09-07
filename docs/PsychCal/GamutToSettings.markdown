@@ -3,6 +3,7 @@ layout: mfile
 title: GamutToSettings
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 settings = GamutToSettings\(cal, gamut\)

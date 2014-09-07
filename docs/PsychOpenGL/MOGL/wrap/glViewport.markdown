@@ -3,6 +3,7 @@ layout: mfile
 title: glViewport
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glViewport  Interface to OpenGL function glViewport

@@ -3,6 +3,7 @@ layout: mfile
 title: glPointParameteri
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glPointParameteri  Interface to OpenGL function glPointParameteri

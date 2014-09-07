@@ -3,6 +3,7 @@ layout: mfile
 title: glGetQueryIndexediv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetQueryIndexediv  Interface to OpenGL function glGetQueryIndexediv

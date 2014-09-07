@@ -3,6 +3,7 @@ layout: mfile
 title: glNamedStringARB
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glNamedStringARB  Interface to OpenGL function glNamedStringARB

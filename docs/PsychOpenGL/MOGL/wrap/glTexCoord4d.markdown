@@ -3,6 +3,7 @@ layout: mfile
 title: glTexCoord4d
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glTexCoord4d  Interface to OpenGL function glTexCoord4d

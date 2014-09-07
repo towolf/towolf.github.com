@@ -3,6 +3,7 @@ layout: mfile
 title: TextureTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 TextureTest

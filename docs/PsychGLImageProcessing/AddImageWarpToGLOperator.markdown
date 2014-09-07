@@ -3,6 +3,7 @@ layout: mfile
 title: AddImageWarpToGLOperator
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 \[warpmap warpmapgltexid\] = AddImageWarpToGLOperator\(gloperator \[, warprectangle\]\)

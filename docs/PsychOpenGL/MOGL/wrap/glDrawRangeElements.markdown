@@ -3,6 +3,7 @@ layout: mfile
 title: glDrawRangeElements
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDrawRangeElements  Interface to OpenGL function glDrawRangeElements

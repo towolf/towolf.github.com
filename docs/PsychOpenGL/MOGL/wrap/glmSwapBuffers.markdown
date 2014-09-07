@@ -3,6 +3,7 @@ layout: mfile
 title: glmSwapBuffers
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glmSwapBuffers  Swap front and back buffers

@@ -3,6 +3,7 @@ layout: mfile
 title: FitGammaLin
 categories:
   - PsychGamma
+encoding: UTF-8
 ---
 
 \[fit\_out,x,err\] = FitGammaLin\(values\_in,measurements,values\_out\)

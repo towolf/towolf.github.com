@@ -3,6 +3,7 @@ layout: mfile
 title: IsInRect
 categories:
   - PsychRects
+encoding: UTF-8
 ---
 
 inside = IsInRect\(x,y,rect\)

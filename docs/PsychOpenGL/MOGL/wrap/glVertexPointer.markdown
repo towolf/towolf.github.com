@@ -3,6 +3,7 @@ layout: mfile
 title: glVertexPointer
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glVertexPointer  Interface to glVertexPointer

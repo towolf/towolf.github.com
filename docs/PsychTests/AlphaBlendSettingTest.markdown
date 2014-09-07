@@ -3,6 +3,7 @@ layout: mfile
 title: AlphaBlendSettingTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 failFlag=AlphaBlendSettingTest\(\[screenNumber\]\)

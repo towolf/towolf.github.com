@@ -3,6 +3,7 @@ layout: mfile
 title: glRenderbufferStorageEXT
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glRenderbufferStorageEXT  Interface to OpenGL function glRenderbufferStorageEXT

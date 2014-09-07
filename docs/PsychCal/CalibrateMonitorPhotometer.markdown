@@ -3,6 +3,7 @@ layout: mfile
 title: CalibrateMonitorPhotometer
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 \[gammaTable1, gammaTable2, displayBaseline, displayRange. displayGamma, maxLevel \] = CalibrateMonitorPhotometer\(\[numMeasures=9\]\[, screenid=max\]\)
@@ -10,19 +11,19 @@ categories:
 A simple calibration script for analog photometers.
 
 Use CalibrateMonSpd\(\) if you want to do more fancy calibration with
-different types of photometers or special devices like Bits\+ or DataPixx,
+different types of photometers or special devices like Bits+ or DataPixx,
 assuming you know how to operate CalibrateMonSpd\(\) that is...
 
 numMeasures \(default: 9\) readings are taken manually, and the readings
-are fit with a gamma function and piecewise cubic splines. numMeasures \-
+are fit with a gamma function and piecewise cubic splines. numMeasures -
 1 should be a power of 2, ideally \(9, 17, 33, etc.\). The corresponding
-linearized gamma tables \(1 \-\> gamma, 2 \-\> splines\) are returned, as well
+linearized gamma tables \(1 -\> gamma, 2 -\> splines\) are returned, as well
 as the display baseline, display range in cd/m^2 and display gamma. Plots
 of the two fits are created as well. Requires fit tools.
 
 If the normalized gamma table is not loaded, then the cd/m^2 value of a
 screen value can be figured out by the formula: cdm2 =
-displayRange\*\(screenval/maxLevel\).^\(1/displayGamma\) \+ displayBaseline.
+displayRange\*\(screenval/maxLevel\).^\(1/displayGamma\) + displayBaseline.
 
 Generally, you will want to load the normalized gamma tables and use them
 in [Screen](/docs/Screen)\('LoadNormalizedGammaTable'\). For example:

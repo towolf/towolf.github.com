@@ -3,6 +3,7 @@ layout: mfile
 title: GamutToSettingsExhaust
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 settings = GamutToSettingsExhaust\(gammaInput, gammaTable, gamut\)

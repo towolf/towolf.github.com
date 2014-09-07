@@ -3,6 +3,7 @@ layout: mfile
 title: glFrontFace
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glFrontFace  Interface to OpenGL function glFrontFace

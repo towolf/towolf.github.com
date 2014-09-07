@@ -3,6 +3,7 @@ layout: mfile
 title: ComputeGammaExtP
 categories:
   - PsychGamma
+encoding: UTF-8
 ---
 
 output = ComputeGammaExpP\(x,input\)

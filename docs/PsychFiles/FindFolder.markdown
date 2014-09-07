@@ -3,6 +3,7 @@ layout: mfile
 title: FindFolder
 categories:
   - PsychFiles
+encoding: UTF-8
 ---
 
 directory=FindFolder\(name\)

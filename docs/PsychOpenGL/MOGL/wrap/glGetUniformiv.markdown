@@ -3,6 +3,7 @@ layout: mfile
 title: glGetUniformiv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetUniformiv  Interface to OpenGL function glGetUniformiv

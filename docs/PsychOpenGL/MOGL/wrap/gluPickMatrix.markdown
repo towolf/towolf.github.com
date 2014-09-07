@@ -3,6 +3,7 @@ layout: mfile
 title: gluPickMatrix
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluPickMatrix  Interface to OpenGL function gluPickMatrix

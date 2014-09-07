@@ -3,9 +3,10 @@ layout: mfile
 title: pnet_putvar
 categories:
   - tcp_udp_ip
+encoding: UTF-8
 ---
 
-PNET\_PUTVAR \- Send matlab variable\(s\) of any type over PNET connection.
+PNET\_PUTVAR - Send matlab variable\(s\) of any type over PNET connection.
 
 # Syntax:
 

@@ -3,13 +3,14 @@ layout: mfile
 title: SerialComm
 categories:
   - PsychHardware
+encoding: UTF-8
 ---
 
-SerialComm \-\- Serial port interface for OSX
+SerialComm -- Serial port interface for OSX
 
 CAUTION: SerialComm\(\) is deprecated\! Not supported on Linux, Windows or
-64\-Bit versions of Psychtoolbox for OSX, totally unsupported by us. Use
-[IOPort](/docs/IOPort)\(\) instead as a future\-proof, much more capable cross\-platform
+64-Bit versions of Psychtoolbox for OSX, totally unsupported by us. Use
+[IOPort](/docs/IOPort)\(\) instead as a future-proof, much more capable cross-platform
 solution.
 
  SerialComm\( 'open', PORT, CONFIG \) opens comm port number PORT for reading and
@@ -19,13 +20,13 @@ solution.
 
  STR = SerialComm\( 'readl', PORT, EOL \) reads one line of ASCII text from PORT
    and returns the line in the string array STR. If a complete line is
-   not available, STR is empty. If supplied, EOL defines the End\-of\-Line
+   not available, STR is empty. If supplied, EOL defines the End-of-Line
    character which remains in effect until changed. On open, the EOL
-   character is the ASCII line\-feed \(0xA\). Non\-blocking.
+   character is the ASCII line-feed \(0xA\). Non-blocking.
 
  DATA = SerialComm\( 'read', PORT, N \) reads upto N bytes from PORT and returns
    the uint8 array in DATA. If no data is available, DATA is empty. If N is
-   not specified, all available bytes are returned. Non\-blocking.
+   not specified, all available bytes are returned. Non-blocking.
 
  PORT = SerialComm\( 'name2number', PORTNAME\) converts a port in string
    form, eg. /dev/cu.KeySerial1, to an actual port number for use in the
@@ -36,7 +37,7 @@ solution.
 
  SerialComm\( 'purge', PORT \) purges read and write buffers for the PORT.
 
- SerialComm\( 'hshake', PORT, HSHAKE \) set hardware 'h' and/or software 's' hand\-
+ SerialComm\( 'hshake', PORT, HSHAKE \) set hardware 'h' and/or software 's' hand-
    shaking. 'n' sets handshaking to none.
 
  SerialComm\( 'break', PORT \) sends a break.

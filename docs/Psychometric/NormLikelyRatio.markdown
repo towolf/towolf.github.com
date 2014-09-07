@@ -3,6 +3,7 @@ layout: mfile
 title: NormLikelyRatio
 categories:
   - Psychometric
+encoding: UTF-8
 ---
 
 \[likelyr,likelys,likelyn\] = NormLikelyRatio\(x,un,varn,us,vars\)

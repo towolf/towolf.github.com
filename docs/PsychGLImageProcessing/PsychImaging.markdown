@@ -3,9 +3,10 @@ layout: mfile
 title: PsychImaging
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
-rc = PsychImaging\(subcommand \[,arg1\]\[,arg2\]\[....,argn\]\) \- Control common
+rc = PsychImaging\(subcommand \[,arg1\]\[,arg2\]\[....,argn\]\) - Control common
 functions of the Psychtoolbox GPU image processing pipeline.
 
 This function allows you to setup and control various aspects and common
@@ -15,29 +16,29 @@ e.g., geometric transformations of your stimulus image, various types of
 display correction, ...
 
 If you want to perform less common, unusual or simply not yet supported tasks
-with the pipeline, use the low\-level [Screen](/docs/Screen)\('HookFunction', ...\)
-interface instead and have a peek in the M\-File code for the
-PsychImaging.m file to learn about the low\-level interface.
+with the pipeline, use the low-level [Screen](/docs/Screen)\('HookFunction', ...\)
+interface instead and have a peek in the M-File code for the
+PsychImaging.m file to learn about the low-level interface.
 See "help PsychGLImageprocessing" for more info.
 
 
 # Subcommands and their meaning:
 
 PsychImaging\('PrepareConfiguration'\);
-\- Prepare setup of imaging pipeline for onscreen window.
+- Prepare setup of imaging pipeline for onscreen window.
 This is the first step in the sequence of configuration steps.
 
 
 PsychImaging\('AddTask', whichChannel, whichTask \[,param1\]...\);
-\- Add a specific task or processing requirement to the list of actions
+- Add a specific task or processing requirement to the list of actions
 to be performed by the pipeline for the currently selected onscreen
 window. 'whichChannel' is a string with the name of the channel to
 configure:
 
 'LeftView' applies the action to the processing channel
-for the left\-eye view of a stereo configuration. 'RightView' applies the
-action to the right\-eye view of a stereo configuration. 'AllViews' applies
-the action to both, left\- and right eye view channels of a stereo
+for the left-eye view of a stereo configuration. 'RightView' applies the
+action to the right-eye view of a stereo configuration. 'AllViews' applies
+the action to both, left- and right eye view channels of a stereo
 configuration or to the single monoscopic channel of a mono display
 configuration. Other options are 'Compositor', 'FinalFormatting' and
 'Finalizer' for special purpose channels. Set this to 'General' if the
@@ -50,13 +51,13 @@ actions:
   This prepares use of Psychtoolbox functions which are meant to
   interface with, or take advantage of, the general purpose computation
   capabilities of modern graphics processing units and other massively
-  parallel compute acceleration hardware, e.g., DSP's, or multi\-core
+  parallel compute acceleration hardware, e.g., DSP's, or multi-core
   processors. Interfacing with such hardware is done via common standard
-  compute API's like NVidia's CUDA or the cross\-platform OpenCL API.
+  compute API's like NVidia's CUDA or the cross-platform OpenCL API.
 
   Use of this function often requires specific modern GPU hardware and
   the installation of additional driver software, e.g., NVidia's freely
-  available CUDA SDK and runtime, or the free and open\-source GPUmat
+  available CUDA SDK and runtime, or the free and open-source GPUmat
   toolbox. Read 'help PsychGPGPU' for further info.
 
   This function just detects and selects supported GPU compute API's for
@@ -70,7 +71,7 @@ actions:
 
   'apitype' Allows selection of the compute API to use. The value 'Auto'
   leaves the choice to Psychtoolbox. The value 'GPUmat' selects the
-  high\-level, free and open\-source GPUmat compute toolkit for Matlab.
+  high-level, free and open-source GPUmat compute toolkit for Matlab.
   Currently no other choices are supported, but this is expected to
   change in the future.
 
@@ -79,12 +80,12 @@ actions:
 
 
 \* 'SideBySideCompressedStereo' [Ask](/docs/Ask) for stereo display in a horizontally
-  compressed side\-by\-side format. Left and Right eye images are drawn at
+  compressed side-by-side format. Left and Right eye images are drawn at
   full framebuffer resolution by usercode. [Screen](/docs/Screen)\('[Flip](/docs/Flip)', ...\) draws them
-  horizontally compressed side\-by\-side to each other. They are scanned
+  horizontally compressed side-by-side to each other. They are scanned
   out to the display device this way and then the display device itself
   uncompresses them back to full resolution and displays them
-  stereoscopically, typically via built\-in alternating frame\-sequential
+  stereoscopically, typically via built-in alternating frame-sequential
   stereo with stereo goggles, but other methods are conceivable. This is
   one popular stereo frame packing format for stereo on HDMI display
   devices. Once you've set up a stereo display mode via PsychImaging, you
@@ -101,7 +102,7 @@ actions:
   the right buffer, i.e., Col 0 = Left col 0, Col 1 = Right Col 0, Col 2
   = Left col 1, Col 3 = Right col 1, ....
 
-  This mode is useful for driving some auto\-stereoscopic displays. These
+  This mode is useful for driving some auto-stereoscopic displays. These
   use either some vertical parallax barriers or vertical lenticular
   lense sheets. These direct light from even columns to one eye, light
   from odd columns to the other eye.
@@ -135,17 +136,17 @@ actions:
   for potential geometric distortions introduced by this function.%
 
 
-\* 'DualWindowStereo' [Ask](/docs/Ask) for stereo display in dual\-window mode \(stereomode 10\)
+\* 'DualWindowStereo' [Ask](/docs/Ask) for stereo display in dual-window mode \(stereomode 10\)
 
   Only use this function under MacOSX. If possible on your setup and OS,
   rather use a single window, spanning both stereo display outputs, and use
-  stereomode 4 or 5 to display dual\-display stereo. That is much more
+  stereomode 4 or 5 to display dual-display stereo. That is much more
   efficient in terms of speed, computational load and memory consumption,
   also potentially more robust with respect to visual stimulation timing.
 
   Usage: PsychImaging\('AddTask', 'General', 'DualWindowStereo', rightEyeScreen \[, rightEyeWindowRect\]\);
 
-  The left\-eye image will be displayed on the screen and at a location
+  The left-eye image will be displayed on the screen and at a location
   specified as usual via PsychImaging\('Openwindow', screenid, ..., rect\);
   The right eye image will be displayed on screen 'rightEyeScreen'. If
   the optional 'rightEyeWindowRect' is specified, then the right eye image
@@ -155,7 +156,7 @@ actions:
 
 \* 'UseVirtualFramebuffer' [Ask](/docs/Ask) for support of virtual framebuffer, even if
   it isn't strictly needed, given the remaining set of requirements. Most
-  of the tasks require such a framebuffer \- it gets enabled anyway. In a
+  of the tasks require such a framebuffer - it gets enabled anyway. In a
   few cases, e.g., to simplify your code \(no need for special cases\), it
   may be useful to activate such a framebuffer even if it isn't strictly
   needed. This option activates a minimal buffer with 8 bits per color
@@ -174,14 +175,14 @@ actions:
   will very likely interfere with visual stimulus presentation timing and
   timestamping\! Use this task instead. It will perform rotation in a
   similar way, but without severe interference to timing. However, there
-  is one limitation to this method: Multisample anti\-aliasing currently
+  is one limitation to this method: Multisample anti-aliasing currently
   does not work if you use our framebuffer rotation.
 
   Usage: PsychImaging\('AddTask', 'General', 'UseDisplayRotation', angle\);
 
   'angle' is the desired rotation angle. The only values which will give
   well defined and useful results are multiples of 90 degrees, useful
-  values are essentially 0, \+90, \-90 and 180 degrees for no rotation,
+  values are essentially 0, +90, -90 and 180 degrees for no rotation,
   clockwise rotation, counterclockwise rotation and upside down rotation.
 
   This function is mutually exclusive with 'UsePanelFitter', but if you
@@ -202,7 +203,7 @@ actions:
   window will be resized by a fast scaling operation to the real size of
   the windows framebuffer, ie., its real onscreen size. Scaling uses
   bilinear interpolation or better for high quality results. After
-  rescaling to the real size, post\-processing and display of your
+  rescaling to the real size, post-processing and display of your
   stimulus image will proceed at full resolution. This function is useful
   if you want to display a stimulus designed for a specific display
   resolution on a display device of different higher or lower resolution.
@@ -219,32 +220,32 @@ actions:
 
 #   'strategy' a text string selecting the scaling method. Following settings are possible:
 
-  'Full' \- [Scale](/docs/Scale) to full window size. Aspect ratio is not preserved,
+  'Full' - [Scale](/docs/Scale) to full window size. Aspect ratio is not preserved,
            unless the virtual window and the real onscreen windows 'rect'
            already have the same aspect ratio, in which case this will be
            a simple scaling operation.
 
-  'Aspect' \- [Scale](/docs/Scale) to maximum size possible while preserving aspect
+  'Aspect' - [Scale](/docs/Scale) to maximum size possible while preserving aspect
              ratio. This will center the stimulus and add black
              horizontal or vertical borders as neccessary.
 
-  'AspectWidth' \- [Scale](/docs/Scale) aspect ratio preserving to cover full display
+  'AspectWidth' - [Scale](/docs/Scale) aspect ratio preserving to cover full display
                   width. Cut off top and bottom content if neccessary.
 
-  'AspectHeight' \- [Scale](/docs/Scale) aspect ratio preserving to cover full display
+  'AspectHeight' - [Scale](/docs/Scale) aspect ratio preserving to cover full display
                    height. Cut off left and right content if neccessary.
 
-  'Centered' \- Center stimulus without any scaling, add black borders
+  'Centered' - Center stimulus without any scaling, add black borders
                around stimulus or cut away border regions to get a
-               one\-to\-one mapping.
+               one-to-one mapping.
 
-  'Custom' \- This works like the 'srcRect' and 'dstRect' parameters of
+  'Custom' - This works like the 'srcRect' and 'dstRect' parameters of
              [Screen](/docs/Screen)\('DrawTexture'\): Cut out a 'srcRect' region from the
              virtual framebuffer and display it in the 'dstRect' region.
              'srcRect' and 'dstRect' are given in typical \[left, top, right, bottom\]
              format.
 
-  'angle' is an optional rotation angle. If provided and non\-zero, the
+  'angle' is an optional rotation angle. If provided and non-zero, the
   panelfitter will also rotate the output framebuffer by the given
   rotation angle. Note: This doesn't work very well yet with most
   framebuffer sizes and scaling strategies. What does work is if the
@@ -258,7 +259,7 @@ actions:
   Example: Suppose your real window covers a 1920 x 1080 display.
 
   PsychImaging\('AddTask', 'General', 'UsePanelFitter', \[800 600\], 'Aspect'\);
-  \-\> This would give you a virtual window of 800 x 600 pixels to draw
+  -\> This would give you a virtual window of 800 x 600 pixels to draw
   into and would rescale the 800 x 600 stimulus image to 1440 x 1080
   pixels and display it centered on the 1920 x 1080 pixels display.
   Aspect ratio would be correct and the image would cover the full height
@@ -267,10 +268,10 @@ actions:
   stimulus.
 
   PsychImaging\('AddTask', 'General', 'UsePanelFitter', \[800 600\], 'AspectHeight'\);
-  \-\> Would do the same as above.
+  -\> Would do the same as above.
 
   PsychImaging\('AddTask', 'General', 'UsePanelFitter', \[800 600\], 'AspectWidth'\);
-  \-\> Would create a final image of 1920 pixels width, as you asked to
+  -\> Would create a final image of 1920 pixels width, as you asked to
   cover the full display width, aspect ratio would be correct, but the
   top and bottom 75 pixels of your original stimulus would get cut away,
   because they wouldn't fit after scaling without distorting the image.
@@ -279,7 +280,7 @@ actions:
 \* 'UseFastOffscreenWindows' [Ask](/docs/Ask) for support of fast Offscreen windows.
   These use a more efficient storage, backed by OpenGL framebuffer
   objects \(FBO's\). Drawing into them isn't faster, but \*switching\*
-  between drawing into onscreen\- and offscreen windows, or switching
+  between drawing into onscreen- and offscreen windows, or switching
   between drawing into different offscreen windows is faster. They also
   support a couple of other advanced features and performance
   improvements in conjunction with the imaging pipeline.
@@ -290,7 +291,7 @@ actions:
   Usage: PsychImaging\('AddTask', 'General', 'UseFastOffscreenWindows'\);
 
 
-\* 'EnableCLUTMapping' Enable support for old\-fashioned clut animation /
+\* 'EnableCLUTMapping' Enable support for old-fashioned clut animation /
   clut mapping. The drawn framebuffer image is transformed by applying a
   color lookup table \(clut\). This is not done via the hardware gamma
   tables as in the good ol' days, but by application of the clut via
@@ -300,7 +301,7 @@ actions:
   You can update the clut to be applied at the next [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\);
   via the command [Screen](/docs/Screen)\('LoadNormalizedGammatable', windowPtr, clut, 2\);
 
-  'clut' needs to be a clutSize\-by\-3 matrix, with 'clutSize' slots and
+  'clut' needs to be a clutSize-by-3 matrix, with 'clutSize' slots and
   one column for each of the red, green and blue color channels.
 
 #   Setup command:
@@ -308,7 +309,7 @@ actions:
   By default, a clut of 256 slots with \(R,G,B\) values is used, but you
   can provide the optional 'clutSize' parameter to use clut's with more
   slots. The maximum number depends on your GPU, but 2048 are typically
-  supported even on very low\-end cards.
+  supported even on very low-end cards.
 
   If you set 'highprecision' to 1, the clut will resolve values at more
   than 8 bit per color channel on modern hardware. This usually only
@@ -322,7 +323,7 @@ actions:
 \* 'FloatingPoint16Bit' [Ask](/docs/Ask) for a 16 bit floating point precision
   framebuffer. This allows more than 8 bit precision for complex drawing,
   compositing and image processing operations. It also allows
-  alpha\-blending with signed color values and intermediate results that
+  alpha-blending with signed color values and intermediate results that
   are outside the displayable range, e.g., negative. Precision is about 3
   digits behind the decimal point or 1024 discriminable displayable
   levels. If you need higher precision, choose 'FloatingPoint32Bit'.
@@ -333,16 +334,16 @@ actions:
 \* 'FixedPoint16Bit' [Ask](/docs/Ask) for a 16 bit integer precision framebuffer.
   On graphics hardware that supports this, a 16 bit signed integer
   framebuffer will be created. Such a framebuffer can store intermediate
-  color values in the normalized range \[\-1.0 ; \+1.0\] with a precision of
+  color values in the normalized range \[-1.0 ; +1.0\] with a precision of
   15 bits per component. Only positive values between 0.0 and 1.0 are
   displayable in the end though. If the graphics hardware does not support this,
   a 16 bit unsigned integer framebuffer is tried instead. Such a framebuffer
   allows for 16 bits of precision per color component. However, many graphics
-  cards do not support alpha\-blending on such a framebuffer, and
-  intermediate out\-of\-range values \(smaller than zero or bigger than one\) aren't
+  cards do not support alpha-blending on such a framebuffer, and
+  intermediate out-of-range values \(smaller than zero or bigger than one\) aren't
   supported either. Such values will be clamped to the representable \[0.0 ; 1.0\]
   range instead. Additionally this mode is only supported on some graphics
-  hardware. It is a special purpose intermediate solution \- more accurate
+  hardware. It is a special purpose intermediate solution - more accurate
   than 16 bit floating point, but less capable and less accurate than 32
   bit floating point. If you need higher precision, choose 'FloatingPoint32Bit'.
 
@@ -358,26 +359,26 @@ actions:
 \* 'FloatingPoint32Bit' [Ask](/docs/Ask) for a 32 bit floating point precision
   framebuffer. This allows more than 8 bit precision for complex drawing,
   compositing and image processing operations. It also allows
-  alpha\-blending with signed color values and intermediate results that
+  alpha-blending with signed color values and intermediate results that
   are outside the displayable range, e.g., negative. Precision is about
   6.5 digits behind the dezimal point or 8 million discriminable displayable
   levels. Be aware that only the most recent hardware \(NVidia Geforce
   8000 series, ATI Radeon HD 2000 series\) is able to perform
-  alpha\-blending at full speed in this mode. Enabling alpha\-blending on
+  alpha-blending at full speed in this mode. Enabling alpha-blending on
   older hardware may cause a significant decrease in drawing performance,
   or alpha blending may not work at all at this precision\! If you'd like
-  to have both, the highest precision and support for alpha\-blending,
+  to have both, the highest precision and support for alpha-blending,
   specify 'FloatingPoint32BitIfPossible' instead. PTB will then try to
   use 32 bit precision if this is possible in combination with alpha
   blending. Otherwise, it will choose 16 bit precision for drawing &
-  blending, but 32 bit precision at least for the post\-processing.
+  blending, but 32 bit precision at least for the post-processing.
 
   Usage: PsychImaging\('AddTask', 'General', 'FloatingPoint32Bit'\);
 
 
 \* 'FloatingPoint32BitIfPossible' [Ask](/docs/Ask) PTB to choose the highest precision
   that is possible on your hardware without sacrificing functionality like,
-  e.g., alpha\-blending. PTB will choose the best compromise possible for
+  e.g., alpha-blending. PTB will choose the best compromise possible for
   your hardware setup.
 
   Usage: PsychImaging\('AddTask', 'General', 'FloatingPoint32BitIfPossible'\);
@@ -386,7 +387,7 @@ actions:
 \* 'NormalizedHighresColorRange' [Ask](/docs/Ask) PTB to use a normalized range of
   color and luminance intensity levels in the interval \[0; 1\], ie. values
   between zero and one for minimum and maximum intensity. Also ask for
-  unclamped colors \-\- intermediate results are allowed to take on
+  unclamped colors -- intermediate results are allowed to take on
   arbitrary values, e.g., also negative values. All [Screen](/docs/Screen)\(\) 2D drawing
   commands should operate at maximum color/luminance precision.
 
@@ -401,11 +402,11 @@ actions:
 
   The optional flag 'applyAlsoToMakeTexture' defaults to zero. If set to 1,
   then a unit color range of expected input values in the \[0; 1\] range is
-  also applied to standard 8\-Bit precision textures in [Screen](/docs/Screen)\('MakeTexture'\)
+  also applied to standard 8-Bit precision textures in [Screen](/docs/Screen)\('MakeTexture'\)
   if the provided Matlab imageMatrix is of double precision type instead of
   uint8 type. This allows to specify standard textures in the same consistent
-  value range 0\-1 as other drawing colors, for cleaner code. Such textures
-  will still be limited to 0\-1 range and only resolved into 256 intensity
+  value range 0-1 as other drawing colors, for cleaner code. Such textures
+  will still be limited to 0-1 range and only resolved into 256 intensity
   levels, unless you also set the optional 'floatprecision' flag in [Screen](/docs/Screen)\('MakeTexture'\)
   to a value of 1 or 2. We still apply this limitation, as high precision textures consume
   more memory and other resources and are incompatible with very old graphics
@@ -413,12 +414,12 @@ actions:
 
   This is just a convenience shortcut for [Screen](/docs/Screen)\('ColorRange', win, 1, 0, applyAlsoToMakeTexture\);
   with the added benefit of allowing to specify the background clear
-  color in normalized 0\-1 range as well. This command is implied by use
+  color in normalized 0-1 range as well. This command is implied by use
   of any of the high precision display device drivers \(for attenuators,
-  Bits\+ box etc.\). It is only needed if you want to create the same
+  Bits+ box etc.\). It is only needed if you want to create the same
   visual results on a 8 bit standard framebuffer without needing to
   change your code, or if you want to set the 'applyAlsoToMakeTexture' flag to a
-  setting of non\-zero, so unit colorrange also applies to [Screen](/docs/Screen)\('MakeTexture'\).
+  setting of non-zero, so unit colorrange also applies to [Screen](/docs/Screen)\('MakeTexture'\).
 
 
 \* 'DisplayColorCorrection' Select a method for color correction to apply to
@@ -434,7 +435,7 @@ actions:
   Usage: PsychImaging\('AddTask', whichView, 'DisplayColorCorrection', methodname\);
 
   Example: PsychImaging\('AddTask', 'FinalFormatting', 'DisplayColorCorrection', 'SimpleGamma'\);
-  This would apply a simple power\-law gamma correction to all view
+  This would apply a simple power-law gamma correction to all view
   channels of a stereo setup, or the single view of a monoscopic setup.
   Later on you could use the methods of PsychColorCorrection\(\) to
   actually set the wanted gamma correction factors.
@@ -443,16 +444,16 @@ actions:
   'AllViews' as we'd usually do. Both specs will work, but a selection
   of 'FinalFormatting' will lead to faster processing in many cases, so
   this is preferred here if you want to apply the same setting to all
-  view channels \- or to a single monoscopic display. Should you find
+  view channels - or to a single monoscopic display. Should you find
   that things don't work as expected, you might try 'AllViews' instead
-  of 'FinalFormatting' \- There are subtle differences in how they
+  of 'FinalFormatting' - There are subtle differences in how they
   process your instructions, which may matter in some corner cases.
 
 
-\* 'EnablePseudoGrayOutput' Enable the high\-performance driver for the
-  rendering of up to 1786 different levels of gray on a standard \- but
-  well calibrated \- color monitor and 8 bit graphics card. This is done
-  by applying an algorithn known as "Pseudo\-Gray" or "Bit stealing".
+\* 'EnablePseudoGrayOutput' Enable the high-performance driver for the
+  rendering of up to 1786 different levels of gray on a standard - but
+  well calibrated - color monitor and 8 bit graphics card. This is done
+  by applying an algorithn known as "Pseudo-Gray" or "Bit stealing".
   Selecting this mode implies use of 32 bit floating point
   framebuffers, unless you specify use of a 16 bit floating point
   framebuffer via 'FloatingPoint16Bit' explicitely. If you do that, you
@@ -479,8 +480,8 @@ actions:
   luminance display device which was developed by Xiangrui Li et al.
 
   This implements the simple converter, which only needs the
-  Blue\-To\-Red\-Ratio of the device as input parameter and performs
-  conversion via a closed\-form formula without any need for lookup
+  Blue-To-Red-Ratio of the device as input parameter and performs
+  conversion via a closed-form formula without any need for lookup
   tables. This is supposed to be fast.
 
   See "help VideoSwitcher" for more info about the device and its
@@ -488,11 +489,11 @@ actions:
 
   Usage: PsychImaging\('AddTask', 'General', 'EnableVideoSwitcherSimpleLuminanceOutput' \[, btrr\] \[, trigger\]\);
 
-  \- The optional 'btrr' parameter is the Blue\-To\-Red\-Ratio to use. If the
+  - The optional 'btrr' parameter is the Blue-To-Red-Ratio to use. If the
   parameter is left out, the btrr value will be read from a global
   configuration file.
 
-  \- The optional 'trigger' parameter can be zero for "No trigger", or 1
+  - The optional 'trigger' parameter can be zero for "No trigger", or 1
   for "Use trigger as configured". By default, trigger is off \(==0\).
   Enabled, one can use the VideoSwitcher\('SetTrigger', ...\); function to
   configure when and how a trigger signal should be emitted. Trigger
@@ -507,8 +508,8 @@ actions:
   luminance display device which was developed by Xiangrui Li et al.
 
   This implements the simple converter, which only needs the
-  Blue\-To\-Red\-Ratio of the device as input parameter and performs
-  conversion via a closed\-form formula without any need for lookup
+  Blue-To-Red-Ratio of the device as input parameter and performs
+  conversion via a closed-form formula without any need for lookup
   tables. This is supposed to be fast.
 
   See "help VideoSwitcher" for more info about the device and its
@@ -516,17 +517,17 @@ actions:
 
   Usage: PsychImaging\('AddTask', 'General', 'EnableVideoSwitcherCalibratedLuminanceOutput' \[, btrr\] \[, lut\] \[, trigger\]\);
 
-  \- The optional 'btrr' parameter is the Blue\-To\-Red\-Ratio to use. If the
+  - The optional 'btrr' parameter is the Blue-To-Red-Ratio to use. If the
   parameter is left out, the btrr value will be read from a global
   configuration file.
 
-  \- The optional 'lut' paramter is a 257 elements vector of luminance
+  - The optional 'lut' paramter is a 257 elements vector of luminance
   values, which maps blue channel drive indices to luminance values. This
   lut needs to be acquired via a calibration procedure by use of a
   photometer. If 'lut' is left out, the table will be read from a global
   configuration file.
 
-  \- The optional 'trigger' parameter can be zero for "No trigger", or 1
+  - The optional 'trigger' parameter can be zero for "No trigger", or 1
   for "Use trigger as configured". By default, trigger is off \(==0\).
   Enabled, one can use the VideoSwitcher\('SetTrigger', ...\); function to
   configure when and how a trigger signal should be emitted. Trigger
@@ -549,7 +550,7 @@ actions:
   type of display output connector used, the specific panels, and their video
   settings. Consult manufacturer documentation for details. In general 10 bpc
   output may be supported on some graphics cards and displays via DisplayPort
-  or HDMI video outputs, but usually not via DVI\-D outputs.
+  or HDMI video outputs, but usually not via DVI-D outputs.
 
   If such a combination of graphics card and display is present on your system
   on Linux or Microsoft Windows, then Psychtoolbox will request native support
@@ -557,12 +558,12 @@ actions:
   homegrown, experimental box of tricks to enable this.
 
   Apple OSX, as of version 10.9 "Mavericks", does not support 10 bpc framebuffers,
-  so 10 bpc output will only work with our own box of tricks \- if at all.
+  so 10 bpc output will only work with our own box of tricks - if at all.
 
 #   Psychtoolbox experimental 10 bpc framebuffer support:
 
-  Currently we support ATI/AMD Radeon hardware of the X1000, HD2000 \- HD8000,
-  series and later models under Linux and OSX via our own low\-level setup mechanisms.
+  Currently we support ATI/AMD Radeon hardware of the X1000, HD2000 - HD8000,
+  series and later models under Linux and OSX via our own low-level setup mechanisms.
   These models support a native ARGB2101010 framebuffer, ie., a system
   framebuffer with 2 bits for the alpha channel, and 10 bits per color channel.
 
@@ -576,7 +577,7 @@ actions:
   You'll need to install and load the special Psychtoolbox kernel driver
   on OSX. On Linux you must have run PsychLinuxConfiguration at least once
   on your system at some point. You'll need to have one of the supported AMD
-  Radeon gfx\-card \(see above\) for this to work\! Read 'help PsychtoolboxKernelDriver'
+  Radeon gfx-card \(see above\) for this to work\! Read 'help PsychtoolboxKernelDriver'
   for info about the driver and installation instructions on OSX.
 
   CAUTION: Support for 10 bpc framebuffers on AMD Radeon graphics cards under
@@ -613,7 +614,7 @@ actions:
   control. NVidia or Intel cards require manual setup to force dithering off.
 
 
-\* 'EnableBrightSideHDROutput' Enable the high\-performance driver for
+\* 'EnableBrightSideHDROutput' Enable the high-performance driver for
   BrightSide Technologies High dynamic range display device for 16 bit
   per color channel output precision. See "help BrightSideHDR" for
   detailed explanation. Please note that you'll need to install the 3rd
@@ -632,7 +633,7 @@ actions:
 
   'UseDataPixx' mostly prepares use of a variety of subfunctions in the
   DataPixxToolbox \("help DataPixxToolbox"\) and in the PsychDataPixx\(\)
-  high\-level driver \("help PsychDataPixx"\).
+  high-level driver \("help PsychDataPixx"\).
 
 
 \* 'EnableDataPixxL48Output' Setup Psychtoolbox for L48 mode of the VPixx
@@ -653,7 +654,7 @@ actions:
   Usage: PsychImaging\('AddTask', 'General', 'EnableDataPixxL48Output'\);
 
 
-\* 'EnableDataPixxM16Output' Enable the high\-performance driver for M16
+\* 'EnableDataPixxM16Output' Enable the high-performance driver for M16
   mode of the VPixx Technologies DataPixx device. This is the fastest and
   most elegant way of driving the DPixx box with 16 bit luminance output
   precision. See "help DataPixx" for more information. Selecting this
@@ -669,11 +670,11 @@ actions:
 
   Usage: PsychImaging\('AddTask', 'General', 'EnableDataPixxM16OutputWithOverlay'\);
   See the explanation of color overlays in the section
-  'EnableBits\+\+Mono\+\+OutputWithOverlay' \- behaviour of color overlays is
-  identical for the CRS Bits\+\+ and the VPixx DataPixx.
+  'EnableBits++Mono++OutputWithOverlay' - behaviour of color overlays is
+  identical for the CRS Bits++ and the VPixx DataPixx.
 
 
-\* 'EnableDataPixxC48Output' Enable the high\-performance driver for the
+\* 'EnableDataPixxC48Output' Enable the high-performance driver for the
   C48 mode of VPixx technologies DataPixx box. This is the fastest and
   most elegant way of driving the DataPixx box with 16 bit per color
   channel output precision. See "help DataPixx" for more information.
@@ -684,7 +685,7 @@ actions:
 
   Usage: PsychImaging\('AddTask', 'General', 'EnableDataPixxC48Output', mode\);
 
-  See the section below about 'EnableBits\+\+Color\+\+Output' for the meaning
+  See the section below about 'EnableBits++Color++Output' for the meaning
   of the mandatory "mode" parameter.
 
   You can use the RemapMouse\(\) function to correct GetMouse\(\) positions
@@ -696,17 +697,17 @@ actions:
   displaying the onscreen window on a Cambridge Research Systems Bits\#
   device should be enabled.
 
-  This command is implied by enabling a Bits\+ or Bits\# video mode by one
-  of the commands for the Bits\+/Bits\# in the following sections, if the
-  driver can auto\-detect a connected Bits\# device. If it cannot auto\-detect
+  This command is implied by enabling a Bits+ or Bits\# video mode by one
+  of the commands for the Bits+/Bits\# in the following sections, if the
+  driver can auto-detect a connected Bits\# device. If it cannot auto-detect
   a connected Bits\# device and this command is omitted, Psychtoolbox will
-  instead assume that an older Bits\+ is in use and only allow functionality
-  common to Bits\# and Bits\+, without automatic video mode switching.
+  instead assume that an older Bits+ is in use and only allow functionality
+  common to Bits\# and Bits+, without automatic video mode switching.
 
   If you provide this command, you can optionally specify the name of the
   serial port to which your Bits\# is connected, instead of leaving it to
   the system to find this out \(either via configuration file or via a
-  guess\-o\-matic\).
+  guess-o-matic\).
 
   Usage: PsychImaging\('AddTask', 'General', 'UseBits\#' \[, BitsSharpSerialPort\]\);
 
@@ -715,47 +716,47 @@ actions:
   is connected. If omitted, Psychtoolbox will look for the name in the first
   line of text of a text file stored under the filesystem path and filename
   \[PsychtoolboxConfigDir 'BitsSharpConfig.txt'\]. If that file is empty, the
-  serial port is auto\-detected \(Good luck\!\).
+  serial port is auto-detected \(Good luck\!\).
 
   'UseBits\#' mostly prepares use of a variety of new Bits\# subfunctions
-  in the BitsPlusPlus\(\) high\-level driver \("help BitsPlusPlus"\).
+  in the BitsPlusPlus\(\) high-level driver \("help BitsPlusPlus"\).
 
 
-\* 'EnableBits\+\+Bits\+\+Output' Setup Psychtoolbox for Bits\+\+ mode of the
-  Cambridge Research Systems Bits\+\+ box. This loads the graphics
+\* 'EnableBits++Bits++Output' Setup Psychtoolbox for Bits++ mode of the
+  Cambridge Research Systems Bits++ box. This loads the graphics
   hardwares gamma table with an identity mapping so it can't interfere
-  with Bits\+\+ T\-Lock system. It also sets up automatic generation of
-  Bits\+\+ T\-Lock codes: You will be able to upload new CLUT's into the
-  Bits\+\+ by use of the [Screen](/docs/Screen)\('LoadNormalizedGammaTable', window, clut, 2\);
+  with Bits++ T-Lock system. It also sets up automatic generation of
+  Bits++ T-Lock codes: You will be able to upload new CLUT's into the
+  Bits++ by use of the [Screen](/docs/Screen)\('LoadNormalizedGammaTable', window, clut, 2\);
   command. CLUT updates will be synchronized with [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\)
-  commands, because PTB will generate and draw the proper T\-Lock code
+  commands, because PTB will generate and draw the proper T-Lock code
   into the top line of your onscreen window. Please note that while
-  Bits\+\+ CLUT mode works even with very old graphics hardware, this is a
-  pretty cumbersome way of driving the Bits\+\+. On recent hardware, you
-  will want to use Mono\+\+ or Color\+\+ mode \(see below\). That allows to
+  Bits++ CLUT mode works even with very old graphics hardware, this is a
+  pretty cumbersome way of driving the Bits++. On recent hardware, you
+  will want to use Mono++ or Color++ mode \(see below\). That allows to
   draw arbitrarily complex stimuli with as many colors as you want and
-  PTB will take care of conversion into the Color\+\+ or Mono\+\+ format for
-  Bits\+\+.
+  PTB will take care of conversion into the Color++ or Mono++ format for
+  Bits++.
 
-  Usage: PsychImaging\('AddTask', 'General', 'EnableBits\+\+Bits\+\+Output'\);
+  Usage: PsychImaging\('AddTask', 'General', 'EnableBits++Bits++Output'\);
 
 
-\* 'EnableBits\+\+Mono\+\+Output' Enable the high\-performance driver for the
-  Mono\+\+ mode of Cambridge Research Systems Bits\+\+ box. This is the
-  fastest and most elegant way of driving the Bits\+\+ box with 14 bit
+\* 'EnableBits++Mono++Output' Enable the high-performance driver for the
+  Mono++ mode of Cambridge Research Systems Bits++ box. This is the
+  fastest and most elegant way of driving the Bits++ box with 14 bit
   luminance output precision. See "help BitsPlusPlus" for more
   information. Selecting this mode implies use of 32 bit floating point
   framebuffers, unless you specify use of a 16 bit floating point
   framebuffer via 'FloatingPoint16Bit' explicitely. If you do that, you
-  will not be able to use the full 14 bit output precision of Bits\+\+, but
+  will not be able to use the full 14 bit output precision of Bits++, but
   only approximately 10 bits.
 
-  Usage: PsychImaging\('AddTask', 'General', 'EnableBits\+\+Mono\+\+Output'\);
+  Usage: PsychImaging\('AddTask', 'General', 'EnableBits++Mono++Output'\);
 
-  If you want to make use of the color overlay plane in Mono\+\+ mode, then
+  If you want to make use of the color overlay plane in Mono++ mode, then
   call the function like this:
 
-  Usage: PsychImaging\('AddTask', 'General', 'EnableBits\+\+Mono\+\+OutputWithOverlay'\);
+  Usage: PsychImaging\('AddTask', 'General', 'EnableBits++Mono++OutputWithOverlay'\);
 
 #   Then you can query the window handle of the overlay window via:
 
@@ -767,36 +768,36 @@ actions:
   do with offscreen windows. The only difference is that the window is a
   pure index window: It only has one "color channel", which can be written
   with color values between 0 and 255. Values 1 to 255 get mapped to the
-  corresponding color indices of the Bits\+\+ overlay plane: A zero value is
-  transparent \-\- Content of the onscreen window is visible. Positive
-  non\-zero color values map to the 255 indices available in overlay mode,
-  these get mapped by the Bits\+\+ CLUT to colors. You can define the
+  corresponding color indices of the Bits++ overlay plane: A zero value is
+  transparent -- Content of the onscreen window is visible. Positive
+  non-zero color values map to the 255 indices available in overlay mode,
+  these get mapped by the Bits++ CLUT to colors. You can define the
   mapping of indices to CLUT colors via the
   [Screen](/docs/Screen)\('LoadNormalizedGammaTable', window, clut, 2\); command.
 
   Updates of the overlay image are synchronized to [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\)
   updates. If you draw into the overlay window, the changed overlay image
-  will become visible at [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\) time \-\- in sync with the changed
+  will become visible at [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\) time -- in sync with the changed
   onscreen window content. The overlay plane is not automatically cleared
   to background \(or transparent\) color after a flip, but its content
   persists across flips. You need to clear it out manually via a
   [Screen](/docs/Screen)\('FillRect'\) command.
 
 
-\* 'EnableBits\+\+Color\+\+Output' Enable the high\-performance driver for the
-  Color\+\+ mode of Cambridge Research Systems Bits\+\+ box. This is the
-  fastest and most elegant way of driving the Bits\+\+ box with 14 bit
+\* 'EnableBits++Color++Output' Enable the high-performance driver for the
+  Color++ mode of Cambridge Research Systems Bits++ box. This is the
+  fastest and most elegant way of driving the Bits++ box with 14 bit
   per color channel output precision. See "help BitsPlusPlus" for more
   information. Selecting this mode implies use of 32 bit floating point
   framebuffers, unless you specify use of a 16 bit floating point
   framebuffer via 'FloatingPoint16Bit' explicitely. If you do that, you
-  will not be able to use the full 14 bit output precision of Bits\+\+, but
+  will not be able to use the full 14 bit output precision of Bits++, but
   only approximately 10 bits.
 
-  Usage: PsychImaging\('AddTask', 'General', 'EnableBits\+\+Color\+\+Output', mode\);
+  Usage: PsychImaging\('AddTask', 'General', 'EnableBits++Color++Output', mode\);
 
   "mode" is a mandatory numeric parameter which must be 0, 1 or 2. In
-  Color\+\+ mode, the effective horizontal display resolution is only half
+  Color++ mode, the effective horizontal display resolution is only half
   the normal horizontal resolution. To cope with this, multiple different
   methods are implemented to squeeze your stimulus image horizontally by
   a factor of two. The following options exist:
@@ -824,7 +825,7 @@ actions:
   1 = Subsample: Your framebuffer will appear at the same resolution as
   your display device. Aspect ratio of drawn stimuli/text etc. will be
   correct and as expected. However, every 2nd column of pixels in your
-  stimulus \(ie., all odd\-numbered x\-coordinates 1,3,5,7,...\) will be
+  stimulus \(ie., all odd-numbered x-coordinates 1,3,5,7,...\) will be
   completely ignored, only even columns are used\!
 
   Example: A fine vertical grid with alternating vertical white and black
@@ -849,12 +850,12 @@ actions:
   which is 50% gray.
 
 
-\* 'EnableDualPipeHDROutput' Enable EXPERIMENTAL high\-performance driver
+\* 'EnableDualPipeHDROutput' Enable EXPERIMENTAL high-performance driver
   for HDR display devices which are composites of two separate displays.
 
-  EXPERIMENTAL proof\-of\-concept code with no real function yet\!
+  EXPERIMENTAL proof-of-concept code with no real function yet\!
 
-  This is meant for high\-precision luminance or color output. It implies
+  This is meant for high-precision luminance or color output. It implies
   use of 32 bpc floating point framebuffers unless otherwise specified by
   other calls to PsychImaging\(\).
 
@@ -871,10 +872,10 @@ actions:
   subregion 'pipe1Rectangle'.
 
 
-\* 'AddOffsetToImage' Add a constant color\- or intensity offset to the
+\* 'AddOffsetToImage' Add a constant color- or intensity offset to the
   drawn image, prior to all following image processing and post
   processing operations:
-  Outimage\(x,y\) = Inimage\(x,y\) \+ Offset. If the framebuffer is in a color
+  Outimage\(x,y\) = Inimage\(x,y\) + Offset. If the framebuffer is in a color
   display mode, the same offset will be added to all three color
   channels.
 
@@ -898,12 +899,12 @@ actions:
   done, so obviously neither mode 10 nor any other mode can be used
   without interference.
 
-  Only use this function for mirroring onto the 2nd head of a dual\-head
+  Only use this function for mirroring onto the 2nd head of a dual-head
   graphics card under MacOS/X, or if you need to mirror onto a 2nd head
-  on MS\-Windows and can't use "desktop spanning" mode on Windows to
+  on MS-Windows and can't use "desktop spanning" mode on Windows to
   achieve dual display output. If possible on your setup and OS, rather use
   'MirrorDisplayToSingleSplitWindow' \(see below\). That mode should work
-  well on dual\-head graphics cards on MS\-Windows or GNU/Linux, as well as
+  well on dual-head graphics cards on MS-Windows or GNU/Linux, as well as
   in conjunction with a hardware display splitter attached to a single
   head on any operating system. It has the advantage of consuming less
   memory and compute ressources, so it is potentially faster or provides
@@ -922,7 +923,7 @@ actions:
 
 \* 'MirrorDisplayToSingleSplitWindow' Mirror the content of the onscreen
   window to the right half of the desktop \(if desktop spanning on a
-  dual\-display setup is enabled\) or the right\-half of the virtual screen
+  dual-display setup is enabled\) or the right-half of the virtual screen
   if a display splitter \(e.g., Matrox Dualhead2Go \(TM\)\) is attached to a
   single head of a graphics card. This should give the same result as if one
   switches the graphics card into "Mirror mode" or "Clone mode" via the
@@ -950,12 +951,12 @@ actions:
 
   ROI is a rectangle defining the area to process ROI = \[left top right bottom\];
   E.g., ROI = \[400 400 800 800\] would only create output pixels in the
-  screen area with top\-left corner \(400,400\) and bottom\-right corner
+  screen area with top-left corner \(400,400\) and bottom-right corner
   \(800, 800\).
 
 
 \* 'FlipHorizontal' and 'FlipVertical' flip your output images
-  horizontally \(left\- and right interchanged\) or vertically \(upside down\).
+  horizontally \(left- and right interchanged\) or vertically \(upside down\).
 
   Usage: PsychImaging\('AddTask', whichChannel, 'FlipHorizontal'\);
   Usage: PsychImaging\('AddTask', whichChannel, 'FlipVertical'\);
@@ -981,7 +982,7 @@ actions:
   recommended method for most cases is 'DisplayUndistortionBVL', read
   "help DisplayUndistortionBVL" for help.
 
-  The optional flag 'debugoutput' if set to non\-zero value will trigger
+  The optional flag 'debugoutput' if set to non-zero value will trigger
   some debug output about the calibration with some calibration methods.
 
   The optional 'arg1', 'arg2', ..., are optional parameters whose
@@ -998,7 +999,7 @@ actions:
 
 \* More actions will be supported in the future. If you can think of an
   action of common interest not yet supported by this framework, please
-  file a feature request on our Wiki \(Mainpage \-\> Feature Requests\).
+  file a feature request on our Wiki \(Mainpage -\> Feature Requests\).
 
 
 After adding all wanted task specifications and other requirements,
@@ -1006,7 +1007,7 @@ call...
 
 \[windowPtr, windowRect\] = PsychImaging\('OpenWindow', screenid, \[backgroundcolor\], ....\);
 
-\- Finishes the setup phase for imaging pipeline, creates a suitable onscreen
+- Finishes the setup phase for imaging pipeline, creates a suitable onscreen
 window and performs all remaining configuration steps. After this
 command, your onscreen window will be ready for drawing and display of
 stimuli. All specified imaging operations will get automatically applied
@@ -1017,7 +1018,7 @@ After the window has been opened you can call the following commands any
 time at runtime:
 
 PsychImaging\('RestrictProcessingToROI', window, whichChannel, ROI\);
-\- Restrict the processing area of viewChannel 'whichChannel' of onscreen
+- Restrict the processing area of viewChannel 'whichChannel' of onscreen
 window 'window' to the rectangular subarea defined by 'ROI'. See the
 explanation above for subtask 'RestrictProcessing'. This does exactly the
 same but allows a dynamic change of the restricted area at any point
@@ -1025,16 +1026,16 @@ during your experiment script.
 
 
 PsychImaging\('UnrestrictProcessing', window, whichChannel\);
-\- Remove a restriction of the processing area of viewChannel
+- Remove a restriction of the processing area of viewChannel
 'whichChannel' of onscreen window 'window' to a previously defined
 subarea. Can be called anytime during your scripts execution.
 
 
 \[overlaywin, overlaywinRect\] = PsychImaging\('GetOverlayWindow', win\);
-\- Will return the handle to the 'overlaywin'dow associated with the
+- Will return the handle to the 'overlaywin'dow associated with the
 given 'win'dow, if any. Will abort with an error message if the 'win'dow
 doesn't have an associated overylay window.
-Currently, only the CRS Bits\+ box in Mono\+\+ mode and the VPixx DataPixx
+Currently, only the CRS Bits+ box in Mono++ mode and the VPixx DataPixx
 box in M16 mode does support overlays. Other output drivers don't support
 such a feature. See "help BitsPlusPlus" for subfunction
 'GetOverlayWindow' for more explanations of the purpose and properties of
@@ -1046,10 +1047,10 @@ is opened in videomode 'M16WithOverlay'.
 # The following commands are only for specialists:
 
 \[imagingMode, needStereomode\] = PsychImaging\('FinalizeConfiguration'\);
-\- Finish the configuration phase for this window. This will compute an
+- Finish the configuration phase for this window. This will compute an
 optimal configuration for all stages of the pipeline, but won't apply it
 yet. You'll have to call [Screen](/docs/Screen)\('OpenWindow', windowPtr, ......,
-imagingMode, ...\); with the returned 'imagingMode' \+ any other options
+imagingMode, ...\); with the returned 'imagingMode' + any other options
 you'd like to have for your window. After that, you'll have to call
 PsychImaging\('PostConfiguration'\) to really apply and setup all your
 configuration settings. If you don't have unusual needs, you can simplify
@@ -1060,7 +1061,7 @@ your window properly configured.
 
 
 PsychImaging\('PostConfiguration', windowPtr \[, clearcolor\]\);
-\- To be called after opening the onscreen window 'windowPtr'.
+- To be called after opening the onscreen window 'windowPtr'.
 Performs all the setup work to be done after the window was created.
 
 

@@ -3,6 +3,7 @@ layout: mfile
 title: EyelinkDoTrackerSetup
 categories:
   - EyelinkBasic
+encoding: UTF-8
 ---
 
  USAGE: result=EyelinkDoTrackerSetup\(el \[, sendkey\]\)

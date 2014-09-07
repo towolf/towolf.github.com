@@ -3,6 +3,7 @@ layout: mfile
 title: glGetnTexImageARB
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetnTexImageARB  Interface to OpenGL function glGetnTexImageARB

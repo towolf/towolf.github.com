@@ -3,6 +3,7 @@ layout: mfile
 title: CatStr
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 string=CatStr\(stringArray\)

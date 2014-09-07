@@ -3,15 +3,16 @@ layout: mfile
 title: pnet
 categories:
   - tcp_udp_ip
+encoding: UTF-8
 ---
 
-PNET    \- IO\-function for TCP and UDP comunation in matlab.
+PNET    - IO-function for TCP and UDP comunation in matlab.
 
 
     This function can be called with different options/commands to operate on
     tcp/udp/ip connection in matlab. It supports data transfer with
     different data types and byte orders. The function is implemented as an
-    MEX\-file that needs to be
+    MEX-file that needs to be
 
 General syntax
 ==============
@@ -34,22 +35,22 @@ Commands for TCP connections
  con=pnet\('tcpconnect','hostname',port\)
 
     Creates tcp/ip connection to the specified 'hostname' and port. On error
-    it returns \-1, on success it returns a conection handler as an integer
-    number \>=0. This function call is used to act as a "tcp\-client".
+    it returns -1, on success it returns a conection handler as an integer
+    number \>=0. This function call is used to act as a "tcp-client".
     This function is alway nonblocking unless their is some troubles with
     namelookup that can block interpretation for a while.
 
  sockcon=pnet\('tcpsocket',port\)
 
-    Creates a local tcpsocket and bind port\-number "port" to it. On fail
-    it rerurns \-1, on success it returns a connection handler. To fetch
+    Creates a local tcpsocket and bind port-number "port" to it. On fail
+    it rerurns -1, on success it returns a connection handler. To fetch
     remote connection connecting to this socket use pnet\(sockcon,'tcplisten'\)
 
  con=pnet\(sockcon,'tcplisten', \['noblock'\] \)
 
-    If some remote tcp\-connection has connected to the socket "sockcon" this
+    If some remote tcp-connection has connected to the socket "sockcon" this
     functions returns a handler to that tcp connection. On non available
-    remote connection or error it returns \-1. Unless the option 'noblock' is
+    remote connection or error it returns -1. Unless the option 'noblock' is
     specified or the readtimeout value \(default to inf \) is reached it blocks
     until a remote connection is established.
 
@@ -124,7 +125,7 @@ Commands for TCP connections
 
     Read data from a file and write it on the connection. All of the
     file will be transmitted of not "start" and "len" specifies a segment.
-    The function returns \-1 on fail.
+    The function returns -1 on fail.
     This command can also be used with UDP packets, se the UDP section.
 
  stat=pnet\(con,'status'\)
@@ -187,7 +188,7 @@ UDP packets
 
     Creates a UDP socket and binds it to an UDP port. On this socket can you
     recive UDP packets destinated to this UDP port, and send UDP packets with
-    this sockat as source adress. Retruns \-1 on fail or a handler \>=0 on
+    this sockat as source adress. Retruns -1 on fail or a handler \>=0 on
     success. In this sockets write buffer you can create a UDP packet that
     is later sent with the 'writepacket' command.
 
@@ -221,7 +222,7 @@ UDP packets
 
       pnet\(1,'write','Hello\_World'\)
 
-    Numbers like connection handlers and port\-numbers can be specified
+    Numbers like connection handlers and port-numbers can be specified
     as strings in most cases. This syntax should generaly work for all
     variants of calls and is usefull and easy to type when experimenting
     interactively with tcp connection and udp packets from the matlab
@@ -232,7 +233,7 @@ UDP packets
            UDP\_PLOTTER\_DEMO, UDP\_SEND\_DEMO, WEBSERVER\_DEMO
 
 
-  GOOD LUCK and HAVE FUN\!  :\-\)
+  GOOD LUCK and HAVE FUN\!  :-\)
 
       Peter Rydesäter,
       Mitthögskolan\(Mid Sweden University\) campus Östersund, SWEDEN

@@ -3,6 +3,7 @@ layout: mfile
 title: glGetQueryObjectuiv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetQueryObjectuiv  Interface to OpenGL function glGetQueryObjectuiv

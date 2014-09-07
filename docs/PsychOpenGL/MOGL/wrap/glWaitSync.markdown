@@ -3,6 +3,7 @@ layout: mfile
 title: glWaitSync
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glWaitSync  Interface to OpenGL function glWaitSync

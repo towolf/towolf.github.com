@@ -3,6 +3,7 @@ layout: mfile
 title: QuestSd
 categories:
   - Quest
+encoding: UTF-8
 ---
 
 sd=QuestSd\(q\)

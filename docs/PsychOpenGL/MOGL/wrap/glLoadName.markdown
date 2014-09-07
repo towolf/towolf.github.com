@@ -3,6 +3,7 @@ layout: mfile
 title: glLoadName
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glLoadName  Interface to OpenGL function glLoadName

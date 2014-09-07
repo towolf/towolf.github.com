@@ -3,6 +3,7 @@ layout: mfile
 title: SysBeep
 categories:
   - PsychObsolete
+encoding: UTF-8
 ---
 
 SysBeep\(\[n\],\[delay\]\)

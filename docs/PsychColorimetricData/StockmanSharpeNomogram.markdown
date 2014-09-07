@@ -3,6 +3,7 @@ layout: mfile
 title: StockmanSharpeNomogram
 categories:
   - PsychColorimetricData
+encoding: UTF-8
 ---
 
 T\_absorbance = StockmanSharpeNomogram\(S,lambdaMax\)
@@ -12,9 +13,9 @@ nomogram provided by Stockman and Sharpe:
   See Stockman & Sharpe \(2000\), p. 1730 or http://www.cvrl.org/.
 
 The lmax values of the fitted templates that best fits
-to the Stockman and Sharpe \(2000\) S\-, M\- and L\-cone photopigment
+to the Stockman and Sharpe \(2000\) S-, M- and L-cone photopigment
 spectra are 420.7, 530.3 and 558.9 nm for the
-S\-, M\- and L\-cones, respectively;
+S-, M- and L-cones, respectively;
 
 The result is in quantal units, in the sense that to compute
 absorptions you want to incident spectra in quanta.
@@ -38,7 +39,7 @@ as if they corresponded to a single lambda max value. It may also be that
 the template was built by minimizing the error in log sensitivity, and this
 would more heavily weight the long wavelength limbs of the pigments, where
 the linear sensitivity is essentially zero.  In any case, though, if you
-are working in the land of the CIE 170\-1:2006 fundamentals, this is the
+are working in the land of the CIE 170-1:2006 fundamentals, this is the
 probably the best current nomogram to use.
 
 See ComputeCIEConeFundamentals, CIEConeFundamentalsTest,

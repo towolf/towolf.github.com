@@ -3,6 +3,7 @@ layout: mfile
 title: OSAUCSTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 [OSAUCSTest](/docs/OSAUCSTest)

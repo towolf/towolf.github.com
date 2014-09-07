@@ -3,6 +3,7 @@ layout: mfile
 title: glMap1d
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glMap1d  Interface to OpenGL function glMap1d

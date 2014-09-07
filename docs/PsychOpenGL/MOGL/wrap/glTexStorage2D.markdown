@@ -3,6 +3,7 @@ layout: mfile
 title: glTexStorage2D
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glTexStorage2D  Interface to OpenGL function glTexStorage2D

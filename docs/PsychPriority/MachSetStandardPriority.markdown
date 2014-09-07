@@ -3,6 +3,7 @@ layout: mfile
 title: MachSetStandardPriority
 categories:
   - PsychPriority
+encoding: UTF-8
 ---
 
 MachSetStandardPriority

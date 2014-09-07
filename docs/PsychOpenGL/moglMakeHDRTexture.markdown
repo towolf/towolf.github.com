@@ -3,6 +3,7 @@ layout: mfile
 title: moglMakeHDRTexture
 categories:
   - PsychOpenGL
+encoding: UTF-8
 ---
 
 textureId = moglMakeHDRTexture\(win, hdrImage \[, halffloat\]\[, poweroftwo\]\)
@@ -29,12 +30,12 @@ and higher.
 
 Normally, Psychtoolbox will try to select a GL\_TEXTURE\_RECTANGLE
 texture if the hardware supports it. You can enforce creation of
-a power\-of\-two GL\_TEXTURE\_2D by setting the optional 'poweroftwo'
+a power-of-two GL\_TEXTURE\_2D by setting the optional 'poweroftwo'
 flag to a value of 1.
 
 'hdrImage' must be a \(height, width, 4\) matrix of type 'double' or
 'single', where channel 1=Red, 2=Green, 3=Blue, 4=Alpha. The numeric
-range \(0.0 \- 1.0\) maps to \(minimum intensity \- maximum intensity\).
+range \(0.0 - 1.0\) maps to \(minimum intensity - maximum intensity\).
 
 If you want to use the created 2D texture for 3D OpenGL rendering
 as well, you can use the [Screen](/docs/Screen)\('GetOpenGLTexture'\) function to
@@ -42,7 +43,7 @@ retrieve a standard OpenGL texture handle to it.
 
 If you don't want to create a pure 2D texture, but a cube map texture
 for use in 3D environment mapped lighting and such, then use the
-function moglMakeGLHDRTexture\(\) instead. It can create cube\-map
+function moglMakeGLHDRTexture\(\) instead. It can create cube-map
 textures for use with the OpenGL functions. These are not useable
 with the standard Psychtoolbox [Screen](/docs/Screen)\(\) commands.
 

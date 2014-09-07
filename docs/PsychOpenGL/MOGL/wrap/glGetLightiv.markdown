@@ -3,6 +3,7 @@ layout: mfile
 title: glGetLightiv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetLightiv  Interface to OpenGL function glGetLightiv

@@ -3,6 +3,7 @@ layout: mfile
 title: gluLoadSamplingMatrices
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluLoadSamplingMatrices  Interface to OpenGL function gluLoadSamplingMatrices

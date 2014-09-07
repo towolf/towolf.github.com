@@ -3,6 +3,7 @@ layout: mfile
 title: CalibrateFitGamma
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 cal = CalibrateFitGamma\(cal,\[nInputLevels\]\)
@@ -38,8 +39,8 @@ See also PsychGamma.
          dhb  Don't allow a long string of zeros at the start.
          dhb  Reduce redundant code for higher order terms by pulling out of switch
 08/03/07 dhb  Debug.  Add call to MakeMonotonic for first three components.
-11/19/09 dhb  Added crtSumPow option, coded to \[0\-1\] world and using curve fit toolbox.
-3/07/10  dhb  Cosmetic to make m\-lint happier, including some "|" \-\> "||"
+11/19/09 dhb  Added crtSumPow option, coded to \[0-1\] world and using curve fit toolbox.
+3/07/10  dhb  Cosmetic to make m-lint happier, including some "|" -\> "||"
 3/07/10  dhb  Added crtLinear option.
          dhb  contrasthThresh and fitBreakThresh values only set if not already in struct.
          dhb  Call MakeGammaMonotonic rather than MakeMonotonic where appropriate.

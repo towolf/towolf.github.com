@@ -3,6 +3,7 @@ layout: mfile
 title: PsychSetupCamera
 categories:
   - PsychVideoCapture
+encoding: UTF-8
 ---
 
 PsychSetupCamera\(camsettingsfile, rate\)

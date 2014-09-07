@@ -3,6 +3,7 @@ layout: mfile
 title: CIEConeFundamentalsTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 CIEConeFundamentalsTest
@@ -15,9 +16,9 @@ one vary the parameters of the parts, to get different theoretically
 specfied cone fundamentals.
 
 This shows that the standard does an excellent job of reconstructing
-the Stockman/Sharpe 2\-degree and 10 degree fundamentals if one starts
+the Stockman/Sharpe 2-degree and 10 degree fundamentals if one starts
 with the tabulated LMS absorbances.  The agreement is less perfect
-if one uses the nomogram and recommended lambda\-max values to
+if one uses the nomogram and recommended lambda-max values to
 generate the absorbances.  See comment on this point in StockmanSharpeNomogram.m
 
 The code here is closely related \(and uses\) a more general set of code
@@ -30,7 +31,7 @@ sensitivities. See:
 8/14/11  dhb  Clean up a little.
 12/16/12 dhb  Added test for rods.
 08/10/13 dhb  Better integration with the photoreceptor struct code.
-03/14/14 dhb  Add Smith\-Pokorny to 2 degree plot, for comparison.
+03/14/14 dhb  Add Smith-Pokorny to 2 degree plot, for comparison.
 
 
 <div class="code_header" style="text-align:right;">

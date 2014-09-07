@@ -3,6 +3,7 @@ layout: mfile
 title: glIndexfv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glIndexfv  Interface to OpenGL function glIndexfv

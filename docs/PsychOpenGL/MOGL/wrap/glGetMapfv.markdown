@@ -3,6 +3,7 @@ layout: mfile
 title: glGetMapfv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetMapfv  Interface to OpenGL function glGetMapfv

@@ -3,6 +3,7 @@ layout: mfile
 title: gluPartialDisk
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluPartialDisk  Interface to OpenGL function gluPartialDisk

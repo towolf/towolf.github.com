@@ -3,6 +3,7 @@ layout: mfile
 title: MakeOrtho
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 function out = MakeOrtho\(in\)

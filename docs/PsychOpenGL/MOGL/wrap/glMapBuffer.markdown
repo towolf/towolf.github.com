@@ -3,6 +3,7 @@ layout: mfile
 title: glMapBuffer
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glMapBuffer  Interface to OpenGL function glMapBuffer

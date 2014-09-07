@@ -3,6 +3,7 @@ layout: mfile
 title: alSourceRewindv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alSourceRewindv  Interface to OpenAL function alSourceRewindv

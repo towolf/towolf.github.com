@@ -3,6 +3,7 @@ layout: mfile
 title: CleanStruct
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 out = CleanStruct\(temp,qrec\)

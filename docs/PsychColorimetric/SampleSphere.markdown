@@ -3,6 +3,7 @@ layout: mfile
 title: SampleSphere
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 units = sampleSphere\(nTheta,nPhi\)

@@ -3,6 +3,7 @@ layout: mfile
 title: glBindSampler
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glBindSampler  Interface to OpenGL function glBindSampler

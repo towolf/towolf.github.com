@@ -3,6 +3,7 @@ layout: mfile
 title: glPointParameterf
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glPointParameterf  Interface to OpenGL function glPointParameterf

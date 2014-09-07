@@ -3,6 +3,7 @@ layout: mfile
 title: CalibrateManualDrvr
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 CalibrateManualDrvr

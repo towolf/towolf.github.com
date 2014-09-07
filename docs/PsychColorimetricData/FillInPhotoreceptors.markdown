@@ -3,6 +3,7 @@ layout: mfile
 title: FillInPhotoreceptors
 categories:
   - PsychColorimetricData
+encoding: UTF-8
 ---
 
 photoreceptors = FillInPhotoreceptors\(photoreceptors\)
@@ -51,7 +52,7 @@ See also: DefaultPhotoreceptors, RetIrradianceToIsoRecSec
               a nomogram and an absorbance spectrum.\)
 8/11/13  dhb  More checking.  Add ability to adjust lens/macular density.  Return energy and quantal fundamentals \(normalized to unity\).
 8/12/13  dhb  Fixed buglet resulting from forgetting to update after copy/paste.
-10/16/13  mk  [Replace](/docs/Replace) obsolete isstr\(\) by ischar\(\) to future\-proof this.
+10/16/13  mk  [Replace](/docs/Replace) obsolete isstr\(\) by ischar\(\) to future-proof this.
 
 
 <div class="code_header" style="text-align:right;">

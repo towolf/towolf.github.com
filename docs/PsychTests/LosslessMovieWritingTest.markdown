@@ -3,9 +3,10 @@ layout: mfile
 title: LosslessMovieWritingTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
-LosslessMovieWritingTest \- Test lossless encoding and decoding of video in movie files.
+LosslessMovieWritingTest - Test lossless encoding and decoding of video in movie files.
 
 LosslessMovieWritingTest\(\[codec=huffyuv\]\[, nrchannels=3\]\[, bpc=8\]\)
 
@@ -44,7 +45,7 @@ party tools\! Other constraints for 16 bpc mode: 1 layer grayscale images
 must have a height for which height \* 2/3 is an integral value. 3 layer
 RGB images must not be wider than 2048 pixels for use with most codecs.
 
-This test script will write the \- potentially huge \- temporary test file
+This test script will write the - potentially huge - temporary test file
 into the current working directory and leave it there after the test\!
 
 Requires a GPU which can handle at least 4096 x 4096 pixel textures,

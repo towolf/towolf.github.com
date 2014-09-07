@@ -3,6 +3,7 @@ layout: mfile
 title: glProgramUniform3fv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glProgramUniform3fv  Interface to OpenGL function glProgramUniform3fv

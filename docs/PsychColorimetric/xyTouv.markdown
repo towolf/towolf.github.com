@@ -3,6 +3,7 @@ layout: mfile
 title: xyTouv
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 uv = [xyTouv](/docs/xyTouv)\(xy,\[compute1960\]\)

@@ -3,6 +3,7 @@ layout: mfile
 title: PupilDiameterTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 PupilDiameterTest

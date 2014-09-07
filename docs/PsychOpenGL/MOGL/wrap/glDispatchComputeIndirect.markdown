@@ -3,6 +3,7 @@ layout: mfile
 title: glDispatchComputeIndirect
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDispatchComputeIndirect  Interface to OpenGL function glDispatchComputeIndirect

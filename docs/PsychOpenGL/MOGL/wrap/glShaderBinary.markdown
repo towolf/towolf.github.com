@@ -3,6 +3,7 @@ layout: mfile
 title: glShaderBinary
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glShaderBinary  Interface to OpenGL function glShaderBinary

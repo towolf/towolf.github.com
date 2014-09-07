@@ -3,6 +3,7 @@ layout: mfile
 title: kPsychNeedOutputConversion
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 rval = kPsychNeedOutputConversion
@@ -12,7 +13,7 @@ Return a flag that you can pass to the 'imagingmode' parameter of
 conversion operations needed to driver special output devices.
 
 If requested, Psychtoolbox will configure itself to support special
-OpenGL shader plugins for all kinds of on\-the\-fly conversions of final
+OpenGL shader plugins for all kinds of on-the-fly conversions of final
 image data into the special data format needed by special output devices.
 
 FIXME: More info...

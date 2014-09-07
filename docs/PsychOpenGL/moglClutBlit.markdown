@@ -3,11 +3,12 @@ layout: mfile
 title: moglClutBlit
 categories:
   - PsychOpenGL
+encoding: UTF-8
 ---
 
-EXPERIMENTAL \- BETA QUALITY:
+EXPERIMENTAL - BETA QUALITY:
 
-moglClutBlit\(win, src \[, newclut\]\) \-\- Blit an image into window, apply CLUT.
+moglClutBlit\(win, src \[, newclut\]\) -- Blit an image into window, apply CLUT.
 
 moglClutBlit copies a texture image 'src' \(either made via
 src = [Screen](/docs/Screen)\('MakeTexture', ...\) or an offscreen window created via
@@ -19,11 +20,11 @@ pixels according to the color lookup table.
 
 The color lookup table contains 256 rows with 3 columns. The i'th row
 contains the Red, green and blue color values to be used when an input
-pixel with colorindex i\-1 is used. Column 1 = Red component, column 2 =
+pixel with colorindex i-1 is used. Column 1 = Red component, column 2 =
 Green component, column 3 = blue component.
 
-The clut will be initialized to a gray\-level ramp, i.e. index 1 =
-\(0,0,0\), index i\+1 = \(i, i, i\), index 256 = \(255, 255, 255\).
+The clut will be initialized to a gray-level ramp, i.e. index 1 =
+\(0,0,0\), index i+1 = \(i, i, i\), index 256 = \(255, 255, 255\).
 
 # Arguments:
 
@@ -60,7 +61,7 @@ Note: This function requires you to use fairly recent graphics hardware
 with support for OpenGL Pixelshaders and the OpenGL shading language
 \(GLSL\). It won't work on old hardware. Use of cluts for 8 bit clut
 animation is deprecated. Today, most stimuli can be generated in much more
-flexible and elegant ways using PTB\-3's new drawing features and OpenGL
+flexible and elegant ways using PTB-3's new drawing features and OpenGL
 capabilities.
 
 

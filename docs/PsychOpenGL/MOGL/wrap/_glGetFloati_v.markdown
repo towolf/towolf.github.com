@@ -3,6 +3,7 @@ layout: mfile
 title: _glGetFloati_v
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetFloati\_v  Interface to OpenGL function glGetFloati\_v

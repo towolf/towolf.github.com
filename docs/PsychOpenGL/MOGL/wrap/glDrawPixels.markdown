@@ -3,6 +3,7 @@ layout: mfile
 title: glDrawPixels
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDrawPixels  Interface to OpenGL function glDrawPixels

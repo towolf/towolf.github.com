@@ -3,6 +3,7 @@ layout: mfile
 title: AdjoinRect
 categories:
   - PsychRects
+encoding: UTF-8
 ---
 
 rect=AdjoinRect\(rect,fixedRect,fixedSide\)

@@ -3,6 +3,7 @@ layout: mfile
 title: glFogCoordfv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glFogCoordfv  Interface to OpenGL function glFogCoordfv

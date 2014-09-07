@@ -3,14 +3,15 @@ layout: mfile
 title: DrawTextFontSwitchSpeedTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
-DrawTextFontSwitchSpeedTest \- Test font settings switching speed.
+DrawTextFontSwitchSpeedTest - Test font settings switching speed.
 
 This is a benchmark of the speed with which [Screen](/docs/Screen)\('DrawText'\) et al.
 can handle switching between different font settings between text
 drawing. Specifically it tests switching between different text sizes, text
-styles and font families. It also performs non\-switched drawing to establish
+styles and font families. It also performs non-switched drawing to establish
 a baseline.
 
 After running for a thousand repetitions for each conditon, it prints a
@@ -34,9 +35,9 @@ repetitions of those text settings. Therefore any repetition of a previously use
 setting is "free" and fast. The number of cacheable settings is limited, as it consumes
 memory, currently to about 40 different settings. If you exceed that number, [Screen](/docs/Screen)
 will expunge the least used settings and be intelligent about what to recycle and what
-not. If you use non\-repetitive settings then of course no caching in the world will help
-you. If no caching can be used \- or at first use of a setting \- subsequent text drawing will
-be about 10 \- 15 times slower.
+not. If you use non-repetitive settings then of course no caching in the world will help
+you. If no caching can be used - or at first use of a setting - subsequent text drawing will
+be about 10 - 15 times slower.
 
 On other operating systems, nothing will be cached or recycled, resulting in generally
 much slower text drawing speeds, even with constant text settings.

@@ -3,6 +3,7 @@ layout: mfile
 title: glDisable
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDisable  Interface to OpenGL function glDisable

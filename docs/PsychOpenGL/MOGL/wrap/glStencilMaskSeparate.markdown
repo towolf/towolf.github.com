@@ -3,6 +3,7 @@ layout: mfile
 title: glStencilMaskSeparate
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glStencilMaskSeparate  Interface to OpenGL function glStencilMaskSeparate

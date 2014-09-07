@@ -3,9 +3,10 @@ layout: mfile
 title: UseTheSource
 categories:
   - PsychDocumentation
+encoding: UTF-8
 ---
 
-UseTheSource \- How to access the Psychtoolbox source code.
+UseTheSource - How to access the Psychtoolbox source code.
 
 If you are interested in the source code for the C language
 modules of Psychtoolbox \(i.e., the MEX file extensions
@@ -17,11 +18,11 @@ GitHub.
 
 # To download the source code:
 
-1. Open a Unix terminal window on OS\-X or Linux or a NT command
-   shell on M$\-Windows.
+1. Open a Unix terminal window on OS-X or Linux or a NT command
+   shell on M$-Windows.
 
 2. Use the "svn" commandline tool to download source code. On
-   OS\-X or Linux, the svn tool is usually stored in the
+   OS-X or Linux, the svn tool is usually stored in the
    /usr/local/bin directory, you may want to add this to your
    PATH. On Windows, the svn client should be already in your
    %PATH%
@@ -29,32 +30,32 @@ GitHub.
 3. The following command would download the current development branch of
    the full PTB distribution into the subdirectory /Users/kleinerm/MyPTB :
 
-   svn checkout https://github.com/Psychtoolbox\-3/Psychtoolbox\-3/ /Users/kleinerm/MyPTB/
+   svn checkout https://github.com/Psychtoolbox-3/Psychtoolbox-3/ /Users/kleinerm/MyPTB/
 
    This command would download the full 'beta' distribution instead,
    which corresponds to the most recent official, tested, production release:
 
-   svn checkout https://github.com/Psychtoolbox\-3/Psychtoolbox\-3/branches/beta/ /Users/kleinerm/MyPTB/
+   svn checkout https://github.com/Psychtoolbox-3/Psychtoolbox-3/branches/beta/ /Users/kleinerm/MyPTB/
 
    Inside the /Users/kleinerm/MyPTB folder you would see the following
    subfolders:
 
-   Psychtoolbox/   \-\- The regular Psychtoolbox folder.
-   managementools/ \-\- Miscellaneous scripts for managing PTB releases.
-   PsychSourceGL/  \-\- The C source code for Psychtoolbox.
+   Psychtoolbox/   -- The regular Psychtoolbox folder.
+   managementools/ -- Miscellaneous scripts for managing PTB releases.
+   PsychSourceGL/  -- The C source code for Psychtoolbox.
 
    Inside PsychSourceGL you will find everything you need to understand
    or to modify Psychtoolbox inner working if you are brave and patient
-   enough ;\-\)
+   enough ;-\)
 
 #    As already mentioned, the toolbox itself is split into multiple branches:
 
-   trunk  \- The code that is currently under development. May or may not
+   trunk  - The code that is currently under development. May or may not
             compile and work at any given point in time, may or may not
             be consistent. For developers and early testers only\! This is
             a view onto the GitHub Git "master" branch.
 
-   beta   \- Source code corresponding to the current 'beta' release, derived
+   beta   - Source code corresponding to the current 'beta' release, derived
             from 'trunk'. This is what normal users should use, because
             it is somewhat tested.
 

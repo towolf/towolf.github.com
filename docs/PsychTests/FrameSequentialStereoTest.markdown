@@ -3,6 +3,7 @@ layout: mfile
 title: FrameSequentialStereoTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 FrameSequentialStereoTest\(screenid\)
@@ -34,16 +35,16 @@ C\) If you see either a constant green or a constant red during one run of the
 script, but you observe different colors at repeated runs of the script,
 or a slow switching between red and green, then that means that your
 hardware doesn't care about syncing bufferswaps to a fixed buffer,
-instead it just swaps at the next VBL, so either the left\- or the right\-
+instead it just swaps at the next VBL, so either the left- or the right-
 stereo buffer of a new stimulus will show first. The maximum flip rate is
 equal to the monitor refresh rate.
 
 In case C\) you are out of luck if you use Microsoft Windows. If you use
 Linux, then contact the forum with a feature request, we may implement a
 solution for you. If you run MacOS/X, you can 'force' the graphics
-hardware to always synchronize stimulus onset \(flip\) to either the left\-
+hardware to always synchronize stimulus onset \(flip\) to either the left-
 or the right buffers display cycle, and you can query which buffer was
-displayed first after flip, left\- or right. However this is a software
+displayed first after flip, left- or right. However this is a software
 trick which needs calibration. To test if the trick works on your setup,
 do the following:
 

@@ -3,6 +3,7 @@ layout: mfile
 title: DKLDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 [DKLDemo](/docs/DKLDemo)

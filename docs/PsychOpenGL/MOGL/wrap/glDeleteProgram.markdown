@@ -3,6 +3,7 @@ layout: mfile
 title: glDeleteProgram
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDeleteProgram  Interface to OpenGL function glDeleteProgram

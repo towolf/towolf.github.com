@@ -3,6 +3,7 @@ layout: mfile
 title: NormalROC
 categories:
   - Psychometric
+encoding: UTF-8
 ---
 
 ROC = NormalROC\(logbetas,us,vars,un,varn\)

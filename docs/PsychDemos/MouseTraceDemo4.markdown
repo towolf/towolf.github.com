@@ -3,6 +3,7 @@ layout: mfile
 title: MouseTraceDemo4
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 MouseTraceDemo4

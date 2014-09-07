@@ -3,6 +3,7 @@ layout: mfile
 title: glSecondaryColor3b
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glSecondaryColor3b  Interface to OpenGL function glSecondaryColor3b

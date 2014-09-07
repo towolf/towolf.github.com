@@ -3,6 +3,7 @@ layout: mfile
 title: GL_ZERO
 categories:
   - PsychAlphaBlending
+encoding: UTF-8
 ---
 
 constantString=GL\_ZERO

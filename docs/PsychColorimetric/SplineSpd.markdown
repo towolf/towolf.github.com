@@ -3,6 +3,7 @@ layout: mfile
 title: SplineSpd
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 \[spd\_out\] = SplineSpd\(wls\_in, spd\_in, wls\_out, \[extend\]\)

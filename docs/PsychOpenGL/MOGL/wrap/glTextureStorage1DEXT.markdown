@@ -3,6 +3,7 @@ layout: mfile
 title: glTextureStorage1DEXT
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glTextureStorage1DEXT  Interface to OpenGL function glTextureStorage1DEXT

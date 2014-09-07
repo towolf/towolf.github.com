@@ -3,19 +3,18 @@ layout: mfile
 title: PsychColorimetricMatFiles
 categories:
   - PsychColorimetricMatFiles
+encoding: UTF-8
 ---
 
 Psychtoolbox:PsychColorimetricData:PsychColorimetricMatFiles.
 
-help Psychtoolbox % For an overview, triple\-click me & hit enter.
-help PsychDemos   % For demos, triple\-click me & hit enter.
 help PsychColorimetricData
 help PsychColorimetric
 
 This folder holds colorimetric data in .mat file form.
 All data files are in a standard format.
 
-A very useful source for on\-line
+A very useful source for on-line
 colorimetric data is the CVRL database:
   http://cvrl.ioo.ucl.ac.uk/
 Many of the functions used here were downloaded from
@@ -29,7 +28,7 @@ used here \(with extension by zeros\).
     and delta are in nanometers.
 
   den\_xxx files contain optical density data.  In log units.  To
-    convert density values to transmittance, take 10^\(\-den\).  There
+    convert density values to transmittance, take 10^\(-den\).  There
     is also an S\_xxx vector.  Curiously, these are in column vectors
     in the .mat files.
 
@@ -37,7 +36,7 @@ used here \(with extension by zeros\).
     columns of matrix with name spd\_xxx.  There is also a S\_xxx
     vector.
 
-  sur\_xxx files contain surface reflectance functions \(range 0\-1\).  Data
+  sur\_xxx files contain surface reflectance functions \(range 0-1\).  Data
     are in columns of matrix with name sur\_xxx.  There is also an S\_xxx
     vector.
 
@@ -60,69 +59,69 @@ used here \(with extension by zeros\).
  See also: EnergyToQuanta, QuantaToEnergy, MakeItS, MakeItWls, MakeItStruct,
    SplineSpd, SplineSrf, SplineCmf.
 
-  B\_cieday            \- CIE daylight basis functions.
-  B\_cohen             \- Cohens basis functions for Munsell surfaces.
-  B\_monitor           \- Basis functions for a color monitor.
-  B\_nickerson         \- Basis functions for Munsell surfaces.
-  B\_roomillum         \- Basis functions for illuminants in Brainard's room.
-  B\_vrhel             \- Basis functions for Vrhel surface measurements.
-  den\_lens\_ws         \- Relative lens density data \(re 700 nm\).  W&S, Table 1\(2.4.6\), p. 109.
-                      \-   This is the first data set in the table, not the Norren and Vos
-                      \-   data.  It is for an open pupil.
-  den\_lens\_cie\_1      \- Part one of CIE component lens density function. CIE 170\-1:2006, Table 6.10
-  den\_lens\_cie\_2      \- Part two of CIE component lens density function. CIE 170\-1:2006, Table 6.10
-  den\_lens\_ssf        \- Stockman\-Sharpe\-Fach \(1999\) lens optical density spectrum.
-                      \-   See CVRL database, CIE 170\-1:2006, Table 6.10, 32 yo, pupil <= 3 degrees.
-                      \-   This is also the sum of den\_lens\_cie\_1 and den\_lens\_cie\_2
-  den\_mac\_bone        \- Macular pigment density from Bone et al. \(1992\).  See CVRL database, CIE 170\-1:2006, Table 6.4, 2\-deg.
-  den\_mac\_vos         \- Macular pigment density from Vos.  See CVRL database.
-  den\_mac\_ws          \- Macular pigment density from W&S, Table 2\(2.4.6\), p. 112.
-  spd\_appratusrel     \- Relative spectrum from a monitor.  Used by IsomerizationInDishDemo.
-  spd\_CIEA            \- Spectral power distribtion for CIE illuminant A.
-  spd\_CIEC            \- Spectral power distribution for CIE illuminant C.
-  spd\_D65             \- Spectral power distribution for CIE illuminant D65.
-  spd\_flourescent     \- Spectral power distribution for some flourescent lamp.
-  spd\_incanCC         \- Spectral power distribution for some incandescent lamp.
-  spd\_phillybright    \- Direct bright sunlight measured through window and off of a piece of white paper towel
-                      \-   on the floor of DB's office in Philly, March 2013.
-                      \-   Measurements made with PR\-650, power in Watts/\[m2\-sr\-wlband\].
-  spd\_xenonArc        \- Spectral power distribution for some xenon arc lamp.
-  spd\_xenonFlash      \- Spectral power distribuiton for some xenon flash tube.
-  sur\_nickerson       \- The Nickerson measurements of the Munsell papers.
-  sur\_macbeth         \- Reflectance of Macbeth color checker \(not accurate, needs updating\).
-  sur\_vrhel           \- Reflectances measured by Vrhel.
-  T\_CIE\_Y2            \- CIE physiologically relevant 2\-degree luminosity function.  See CVRL database.
-  T\_CIE\_Y10           \- CIE physiologically relevant 10\-degree luminosity function.  See CVRL database.
-  T\_cones\_smj         \- Stockman\-MacLeod\-Johnson cone fundamentals.  See CVRL database.
-  T\_cones\_smj10       \- Stockman\-MacLeod\-Johnson 10\-degree cone fundamentals.  See CVRL database.
-  T\_cones\_ss2         \- Stockman\-Sharpe \(2000\) 2\-degree cone fundamentals.  See CVRL database.
-  T\_cones\_ss10        \- Stockman\-Sharpe \(2000\) 10\-degree cone fundamentals.  See CVRL database.
-  T\_cones\_sp          \- Smith\-Pokorny cone fundamentals.  Specified between 380 and 780 nm, but non\-zero only between 400 and 700 nm.
-                      \-   This is probably because these were typed in by hand long ago from a table that only had data between 400 and 700 nm
-                      \-   and then zero extended to match the wavelength sampling of other data files.
-                      \-   It might be good to update these with data over the full specified range.
-  T\_DCS200            \- Sensitivities of a Kodak DCS\-200 color camera.
-  T\_ground            \- Not entirely sure what this is, but it might be ground squirrel receptor sensitivities.
-  T\_Lanom             \- Demarco et al. anomolous L cone sensitivity.
-  T\_log10coneabsorbance\_ss \- Stockman\-Sharpe \(2000\) log10 LMS cone photopigment absorbance.
-                      \-   See CVRL database, CIE 170\-1:2006, Table 6.6.
-                      \-   Some S\-cone values were unspecified for wls \> 615 nm in the table.
-                      \-   These were filled in here by linear extrapolation.
-                      \-   Note that you want to raise 10 to these numbers
-                      \-   to get absorbance, which itself is a log\-like quantity.
-  T\_Manom             \- Demarco et al. anomolous M cone sensitivity.
-  T\_photopigments\_ss  \- Removed.  Use T\_log10coneabsorbance and raise 10 to it.
-  T\_melanopsin        \- Melanopsin fundamental as provided by Lucas at
-                      \-   http://lucasgroup.lab.ls.manchester.ac.uk/research/measuringmelanopicilluminance/
-                      \-   This is for human observers at the cornea, in energy units.  Normalized to peak
-                      \-   of unity.
-  T\_rods              \- CIE scotopic luminous efficiency function.
-  T\_stiles2           \- Stiles 2\-degree color matching functions.
-  T\_ss2000\_Y2         \- Stockman\-Sharpe \(2000\) 2\-degree photopic luminance efficiency function.  See CVRL database.
-  T\_vos1978\_Y         \- Judd\-Vos 1978 photopic luminance efficiency function.
-  T\_xyz1931           \- CIE 1931 color matching functions.
-  T\_xyz1964           \- CIE 1964 supplemental color matching functions.
-  T\_xyzJuddVos        \- Judd\-Vos modified color matching functions.
+  B\_cieday            - CIE daylight basis functions.
+  B\_cohen             - Cohens basis functions for Munsell surfaces.
+  B\_monitor           - Basis functions for a color monitor.
+  B\_nickerson         - Basis functions for Munsell surfaces.
+  B\_roomillum         - Basis functions for illuminants in Brainard's room.
+  B\_vrhel             - Basis functions for Vrhel surface measurements.
+  den\_lens\_ws         - Relative lens density data \(re 700 nm\).  W&S, Table 1\(2.4.6\), p. 109.
+                      -   This is the first data set in the table, not the Norren and Vos
+                      -   data.  It is for an open pupil.
+  den\_lens\_cie\_1      - Part one of CIE component lens density function. CIE 170-1:2006, Table 6.10
+  den\_lens\_cie\_2      - Part two of CIE component lens density function. CIE 170-1:2006, Table 6.10
+  den\_lens\_ssf        - Stockman-Sharpe-Fach \(1999\) lens optical density spectrum.
+                      -   See CVRL database, CIE 170-1:2006, Table 6.10, 32 yo, pupil <= 3 degrees.
+                      -   This is also the sum of den\_lens\_cie\_1 and den\_lens\_cie\_2
+  den\_mac\_bone        - Macular pigment density from Bone et al. \(1992\).  See CVRL database, CIE 170-1:2006, Table 6.4, 2-deg.
+  den\_mac\_vos         - Macular pigment density from Vos.  See CVRL database.
+  den\_mac\_ws          - Macular pigment density from W&S, Table 2\(2.4.6\), p. 112.
+  spd\_appratusrel     - Relative spectrum from a monitor.  Used by IsomerizationInDishDemo.
+  spd\_CIEA            - Spectral power distribtion for CIE illuminant A.
+  spd\_CIEC            - Spectral power distribution for CIE illuminant C.
+  spd\_D65             - Spectral power distribution for CIE illuminant D65.
+  spd\_flourescent     - Spectral power distribution for some flourescent lamp.
+  spd\_incanCC         - Spectral power distribution for some incandescent lamp.
+  spd\_phillybright    - Direct bright sunlight measured through window and off of a piece of white paper towel
+                      -   on the floor of DB's office in Philly, March 2013.
+                      -   Measurements made with PR-650, power in Watts/\[m2-sr-wlband\].
+  spd\_xenonArc        - Spectral power distribution for some xenon arc lamp.
+  spd\_xenonFlash      - Spectral power distribuiton for some xenon flash tube.
+  sur\_nickerson       - The Nickerson measurements of the Munsell papers.
+  sur\_macbeth         - Reflectance of Macbeth color checker \(not accurate, needs updating\).
+  sur\_vrhel           - Reflectances measured by Vrhel.
+  T\_CIE\_Y2            - CIE physiologically relevant 2-degree luminosity function.  See CVRL database.
+  T\_CIE\_Y10           - CIE physiologically relevant 10-degree luminosity function.  See CVRL database.
+  T\_cones\_smj         - Stockman-MacLeod-Johnson cone fundamentals.  See CVRL database.
+  T\_cones\_smj10       - Stockman-MacLeod-Johnson 10-degree cone fundamentals.  See CVRL database.
+  T\_cones\_ss2         - Stockman-Sharpe \(2000\) 2-degree cone fundamentals.  See CVRL database.
+  T\_cones\_ss10        - Stockman-Sharpe \(2000\) 10-degree cone fundamentals.  See CVRL database.
+  T\_cones\_sp          - Smith-Pokorny cone fundamentals.  Specified between 380 and 780 nm, but non-zero only between 400 and 700 nm.
+                      -   This is probably because these were typed in by hand long ago from a table that only had data between 400 and 700 nm
+                      -   and then zero extended to match the wavelength sampling of other data files.
+                      -   It might be good to update these with data over the full specified range.
+  T\_DCS200            - Sensitivities of a Kodak DCS-200 color camera.
+  T\_ground            - Not entirely sure what this is, but it might be ground squirrel receptor sensitivities.
+  T\_Lanom             - Demarco et al. anomolous L cone sensitivity.
+  T\_log10coneabsorbance\_ss - Stockman-Sharpe \(2000\) log10 LMS cone photopigment absorbance.
+                      -   See CVRL database, CIE 170-1:2006, Table 6.6.
+                      -   Some S-cone values were unspecified for wls \> 615 nm in the table.
+                      -   These were filled in here by linear extrapolation.
+                      -   Note that you want to raise 10 to these numbers
+                      -   to get absorbance, which itself is a log-like quantity.
+  T\_Manom             - Demarco et al. anomolous M cone sensitivity.
+  T\_photopigments\_ss  - Removed.  Use T\_log10coneabsorbance and raise 10 to it.
+  T\_melanopsin        - Melanopsin fundamental as provided by Lucas at
+                      -   http://lucasgroup.lab.ls.manchester.ac.uk/research/measuringmelanopicilluminance/
+                      -   This is for human observers at the cornea, in energy units.  Normalized to peak
+                      -   of unity.
+  T\_rods              - CIE scotopic luminous efficiency function.
+  T\_stiles2           - Stiles 2-degree color matching functions.
+  T\_ss2000\_Y2         - Stockman-Sharpe \(2000\) 2-degree photopic luminance efficiency function.  See CVRL database.
+  T\_vos1978\_Y         - Judd-Vos 1978 photopic luminance efficiency function.
+  T\_xyz1931           - CIE 1931 color matching functions.
+  T\_xyz1964           - CIE 1964 supplemental color matching functions.
+  T\_xyzJuddVos        - Judd-Vos modified color matching functions.
 
 
 <div class="code_header" style="text-align:right;">

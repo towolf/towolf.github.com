@@ -3,6 +3,7 @@ layout: mfile
 title: glIndexPointer
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glIndexPointer  Interface to glIndexPointer

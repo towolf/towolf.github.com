@@ -3,6 +3,7 @@ layout: mfile
 title: glCallList
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glCallList  Interface to OpenGL function glCallList

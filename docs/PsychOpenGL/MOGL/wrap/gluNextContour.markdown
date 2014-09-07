@@ -3,6 +3,7 @@ layout: mfile
 title: gluNextContour
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluNextContour  Interface to OpenGL function gluNextContour

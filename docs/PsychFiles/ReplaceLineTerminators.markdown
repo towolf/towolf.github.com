@@ -3,6 +3,7 @@ layout: mfile
 title: ReplaceLineTerminators
 categories:
   - PsychFiles
+encoding: UTF-8
 ---
 
 newStr=ReplaceLineTerminators\(str, newTerminator\)

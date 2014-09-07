@@ -3,6 +3,7 @@ layout: mfile
 title: testcalib
 categories:
   - EyelinkTests
+encoding: UTF-8
 ---
 
 simple function to test calibration procedures

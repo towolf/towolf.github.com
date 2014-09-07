@@ -3,6 +3,7 @@ layout: mfile
 title: glFogf
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glFogf  Interface to OpenGL function glFogf

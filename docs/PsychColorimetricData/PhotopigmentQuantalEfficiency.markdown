@@ -3,6 +3,7 @@ layout: mfile
 title: PhotopigmentQuantalEfficiency
 categories:
   - PsychColorimetricData
+encoding: UTF-8
 ---
 
  quantalEfficiencies = PhotopigmentQuantalEfficiency.\(receptorTypes,\[species\],\[source\]\)

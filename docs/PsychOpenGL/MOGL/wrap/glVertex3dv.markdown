@@ -3,6 +3,7 @@ layout: mfile
 title: glVertex3dv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glVertex3dv  Interface to OpenGL function glVertex3dv

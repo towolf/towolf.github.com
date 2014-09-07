@@ -3,6 +3,7 @@ layout: mfile
 title: gluNurbsSurface
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluNurbsSurface  Interface to OpenGL function gluNurbsSurface

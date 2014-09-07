@@ -3,6 +3,7 @@ layout: mfile
 title: alIsExtensionPresent
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alIsExtensionPresent  Interface to OpenAL function alIsExtensionPresent

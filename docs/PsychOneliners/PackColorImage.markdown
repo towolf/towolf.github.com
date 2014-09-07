@@ -3,6 +3,7 @@ layout: mfile
 title: PackColorImage
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 output = PackColorImage\(red,green,blue\)

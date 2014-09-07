@@ -3,6 +3,7 @@ layout: mfile
 title: SmartVec
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 vect = SmartVec\(start,slength,step,mode\)
@@ -17,9 +18,9 @@ STEP is optional and indicates the stepsize of the series. Default is 1
   can be the same lenght as START if you want to provide a different
   stepsize for each segment
 MODE is optional and has two options:
-  'neg'  : the produced sequence will satisfy  : diff\(\[n n\+1\]\) = \-1
-  'flat' : the produced sequence will satisfy  : diff\(\[n n\+1\]\) =  0
-if no mode, the produced sequence will satisfy : diff\(\[n n\+1\]\) =  1
+  'neg'  : the produced sequence will satisfy  : diff\(\[n n+1\]\) = -1
+  'flat' : the produced sequence will satisfy  : diff\(\[n n+1\]\) =  0
+if no mode, the produced sequence will satisfy : diff\(\[n n+1\]\) =  1
 MODE can be the third input to the function if you do not wish to
 override the default stepsize
 
@@ -32,13 +33,13 @@ examples:
        1     2     3     5     6     7     8     9
   SmartVec\(\[1 5\],\[3 5\],'neg'\)
   ans =
-       1     0    \-1     5     4     3     2     1
+       1     0    -1     5     4     3     2     1
   SmartVec\(\[1 5\],\[3 5\],2,'neg'\)
   ans =
-       1     \-1   \-3     5     3     1     \-1    \-3
+       1     -1   -3     5     3     1     -1    -3
   SmartVec\(\[1 5\],3,'neg'\)
   ans =
-       1     0    \-1     5     4     3
+       1     0    -1     5     4     3
   SmartVec\(\[1 5\],\[3 5\],'flat'\)
   ans =
        1     1     1     5     5     5     5     5

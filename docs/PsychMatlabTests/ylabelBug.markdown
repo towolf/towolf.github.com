@@ -3,6 +3,7 @@ layout: mfile
 title: ylabelBug
 categories:
   - PsychMatlabTests
+encoding: UTF-8
 ---
 
 Mathworks Case ID: 297565, submitted 10/4/99.
@@ -41,7 +42,7 @@ apple developer
 
 Dear Denis,
 
-I am writing in response to your e\-mail regarding YLABEL. I believe the
+I am writing in response to your e-mail regarding YLABEL. I believe the
 following work around will help you.
 
 This is a bug and it has been reported to our development staff.

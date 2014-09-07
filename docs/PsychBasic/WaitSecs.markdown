@@ -3,24 +3,25 @@ layout: mfile
 title: WaitSecs
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 wakeup=WaitSecs\(s\)
 
 Waits "s" seconds with high precision.  The timing precision  depends on
 the model of your computer, but a well configured system will be accurate
-to about 1 millisecond if your script is executed with realtime\-priority
+to about 1 millisecond if your script is executed with realtime-priority
 \(See help [Priority](/docs/Priority)\) and well written.
 
 WaitSecs optionally returns the time at "wakeup" in seconds, just as a
 WaitSecs\(s\); wakeup = GetSecs; would do, but with less overhead.
 
-WaitSecs\(s\) is similar to Matlab's built\-in PAUSE\(s\) command. The
+WaitSecs\(s\) is similar to Matlab's built-in PAUSE\(s\) command. The
 advantage of WaitSecs\(s\) is that it is much more accurate. However, PAUSE
 can be turned 'ON' and 'OFF', which is useful for scripts.
 
 You can also use WaitSecs to wait until a specific time 'when' is reached,
-instead of waiting for a specific interval. This is a drift\-free approach,
+instead of waiting for a specific interval. This is a drift-free approach,
 even suitable for waiting a given interval, because errors can't accumulate:
 
 wakeup = WaitSecs\('UntilTime', when\);
@@ -36,31 +37,31 @@ stay in memory until you clear them.
 
 OS X: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-WaitSecs always uses the high\-precision uptime clock.  It sleeps the main
+WaitSecs always uses the high-precision uptime clock.  It sleeps the main
 MATLAB thread for the given wait period, surrendering CPU time to other
 processes while waiting.  WaitSecs is now safe to use at any priority
 setting.
 
-WaitSecs ignores the OX MATLAB <ctrl\>\-C break key sequenece.
+WaitSecs ignores the OX MATLAB <ctrl\>-C break key sequenece.
 
 WINDOWS:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 WaitSecs uses  Windows QueryPerformanceCounter\(\) call which, in turn,
-reads a high\-performance hardware counter in Pentium and better CPUs.
+reads a high-performance hardware counter in Pentium and better CPUs.
 
-WaitSecs ignores the Win MATLAB <ctrl\>\-C break key sequenece.
+WaitSecs ignores the Win MATLAB <ctrl\>-C break key sequenece.
 
 Linux: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-WaitSecs always uses the POSIX realtime high\-precision timing facilities
+WaitSecs always uses the POSIX realtime high-precision timing facilities
 \(clock\_nanosleep\(CLOCK\_RT,...\)\). It sleeps the main MATLAB thread for the
 given wait period, surrendering CPU time to other processes while waiting.
 WaitSecs is now safe to use at any priority setting.
 
 NB.: Use of a modern 2.6.x kernel is recommended, and many modern
 distros, e.g., Ubuntu 7.1, offer the option of installing a special
-low\-latency soft\-realtime \(preempt\) kernel for even higher timing
-precision \- or even a hard\-realtime kernel like RTLinux or RTAI. This is
+low-latency soft-realtime \(preempt\) kernel for even higher timing
+precision - or even a hard-realtime kernel like RTLinux or RTAI. This is
 as easy as a few mouse clicks and waiting a few minutes\!
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 

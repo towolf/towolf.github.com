@@ -3,6 +3,7 @@ layout: mfile
 title: SleepSecs
 categories:
   - PsychObsolete
+encoding: UTF-8
 ---
 
 SleepSecs\(s\)

@@ -3,6 +3,7 @@ layout: mfile
 title: alGenBuffers
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alGenBuffers  Interface to OpenAL function alGenBuffers

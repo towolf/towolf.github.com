@@ -3,6 +3,7 @@ layout: mfile
 title: CenterRect
 categories:
   - PsychRects
+encoding: UTF-8
 ---
 
 \[rect,dh,dv\] = CenterRect\(rect,fixedRect\)

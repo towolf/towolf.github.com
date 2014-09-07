@@ -3,6 +3,7 @@ layout: mfile
 title: IsEmptyRect
 categories:
   - PsychRects
+encoding: UTF-8
 ---
 
 isEmpty = IsEmptyRect\(a\)

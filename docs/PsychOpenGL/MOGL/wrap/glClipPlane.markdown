@@ -3,6 +3,7 @@ layout: mfile
 title: glClipPlane
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glClipPlane  Interface to OpenGL function glClipPlane

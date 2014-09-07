@@ -3,9 +3,10 @@ layout: mfile
 title: BeampositionTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
-BeampositionTest \- Test GPU scanout position \("beamposition"\) queries.
+BeampositionTest - Test GPU scanout position \("beamposition"\) queries.
 
 Usage: BeampositionTest\(\[n=10000\]\[, screenid=max\]\[, synced=0\]\)
 
@@ -26,7 +27,7 @@ where scanout starts at zero and increments up to the value VBL Endline,
 as reported by PTB's Matlab output. The histogram should show an even
 distribution \(a flat line\) across all bins from bin 0 to bin "VBL
 Endline". Query times should be in the low microsecond range, e.g.,
-not much more than 20\-30 usecs on a modern machine on average.
+not much more than 20-30 usecs on a modern machine on average.
 
 # Other things you might see:
 
@@ -45,39 +46,39 @@ Manual ways to enable the workaround are explained in 'help
 ConserveVRAMSettings', section 'kPsychUseBeampositionQueryWorkaround'.
 
 Beampositions implausibly high or low for your display. PTB may query the
-wrong display on a multi\-display setup. See 'help DisplayOutputMappings'
+wrong display on a multi-display setup. See 'help DisplayOutputMappings'
 for remedies.
 
-A flat\-line of all\-zero beampositions: Beamposition queries are
+A flat-line of all-zero beampositions: Beamposition queries are
 unsupported, disabled or broken on your setup. If you know they should
-work, then PTB may query the wrong display on a multi\-display setup. See
+work, then PTB may query the wrong display on a multi-display setup. See
 'help DisplayOutputMappings' for remedies. Another possible fix is
 installing and loading the PsychtoolboxKernelDriver on OSX \('help
 PsychtoolboxKernelDriver'\) or running PsychLinuxConfiguration on Linux
 and rebooting the machine once to enable our own beamposition query
 mechanism. On Linux this is not needed when using the free and
-open\-source graphics drivers, as these have a builtin timestamping
+open-source graphics drivers, as these have a builtin timestamping
 mechanism which is even more robust and precise than beampositionq
 queries. On Linux with NVidia or AMD proprietary binary drivers this is
 always needed once for a given machine. On OSX it is increasingly needed
 due to total lack of OS support on Intel and AMD graphics cards and
 increasingly broken support for NVidia graphics cards. On OSX with NVidia
 graphics cards you additionally need to apply the measures explained in
-'help ConserveVRAMSettings' \- the section about kPsychDontUseNativeBeamposQuery.
+'help ConserveVRAMSettings' - the section about kPsychDontUseNativeBeamposQuery.
 
-A flat\-line not at zero, but at some fixed value. See previous paragraph:
+A flat-line not at zero, but at some fixed value. See previous paragraph:
 Install the kernel drivers or setup Linux properly, apply the kPsychDontUseNativeBeamposQuery
 fix on OSX, possibly apply measures from 'help DisplayOutputMappings'.
 
-Weird looking non\-sawtooth patterns: This is a totally broken graphics
+Weird looking non-sawtooth patterns: This is a totally broken graphics
 driver, often to be found on Apple machines running OSX with Apple Retina
 displays or other LCD flat panels. See previous paragraph for fixes.
 
-\-\> Most fixes involve switching to our own implementation of beamposition
+-\> Most fixes involve switching to our own implementation of beamposition
 queries instead of using broken or missing OS implementations, and then
 some fiddling around.
 
-\-\> On MS\-Windows there's usually no way to fix broken queries beyond the
+-\> On MS-Windows there's usually no way to fix broken queries beyond the
 automatic fixes applied by [Screen](/docs/Screen)\(\) if it detects a problem.
 
 

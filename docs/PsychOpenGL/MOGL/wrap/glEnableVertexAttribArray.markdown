@@ -3,6 +3,7 @@ layout: mfile
 title: glEnableVertexAttribArray
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glEnableVertexAttribArray  Interface to OpenGL function glEnableVertexAttribArray

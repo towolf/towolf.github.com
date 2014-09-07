@@ -3,6 +3,7 @@ layout: mfile
 title: glTexSubImage1D
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glTexSubImage1D  Interface to OpenGL function glTexSubImage1D

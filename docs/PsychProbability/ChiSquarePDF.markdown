@@ -3,6 +3,7 @@ layout: mfile
 title: ChiSquarePDF
 categories:
   - PsychProbability
+encoding: UTF-8
 ---
 
 pdf = ChiSquarePDF\(x,df\)

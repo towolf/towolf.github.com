@@ -3,6 +3,7 @@ layout: mfile
 title: glCopyTexSubImage2D
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glCopyTexSubImage2D  Interface to OpenGL function glCopyTexSubImage2D

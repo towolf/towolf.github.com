@@ -3,6 +3,7 @@ layout: mfile
 title: glGetPointerv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetPointerv  Interface to glGetPointerv

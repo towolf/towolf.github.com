@@ -3,6 +3,7 @@ layout: mfile
 title: AddStructs
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 OUTSTRUCT = AddStructs\(BASE,A,B,...\)

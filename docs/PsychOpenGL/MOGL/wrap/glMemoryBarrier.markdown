@@ -3,6 +3,7 @@ layout: mfile
 title: glMemoryBarrier
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glMemoryBarrier  Interface to OpenGL function glMemoryBarrier

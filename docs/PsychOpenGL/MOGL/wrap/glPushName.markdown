@@ -3,6 +3,7 @@ layout: mfile
 title: glPushName
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glPushName  Interface to OpenGL function glPushName

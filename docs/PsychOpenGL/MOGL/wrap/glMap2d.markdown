@@ -3,6 +3,7 @@ layout: mfile
 title: glMap2d
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glMap2d  Interface to OpenGL function glMap2d

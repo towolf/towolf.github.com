@@ -3,6 +3,7 @@ layout: mfile
 title: MovieDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 MovieDemo
@@ -10,17 +11,17 @@ MovieDemo
 Show a movie, easy as pie.
 
 The comments below review the difference between the OS 9 version of
-the toolbox and PTB\-3.
+the toolbox and PTB-3.
 
 # New and different on OS Psychtoolbox:
 
- The OS 9 Psychtoolbox is based on QuickTime and PTB\-3 is
+ The OS 9 Psychtoolbox is based on QuickTime and PTB-3 is
  based on OpenGL.  Differences between these underlying graphics libraries
- have unavoidably resulted in differences between the OS 9 and PTB\-3
+ have unavoidably resulted in differences between the OS 9 and PTB-3
  versions of [Screen](/docs/Screen); Some subfunctions of OS 9 [Screen](/docs/Screen) are replaced by
- similar, but not identical functions in PTB\-3.
+ similar, but not identical functions in PTB-3.
 
- In OS 9:                   In PTB\-3
+ In OS 9:                   In PTB-3
 
   WaitBlanking              [Flip](/docs/Flip)
   PutImage                  MakeTexture
@@ -40,8 +41,8 @@ the toolbox and PTB\-3.
   vertical blank would occur while the CRT beam retraced to the upper
   left corner of the display.
 
-  In contrast, PTB\-3 onscreen windows by default have not one but two
-  buffers:  the front buffer and the back buffer.  In double\-buffered
+  In contrast, PTB-3 onscreen windows by default have not one but two
+  buffers:  the front buffer and the back buffer.  In double-buffered
   mode, all [Screen](/docs/Screen) drawing commands are issued to the back buffer, where
   what is drawn is hidden from view.  The contents of the back buffer
   remain hidden from view until The [Screen](/docs/Screen)\('[Flip](/docs/Flip)', ...\) command is
@@ -49,7 +50,7 @@ the toolbox and PTB\-3.
   contents of the front and back buffers, bringining into view on the
   display what had previosly been hidden in the back buffer.
 
- OpenOffscrenWindow \+ PutImage \+ CopyWindow vs. MakeTexture \+ DrawTexture
+ OpenOffscrenWindow + PutImage + CopyWindow vs. MakeTexture + DrawTexture
 
   In OS 9, PutImage copied a MATLAB matrix into an offsceen window.  The
   offscreen Window could then be quickly copied to the display during an
@@ -65,7 +66,7 @@ the toolbox and PTB\-3.
   Instead of using Offscreen Windows to quickly display MATLAB Matrices
   the OSX Psychtoolbox uses Textures.
 
-      Steps to quickly display an image matrix in PTB\-3:
+      Steps to quickly display an image matrix in PTB-3:
         1. Create a texture and copy into it a matrix by using MakeTexture
         2. Copy the texture quickly to the onscreen window using
         DrawTexure
@@ -82,9 +83,9 @@ the toolbox and PTB\-3.
   should be no need to prerender and buffer what is displayed during
   animation.
 
- Animation loops: OS 9 VS PTB\-3
+ Animation loops: OS 9 VS PTB-3
 
-  To understand the differences between OS 9 and PTB\-3 [Screen](/docs/Screen) its helpful
+  To understand the differences between OS 9 and PTB-3 [Screen](/docs/Screen) its helpful
   to compare animation loops:
 
 #   OS 9:
@@ -95,7 +96,7 @@ the toolbox and PTB\-3.
           [Screen](/docs/Screen)\('CopyWindow', offscreenWindow\(i\), window\);
       end
 
-#   PTB\-3:
+#   PTB-3:
 
       %generate textures here...
       for i=1:numberOfMovieFrames
@@ -113,7 +114,7 @@ See also: DriftDemo, PsychDemos.
 7/19/04  awi  restored [Priority](/docs/Priority), and time tests, added option to plot results.
 7/24/04  awi  Cosmetic
 9/8/04   awi  Added Try/Catch.
-4/23/05  mk   Added [Priority](/docs/Priority)\(0\) to Catch\-Section.
+4/23/05  mk   Added [Priority](/docs/Priority)\(0\) to Catch-Section.
 11/19/06 dhb  Remove OSX from name.
 
 

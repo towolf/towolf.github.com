@@ -3,6 +3,7 @@ layout: mfile
 title: DisplayUndistortionHalfCylinder
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 Create geometric display calibration file for projection onto a cylinder or sphere.
@@ -15,13 +16,13 @@ may not work for your purpose and may give totally wrong results.
 DisplayUndistortionHalfCylinder\(\[calibfilename\]\[, screenid\]\);
 
 Prepare display calibration file for projection of a flat screen image to
-a half\-cylindrical projection surface.
+a half-cylindrical projection surface.
 
 The script displays a calibration grid on screen 'screenid' \(or the
-auto\-selected screen if this parameter is omitted\). Use the keys
+auto-selected screen if this parameter is omitted\). Use the keys
 mentioned below to modify the grid until it is optimally aligned with
 your cylindrical projection surface. Save the final calibration settings
-to file 'calibfilename' \(or an auto\-selected default filename, if
+to file 'calibfilename' \(or an auto-selected default filename, if
 parameter is omitted\) by pressing the 's' key. Exit the procedure via
 pressing the ESCape key.
 
@@ -41,7 +42,7 @@ w      = Width of the projection area at a radius distance R in cm for
          sphere curvature correction.
 b      = Radius of the spherical projection screen for sphere curvature correction.
 
-\-\> Type "edit SphereProjectionShader.frag.txt" and look at the warp
+-\> Type "edit SphereProjectionShader.frag.txt" and look at the warp
 shader code for a full understanding of the roff and rpow coefficients
 for spherical remapping. Also see Psychtoolbox forum message 11660.
 

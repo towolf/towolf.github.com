@@ -3,6 +3,7 @@ layout: mfile
 title: glGetTexGenfv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetTexGenfv  Interface to OpenGL function glGetTexGenfv

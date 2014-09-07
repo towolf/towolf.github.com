@@ -3,6 +3,7 @@ layout: mfile
 title: MachGetPriorityMex
 categories:
   - PsychPriority
+encoding: UTF-8
 ---
 
 priorityStruct = MachGetPriorityMex\(policyFlavorString, defaultFlag\)
@@ -60,7 +61,7 @@ priorityFlavorString argument.
 
 There are three policy flavors but a thread may have only one of two
 policy modes: THREAD\_STANDARD\_POLICY or THREAD\_TIME\_CONSTRAINT\_POLICY.
-These are mutually\-exclusive modes; setting a thread to either one will
+These are mutually-exclusive modes; setting a thread to either one will
 unset the other mode.  The "importance" parameter associated with
 THREAD\_PRECEDENCE\_POLICY is preserved after either THREAD\_STANDARD\_POLICY
 or THREAD\_TIME\_CONSTRAINT\_POLICY is set, however the

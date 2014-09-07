@@ -3,6 +3,7 @@ layout: mfile
 title: moglCreateFBO
 categories:
   - PsychOpenGL
+encoding: UTF-8
 ---
 
 \[fbo , texids\] = moglCreateFBO\(width, height \[, nrbuffers, layers, format, withdepth, withstencil\]\)

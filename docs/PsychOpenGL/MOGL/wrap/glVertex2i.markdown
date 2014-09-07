@@ -3,6 +3,7 @@ layout: mfile
 title: glVertex2i
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glVertex2i  Interface to OpenGL function glVertex2i

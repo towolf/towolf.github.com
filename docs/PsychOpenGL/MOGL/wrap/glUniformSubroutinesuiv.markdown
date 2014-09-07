@@ -3,6 +3,7 @@ layout: mfile
 title: glUniformSubroutinesuiv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glUniformSubroutinesuiv  Interface to OpenGL function glUniformSubroutinesuiv

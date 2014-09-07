@@ -3,6 +3,7 @@ layout: mfile
 title: QuestMean
 categories:
   - Quest
+encoding: UTF-8
 ---
 
 t=QuestMean\(q\)

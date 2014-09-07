@@ -3,9 +3,10 @@ layout: mfile
 title: FDFDemo
 categories:
   - OpenGL4MatlabDemos
+encoding: UTF-8
 ---
 
-FDFDemo\(dotDensity, dotLifetime\) \- Demo of "formless dot field" stimulus
+FDFDemo\(dotDensity, dotLifetime\) - Demo of "formless dot field" stimulus
 via moglFDF.
 
 This demo generates a simple "formless dot field" random dot motion
@@ -18,7 +19,7 @@ stimulus.
 
 # The following optional parameters can be provided to FDFDemo:
 
-dotDensity = Number of dots to use for both, the background\- and
+dotDensity = Number of dots to use for both, the background- and
              foreground distribution. Defaults to 10000.
 
 dotLifetime = Lifetime of dots in frames. Defaults to 10 frames.
@@ -43,7 +44,7 @@ texture map of the drawn object.
 Arrow left/right control the density of dots, the 'dotDensity' paramter
 in decrements/increments of 5%.
 
-Arrow up\-/down controls the 'dotLifetime' in steps of \+/\- 1.
+Arrow up-/down controls the 'dotLifetime' in steps of +/- 1.
 
 
 

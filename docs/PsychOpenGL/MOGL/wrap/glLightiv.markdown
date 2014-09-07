@@ -3,6 +3,7 @@ layout: mfile
 title: glLightiv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glLightiv  Interface to OpenGL function glLightiv

@@ -3,6 +3,7 @@ layout: mfile
 title: MakeUnitLength
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 output = MakeUnitLength\(input\)

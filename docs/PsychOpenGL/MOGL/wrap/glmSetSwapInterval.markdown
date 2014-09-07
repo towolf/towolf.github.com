@@ -3,6 +3,7 @@ layout: mfile
 title: glmSetSwapInterval
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glmSetSwapInterval  Set number of video frames between buffer flushes

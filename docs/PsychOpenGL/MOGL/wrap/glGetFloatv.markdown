@@ -3,6 +3,7 @@ layout: mfile
 title: glGetFloatv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetFloatv  Interface to glGetFloatv

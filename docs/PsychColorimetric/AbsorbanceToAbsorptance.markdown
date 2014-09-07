@@ -3,6 +3,7 @@ layout: mfile
 title: AbsorbanceToAbsorptance
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 \[absorptanceSpectra, absorptanceSpectraWls\] =...
@@ -18,7 +19,7 @@ Both absorptance spectra and absorbance spectra describe quantal absorption.
 Absorbance spectra are normalized to a peak value of 1.
 Absorptance spectra are the proportion of quanta actually absorbed.
 
-Equation: absorptanceSpectra = 1 \- 10.^\(\-OD \* absorbanceSpectra\)
+Equation: absorptanceSpectra = 1 - 10.^\(-OD \* absorbanceSpectra\)
 
 Multiple spectra may be passed in the rows of absorbanceSpectra.  If
 so, then the same number of densities should be passed in the vector
@@ -30,8 +31,8 @@ and the returned wavelength information is in the same format as passed.
 
 A useful fact about this conversion is the following.  For small axial optical densities
 the absorptance spectrum is a scaled version of the absorbance spectrum.  This follows
-if we take the Taylor expansion of 1 \- 10.^\(\-x\) for small values of x.  We find that
-that is 1 \- \(10^0 \+ \(\-ln\(10\)\*x\) = ln\(10\)\*x.  Plugging in OD\*absorbanceSpectra for x
+if we take the Taylor expansion of 1 - 10.^\(-x\) for small values of x.  We find that
+that is 1 - \(10^0 + \(-ln\(10\)\*x\) = ln\(10\)\*x.  Plugging in OD\*absorbanceSpectra for x
 we get the absorptanceSpectra = ln\(10\)\*OD\*absorbanceSpectra.
 
 

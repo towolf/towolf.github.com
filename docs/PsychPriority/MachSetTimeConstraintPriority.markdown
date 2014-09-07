@@ -3,6 +3,7 @@ layout: mfile
 title: MachSetTimeConstraintPriority
 categories:
   - PsychPriority
+encoding: UTF-8
 ---
 
 MachSetTimeConstraintPriority\(periodSecs,computationSecs, constraintSecs, preemptibleFlag\)
@@ -26,7 +27,7 @@ complete. Argument "constraintSecs" specifies a period in which
 computationSecs of CPU usage  is guranteed  to complete.  Note that
 constraintSecs must be \>= computationSecs because computationSecs of CPU
 usage can not complete in less than  computationSecs. The maximum latency
-from the start of a computation to the end is constraintSecs \-
+from the start of a computation to the end is constraintSecs -
 computationSecs.
 
 Setting the preemptibleFlag flag allows MATLAB to be interrupted subject
@@ -54,10 +55,10 @@ MachSetTimeConstraintPriority is primarily intended to be used with
 [Screen](/docs/Screen)\('CopyWindow'\) animations to avoid interruptions for periods long
 enough to cause your animation script to miss an entire video frame.
 For animations:
-      periodSecs\- should be set to the video frame period as obtained
+      periodSecs- should be set to the video frame period as obtained
       with 1/[Screen](/docs/Screen)\('FrameRate'\).
 
-      computationSecs\- should exceed the maximum amount of time which
+      computationSecs- should exceed the maximum amount of time which
       your  script requires to render any single video frame.
 
       constraintSecs need only be greater than computationSecs and less
@@ -85,7 +86,7 @@ Mario Kleiner     mk
 
 # HISTORY:
 8/13/03   awi     Wrote it.
-2/17/05   mk      bug\-fix: constraintSecs argument was ignored.
+2/17/05   mk      bug-fix: constraintSecs argument was ignored.
 4/6/05    awi     Added Mario's bug fix to Psychtoolbox.org master.
 4/6/05    awi     Replaced "GetBusFrequencymex" calls with "MachTimebase"
 4/8/05    awi     Changed "MachTimebase" to "MachAbsoluteTimeClockFrequency"

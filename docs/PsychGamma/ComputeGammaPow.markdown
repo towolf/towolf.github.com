@@ -3,6 +3,7 @@ layout: mfile
 title: ComputeGammaPow
 categories:
   - PsychGamma
+encoding: UTF-8
 ---
 
 output = ComputeGammaPow\(x,input\)

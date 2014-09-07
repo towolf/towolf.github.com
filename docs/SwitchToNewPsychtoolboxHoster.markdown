@@ -3,6 +3,7 @@ layout: mfile
 title: SwitchToNewPsychtoolboxHoster
 categories:
   - .
+encoding: UTF-8
 ---
 
 Switch a installed Psychtoolbox working copy to our new host GoogleCode.

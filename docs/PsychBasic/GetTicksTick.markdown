@@ -3,6 +3,7 @@ layout: mfile
 title: GetTicksTick
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
  tickPeriod = GetTicksTick

@@ -3,6 +3,7 @@ layout: mfile
 title: AnsiZ136MPEComputeExtendedSourcePhotochemicalLimit
 categories:
   - PsychAnsiZ136MPE
+encoding: UTF-8
 ---
 
 \[MPEPhotochemicalIntegratedRadiance\_JoulesPerCm2Sr, ...
@@ -18,7 +19,7 @@ at the Matlab prompt.
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 Compute time photochemical MPE for an extended source
-ANSI Z136.1\-2007, Table 5b, p. 75.
+ANSI Z136.1-2007, Table 5b, p. 75.
 
 Set CONELIMITFLAG to false \(default true\) to skip the asterisked
 alternative computation desribed in Table 5 \(see comments in code\).

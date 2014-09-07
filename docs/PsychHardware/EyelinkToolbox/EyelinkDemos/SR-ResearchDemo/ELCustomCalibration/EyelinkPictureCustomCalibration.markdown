@@ -3,6 +3,7 @@ layout: mfile
 title: EyelinkPictureCustomCalibration
 categories:
   - ELCustomCalibration
+encoding: UTF-8
 ---
 
 

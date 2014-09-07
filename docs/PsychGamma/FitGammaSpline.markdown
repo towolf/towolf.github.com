@@ -3,6 +3,7 @@ layout: mfile
 title: FitGammaSpline
 categories:
   - PsychGamma
+encoding: UTF-8
 ---
 
 \[fit\_out,x,err\] = FitGammaSpline\(values\_in,measurements,values\_out\)

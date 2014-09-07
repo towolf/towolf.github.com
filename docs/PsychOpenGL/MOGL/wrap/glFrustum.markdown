@@ -3,6 +3,7 @@ layout: mfile
 title: glFrustum
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glFrustum  Interface to OpenGL function glFrustum

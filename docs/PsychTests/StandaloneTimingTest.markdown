@@ -3,6 +3,7 @@ layout: mfile
 title: StandaloneTimingTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 StandaloneTimingTest\(use\_sigsetjmp, savemask\)

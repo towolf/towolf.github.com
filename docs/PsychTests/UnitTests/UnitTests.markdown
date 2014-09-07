@@ -3,14 +3,15 @@ layout: mfile
 title: UnitTests
 categories:
   - UnitTests
+encoding: UTF-8
 ---
 
-list of m\-files that come with PTB, current as of revision 2302,
+list of m-files that come with PTB, current as of revision 2302,
 September 19th, 2011.
 
 Run unit tests by executing the script PsychtoolboxRoot\\PsychTests\\UnitTestRunAll.m
 
-for each m\-file, the function that tests it is listed, if any
+for each m-file, the function that tests it is listed, if any
 
 generate with:
   str = DirList\(PsychToolBoxRoot,true,\[\],\[\],'.svn|.FBCLockFolder|PsychHardware|PsychOpenGL|MOAL|PsychDocumentation|PsychDemos|PsychTests|PsychObsolete|PsychMatlabTests','\\.m$',true\)
@@ -285,21 +286,21 @@ PsychContributed/WinTab/wintabfastLoop.m
 PsychContributed/WinTab/wintabslowLoop.m
 PsychContributed/ple.m
 PsychContributed/read\_rle\_rgbe.m
-PsychFiles/BreakLines.m                                                 \- Files\_Test\_LineTerminators.m
+PsychFiles/BreakLines.m                                                 - Files\_Test\_LineTerminators.m
 PsychFiles/CheckDirs.m
 PsychFiles/DirList.m
-PsychFiles/FileFromFolder.m                                             \- Files\_Test\_FileFromFolder.m
+PsychFiles/FileFromFolder.m                                             - Files\_Test\_FileFromFolder.m
 PsychFiles/FindFolder.m
-PsychFiles/FolderFromFolder.m                                           \- Files\_Test\_FileFromFolder.m
-PsychFiles/LiteralUnderscore.m                                          \- trivial
-PsychFiles/LogVar.m                                                     \- Files\_Test\_FileVar2Str.m
+PsychFiles/FolderFromFolder.m                                           - Files\_Test\_FileFromFolder.m
+PsychFiles/LiteralUnderscore.m                                          - trivial
+PsychFiles/LogVar.m                                                     - Files\_Test\_FileVar2Str.m
 PsychFiles/PsychHomeDir.m
 PsychFiles/PsychSaveAsEps.m
 PsychFiles/PsychtoolboxConfigDir.m
-PsychFiles/QuoteString.m                                                \- trivial
+PsychFiles/QuoteString.m                                                - trivial
 PsychFiles/ReadStructsFromText.m
-PsychFiles/ReplaceLineTerminators.m                                     \- Files\_Test\_LineTerminators.m
-PsychFiles/Var2Str.m                                                    \- Files\_Test\_FileVar2Str.m
+PsychFiles/ReplaceLineTerminators.m                                     - Files\_Test\_LineTerminators.m
+PsychFiles/Var2Str.m                                                    - Files\_Test\_FileVar2Str.m
 PsychFiles/WriteStructsToText.m
 PsychGLImageProcessing/Add2DConvolutionToGLOperator.m
 PsychGLImageProcessing/Add2DSeparableConvolutionToGLOperator.m
@@ -407,10 +408,10 @@ PsychJava/IsPsychJavaPathSet.m
 PsychJava/JavaTimeToGetSecs.m
 PsychJava/PsychJavaTrouble.m
 PsychJava/psychusejava.m
-PsychOneliners/AddStructs.m                                             \- Oneliners\_Test\_Structs.m
+PsychOneliners/AddStructs.m                                             - Oneliners\_Test\_Structs.m
 PsychOneliners/AltSize.m
 PsychOneliners/AppleVersion.m
-PsychOneliners/AreStructsEqualOnFields.m                                \- Oneliners\_Test\_Structs.m
+PsychOneliners/AreStructsEqualOnFields.m                                - Oneliners\_Test\_Structs.m
 PsychOneliners/[Ask](/docs/Ask).m
 PsychOneliners/AssertGLSL.m
 PsychOneliners/AssertMex.m
@@ -421,7 +422,7 @@ PsychOneliners/BlackIndex.m
 PsychOneliners/CatStr.m
 PsychOneliners/CenterMatOnPoint.m
 PsychOneliners/[Circle](/docs/Circle).m
-PsychOneliners/CleanStruct.m                                            \- Oneliners\_Test\_Structs.m
+PsychOneliners/CleanStruct.m                                            - Oneliners\_Test\_Structs.m
 PsychOneliners/CreateUniformDotsIn3DFrustum.m
 PsychOneliners/CropBlackEdges.m
 PsychOneliners/DeEmptify.m
@@ -431,7 +432,7 @@ PsychOneliners/DotOffset.m
 PsychOneliners/[Ellipse](/docs/Ellipse).m
 PsychOneliners/EnforcePos.m
 PsychOneliners/[Explode](/docs/Explode).m
-PsychOneliners/FillEmptyFields.m                                        \- Oneliners\_Test\_Structs.m
+PsychOneliners/FillEmptyFields.m                                        - Oneliners\_Test\_Structs.m
 PsychOneliners/FindInd.m
 PsychOneliners/FindRepeatAlongDims.m
 PsychOneliners/FrameRate.m
@@ -445,7 +446,7 @@ PsychOneliners/GetString.m
 PsychOneliners/GetSubversionPath.m
 PsychOneliners/GetWithDefault.m
 PsychOneliners/GrayIndex.m
-PsychOneliners/GroupStructArrayByFields.m                               \- Oneliners\_Test\_Structs.m
+PsychOneliners/GroupStructArrayByFields.m                               - Oneliners\_Test\_Structs.m
 PsychOneliners/ImageToVec.m
 PsychOneliners/Ind2Str.m
 PsychOneliners/[Interleave](/docs/Interleave).m
@@ -492,7 +493,7 @@ PsychOneliners/SortCell.m
 PsychOneliners/Speak.m
 PsychOneliners/[Stopwatch](/docs/Stopwatch).m
 PsychOneliners/StrPad.m
-PsychOneliners/Struct2Vect.m                                            \- Oneliners\_Test\_Structs.m
+PsychOneliners/Struct2Vect.m                                            - Oneliners\_Test\_Structs.m
 PsychOneliners/TextBounds.m
 PsychOneliners/TextCenteredBounds.m
 PsychOneliners/UnpackColorImage.m

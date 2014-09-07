@@ -3,6 +3,7 @@ layout: mfile
 title: VideoRecordingDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 VideoRecordingDemo\(moviename \[, codec=0\] \[, withsound=1\] \[, showit=1\] \[, windowed=1\]\)
@@ -12,12 +13,12 @@ Demonstrates simple video capture and recording to a movie file.
 Supports [GStreamer](/docs/GStreamer) on all systems, and DC1394 engine on Linux and OSX.
 
 Please look at the source code of the demo carefully\! Both MacOSX and
-MS\-Windows often need special treatment in terms of codec and parameter
+MS-Windows often need special treatment in terms of codec and parameter
 selection to work reliably \(or to be honest: To work at all\).
 
 The demo starts the videocapture engine, recording video from the default
 video source and \(optionally\) sound from the default audio source. It
-encodes the video\+audio data with the selected 'codec' and writes it to the
+encodes the video+audio data with the selected 'codec' and writes it to the
 'moviename' movie file. Optionally it previews the recorded
 video onscreen \(often at a much lower framerate to keep system load low
 enough for reliable recording\). Recording ends if any key is pressed on
@@ -39,9 +40,9 @@ work at specific framerates or for specific image sizes.
 The supported codecs and settings with [GStreamer](/docs/GStreamer) can be found in the code
 and are explained in 'help VideoRecording'.
 
-Empirically, the MPEG\-4 or H264 codecs seem to provide a good tradeoff
+Empirically, the MPEG-4 or H264 codecs seem to provide a good tradeoff
 between quality, compression, speed and cpu load. They allow to reliably
-record drop\-free sound and video with a resolution of 640x480 pixels at
+record drop-free sound and video with a resolution of 640x480 pixels at
 30 frames per second.
 
 H.264 has better quality and higher compression, but is able to nearly
@@ -52,16 +53,16 @@ Some of the other codecs may provide the highest image quality and lowest
 cpu load, but they also produce huge files, e.g., all the DVxxx codecs
 for PAL and NTSC video capture, as well as the component video codecs.
 
-'withsound' If set to non\-zero, sound will be recorded as well. This is
+'withsound' If set to non-zero, sound will be recorded as well. This is
 the default.
 
-'showit' If non\-zero, video will be shown onscreen during recording
+'showit' If non-zero, video will be shown onscreen during recording
 \(default: Show it\). Not showing the video during recording will
 significantly reduce system load, so this may help to sustain a skip free
 recording on lower end machines.
 
-'windowed' If set to non\-zero, show captured video in a window located at
-the top\-left corner of the screen, instead of fullscreen. Windowed
+'windowed' If set to non-zero, show captured video in a window located at
+the top-left corner of the screen, instead of fullscreen. Windowed
 display is the default.
 
 

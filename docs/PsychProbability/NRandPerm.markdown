@@ -3,6 +3,7 @@ layout: mfile
 title: NRandPerm
 categories:
   - PsychProbability
+encoding: UTF-8
 ---
 
 NRandPerm Random permutation.

@@ -3,6 +3,7 @@ layout: mfile
 title: glDeleteProgramPipelines
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDeleteProgramPipelines  Interface to OpenGL function glDeleteProgramPipelines

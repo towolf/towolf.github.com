@@ -3,6 +3,7 @@ layout: mfile
 title: glSeparableFilter2D
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glSeparableFilter2D  Interface to OpenGL function glSeparableFilter2D

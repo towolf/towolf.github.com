@@ -3,17 +3,18 @@ layout: mfile
 title: ISO2007MPEComputeType1ContinuousRadianceTHWeightedValue
 categories:
   - PsychISO2007MPE
+encoding: UTF-8
 ---
 
 \[val\_UWattsPerSrCm2,limit\_UWattsPerSrCm2\] = ISO2007MPEComputeType1ContinuousRadianceTHWeightedValue\(...
     S,radiance\_WattsPerSrM2,weightingR,stimulusDurationSecs\)
 
  Compute the weighted thermal radiance for Type 1 instruments as given on page 9, Table 2,
- 5.4.1.6.b.  Note.  The limit specified there is 6 W/\[sr\-cm2\].  I reduced to 5.88 because
- this is the worst\-case Type 2 limit \(largest retinal diameter spot, see Table 4, 5.5.1.5b\),
+ 5.4.1.6.b.  Note.  The limit specified there is 6 W/\[sr-cm2\].  I reduced to 5.88 because
+ this is the worst-case Type 2 limit \(largest retinal diameter spot, see Table 4, 5.5.1.5b\),
  and it seemed more conservative to do so.
 
- Input spectrum is radiance in units of Watts/\[sr\-m2\-wlinterval\].
+ Input spectrum is radiance in units of Watts/\[sr-m2-wlinterval\].
 
  Also return the exposure limit for this quantity.
 
@@ -35,7 +36,7 @@ categories:
  flux through two apertures at a known distance apart.  It would then make sense that you'd
  want to know the radiance defined by the direction subtended by a 7 mm aperture at the
  cornea, e.g. right where a large pupil would be.  If you measure using some other device
- \(e.g. a PhotoResearch PR\-XXX that directly obtains radiance and do so from the eye position,
+ \(e.g. a PhotoResearch PR-XXX that directly obtains radiance and do so from the eye position,
  that also seems reasonable.
 
  \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*

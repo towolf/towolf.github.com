@@ -3,6 +3,7 @@ layout: mfile
 title: moglDrawDots3D
 categories:
   - PsychOpenGL
+encoding: UTF-8
 ---
 
 Draw a large number of dots in 3D very efficiently.
@@ -33,7 +34,7 @@ execution speed of your code\!
 # Parameters and their meaning:
 
 'windowPtr' Handle of window or texture to draw into.
-'xyz' A 3\-by\-n or 4\-by\-n matrix of n dots to draw. Each column defines
+'xyz' A 3-by-n or 4-by-n matrix of n dots to draw. Each column defines
 one dot to draw, either as 3D position \(x,y,z\) or 4D position \(x,y,z,w\).
 Must be a double matrix\!
 
@@ -44,14 +45,14 @@ sizes is much less efficient than drawing of dots of identical sizes\! Try
 to group many dots of identical size into separate calls to this function
 for best performance\!
 
-'dotcolor' optional: Either a 3 or 4\-component \[R,G,B\] or \[R,G,B,A\] color
-touple with a common drawing color, or a 3\-by\-n or 4\-by\-n matrix of
+'dotcolor' optional: Either a 3 or 4-component \[R,G,B\] or \[R,G,B,A\] color
+touple with a common drawing color, or a 3-by-n or 4-by-n matrix of
 colors, one \[R;G;B;A\] column for each individual dot. A common color for
 all dots is faster.
 
 'dot\_type' optional: A setting of zero will draw rectangular dots, a
 setting of 1 will draw round dots, a setting of 2 will draw round dots of
-extra high quality if the hardware supports that. For anti\-aliased dots
+extra high quality if the hardware supports that. For anti-aliased dots
 you must select a setting of 1 or 2 and enable alpha blending as well.
 
 'glslshader' optional: If omitted, shading state is not changed. If set
@@ -59,7 +60,7 @@ to zero, then the standard fixed function OpenGL pipeline is used, like
 in [Screen](/docs/Screen)\('DrawDots'\) \(under most circumstances\). If a positive
 glslshader handle to a GLSL shading program object is provided, that
 shader program will be used. You can use this, e.g., to bind a custom vertex
-shader to perform complex per\-dot calculations very fast on the GPU.
+shader to perform complex per-dot calculations very fast on the GPU.
 
 See
 

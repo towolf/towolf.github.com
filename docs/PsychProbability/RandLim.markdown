@@ -3,9 +3,10 @@ layout: mfile
 title: RandLim
 categories:
   - PsychProbability
+encoding: UTF-8
 ---
 
-returns pseudo\-random values drawn from a uniform distribution with lower
+returns pseudo-random values drawn from a uniform distribution with lower
 and upper limits LOWER and UPPER.
 LOWER and UPPER can also be matrices of the same shape as rand\(N\) would
 create

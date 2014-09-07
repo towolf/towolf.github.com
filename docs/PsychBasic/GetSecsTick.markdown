@@ -3,6 +3,7 @@ layout: mfile
 title: GetSecsTick
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 tickDuration=GetSecsTick

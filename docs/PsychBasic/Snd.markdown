@@ -3,6 +3,7 @@ layout: mfile
 title: Snd
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 err = [Snd](/docs/Snd)\(command,\[signal\],\[rate\],\[sampleSize\]\)
@@ -16,30 +17,29 @@ driver, which is recommended for most purposes.
 
 [Snd](/docs/Snd)\(\) is a rather dumb and primitive wrapper around the PsychPortAudio\(\)
 driver. It uses PsychPortAudio's most basic functionality to achieve
-"sort of ok" sound playback. The driver is used in high\-latency,
-low\-timing precision mode, so [Snd](/docs/Snd)\(\)'s audio playback timing will likely
+"sort of ok" sound playback. The driver is used in high-latency,
+low-timing precision mode, so [Snd](/docs/Snd)\(\)'s audio playback timing will likely
 be very unreliable.
 
 Alternatively you can create an empty file named '[Snd](/docs/Snd)\_use\_oldstyle.txt' in
 the PsychtoolboxConfigDir\(\) folder, ie., \[PsychtoolboxConfigDir '[Snd](/docs/Snd)\_use\_oldstyle.txt'\]
-This will enable the old\-style implementation of [Snd](/docs/Snd)\(\), which is equally
+This will enable the old-style implementation of [Snd](/docs/Snd)\(\), which is equally
 shoddy and works as follows:
 
-While [Snd](/docs/Snd) used to use a special purpose low level driver on MacOS\-9 which
+While [Snd](/docs/Snd) used to use a special purpose low level driver on MacOS-9 which
 was well suited for cognitive science, [Snd](/docs/Snd) for all other operating
-systems \(Windows, MacOS\-X, Linux\) just calls into Matlab's Sound\(\)
-function which is of varying \- but usually pretty poor \- quality in most
-implementations of Matlab. There are many bugs, latency\- and timing
+systems \(Windows, MacOS-X, Linux\) just calls into Matlab's Sound\(\)
+function which is of varying - but usually pretty poor - quality in most
+implementations of Matlab. There are many bugs, latency- and timing
 problems associated with the use of [Snd](/docs/Snd).
 
 GNU/OCTAVE: If you don't use the PsychPortAudio based [Snd](/docs/Snd)\(\) functin, then
-you must install the optional octave "audio" package from Octave\-Forge,
+you must install the optional octave "audio" package from Octave-Forge,
 as of Octave 3.0.5, otherwise the required sound\(\) function won't be
 available and this function will fail\!
 
 
-Supported functions:
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
+# Supported functions
 
 [Snd](/docs/Snd)\('Play', signal \[, rate\]\[, sampleSize\]\) plays a sound.
 
@@ -48,12 +48,12 @@ currently is 22254.5454545454 Hz on all platforms for the old style sound
 implementation, and the default device sampling rate if PsychPortAudio is
 used. This default may change in the future, so please either specify a
 rate, or use this function to get the default rate. \(This default is
-suboptimal on any system except MacOS\-9, but kept for backwards
+suboptimal on any system except MacOS-9, but kept for backwards
 compatibility\!\)
 
 The optional 'sampleSize' argument used with [Snd](/docs/Snd)\('Play'\) is only retained
 for backwards compatibility and has no meaning, unless you opt in to use
-the old\-style implementation on Matlab with some operating systems. \- It
+the old-style implementation on Matlab with some operating systems. - It
 is checked for correctness, but other than that it is ignored. Allowable
 values are either 8 or 16.
 
@@ -74,7 +74,7 @@ leaves the channel open.
 
 "signal" must be a numeric array of samples.
 
-Your "signal" data should lie between \-1 and 1 \(smaller to play more
+Your "signal" data should lie between -1 and 1 \(smaller to play more
 softly\). If the "signal" array has one row then it's played monaurally,
 through both speakers. If it has two rows then it's played in stereo.
 \([Snd](/docs/Snd) has no provision for changing which speaker\(s\), or the volume, used

@@ -3,6 +3,7 @@ layout: mfile
 title: glIsFramebufferEXT
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glIsFramebufferEXT  Interface to OpenGL function glIsFramebufferEXT

@@ -3,6 +3,7 @@ layout: mfile
 title: glDrawTransformFeedbackStream
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDrawTransformFeedbackStream  Interface to OpenGL function glDrawTransformFeedbackStream

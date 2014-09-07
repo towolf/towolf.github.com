@@ -3,6 +3,7 @@ layout: mfile
 title: kPsychNeedDualWindowOutput
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 rval = kPsychNeedDualWindowOutput
@@ -10,7 +11,7 @@ rval = kPsychNeedDualWindowOutput
 Return a flag that you can pass to the 'imagingmode' parameter of
 [Screen](/docs/Screen)\('OpenWindow'\) in order to request support for output of the same
 visual stimulus to two different onscreen windows, but with separate
-post\-processing and output formatting for each window in the builtin
+post-processing and output formatting for each window in the builtin
 imaging pipeline.
 
 FIXME: More info...

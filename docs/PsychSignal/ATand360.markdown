@@ -3,6 +3,7 @@ layout: mfile
 title: ATand360
 categories:
   - PsychSignal
+encoding: UTF-8
 ---
 
 ang = ATand360\(y,x\)

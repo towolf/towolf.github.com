@@ -3,6 +3,7 @@ layout: mfile
 title: TrolandTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 TrolandTest

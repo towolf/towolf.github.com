@@ -3,6 +3,7 @@ layout: mfile
 title: ComputeRMSE
 categories:
   - PsychGamma
+encoding: UTF-8
 ---
 
 rmse = ComputeRMSE\(data,predict,SUPRESS\_WARNING\)
@@ -10,7 +11,7 @@ rmse = ComputeRMSE\(data,predict,SUPRESS\_WARNING\)
 Compute a root fractional SSE between data and prediction.
 Inputs should be column vectors.
 Actual code is:
-  diff = predict\-data;
+  diff = predict-data;
   rmse = sqrt\(\(diff'\*diff\)/\(data'\*data\)\);
 
 The routine badly named, because what it computes

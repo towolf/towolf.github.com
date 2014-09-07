@@ -3,6 +3,7 @@ layout: mfile
 title: glutWireSphere
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glutWireSphere  Interface to OpenGL function glutWireSphere

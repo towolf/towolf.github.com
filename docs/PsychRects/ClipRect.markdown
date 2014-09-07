@@ -3,6 +3,7 @@ layout: mfile
 title: ClipRect
 categories:
   - PsychRects
+encoding: UTF-8
 ---
 
 newRect = ClipRect\(a,b\)

@@ -3,6 +3,7 @@ layout: mfile
 title: alSourceiv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alSourceiv  Interface to OpenAL function alSourceiv

@@ -3,6 +3,7 @@ layout: mfile
 title: glGetShaderPrecisionFormat
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetShaderPrecisionFormat  Interface to OpenGL function glGetShaderPrecisionFormat

@@ -3,6 +3,7 @@ layout: mfile
 title: alDeleteSources
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alDeleteSources  Interface to OpenAL function alDeleteSources

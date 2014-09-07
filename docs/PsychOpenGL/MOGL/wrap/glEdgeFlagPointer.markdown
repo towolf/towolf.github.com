@@ -3,6 +3,7 @@ layout: mfile
 title: glEdgeFlagPointer
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glEdgeFlagPointer  Interface to glEdgeFlagPointer

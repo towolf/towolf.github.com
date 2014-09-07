@@ -3,12 +3,13 @@ layout: mfile
 title: MakeSincImage
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 image =  MakeSincImage\(freq,i0,j0,nRowPixels,\[nColPixels\]\)
 
-Computes a two\-dimensional sinc function image.
-The sinc function has cut\-off frequency freq
+Computes a two-dimensional sinc function image.
+The sinc function has cut-off frequency freq
 \(in cycles/image\) and is positioned at \(i0,j0\).
 
 The image has dimensions nRowPixels by nColPixels.

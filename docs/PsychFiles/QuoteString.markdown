@@ -3,6 +3,7 @@ layout: mfile
 title: QuoteString
 categories:
   - PsychFiles
+encoding: UTF-8
 ---
 
 string=QuoteString\(string\)

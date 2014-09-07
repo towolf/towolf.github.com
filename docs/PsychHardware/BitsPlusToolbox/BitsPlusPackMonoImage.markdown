@@ -3,16 +3,17 @@ layout: mfile
 title: BitsPlusPackMonoImage
 categories:
   - BitsPlusToolbox
+encoding: UTF-8
 ---
 
 \[theColorImage,reconNewWay,reconOldWay\] = BitsPlusPackMonoImage\(theMonoImage\)
 
-In Mono\+\+ mode, the Bits\+\+ box uses the red and green
-channels to provide 14\-bits per pixel true intensity
+In Mono++ mode, the Bits++ box uses the red and green
+channels to provide 14-bits per pixel true intensity
 resolution.  The blue channel is set to 0 to let the
 monochromatic image through.   Empirically, we concluded
 that the packing is left adjusted.  That is, the 8 MSB
-of the 14\-bit input go into the red channel, and the
+of the 14-bit input go into the red channel, and the
 6 LSB get left aligned in the green channel, with
 the remaining two bits set to 0.
 

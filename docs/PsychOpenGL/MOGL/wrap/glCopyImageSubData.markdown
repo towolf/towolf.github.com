@@ -3,6 +3,7 @@ layout: mfile
 title: glCopyImageSubData
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glCopyImageSubData  Interface to OpenGL function glCopyImageSubData

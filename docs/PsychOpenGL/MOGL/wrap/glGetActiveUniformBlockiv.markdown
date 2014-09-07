@@ -3,6 +3,7 @@ layout: mfile
 title: glGetActiveUniformBlockiv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetActiveUniformBlockiv  Interface to OpenGL function glGetActiveUniformBlockiv

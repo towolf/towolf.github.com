@@ -3,6 +3,7 @@ layout: mfile
 title: glTexSubImage2D
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glTexSubImage2D  Interface to OpenGL function glTexSubImage2D

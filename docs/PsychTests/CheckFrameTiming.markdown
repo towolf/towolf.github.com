@@ -3,6 +3,7 @@ layout: mfile
 title: CheckFrameTiming
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
  \[times, badOut, misses\]=CheckFrameTiming\(\[rectSize=128\]\[, scale=1\]\[, dur=30\]\[, thresh=0.05\]\[, runPriority=MaxPriority\('KbCheck'\)\]\[, useWhen=0\]\[,useDrawingFinished=1\]\)
@@ -18,7 +19,7 @@ categories:
          scale = 2, then each noise pixel would be replicated to draw an image
          that is twice the width and height of the input noise image. In this
          demo, a nearest neighbour filter is applied, i.e., pixels are just
-         replicated, not bilinearly filtered \-\- Important to preserve statistical
+         replicated, not bilinearly filtered -- Important to preserve statistical
          independence of the random pixel values\!
 
  dur   = seconds to display
@@ -28,14 +29,14 @@ categories:
  runPriority = the priority at which to run
 
  useWhen = 0 for no when parameter sent to [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\) \(seems to give
-           better timing.  any other value sends lastVbl \+ .5\*ifi
+           better timing.  any other value sends lastVbl + .5\*ifi
 
  useDrawingFinished = 0 to use [Screen](/docs/Screen)\('DrawingFinished'\). mario's comment
                       suggets it may slow thigns down, but edf thinks it is supposed to speed
                       things up and only printing its return value would slow things down.
 
 return vals:
-times is a vector of inter\-vbl\-times as measured by [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\)
+times is a vector of inter-vbl-times as measured by [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\)
 badOut is 3 x N, with one column for each frame whose time deviates by more than thresh % from the ifi
    row 1 is the frame number
    row 2 is the measured frame time

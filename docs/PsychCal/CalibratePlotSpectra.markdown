@@ -3,6 +3,7 @@ layout: mfile
 title: CalibratePlotSpectra
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 fig = CalibratePlotSpectra\(cal,\[fig\]\)

@@ -3,6 +3,7 @@ layout: mfile
 title: glMultTransposeMatrixd
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glMultTransposeMatrixd  Interface to OpenGL function glMultTransposeMatrixd

@@ -3,6 +3,7 @@ layout: mfile
 title: DaqtoolboxConfigDir
 categories:
   - Daq
+encoding: UTF-8
 ---
 
 Syntax: AbsolutePath = DaqtoolboxConfigDir

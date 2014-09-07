@@ -3,12 +3,13 @@ layout: mfile
 title: Priority
 categories:
   - PsychPriority
+encoding: UTF-8
 ---
 
 oldPriority=[Priority](/docs/Priority)\(\[newPriority\]\)
 
 Query and optionally set the execution priority of your script to
-'newPriority' and switch from non\-realtime to realtime scheduling \(for
+'newPriority' and switch from non-realtime to realtime scheduling \(for
 'newPriority' values greater than zero\).
 
 Higher priority levels will reduce the chance of other running
@@ -29,8 +30,8 @@ OS X: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 Unlike on OS 9 and Windows, On OS X setting a high priority will not
 disable important parts of your computer such as the keybaord and hard
 drive. [Priority](/docs/Priority) calls the Psychtoolbox mex function MachSetPriority.  For
-simple, OS\-neutral control of process priority on OS X use [Priority](/docs/Priority). For
-complicated, fine\-grained, OS\-specific control of process priority use
+simple, OS-neutral control of process priority on OS X use [Priority](/docs/Priority). For
+complicated, fine-grained, OS-specific control of process priority use
 MachSetPriority.
 
 At priority settings greater than 0, your script must limit MATLAB's  use
@@ -60,7 +61,7 @@ If your computer has multiple video displays running at different frame
 rates then [Priority](/docs/Priority) will choose the shortest frame period.
 
 The consequence of a thread exceeding the specified limits on CPU usage
-are that the MACH kernel will revoke its real\-time priority status.
+are that the MACH kernel will revoke its real-time priority status.
 However, the threshold at which the MACH kernel decices to revoke
 priority is not known.  We have observed that at 100% CPU usage the
 Jaguar Mach kernel will revoke priority after 2.5 seconds, indepent of
@@ -82,10 +83,10 @@ thread priority levels, they determine the absolute priority level of the
 Psychtoolbox threads. Threads are executed in a "round robin" fashion on
 Windows, with the  lower priority threads getting cpu time slice only
 when no higher priority thread is ready to execute. Currently, no tests
-have been done to see what tasks are pre\-empted by setting the Matlab
-process to real\-time priority. It does seem to block keyboard input,
+have been done to see what tasks are pre-empted by setting the Matlab
+process to real-time priority. It does seem to block keyboard input,
 though, so for example if you have a clut animation going on at priority
-level 2, then the force\-quit key combo \(Ctrl\-Alt\-Delete\) does not  work.
+level 2, then the force-quit key combo \(Ctrl-Alt-Delete\) does not  work.
 However, the keyboard inputs are still sent to the message queue, so
 GetChar or GetClicks still work if they are also called at priority level
 2.
@@ -104,10 +105,10 @@ your Linux distribution or from the NeuroDebian repositories, it may be
 neccessary to execute the PsychLinuxConfiguration function manually.
 
 GNU/Linux supports priority levels between 0 and 99. Zero means standard
-non\-realtime timesharing operation \-\- Play fair with all other
+non-realtime timesharing operation -- Play fair with all other
 applications. Increasing values greater than zero mean realtime mode: The
 Matlab/Octave process is scheduled in realtime mode with a priority
-corresponding to the given number \- higher means better, but also more
+corresponding to the given number - higher means better, but also more
 likelihood of interfering with system processes. Try to stick to a level
 of 1 unless you have reason to go higher. Level one is usually
 sufficient, unless you run other realtime applications on the same

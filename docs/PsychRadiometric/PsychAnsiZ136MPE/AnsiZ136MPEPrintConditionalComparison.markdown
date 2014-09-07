@@ -3,6 +3,7 @@ layout: mfile
 title: AnsiZ136MPEPrintConditionalComparison
 categories:
   - PsychAnsiZ136MPE
+encoding: UTF-8
 ---
 
 AnsiZ136MPEPrintConditionalComparison\(string,compareFormat,mainVal,compareVal,\[LOG10FLAG\]\)

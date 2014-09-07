@@ -3,6 +3,7 @@ layout: mfile
 title: IsOctave
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 resultFlag = IsOctave

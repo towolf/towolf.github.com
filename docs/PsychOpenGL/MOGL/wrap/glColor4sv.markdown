@@ -3,6 +3,7 @@ layout: mfile
 title: glColor4sv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glColor4sv  Interface to OpenGL function glColor4sv

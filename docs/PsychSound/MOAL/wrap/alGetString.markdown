@@ -3,6 +3,7 @@ layout: mfile
 title: alGetString
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 s = alGetString\(enum\)

@@ -3,12 +3,13 @@ layout: mfile
 title: ConserveVRAMSettings
 categories:
   - PsychDocumentation
+encoding: UTF-8
 ---
 
 ConserveVRAMSettings: Workaround for flawed hardware and drivers
 
 The command [Screen](/docs/Screen)\('[Preference](/docs/Preference)', 'ConserveVRAM', mode\); can be used to
-enable a couple of special work\-arounds inside [Screen](/docs/Screen) to work around
+enable a couple of special work-arounds inside [Screen](/docs/Screen) to work around
 broken operating systems, graphics drivers or graphics hardware, or to
 work around ressource limitations of graphics hardware.
 
@@ -32,34 +33,34 @@ that only has very small amounts of VRAM, e.g., only 16 MB or 8 MB VRAM.
 2 == kPsychDontCacheTextures: A setting of 2 asks Psychtoolbox not to
 cache used textures in the graphics hardware local VRAM memory. This will
 save some VRAM memory at the expense of lower drawing performance. Only
-useful on gfx\-hardware with low amounts of VRAM and only works on
+useful on gfx-hardware with low amounts of VRAM and only works on
 MacOS/X. The flag is silently ignored on Windows and Linux.
 
 
 4 == kPsychOverrideWglChoosePixelformat: This is a workaround for broken
-MS\-Windows graphics drivers: [Ask](/docs/Ask) [Screen](/docs/Screen) to not use the
+MS-Windows graphics drivers: [Ask](/docs/Ask) [Screen](/docs/Screen) to not use the
 wglChoosePixelFormat\(\) command when creating a new onscreen window. This
 can prevent crashes on such broken setups, but it will disable OpenGL
-multisampling for anti\-aliasing, ie., the 'multisample' parameter of
+multisampling for anti-aliasing, ie., the 'multisample' parameter of
 [Screen](/docs/Screen)\('OpenWindow'\) will be ignored. In the future, other special
 capabilities will be disabled as well.
 
 
 8 == kPsychDisableContextIsolation: This is a workaround for broken
-MS\-Windows graphics drivers: Do not create separate isolated OpenGL
+MS-Windows graphics drivers: Do not create separate isolated OpenGL
 rendering contexts for [Screen](/docs/Screen) and MOGL when using low level OpenGL 3D
 graphics commands with OpenGL for Matlab. This prevents crashes on broken
 setups, but debugging of your own 3D code may become much harder. Its
 better to upgrade to the latest fixed drivers.
 Before you try this setting 8, first try if the setting 256 \(see below\)
-fixes the problem for you. That is a softer approach \- If it works for
+fixes the problem for you. That is a softer approach - If it works for
 you then you won't lose any important functionality\!
 
 
 16 == kPsychDontAttachStencilToFBO: Do not attach stencil buffer
 attachments to OpenGL framebuffer objects when using OpenGL 3D graphics
 in conjunction with the Psychtoolbox imaging pipeline. This is again a
-workaround for some broken MS\-Windows graphics drivers to make the 3D \+
+workaround for some broken MS-Windows graphics drivers to make the 3D +
 imaging combo work at least when no stencil buffer is needed.
 
 
@@ -79,18 +80,18 @@ testing and debugging of scripts that need floating point support on
 hardware that doesn't support this. Not generally useful for production
 use.
 
-On MS\-Windows this allows to use the Microsoft GDI software renderer,
+On MS-Windows this allows to use the Microsoft GDI software renderer,
 ie., to not abort if that renderer is detected. Normally [Screen](/docs/Screen)\(\) would
 abort when detecting the GDI renderer.
 
 
 128 == kPsychEnforceForegroundWindow: Request application of the Windows
 GDI calls SetForegroundWindow\(\) and SetFocus\(\) on each created onscreen
-window on MS\-Windows. This may improve reliabilty of onscreen windows
+window on MS-Windows. This may improve reliabilty of onscreen windows
 staying in front of all other windows, but is incompatible with the use
 of GetChar, CharAvail and ListenChar, so it must be requested with this
-flag. These calls are unfortunately absolutely crucial on MS\-Vista and
-later operating systems to guarantee artifact free \(tear\-free\) and timing
+flag. These calls are unfortunately absolutely crucial on MS-Vista and
+later operating systems to guarantee artifact free \(tear-free\) and timing
 accuratestimulus onset and robust and accurate stimulus onset
 timestamping. Therefore they are automatically applied to all fullscreen
 windows on Windows Vista and later operating systems. See the option
@@ -100,11 +101,11 @@ stimulus presentation.
 
 
 256 == kPsychUseWindowsContextSharingWorkaround1
-On MS\-Windows, skip a few not too essential setup steps when creating a
+On MS-Windows, skip a few not too essential setup steps when creating a
 userspace OpenGL rendering context for 3D mode. This is a "soft" version
-of kPsychDisableContextIsolation \-\- Less intrusive as it doesn't disable
+of kPsychDisableContextIsolation -- Less intrusive as it doesn't disable
 context isolation completely, but only a subset. May be able to
-work\-around an NVidia driver bug reported in March 2008 on GF8xxx series.
+work-around an NVidia driver bug reported in March 2008 on GF8xxx series.
 
 
 512 == kPsychAvoidCPUGPUSync: Avoid any internal calls \(if possible\) that
@@ -121,19 +122,19 @@ speedup at all, but it will always reduce robustness\!
 
 
 1024 == kPsychTextureUploadFormatOverride
-Tell PTB to use the opposite texture format of what its auto\-detection
-thinks is optimal. [Screen](/docs/Screen) contains code to auto\-detect certain type of
-graphics chips with broken drivers and tries to work\-around them by
+Tell PTB to use the opposite texture format of what its auto-detection
+thinks is optimal. [Screen](/docs/Screen) contains code to auto-detect certain type of
+graphics chips with broken drivers and tries to work-around them by
 chosing different parameters for fast texture creation in certains
 circumstances. In case those vendors should ever fix their drivers and
-thereby the built\-in workaround becoming invalid, this allows to override
+thereby the built-in workaround becoming invalid, this allows to override
 PTB's choice. This is mostly to work around broken ATI drivers on
-MS\-Windows which cause miserable texture creation performance with the
+MS-Windows which cause miserable texture creation performance with the
 standard optimized settings.
 
 
 2048 == kPsychAvoidFramebufferBlitIfPossible
-Tell PTB to not use the EXT\_framebuffer\_blit extension if a lower\-speed
+Tell PTB to not use the EXT\_framebuffer\_blit extension if a lower-speed
 workaround solution exists. This will mostly affect the operation of
 [Screen](/docs/Screen)\('CopyWindow'\) when the imaging pipeline is active. Normally a more
 flexible, capable, faster method would be used, unless you set this flag
@@ -142,7 +143,7 @@ to fall back to the old solution.
 
 4096 == kPsychUseBeampositionQueryWorkaround
 Tell PTB to always use the workaround for broken beamposition queries in
-VBL on MS\-Windows, even if the automatic startup test does not detect any
+VBL on MS-Windows, even if the automatic startup test does not detect any
 problems. This for rare cases where the test fails to detect broken
 setups.
 
@@ -162,11 +163,11 @@ a desktop compositor is supported on your operating system. Currently
 this flags affects operation on MacOS/X and on Microsoft Windows Vista
 and later versions of Windows.
 
-On Windows Vista and Windows\-7, it will enforce use of the Windows Aero
+On Windows Vista and Windows-7, it will enforce use of the Windows Aero
 desktop compositor \(aka DWM or Desktop Window Manager\). Accuracy and
 reliability of visual stimulus onset timing and the accuracy and
 reliability of stimulus onset timestamps will be greatly reduced in this
-mode \- up to the point of being completely useless for timed stimulus
+mode - up to the point of being completely useless for timed stimulus
 presentation. The mode may however be useful for debugging and code
 development as a convenience feature. By default, PTB disables the DWM as
 soon as a fullscreen window is opened, unless the
@@ -177,29 +178,29 @@ On Mac OS/X this will cause PTB to always use the Cocoa API for OpenGL
 system setup, and to always use Quartz composited regular windows instead
 of fullscreen contexts, even if the requested onscreen window is a
 fullscreen window. Normally PTB would use the CGL API for fullscreen
-windows, but this was broken for dual\-display operations on some systems
+windows, but this was broken for dual-display operations on some systems
 running OS/X Leopard 10.5 with all modern NVidia cards. Stimulus onset
 timing, animations and timestamping precision will be horrible in this
 mode. Only suitable for presentation of mostly static stimuli with no
-requirements for frame\-accurate timing.
+requirements for frame-accurate timing.
 
 
 32768 == kPsychBusyWaitForVBLBeforeBufferSwapRequest
 If [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\) in sync with vertical retrace is requested and
-beamposition queries are supported, use a busy\-waiting, high cpu load
-spin\-wait loop to wait for onset of vertical blank interval \(VBL\) before
+beamposition queries are supported, use a busy-waiting, high cpu load
+spin-wait loop to wait for onset of vertical blank interval \(VBL\) before
 submitting doublebuffer swaprequests to the GPU. This is meant as a
-last\-ressort workaround for GPU's with severely broken sync\-to\-VBL
+last-ressort workaround for GPU's with severely broken sync-to-VBL
 support. The only known current example is the Apple Leopard operatings
 system when used with NVidia Geforce 8000 GPU's or later in
-frame\-sequential stereo mode. This will create a very high cpu load and
+frame-sequential stereo mode. This will create a very high cpu load and
 may have negative side effects on system timing. Use as last resort\!
 
 
 65536 \(= 2^16\) == kPsychDontUseNativeBeamposQuery
 Do not use operating system native beamposition queries, but try to use
 own mechanism, or none at all. This to work around bugs in OS native
-beamposition query mechanisms, e.g., Leopard 10.5.7 \+ ATI GPU's.
+beamposition query mechanisms, e.g., Leopard 10.5.7 + ATI GPU's.
 
 
 131072 \(= 2^17\) == kPsychDisableAeroDWM
@@ -212,9 +213,9 @@ to force the DWM off.
 
 262144 \(= 2^18\) == kPsychPreventForegroundWindow
 Prevent calls to the Windows GDI functions SetForegroundWindow\(\) and
-SetFocus\(\) on each created fullscreen onscreen window on MS\-Windows.
+SetFocus\(\) on each created fullscreen onscreen window on MS-Windows.
 These calls would prevent proper use of GetChar\(\), but are needed on
-MS\-Vista and later for proper visual stimulus onset timing. With this
+MS-Vista and later for proper visual stimulus onset timing. With this
 flag you can make a conscious decision between proper stimulus display
 and use of GetChar.
 
@@ -262,7 +263,7 @@ Do not use the enhanced [Screen](/docs/Screen)\('AsyncFlipBegin'\) implementatio
 allows for more parallelism between your code and pending async flips.
 There is no reason to use this flag except for benchmarking by PTB
 developers. Or, of course, if you should happen to have an operating
-system \+ graphics driver \+ GPU combo which performs much worse with the
+system + graphics driver + GPU combo which performs much worse with the
 new method than with the old one.
 
 
@@ -273,19 +274,19 @@ full Psychtoolbox image processing pipeline on supported GPU's for stereo
 display modes which would benefit from it.
 
 On Psychtoolbox versions released before the year 2012, you needed to
-enable those two features manually. 2012\+ PTB's will auto\-enable on
+enable those two features manually. 2012+ PTB's will auto-enable on
 suitable hardware if this promises improvements in performance,
 flexibility or robustness. In the unlikely case you should encounter
 problems with this behaviour due to graphics driver or operating system
-bugs, you can revert to the old opt\-in behaviour: The PsychImaging\(\)
+bugs, you can revert to the old opt-in behaviour: The PsychImaging\(\)
 command then allows you to enable those features manually and separately,
 just as on pre 2012 PTB's.
 
 
 2^25 == kPsychOldStyleOverrideRedirect
-Use the old\-school method of setting the override\_redirect property
+Use the old-school method of setting the override\_redirect property
 of X11 Windows on Linux, as it was done until end 2012. This just as
-a safe\-guard in case somebody runs a very exotic or old Linux setup,
+a safe-guard in case somebody runs a very exotic or old Linux setup,
 where the new method doesn't work.
 
 
@@ -299,16 +300,16 @@ own implementation whenever possible. The OSX native implementation is
 only supported on NVidia gpu's anymore, scheduled for removal in a future
 OSX version \(marked as deprecated in Apple developer documentation\!\),
 always slightly broken and more noisy, imprecise and higher overhead than
-our own implementation. At least on OSX 10.8 with GeForce\-600 gpu's, the
+our own implementation. At least on OSX 10.8 with GeForce-600 gpu's, the
 OSX implementation is completely broken for anything but analog VGA CRT
 displays, ie., it delivers bogus results for any kind of internal or
 external digital lcd flat panel\!
 
 
-\-\-\> It's always better to update your graphics drivers with fixed
+--\> It's always better to update your graphics drivers with fixed
 versions or buy proper hardware than using these workarounds. They are
 meant as a last ressort, e.g., if you need to get something going quickly
-or can't get access to bug\-fixed drivers.
+or can't get access to bug-fixed drivers.
 
 
 

@@ -3,6 +3,7 @@ layout: mfile
 title: glRenderbufferStorageMultisample
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glRenderbufferStorageMultisample  Interface to OpenGL function glRenderbufferStorageMultisample

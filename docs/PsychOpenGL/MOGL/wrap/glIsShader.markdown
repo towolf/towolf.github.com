@@ -3,6 +3,7 @@ layout: mfile
 title: glIsShader
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glIsShader  Interface to OpenGL function glIsShader

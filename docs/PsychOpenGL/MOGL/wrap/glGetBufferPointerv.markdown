@@ -3,6 +3,7 @@ layout: mfile
 title: glGetBufferPointerv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetBufferPointerv  Interface to glGetBufferPointerv

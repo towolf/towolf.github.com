@@ -3,9 +3,10 @@ layout: mfile
 title: moglfreeall
 categories:
   - wrap
+encoding: UTF-8
 ---
 
-moglfreeall \-\- Free all memory buffers inside mogl which were previously
+moglfreeall -- Free all memory buffers inside mogl which were previously
 created via calls to ptr = moglmalloc\(...\) or ptr = moglcalloc\(...\).
 
 After successfull release, all Pointers will be invalid, \*do not use them anymore\*

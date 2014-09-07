@@ -3,6 +3,7 @@ layout: mfile
 title: glGetVertexAttribdv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetVertexAttribdv  Interface to OpenGL function glGetVertexAttribdv

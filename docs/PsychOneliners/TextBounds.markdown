@@ -3,6 +3,7 @@ layout: mfile
 title: TextBounds
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 bounds=TextBounds\(window,string\)

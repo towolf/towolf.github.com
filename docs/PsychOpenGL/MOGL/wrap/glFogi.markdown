@@ -3,6 +3,7 @@ layout: mfile
 title: glFogi
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glFogi  Interface to OpenGL function glFogi

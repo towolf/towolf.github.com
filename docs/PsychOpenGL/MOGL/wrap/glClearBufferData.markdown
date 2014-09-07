@@ -3,6 +3,7 @@ layout: mfile
 title: glClearBufferData
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glClearBufferData  Interface to OpenGL function glClearBufferData

@@ -3,6 +3,7 @@ layout: mfile
 title: FindThreshWeibYN
 categories:
   - Psychometric
+encoding: UTF-8
 ---
 
 threshold = FindThreshWeibYN\(pcorrect, alpha, beta\)
@@ -11,7 +12,7 @@ threshold = FindThreshWeibYN\(pcorrect, alpha, beta\)
  for given pcorrect, alpha, and beta.
  This function should invert ComputeWeibullYN\(\).
 
- threshold = alpha \* pow\( \-1.0\*log\(1.0\-pyes\) , 1.0/beta \);
+ threshold = alpha \* pow\( -1.0\*log\(1.0-pyes\) , 1.0/beta \);
 
 
 <div class="code_header" style="text-align:right;">

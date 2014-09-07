@@ -3,6 +3,7 @@ layout: mfile
 title: CheckWls
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 \[errorRet\] = CheckWls\(wls1,wls2,\[quiet\]\)

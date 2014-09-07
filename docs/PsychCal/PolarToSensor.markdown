@@ -3,6 +3,7 @@ layout: mfile
 title: PolarToSensor
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 \[sensor\] = PolarToSensor\(pol\)

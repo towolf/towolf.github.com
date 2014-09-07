@@ -3,6 +3,7 @@ layout: mfile
 title: glutSolidTorus
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glutSolidTorus  Interface to OpenGL function glutSolidTorus

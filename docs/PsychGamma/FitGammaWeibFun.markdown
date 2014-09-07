@@ -3,6 +3,7 @@ layout: mfile
 title: FitGammaWeibFun
 categories:
   - PsychGamma
+encoding: UTF-8
 ---
 
 \[err,con\] = FitGammaWeibFun\(x,values,measurements\)

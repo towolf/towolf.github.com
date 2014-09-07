@@ -3,6 +3,7 @@ layout: mfile
 title: glObjectPtrLabel
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glObjectPtrLabel  Interface to OpenGL function glObjectPtrLabel

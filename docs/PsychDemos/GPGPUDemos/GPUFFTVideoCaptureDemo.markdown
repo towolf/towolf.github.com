@@ -3,15 +3,16 @@ layout: mfile
 title: GPUFFTVideoCaptureDemo
 categories:
   - GPGPUDemos
+encoding: UTF-8
 ---
 
-GPUFFTVideoCaptureDemo \- Demonstrate use of GPGPU computing for live filtering via 2D\-FFT.
+GPUFFTVideoCaptureDemo - Demonstrate use of GPGPU computing for live filtering via 2D-FFT.
 
 This demo makes use of the FOSS GPUmat toolbox to perform a GPU
-accelerated 2D FFT \+ filtering in frequency space \+ 2D inverse FFT on a
+accelerated 2D FFT + filtering in frequency space + 2D inverse FFT on a
 live video feed from video capture or movie playback. GPUmat allows to
 use NVidia's CUDA gpu computing framework on supported NVidia gpu's
-\(GeForce\-8000 series and later, aka Direct3D\-10 or OpenGL\-3 capable\).
+\(GeForce-8000 series and later, aka Direct3D-10 or OpenGL-3 capable\).
 
 It shows how a Psychtoolbox floating point texture \(with video content
 inside\) can be efficiently passed to GPUmat as a matrix of GPUsingle data
@@ -21,8 +22,8 @@ returns the final image to Psychtoolbox as a new floating point texture
 for display. The same steps are carried out with Matlab/Octave's regular
 fft routines on the cpu for reference.
 
-Requires the freely downloadable NVidia CUDA\-5.0 SDK/Runtime and the free
-and open\-source GPUmat toolbox as well as a compute capable NVidia
+Requires the freely downloadable NVidia CUDA-5.0 SDK/Runtime and the free
+and open-source GPUmat toolbox as well as a compute capable NVidia
 graphics card.
 
 # Usage:
@@ -35,7 +36,7 @@ GPUFFTVideoCaptureDemo\(\[usegpu=1\]\[, showfft=0\]\[, fwidth=11\]\[, roi=\[0 0 
 
 'showfft' = 1 to show amplitude spectrum of video in usegpu=1 mode.
 
-'fwidth' = Width of low\-pass filter kernel in frequency space units.
+'fwidth' = Width of low-pass filter kernel in frequency space units.
 
 'roi' Selects a rectangular subregion of the camera for display. By
 default, it selects a \[0 0 640 480\] rectangle, ie. the full area of a

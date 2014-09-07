@@ -3,6 +3,7 @@ layout: mfile
 title: glPauseTransformFeedback
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glPauseTransformFeedback  Interface to OpenGL function glPauseTransformFeedback

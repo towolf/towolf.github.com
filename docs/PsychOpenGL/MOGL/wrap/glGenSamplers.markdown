@@ -3,6 +3,7 @@ layout: mfile
 title: glGenSamplers
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGenSamplers  Interface to OpenGL function glGenSamplers

@@ -3,6 +3,7 @@ layout: mfile
 title: glViewportIndexedf
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glViewportIndexedf  Interface to OpenGL function glViewportIndexedf

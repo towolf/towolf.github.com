@@ -3,6 +3,7 @@ layout: mfile
 title: KbReleaseWait
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 \[secs, keyCode, deltaSecs\] = KbReleaseWait\(\[deviceNumber\]\[, untilTime=inf\]\[, more optional args for KbWait\]\);

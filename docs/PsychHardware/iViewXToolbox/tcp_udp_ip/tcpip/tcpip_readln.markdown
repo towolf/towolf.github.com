@@ -3,6 +3,7 @@ layout: mfile
 title: tcpip_readln
 categories:
   - tcpip
+encoding: UTF-8
 ---
 
 \[str,ok\]=tcpip\_readln\(fid,len\)

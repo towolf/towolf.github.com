@@ -3,6 +3,7 @@ layout: mfile
 title: PlayMoviesWithoutGapDemo2
 categories:
   - MovieDemos
+encoding: UTF-8
 ---
 
 PlayMoviesWithoutGapDemo2\(moviename\)
@@ -15,14 +16,14 @@ pattern would play all MPEG files in the current directory.
 Pressing ESC ends the demo.
 
 Movies are played one after each other. We try to minimize perceptible
-gaps between end of movie i and start of movie i\+1 by asynchronous
+gaps between end of movie i and start of movie i+1 by asynchronous
 loading: While movie i is played back, we ask Psychtoolbox to load the
-next movie i\+1 in the background, so startup time for movie i\+1 will be
+next movie i+1 in the background, so startup time for movie i+1 will be
 minimized.
 
 This method uses only one 'movie' object for successive, gapless playback
 of many movie files. The advantage is simplicity in use and maximum
-quality in the sense that movies should play back\-to\-back without any
+quality in the sense that movies should play back-to-back without any
 significant delays between them. The downside is loss in flexibility.
 This method only works if all movies have exactly the same image size,
 color depth and format, aspect ratio and playback framerate. They may

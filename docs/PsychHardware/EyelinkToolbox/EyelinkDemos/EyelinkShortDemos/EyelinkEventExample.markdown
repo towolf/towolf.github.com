@@ -3,6 +3,7 @@ layout: mfile
 title: EyelinkEventExample
 categories:
   - EyelinkShortDemos
+encoding: UTF-8
 ---
 
 Short MATLAB example program to demonstrate the use of events

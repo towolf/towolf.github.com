@@ -3,6 +3,7 @@ layout: mfile
 title: LineStippleDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 LineStippleDemo

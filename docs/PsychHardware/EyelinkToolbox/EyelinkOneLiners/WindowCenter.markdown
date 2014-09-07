@@ -3,6 +3,7 @@ layout: mfile
 title: WindowCenter
 categories:
   - EyelinkOneLiners
+encoding: UTF-8
 ---
 
 \[x,y\] = WindowCenter\(window\)

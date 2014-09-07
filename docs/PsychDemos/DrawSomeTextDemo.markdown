@@ -3,6 +3,7 @@ layout: mfile
 title: DrawSomeTextDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 DrawSomeText

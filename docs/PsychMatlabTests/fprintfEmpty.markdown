@@ -3,6 +3,7 @@ layout: mfile
 title: fprintfEmpty
 categories:
   - PsychMatlabTests
+encoding: UTF-8
 ---
 
 Mathworks Case ID: 297266, reported 10/3/99.
@@ -38,7 +39,7 @@ features of Matlab. Having FPRINTF abort the rest of the print out, and
 my data, is contrary to the whole spirit of coping gracefully with
 missing values.
 
-I suspect that this bug is platform\-independent. I'm running Matlab 5.2.1
+I suspect that this bug is platform-independent. I'm running Matlab 5.2.1
 on a PowerMac. I know that MathWorks has no current plans to upgrade the
 OS9 version, but I understand that it is still logging bugs, to keep its
 options open.

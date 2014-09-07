@@ -3,6 +3,7 @@ layout: mfile
 title: get_color
 categories:
   - Utilities
+encoding: UTF-8
 ---
 
 Syntax: ColorVector = get\_color\(ColorNameString\)

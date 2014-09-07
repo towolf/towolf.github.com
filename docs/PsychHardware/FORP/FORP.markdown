@@ -3,6 +3,7 @@ layout: mfile
 title: FORP
 categories:
   - FORP
+encoding: UTF-8
 ---
 
 Psychtoolbox:PsychHardware:FORP
@@ -13,19 +14,19 @@ by Current Designs.
 
 # Files:
 
-FORPCheck      \-\- Check FORP button state, similar to KbCheck
+FORPCheck      -- Check FORP button state, similar to KbCheck
                   for keyboards.
 
-FORPWait       \-\- Wait for FORP button press with timeout.
+FORPWait       -- Wait for FORP button press with timeout.
                    Similar to KbWait for keyboards.
 
-FORPQueueClear \-\- Clear queued FORP button presses.
+FORPQueueClear -- Clear queued FORP button presses.
 
 # This code was contributed to Psychtoolbox under GPL license by:
 
           Florian Stendel
           Visual Processing Lab
-          Universitaets \- Augenklinik Magdeburg
+          Universitaets - Augenklinik Magdeburg
           Leipziger Strasse 44
           39120 Magdeburg
           Tel:    0049 \(0\)391 67 21723

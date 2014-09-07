@@ -3,6 +3,7 @@ layout: mfile
 title: glGetInternalformativ
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetInternalformativ  Interface to OpenGL function glGetInternalformativ

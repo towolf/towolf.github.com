@@ -3,6 +3,7 @@ layout: mfile
 title: SplineCmf
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 \[T\_out\] = SplineCmf\(wls\_in, T\_in, wls\_out, \[extend\]\)

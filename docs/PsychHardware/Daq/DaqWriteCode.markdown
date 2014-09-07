@@ -3,27 +3,28 @@ layout: mfile
 title: DaqWriteCode
 categories:
   - Daq
+encoding: UTF-8
 ---
 
 err=DaqWriteCode\(DeviceIndex,address,data\)
-USB\-1208FS: Write program memory. This command writes to the program
+USB-1208FS: Write program memory. This command writes to the program
 memory in the device.  This command is not accepted unless the device is
 in update mode \(see PrepareDownload\).  The WriteCode command will
 normally be used when downloading a new hex file, so it supports the
 memory ranges that may be found in the hex file.
 The address ranges are:
-0x000000 \- 0x007AFF: FLASH program memory
-0x200000 \- 0x200007: ID memory \(serial number is stored here\)
-0x300000 \- 0x30000F: CONFIG memory \(processor configuration data\)
-0xF00000 \- 0xF03FFF: EEPROM memory
+0x000000 - 0x007AFF: FLASH program memory
+0x200000 - 0x200007: ID memory \(serial number is stored here\)
+0x300000 - 0x30000F: CONFIG memory \(processor configuration data\)
+0xF00000 - 0xF03FFF: EEPROM memory
 When writing to FLASH program memory, length\(data\) must be 32 and the
-device must receive data in successive 32\-byte chunks starting on a
-64\-byte boundary. When writing to other kinds of memory, length\(data\) can
+device must receive data in successive 32-byte chunks starting on a
+64-byte boundary. When writing to other kinds of memory, length\(data\) can
 be any number of bytes up to the maximum \(32\).
 "DeviceIndex" is a small integer, the array index specifying which HID
       device in the array returned by PsychHID\('Devices'\) is interface 0
-      of the desired USB\-1208FS box.
-"address" is the 24\-bit start address for the write.
+      of the desired USB-1208FS box.
+"address" is the 24-bit start address for the write.
 "data" is a vector with length up to 32, one element per byte.
 See also Daq, DaqFunctions, DaqPins, DaqTest, PsychHIDTest.
 
@@ -45,7 +46,7 @@ plans to create a PsychHID wrapper for the UpdateCode command, so if this
 functionality is something you want, then that's what you'll probably need to
 do to get things working.  And if you do that, you probably want to invest
 some time in figuring out the ReadChecksum \(command code 82\) for verification
-that program memory is correct. \-\- mpr
+that program memory is correct. -- mpr
 
 
 <div class="code_header" style="text-align:right;">

@@ -3,6 +3,7 @@ layout: mfile
 title: VignetCalibration
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
  s = VignetCalibration\(\[filename\] \[, screenId\]\)
@@ -16,7 +17,7 @@ categories:
  This function allows the user to create a calibration for a vignetted
  luminance distortion. It enables the user to choose from either a
  Gaussian or Exponential approximation of the luminance vignetting. Users
- can change the position and steepness of the luminance fall\-off in
+ can change the position and steepness of the luminance fall-off in
  horizontal and vertical direction independently. It is also possible to
  adjust the minimal luminance.
 
@@ -45,12 +46,12 @@ categories:
 
 #  You can use the following keys to issue commands:
 
- Escape \-   use this key to save and exit
- Tab        \-   show/hide help text
- Space      \-   change the parameter you wish to adjust
- '<' and '\>'    \-   use these keys to change the increment size of the
+ Escape -   use this key to save and exit
+ Tab        -   show/hide help text
+ Space      -   change the parameter you wish to adjust
+ '<' and '\>'    -   use these keys to change the increment size of the
                     parameter adjustments
- Arrow Keys \-   adjust parameters \(depending on selected parameter\)
+ Arrow Keys -   adjust parameters \(depending on selected parameter\)
                 1. Luminance/Function type
                 2. Width/Steepness of function
                 3. Position of centre

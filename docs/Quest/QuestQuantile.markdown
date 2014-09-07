@@ -3,6 +3,7 @@ layout: mfile
 title: QuestQuantile
 categories:
   - Quest
+encoding: UTF-8
 ---
 
 intensity=QuestQuantile\(q,\[quantileOrder\]\)

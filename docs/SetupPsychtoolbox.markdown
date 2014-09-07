@@ -3,9 +3,10 @@ layout: mfile
 title: SetupPsychtoolbox
 categories:
   - .
+encoding: UTF-8
 ---
 
-SetupPsychtoolbox \- In\-place setup of PTB without network access.
+SetupPsychtoolbox - In-place setup of PTB without network access.
 
 This script prepares an already downloaded working copy of Psychtoolbox
 for use with Matlab or Octave. It sets proper paths, performs online

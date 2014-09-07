@@ -3,6 +3,7 @@ layout: mfile
 title: ComputeAxialDensity
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 \[axialOpticalDensity\] = ComputeAxialDensity\(specificDensity, outSegmentLength\)

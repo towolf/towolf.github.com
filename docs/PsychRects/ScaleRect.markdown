@@ -3,6 +3,7 @@ layout: mfile
 title: ScaleRect
 categories:
   - PsychRects
+encoding: UTF-8
 ---
 
 r = ScaleRect\(r,horizontalFactor,verticalFactor\)

@@ -3,6 +3,7 @@ layout: mfile
 title: glIsTransformFeedback
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glIsTransformFeedback  Interface to OpenGL function glIsTransformFeedback

@@ -3,6 +3,7 @@ layout: mfile
 title: DiskRoot
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 DiskName = DiskRoot

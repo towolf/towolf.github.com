@@ -3,15 +3,16 @@ layout: mfile
 title: VideoDelayLoopMiniDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 VideoDelayLoopMiniDemo\(\[delayframes = 0\] \[, duration = 30\] \[, firewireBasler = 0\]\);
 
 Demonstrates most simplistic use of PsychVideoDelayLoop\(\) function for
-delayed visual feedback via a camera \+ display combo.
+delayed visual feedback via a camera + display combo.
 
 'delayframes' == Requested delay in captured frames: 0 = Minimal delay
-\(i.e. request zero delay, get whatever the minimum of your camera \+
+\(i.e. request zero delay, get whatever the minimum of your camera +
 display combo is\).
 
 The demo takes some startup time to calibrate, then provides visual
@@ -19,7 +20,7 @@ feedback for 30 seconds, then ends, unless you specifiy a different
 'duration' in seconds.
 
 'firewireBasler' defaults to zero. If set to 1, customize to a Basler
-A602f IIDC\-1394 compliant Firewire camera.
+A602f IIDC-1394 compliant Firewire camera.
 
 Tested on MacOS/X Intel MacBookPro with builtin iSight camera. However,
 the routine was originally developed, tested and optimized for GNU/Linux,

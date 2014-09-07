@@ -3,6 +3,7 @@ layout: mfile
 title: glTexImage2D
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glTexImage2D  Interface to OpenGL function glTexImage2D

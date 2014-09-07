@@ -3,6 +3,7 @@ layout: mfile
 title: glTexParameterfv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glTexParameterfv  Interface to OpenGL function glTexParameterfv

@@ -3,6 +3,7 @@ layout: mfile
 title: glDepthRangef
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDepthRangef  Interface to OpenGL function glDepthRangef

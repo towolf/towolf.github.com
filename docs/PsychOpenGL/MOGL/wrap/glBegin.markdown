@@ -3,6 +3,7 @@ layout: mfile
 title: glBegin
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glBegin  Interface to OpenGL function glBegin

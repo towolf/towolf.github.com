@@ -3,6 +3,7 @@ layout: mfile
 title: gluQuadricTexture
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluQuadricTexture  Interface to OpenGL function gluQuadricTexture

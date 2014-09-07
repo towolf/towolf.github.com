@@ -3,6 +3,7 @@ layout: mfile
 title: glSampleMaski
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glSampleMaski  Interface to OpenGL function glSampleMaski

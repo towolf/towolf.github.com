@@ -3,6 +3,7 @@ layout: mfile
 title: GetNumber
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 number = GetNumber\(\[deviceIndex\]\[, untilTime=inf\]\[, optional KbCheck arguments...\]\)

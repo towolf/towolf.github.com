@@ -3,6 +3,7 @@ layout: mfile
 title: IncrementToContrast
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 contrast = IncrementToContrast\(increment,reference\)

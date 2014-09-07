@@ -3,6 +3,7 @@ layout: mfile
 title: SimpleStepExperiment
 categories:
   - Palmerdemo_notOSXed
+encoding: UTF-8
 ---
 
 Simple experiment to measure response time using eye movements.

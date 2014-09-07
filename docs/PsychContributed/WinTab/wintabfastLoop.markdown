@@ -3,6 +3,7 @@ layout: mfile
 title: wintabfastLoop
 categories:
   - WinTab
+encoding: UTF-8
 ---
 
  function fastLoop

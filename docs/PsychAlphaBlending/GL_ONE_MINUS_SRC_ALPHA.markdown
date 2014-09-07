@@ -3,6 +3,7 @@ layout: mfile
 title: GL_ONE_MINUS_SRC_ALPHA
 categories:
   - PsychAlphaBlending
+encoding: UTF-8
 ---
 
 constantString=GL\_ONE\_MINUS\_SRC\_ALPHA

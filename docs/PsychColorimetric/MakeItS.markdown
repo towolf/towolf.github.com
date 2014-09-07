@@ -3,6 +3,7 @@ layout: mfile
 title: MakeItS
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 S = MakeItS\(wls\)

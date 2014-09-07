@@ -3,6 +3,7 @@ layout: mfile
 title: UnpackColorImage
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 \[red,green,blue\] = UnpackColorImage\(image\)

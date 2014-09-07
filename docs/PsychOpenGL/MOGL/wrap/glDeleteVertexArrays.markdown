@@ -3,6 +3,7 @@ layout: mfile
 title: glDeleteVertexArrays
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDeleteVertexArrays  Interface to OpenGL function glDeleteVertexArrays

@@ -3,11 +3,12 @@ layout: mfile
 title: FitWeibYN
 categories:
   - Psychometric
+encoding: UTF-8
 ---
 
 \[alpha,beta,thresh50\]=FitWeibYN\(inputs,nYes,nNo,\[alpha0\],\[beta0\],\[numFunCalls\]\)
 
-Fits a Weibull function to the passed yes\-no data.
+Fits a Weibull function to the passed yes-no data.
 
 Requires the optimization toolbox. Doesn't work with Octave yet.
 
@@ -26,10 +27,10 @@ OUTPUTS:
 
 See also: FitWeibTAFC, FitFitWeibAlphTAFC, FitCumNormYN, FitLogitYN
 
-9/15/93   jms  Added a pre\-fit to get a better initial.
+9/15/93   jms  Added a pre-fit to get a better initial.
           jms  Made 'options' a parameter so that printing could
                be disabled higher up.
-9/23/93   jms  Test the slope of the linear pre\-fit to set the upper
+9/23/93   jms  Test the slope of the linear pre-fit to set the upper
                and lower bounds on the fit.
 2/5/97    dhb  Rewrote to parallel TAFC version but kept slope test.
           dhb  Check for optimization toolbox.

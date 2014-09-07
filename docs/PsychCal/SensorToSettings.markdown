@@ -3,6 +3,7 @@ layout: mfile
 title: SensorToSettings
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 \[settings,badIndex\] = SensorToSettings\(cal,sensor\)

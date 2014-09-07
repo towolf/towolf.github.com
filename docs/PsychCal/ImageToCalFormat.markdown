@@ -3,6 +3,7 @@ layout: mfile
 title: ImageToCalFormat
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 \[calFormat,nX,nY\] = ImageToCalFormat\(image\)

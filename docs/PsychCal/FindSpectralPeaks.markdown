@@ -3,6 +3,7 @@ layout: mfile
 title: FindSpectralPeaks
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 peaks = FindSpectralPeaks\(spectrum,\[S\],\[noiseLevel\]\)

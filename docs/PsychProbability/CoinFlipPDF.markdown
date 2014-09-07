@@ -3,6 +3,7 @@ layout: mfile
 title: CoinFlipPDF
 categories:
   - PsychProbability
+encoding: UTF-8
 ---
 
 px\_p = CoinFlipPDF\(x,p\)

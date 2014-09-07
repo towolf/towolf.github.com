@@ -3,6 +3,7 @@ layout: mfile
 title: glGetAttachedShaders
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetAttachedShaders  Interface to OpenGL function glGetAttachedShaders

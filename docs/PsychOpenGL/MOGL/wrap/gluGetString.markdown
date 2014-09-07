@@ -3,6 +3,7 @@ layout: mfile
 title: gluGetString
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluGetString  Interface to gluGetString

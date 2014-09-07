@@ -3,6 +3,7 @@ layout: mfile
 title: LoadShaderFromFile
 categories:
   - PsychOpenGL
+encoding: UTF-8
 ---
 
 handle = LoadShaderFromFile\(filename \[, shadertype\] \[, debug\]\)

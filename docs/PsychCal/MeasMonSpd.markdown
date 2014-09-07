@@ -3,6 +3,7 @@ layout: mfile
 title: MeasMonSpd
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
  \[spd,S\] = MeasMonSpd\(window, settings, \[S\], \[syncMode\], \[whichMeterType\], \[bitsppClut\]\)
@@ -17,8 +18,8 @@ categories:
  you don't have a meter.
 
  Other valid types:
-  1 \- Use PR650 \(default\)
-  2 \- Use CVI
+  1 - Use PR650 \(default\)
+  2 - Use CVI
 
  10/26/93  dhb    Wrote it based on ccc code.
  11/12/93  dhb    Modified to use SetColor.

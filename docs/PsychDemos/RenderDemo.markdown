@@ -3,6 +3,7 @@ layout: mfile
 title: RenderDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
  RenderDemo
@@ -24,7 +25,7 @@ categories:
  contain 0 or 1, the xyY coordinates requested may have been out of gamut.
 
  A uniform color patch is displayed in the MATLAB figure window. This is
- not a well\-controlled display method, but does give a sense of the patch
+ not a well-controlled display method, but does give a sense of the patch
  color if the calibration file is a reasonable description of the display.
 
  Immediately afterwards, the same color patch is shown in a PTB onscreen
@@ -35,19 +36,19 @@ categories:
  gamma correction via proper inverse gamma lookup tables loaded into the
  graphics card, thereby presenting on a linearized display, instead of
  using the SensorToSettings\(\) routine to adapt the stimulus to a
- non\-linearized display.
+ non-linearized display.
 
  The last two demos Demo 3 and Demo 4 require a recent graphics card and
  perform all color space conversions and calibrated display automatically
- and hardware accelerated on the graphics card. Any NVidia GeForce\-8000 or
- later, AMD Radeon X\-1000 or later, or Intel HD graphics card should be
+ and hardware accelerated on the graphics card. Any NVidia GeForce-8000 or
+ later, AMD Radeon X-1000 or later, or Intel HD graphics card should be
  able to support these demos.
 
  Demo 3: The stimulus is defined in XYZ tristimulus color space and
  converted automatically by [Screen](/docs/Screen)\(\) into RGB output format, taking the
  calibration data in 'cal' into account.
 
- Demo 4: The stimulus is directly defined in xyY chromacity \+ luminance
+ Demo 4: The stimulus is directly defined in xyY chromacity + luminance
  format and all conversions and calibrations are done automatically by
  [Screen](/docs/Screen)\(\).
 
@@ -59,7 +60,7 @@ categories:
  4/13/02  awi   Changed "SetColorSpace" to new name "SetSensorColorSpace".
                 Changed "LinearToSettings" to new name "SensorToSettings".
  12/21/02 dhb  Remove reliance on now obsolete OpenWindow/CloseWindow.
- 11/16/06 dhb  Start getting this to work with PTB\-3.
+ 11/16/06 dhb  Start getting this to work with PTB-3.
  11/22/06 dhb  Fixed except that [Ask](/docs/Ask)\(\) needs to be fixed.
  6/16/11  dhb  The PTB display section was out of date and didn't work.  I removed it.
  1/26/13  mk   Add standard PTB display, but also imaging pipeline based methods.

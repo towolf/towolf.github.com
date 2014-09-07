@@ -3,6 +3,7 @@ layout: mfile
 title: glCopyConvolutionFilter2D
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glCopyConvolutionFilter2D  Interface to OpenGL function glCopyConvolutionFilter2D

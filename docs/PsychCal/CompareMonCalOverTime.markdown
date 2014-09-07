@@ -3,6 +3,7 @@ layout: mfile
 title: CompareMonCalOverTime
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 CompareMonCalOverTime

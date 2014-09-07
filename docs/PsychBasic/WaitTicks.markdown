@@ -3,6 +3,7 @@ layout: mfile
 title: WaitTicks
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 WaitTicks\(wait\)

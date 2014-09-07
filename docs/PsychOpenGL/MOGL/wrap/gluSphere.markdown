@@ -3,6 +3,7 @@ layout: mfile
 title: gluSphere
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluSphere  Interface to OpenGL function gluSphere

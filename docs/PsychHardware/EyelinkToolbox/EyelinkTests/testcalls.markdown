@@ -3,6 +3,7 @@ layout: mfile
 title: testcalls
 categories:
   - EyelinkTests
+encoding: UTF-8
 ---
 
 quick test program for eyelinktoolbox.

@@ -3,6 +3,7 @@ layout: mfile
 title: GroupStructArrayByFields
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 theGroupedArray = GroupStructArrayByFields\(theStructArray,theFields\)

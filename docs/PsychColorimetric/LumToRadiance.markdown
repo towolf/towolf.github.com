@@ -3,6 +3,7 @@ layout: mfile
 title: LumToRadiance
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
  \[radiance, radianceS\] =...

@@ -3,6 +3,7 @@ layout: mfile
 title: glViewportArrayv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glViewportArrayv  Interface to OpenGL function glViewportArrayv

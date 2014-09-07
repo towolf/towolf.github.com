@@ -3,6 +3,7 @@ layout: mfile
 title: glFogCoordPointer
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glFogCoordPointer  Interface to glFogCoordPointer

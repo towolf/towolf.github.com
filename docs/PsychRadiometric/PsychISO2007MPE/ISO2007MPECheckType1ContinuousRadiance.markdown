@@ -3,12 +3,13 @@ layout: mfile
 title: ISO2007MPECheckType1ContinuousRadiance
 categories:
   - PsychISO2007MPE
+encoding: UTF-8
 ---
 
 \[IsOverLimit,ISO2007MPEStruct\] = ISO2007MPECheckType1ContinuousRadiance\(S\_in,radiancein\_WattsPerSrM2,stimulusDurationSecs,stimulusAreaDegrees2,eyeLengthMm\)
 
 Run all the checks that apply to a radiance measurement for the ISO 2007 MPE standard, for a Type 1 instrument and continuous exposure.
-Does not do the convergent beam check \-\- see comment in Contents.m about when we think this applies.
+Does not do the convergent beam check -- see comment in Contents.m about when we think this applies.
 
 Returns a flag set to 1 if the input exceeds any of the limits, and a structure with the computed ISO2007MPE
 values and corresponding limits.

@@ -3,6 +3,7 @@ layout: mfile
 title: glUseProgram
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glUseProgram  Interface to OpenGL function glUseProgram

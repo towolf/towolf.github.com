@@ -3,6 +3,7 @@ layout: mfile
 title: glBindFramebuffer
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glBindFramebuffer  Interface to OpenGL function glBindFramebuffer

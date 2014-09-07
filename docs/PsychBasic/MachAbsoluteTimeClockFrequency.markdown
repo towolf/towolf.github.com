@@ -3,6 +3,7 @@ layout: mfile
 title: MachAbsoluteTimeClockFrequency
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 timebaseFrequencyHz = MachAbsoluteTimeClockFrequency
@@ -13,7 +14,7 @@ Return the frequency of the Mach Kernel "absolute timebase clock".  The
 frequency depends your  hardware, both the model of CPU and a system
 hardware clock.
 
-Mach Kernel functions which assign real\-time "Time constraint priority"
+Mach Kernel functions which assign real-time "Time constraint priority"
 status to threads give parameters in Mach time base units. The counter which
 clocks time allocated to your thread counts time in these units.  Use the
 absolute timebase clock frequency returned by MachAbsoluteTimeClockFrequency to convert

@@ -3,6 +3,7 @@ layout: mfile
 title: glDeleteNamedStringARB
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDeleteNamedStringARB  Interface to OpenGL function glDeleteNamedStringARB

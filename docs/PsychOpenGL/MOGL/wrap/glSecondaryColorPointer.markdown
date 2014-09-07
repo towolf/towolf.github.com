@@ -3,6 +3,7 @@ layout: mfile
 title: glSecondaryColorPointer
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glSecondaryColorPointer  Interface to glSecondaryColorPointer

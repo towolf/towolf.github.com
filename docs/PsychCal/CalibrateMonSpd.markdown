@@ -3,6 +3,7 @@ layout: mfile
 title: CalibrateMonSpd
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 CalibrateMonSpd
@@ -33,11 +34,11 @@ and CalibrateAmbDrvr so that is where you would look.
 
     LoadIdentityClut is also automatically called by PsychImaging etc. if
     the image processing pipeline is used for
-    Bits\+\+/Datapixx/Viewpixx,video attenuators etc.
+    Bits++/Datapixx/Viewpixx,video attenuators etc.
 
-    It is important to always use LoadIdentityClut\(\) instead of self\-made
+    It is important to always use LoadIdentityClut\(\) instead of self-made
     code. Many \(most?\) graphics cards on most operating systems have
-    graphics driver bugs and hardware quirks which cause the self\-made
+    graphics driver bugs and hardware quirks which cause the self-made
     identity clut to actually not turn out to be an identity clut in the
     hardware. LoadIdentityClut\(\) has heuristics to detect os/gpu combo
     and select an appropriately fudged lut to actually get an identity
@@ -45,12 +46,12 @@ and CalibrateAmbDrvr so that is where you would look.
     that files detection logic to cope. Additionally there is
     SaveIdentityClut\(\) to save a known good lut for automatic use with
     LoadIdentityClut, overriding its choice. And there is
-    BitsPlusIdentityClutTest to test a Bits\+ or Datapixx device
+    BitsPlusIdentityClutTest to test a Bits+ or Datapixx device
     thoroughly for problems and aid in fixing them. It is easy to get
     fooled into thinking you got it right, even when using a photometer,
     because some of the problems are subtle and not detectable without
     use of dynamic test patterns like in BitsPlusIdentityClutTest with
-    Mono\+\+ mode, or special debug functionality as in the
+    Mono++ mode, or special debug functionality as in the
     DataPixx/ViewPixx devices.
 
     I use a DataPixx to test such stuff and PTB has builtin diagnostic to
@@ -60,8 +61,8 @@ and CalibrateAmbDrvr so that is where you would look.
     LoadIdentityClut also calls special functions in [Screen](/docs/Screen) that try to
     workaround or fix other hardware interference. E.g., in addition to
     cluts messing with pixel passthrough, there is also display dithering
-    on any digital video output, and some new pre\- and post\-gamma
-    corrections in latest generation hardware \-\- [Screen](/docs/Screen) can fix this for
+    on any digital video output, and some new pre- and post-gamma
+    corrections in latest generation hardware -- [Screen](/docs/Screen) can fix this for
     some cards on some operating systems, but only when used through
     LoadIdentityClut.
 
@@ -69,8 +70,8 @@ and CalibrateAmbDrvr so that is where you would look.
     PsychtoolboxKernelDriver and LoadIdentityClut etc. is not used,
     almost all NVidia cards on OSX will cause trouble unless you use some
     special NVidia kernel driver which is somewhere referenced on the
-    Bits\+ pages on our wiki. We have/need similar hacks on Windows, e.g.,
-    PsychGPUControl\(\) for AMD cards. On Linux either PTB's low\-level
+    Bits+ pages on our wiki. We have/need similar hacks on Windows, e.g.,
+    PsychGPUControl\(\) for AMD cards. On Linux either PTB's low-level
     fixes apply or they are not neccessary.
 
     So the CalibrateMonSpd etc. should be fixed to use
@@ -79,9 +80,9 @@ and CalibrateAmbDrvr so that is where you would look.
 
 7/7/98  dhb  Wrote from generic.
         dhb  dacsize/driver filled in by hand, [Screen](/docs/Screen) fails to return it.
-4/7/99  dhb  NINEBIT \-\> NBITS.
+4/7/99  dhb  NINEBIT -\> NBITS.
         dhb  Wrote version for Radius 10 bit cards.
-4/23/99 dhb  Change wavelength sampling to 380 4 101, PR\-650 native.
+4/23/99 dhb  Change wavelength sampling to 380 4 101, PR-650 native.
 9/22/99 dhb, mdr  Define boxSize.
 8/11/00 dhb  Save mon in rawdata.
 8/18/00 dhb  More descriptive information saved.

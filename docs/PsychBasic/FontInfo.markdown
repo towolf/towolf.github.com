@@ -3,6 +3,7 @@ layout: mfile
 title: FontInfo
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 numFonts=FontInfo\('NumFonts'\);        % Return the number of installed fonts
@@ -28,7 +29,7 @@ font.  Among those critera may be the font name itself.
 
 OS 9, WINDOWS, Linux: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-FontInfo does not exist on OS\-9, Windows and Linux.
+FontInfo does not exist on OS-9, Windows and Linux.
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 SEE ALSO: [Screen](/docs/Screen), [Screen](/docs/Screen)\('TextFont'\)

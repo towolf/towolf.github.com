@@ -3,6 +3,7 @@ layout: mfile
 title: SimpleVoiceTriggerDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 SimpleVoiceTriggerDemo\(triggerlevel\)
@@ -15,7 +16,7 @@ actually retrieve and save the sound vector with the response itself.
 
 The script relies on well working sound cards and drivers. It should
 "just work" on most MacOS/X and Linux systems with standard hardware, but
-it will need special ASIO capable sound hardware on MS\-Windows for
+it will need special ASIO capable sound hardware on MS-Windows for
 accurate timing\! See "help InitializePsychSound" for details.
 
 In any case you \*must\* verify correct timing of your sound hardware with

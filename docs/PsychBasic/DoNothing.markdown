@@ -3,6 +3,7 @@ layout: mfile
 title: DoNothing
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 function \[empty1,etc\]=DoNothing\(\[arg1\],\[etc\]\)

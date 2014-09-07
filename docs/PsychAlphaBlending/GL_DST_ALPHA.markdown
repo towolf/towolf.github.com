@@ -3,6 +3,7 @@ layout: mfile
 title: GL_DST_ALPHA
 categories:
   - PsychAlphaBlending
+encoding: UTF-8
 ---
 
 constantString=GL\_DST\_ALPHA

@@ -3,6 +3,7 @@ layout: mfile
 title: IsStartUpdateImplantedInFinish
 categories:
   - PsychInitialize
+encoding: UTF-8
 ---
 
 isImplanted=IsStartUpdateImplantedInFinish
@@ -13,7 +14,7 @@ Return TRUE if both the finish.m file is on the MATLAB path and if it
 includes a call to StartUpdateProcess.
 
 The OS X update process causes suspension of MATLAB for up to about 13ms
-at 30\-second intervals.  Psychtoolbox functions [Rush](/docs/Rush) and [Priority](/docs/Priority)
+at 30-second intervals.  Psychtoolbox functions [Rush](/docs/Rush) and [Priority](/docs/Priority)
 automatically kill and restart the update process when priority is,
 respectively, raised above 0 and lowered back to 0.  To insure that the
 update process is restored when MATLAB exits we add a call to

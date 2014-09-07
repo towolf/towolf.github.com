@@ -3,6 +3,7 @@ layout: mfile
 title: glBindFragDataLocationIndexed
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glBindFragDataLocationIndexed  Interface to OpenGL function glBindFragDataLocationIndexed

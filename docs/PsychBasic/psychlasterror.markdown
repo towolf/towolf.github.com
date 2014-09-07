@@ -3,13 +3,14 @@ layout: mfile
 title: psychlasterror
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
-[psychlasterror](/docs/psychlasterror) \- Replacement for Matlab\-7 'lasterror'.
+[psychlasterror](/docs/psychlasterror) - Replacement for Matlab-7 'lasterror'.
 This is hopefully useful for older Matlab installations and
 for the Octave port:
 
-If the 'lasterror' variable, M\-File or builtin function
+If the 'lasterror' variable, M-File or builtin function
 is supported on your Matlab installation, this function
 will return it.
 

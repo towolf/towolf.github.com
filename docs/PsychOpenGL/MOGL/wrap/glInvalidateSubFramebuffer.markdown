@@ -3,6 +3,7 @@ layout: mfile
 title: glInvalidateSubFramebuffer
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glInvalidateSubFramebuffer  Interface to OpenGL function glInvalidateSubFramebuffer

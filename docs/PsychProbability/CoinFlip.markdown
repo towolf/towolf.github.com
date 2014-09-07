@@ -3,6 +3,7 @@ layout: mfile
 title: CoinFlip
 categories:
   - PsychProbability
+encoding: UTF-8
 ---
 
 x = CoinFlip\(ndraws,p\)

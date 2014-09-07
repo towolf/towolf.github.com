@@ -3,9 +3,10 @@ layout: mfile
 title: DirectInputMonitoringTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
-DirectInputMonitoringTest \- Test "Zero latency direct input monitoring" feature of some sound cards.
+DirectInputMonitoringTest - Test "Zero latency direct input monitoring" feature of some sound cards.
 
 This test will currently only work on a subset of some ASIO 2.0 capable
 soundcards on Microsoft Windows operating systems with the latest

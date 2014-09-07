@@ -3,16 +3,17 @@ layout: mfile
 title: ProceduralNoiseDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 ProceduralNoiseDemo\(\[benchmark=0\]\)
 
 This demo demonstrates fast drawing of noise patches via use of
 procedural texture mapping. It only works on hardware with support for
-the GLSL shading language, vertex\- and fragment\-shaders.
+the GLSL shading language, vertex- and fragment-shaders.
 
-Patches are not encoded into a texture, but instead a little algorithm \-
-a procedural texture shader \- is executed on the graphics processor
+Patches are not encoded into a texture, but instead a little algorithm -
+a procedural texture shader - is executed on the graphics processor
 \(GPU\). This is very fast and efficient\! All parameters of the patch can
 be set individually.
 
@@ -28,17 +29,17 @@ possible, testing the maximum rate at which your system can draw patchs.
 At a default setting of benchmark==0, it just shows nicely drawn patch.
 
 Please note that results in performance and accuracy \*will\* vary,
-depending on the model of your graphics card, gfx\-driver version and
+depending on the model of your graphics card, gfx-driver version and
 possibly operating system. For consistent results, always check before
 you measure on different setups\! However, the more recent the graphics
-card, the faster and more accurate \-\- the latest generation of cards is
+card, the faster and more accurate -- the latest generation of cards is
 supposed to be "just perfect" for vision research...
 
 If you want to draw many patches per frame, you wouldn't do it like in
-this script, but use the batch\-drawing version of [Screen](/docs/Screen)\('DrawTextures',
+this script, but use the batch-drawing version of [Screen](/docs/Screen)\('DrawTextures',
 ...\) instead, as demonstrated, e.g., in DrawingSpeedTest.m. That way you
 could submit the specs \(parameters\) of all patches in one single matrix
-via one single [Screen](/docs/Screen)\('DrawTextures'\); call \- this is more efficient and
+via one single [Screen](/docs/Screen)\('DrawTextures'\); call - this is more efficient and
 therefore extra fast\!
 
 

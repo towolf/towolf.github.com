@@ -3,6 +3,7 @@ layout: mfile
 title: FillPolyTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 FillPolyTest

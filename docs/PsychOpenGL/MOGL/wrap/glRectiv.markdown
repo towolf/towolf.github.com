@@ -3,6 +3,7 @@ layout: mfile
 title: glRectiv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glRectiv  Interface to OpenGL function glRectiv

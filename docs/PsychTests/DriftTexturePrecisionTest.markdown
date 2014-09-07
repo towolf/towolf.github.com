@@ -3,17 +3,18 @@ layout: mfile
 title: DriftTexturePrecisionTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 DriftTexturePrecisionTest\(\[highprecision=0\]\[, verbose=0\]\[, filterMode=1\]\)
 
 This test finds the minimum useful subtexel stepsize of the graphics hardwares
 texture coordinate interpolators. The minimum stepsize is the finest
-subpixel stepwidth that the gfx\-hardware can resolve into an image in a
+subpixel stepwidth that the gfx-hardware can resolve into an image in a
 meaningful way, e.g., for slow subpixel scrolling, drifting gratings and
 such.
 
-It draws an alternating black\-white pattern, reads it back, then draws
+It draws an alternating black-white pattern, reads it back, then draws
 the pattern shifted by some small horizontal amount, reads it back and
 compares the two drawn images. If they are different then the hardware
 could resolve the subpixel increment into two different, properly shifted
@@ -31,7 +32,7 @@ point textures are used, instead of integer textures with 8 bit
 resolution. 1 selects 16bpc float textures, 2 selects 32bpc float
 textures. A setting of 3 or 4 selects also 16bpc or 32bpc float textures,
 but additionally a special PTB GLSL interpolation shader is used instead
-of the hard\-wired interpolator of your gfx chip. This is computationally
+of the hard-wired interpolator of your gfx chip. This is computationally
 more demanding and therefore slower, but it should provide higher
 precision and better resolution.
 

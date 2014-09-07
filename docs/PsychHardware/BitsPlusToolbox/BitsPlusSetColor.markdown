@@ -3,14 +3,15 @@ layout: mfile
 title: BitsPlusSetColor
 categories:
   - BitsPlusToolbox
+encoding: UTF-8
 ---
 
 SetColorBitspp\(windowPtr,entry,rgb\)
 
-Set the specified entry of the clut, using the Bits\+\+ box and our
+Set the specified entry of the clut, using the Bits++ box and our
 frame buffer conventions.
 
-Prior to using this routine, Bits\+\+ box must be in
+Prior to using this routine, Bits++ box must be in
 framebuffer load mode.
 
 This routine is not required to be speedy, and it isn't.

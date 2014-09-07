@@ -3,6 +3,7 @@ layout: mfile
 title: EyelinkEraseCalTarget
 categories:
   - EyelinkBasic
+encoding: UTF-8
 ---
 
  erase calibration target

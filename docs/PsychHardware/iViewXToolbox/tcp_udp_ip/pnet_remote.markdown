@@ -3,11 +3,12 @@ layout: mfile
 title: pnet_remote
 categories:
   - tcp_udp_ip
+encoding: UTF-8
 ---
 
-PNET\_REMOTE   \- Evaluation of matlab expression in remote host PNET
+PNET\_REMOTE   - Evaluation of matlab expression in remote host PNET
 
-    Version: First includes in the tcp/udp/ip toolbox 2002\-02\-13
+    Version: First includes in the tcp/udp/ip toolbox 2002-02-13
              \(C\) 2002 Peter Rydesäter, GNU Public License
 
     This function uses PNET for nonblocking remote controll of other matlab
@@ -105,7 +106,7 @@ PNET\_REMOTE   \- Evaluation of matlab expression in remote host PNET
       pnet\_remote server port
 
     This is the same as the functional form PNET\_REMOTE\('SERVER',port\)
-    Numbers like connection handlers and port\-numbers can be specified
+    Numbers like connection handlers and port-numbers can be specified
     as strings in most cases. This syntax should generaly work for all
      variants of calls.
 

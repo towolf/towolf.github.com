@@ -3,6 +3,7 @@ layout: mfile
 title: MakeBeep
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 \[beep,samplingRate\] = MakeBeep\(freq,duration,\[samplingRate\]\)

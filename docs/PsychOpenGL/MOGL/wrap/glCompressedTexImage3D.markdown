@@ -3,6 +3,7 @@ layout: mfile
 title: glCompressedTexImage3D
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glCompressedTexImage3D  Interface to OpenGL function glCompressedTexImage3D

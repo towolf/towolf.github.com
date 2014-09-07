@@ -3,6 +3,7 @@ layout: mfile
 title: glGetShaderiv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetShaderiv  Interface to OpenGL function glGetShaderiv

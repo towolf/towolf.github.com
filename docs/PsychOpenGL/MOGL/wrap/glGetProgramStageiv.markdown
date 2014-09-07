@@ -3,6 +3,7 @@ layout: mfile
 title: glGetProgramStageiv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetProgramStageiv  Interface to OpenGL function glGetProgramStageiv

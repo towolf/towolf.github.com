@@ -3,12 +3,13 @@ layout: mfile
 title: DownloadPsychtoolbox
 categories:
   - .
+encoding: UTF-8
 ---
 
 DownloadPsychtoolbox\(\[targetdirectory\]\[, flavor\]\[, targetRevision\]\)
 
 This script downloads the latest GNU/Linux, Mac OSX, or Windows
-Psychtoolbox\-3, version 3.0.10 or later, from our git\-server to your
+Psychtoolbox-3, version 3.0.10 or later, from our git-server to your
 disk, creating your working copy, ready to use as a new toolbox in your
 MATLAB/OCTAVE application. Subject to your permission, any old
 installation of the Psychtoolbox is first removed. It's a careful
@@ -16,22 +17,22 @@ program, checking for all required resources and privileges before it
 starts.
 
 Note: If you use a Debian derives Linux distribution, e.g., Debian or
-Ubuntu, consider installing the package octave\-psychtoolbox\-3 or
-matlab\-psychtoolbox\-3 instead from http://neuro.debian.net \- This is more
+Ubuntu, consider installing the package octave-psychtoolbox-3 or
+matlab-psychtoolbox-3 instead from http://neuro.debian.net - This is more
 convenient ans will provide you with automatic updates.
 
-CAUTION: Psychtoolbox \*will not work\* with GNU/Octave on MS\-Windows, or
-with 32\-Bit Octave on OSX, as support for these setups has been cancelled
-for the 3.0.10 series. It will also not work with 32\-Bit Matlab on OSX,
+CAUTION: Psychtoolbox \*will not work\* with GNU/Octave on MS-Windows, or
+with 32-Bit Octave on OSX, as support for these setups has been cancelled
+for the 3.0.10 series. It will also not work with 32-Bit Matlab on OSX,
 or with OSX versions earlier than 10.6.8 "Snow Leopard", unless you
-choose the unsupported legacy flavor "Psychtoolbox\-3.0.10" via the
+choose the unsupported legacy flavor "Psychtoolbox-3.0.10" via the
 optional 'flavor' parameter.
 
 If you want to download older versions of Psychtoolbox than 3.0.10, e.g.,
 version 3.0.9, use the DownloadLegacyPsychtoolbox\(\) function instead of
 this function.
 
-On Mac OSX, all parameters are optional. On MS\-Windows and GNU/Linux, the
+On Mac OSX, all parameters are optional. On MS-Windows and GNU/Linux, the
 first parameter "targetdirectory" with the path to the installation
 target directory is required. The "targetdirectory" name may not contain
 any white space, otherwise download will fail with mysterious error
@@ -50,8 +51,8 @@ The desired flavor of a Psychtoolbox release can be selected via the
 optional "flavor" parameter: By default, 'beta' \(aka 'current'\) will be
 installed if you don't specify otherwise, as this is almost always the
 best possible choice. You may be able to download an old versioned
-release via a namestring like 'Psychtoolbox\-x.y.z', e.g.,
-'Psychtoolbox\-3.0.7' if you'd want to download version 3.0.7. This is
+release via a namestring like 'Psychtoolbox-x.y.z', e.g.,
+'Psychtoolbox-3.0.7' if you'd want to download version 3.0.7. This is
 only useful if you run a very old operating system or Matlab version that
 isn't supported by the current "beta" anymore, so you'd need to stick
 with an old versioned release.
@@ -67,7 +68,7 @@ you provide a specific targetRevision, then this script will install a
 copy of Psychtoolbox according to the specified revision.
 
 This is only useful if you experience problems and want to revert to an
-earlier known\-to\-be\-good release.
+earlier known-to-be-good release.
 
 Revisions can be specified by a revision number or by the special flag
 'PREV' which will choose the revision before the most current one.
@@ -87,13 +88,13 @@ install subversion as it is included in these tools.
 http://subversion.apache.org/packages.html\#windows
 http://www.wandisco.com/subversion/download\#windows
 
-Install the Subversion client on your machine by double\-clicking the
+Install the Subversion client on your machine by double-clicking the
 installer and following the instructions. After installation of the
 Subversion client, you will need to exit and restart Matlab or Octave, so
 it can find the new subversion executable. In many cases it may be
 neccessary to even reboot your computer after installation of subversion.
 Btw. you should avoid to install the client into a path that contains
-blanks/spaces/white\-space as this can lead to download failures in some
+blanks/spaces/white-space as this can lead to download failures in some
 cases, e.g., 'C:\\Program Files\\...' may be bad because there is a blank
 between the "Program" and "Files".
 
@@ -126,7 +127,7 @@ first argument of your call.
 On Windows or Linux, provide a pathname, e.g.:
 DownloadPsychtoolbox\('C:\\MyToolboxes\\'\);
 
-That's it. Any pre\-existing installation of the Psychtoolbox will be
+That's it. Any pre-existing installation of the Psychtoolbox will be
 removed \(if you approve\). The program will then download the latest
 Psychtoolbox and update your MATLAB / OCTAVE path and other relevant
 system settings.

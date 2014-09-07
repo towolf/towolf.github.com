@@ -3,6 +3,7 @@ layout: mfile
 title: glTexGeni
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glTexGeni  Interface to OpenGL function glTexGeni

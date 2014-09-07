@@ -3,6 +3,7 @@ layout: mfile
 title: glBlendColor
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glBlendColor  Interface to OpenGL function glBlendColor

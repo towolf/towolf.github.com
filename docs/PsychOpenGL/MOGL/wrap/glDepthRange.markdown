@@ -3,6 +3,7 @@ layout: mfile
 title: glDepthRange
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDepthRange  Interface to OpenGL function glDepthRange

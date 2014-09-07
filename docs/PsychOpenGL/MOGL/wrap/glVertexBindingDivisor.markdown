@@ -3,6 +3,7 @@ layout: mfile
 title: glVertexBindingDivisor
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glVertexBindingDivisor  Interface to OpenGL function glVertexBindingDivisor

@@ -3,6 +3,7 @@ layout: mfile
 title: EyeLength
 categories:
   - PsychColorimetricData
+encoding: UTF-8
 ---
 
  eyeLengthMM = EyeLength\(species,source\)
@@ -34,7 +35,7 @@ categories:
  be returned as the eye length.  This is a bit redundant with the
  numeric option above.
 
- Passing None is appropriate as an error check \-\- if a calculation
+ Passing None is appropriate as an error check -- if a calculation
  uses the eye length when none is passed, NaN's will show up in
  the answer.
 

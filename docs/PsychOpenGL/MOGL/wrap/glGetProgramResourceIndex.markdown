@@ -3,6 +3,7 @@ layout: mfile
 title: glGetProgramResourceIndex
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetProgramResourceIndex  Interface to OpenGL function glGetProgramResourceIndex

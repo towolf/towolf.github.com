@@ -3,6 +3,7 @@ layout: mfile
 title: KbTriggerWait
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 secs = KbTriggerWait\(keyCode, \[deviceNumber\]\)
@@ -16,7 +17,7 @@ key, use KbTriggerWait\(\[KbName\('t'\), KbName\('ESCAPE'\)\]\).
 You cannot use KbTriggerWait while a queue created by KbQueueCreate
 exists. To shut down such a queue, use KbQueueRelease.
 
-On Matlab versions older than R2007a on MS\-Windows, this function simply
+On Matlab versions older than R2007a on MS-Windows, this function simply
 serves as a convenient substitute for using KbCheck to detect the
 trigger of interest.
 
@@ -40,16 +41,16 @@ KbCheck, it should be more accurate on average with regard to timing,
 even when the timestamps of the earliest events have been lost due to
 queue overflow.
 
-KbTriggerWait tests the first USB\-HID keyboard device by default.
+KbTriggerWait tests the first USB-HID keyboard device by default.
 Optionally, you can pass in a 'deviceNumber' to test a different keyboard
 if multiple keyboards are connected to your machine. The function also
 allows to wait for button presses on keypads, mice or other HID devices
 with buttons or keys.
 
-Passing a deviceNumber of \-1 will NOT cause all keyboards to be detected
+Passing a deviceNumber of -1 will NOT cause all keyboards to be detected
 
 One disadvantage of this function is that it renders Matlab relatively
-unresponsive to Ctrl\-C interrupts. KbQueueWait is a better option in
+unresponsive to Ctrl-C interrupts. KbQueueWait is a better option in
 this regard, but more complicated to use.
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 

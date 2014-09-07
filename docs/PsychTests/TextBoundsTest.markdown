@@ -3,6 +3,7 @@ layout: mfile
 title: TextBoundsTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 TextBoundsTest\(\[string\] \[, font\] \[, textSize\] \[, rotAngle\]\)
@@ -22,12 +23,12 @@ cases, textbounds will be way to big or too small and text may appear cut
 off.
 
 The TextBounds\(\) function implemented in TextBounds.m uses a different
-approach: It draws the text string into a provided window \- usually an
+approach: It draws the text string into a provided window - usually an
 offscreen window which is so big that it can easily accomodate the text
 string in question, ie., it is way too big for the string. Then it reads
 back the image of that string and computes the exact bounding box of the
-non\-background pixels. This method is obviously independent of OS
-facilities and \(faulty\) information in the font files \- thereby highly
+non-background pixels. This method is obviously independent of OS
+facilities and \(faulty\) information in the font files - thereby highly
 robust and accurate. However the approach is very slow, so you should
 only use this method if you really need it.
 
@@ -42,7 +43,7 @@ Optional parameters: \(All have meaningful defaults\)
 'string' The text string to draw. Default: "Wordy"
 'font' Name of the font definition file. Default: "Chicago"
 'textSize' Size of text font. Default: 64 pts.
-'rotAngle' Orientation of test\-blitted text. Default: 45 degrees.
+'rotAngle' Orientation of test-blitted text. Default: 45 degrees.
 
 
 

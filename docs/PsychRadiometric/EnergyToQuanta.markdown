@@ -3,6 +3,7 @@ layout: mfile
 title: EnergyToQuanta
 categories:
   - PsychRadiometric
+encoding: UTF-8
 ---
 
 quanta = EnergyToQuanta\(wls,energy\)

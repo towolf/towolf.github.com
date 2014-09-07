@@ -3,6 +3,7 @@ layout: mfile
 title: tcpip_status
 categories:
   - tcpip
+encoding: UTF-8
 ---
 
 status=tcpip\_status\(fid\) Return a status value for tcpip connection.

@@ -3,13 +3,14 @@ layout: mfile
 title: AddImageUndistortionToGLOperator
 categories:
   - PsychGLImageProcessing
+encoding: UTF-8
 ---
 
 AddImageUndistortionToGLOperator\(gloperator, exampleImage, calibrationStructureOrFile \[, showCalibOutput=0\]\[, varargin\]\)
 
 Add a geometric undistortion operation to a given imaging pipeline image
 processing operator 'gloperator'. 'gloperator' is the operator to add to.
-'exampleImage' is a texture\- or offscreen window handle to a texture or
+'exampleImage' is a texture- or offscreen window handle to a texture or
 offscreen window which has exactly the color depths and size of the input
 images you want to geometrically undistort \(and scale\) later on. The
 created operator will be adapted to only work correctly on input images
@@ -17,7 +18,7 @@ of that size\! 'calibrationStructureOrFile' Either the file name to a
 geometric calibration file, as created by, e.g.,
 DisplayUndistortionBezier.m or DisplayUndistortionBVL.m, or a struct with
 the neccessary information as created, e.g., by CreateDisplayWarp\(\).
-'showCalibOutput' optional flag: If set to non\-zero value, the routine
+'showCalibOutput' optional flag: If set to non-zero value, the routine
 will plot some debug output to the console or into figure windows.
 'varargin' may contain optional parameters that will be passed to the
 routine CreateDisplayWarp\(\) as optional arguments \(see help

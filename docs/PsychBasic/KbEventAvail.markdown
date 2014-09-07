@@ -3,6 +3,7 @@ layout: mfile
 title: KbEventAvail
 categories:
   - PsychBasic
+encoding: UTF-8
 ---
 
 navail = KbEventAvail\(\[deviceIndex\]\)

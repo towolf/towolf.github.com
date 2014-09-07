@@ -3,6 +3,7 @@ layout: mfile
 title: glHint
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glHint  Interface to OpenGL function glHint

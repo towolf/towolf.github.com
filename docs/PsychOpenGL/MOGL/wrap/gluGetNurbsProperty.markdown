@@ -3,6 +3,7 @@ layout: mfile
 title: gluGetNurbsProperty
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluGetNurbsProperty  Interface to OpenGL function gluGetNurbsProperty

@@ -3,6 +3,7 @@ layout: mfile
 title: glColorMaterial
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glColorMaterial  Interface to OpenGL function glColorMaterial

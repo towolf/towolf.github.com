@@ -3,6 +3,7 @@ layout: mfile
 title: EyelinkOneLiners
 categories:
   - EyelinkOneLiners
+encoding: UTF-8
 ---
 
 EyelinkToolbox:EyelinkBasic

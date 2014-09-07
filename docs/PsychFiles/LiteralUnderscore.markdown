@@ -3,6 +3,7 @@ layout: mfile
 title: LiteralUnderscore
 categories:
   - PsychFiles
+encoding: UTF-8
 ---
 
 str =  LiteralUnderscore\(instr\)

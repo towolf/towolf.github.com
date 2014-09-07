@@ -3,6 +3,7 @@ layout: mfile
 title: _alGetBooleanv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alGetBooleanv  Interface to OpenAL function alGetBooleanv

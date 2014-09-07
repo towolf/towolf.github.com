@@ -3,6 +3,7 @@ layout: mfile
 title: ISO2007MPEPrintAnalysis
 categories:
   - PsychISO2007MPE
+encoding: UTF-8
 ---
 
 ISO2007MPEPrintAnalysis\(IsOverLimit,ISO2007MPEStruct\)

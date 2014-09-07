@@ -3,6 +3,7 @@ layout: mfile
 title: CenterRectOnPoint
 categories:
   - PsychRects
+encoding: UTF-8
 ---
 
 newRect = CenterRectOnPoint\(rect,x,y\)

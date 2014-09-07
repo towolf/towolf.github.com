@@ -3,6 +3,7 @@ layout: mfile
 title: GL_ONE
 categories:
   - PsychAlphaBlending
+encoding: UTF-8
 ---
 
 constantString=GL\_ONE

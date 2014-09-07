@@ -3,6 +3,7 @@ layout: mfile
 title: XYZToxyY
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 \[xyY\] = XYZToxyY\(XYZ\)

@@ -3,6 +3,7 @@ layout: mfile
 title: ComputeRMSE
 categories:
   - PsychSignal
+encoding: UTF-8
 ---
 
  rmse = ComputeRMSE\(data,predict\)
@@ -10,7 +11,7 @@ categories:
  Compute fractional RMSE between data and prediction.
  Inputs should be column vectors.
  Actual code is:
-        diff = predict\-data;
+        diff = predict-data;
         rmse = sqrt\(\(diff'\*diff\)/\(data'\*data\)\);
 
  2/3/96     dhb     Added improved comments.

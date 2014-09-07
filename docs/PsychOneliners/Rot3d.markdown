@@ -3,10 +3,11 @@ layout: mfile
 title: Rot3d
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 out = Rot3d\(in,n,dim\)
-rotates input matrix around x\-, y\- of z\-axis
+rotates input matrix around x-, y- of z-axis
 IN is a vector, a 2D or a 3D matrix \(all three can be rotated three
 dimensionally\)
 

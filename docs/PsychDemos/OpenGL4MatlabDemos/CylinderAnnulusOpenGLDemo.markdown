@@ -3,6 +3,7 @@ layout: mfile
 title: CylinderAnnulusOpenGLDemo
 categories:
   - OpenGL4MatlabDemos
+encoding: UTF-8
 ---
 
 CylinderAnnulusOpenGLDemo\(\[patternType=0\]\[, multiSample=0\]\)
@@ -16,15 +17,15 @@ texture using [Screen](/docs/Screen)\('MakeTexture'\), then provides this textur
 standard OpenGL compatible texture using [Screen](/docs/Screen)\('GetOpenGLTexture'\).
 This standard texture is applied to a cylinder using standard OpenGL commands
 and finally the cylinder is drawn as a rotating object in a simple animation
-loop. \-\-\> You'll see a rotating cylinder.
+loop. --\> You'll see a rotating cylinder.
 
 Stop the demo by pressing any key and it will finish.
 
-The optional parameter 'multiSample' allows to enable anti\-aliased
+The optional parameter 'multiSample' allows to enable anti-aliased
 drawing with 'multiSample' samples per pixel on hardware that supports
 this.
 
-The optional parameter 'patternType' allows \(if set to non\-zero
+The optional parameter 'patternType' allows \(if set to non-zero
 value\) to apply a specific pattern to the spinning cylinder, instead of
 a "earth surface texture image". This demonstrates algorithmic texture
 generation and the use of trilinear mipmap filtering to improve image
@@ -44,7 +45,7 @@ http://www.opengl.org/documentation/red\_book\_1.0/
 
 http://www.opengl.org
 
-The earth surface JPEG\-image is taken from the Linux/KDE application
+The earth surface JPEG-image is taken from the Linux/KDE application
 kdeworldclock. kdeworldclock and its components are licensed under
 GPL.
 

@@ -3,6 +3,7 @@ layout: mfile
 title: MacModelName
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 modelName=MacModelName
@@ -15,7 +16,7 @@ name for the computer.  To do that we use the mapping of identifier to
 product names found in:
 /System/Library/SystemProfiler/SPPlatformReporter.spreporter/Contents/
  Resources/English.lproj/Localizable.strings.
-There is no official Apple\-recommended way to uncover the marketing
+There is no official Apple-recommended way to uncover the marketing
 name. However, this method works and should be reasonably robust.
 
 See also: [Gestalt](/docs/Gestalt), [Screen](/docs/Screen)\('Computer?'\), [OSName](/docs/OSName), AppleVersion

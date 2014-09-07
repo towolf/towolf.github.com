@@ -3,6 +3,7 @@ layout: mfile
 title: gluEndSurface
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluEndSurface  Interface to OpenGL function gluEndSurface

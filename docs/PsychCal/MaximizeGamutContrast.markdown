@@ -3,6 +3,7 @@ layout: mfile
 title: MaximizeGamutContrast
 categories:
   - PsychCal
+encoding: UTF-8
 ---
 
 \[s,sPos,sNeg\] = MaximizeGamutContrast\(dir,white\)

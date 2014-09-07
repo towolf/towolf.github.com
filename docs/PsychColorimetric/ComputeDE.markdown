@@ -3,6 +3,7 @@ layout: mfile
 title: ComputeDE
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 DE = ComputeDE\(input1,input2\)
@@ -13,7 +14,7 @@ columns of two matrices.
 Useful in color difference calculations.
 
 10/17/93    dhb  Wrote it.
-12/18/98    dhb  Re\-wrote so as not to be a memory hog.
+12/18/98    dhb  Re-wrote so as not to be a memory hog.
 
 
 <div class="code_header" style="text-align:right;">

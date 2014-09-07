@@ -3,6 +3,7 @@ layout: mfile
 title: DaqAInScanContinue
 categories:
   - Daq
+encoding: UTF-8
 ---
 
 \[params, data\] = DaqAInScanContinue\(DeviceIndex, options \[, wantLiveData=0\]\)

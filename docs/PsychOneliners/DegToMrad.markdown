@@ -3,6 +3,7 @@ layout: mfile
 title: DegToMrad
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 angleInMradians = DegToMrad\(angleInDegrees\)

@@ -3,6 +3,7 @@ layout: mfile
 title: gluLookAt
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 gluLookAt  Interface to OpenGL function gluLookAt

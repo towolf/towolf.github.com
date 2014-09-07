@@ -3,6 +3,7 @@ layout: mfile
 title: PTBAndIsetbioColorimetryTest
 categories:
   - PsychTests
+encoding: UTF-8
 ---
 
 PTBAndIsetbioColorimetryTest
@@ -21,12 +22,12 @@ isetbio is available on gitHub as https://github.com/wandell/isetbio.git.
 
 The checks are grouped into cells that check one thing at a time.
 
-Because DHB and BAW have too much time on their hands \-
+Because DHB and BAW have too much time on their hands -
  "A man with one watch always knows what time it is, a man with two is never sure."
  "A man with SPM knows how to blur and average his watches so that he can't tell the time"
 
 7/7/10  dhb  Wrote it.
-x/xx/10 baw  Checked with ISET\-4.0 revision 351 \(BW\)
+x/xx/10 baw  Checked with ISET-4.0 revision 351 \(BW\)
 2/28/13 dhb  Updated to work with vset rather than proprietary iset.
 8/5/13  dhb  Updated to work with isetbio, vset's successor.
 

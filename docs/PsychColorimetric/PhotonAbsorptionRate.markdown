@@ -3,6 +3,7 @@ layout: mfile
 title: PhotonAbsorptionRate
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
  \[photonAbsorptionRate\] =...
@@ -21,7 +22,7 @@ categories:
 
  Units:
    photonAbsorptionRate: quanta/sec/photorecptor
-   irradianceInQuanta: quanta/um^2\-sec\-wlinterval
+   irradianceInQuanta: quanta/um^2-sec-wlinterval
    absorptanceSpectra: probability an incident quantum will be absorbed.
    collectingDiameter \(um^2\)
 

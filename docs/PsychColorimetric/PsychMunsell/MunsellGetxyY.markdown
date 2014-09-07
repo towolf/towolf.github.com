@@ -3,6 +3,7 @@ layout: mfile
 title: MunsellGetxyY
 categories:
   - PsychMunsell
+encoding: UTF-8
 ---
 
 \[xyY,Xx,trix,Xy,triy,XY,triY\] = MunsellGetxyY\(angle,value,chroma,munsellData\[,Xx,trix,Xy,triy,XY,triY\]\)

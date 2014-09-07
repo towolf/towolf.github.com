@@ -3,6 +3,7 @@ layout: mfile
 title: glColor4s
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glColor4s  Interface to OpenGL function glColor4s

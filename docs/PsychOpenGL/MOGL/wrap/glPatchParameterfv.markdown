@@ -3,6 +3,7 @@ layout: mfile
 title: glPatchParameterfv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glPatchParameterfv  Interface to OpenGL function glPatchParameterfv

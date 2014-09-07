@@ -3,6 +3,7 @@ layout: mfile
 title: glAttachShader
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glAttachShader  Interface to OpenGL function glAttachShader

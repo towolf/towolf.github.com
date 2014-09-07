@@ -3,6 +3,7 @@ layout: mfile
 title: SaveMovieFrames
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 function SaveMovieFrames\(framenr,filmname,filmdir,outdir\):

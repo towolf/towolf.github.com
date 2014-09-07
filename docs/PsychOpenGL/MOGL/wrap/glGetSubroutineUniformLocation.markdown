@@ -3,6 +3,7 @@ layout: mfile
 title: glGetSubroutineUniformLocation
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetSubroutineUniformLocation  Interface to OpenGL function glGetSubroutineUniformLocation

@@ -3,6 +3,7 @@ layout: mfile
 title: glRenderbufferStorage
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glRenderbufferStorage  Interface to OpenGL function glRenderbufferStorage

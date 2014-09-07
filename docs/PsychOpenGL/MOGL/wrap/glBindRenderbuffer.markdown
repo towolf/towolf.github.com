@@ -3,6 +3,7 @@ layout: mfile
 title: glBindRenderbuffer
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glBindRenderbuffer  Interface to OpenGL function glBindRenderbuffer

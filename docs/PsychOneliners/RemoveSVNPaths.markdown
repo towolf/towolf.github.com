@@ -3,6 +3,7 @@ layout: mfile
 title: RemoveSVNPaths
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 newPathList = RemoveSVNPaths\(pathList\)

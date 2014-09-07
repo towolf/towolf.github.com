@@ -3,6 +3,7 @@ layout: mfile
 title: glClearColor
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glClearColor  Interface to OpenGL function glClearColor

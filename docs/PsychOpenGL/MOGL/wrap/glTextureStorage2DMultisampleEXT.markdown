@@ -3,6 +3,7 @@ layout: mfile
 title: glTextureStorage2DMultisampleEXT
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glTextureStorage2DMultisampleEXT  Interface to OpenGL function glTextureStorage2DMultisampleEXT

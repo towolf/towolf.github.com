@@ -3,6 +3,7 @@ layout: mfile
 title: glGenerateMipmapEXT
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGenerateMipmapEXT  Interface to OpenGL function glGenerateMipmapEXT

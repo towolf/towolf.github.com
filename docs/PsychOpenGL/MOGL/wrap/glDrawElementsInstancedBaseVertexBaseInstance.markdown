@@ -3,6 +3,7 @@ layout: mfile
 title: glDrawElementsInstancedBaseVertexBaseInstance
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glDrawElementsInstancedBaseVertexBaseInstance  Interface to OpenGL function glDrawElementsInstancedBaseVertexBaseInstance

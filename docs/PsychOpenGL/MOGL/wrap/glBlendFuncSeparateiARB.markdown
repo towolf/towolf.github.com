@@ -3,6 +3,7 @@ layout: mfile
 title: glBlendFuncSeparateiARB
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glBlendFuncSeparateiARB  Interface to OpenGL function glBlendFuncSeparateiARB

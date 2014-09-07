@@ -3,6 +3,7 @@ layout: mfile
 title: glGetActiveUniformBlockName
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glGetActiveUniformBlockName  Interface to OpenGL function glGetActiveUniformBlockName

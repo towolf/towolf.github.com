@@ -3,6 +3,7 @@ layout: mfile
 title: ComputeRawConeFundamentals
 categories:
   - PsychColorimetricData
+encoding: UTF-8
 ---
 
 \[T\_quantalAbsorptionsNormalized,T\_quantalAbsorptions,T\_quantalIsomerizations\] = ComputeRawConeFundamentals\(params,staticParams\)
@@ -21,7 +22,7 @@ the probability that a photon will be absorbed.  The second is the probability
 that the photon will cause a photopigment isomerization.  It is the latter
 that is what you want to compute isomerization rates from retinal illuminance.
 See note at the end of function FillInPhotoreceptors for some information about
-convention.  In particular, this routine takes pre\-retinal absorption into
+convention.  In particular, this routine takes pre-retinal absorption into
 account in its computation of probability of absorptions and isomerizations,
 so that the relevant retinal illuminant is one computed without accounting for
 those factors.  This routine does not account for light attenuation due to
@@ -34,7 +35,7 @@ case the absorbance is computed from the specified
 nomogram, or you can pass the absorbance values
 directly in T\_xxx format.  A typical choice in this
 case would be 10.^T\_lgo10coneabsorbance\_ss for the
-Stockman\-Sharpe/CIE estimates.
+Stockman-Sharpe/CIE estimates.
 
 The typical use of this function is to be called by
 ComputeCIEConeFundamentals, which sets up the

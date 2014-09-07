@@ -3,6 +3,7 @@ layout: mfile
 title: glProgramUniformMatrix2fv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glProgramUniformMatrix2fv  Interface to OpenGL function glProgramUniformMatrix2fv

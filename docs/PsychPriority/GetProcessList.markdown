@@ -3,6 +3,7 @@ layout: mfile
 title: GetProcessList
 categories:
   - PsychPriority
+encoding: UTF-8
 ---
 
 processStructList=GetProcessList

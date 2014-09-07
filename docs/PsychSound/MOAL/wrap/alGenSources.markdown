@@ -3,6 +3,7 @@ layout: mfile
 title: alGenSources
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 alGenSources  Interface to OpenAL function alGenSources

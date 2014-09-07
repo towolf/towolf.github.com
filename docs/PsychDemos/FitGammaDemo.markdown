@@ -3,6 +3,7 @@ layout: mfile
 title: FitGammaDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 FitGammaDemo.

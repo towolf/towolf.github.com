@@ -3,6 +3,7 @@ layout: mfile
 title: IsWindows
 categories:
   - PsychObsolete
+encoding: UTF-8
 ---
 
 function resultFlag = IsWindows

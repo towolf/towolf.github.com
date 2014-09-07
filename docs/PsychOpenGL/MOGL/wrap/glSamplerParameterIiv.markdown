@@ -3,6 +3,7 @@ layout: mfile
 title: glSamplerParameterIiv
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glSamplerParameterIiv  Interface to OpenGL function glSamplerParameterIiv

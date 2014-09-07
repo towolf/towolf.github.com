@@ -3,6 +3,7 @@ layout: mfile
 title: glColor3ub
 categories:
   - wrap
+encoding: UTF-8
 ---
 
 glColor3ub  Interface to OpenGL function glColor3ub

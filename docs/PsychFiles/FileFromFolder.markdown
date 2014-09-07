@@ -3,6 +3,7 @@ layout: mfile
 title: FileFromFolder
 categories:
   - PsychFiles
+encoding: UTF-8
 ---
 
 \[file,nfile\] = FileFromFolder\(folder,mode,ext\)

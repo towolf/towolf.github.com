@@ -3,6 +3,7 @@ layout: mfile
 title: WindowSize
 categories:
   - AlphaImageDemo
+encoding: UTF-8
 ---
 
 \[width,height\] = WindowSize\(window\)

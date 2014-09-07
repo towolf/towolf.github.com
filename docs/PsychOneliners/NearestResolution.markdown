@@ -3,6 +3,7 @@ layout: mfile
 title: NearestResolution
 categories:
   - PsychOneliners
+encoding: UTF-8
 ---
 
 res=NearestResolution\(screenNumber,\[width,height,hz,pixelSize\]\)

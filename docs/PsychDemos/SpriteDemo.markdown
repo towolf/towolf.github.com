@@ -3,6 +3,7 @@ layout: mfile
 title: SpriteDemo
 categories:
   - PsychDemos
+encoding: UTF-8
 ---
 
 SpriteDemo

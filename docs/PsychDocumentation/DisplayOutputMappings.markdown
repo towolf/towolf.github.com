@@ -3,23 +3,24 @@ layout: mfile
 title: DisplayOutputMappings
 categories:
   - PsychDocumentation
+encoding: UTF-8
 ---
 
-DisplayOutputMappings \-\- How they work, how to resolve problems.
+DisplayOutputMappings -- How they work, how to resolve problems.
 
 You probably read this text, because [Screen](/docs/Screen)\(\) gave you some error or
 warning message about problems with beamposition queries or other
-low\-level functions and directed you to this document for
+low-level functions and directed you to this document for
 troubleshooting.
 
 So, what happened here?
 
-For various low\-level operations, e.g., beamposition queries for
+For various low-level operations, e.g., beamposition queries for
 timestamping, control of high precision framebuffers and high precision
 display devices, and for certain stereo display modes, [Screen](/docs/Screen)\(\) needs to
 know which video output connector on your graphics card is connected to
 which electronic display scanout engine \(a so called "crtc"\) in the
-graphics card, because it needs to exercise low\-level control over the
+graphics card, because it needs to exercise low-level control over the
 crtc associated with a specific display. The actual wiring between crtc's
 and display connectors however is not fixed on modern graphics cards, but
 it is flexible. The wiring is controlled by electronic programmable
@@ -38,20 +39,20 @@ Sometimes, due to operating system or graphics driver bugs, or system
 misconfiguration, the operating system "lies" to [Screen](/docs/Screen)\(\) about the true
 wiring. On some systems, the operating system can't tell [Screen](/docs/Screen)\(\) about the
 wiring and [Screen](/docs/Screen)\(\) has to make an educated guess based on some
-heuristics \- a guess which can go wrong.
+heuristics - a guess which can go wrong.
 
 Long story short, [Screen](/docs/Screen)\(\) can be wrong about which crtc to access for a
 given display, causing the kind of malfunctions, warnings and errors
 messages that brought you to this help text. To fix such problems you
 need to help [Screen](/docs/Screen)\(\) in one of multiple different ways:
 
-1. On MS\-Windows, try to update your graphics driver in the hope that
+1. On MS-Windows, try to update your graphics driver in the hope that
    this fixes the problem. Don't forget to reboot\!
 
 2. If this doesn't help, or if you are on Linux or OS/X, try to replug
    the displays into different video output connectors on your computer.
    E.g., on a single monitor setup, plug the monitor into the other video
-   output connector. On a dual\-display setup, exchange which monitor is
+   output connector. On a dual-display setup, exchange which monitor is
    plugged into which connector etc. This replugging will make reality
    match the expectations of [Screen](/docs/Screen)\(\). Don't forget to restart Matlab or
    Octave after the change.
@@ -68,18 +69,18 @@ need to help [Screen](/docs/Screen)\(\) in one of multiple different ways:
 
    On Linux the same logic applies. However, on Linux, multiple video
    outputs \(and thereby display monitors\) can be connected to one single
-   Psychtoolbox screenid \(aka X\-Window system X\-[Screen](/docs/Screen)\) to allow for more
+   Psychtoolbox screenid \(aka X-Window system X-[Screen](/docs/Screen)\) to allow for more
    flexibility than on the other systems. For this reason an additional
    'rank' parameter controls which of multiple possible outputs per
    screen is remapped. The default 'rank' of 0 refers to the primary
    display output, the one which is used for stimulus onset timestamping
    or framerate queries. It may therefore be neccessary to play with the
-   'rank' parameter as well on multi\-display setups with multiple
+   'rank' parameter as well on multi-display setups with multiple
    monitors per Psychtoolbox screen.
 
-4. If you have a multi\-GPU setup, ie., multiple graphics cards installed
-   and active at the same time, then [Screen](/docs/Screen)\(\) low\-level functions may not
-   work. More precisely, they will not work at all on MS\-Windows. On
+4. If you have a multi-GPU setup, ie., multiple graphics cards installed
+   and active at the same time, then [Screen](/docs/Screen)\(\) low-level functions may not
+   work. More precisely, they will not work at all on MS-Windows. On
    Apple OS/X or on Linux you can make them work on exactly one GPU, the
    other GPU's will be ignored. By default, the first GPU in the system
    is chosen. You can override the choice by executing the command
@@ -98,7 +99,7 @@ need to help [Screen](/docs/Screen)\(\) in one of multiple different ways:
 
    Also remember that all your visual stimulation \(== "experiment"\)
    displays should be connected to the chosen GPU, not one of the other
-   GPUs\! Other GPUs should usually only be used for non\-Psychtoolbox
+   GPUs\! Other GPUs should usually only be used for non-Psychtoolbox
    purposes, e.g., operator displays like the Matlab or Octave window,
    etc. While it is possible to open [Screen](/docs/Screen)\(\) onscreen windows on the
    other GPUs as well, visual stimulus onset timestamping and other
@@ -107,7 +108,7 @@ need to help [Screen](/docs/Screen)\(\) in one of multiple different ways:
    which indicate that visual timing on those windows will be broken or
    highly unreliable.
 
-   For an example case of such a multi\-gpu setup under Linux, and the
+   For an example case of such a multi-gpu setup under Linux, and the
    procedure that resolved problems and made timestamping work, see
    Psychtoolbox forum message \#16208:
 

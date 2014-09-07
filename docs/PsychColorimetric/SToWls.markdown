@@ -3,6 +3,7 @@ layout: mfile
 title: SToWls
 categories:
   - PsychColorimetric
+encoding: UTF-8
 ---
 
 wls = SToWls\(S\)
