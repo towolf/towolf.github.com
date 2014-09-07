@@ -22,13 +22,3 @@ variances of the individual random variables.
 8/19/94     dhb     Wrote it.
 2/6/96      dhb     Second calling form.
 7/24/04       awi     Cosmetic.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychProbability/BuildMarkovK.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychProbability/BuildMarkovK.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychProbability/BuildMarkovK.m</code>
-</div>

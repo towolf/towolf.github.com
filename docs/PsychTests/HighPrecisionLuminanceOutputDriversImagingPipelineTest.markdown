@@ -101,14 +101,3 @@ the electronic high precision converter device itself is working
 correctly with this data. Only visual inspection and a
 photometer/colorimeter test can really tell you if the whole system is
 working correctly!
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/HighPrecisionLuminanceOutputDriversImagingPipelineTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/HighPrecisionLuminanceOutputDriversImagingPipelineTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/HighPrecisionLuminanceOutputDriversImagingPipelineTest.m</code>
-</div>

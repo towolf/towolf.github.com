@@ -22,13 +22,3 @@ If viewing distance is omitted it is assumed to be the distance at which
 the mixture spatial frequency is 60 c/deg.
 
 Denis Pelli 6/1/97
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/GratingNull.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/GratingNull.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/GratingNull.m</code>
-</div>

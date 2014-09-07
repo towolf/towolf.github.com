@@ -64,14 +64,3 @@ recording on lower end machines.
 'windowed' If set to non-zero, show captured video in a window located at
 the top-left corner of the screen, instead of fullscreen. Windowed
 display is the default.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/VideoRecordingDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/VideoRecordingDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/VideoRecordingDemo.m</code>
-</div>

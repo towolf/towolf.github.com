@@ -33,14 +33,3 @@ could not care less about that information.
 2\. Statistics about distribution of user base wrt. operating system,
    and Matlab / Octave version to prioritize development for the most
    common platform+OS combinations.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/PsychtoolboxRegistration.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/PsychtoolboxRegistration.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/PsychtoolboxRegistration.m</code>
-</div>

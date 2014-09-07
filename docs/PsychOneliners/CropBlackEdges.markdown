@@ -22,13 +22,3 @@ DN 2007       Wrote it
 DN 2008-07-30 Now returns correct indices if one or more or all sides of
               the image do not have a black edge
 DN 2009-02-02 Now returns error msg if all is black
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/CropBlackEdges.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/CropBlackEdges.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/CropBlackEdges.m</code>
-</div>

@@ -65,13 +65,3 @@ by build numbers were compiled from identical C source files.
 ----
 
 see also: [Screen](/docs/Screen)('Version')
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/PsychtoolboxVersion.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/PsychtoolboxVersion.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/PsychtoolboxVersion.m</code>
-</div>

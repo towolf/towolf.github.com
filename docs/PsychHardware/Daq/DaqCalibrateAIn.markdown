@@ -29,13 +29,3 @@ be run to see if you have only one device.  -- mpr
 To calibrate a channel, connect the appropriate pin(s) to pin 17.  For channel
 0, you want pin 1 to pin 17, for channel 1, pin 3 to pin 17, for channel 2,
 pin 5 to... you probably see the pattern...
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/Daq/DaqCalibrateAIn.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/Daq/DaqCalibrateAIn.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/Daq/DaqCalibrateAIn.m</code>
-</div>

@@ -23,13 +23,3 @@ Input variables: irradianceWatts - retinal irradiance in watts/um2-wlinterval.
 07/18/03  dhb  Wrote it.
 04/09/12  dhb  Debug.  This was apparently never quite finished.
                Improve comments.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychRadiometric/RetIrradianceToTrolands.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychRadiometric/RetIrradianceToTrolands.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychRadiometric/RetIrradianceToTrolands.m</code>
-</div>

@@ -54,13 +54,3 @@ Written by N. Ruh, 15/02/2008.
 
 History:
 3/3/2008  Included in Psychtoolbox (MK).
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/PsychExampleExperiments/MullerLyerIllusion.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/PsychExampleExperiments/MullerLyerIllusion.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/PsychExampleExperiments/MullerLyerIllusion.m</code>
-</div>

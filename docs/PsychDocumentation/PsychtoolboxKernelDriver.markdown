@@ -106,14 +106,3 @@ If everything went well, Psychtoolbox will report availability (and its
 use) of the driver the first time the [Screen](/docs/Screen)() mex file gets loaded and
 used. If it doesn't happen immediately, type "clear [Screen](/docs/Screen)" to force a
 reload of [Screen](/docs/Screen).
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDocumentation/PsychtoolboxKernelDriver.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDocumentation/PsychtoolboxKernelDriver.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDocumentation/PsychtoolboxKernelDriver.m</code>
-</div>

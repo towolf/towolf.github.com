@@ -23,13 +23,3 @@ out, the script will choose the display with the highest screen id.
 4\. After twenty keystrokes, a fully white display.
 5\. After another keystroke, the Bits++ should revert to a normal desktop
    display.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/BitsPlusToolbox/BitsPlusTests/BitsPlusSimpleTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/BitsPlusToolbox/BitsPlusTests/BitsPlusSimpleTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/BitsPlusToolbox/BitsPlusTests/BitsPlusSimpleTest.m</code>
-</div>

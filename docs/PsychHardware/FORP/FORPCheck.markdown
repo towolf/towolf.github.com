@@ -46,13 +46,3 @@ time (EventTime) of the status check.
    10/16/06   mk   Add caching of device index.
    10/17/06   fs   Done some restructuring and testing.
    02/08/07   mk   New vendor id 6171 added to valid device lists.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/FORP/FORPCheck.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/FORP/FORPCheck.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/FORP/FORPCheck.m</code>
-</div>

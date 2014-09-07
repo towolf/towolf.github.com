@@ -52,14 +52,3 @@ workload = Which drawing workload to simulate in test part II [0, 1 2].
 
 pollingwait = Use 'AsyncFlipCheckEnd' instead of 'AsyncFlipEnd'
               in 1st test?
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/AsyncFlipTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/AsyncFlipTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/AsyncFlipTest.m</code>
-</div>

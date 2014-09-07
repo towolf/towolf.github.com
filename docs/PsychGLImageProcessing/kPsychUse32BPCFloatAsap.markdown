@@ -27,14 +27,3 @@ will be carried out using 32 bpc precision framebuffers.
 This function is a workaround for old hardware. If you intend to do lots
 of serious work with HDR imagery or high contrast precision displays, do
 yourself a favor and buy a current generation graphics card.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/kPsychUse32BPCFloatAsap.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/kPsychUse32BPCFloatAsap.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/kPsychUse32BPCFloatAsap.m</code>
-</div>

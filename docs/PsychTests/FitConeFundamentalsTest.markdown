@@ -34,13 +34,3 @@ would probably be the way to go.
 8/11/11  dhb  Wrote it.
 8/14/11  dhb  Clean up and add comments.
 8/10/13  dhb  A few more notes.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/FitConeFundamentalsTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/FitConeFundamentalsTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/FitConeFundamentalsTest.m</code>
-</div>

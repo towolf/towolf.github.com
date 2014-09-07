@@ -29,14 +29,3 @@ optional other properties.
  distance of 'tolerance' in 3D color space around the backgroundColor are
  considered background color. The default tolerance is 0.001 units, which
  for 8 bit colors means a perfect match -- zero tolerance.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/CreateSinglePassImageProcessingShader.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/CreateSinglePassImageProcessingShader.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/CreateSinglePassImageProcessingShader.m</code>
-</div>

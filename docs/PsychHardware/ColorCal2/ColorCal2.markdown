@@ -78,13 +78,3 @@ Command List:
      This command is intended to be issued when the ColorCal2 is in the
      dark.  Returns 1 if the command succeeds, 0 if it fails.  This
      command must be run after every power cycle of the device.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/ColorCal2/ColorCal2.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/ColorCal2/ColorCal2.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/ColorCal2/ColorCal2.m</code>
-</div>

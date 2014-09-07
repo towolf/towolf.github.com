@@ -189,14 +189,3 @@ be done only once, after installing MATLAB.
 
 <http://www.mathworks.com/access/helpdesk/help/techdoc/matlab\_env/ws\_pat18.html>
 
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./DownloadPsychtoolbox.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./DownloadPsychtoolbox.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./DownloadPsychtoolbox.m</code>
-</div>

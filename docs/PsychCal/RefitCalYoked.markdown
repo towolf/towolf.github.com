@@ -16,13 +16,3 @@ which in turn requires the correct settings.
 5/25/10  dhb, ar       Yoked field in describe now set elsewhere.
 5/28/10  dhb           Update to swing on field yokedmethod.
 6/5/10   dhb           Use plot subroutines.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/RefitCalYoked.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/RefitCalYoked.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/RefitCalYoked.m</code>
-</div>

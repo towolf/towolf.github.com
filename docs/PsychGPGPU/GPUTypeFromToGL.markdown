@@ -53,13 +53,3 @@ can directly access the mapped resource. The object is mapped read-only.
 
 If cmd is == 6, the same operation as cmd == 5 happens, but the object is mapped
 write-only.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGPGPU/GPUTypeFromToGL.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGPGPU/GPUTypeFromToGL.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGPGPU/GPUTypeFromToGL.m</code>
-</div>

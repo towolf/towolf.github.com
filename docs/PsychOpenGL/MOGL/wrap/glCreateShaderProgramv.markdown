@@ -27,13 +27,3 @@ fclose(fid);
 shader = glCreateShaderProgramv(GL.VERTEX\_SHADER, 1, shadersource);
 
 C function:  GLuint glCreateShaderProgramv(GLenum type, GLsizei count, const GLchar\* const)
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOpenGL/MOGL/wrap/glCreateShaderProgramv.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOpenGL/MOGL/wrap/glCreateShaderProgramv.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOpenGL/MOGL/wrap/glCreateShaderProgramv.m</code>
-</div>

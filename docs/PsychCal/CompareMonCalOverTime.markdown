@@ -19,13 +19,3 @@ These are prompted for.
 2/15/10   dhb         Fix input, not a string.
 3/1/10    dhb         Allow drawing from different files, refitting data, etc.
 6/23/11   dhb         Make a chromaticity plot of the comparison as well.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/CompareMonCalOverTime.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/CompareMonCalOverTime.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/CompareMonCalOverTime.m</code>
-</div>

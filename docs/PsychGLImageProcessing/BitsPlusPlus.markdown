@@ -349,14 +349,3 @@ where it can get accessed like a USB flash drive, e.g., to edit configuration
 files, update firmware or EDID's etc. Only a power-cycle will bring the
 device back into a mode which allows us to connect to it again.
 
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/BitsPlusPlus.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/BitsPlusPlus.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/BitsPlusPlus.m</code>
-</div>

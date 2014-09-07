@@ -29,14 +29,3 @@ graphics card.
 # Parameters:
 
 'fwidth' = Width of low-pass filter kernel in frequency space units.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/GPGPUDemos/GPUFFTDemo1.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/GPGPUDemos/GPUFFTDemo1.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/GPGPUDemos/GPUFFTDemo1.m</code>
-</div>

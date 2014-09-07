@@ -93,13 +93,3 @@ and CalibrateAmbDrvr so that is where you would look.
 11/08/06 cgb, dhb  OS/X.
 9/27/08 dhb  Default primary bases is 1 now.  Use RefitCalLinMod to change later if desired.
 8/19/12 mk   [Ask](/docs/Ask) user for choice of display output device.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/CalibrateMonSpd.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/CalibrateMonSpd.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/CalibrateMonSpd.m</code>
-</div>

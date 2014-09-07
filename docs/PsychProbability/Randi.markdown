@@ -17,13 +17,3 @@ We assume that n is a positive integer, and rely on the fact that RAND
 never returns 0 or 1.
 
 [Randi](/docs/Randi)(n) is similar to David Brainard's [Ranint](/docs/Ranint)(n).
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychProbability/Randi.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychProbability/Randi.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychProbability/Randi.m</code>
-</div>

@@ -122,14 +122,3 @@ allow for interactive change of settings like brightness, gain and
 exposure time: 'b' increases brightness, 'd' decreases brightness.
 Up/DownArrow keys increase/decrease gain. Right/LeftArrow keys
 increase/decrease exposure time (shutter time).
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychVideoCapture/PsychVideoDelayLoop.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychVideoCapture/PsychVideoDelayLoop.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychVideoCapture/PsychVideoDelayLoop.m</code>
-</div>

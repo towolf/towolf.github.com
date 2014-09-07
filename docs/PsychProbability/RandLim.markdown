@@ -17,13 +17,3 @@ N is a vector indicating the dimensions of the output:
   N = [17,1,3] creates a 17x1x3 matrix
 
 LOWER and UPPER can be any number
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychProbability/RandLim.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychProbability/RandLim.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychProbability/RandLim.m</code>
-</div>

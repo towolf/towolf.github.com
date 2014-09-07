@@ -133,13 +133,3 @@ otherwise your system may lock up, requiring a hard reboot!
 see also OS X:    [Rush](/docs/Rush)
 see also Windows: [Rush](/docs/Rush)
 see also OS 9:    [Rush](/docs/Rush), ScreenTest, RushTest, LoopTest
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychPriority/Priority.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychPriority/Priority.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychPriority/Priority.m</code>
-</div>

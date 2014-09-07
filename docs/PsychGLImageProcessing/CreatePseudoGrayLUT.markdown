@@ -66,14 +66,3 @@ monitor", Proc. SPIE #1666, pp 351-364.
 However, i haven't ever read that article, so i don't know if it proposes
 exactly the same procedure although readers of that article told me that
 it is "basically the same".
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/CreatePseudoGrayLUT.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/CreatePseudoGrayLUT.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/CreatePseudoGrayLUT.m</code>
-</div>

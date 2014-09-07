@@ -94,14 +94,3 @@ of rendering: 0 (the default) draws a colored point-cloud of all sensed
 
 This function must be enclosed between [Screen](/docs/Screen)('BeginOpenGL', window);
 and [Screen](/docs/Screen)('EndOpenGL', window); calls, as 3D mode is needed.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/PsychKinect.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/PsychKinect.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/PsychKinect.m</code>
-</div>

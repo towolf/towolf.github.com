@@ -32,14 +32,3 @@ precision" result table of Mario Kleiner's ECVP-2010 poster "Visual
 stimulus timing precision in Psychtoolbox-3: Tests, pitfalls &
 solutions". The same data is used in the corresponding table of his PhD
 Dissertation.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/PosterBatchAnalyzeTimestamps.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/PosterBatchAnalyzeTimestamps.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/PosterBatchAnalyzeTimestamps.m</code>
-</div>

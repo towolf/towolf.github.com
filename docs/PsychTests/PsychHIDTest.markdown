@@ -21,13 +21,3 @@ find that this reliably restores normal communication.
 
 <http://psychtoolbox.org/usb.html>
 See also DaqTest, PsychHID, PsychHardware.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/PsychHIDTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/PsychHIDTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/PsychHIDTest.m</code>
-</div>

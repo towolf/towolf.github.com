@@ -77,14 +77,3 @@ connection problems and other defects.
 In that case, contact CRS support or check the Psychtoolbox Wiki for a
 workaround. Currently we have a workaround for MacOS/X systems, but not
 for MS-Windows systems.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/BitsPlusToolbox/BitsPlusTests/BitsPlusIdentityClutTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/BitsPlusToolbox/BitsPlusTests/BitsPlusIdentityClutTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/BitsPlusToolbox/BitsPlusTests/BitsPlusIdentityClutTest.m</code>
-</div>

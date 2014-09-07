@@ -34,13 +34,3 @@ reply=[Ask](/docs/Ask)(window,'What''s your name?',[],[],'GetString'); % Accept 
 reply=[Ask](/docs/Ask)(window,'Who are you?',[],[],'GetChar',RectLeft,RectTop); % Accept keyboard input, echo it to screen.
 
 See also GetString.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/Ask.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/Ask.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/Ask.m</code>
-</div>

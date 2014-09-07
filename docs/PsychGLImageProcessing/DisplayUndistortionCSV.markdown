@@ -107,14 +107,3 @@ filename for the output file.
 This script will print out a little snippet of code that you can paste
 and include into your experiment script - That will automatically load
 the calibration result file and apply the proper undistortion operation.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/DisplayUndistortionCSV.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/DisplayUndistortionCSV.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/DisplayUndistortionCSV.m</code>
-</div>

@@ -30,14 +30,3 @@ latest hardware, allowing for up to 2^26 bits, but that is likely not
 that useful, given that internal GPU precision is restricted to 23 bits
 (floating point single precision) and there doesn't exist a single output
 device with more than 16 bits of output resolution anyway.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/PsychHelperCreateGenericLuminanceToRGBA8LUT.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/PsychHelperCreateGenericLuminanceToRGBA8LUT.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/PsychHelperCreateGenericLuminanceToRGBA8LUT.m</code>
-</div>

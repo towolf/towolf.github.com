@@ -16,13 +16,3 @@ Psychtoolbox:PsychColorimetric:PsychMunsell.
   MunsellHueToAngle   - Convert symbolic MunsellHue to hue angle.
   MunsellPreprocessTable - Get table of Munsell renotation to xyY (under illuminant C).
   RITAllMunsellData.txt - Table of Munsell data used in interpolation, from RIT.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetric/PsychMunsell/Contents.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetric/PsychMunsell/Contents.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetric/PsychMunsell/Contents.m</code>
-</div>

@@ -27,13 +27,3 @@ get after quantization error.
 11/16/06   dhb   Adjust for [0,1] world.  Involves changing what's passed
                  in and out
 5/26/12    dhb   Add gammaMode == 2 case.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/GamutToSettings.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/GamutToSettings.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/GamutToSettings.m</code>
-</div>

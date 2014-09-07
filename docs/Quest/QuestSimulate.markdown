@@ -20,13 +20,3 @@ current trial in green or red for a positive or negative response. plotIt
 responses. By default, nothing is plotted.
 
 See Quest.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./Quest/QuestSimulate.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./Quest/QuestSimulate.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./Quest/QuestSimulate.m</code>
-</div>

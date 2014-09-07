@@ -105,14 +105,3 @@ X-Server installed, you'll have those libraries available.
    else fails - contact the Psychtoolbox forum for help. In the latter
    case, describe exactly your system, what troubleshooting steps you
    performed and the exact results of these steps and their output.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDocumentation/DrawTextPlugin.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDocumentation/DrawTextPlugin.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDocumentation/DrawTextPlugin.m</code>
-</div>

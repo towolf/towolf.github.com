@@ -19,13 +19,3 @@ any case.
 10/3/93  dhb,jms  Normalize output to max of 1.
                   Better be sure that last value is max setting.
 8/7/00   dhb      Rewrote equation this uses completely.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGamma/ComputeGammaExtP.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGamma/ComputeGammaExtP.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGamma/ComputeGammaExtP.m</code>
-</div>

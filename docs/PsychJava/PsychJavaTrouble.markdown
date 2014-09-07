@@ -65,13 +65,3 @@ system does not have a javac compiler installed by default.
 6\. Other reasons: Post to the Psychtoolbox forum and ask for help.
 
 Good luck!
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychJava/PsychJavaTrouble.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychJava/PsychJavaTrouble.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychJava/PsychJavaTrouble.m</code>
-</div>

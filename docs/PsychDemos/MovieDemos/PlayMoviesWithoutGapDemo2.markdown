@@ -36,13 +36,3 @@ method can handle arbitrary movies. The downside is a higher likelyhood
 of small gaps between movies.
 
 History: 14.03.2012  mk  Wrote it, derived from PlayMoviesWithoutGapDemo1.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/MovieDemos/PlayMoviesWithoutGapDemo2.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/MovieDemos/PlayMoviesWithoutGapDemo2.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/MovieDemos/PlayMoviesWithoutGapDemo2.m</code>
-</div>

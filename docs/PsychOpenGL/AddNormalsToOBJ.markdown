@@ -23,13 +23,3 @@ the edges of the triangle. Then it distributes those normals to the 3
 vertices that define the triangle, accumulating contributions of all
 triangles that share a vertex. At the end, the accumulated normals are
 normalized and assigned as per-vertex normals.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOpenGL/AddNormalsToOBJ.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOpenGL/AddNormalsToOBJ.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOpenGL/AddNormalsToOBJ.m</code>
-</div>

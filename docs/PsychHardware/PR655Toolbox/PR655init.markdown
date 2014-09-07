@@ -22,14 +22,3 @@ necessary with the PR655, so one run of this seems to do the trick.
 the prevalance of using usbmodem as a generic identifier, but if you can
 afford the PR655, you're probably on some more respectable form of internet
 connection. -TBC
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/PR655Toolbox/PR655init.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/PR655Toolbox/PR655init.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/PR655Toolbox/PR655init.m</code>
-</div>

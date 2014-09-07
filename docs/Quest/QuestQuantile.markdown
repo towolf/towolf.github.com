@@ -21,13 +21,3 @@ Pelli, D. G. (1987). The ideal psychometric procedure. Investigative
 Ophthalmology & Visual Science, 28(Suppl), 366.
 
 See Quest.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./Quest/QuestQuantile.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./Quest/QuestQuantile.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./Quest/QuestQuantile.m</code>
-</div>

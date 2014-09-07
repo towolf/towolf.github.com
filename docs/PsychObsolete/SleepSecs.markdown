@@ -46,14 +46,3 @@ SleepSecs does not exist in Windows.
 ----
 
 See Also: [Priority](/docs/Priority), [Rush](/docs/Rush), SetMachPriorityMex, GetMachPriorityMex, [Screen](/docs/Screen)('[Flip](/docs/Flip)')
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychObsolete/SleepSecs.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychObsolete/SleepSecs.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychObsolete/SleepSecs.m</code>
-</div>

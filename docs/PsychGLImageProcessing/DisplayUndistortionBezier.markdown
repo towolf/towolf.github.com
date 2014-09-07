@@ -134,13 +134,3 @@ load a screenshot of one of your typical stimuli as image file
 
 You finish the calibration and write it into a calibration file by
 pressing the ESCape key. This will end the calibration script.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/DisplayUndistortionBezier.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/DisplayUndistortionBezier.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/DisplayUndistortionBezier.m</code>
-</div>

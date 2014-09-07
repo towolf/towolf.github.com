@@ -37,13 +37,3 @@ encoding: UTF-8
               dhb   Change calling conventions to remove unused args.
  9/14/00   dhb   Sync mode no longer used.  Arg passed for backwards compatibility.
  2/27/02   dhb, ly  Pass whichMeterType rather than noMeterAvail.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/MeasMonXYZ.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/MeasMonXYZ.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/MeasMonXYZ.m</code>
-</div>

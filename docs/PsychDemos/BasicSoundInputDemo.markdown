@@ -37,13 +37,3 @@ voicetrigger = If set to a non-zero threshold value, the driver will wait
 
 maxsecs      = Maximum number of seconds of sound to capture. Defaults to
                infinite - sound is recorded until a key is pressed.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/BasicSoundInputDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/BasicSoundInputDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/BasicSoundInputDemo.m</code>
-</div>

@@ -48,14 +48,3 @@ ATSU was used on OSX for many years and each layout and rendering method
 will give slightly different text appearance, for reason of consistency
 we leave the default setting for OSX on 1, instead of using the superior
 setting 2.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/DrawHighQualityUnicodeTextDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/DrawHighQualityUnicodeTextDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/DrawHighQualityUnicodeTextDemo.m</code>
-</div>

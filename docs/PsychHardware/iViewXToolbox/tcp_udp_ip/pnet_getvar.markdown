@@ -18,14 +18,3 @@ PNET\_GETVAR - Gets any matlab variable (number-, cell-, struct- or object -arra
   an UDP packet.
 
 Se also:  PNET\_PUTVAR, PNET, PNET\_REMOTE
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/iViewXToolbox/tcp_udp_ip/pnet_getvar.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/iViewXToolbox/tcp_udp_ip/pnet_getvar.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/iViewXToolbox/tcp_udp_ip/pnet_getvar.m</code>
-</div>

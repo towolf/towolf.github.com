@@ -22,13 +22,3 @@ Please note that we only use two textures: One holding the image,
 the other defining the mask.
 
 see also: PsychDemos, MovieDemo, DriftDemo
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/PsychTutorials/AlphaImageTutorial.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/PsychTutorials/AlphaImageTutorial.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/PsychTutorials/AlphaImageTutorial.m</code>
-</div>

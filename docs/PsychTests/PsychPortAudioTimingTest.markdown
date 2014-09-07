@@ -59,14 +59,3 @@ in 'help InitializePsychSound' for best results.
                  the 'useDPixx' flag to 2 also plots the waveforms
                  captured by DataPixx, which may help in selection of the
                  optimal triggerLevel.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/PsychPortAudioTimingTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/PsychPortAudioTimingTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/PsychPortAudioTimingTest.m</code>
-</div>

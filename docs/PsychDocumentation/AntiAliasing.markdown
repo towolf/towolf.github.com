@@ -78,13 +78,3 @@ Typical values on todays hardware: GeForce-3 series: 4-way sampling,
 GeForce 7800 series: 16 way multisampling.
 
 To be continued...
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDocumentation/AntiAliasing.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDocumentation/AntiAliasing.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDocumentation/AntiAliasing.m</code>
-</div>

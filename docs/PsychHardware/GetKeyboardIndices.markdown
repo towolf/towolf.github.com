@@ -39,13 +39,3 @@ GetKeyboardIndices does not yet exist in Windows and Linux.
 ----
 
 see also: GetGamepadIndices
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/GetKeyboardIndices.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/GetKeyboardIndices.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/GetKeyboardIndices.m</code>
-</div>

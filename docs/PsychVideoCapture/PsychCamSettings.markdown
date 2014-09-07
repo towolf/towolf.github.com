@@ -138,14 +138,3 @@ other device.
 The latency values computed here are based on the official camera
 specs. If the spec is wrong or inaccurate, then this value will
 be wrong or inaccurate as well, so use with caution!
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychVideoCapture/PsychCamSettings.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychVideoCapture/PsychCamSettings.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychVideoCapture/PsychCamSettings.m</code>
-</div>

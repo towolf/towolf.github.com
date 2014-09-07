@@ -37,13 +37,3 @@ length(params) == 4
 9/23/13   dhb         Fix BAD bug.  This wasn't computing what the comments said it was.
                       Not sure when that crept in.  The contrast in the numerator was
                       being divided by sigma before being raised to the power n.  No idea why.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./Psychometric/ComputeNakaRushton.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./Psychometric/ComputeNakaRushton.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./Psychometric/ComputeNakaRushton.m</code>
-</div>

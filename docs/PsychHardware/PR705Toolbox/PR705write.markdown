@@ -25,13 +25,3 @@ Outputs:
 Refer to [IOPort](/docs/IOPort) Write?
 
 11/29/12    zlb   Wrote it.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/PR705Toolbox/PR705write.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/PR705Toolbox/PR705write.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/PR705Toolbox/PR705write.m</code>
-</div>

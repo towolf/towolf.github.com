@@ -27,13 +27,3 @@ as this is more conveniently foldeded into the spectral absorptance.
 See also: PupilAreaFromLum, IsomerizationsInEyeDemo.
 
 7/10/03  dhb  Wrote it.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetric/LumToRetIrradiance.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetric/LumToRetIrradiance.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetric/LumToRetIrradiance.m</code>
-</div>

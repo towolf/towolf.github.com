@@ -82,13 +82,3 @@ definition array of the i'th mesh in the OBJ file.
 
 This loader is an improved/modified version of the loader from MATLAB-Central, written by:
 W.S. Harwin, University Reading, 2006
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOpenGL/LoadOBJFile.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOpenGL/LoadOBJFile.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOpenGL/LoadOBJFile.m</code>
-</div>

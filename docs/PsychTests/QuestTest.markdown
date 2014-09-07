@@ -53,13 +53,3 @@ method. Percept Psychophys, 33 (2), 113-20.
 Copyright (c) 1996-1997 Denis G. Pelli
 
 6/24/97  dgp    wrote it, based on QuestDemo.m
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/QuestTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/QuestTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/QuestTest.m</code>
-</div>

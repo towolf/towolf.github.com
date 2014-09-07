@@ -46,14 +46,3 @@ parameter.
                  exactstart == 0, otherwise it is auto-detected by
                  calibration. This will likely need tweaking on your
                  setup.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/PsychPortAudioDataPixxTimingTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/PsychPortAudioDataPixxTimingTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/PsychPortAudioDataPixxTimingTest.m</code>
-</div>

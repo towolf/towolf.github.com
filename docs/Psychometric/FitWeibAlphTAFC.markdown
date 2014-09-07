@@ -35,13 +35,3 @@ encoding: UTF-8
  4/18/02   dhb         Fix reference to undefined variable 'levels'.
            dhb         Suppress warnings in calls to optimization toolbox.
  3/5/05 dhb         Update for optimization toolbox version 2.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./Psychometric/FitWeibAlphTAFC.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./Psychometric/FitWeibAlphTAFC.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./Psychometric/FitWeibAlphTAFC.m</code>
-</div>

@@ -75,13 +75,3 @@ This transformations apply to any drawing command, not only text strings!
 ----
 
 see also: PsychDemos
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/DrawMirroredTextDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/DrawMirroredTextDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/DrawMirroredTextDemo.m</code>
-</div>

@@ -26,14 +26,3 @@ secondary channels initial input image for their chains (inputimageFBO in case
 of the image processing chain, preConversionFBO in case of output conversion
 / final formatting). Multi-Pass chains have to take this into account that the
 secondary channel won't update during multi-stage processing, but stays static.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/kPsychNeedOtherStreamInput.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/kPsychNeedOtherStreamInput.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/kPsychNeedOtherStreamInput.m</code>
-</div>

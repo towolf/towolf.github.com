@@ -33,13 +33,3 @@ MacAdam (1978, JOSA, 68, 121-130).  See TestOSAUCS.
 3/27/01  dhb  Wrote it.
 7/14/10  dhb  Added comment that the formulae in my chapter have a typo.
               The code here is and was correct.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetric/XYZToLjg.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetric/XYZToLjg.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetric/XYZToLjg.m</code>
-</div>

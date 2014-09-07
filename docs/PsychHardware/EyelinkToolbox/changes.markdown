@@ -109,14 +109,3 @@ encoding: UTF-8
     added a few test programs provided by John Palmer
     added SimpleStepExperiment by John Palmer to the demo's
     Reorganised demo-experiments
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/EyelinkToolbox/changes.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/EyelinkToolbox/changes.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/EyelinkToolbox/changes.m</code>
-</div>

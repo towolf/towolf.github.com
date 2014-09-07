@@ -33,14 +33,3 @@ system will be used.
 
 'moviename' Name string for selection of filename of a target movie file to
 which video should be recorded. Defaults to none,ie., no video recording.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/VideoDVCamCaptureDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/VideoDVCamCaptureDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/VideoDVCamCaptureDemo.m</code>
-</div>

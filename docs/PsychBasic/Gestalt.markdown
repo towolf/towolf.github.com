@@ -78,13 +78,3 @@ In MATLAB versions below 6.0 MATLAB supplies [Gestalt](/docs/Gestalt).
 ----
 
 See also: [Screen](/docs/Screen)('Computer?'), MacModelName, AppleVersion
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/Gestalt.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/Gestalt.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/Gestalt.m</code>
-</div>

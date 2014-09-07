@@ -51,13 +51,3 @@ GRIDDATA3 Data gridding and hyper-surface fitting for 3-dimensional data.
    Class support for inputs X,Y,Z,V,XI,YI,ZI: double
 
    See also GRIDDATA, GRIDDATAN, QHULL, DELAUNAYN, MESHGRID.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetric/PsychMunsell/MunsellGriddata3.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetric/PsychMunsell/MunsellGriddata3.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetric/PsychMunsell/MunsellGriddata3.m</code>
-</div>

@@ -242,14 +242,3 @@ special needs.
 
 The optional 'uvFGdots' argument returns 2D texture coordinates as
 assigned to the rendered 3D object.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOpenGL/moglFDF.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOpenGL/moglFDF.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOpenGL/moglFDF.m</code>
-</div>

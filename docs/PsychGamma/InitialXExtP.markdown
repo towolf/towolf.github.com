@@ -17,13 +17,3 @@ parameters for best ordinary power function fit.
 11/16/06 dhb  Order of vector was reversed relative to how it's used in
               FitGammaExpP.  Make default guess for gamma 2.
 11/16/06 dhb  Adjust initial offset for [0,1] world.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGamma/InitialXExtP.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGamma/InitialXExtP.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGamma/InitialXExtP.m</code>
-</div>

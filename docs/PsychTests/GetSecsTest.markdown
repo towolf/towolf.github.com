@@ -77,13 +77,3 @@ Btw. Currently there are no known problems with timers and clocks on PC
 hardware running recent Linux distributions or on any Apple Macintosh
 computers running MacOS/X ;-)  -- That's why first versions of this test
 are only targeted at MS-Windows.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/GetSecsTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/GetSecsTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/GetSecsTest.m</code>
-</div>

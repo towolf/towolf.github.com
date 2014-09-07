@@ -19,14 +19,3 @@ standard Matlab/Octave image matrix format, it imshow()'s the image in a
 standard figure window.
 
 Press any key or wait for 600 seconds to end the demo.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/VideoCaptureToMatlabDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/VideoCaptureToMatlabDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/VideoCaptureToMatlabDemo.m</code>
-</div>

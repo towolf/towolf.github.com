@@ -41,14 +41,3 @@ this script, but use the batch-drawing version of [Screen](/docs/Screen)('DrawTe
 could submit the specs (parameters) of all patches in one single matrix
 via one single [Screen](/docs/Screen)('DrawTextures'); call - this is more efficient and
 therefore extra fast!
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/ProceduralNoiseDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/ProceduralNoiseDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/ProceduralNoiseDemo.m</code>
-</div>

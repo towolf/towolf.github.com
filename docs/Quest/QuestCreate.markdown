@@ -90,13 +90,3 @@ encoding: UTF-8
     possible indication that your stated range is too small.
 
  See Quest.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./Quest/QuestCreate.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./Quest/QuestCreate.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./Quest/QuestCreate.m</code>
-</div>

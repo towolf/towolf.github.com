@@ -25,13 +25,3 @@ call UpdateAmbient instead.
 7/7/98    dhb          Wrote it.
 4/5/02    dhb, ly  Update for new interface.  Internal names not changed.
 5/2/02    dhb, kr  Add ADD flag.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/UpdateAmbientSensor.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/UpdateAmbientSensor.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/UpdateAmbientSensor.m</code>
-</div>

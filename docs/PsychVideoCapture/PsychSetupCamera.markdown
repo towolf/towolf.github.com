@@ -32,13 +32,3 @@ the old file, if it already exists.
 If no rate is given, the loop runs at 30 Hz.
 If no filename is given, 'CamSettings.mat' is read/written from
 the current working directory.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychVideoCapture/PsychSetupCamera.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychVideoCapture/PsychSetupCamera.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychVideoCapture/PsychSetupCamera.m</code>
-</div>

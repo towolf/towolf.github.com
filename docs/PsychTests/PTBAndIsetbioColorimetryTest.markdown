@@ -33,13 +33,3 @@ x/xx/10 baw  Checked with ISET-4.0 revision 351 (BW)
 7/31/14 dhb, ncp Put a cd around call to isetbio xyz2lab to deal with
              fact that 2014b has added a routine with this name that
              doesn't work quite the same.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/PTBAndIsetbioColorimetryTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/PTBAndIsetbioColorimetryTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/PTBAndIsetbioColorimetryTest.m</code>
-</div>

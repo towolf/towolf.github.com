@@ -49,13 +49,3 @@ R can take four forms:
 Function can also be used to compute points laying on (part of) a [Circle](/docs/Circle)
 or sphere with radius D:
 [X,~,Z] = DotOffset(linspace(0,360),D,100);
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/DotOffset.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/DotOffset.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/DotOffset.m</code>
-</div>

@@ -31,13 +31,3 @@ See also CylToSensor, SensorToPolar, PolarToSensor.
 4/5/02    dhb, ly  New calling interface.
 11/06/06  dhb   No longer allow two passed args.
 1/3/10    dhb   Elaborated comments a little.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/SensorToCyl.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/SensorToCyl.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/SensorToCyl.m</code>
-</div>

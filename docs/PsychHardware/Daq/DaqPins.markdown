@@ -58,13 +58,3 @@ USB-1408FS same as USB-1208FS except that pin 16 is listed as 2.5 V
 
  See also Daq, DaqFunctions, DaqTest.
  DaqDeviceIndex, DaqDIn, DaqDOut, DaqAIn, DaqAOut, DaqAInScan,DaqAOutScan.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/Daq/DaqPins.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/Daq/DaqPins.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/Daq/DaqPins.m</code>
-</div>

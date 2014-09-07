@@ -184,14 +184,3 @@ generous 1000 button events.
 state in 'buttonStates' and corresponding box time and GetSecs time
 timestamps of time of query in 'boxTimeSecs' and 'getsecsTimeSecs'.
 
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/DatapixxToolbox/DatapixxBasic/ResponsePixx.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/DatapixxToolbox/DatapixxBasic/ResponsePixx.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/DatapixxToolbox/DatapixxBasic/ResponsePixx.m</code>
-</div>

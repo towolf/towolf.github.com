@@ -24,13 +24,3 @@ to do the trick.
 
 8/26/94     ccc, dhb        Wrote it.
 8/30/94     dhb                 Comment comparing to QUEST('Epsilon').
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./Psychometric/FindEpsWeibTAFC.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./Psychometric/FindEpsWeibTAFC.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./Psychometric/FindEpsWeibTAFC.m</code>
-</div>

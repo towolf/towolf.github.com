@@ -22,13 +22,3 @@ This is the chromaticity of illuminant C.  We think this is right.
 12/01/08  ijk       Added interpolation for low chroma samples.
           ijk, dhb  Tried to make it go fast by allowing precomputation.
 12/22/08  ijk, dhb  Change y chromaticity of CIE C to .3162, to match standard (was .3163).
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetric/PsychMunsell/MunsellGetxyY.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetric/PsychMunsell/MunsellGetxyY.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetric/PsychMunsell/MunsellGetxyY.m</code>
-</div>

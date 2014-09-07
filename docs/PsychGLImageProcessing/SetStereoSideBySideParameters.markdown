@@ -26,14 +26,3 @@ scale. [0.75, 0.5] scale to 75% of original width, 50% of original
 height.
 
 'rightOffset', 'rightScale' == Ditto for right eye image.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/SetStereoSideBySideParameters.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/SetStereoSideBySideParameters.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/SetStereoSideBySideParameters.m</code>
-</div>

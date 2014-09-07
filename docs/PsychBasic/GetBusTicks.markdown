@@ -43,13 +43,3 @@ GetBusTicks does not exist in Windows.
 ----
 
 See also: GetBusTicksTick, GetSecs, GetSecsTick,  GetTicks, GetTicksTick.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/GetBusTicks.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/GetBusTicks.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/GetBusTicks.m</code>
-</div>

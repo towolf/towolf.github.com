@@ -31,13 +31,3 @@ same is empty if whichScreen is not provided.
                    Comparison of computer name skipped, because it seems to vary with login.
 6/24/11  dhb       Dump out gamma fit type and exponents if gamma function was fit with a simple power function.
 5/28/13  dhb       Change output printed format to make it easier to paste into Doku wiki.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/DescribeMonCal.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/DescribeMonCal.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/DescribeMonCal.m</code>
-</div>

@@ -87,14 +87,3 @@ successive beep tones of 1 sec duration.
 Authors:
 Finnegan Calabro  - fcalabro@bu.edu
 Mario Kleiner     - mario.kleiner at tuebingen.mpg.de
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/ImagingStereoDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/ImagingStereoDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/ImagingStereoDemo.m</code>
-</div>

@@ -47,14 +47,3 @@ FDFDemo                -- Demo for use of moglFDF() for creation of
 
 DrawDots3DDemo         -- Demonstrates use of the moglDrawDots3D command for 3D dot drawing,
                           and of fast GLSL vertex shading for 3D dot animation.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/OpenGL4MatlabDemos/Contents.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/OpenGL4MatlabDemos/Contents.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/OpenGL4MatlabDemos/Contents.m</code>
-</div>

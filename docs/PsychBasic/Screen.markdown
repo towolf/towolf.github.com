@@ -159,13 +159,3 @@ the bug. And please include as much information about your hardware and software
 setup to document the context in which you're running, e.g., Computer type, graphics
 card type and model, operating system, Matlab version, Psychtoolbox version and flavor
 and the output of PTB to the Matlab window.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/Screen.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/Screen.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/Screen.m</code>
-</div>

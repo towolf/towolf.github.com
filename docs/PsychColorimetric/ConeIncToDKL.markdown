@@ -21,13 +21,3 @@ See also DKLToConeInc, ComputeDKL\_M, [DKLDemo](/docs/DKLDemo).
 
 8/30/96 dhb  Converted this from script.
 10/5/12   dhb  Comment specifying coordinate system convention.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetric/ConeIncToDKL.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetric/ConeIncToDKL.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetric/ConeIncToDKL.m</code>
-</div>

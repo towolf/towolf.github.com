@@ -34,13 +34,3 @@ The reader routines are contributed code or open source / free software /
 public domain code downloaded from various locations under different, but
 GPL compatible licenses. See the help for the respective loaders for
 copyright and author information.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/BrightSideDisplay/HDRRead.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/BrightSideDisplay/HDRRead.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/BrightSideDisplay/HDRRead.m</code>
-</div>

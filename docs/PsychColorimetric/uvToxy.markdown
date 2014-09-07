@@ -25,13 +25,3 @@ See also [uvYToXYZ](/docs/uvYToXYZ), XYZTouvY, [xyTouv](/docs/xyTouv)
 7/15/03  dhb, bx  Wrote it.
 3/17/04  dhb      Fixed typos.  This must not have been tested previously.
 5/06/11  dhb      Improve comment, optional 1960 computations
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetric/uvToxy.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetric/uvToxy.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetric/uvToxy.m</code>
-</div>

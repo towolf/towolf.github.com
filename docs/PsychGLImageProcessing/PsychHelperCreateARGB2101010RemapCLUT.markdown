@@ -38,13 +38,3 @@ find 32 bit pixels properly formatted for ARGB2101010 scanout.
 History:
 01/13/08  Written (MK).
 08/29/11  Add caching for LUT in mat file to speed this up a bit (MK).
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/PsychHelperCreateARGB2101010RemapCLUT.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/PsychHelperCreateARGB2101010RemapCLUT.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/PsychHelperCreateARGB2101010RemapCLUT.m</code>
-</div>

@@ -47,13 +47,3 @@ functionality is something you want, then that's what you'll probably need to
 do to get things working.  And if you do that, you probably want to invest
 some time in figuring out the ReadChecksum (command code 82) for verification
 that program memory is correct. -- mpr
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/Daq/DaqWriteCode.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/Daq/DaqWriteCode.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/Daq/DaqWriteCode.m</code>
-</div>

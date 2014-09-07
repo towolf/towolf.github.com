@@ -41,14 +41,3 @@ still be represented by 256 discrete levels (8 Bit resolution), unless
 you also use PsychImaging() commands to request unclamped color
 processing or floating point precision framebuffers. This function by
 itself only changes the range, not the precision of color specifications!
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/PsychDefaultSetup.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/PsychDefaultSetup.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/PsychDefaultSetup.m</code>
-</div>

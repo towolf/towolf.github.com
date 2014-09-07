@@ -48,13 +48,3 @@ PsychColorimetricData:PsychColorimetricMatFiles.
 9/17/12 dhb  Return density for 'None' case as well.
 8/9/13  dhb  More consistent returning of density for 'None' case.
 8/11/13 dhb  Try to make dimensions of returned density match those of returned transmittance.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetricData/MacularTransmittance.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetricData/MacularTransmittance.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetricData/MacularTransmittance.m</code>
-</div>

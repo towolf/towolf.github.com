@@ -26,13 +26,3 @@ encoding: UTF-8
 
  7/25/03  dhb  Wrote it.
  8/9/13   dhb  Add type of 1.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetricData/PhotopigmentQuantalEfficiency.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetricData/PhotopigmentQuantalEfficiency.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetricData/PhotopigmentQuantalEfficiency.m</code>
-</div>

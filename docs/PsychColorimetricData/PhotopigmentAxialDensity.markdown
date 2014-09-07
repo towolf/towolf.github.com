@@ -53,13 +53,3 @@ encoding: UTF-8
  8/12/11  dhb  Added CIE source, and allow passing of fieldSizeDegrees.
  4/20/12  dhb  Add Tsujimura's estimate of melanopsin optical density in human.
  12/16/12 dhb, ms Add Alpern's rod estimates from CVRL table.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetricData/PhotopigmentAxialDensity.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetricData/PhotopigmentAxialDensity.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetricData/PhotopigmentAxialDensity.m</code>
-</div>

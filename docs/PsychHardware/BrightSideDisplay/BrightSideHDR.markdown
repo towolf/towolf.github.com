@@ -120,13 +120,3 @@ automatically, don't call it yourself!
 BrightSideHDR('Shutdown'); -- Shut down the HDR device and core library,
 switch PTB back to standard LDR output. This is called by PTB
 automatically, don't call it yourself!
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/BrightSideDisplay/BrightSideHDR.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/BrightSideDisplay/BrightSideHDR.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/BrightSideDisplay/BrightSideHDR.m</code>
-</div>

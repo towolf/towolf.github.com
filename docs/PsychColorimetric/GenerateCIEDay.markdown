@@ -26,13 +26,3 @@ the file B\_cieday.
 
 9/28/93   dhb, jms  Changed argument name to Temp
                     If B not passed, return spd = [] and other data
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetric/GenerateCIEDay.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetric/GenerateCIEDay.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetric/GenerateCIEDay.m</code>
-</div>

@@ -18,13 +18,3 @@ that are outside reasonable physical gamut limits.
 3/27/01  dhb      Wrote it.
 3/4/05   dhb        Handle new version of optimization toolbox, too.
 9/23/12  dhb, ms  Update options for current Matlab versions.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetric/LjgToXYZ.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetric/LjgToXYZ.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetric/LjgToXYZ.m</code>
-</div>

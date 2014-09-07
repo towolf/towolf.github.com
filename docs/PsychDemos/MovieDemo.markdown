@@ -116,13 +116,3 @@ See also: DriftDemo, PsychDemos.
 9/8/04   awi  Added Try/Catch.
 4/23/05  mk   Added [Priority](/docs/Priority)(0) to Catch-Section.
 11/19/06 dhb  Remove OSX from name.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/MovieDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/MovieDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/MovieDemo.m</code>
-</div>

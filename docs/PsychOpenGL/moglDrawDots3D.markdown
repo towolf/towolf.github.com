@@ -63,13 +63,3 @@ shader program will be used. You can use this, e.g., to bind a custom vertex
 shader to perform complex per-dot calculations very fast on the GPU.
 
 See
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOpenGL/moglDrawDots3D.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOpenGL/moglDrawDots3D.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOpenGL/moglDrawDots3D.m</code>
-</div>

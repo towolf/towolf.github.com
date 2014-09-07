@@ -18,13 +18,3 @@ distribution y = Cx is in general given by Ky = C Kx C'.  In our case
 Kx= I so Ky = C'C = K.
 
 K = 0 is handled as a special case
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychProbability/MultiNormalDraw.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychProbability/MultiNormalDraw.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychProbability/MultiNormalDraw.m</code>
-</div>

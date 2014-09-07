@@ -46,13 +46,3 @@ better documentation and tidying is needed.
 7/19/13  dhb  Print out photoreceptors structure using PrintPhotoreceptors.
 8/11/13  dhb  Protect against case when absorbance is provided directly.
 05/26/14 dhb  Dusted off.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/IsomerizationsInDishDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/IsomerizationsInDishDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/IsomerizationsInDishDemo.m</code>
-</div>

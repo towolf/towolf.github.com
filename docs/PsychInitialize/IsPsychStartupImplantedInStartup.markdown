@@ -16,13 +16,3 @@ ahead of the Psychtoolbox startup.m file on MATLAB's search path and add
 to your file the line:
   PsychStartup; % Setup Psychtoolbox.
 ----
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychInitialize/IsPsychStartupImplantedInStartup.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychInitialize/IsPsychStartupImplantedInStartup.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychInitialize/IsPsychStartupImplantedInStartup.m</code>
-</div>

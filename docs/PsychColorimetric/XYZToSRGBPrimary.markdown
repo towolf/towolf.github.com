@@ -30,13 +30,3 @@ seems fine, as does.
 
 5/1/04  dhb             Wrote it.
 7/8/10    dhb             Updated to match standard I can now find on the web.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetric/XYZToSRGBPrimary.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetric/XYZToSRGBPrimary.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetric/XYZToSRGBPrimary.m</code>
-</div>

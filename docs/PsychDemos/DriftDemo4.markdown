@@ -33,14 +33,3 @@ Optional Parameters:
 gratingsize = Size of 2D grating patch in pixels.
 freq = Frequency of sine grating in cycles per pixel.
 cyclespersecond = Drift speed in cycles per second.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/DriftDemo4.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/DriftDemo4.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/DriftDemo4.m</code>
-</div>

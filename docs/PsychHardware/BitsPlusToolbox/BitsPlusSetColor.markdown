@@ -21,13 +21,3 @@ xx/xx/02  jmh  Wrote it, but didn't comment.
 2/28/03   dhb, ptw  Add delay to make sure glitch has settled.
                Changed name, fixed up.
 3/8/03    dhb  Remove call to bitsplus.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/BitsPlusToolbox/BitsPlusSetColor.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/BitsPlusToolbox/BitsPlusSetColor.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/BitsPlusToolbox/BitsPlusSetColor.m</code>
-</div>

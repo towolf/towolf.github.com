@@ -22,13 +22,3 @@ encoding: UTF-8
     video card gamma table to a linear function if set to 1.  If set to 0,
     the gamma table will be assumed to be linear.  By default, this is set
     to 1.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/BitsPlusToolbox/bitsEncodeDIO.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/BitsPlusToolbox/bitsEncodeDIO.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/BitsPlusToolbox/bitsEncodeDIO.m</code>
-</div>

@@ -28,13 +28,3 @@ BASE64DECODE Perform base64 decoding on a string.
    character.
 
    See also BASE64ENCODE.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/iViewXToolbox/base64decode.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/iViewXToolbox/base64decode.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/iViewXToolbox/base64decode.m</code>
-</div>

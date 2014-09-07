@@ -29,14 +29,3 @@ Note: Some versions of MacOS/X have defective dot drawing due to an
 operating system bug. If you happen to have such a system (e.g., OS/X
 10\.6.3 with NVidia Geforce-7xxx hardware) then read "help ScreenDrawDots"
 for a workaround.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/DotDemoStencil.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/DotDemoStencil.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/DotDemoStencil.m</code>
-</div>

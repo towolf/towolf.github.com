@@ -320,14 +320,3 @@ to call "clear all", this will reset everything. However, do not use
 "clear all" inside scripts which are supposed to work within GNU/Octave!
 Only call at the command prompt.
 
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOpenGL/moglmorpher.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOpenGL/moglmorpher.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOpenGL/moglmorpher.m</code>
-</div>

@@ -38,13 +38,3 @@ encoding: UTF-8
  8/16/97 dgp  Changed "text" to "theText" to avoid conflict with TEXT function.
  7/19/98 dgp  Removed obsolete TIMER.
  6/30/03 dgp Updated [Screen](/docs/Screen) OpenScreen to [Screen](/docs/Screen) OpenWindow.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/ContrastMatch.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/ContrastMatch.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/ContrastMatch.m</code>
-</div>

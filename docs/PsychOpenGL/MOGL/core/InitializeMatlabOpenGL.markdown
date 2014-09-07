@@ -75,14 +75,3 @@ maintenance has been done by Mario Kleiner.
 
 The code has been relicensed by Richard Murray and Mario Kleiner to the
 more permissive MIT license since 2011.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOpenGL/MOGL/core/InitializeMatlabOpenGL.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOpenGL/MOGL/core/InitializeMatlabOpenGL.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOpenGL/MOGL/core/InitializeMatlabOpenGL.m</code>
-</div>

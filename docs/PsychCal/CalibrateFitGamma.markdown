@@ -57,13 +57,3 @@ See also PsychGamma.
 6/11/10  dhb  Allow passing of weighting parameter as part of cal.describe.gamma structure.  Change functional form of betacdf
               to include wrapped power functions.
 4/12/11  dhb  For simplePower option, return vector of exponents in cal.describe.exponents.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/CalibrateFitGamma.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/CalibrateFitGamma.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/CalibrateFitGamma.m</code>
-</div>

@@ -22,13 +22,3 @@ flush the MEX files (e.g. by changing directory or calling CLEAR
 MEX). M files and variables stay in memory until you clear them.
 
 See also: WaitTicks, GetTicksTick, GetSecs, GetSecsTick, WaitSecs, GetChar, GetBusTicks, GetBusTicksTick.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/GetTicks.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/GetTicks.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/GetTicks.m</code>
-</div>

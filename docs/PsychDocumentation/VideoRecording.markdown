@@ -232,14 +232,3 @@ Please note that if you don't choose a Psychtoolbox supported video codec
 from the list provided above, then you will need to specify all audio
 codec and multiplexer settings manually, as Psychtoolbox doesn't know
 which audio codecs or muxers to use with a video codec unknown to it.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDocumentation/VideoRecording.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDocumentation/VideoRecording.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDocumentation/VideoRecording.m</code>
-</div>

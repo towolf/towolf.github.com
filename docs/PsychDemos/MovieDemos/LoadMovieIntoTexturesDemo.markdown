@@ -87,14 +87,3 @@ to play sound in sync with video.
 
 To make it a bit more interesting, you can use this demo to "browse" short
 videoclips, e.g., for selection of interesting parts...
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/MovieDemos/LoadMovieIntoTexturesDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/MovieDemos/LoadMovieIntoTexturesDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/MovieDemos/LoadMovieIntoTexturesDemo.m</code>
-</div>

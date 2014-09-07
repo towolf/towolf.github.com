@@ -81,14 +81,3 @@ via the serial port, in the DQW "System Configuration" dialog, select the
 ?Recording? tab and set the recording ?Trigger? to ?Serial.?
 
 Thanks to Sebastian Moeller for finding this out.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/DatarecordingFromISCANDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/DatarecordingFromISCANDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/DatarecordingFromISCANDemo.m</code>
-</div>

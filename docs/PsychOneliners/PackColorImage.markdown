@@ -16,13 +16,3 @@ that used SCREEN('PutColorImage',....)
 
 11/24/02  jmh, dhb  Wrote it.
 06/12/12        dn  Use cat() for this
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/PackColorImage.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/PackColorImage.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/PackColorImage.m</code>
-</div>

@@ -21,14 +21,3 @@ track so called multi markers or composite markers for more robustness
 against occlusion of single markers. A setting of 3 (=1+2) should track
 both types of markers simultaneously, but this doesn't seem to work well
 yet.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/VideoTextureExtractionDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/VideoTextureExtractionDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/VideoTextureExtractionDemo.m</code>
-</div>

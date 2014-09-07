@@ -20,13 +20,3 @@ Thus:
 
 DN 2008
 DN 2009-02-02 Support non-scalar factor input
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychSignal/AltRound.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychSignal/AltRound.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychSignal/AltRound.m</code>
-</div>

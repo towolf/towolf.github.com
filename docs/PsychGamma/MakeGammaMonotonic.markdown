@@ -21,13 +21,3 @@ enforcement of increasing from 0.
              programs unrelated to gamma fitting.
 3/08/10 dhb  Actually do the enforcement of 1.
 5/27/10 dhb  Use a larger bump, 100\*eps
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGamma/MakeGammaMonotonic.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGamma/MakeGammaMonotonic.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGamma/MakeGammaMonotonic.m</code>
-</div>

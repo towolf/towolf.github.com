@@ -48,13 +48,3 @@ There still remains to measure the lag between eye and the DOS record
 6/4/01  using alt version of initwindow in meyelinkinit2
 6/5/01  fwc changed to work with new toolbox version 1.1
 6/6/01  v3, jp:  removed global "el", moved initeyelinkdefine after initialize
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/EyelinkToolbox/EyelinkTests/testsampletime.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/EyelinkToolbox/EyelinkTests/testsampletime.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/EyelinkToolbox/EyelinkTests/testsampletime.m</code>
-</div>

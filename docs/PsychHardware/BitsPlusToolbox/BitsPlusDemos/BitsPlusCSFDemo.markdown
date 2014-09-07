@@ -69,14 +69,3 @@ Campbell, F. W. and Robson, J. G. (1968) Application of Fourier analysis
 to the visibility of gratings. Journal of Physiology (London) 197:
 551-566.
 
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/BitsPlusToolbox/BitsPlusDemos/BitsPlusCSFDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/BitsPlusToolbox/BitsPlusDemos/BitsPlusCSFDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/BitsPlusToolbox/BitsPlusDemos/BitsPlusCSFDemo.m</code>
-</div>

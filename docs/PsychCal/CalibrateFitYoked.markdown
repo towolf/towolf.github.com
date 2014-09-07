@@ -22,13 +22,3 @@ belong in the PTB.
 5/28/10  dhb, ar       Execute conditionally.
 6/10/10  dhb           Make sure returned gamma values in range an monotonic.
 5/26/12  dhb           Improve the comment so this is a little less weird.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/CalibrateFitYoked.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/CalibrateFitYoked.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/CalibrateFitYoked.m</code>
-</div>

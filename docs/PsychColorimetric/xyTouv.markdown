@@ -23,13 +23,3 @@ pass this as 1.  It is 0 by default.
 7/15/03  dhb, bx  Wrote it.
 3/17/04  dhb      Fixed typos.  This must not have been tested previously.
 5/06/11  dhb      Added optional 1960 computation, and improved comments.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetric/xyTouv.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetric/xyTouv.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetric/xyTouv.m</code>
-</div>

@@ -47,14 +47,3 @@ this writing. However, you can download the most recent copies of the
 libraries from libDC's sourceforge website anytime and install it instead
 to get access to the latest features and bugfixes. Another way to get the
 library installed is via Homebrew: "brew install libdc1394".
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychVideoCapture/VideoCaptureDC1394.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychVideoCapture/VideoCaptureDC1394.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychVideoCapture/VideoCaptureDC1394.m</code>
-</div>

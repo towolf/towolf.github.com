@@ -39,13 +39,3 @@ beamposition queries, the prediction may be off by up to a millisecond
 worst case. On such systems we can't determine and correct for the
 duration of the vertical blanking interval, so the prediction will be a
 bit too early.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/PredictVisualOnsetForTime.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/PredictVisualOnsetForTime.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/PredictVisualOnsetForTime.m</code>
-</div>

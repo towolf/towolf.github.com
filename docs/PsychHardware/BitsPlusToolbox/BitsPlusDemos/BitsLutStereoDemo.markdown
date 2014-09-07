@@ -21,13 +21,3 @@ Please note that this demo needs the Bits++ from Cambridge Research Systems!!
 Sections have been lifted from the OSX movie demo etc.
 
 26/04/2005    ejw     wrote it.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/BitsPlusToolbox/BitsPlusDemos/BitsLutStereoDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/BitsPlusToolbox/BitsPlusDemos/BitsLutStereoDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/BitsPlusToolbox/BitsPlusDemos/BitsLutStereoDemo.m</code>
-</div>

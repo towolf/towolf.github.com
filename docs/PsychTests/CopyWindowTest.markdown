@@ -41,14 +41,3 @@ should have some bugs in handling of fast offscreen windows and a driver
 update doesn't fix the problem. This CopyWindowTest() script should expose
 such bugs. It also allows you to use test the legacy path with the optional
 flag 'uselegacy' set to 1.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/CopyWindowTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/CopyWindowTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/CopyWindowTest.m</code>
-</div>

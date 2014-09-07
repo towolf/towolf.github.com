@@ -42,13 +42,3 @@ OS takes on the order of a second to open and to close an offscreen
 window, making the overhead prohibitive.
 
 Also see TextBounds and [Screen](/docs/Screen) 'TextWidth' and 'DrawText'.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/TextCenteredBounds.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/TextCenteredBounds.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/TextCenteredBounds.m</code>
-</div>

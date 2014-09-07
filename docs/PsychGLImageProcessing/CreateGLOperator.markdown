@@ -37,14 +37,3 @@ AddToGLOperator() command.
 GLOperators can also get assigned to the builtin stimulus post-processing
 pipeline if they should affect all created visual stimuli. See 'help
 PsychImaging' - the section about 'AddGLOperator'
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/CreateGLOperator.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/CreateGLOperator.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/CreateGLOperator.m</code>
-</div>

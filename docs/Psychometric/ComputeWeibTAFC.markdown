@@ -21,13 +21,3 @@ parameters are taken as applying to separate columns.
 8/26/94  dhb, ccc      Handle weird values of alpha, beta
 10/13/00 dhb         Improve initial guess for alpha.  Thanks to Duje Tadin
                      for identifying the need for this.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./Psychometric/ComputeWeibTAFC.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./Psychometric/ComputeWeibTAFC.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./Psychometric/ComputeWeibTAFC.m</code>
-</div>

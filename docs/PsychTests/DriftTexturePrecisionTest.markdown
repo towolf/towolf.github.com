@@ -35,13 +35,3 @@ but additionally a special PTB GLSL interpolation shader is used instead
 of the hard-wired interpolator of your gfx chip. This is computationally
 more demanding and therefore slower, but it should provide higher
 precision and better resolution.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/DriftTexturePrecisionTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/DriftTexturePrecisionTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/DriftTexturePrecisionTest.m</code>
-</div>

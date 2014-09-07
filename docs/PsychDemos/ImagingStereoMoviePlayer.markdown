@@ -35,13 +35,3 @@ The left image is centered on the screen, the right images position can
 be moved by moving the mouse cursor to align for inter-eye distance.
 
 Press any key to quit the player.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/ImagingStereoMoviePlayer.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/ImagingStereoMoviePlayer.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/ImagingStereoMoviePlayer.m</code>
-</div>

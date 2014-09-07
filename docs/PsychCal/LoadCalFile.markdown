@@ -50,13 +50,3 @@ See also SaveCalFile, CalDataFolder.
 4/2/13   dhb  Updated for subdir searching logic.
 6/2/13   dhb  More robust about whether passed filespec contains the trailing '.mat'.
 7/3/13   dhb  Fix buglet for check on trailing .mat when length of filename less than 4 chars.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/LoadCalFile.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/LoadCalFile.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/LoadCalFile.m</code>
-</div>

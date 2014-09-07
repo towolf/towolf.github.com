@@ -20,13 +20,3 @@ degrees are essentially linear with retinal extent.
 See also: PsychRadiometric, RetIrradiancePerAreaAndEyeLengthToRetIrradiancePerDegrees2.
 
 6/23/13  dhb  Wrote it.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychRadiometric/RetIrradiancePerDegrees2AndEyeLengthToRetIrradiancePerArea.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychRadiometric/RetIrradiancePerDegrees2AndEyeLengthToRetIrradiancePerArea.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychRadiometric/RetIrradiancePerDegrees2AndEyeLengthToRetIrradiancePerArea.m</code>
-</div>

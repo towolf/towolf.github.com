@@ -17,14 +17,3 @@ will show the grayscale only test image. Be amazed! Press any key to
 repeat the adaptation phase, press ESCape to quit the demo. If you press
 the left cursor key, a white test patch will be show instead of the
 luminance image.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/SadowskiDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/SadowskiDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/SadowskiDemo.m</code>
-</div>

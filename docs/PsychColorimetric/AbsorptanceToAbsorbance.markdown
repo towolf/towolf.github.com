@@ -42,13 +42,3 @@ Originally written by HH, Copyright HH, Vista Lab, 2010
 8/11/13  dhb  Moved into PTB, modified comments so as not to refer to non-PTB routines.
          dhb  That this actually inverts is tested in IsomerizationsInEyeDemo.
 12/02/13 dhb  Fix spelling of "absorptance" in routine names and throughout.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetric/AbsorptanceToAbsorbance.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetric/AbsorptanceToAbsorbance.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetric/AbsorptanceToAbsorbance.m</code>
-</div>

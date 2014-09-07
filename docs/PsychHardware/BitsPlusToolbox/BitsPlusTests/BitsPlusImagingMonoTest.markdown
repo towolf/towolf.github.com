@@ -24,14 +24,3 @@ mapping should be tested, or if a combo of texture mapping and
 [Screen](/docs/Screen) 2D drawing commands gets tested (1).
 
 THIS TEST IS NOT FINISHED. EARLY BETA.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/BitsPlusToolbox/BitsPlusTests/BitsPlusImagingMonoTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/BitsPlusToolbox/BitsPlusTests/BitsPlusImagingMonoTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/BitsPlusToolbox/BitsPlusTests/BitsPlusImagingMonoTest.m</code>
-</div>

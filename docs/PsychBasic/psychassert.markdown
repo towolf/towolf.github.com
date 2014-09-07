@@ -19,14 +19,3 @@ will try to emulate the real assert function. The only known limitation
 of our own assert wrt. Matlabs assert is that it can't handle the MSG\_ID
 parameter as 2nd argument. Passing only message strings or message
 formatting strings + variable number of arguments should work.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/psychassert.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/psychassert.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/psychassert.m</code>
-</div>

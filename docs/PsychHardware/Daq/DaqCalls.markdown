@@ -51,13 +51,3 @@ For 1608 DaqWriteCode probably cannot work except in conjunction with a DaqUpdat
           err=DaqWriteSerialNumber(DeviceIndex,serialstring);% Write a new serial number to device (not adequately tested)
 
 See also Daq, DaqFunctions, DaqCodes, DaqPins, and DaqHelp.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/Daq/DaqCalls.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/Daq/DaqCalls.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/Daq/DaqCalls.m</code>
-</div>

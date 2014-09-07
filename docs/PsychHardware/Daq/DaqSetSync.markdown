@@ -34,13 +34,3 @@ where the sync signal will not be present until the master device has
 been issued an AInScan command. The device will switch the SYNC pin to
 the appropriate input/output state when this command is received.
 See also Daq, DaqFunctions, DaqPins, DaqTest, PsychHIDTest.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/Daq/DaqSetSync.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/Daq/DaqSetSync.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/Daq/DaqSetSync.m</code>
-</div>

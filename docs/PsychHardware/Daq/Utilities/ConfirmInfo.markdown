@@ -35,13 +35,3 @@ encoding: UTF-8
           3/31/08    mpr   added check to make sure search for appropriate
                            space does not overrun number of spaces
           5/20/13    mk Add text only fallback for Octave and non-GUI.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/Daq/Utilities/ConfirmInfo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/Daq/Utilities/ConfirmInfo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/Daq/Utilities/ConfirmInfo.m</code>
-</div>

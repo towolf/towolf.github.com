@@ -33,13 +33,3 @@ DKLToConeInc and ConeIncToDKL.
 11/17/05  dhb  Require passing of cones and luminance.
           dhb  Fixed definition of M\_raw to handle arbitrary L,M scaling.
 10/5/12   dhb  Comment specifying coordinate system convention.  Supress extraneous printout.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetric/ComputeDKL_M.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetric/ComputeDKL_M.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetric/ComputeDKL_M.m</code>
-</div>

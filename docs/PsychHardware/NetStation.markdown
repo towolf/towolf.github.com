@@ -75,14 +75,3 @@ Commands
   Created by Gergely Csibra, 2006-2008
   Based on Rick Gilmore's routines, 2005
   Adapted to PC by Zhao Fan, 2008
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/NetStation.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/NetStation.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/NetStation.m</code>
-</div>

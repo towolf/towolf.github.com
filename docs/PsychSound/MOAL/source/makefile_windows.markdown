@@ -14,14 +14,3 @@ C:\\Program Files (x86)\\OpenAL 1.1 SDK\\
 
 The SDK is currently available from:
 http://connect.creativelabs.com/openal
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychSound/MOAL/source/makefile_windows.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychSound/MOAL/source/makefile_windows.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychSound/MOAL/source/makefile_windows.m</code>
-</div>

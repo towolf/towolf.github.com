@@ -50,13 +50,3 @@ encoding: UTF-8
  4/12/13  dhb  Fix bug introduced in previous update, which may have
                been Matlab version dependent.
  8/9/13   dhb  A few more comments.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetricData/EyeLength.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetricData/EyeLength.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetricData/EyeLength.m</code>
-</div>

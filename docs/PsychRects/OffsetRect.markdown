@@ -18,13 +18,3 @@ to a whole matrix of rects 'oldRect' --\> Apply a common offset to a large
 number of rects simultaneously.
 
 Also see PsychRects.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychRects/OffsetRect.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychRects/OffsetRect.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychRects/OffsetRect.m</code>
-</div>

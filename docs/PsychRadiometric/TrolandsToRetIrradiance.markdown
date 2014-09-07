@@ -27,13 +27,3 @@ Input variables: relativeSpectrum - the relative power as a function of waveleng
 07/18/03  dhb         Wrote it.
 1/26/04   ly, dhb     Fix JuddVos path through switch.
 7/16/13   dhb         Comment and code cleaning, minor.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychRadiometric/TrolandsToRetIrradiance.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychRadiometric/TrolandsToRetIrradiance.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychRadiometric/TrolandsToRetIrradiance.m</code>
-</div>

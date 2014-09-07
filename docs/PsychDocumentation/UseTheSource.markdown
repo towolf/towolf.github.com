@@ -88,14 +88,3 @@ GitHub.
    subdirectory of the distribution.
 
    Good luck and "Use the source" (Master Yoda).
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDocumentation/UseTheSource.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDocumentation/UseTheSource.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDocumentation/UseTheSource.m</code>
-</div>

@@ -37,13 +37,3 @@ To get sensitivity in energy units, apply EnergyToQuanta().
 Argument lambdaMax may be a column vector of wavelengths.
 
 03/08/2002 ly  Wrote it starting from DawisNomogram.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetricData/GovardovskiiNomogram.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetricData/GovardovskiiNomogram.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetricData/GovardovskiiNomogram.m</code>
-</div>

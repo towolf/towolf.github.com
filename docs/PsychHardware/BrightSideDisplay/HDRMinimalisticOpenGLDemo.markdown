@@ -91,13 +91,3 @@ ported to M$-Windows and GNU/Linux and tuned by Mario Kleiner.
 The earth surface JPEG-image is taken from the Linux/KDE application
 kdeworldclock. kdeworldclock and its components are licensed under
 GPL.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/BrightSideDisplay/HDRMinimalisticOpenGLDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/BrightSideDisplay/HDRMinimalisticOpenGLDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/BrightSideDisplay/HDRMinimalisticOpenGLDemo.m</code>
-</div>

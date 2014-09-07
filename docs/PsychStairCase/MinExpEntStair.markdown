@@ -159,13 +159,3 @@ first argument is a string that identifies the action you want to perform
 function to be called) and optionally any other arguments that are needed
 for the call. See MESDemo for an example and the comments below for use
 of the different staircase functions.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychStairCase/MinExpEntStair.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychStairCase/MinExpEntStair.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychStairCase/MinExpEntStair.m</code>
-</div>

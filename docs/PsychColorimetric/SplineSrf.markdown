@@ -23,13 +23,3 @@ wavelengths or as a [start delta num] description.
 
 7/26/03 dhb  Add extend argument and pass to SplineRaw.
 8/13/11 dhb  Update comment to reflect changes in SplineRaw.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetric/SplineSrf.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetric/SplineSrf.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetric/SplineSrf.m</code>
-</div>

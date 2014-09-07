@@ -57,13 +57,3 @@ computers running a Linux 2.6 kernel have reliably working clocks.
 
 
 See also: WaitSecs, GetSecsTest,
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/GetSecs.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/GetSecs.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/GetSecs.m</code>
-</div>

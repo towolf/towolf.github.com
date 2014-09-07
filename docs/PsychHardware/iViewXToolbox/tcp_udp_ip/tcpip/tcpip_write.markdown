@@ -50,14 +50,3 @@ NOTE: changed from version 1.0 to 1.1 of tcpip toolbox.
  tcpip\_write(fid,V);
 
        Sends 4 uint16 to tcpip connection in network byte order;
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/iViewXToolbox/tcp_udp_ip/tcpip/tcpip_write.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/iViewXToolbox/tcp_udp_ip/tcpip/tcpip_write.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/iViewXToolbox/tcp_udp_ip/tcpip/tcpip_write.m</code>
-</div>

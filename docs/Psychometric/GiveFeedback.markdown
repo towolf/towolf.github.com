@@ -23,13 +23,3 @@ encoding: UTF-8
  11/15/03  dhb  Wait for sound to complete before returning.  Failure to do so
                  was causing problems when [Snd](/docs/Snd)('[Close](/docs/Close)') was called by calling
                  routine.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./Psychometric/GiveFeedback.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./Psychometric/GiveFeedback.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./Psychometric/GiveFeedback.m</code>
-</div>

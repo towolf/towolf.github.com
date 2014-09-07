@@ -50,13 +50,3 @@ better documentation and tidying is needed.
 05/26/14 dhb  Dusted off.
 6/10/14  npc, dhb  Modifications for accessing calibration data using a @CalStruct object.
 7/7/14   dhb  Make calStruct object code conditional on the support routines existing on the path.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/IsomerizationsInEyeDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/IsomerizationsInEyeDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/IsomerizationsInEyeDemo.m</code>
-</div>

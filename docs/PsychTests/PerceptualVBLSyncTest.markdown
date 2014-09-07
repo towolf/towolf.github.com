@@ -71,14 +71,3 @@ versions earlier than OS-X 10.4.3 when running a dual-display setup...
 A second reason for distributed yellow lines could be bad timing on your
 machine, e.g., due to background activity by virus scanners or the Spotlight
 indexing service on OS-X. Turn these off for conducting your studies!
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/PerceptualVBLSyncTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/PerceptualVBLSyncTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/PerceptualVBLSyncTest.m</code>
-</div>

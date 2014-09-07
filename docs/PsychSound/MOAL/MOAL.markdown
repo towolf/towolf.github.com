@@ -58,13 +58,3 @@ The following three commands will completely regenerate moal.
 \>\> autocode(1,[],1)     % generate al\_auto.c and wrapper M-files
 \>\> !make                % compile C code to produce MEX files
 \>\> oalconst             % save constants from header files in a .mat file
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychSound/MOAL/Contents.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychSound/MOAL/Contents.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychSound/MOAL/Contents.m</code>
-</div>

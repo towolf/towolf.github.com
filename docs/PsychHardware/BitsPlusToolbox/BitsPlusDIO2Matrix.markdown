@@ -23,14 +23,3 @@ a texture, a framebuffer image, or whatever is appropriate.
 
 This is just to unify the actual T-Lock encoding process in one file, so
 we don't have to edit or fix multiple files if something changes...
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/BitsPlusToolbox/BitsPlusDIO2Matrix.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/BitsPlusToolbox/BitsPlusDIO2Matrix.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/BitsPlusToolbox/BitsPlusDIO2Matrix.m</code>
-</div>

@@ -33,14 +33,3 @@ encoding: UTF-8
                 Added part to make it run with octave
                 fixed issue with non integer arguments for Eyelink('message' ...)
                 removed cleanup function, used Eyelink('ShutDown'); [Screen](/docs/Screen)('CloseAll') instead.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/EyelinkToolbox/EyelinkDemos/SR-ResearchDemo/EyeLinkPicture.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/EyelinkToolbox/EyelinkDemos/SR-ResearchDemo/EyeLinkPicture.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/EyelinkToolbox/EyelinkDemos/SR-ResearchDemo/EyeLinkPicture.m</code>
-</div>

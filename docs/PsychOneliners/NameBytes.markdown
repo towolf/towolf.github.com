@@ -43,13 +43,3 @@ example "GB" instead of "GigaBytes".  For the full name, pass
 1 in the optional abbreviateFlag argument.
 
 see also: NameFrequency, DescribeComputer
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/NameBytes.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/NameBytes.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/NameBytes.m</code>
-</div>

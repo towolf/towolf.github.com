@@ -26,13 +26,3 @@ Daniel Berger how you use it: daniel.berger@tuebingen.mpg.de
 The original code for this demo has been written by Daniel Berger in 2003.
 The code has been adapted for use with the PsychToolbox by Mario Kleiner
 in 2006.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/OpenGL4MatlabDemos/ShepardZoomDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/OpenGL4MatlabDemos/ShepardZoomDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/OpenGL4MatlabDemos/ShepardZoomDemo.m</code>
-</div>

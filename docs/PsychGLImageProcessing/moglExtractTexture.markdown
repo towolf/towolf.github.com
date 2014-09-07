@@ -121,14 +121,3 @@ In that case, a new extracted texture 'texBuffer' is returned and you own
 this texture, ie., you can do with it whatever you want and you are
 responsible for releasing the texture via [Screen](/docs/Screen)('[Close](/docs/Close)', texBuffer);
 once you are done with it.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/moglExtractTexture.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/moglExtractTexture.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/moglExtractTexture.m</code>
-</div>

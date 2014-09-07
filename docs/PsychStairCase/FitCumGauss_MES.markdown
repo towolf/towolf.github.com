@@ -27,13 +27,3 @@ Optinally fits with a lapse rate, which defaults to 0. If a lapse rate is
 set, the cumulative Gaussian levels off at lapserate/2 and 1-lapserate/2
 when the guessrate is 0. If the guessrate is non zero, the cumulative
 Gaussian that is fit ranges from guessrate to 1-lapserate
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychStairCase/FitCumGauss_MES.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychStairCase/FitCumGauss_MES.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychStairCase/FitCumGauss_MES.m</code>
-</div>

@@ -20,14 +20,3 @@ again from the start. Pressing the Cursor-Up/Down key pauses/unpauses the
 movie and increases/decreases playback rate.
 The left- right arrow keys jump in 1 seconds steps. SPACE jumps to the
 next movie in the list. ESC ends the demo.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/MovieDemos/PlayDualMoviesDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/MovieDemos/PlayDualMoviesDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/MovieDemos/PlayDualMoviesDemo.m</code>
-</div>

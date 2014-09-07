@@ -44,14 +44,3 @@ delivered by KbName to change the abort key combo from CTRL + . to some
 other arbitrary two key combination. E.g., ...
 PsychWatchDog([KbName('ESCAPE'), KbName('q')]);
 ... would change the abort key combo to ESCape key + q key.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/PsychWatchDog.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/PsychWatchDog.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/PsychWatchDog.m</code>
-</div>

@@ -35,13 +35,3 @@ BrightSideCore(5, clampingenabled);
 - Enable or disable clamping of colors in the OpenGL pipeline, depending
 if 'clampingenabled' is 1 or 0. 0 == Disable clamping is what one usually
 wants for drawing of HDR content.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/BrightSideDisplay/BrightSideCore.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/BrightSideDisplay/BrightSideCore.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/BrightSideDisplay/BrightSideCore.m</code>
-</div>

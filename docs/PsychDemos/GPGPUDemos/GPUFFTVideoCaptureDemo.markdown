@@ -51,14 +51,3 @@ settings.
 'cameraname' Name string for selection of video capture device. This is
 only honored if 'deviceId' is a negative number, and only for certain
 video capture plugins. Defaults to none.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/GPGPUDemos/GPUFFTVideoCaptureDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/GPGPUDemos/GPUFFTVideoCaptureDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/GPGPUDemos/GPUFFTVideoCaptureDemo.m</code>
-</div>

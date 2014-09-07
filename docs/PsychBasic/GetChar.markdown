@@ -128,13 +128,3 @@ GetChar sets fields for which it returns no value to the value 'Nan'.
 
 See also: ListenChar, CharAvail, FlushEvents, TestGetChar, KbCheck,
 KbWait
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/GetChar.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/GetChar.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/GetChar.m</code>
-</div>

@@ -37,14 +37,3 @@ Input parameters: (Mandatory)
                 the signal and test the tweaking procedure. 0 = Don't.
 
 Returns 0 on success, 1 on failure.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/PsychGPUTestAndTweakGammaTables.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/PsychGPUTestAndTweakGammaTables.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/PsychGPUTestAndTweakGammaTables.m</code>
-</div>

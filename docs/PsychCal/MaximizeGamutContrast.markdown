@@ -23,13 +23,3 @@ primary coordinates.
 9/7/00   mpr    Made zero handling code more compact; did away with unnecessary variable.
 1/31/10  dhb    Range check on input white point.
          dhb    Remove calls to find as per MATLAB lint checker.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/MaximizeGamutContrast.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/MaximizeGamutContrast.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/MaximizeGamutContrast.m</code>
-</div>

@@ -14,13 +14,3 @@ encoding: UTF-8
     for j=1:n, Y(j)=X(index(j),j).
 
  Also see RandSample, [Shuffle](/docs/Shuffle), SORT, and [Randi](/docs/Randi).
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychProbability/Sample.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychProbability/Sample.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychProbability/Sample.m</code>
-</div>

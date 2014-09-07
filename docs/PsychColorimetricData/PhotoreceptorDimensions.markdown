@@ -51,13 +51,3 @@ encoding: UTF-8
  12/04/07 dhb  Added dog but with placeholder numbers.
  8/9/13   dhb  Comment clean up, allow 'None' to return empty as the value.
  8/10/13  dhb  Added Webvision source for IS diameter.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetricData/PhotoreceptorDimensions.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetricData/PhotoreceptorDimensions.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetricData/PhotoreceptorDimensions.m</code>
-</div>

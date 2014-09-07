@@ -28,13 +28,3 @@ screen notifying user that check failed:
               equal in length.
 1/4/00   mpr  Added quiet flag to suppress display.
 4/22/04  dhb  Make quiet the default.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetric/CheckWls.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetric/CheckWls.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetric/CheckWls.m</code>
-</div>

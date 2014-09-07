@@ -51,14 +51,3 @@ Somethink similar will be included in future inside the toolbox....
    data=tcpip\_read(fid,1024,'uint16');
 
             Reads 1024 elements of datatype uint16.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/iViewXToolbox/tcp_udp_ip/tcpip/tcpip_read.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/iViewXToolbox/tcp_udp_ip/tcpip/tcpip_read.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/iViewXToolbox/tcp_udp_ip/tcpip/tcpip_read.m</code>
-</div>

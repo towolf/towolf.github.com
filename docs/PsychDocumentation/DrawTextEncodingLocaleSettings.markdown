@@ -92,14 +92,3 @@ If you type DrawTextEncodingLocaleSettings to run this script, you may
 see some hebrew characters rendered if your systems fonts and text
 renderers do support this. This code also acts as a sample on how to pass
 UTF-8 unicode strings to 'DrawText'.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDocumentation/DrawTextEncodingLocaleSettings.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDocumentation/DrawTextEncodingLocaleSettings.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDocumentation/DrawTextEncodingLocaleSettings.m</code>
-</div>

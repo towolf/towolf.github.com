@@ -90,14 +90,3 @@ b) Multisample anti-aliasing does not work together with display rotation
 c) There is a small performance impact on the order of \< 1 millisecond
    per [Screen](/docs/Screen)('[Flip](/docs/Flip)') with modern graphics cards due to the processing
    involved.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/PanelFitterDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/PanelFitterDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/PanelFitterDemo.m</code>
-</div>

@@ -96,13 +96,3 @@ files specific to each input device.
 
 See also: PsychHIDTest, Daq, DaqTest, KbCheck, Gamepad, PsychHardware.
 <http://psychtoolbox.org/usb.html>
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/PsychHID.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/PsychHID.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/PsychHID.m</code>
-</div>

@@ -56,13 +56,3 @@ Matlab window.
 4\. If the display doesn't stabilize to green, but at least the output of
 the Matlab window corresponds with your percept (GREEN for green, RED for
 red) then that means that your system has very noisy timing.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/FrameSequentialStereoTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/FrameSequentialStereoTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/FrameSequentialStereoTest.m</code>
-</div>

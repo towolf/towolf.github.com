@@ -22,13 +22,3 @@ Denis Pelli March 21, 2007
 denis.pelli@...
 The Sloan font may be downloaded from here:
 http://psych.nyu.edu/pelli/software.html
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/TextOffByOneBugTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/TextOffByOneBugTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/TextOffByOneBugTest.m</code>
-</div>

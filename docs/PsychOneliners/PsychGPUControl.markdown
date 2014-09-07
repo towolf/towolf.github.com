@@ -53,14 +53,3 @@ onset timestamping. The optional vector of 'screenIds' selects which screens
 should be affected by the change. If left out or set to [], all detected
 screens will be changed.
 
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/PsychGPUControl.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/PsychGPUControl.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/PsychGPUControl.m</code>
-</div>

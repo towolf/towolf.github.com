@@ -75,13 +75,3 @@ Mario Kleiner, 15 August 2011.
 See also: DaqFunctions, DaqTest, PsychHIDTest, PsychHID,
 PsychHardware, DaqPins, DaqCalls, DaqCodes,
 DaqDeviceIndex, DaqFind, DaqDIn, DaqDOut, DaqAIn, DaqAOut, DaqAInScan, DaqAOutScan.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/Daq/Contents.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/Daq/Contents.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/Daq/Contents.m</code>
-</div>

@@ -26,14 +26,3 @@ experimental.  The readability of the output could be improved by
 including array indices in the output along with the struct field  names.
 Communicating that by using indentiation and spacing does not work well
 for complicated structures and large arrays.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychAlpha/PrintStruct.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychAlpha/PrintStruct.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychAlpha/PrintStruct.m</code>
-</div>

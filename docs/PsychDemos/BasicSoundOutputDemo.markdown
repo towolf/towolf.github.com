@@ -44,13 +44,3 @@ the good ol' handel.mat file (part of Matlab) is used.
 
 The demo just loads and plays the soundfile, waits for a keypress to stop
 it, then quits.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/BasicSoundOutputDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/BasicSoundOutputDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/BasicSoundOutputDemo.m</code>
-</div>

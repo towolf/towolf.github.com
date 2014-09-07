@@ -69,13 +69,3 @@ settings.
 4/10/13  dhb      More flexible behavior supported via PRXXXPorts calibration file.
 1/25/13  dhb, ms  More info printed on failure for PR-670 case.  Trying to track down intermittant
                   failures to initialize when routine is called multiple times in a long calibration loop.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/CMCheckInit.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/CMCheckInit.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/CMCheckInit.m</code>
-</div>

@@ -132,14 +132,3 @@ been called with that auto-selected level.
 DatapixxAudioKey('StopCapture');
 - Stop audio capture as soon as possible.
 
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/DatapixxToolbox/DatapixxBasic/DatapixxAudioKey.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/DatapixxToolbox/DatapixxBasic/DatapixxAudioKey.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/DatapixxToolbox/DatapixxBasic/DatapixxAudioKey.m</code>
-</div>

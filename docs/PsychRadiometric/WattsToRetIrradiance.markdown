@@ -40,13 +40,3 @@ encoding: UTF-8
  6/26/03   dhb  Change some names, also compute power per wavelength interval, not per nm.
  6/30/03   dhb  Lots more changes.
  7/08/03   dhb  Monochromatic ref spectrum default, as per manual.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychRadiometric/WattsToRetIrradiance.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychRadiometric/WattsToRetIrradiance.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychRadiometric/WattsToRetIrradiance.m</code>
-</div>

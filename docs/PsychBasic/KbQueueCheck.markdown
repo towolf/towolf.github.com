@@ -132,13 +132,3 @@ encoding: UTF-8
 
  See also: KbQueueCreate, KbQueueStart, KbQueueStop, KbQueueCheck,
             KbQueueWait, KbQueueFlush, KbQueueRelease
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/KbQueueCheck.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/KbQueueCheck.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/KbQueueCheck.m</code>
-</div>

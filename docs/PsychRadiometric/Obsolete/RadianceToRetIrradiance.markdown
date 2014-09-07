@@ -37,13 +37,3 @@ calling code.
 2/28/13  dhb  Make units clear in variable names.
 3/6/13   dhb  Rewrite to use new conversion function.  Move to Obsolete directory.
          dhb  Also improved variable naming.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychRadiometric/Obsolete/RadianceToRetIrradiance.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychRadiometric/Obsolete/RadianceToRetIrradiance.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychRadiometric/Obsolete/RadianceToRetIrradiance.m</code>
-</div>

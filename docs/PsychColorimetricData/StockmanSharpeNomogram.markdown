@@ -49,13 +49,3 @@ FitConeFundamentalsFromNomogram, FitConeFundamentalsTest
 10/27/99    dhb  Added error return to prevent premature use of this routine.
 7/18/03   dhb  Finished it off.
 8/13/11   dhb  Improved comments.  Double check polynomial coefficients.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetricData/StockmanSharpeNomogram.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetricData/StockmanSharpeNomogram.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetricData/StockmanSharpeNomogram.m</code>
-</div>

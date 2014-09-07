@@ -48,14 +48,3 @@ downsampling during mipmap building, instead of the relatively simple
 builtin filter of the GPU.
 
 Press any key to finish the demo.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/BlurredMipmapDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/BlurredMipmapDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/BlurredMipmapDemo.m</code>
-</div>

@@ -17,13 +17,3 @@ performing certain 2D image processing operations.
 The no-loop algorithm is due to Stan Klein.
 
 7/11/94     dhb     Slick version.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOptics/MakeRadiusMat.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOptics/MakeRadiusMat.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOptics/MakeRadiusMat.m</code>
-</div>

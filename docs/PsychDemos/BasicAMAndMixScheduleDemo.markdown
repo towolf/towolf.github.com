@@ -22,14 +22,3 @@ apply AM amplitude modulation to the different slave audio devices, and how
 to synchronize different devices and AM modulation. It also shows use of
 sound schedules to implement repetitive sound sequences with precise
 timing between different sounds.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/BasicAMAndMixScheduleDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/BasicAMAndMixScheduleDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/BasicAMAndMixScheduleDemo.m</code>
-</div>

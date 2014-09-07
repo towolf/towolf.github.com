@@ -53,13 +53,3 @@ IsStartUpdateImplantedInFinish does not exist in Windows.
 ----
 
 see also: finish, StartUpdateProcess, KillUpdateProcess, [Priority](/docs/Priority), [Rush](/docs/Rush).
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychInitialize/IsStartUpdateImplantedInFinish.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychInitialize/IsStartUpdateImplantedInFinish.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychInitialize/IsStartUpdateImplantedInFinish.m</code>
-</div>

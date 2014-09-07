@@ -29,14 +29,3 @@ Use this function if you need a GetChar like interface for simple string
 and number input in situations where GetChar doesn't work reliably, e.g.,
 on some Octave configurations, with Matlab in -nojvm mode or on
 MS-Windows Vista or Windows-7.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/GetKbChar.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/GetKbChar.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/GetKbChar.m</code>
-</div>

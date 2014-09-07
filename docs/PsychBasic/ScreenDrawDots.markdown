@@ -45,14 +45,3 @@ clear all; ScreenDrawDots(1); on the Matlab/Octave command line.
 
 You can disable the workaround (across sessions) via a call:
 clear all; ScreenDrawDots(0); on the Matlab/Octave command line.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/ScreenDrawDots.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/ScreenDrawDots.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/ScreenDrawDots.m</code>
-</div>

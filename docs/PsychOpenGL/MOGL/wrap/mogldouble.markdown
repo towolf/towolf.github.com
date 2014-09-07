@@ -31,14 +31,3 @@ here as many internal and external code relies on its presence.
 This is a hack needed to make OpenGL (MOGL) work
 on GNU/Octave, despite Octave's lack of a single
 precision data type.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOpenGL/MOGL/wrap/mogldouble.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOpenGL/MOGL/wrap/mogldouble.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOpenGL/MOGL/wrap/mogldouble.m</code>
-</div>

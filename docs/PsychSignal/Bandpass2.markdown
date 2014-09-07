@@ -25,13 +25,3 @@ noise:
         noise=real(ifft2(ifftshift(ft)));
     end
 Also see OrientationBandpass, [Bandpass](/docs/Bandpass), FREQSPACE.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychSignal/Bandpass2.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychSignal/Bandpass2.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychSignal/Bandpass2.m</code>
-</div>

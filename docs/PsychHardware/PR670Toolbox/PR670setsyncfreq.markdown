@@ -19,13 +19,3 @@ syncFreq (scalar) - The sync frequency for source.  Can be 1 of 3 options:
 
 Notes:
 See also PR670getsyncfreq
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/PR670Toolbox/PR670setsyncfreq.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/PR670Toolbox/PR670setsyncfreq.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/PR670Toolbox/PR670setsyncfreq.m</code>
-</div>

@@ -32,13 +32,3 @@ sensitivities. See:
 12/16/12 dhb  Added test for rods.
 08/10/13 dhb  Better integration with the photoreceptor struct code.
 03/14/14 dhb  Add Smith-Pokorny to 2 degree plot, for comparison.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/CIEConeFundamentalsTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/CIEConeFundamentalsTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/CIEConeFundamentalsTest.m</code>
-</div>

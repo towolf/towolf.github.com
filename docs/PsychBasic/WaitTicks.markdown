@@ -50,13 +50,3 @@ See also: GetTicks, GetSecs, WaitSecs.
              waits an integer number of ticks.  Simplified platform test
              expressions.  Added test for unfamiliar platform.  Added OS X
              section to comments.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/WaitTicks.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/WaitTicks.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/WaitTicks.m</code>
-</div>

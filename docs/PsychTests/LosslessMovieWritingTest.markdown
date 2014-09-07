@@ -51,14 +51,3 @@ into the current working directory and leave it there after the test!
 Requires a GPU which can handle at least 4096 x 4096 pixel textures,
 otherwise test failure will occur. The GPU must also support floating
 point textures for \> 8 bpc tests.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/LosslessMovieWritingTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/LosslessMovieWritingTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/LosslessMovieWritingTest.m</code>
-</div>

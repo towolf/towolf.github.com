@@ -23,13 +23,3 @@ If specified file cannot be found does nothing.
 
 8/26/97  dhb  Wrote it.
 8/21/00  dhb  Update for dual cal dir scheme.  Not tested hard.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/FlushCalFile.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/FlushCalFile.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/FlushCalFile.m</code>
-</div>

@@ -44,13 +44,3 @@ conversion, tone-mapping. See the more advanced demos on how to do this.
 History:
 Written 2006 by Mario Kleiner - MPI for Biological Cybernetics, Tuebingen, Germany
 and Oguz Ahmet Akyuz - Department of Computer Science, University of Central Florida.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/BrightSideDisplay/SimpleHDRDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/BrightSideDisplay/SimpleHDRDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/BrightSideDisplay/SimpleHDRDemo.m</code>
-</div>

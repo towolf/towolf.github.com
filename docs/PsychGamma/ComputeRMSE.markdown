@@ -25,13 +25,3 @@ the user to change the calling form.
               as well as message that would tell an unsuspecting user
               at runtime.
          dhb  Added mechanism to suppress the warning message.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGamma/ComputeRMSE.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGamma/ComputeRMSE.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGamma/ComputeRMSE.m</code>
-</div>

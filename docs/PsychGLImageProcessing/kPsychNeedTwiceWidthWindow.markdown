@@ -31,14 +31,3 @@ we need the ability to have twice-width windows.
 
 Usually user scripts won't pass this flag, but only special setup
 routines that are part of the Psychtoolbox itself.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/kPsychNeedTwiceWidthWindow.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/kPsychNeedTwiceWidthWindow.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/kPsychNeedTwiceWidthWindow.m</code>
-</div>

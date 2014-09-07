@@ -29,13 +29,3 @@ IH    2008
 DN    2008 v1.1 - coordinates sometimes faulty
 DN    2008 v1.2 - coordinates sometimes faulty (actually solved this
                   time) + input checking
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/MakeGrid.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/MakeGrid.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/MakeGrid.m</code>
-</div>

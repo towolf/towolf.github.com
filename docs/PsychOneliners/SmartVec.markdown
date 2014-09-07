@@ -46,13 +46,3 @@ examples:
   SmartVec([1 5],3,'flat')
   ans =
        1     1     1     5     5     5
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/SmartVec.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/SmartVec.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/SmartVec.m</code>
-</div>

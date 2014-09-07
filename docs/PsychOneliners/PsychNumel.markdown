@@ -14,14 +14,3 @@ numel(). On older Matlabs it will emulate the behaviour of numel().
 
 n = PsychNumel(x); will return the total number of elements contained in
 scalar, vector or matrix x, i.e. n == prod(size(x));
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/PsychNumel.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/PsychNumel.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/PsychNumel.m</code>
-</div>

@@ -62,14 +62,3 @@ x = 8192. Results look promising but are not 100% certain.
 
 So far we also know that at least OSX 10.9.0 - 10.9.2 with NVidia
 graphics hardware do not work properly at all in any configuration!
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/OSXCompositorIdiocyTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/OSXCompositorIdiocyTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/OSXCompositorIdiocyTest.m</code>
-</div>

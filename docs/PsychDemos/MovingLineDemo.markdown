@@ -42,14 +42,3 @@ pair of distinctive lines anymore. This is due to technical limitations
 of the display technology and due to the "bad" interaction between
 hold-type displays and smooth pursuit eye movements caused by tracking of
 certain types of moving stimuli.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/MovingLineDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/MovingLineDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/MovingLineDemo.m</code>
-</div>

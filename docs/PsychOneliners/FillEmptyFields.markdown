@@ -20,13 +20,3 @@ DN    2008-05-29 Shortened it
 DN    2008-05-31 added cell support
 DN    2012-06-12 fixed bug where only first element in struct array was
                  operated on
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/FillEmptyFields.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/FillEmptyFields.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/FillEmptyFields.m</code>
-</div>

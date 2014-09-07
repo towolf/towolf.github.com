@@ -27,13 +27,3 @@ inversion of the device's gamma measurements.
 11/16/06   dhb   Adjust for [0,1] world.
            dhb   No more values return because we can't get at it in the [0,1] world
            dhb   Pass input x values as well as y values.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/GamutToSettingsSch.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/GamutToSettingsSch.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/GamutToSettingsSch.m</code>
-</div>

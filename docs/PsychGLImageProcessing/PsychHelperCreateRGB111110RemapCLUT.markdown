@@ -37,13 +37,3 @@ find 32 bit pixels properly formatted for RGB111110 scanout.
 
 History:
 8-June-2014  Written - Derived from PsychHelperCreateARGB2101010RemapCLUT.m (MK).
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/PsychHelperCreateRGB111110RemapCLUT.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/PsychHelperCreateRGB111110RemapCLUT.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/PsychHelperCreateRGB111110RemapCLUT.m</code>
-</div>

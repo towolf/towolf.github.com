@@ -24,13 +24,3 @@ See also XYZTouvY, [xyTouv](/docs/xyTouv), XYZToxyY, [xyYToXYZ](/docs/xyYToXYZ)
 
 10/31/94    dhb  Wrote it.
 5/06/11   dhb  Improve comment.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetric/uvYToXYZ.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetric/uvYToXYZ.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetric/uvYToXYZ.m</code>
-</div>

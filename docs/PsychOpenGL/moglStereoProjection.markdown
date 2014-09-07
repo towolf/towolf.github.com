@@ -40,14 +40,3 @@ dist = the distance from the center of projection to the plane of zero parallax.
 [default: -0.3]
 eye = half the eye separation; positive for the right eye subfield,
 negative for the left eye subfield.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOpenGL/moglStereoProjection.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOpenGL/moglStereoProjection.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOpenGL/moglStereoProjection.m</code>
-</div>

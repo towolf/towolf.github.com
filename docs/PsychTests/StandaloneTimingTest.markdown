@@ -20,13 +20,3 @@ argument set causes OS X to suspend execution of the StandaloneTimingTest
 application for up to 13 ms.
 
 SEE ALSO: StandaloneTimingTest.c
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/StandaloneTimingTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/StandaloneTimingTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/StandaloneTimingTest.m</code>
-</div>

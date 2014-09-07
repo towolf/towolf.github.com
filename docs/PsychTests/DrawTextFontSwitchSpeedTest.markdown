@@ -41,14 +41,3 @@ be about 10 - 15 times slower.
 
 On other operating systems, nothing will be cached or recycled, resulting in generally
 much slower text drawing speeds, even with constant text settings.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/DrawTextFontSwitchSpeedTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/DrawTextFontSwitchSpeedTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/DrawTextFontSwitchSpeedTest.m</code>
-</div>

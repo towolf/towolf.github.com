@@ -26,13 +26,3 @@ encoding: UTF-8
  4/5/02  dhb, ly  New calling interface.
  11/6/06 dhb   Only allow one input argument.
  2/10/07 dhb   Finish above fix.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/SensorToPolar.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/SensorToPolar.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/SensorToPolar.m</code>
-</div>

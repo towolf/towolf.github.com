@@ -20,13 +20,3 @@ because they had zero probability. Thus you should keep the number of trials
 under around 1000, to avoid the zero-probability warnings.
 
 See Quest.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./Quest/QuestBetaAnalysis.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./Quest/QuestBetaAnalysis.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./Quest/QuestBetaAnalysis.m</code>
-</div>

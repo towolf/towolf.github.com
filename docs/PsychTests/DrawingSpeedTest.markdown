@@ -32,14 +32,3 @@ batch submission of textures.
 'gpumeasure' measurement type: 0 = Only on cpu. 1 = Measure exact
 execution time of drawing commands on GPU's that support this feature.
 Plot result at end of run.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/DrawingSpeedTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/DrawingSpeedTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/DrawingSpeedTest.m</code>
-</div>

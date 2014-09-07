@@ -20,13 +20,3 @@ accordingly.
 
 10/30/97  dhb  Wrote it.
 7/9/02    dhb  T\_cones\_sp -\> T\_cones on line 20.  Thanks to Eiji Kimura.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetric/LMSToMacBoyn.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetric/LMSToMacBoyn.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetric/LMSToMacBoyn.m</code>
-</div>

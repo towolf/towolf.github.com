@@ -347,14 +347,3 @@ events in the queue before performing the query!
 
 The command is only effective if connector is set to 'GeneralPurpose'.
 
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/CedrusResponseBox.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/CedrusResponseBox.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/CedrusResponseBox.m</code>
-</div>

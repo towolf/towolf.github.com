@@ -93,13 +93,3 @@ NB: splitting floats works, but precision will be lost
                   ans =
                       [Inf    33    12    45    13   NaN    46    74]
                       [21]
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/Explode.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/Explode.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/Explode.m</code>
-</div>

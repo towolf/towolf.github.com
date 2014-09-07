@@ -36,14 +36,3 @@ tradeoffs between quality, cpu load, speed and bus bandwidth use. It also
 allows to play with high bit depth (\> 8 bpc) color and luminance formats,
 lossless video recording and other bits and pieces. Change the variables
 as you see fit and read the source carefully.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/VideoPluginCaptureDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/VideoPluginCaptureDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/VideoPluginCaptureDemo.m</code>
-</div>

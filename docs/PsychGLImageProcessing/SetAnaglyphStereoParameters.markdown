@@ -154,14 +154,3 @@ color anaglyph stereo.
 'GetHandle' - Return GLSL handle to anaglyph shader. Allows to modify the
 shader itself, e.g., replace it by your own customized shader. Only for
 OpenGL experts!
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/SetAnaglyphStereoParameters.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/SetAnaglyphStereoParameters.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/SetAnaglyphStereoParameters.m</code>
-</div>

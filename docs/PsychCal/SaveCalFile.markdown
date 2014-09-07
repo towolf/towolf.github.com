@@ -36,13 +36,3 @@ See also LoadCalFile, CalDataFolder.
 4/2/13   dhb  Updated for subdir searching logic.
 4/12/13  dhb  Make this save to cal file folder when file doesn't yet exist.
 6/2/13   dhb  More robust about whether passed filespec contains the trailing '.mat'.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/SaveCalFile.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/SaveCalFile.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/SaveCalFile.m</code>
-</div>

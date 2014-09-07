@@ -31,13 +31,3 @@ a list of keycodes to be ignored by KbCheck and KbWait.
 ----
 
 See also: FlushEvents, KbName, KbDemo, KbWait, KbCheck, GetChar, CharAvail.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/DisableKeysForKbCheck.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/DisableKeysForKbCheck.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/DisableKeysForKbCheck.m</code>
-</div>

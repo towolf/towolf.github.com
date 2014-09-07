@@ -39,14 +39,3 @@ scheduling via [Priority](/docs/Priority)() command may also help.
 
 The accuracy of stimulus onset timestamps may be reduced on M$-Windows when using
 this mode of operation.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/SyncedCLUTUpdateTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/SyncedCLUTUpdateTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/SyncedCLUTUpdateTest.m</code>
-</div>

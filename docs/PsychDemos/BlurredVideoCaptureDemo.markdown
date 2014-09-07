@@ -37,14 +37,3 @@ available.
 auto-selected default video source.
 
 Press any key to finish the demo.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/BlurredVideoCaptureDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/BlurredVideoCaptureDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/BlurredVideoCaptureDemo.m</code>
-</div>

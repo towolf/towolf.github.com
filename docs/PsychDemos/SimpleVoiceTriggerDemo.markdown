@@ -42,14 +42,3 @@ until the amplitude exceeds some 'triggerlevel'.
 
 If the triggerlevel is exceeded, sound capture stops, returning the
 estimated time of "voice onset" in system time.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/SimpleVoiceTriggerDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/SimpleVoiceTriggerDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/SimpleVoiceTriggerDemo.m</code>
-</div>

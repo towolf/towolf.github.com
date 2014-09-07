@@ -35,13 +35,3 @@ Examples
 Installation
   1\. Make sure the TCP/UDP/IP toolbox is somewhere in your PATH
   2\. Adjust the SMTPSERVER, SMTPSERVERPORT and CLIENTIP variables to reflect your situation.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/iViewXToolbox/cbase64/psychsendmail.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/iViewXToolbox/cbase64/psychsendmail.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/iViewXToolbox/cbase64/psychsendmail.m</code>
-</div>

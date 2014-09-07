@@ -31,13 +31,3 @@ MATLAB. We find that this reliably restores normal communication.
 <http://psychtoolbox.org/daq.html>
 See also: Daq, DaqFunctions, DaqPins,PsychHIDTest,PsychHID,PsychHardware,
 DaqDeviceIndex, DaqDIn, DaqDOut, DaqAIn, DaqAOut, DaqAInScan, DaqAOutScan
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/DaqTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/DaqTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/DaqTest.m</code>
-</div>

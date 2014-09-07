@@ -93,13 +93,3 @@ REFERENCES.
 
   ISO2007MPETableA1.txt    - Table A1 of the standard as tab delimited text.
   ISO2007MPETableA2.txt    - Table A2 of the standard as tab delimited text.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychRadiometric/PsychISO2007MPE/Contents.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychRadiometric/PsychISO2007MPE/Contents.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychRadiometric/PsychISO2007MPE/Contents.m</code>
-</div>

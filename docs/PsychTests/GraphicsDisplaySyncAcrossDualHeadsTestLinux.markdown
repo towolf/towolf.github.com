@@ -29,13 +29,3 @@ implementation is so experimental that it is guaranteed to fail miserably in
 practice, so don't bother trying.
 
 The help text printed to the command window tells you how to interpret the plots.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/GraphicsDisplaySyncAcrossDualHeadsTestLinux.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/GraphicsDisplaySyncAcrossDualHeadsTestLinux.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/GraphicsDisplaySyncAcrossDualHeadsTestLinux.m</code>
-</div>

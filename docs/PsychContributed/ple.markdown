@@ -29,14 +29,3 @@ http://www.mathworks.com/matlabcentral/fileexchange/loadFile.do?objectId=
 
 Thanks to David Fencsik for pointing us to this useful file and Malcolm
 Wood for writing it.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychContributed/ple.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychContributed/ple.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychContributed/ple.m</code>
-</div>

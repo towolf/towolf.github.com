@@ -28,13 +28,3 @@ See also: FitWeibTAFC, FitFitWeibYN, FitWeibAlphTAFC, FitLogitYN
                 Case of uInitial = 0 wasn't handled properly, and
                 variance search limits were set based on mean.
 3/4/05      dhb   Conditionals for optimization toolbox version.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./Psychometric/FitCumNormYN.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./Psychometric/FitCumNormYN.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./Psychometric/FitCumNormYN.m</code>
-</div>

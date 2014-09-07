@@ -25,14 +25,3 @@ You will likely also want to set 'specialFlags' flag 8 or 16 to prevent
 auto-generated one.
 
 This needs a modern GLSL shading capable graphics card to work.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/CreateResolutionPyramid.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/CreateResolutionPyramid.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/CreateResolutionPyramid.m</code>
-</div>

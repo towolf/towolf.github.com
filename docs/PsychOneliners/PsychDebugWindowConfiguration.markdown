@@ -42,14 +42,3 @@ GNOME-2/3, Compiz, Unity.
 Keyboard and mouse input may not work as expected under all conditions,
 i.e., it may by impaired in either Psychtoolbox, or for the other running
 applications. Good luck!
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/PsychDebugWindowConfiguration.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/PsychDebugWindowConfiguration.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/PsychDebugWindowConfiguration.m</code>
-</div>

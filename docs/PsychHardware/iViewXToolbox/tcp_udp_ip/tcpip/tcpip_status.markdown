@@ -18,13 +18,3 @@ TCPIP\_SERVSOCKET  1   Server socket waiting for connections.
 TCPIP\_STDIO       5   Connected to file (not implemented)
 TCPIP\_CLIENT      10  Connected as client. Used tcpip\_open.
 TCPIP\_SERVER      12  Connected as server  Used tcpip\_servopen or tcpip\_listen
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/iViewXToolbox/tcp_udp_ip/tcpip/tcpip_status.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/iViewXToolbox/tcp_udp_ip/tcpip/tcpip_status.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/iViewXToolbox/tcp_udp_ip/tcpip/tcpip_status.m</code>
-</div>

@@ -20,13 +20,3 @@ encoding: UTF-8
  9/27/93   jms   Commented out the messages for going out of gamut.
     3/7/94      dhb     Modified so that badIndex return respects tolerance.
  4/5/02    dhb, ly  New naming convention.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/PrimaryToGamut.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/PrimaryToGamut.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/PrimaryToGamut.m</code>
-</div>

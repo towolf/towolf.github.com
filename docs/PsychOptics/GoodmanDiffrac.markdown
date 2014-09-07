@@ -20,13 +20,3 @@ formula is given for the incoherent diffraction limit,
 which is twice the coherent limit.
 
 Also see DiffractionMTF.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOptics/GoodmanDiffrac.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOptics/GoodmanDiffrac.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOptics/GoodmanDiffrac.m</code>
-</div>

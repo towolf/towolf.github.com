@@ -75,13 +75,3 @@ works with Joysticks, Gamepads and other input controllers.
 ----
 
 See also: KbCheck, KbStrokeWait, KbPressWait, KbReleaseWait, GetChar, CharAvail, KbDemo.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/KbWait.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/KbWait.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/KbWait.m</code>
-</div>

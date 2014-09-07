@@ -45,14 +45,3 @@ Arrow left/right control the density of dots, the 'dotDensity' paramter
 in decrements/increments of 5%.
 
 Arrow up-/down controls the 'dotLifetime' in steps of +/- 1.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/OpenGL4MatlabDemos/FDFDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/OpenGL4MatlabDemos/FDFDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/OpenGL4MatlabDemos/FDFDemo.m</code>
-</div>

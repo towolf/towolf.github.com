@@ -58,13 +58,3 @@ but this should be seldomly (if at all) needed:
 Subfolders:
 outputlib/include    -- For all the header files .h
 outputlib/lib        -- For all the .lib and .dll library files.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/BrightSideDisplay/BSRuntimeLibs/Contents.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/BrightSideDisplay/BSRuntimeLibs/Contents.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/BrightSideDisplay/BSRuntimeLibs/Contents.m</code>
-</div>

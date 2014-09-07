@@ -22,14 +22,3 @@ zero, a 32 bpc float texture is used instead of 8 bpc integer.
 
 If 'cmd' command code is 1, then the clut texture with id arg1 is updated
 with the content of clut table arg2.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/PsychHelperCreateRemapCLUT.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/PsychHelperCreateRemapCLUT.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/PsychHelperCreateRemapCLUT.m</code>
-</div>

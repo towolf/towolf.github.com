@@ -28,13 +28,3 @@ encoding: UTF-8
      [Replace](/docs/Replace)({'aa' 'a' 'b' 'aa' 'c'},{'aa','c'},{}) % -\> {'a', 'b'}
 
   See also FIND, STRREP, REGEXPREP, ISMEMBER
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/Replace.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/Replace.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/Replace.m</code>
-</div>

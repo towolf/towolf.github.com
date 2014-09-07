@@ -43,14 +43,3 @@ GPUFFTMoviePlaybackDemo([usegpu=1][, showfft=0][, fwidth=11][, roi][, depth=1][,
 'depth' = 1 for Mono, 3 for color processing.
 
 'moviename' Name string for selection of movie file.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/GPGPUDemos/GPUFFTMoviePlaybackDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/GPGPUDemos/GPUFFTMoviePlaybackDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/GPGPUDemos/GPUFFTMoviePlaybackDemo.m</code>
-</div>

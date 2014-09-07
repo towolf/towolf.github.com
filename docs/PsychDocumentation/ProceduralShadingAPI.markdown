@@ -129,13 +129,3 @@ attribute vec4 auxParameters7
 The current number of such parameters is limited by PTB to 8\*4 = 32 floating
 point values, but old graphics hardware may have lower limits on the
 number of allowed parameters.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDocumentation/ProceduralShadingAPI.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDocumentation/ProceduralShadingAPI.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDocumentation/ProceduralShadingAPI.m</code>
-</div>

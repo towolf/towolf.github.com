@@ -60,14 +60,3 @@ DisplayUndistortionCSV.m -- Import undistortion information from
 a .csv file with a warp mesh description suitable for use with NVidia's
 Warp API. This creates a compatible display warping to use of that NVidia
 technology.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/CreateDisplayWarp.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/CreateDisplayWarp.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/CreateDisplayWarp.m</code>
-</div>

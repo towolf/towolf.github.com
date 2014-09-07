@@ -72,14 +72,3 @@ here...
 Make sure to use the [Screen](/docs/Screen)('DrawTextures', ...); function properly,
 instead of the [Screen](/docs/Screen)('DrawTexture', ...); function, if you want to draw
 many different patches simultaneously - this is much faster!
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/CreateProceduralNoise.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/CreateProceduralNoise.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/CreateProceduralNoise.m</code>
-</div>

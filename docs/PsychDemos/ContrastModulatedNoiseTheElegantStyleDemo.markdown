@@ -49,13 +49,3 @@ digits behind the decimal point or 1024 discriminable levels. On the most
 recent ATI HD-2000 and NVidia Geforce 8000 hardware one can lift this limit
 to 32bpc float -- 6.5 digits or about 8 million discriminable levels by a
 one-line code change in this script ;-)
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/ContrastModulatedNoiseTheElegantStyleDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/ContrastModulatedNoiseTheElegantStyleDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/ContrastModulatedNoiseTheElegantStyleDemo.m</code>
-</div>

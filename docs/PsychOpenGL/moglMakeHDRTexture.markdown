@@ -46,14 +46,3 @@ for use in 3D environment mapped lighting and such, then use the
 function moglMakeGLHDRTexture() instead. It can create cube-map
 textures for use with the OpenGL functions. These are not useable
 with the standard Psychtoolbox [Screen](/docs/Screen)() commands.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOpenGL/moglMakeHDRTexture.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOpenGL/moglMakeHDRTexture.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOpenGL/moglMakeHDRTexture.m</code>
-</div>

@@ -29,13 +29,3 @@ Funny name is because Matlab 6 contains a built-in function called "beep".
       Were experiencing delays with sound function
 
 12/2/00 Backus - original version
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/Beeper.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/Beeper.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/Beeper.m</code>
-</div>

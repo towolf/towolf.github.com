@@ -70,13 +70,3 @@ without validation against a known good reference implementation!
 
 NOTES: Filtermode 2 and 3 not fully implemented for the general case!
 ---\> No separable 1D kernels, no support for all input-\>output mappings
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOpenGL/PsychGLSLShaders/EXPCreateStatic2DConvolutionShader.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOpenGL/PsychGLSLShaders/EXPCreateStatic2DConvolutionShader.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOpenGL/PsychGLSLShaders/EXPCreateStatic2DConvolutionShader.m</code>
-</div>

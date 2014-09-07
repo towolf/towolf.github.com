@@ -34,13 +34,3 @@ latency as well. 2 == Measure drawing and onset latency as well.
 
 History:
 2/9/06 mk Written.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/VideoCaptureLatencyTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/VideoCaptureLatencyTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/VideoCaptureLatencyTest.m</code>
-</div>

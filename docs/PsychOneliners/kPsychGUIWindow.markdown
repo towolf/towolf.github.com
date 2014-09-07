@@ -30,14 +30,3 @@ reduced. Other limitations may apply.
 
 GUI window mode is a "best effort" behaviour, as Psychtoolbox is not
 really designed to be - or exactly behave - like a regular GUI toolkit.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/kPsychGUIWindow.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/kPsychGUIWindow.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/kPsychGUIWindow.m</code>
-</div>

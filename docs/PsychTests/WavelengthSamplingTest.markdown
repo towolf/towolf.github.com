@@ -22,13 +22,3 @@ one.  By calling one of these before using wavelength format information,
 it is possible to write code that is compatible with all three.
 
 7/11/03  dhb  Wrote this test program.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/WavelengthSamplingTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/WavelengthSamplingTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/WavelengthSamplingTest.m</code>
-</div>

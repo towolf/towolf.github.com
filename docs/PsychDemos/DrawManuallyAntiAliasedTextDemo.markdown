@@ -23,13 +23,3 @@ This needs a modern graphics card to work and is not as efficient as the
 operating systems anti-aliasing, but still reasonably fast if done right.
 
 see also: PsychDemos
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/DrawManuallyAntiAliasedTextDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/DrawManuallyAntiAliasedTextDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/DrawManuallyAntiAliasedTextDemo.m</code>
-</div>

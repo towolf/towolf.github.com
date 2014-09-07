@@ -22,13 +22,3 @@ Psychtoolbox-2, but only 'keyDown' (or no argument at all) removes
 keypress events. Events other than keypress events are not supported.
 
 See also: GetChar, CharAvail, FlushEvents, EventAvail.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/FlushEvents.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/FlushEvents.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/FlushEvents.m</code>
-</div>

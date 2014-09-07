@@ -27,14 +27,3 @@ slightly differently than the  hardware renderer used for onscreen
 windows. We don't yet have a way to compare textures in onscreen and
 offscreen windows indepently of drawing text because 'DrawTexture' still
 uses OpenGL extensions not provided in offscreen contexts.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/TextInOffscreenWindowTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/TextInOffscreenWindowTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/TextInOffscreenWindowTest.m</code>
-</div>

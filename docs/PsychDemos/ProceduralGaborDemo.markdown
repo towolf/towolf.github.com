@@ -73,14 +73,3 @@ as demonstrated, e.g., in DrawingSpeedTest.m. That way you could submit
 the specs (parameters) of all gabors in one single matrix via one single
 [Screen](/docs/Screen)('DrawTextures'); call - this is more efficient and therefore extra
 fast!
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/ProceduralGaborDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/ProceduralGaborDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/ProceduralGaborDemo.m</code>
-</div>

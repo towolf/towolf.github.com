@@ -63,13 +63,3 @@ The shaders provided in this vector will be tested against each other.
 Matlab window.
 
 THIS SCRIPT IS NOT COMPLETELY FINISHED YET.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/ConvolutionKernelTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/ConvolutionKernelTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/ConvolutionKernelTest.m</code>
-</div>

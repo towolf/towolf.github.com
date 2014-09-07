@@ -68,13 +68,3 @@ http://msdn.microsoft.com/library/default.asp?url=/library/en-us/opengl/glfunc01
         factor equal to zero reduces its multiplicand to zero."
 
 See also: AlphaBlendingTest, PsychAlphaBlending
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/AlphaMultiplicationAccuracyTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/AlphaMultiplicationAccuracyTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/AlphaMultiplicationAccuracyTest.m</code>
-</div>

@@ -24,13 +24,3 @@ correct unlock code caused the device to exit program mode.  So I modified
 this function to allow user to toggle between states. If no second argument is
 passed, function assumes user wants to put device into program mode; else if
 second argument is zero device will be taken (or left) out of program mode.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/Daq/DaqPrepareDownload.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/Daq/DaqPrepareDownload.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/Daq/DaqPrepareDownload.m</code>
-</div>

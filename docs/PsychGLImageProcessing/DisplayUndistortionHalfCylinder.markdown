@@ -49,14 +49,3 @@ for spherical remapping. Also see Psychtoolbox forum message 11660.
 
 Arrow keys change the parameter that is selected via 'r', 't', 'o' or 'i'
 key.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/DisplayUndistortionHalfCylinder.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/DisplayUndistortionHalfCylinder.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/DisplayUndistortionHalfCylinder.m</code>
-</div>

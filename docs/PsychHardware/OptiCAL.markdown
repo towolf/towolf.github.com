@@ -39,13 +39,3 @@ References:
     http://support.crsltd.com/ics/support/DLRedirect.asp?fileID=63194
 
 Author: Andreas Widmann, University of Leipzig, 2012
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/OptiCAL.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/OptiCAL.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/OptiCAL.m</code>
-</div>

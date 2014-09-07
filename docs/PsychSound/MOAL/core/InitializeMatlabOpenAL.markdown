@@ -55,13 +55,3 @@ Prof. Richard F. Murray, University of York, Canada and Mario Kleiner.
 
 MOAL is now licensed under the more permissive MIT license since 2011.
 Relicensing with permission of Richard Murray.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychSound/MOAL/core/InitializeMatlabOpenAL.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychSound/MOAL/core/InitializeMatlabOpenAL.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychSound/MOAL/core/InitializeMatlabOpenAL.m</code>
-</div>

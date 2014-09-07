@@ -63,14 +63,3 @@ height.
 'rightOffset', 'rightScale' == Ditto for right eye image.
 
 This function was inspired and co-implemented by David Hoffman.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/SetCompressedStereoSideBySideParameters.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/SetCompressedStereoSideBySideParameters.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/SetCompressedStereoSideBySideParameters.m</code>
-</div>

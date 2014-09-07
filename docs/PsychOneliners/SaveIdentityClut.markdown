@@ -34,14 +34,3 @@ disambiguate in case multiple different operating systems, os versions,
 GPU's or display types are used.
 
 The routine returns the stored clut in the optional return argument 'oldClut'.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/SaveIdentityClut.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/SaveIdentityClut.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/SaveIdentityClut.m</code>
-</div>

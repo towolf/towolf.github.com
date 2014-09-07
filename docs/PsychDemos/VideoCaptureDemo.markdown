@@ -50,14 +50,3 @@ the dc1394 capture engine. Your mileage with standard consumer cameras and the
 default [GStreamer](/docs/GStreamer) capture engine will likely be less great. If at all, it would
 probably only work on Linux or on OSX with [GStreamer](/docs/GStreamer) built from source, so you
 have the camerabin1 plugin available.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/VideoCaptureDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/VideoCaptureDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/VideoCaptureDemo.m</code>
-</div>

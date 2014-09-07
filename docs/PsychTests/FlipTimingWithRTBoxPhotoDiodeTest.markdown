@@ -36,13 +36,3 @@ conf.CheckAsyncFlip      = 0,1,2 = Off-Use sync flip, 1 = Use async flip, 2 = Us
 conf.waitFramesSched(i)  = Number of ifi's to wait before onset in trial i.
 conf.loadjitter(i)       = Max. random cpu load jitter to apply in frame i.
 conf.gpuLoad(i)          = Number of rects to draw in frame i (GPU load)
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/FlipTimingWithRTBoxPhotoDiodeTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/FlipTimingWithRTBoxPhotoDiodeTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/FlipTimingWithRTBoxPhotoDiodeTest.m</code>
-</div>

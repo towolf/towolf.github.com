@@ -37,14 +37,3 @@ See "help PsychImaging" under subsection 'ColorCorrection' and "help
 PsychColorCorrection" under subsection 'GainMatrix' for explanation of
 the math, the parameters and other notable things of interest about gain
 correction.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/VignettingCorrectionDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/VignettingCorrectionDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/VignettingCorrectionDemo.m</code>
-</div>

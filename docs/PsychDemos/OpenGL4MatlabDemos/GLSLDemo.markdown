@@ -37,13 +37,3 @@ started with shader-programming in Psychtoolbox.
 Press the 'n' key to toggle between different objects.
 Press the SPACE key to toggle between the different shaders.
 Stop the demo by pressing any other key.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/OpenGL4MatlabDemos/GLSLDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/OpenGL4MatlabDemos/GLSLDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/OpenGL4MatlabDemos/GLSLDemo.m</code>
-</div>

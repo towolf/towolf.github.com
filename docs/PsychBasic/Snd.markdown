@@ -118,13 +118,3 @@ standard hardware sample rate of 22254.5454545454 Hz. That value is returned
 by [Snd](/docs/Snd)('DefaultRate').
 
 See also PsychPortAudio, [Beeper](/docs/Beeper), AUDIOPLAYER, PLAY, MakeBeep, READSND, and WRITESND.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/Snd.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/Snd.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/Snd.m</code>
-</div>

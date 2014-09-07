@@ -36,13 +36,3 @@ standard [Screen](/docs/Screen)() drawing command, then call moglMakeHDRTexture(
 This function is most useful if you want to create textures not handled
 by Psychtoolbox, i.e., cube map textures for environment mapping and
 texture based lighting.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOpenGL/moglMakeGLHDRTexture.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOpenGL/moglMakeGLHDRTexture.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOpenGL/moglMakeGLHDRTexture.m</code>
-</div>

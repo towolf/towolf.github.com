@@ -64,13 +64,3 @@ encoding: UTF-8
  11/22/06 dhb  Fixed except that [Ask](/docs/Ask)() needs to be fixed.
  6/16/11  dhb  The PTB display section was out of date and didn't work.  I removed it.
  1/26/13  mk   Add standard PTB display, but also imaging pipeline based methods.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/RenderDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/RenderDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/RenderDemo.m</code>
-</div>

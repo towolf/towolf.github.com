@@ -48,13 +48,3 @@ the psychometric function in use.
 
 See QuestCreate, QuestUpdate, QuestQuantile, QuestMean, QuestMode,
 QuestSd, and QuestSimulate.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./Quest/QuestRecompute.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./Quest/QuestRecompute.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./Quest/QuestRecompute.m</code>
-</div>

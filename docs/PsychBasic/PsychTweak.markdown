@@ -202,14 +202,3 @@ History:
                 are off by default as of PTB 3.0.12 and must be enabled
                 by selecting a VBLTimestampingmode \> 0 via [Screen](/docs/Screen)('[Preference](/docs/Preference)'),
                 as they are way too unreliable and crash prone.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/PsychTweak.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/PsychTweak.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/PsychTweak.m</code>
-</div>

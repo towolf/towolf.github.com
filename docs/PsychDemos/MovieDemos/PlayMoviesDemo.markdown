@@ -48,14 +48,3 @@ video codecs for playback. A setting of n selects n threads, a setting of
 zero asks to auto-select an optimum number of threads for a given
 computer. By default, a codec specific default number is used, typically
 one thread.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/MovieDemos/PlayMoviesDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/MovieDemos/PlayMoviesDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/MovieDemos/PlayMoviesDemo.m</code>
-</div>

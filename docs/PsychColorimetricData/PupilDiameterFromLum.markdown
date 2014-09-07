@@ -66,13 +66,3 @@ encoding: UTF-8
  5/8/99  dhb  Consolidated different methods.
  7/8/03  dhb  Accept strings without dashes.
  12/4/07 dhb  Added dog case, with a place holder number of 8 mm.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetricData/PupilDiameterFromLum.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetricData/PupilDiameterFromLum.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetricData/PupilDiameterFromLum.m</code>
-</div>

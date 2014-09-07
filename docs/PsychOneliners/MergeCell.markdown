@@ -24,14 +24,3 @@ chi2\_rtxt= arrayfun(@(x) sprintf('slope: %.3f',x),chi2\_r,'UniformOutput',false
 
 leglbls  = MergeCell(linelbls,', chi^2\_r: ',chi2\_rtxt);
 % leglbls  = MergeCell(linelbls,{', chi^2\_r: '},chi2\_rtxt); would be equivalent
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/MergeCell.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/MergeCell.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/MergeCell.m</code>
-</div>

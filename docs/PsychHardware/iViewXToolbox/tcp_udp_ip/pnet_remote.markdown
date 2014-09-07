@@ -117,14 +117,3 @@ PNET\_REMOTE   - Evaluation of matlab expression in remote host PNET
     same operation will be performed for all connections.
     This syntax should generaly work for all variants of calls \_IF\_ they
     do not return anything.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/iViewXToolbox/tcp_udp_ip/pnet_remote.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/iViewXToolbox/tcp_udp_ip/pnet_remote.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/iViewXToolbox/tcp_udp_ip/pnet_remote.m</code>
-</div>

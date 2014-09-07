@@ -18,14 +18,3 @@ like proper timing etc.
 
 The demo will play our standard DualDiscs.mov movie if the 'moviename' is
 omitted.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/MovieDemos/SimpleMovieDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/MovieDemos/SimpleMovieDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/MovieDemos/SimpleMovieDemo.m</code>
-</div>

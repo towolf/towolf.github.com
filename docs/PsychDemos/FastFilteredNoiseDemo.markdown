@@ -55,13 +55,3 @@ and 5 yields a redraw rate of 360 - 380 Hz.
 
 One patch, 128 by 128 noise pixels, scaled by any factor between 1
 and 5 yields a redraw rate of 670 Hz.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/FastFilteredNoiseDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/FastFilteredNoiseDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/FastFilteredNoiseDemo.m</code>
-</div>

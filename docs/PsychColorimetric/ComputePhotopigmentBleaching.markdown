@@ -73,13 +73,3 @@ source
 05/23/14 dhb  Wrote it.
 05/26/14 dhb  Clean up.
 06/02/14 dhb  Take isomerizations number based on 2:1 L:M assumed ratio.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetric/ComputePhotopigmentBleaching.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetric/ComputePhotopigmentBleaching.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetric/ComputePhotopigmentBleaching.m</code>
-</div>

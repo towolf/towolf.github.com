@@ -35,13 +35,3 @@ You can exit the demo by pressing any key on the keyboard.
 
 This demo needs recent graphics hardware with floating point framebuffer
 support: ATI Radeon X1000 and later, NVidia GeForce 6000 and later.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/GarboriumDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/GarboriumDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/GarboriumDemo.m</code>
-</div>

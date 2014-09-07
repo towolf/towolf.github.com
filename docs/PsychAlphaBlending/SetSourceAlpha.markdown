@@ -27,13 +27,3 @@ storage of the alpha value.
 SetAlphaDestination helps test OpenGL alpha blending precision.
 
 see also: PsychAlphaBlending
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychAlphaBlending/SetSourceAlpha.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychAlphaBlending/SetSourceAlpha.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychAlphaBlending/SetSourceAlpha.m</code>
-</div>

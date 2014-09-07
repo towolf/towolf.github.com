@@ -17,14 +17,3 @@ PNET\_PUTVAR - Send matlab variable(s) of any type over PNET connection.
   if the variable/variables fits inside an UDP packet.
 
 Se also:  PNET\_GETVAR, PNET, PNET\_REMOTE
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/iViewXToolbox/tcp_udp_ip/pnet_putvar.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/iViewXToolbox/tcp_udp_ip/pnet_putvar.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/iViewXToolbox/tcp_udp_ip/pnet_putvar.m</code>
-</div>

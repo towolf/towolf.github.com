@@ -37,13 +37,3 @@ Example: for field data4.struc:
   vec = Struct2Vect(data4,'struc')
   vec(1).a = 24;
   vec(2).a = [42 45];
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/Struct2Vect.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/Struct2Vect.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/Struct2Vect.m</code>
-</div>

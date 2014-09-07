@@ -23,13 +23,3 @@ History: 1/23/08    mpr configured it was about time to write this
          4/28/08    mk  Made compatible with Octave, added 'subDir'
                         option.
          2/06/09    mk  Derived from PsychtoolboxConfigDir().
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychFiles/PsychHomeDir.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychFiles/PsychHomeDir.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychFiles/PsychHomeDir.m</code>
-</div>

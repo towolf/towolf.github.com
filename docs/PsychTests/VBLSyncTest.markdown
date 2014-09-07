@@ -200,14 +200,3 @@ works in parallel to the Matlab code.
 
 Please read the code of this M-File carefully as an example of how to get
 the best possible presentation timing on PTB-OSX.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/VBLSyncTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/VBLSyncTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/VBLSyncTest.m</code>
-</div>

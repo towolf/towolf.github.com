@@ -21,13 +21,3 @@ over more than 2 dimensions:
 fhndl = @(x)ndims(x)\>2
 
 DN    2008-05-28
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/IsACell.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/IsACell.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/IsACell.m</code>
-</div>

@@ -42,14 +42,3 @@ some simple devices like eyetrackers.
 For accurate timestamping and data reception with low latency, make sure
 that you've configured your serial ports properly. Search the
 Psychtoolbox forum for posts on that topic, e.g., message 9873.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/DatarecordingFromSerialPortDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/DatarecordingFromSerialPortDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/DatarecordingFromSerialPortDemo.m</code>
-</div>

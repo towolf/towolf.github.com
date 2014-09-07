@@ -23,13 +23,3 @@ For more info on superEllipses, see
 
 [Ellipse](/docs/Ellipse) returns a (tighly-fitting) boolean matrix which is true for all
 points on the surface of the [Ellipse](/docs/Ellipse) and false elsewhere
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/Ellipse.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/Ellipse.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/Ellipse.m</code>
-</div>

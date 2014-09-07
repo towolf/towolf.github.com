@@ -19,13 +19,3 @@ timestamp of last VBL interrupt on each display head. At the end, the
 samples of both heads are plotted against each other and compared.
 
 The help text in the Matlab prompt tells you how to interpret the plots.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/GraphicsDisplaySyncAcrossDualHeadsTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/GraphicsDisplaySyncAcrossDualHeadsTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/GraphicsDisplaySyncAcrossDualHeadsTest.m</code>
-</div>

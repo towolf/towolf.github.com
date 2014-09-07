@@ -38,13 +38,3 @@ with the added input.
 12/17/07  mpr scavenged and modified code from DaqDConfigPort
 1/11/08   mpr swept through trying to improve consistency across daq
                 functions
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/Daq/DaqDConfigPortBit.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/Daq/DaqDConfigPortBit.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/Daq/DaqDConfigPortBit.m</code>
-</div>

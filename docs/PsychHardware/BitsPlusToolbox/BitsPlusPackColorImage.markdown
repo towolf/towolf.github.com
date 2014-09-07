@@ -25,13 +25,3 @@ can violate assumptions of prescaled color (e.g. integer vals).
 18/4/05   ejw     Converted it to run with OSX version of Psychtoolbox.
 26\.2.07   mk      Bugfix for LSB conversion: Added modulo operation.
 3/01/07   mk      Bugfix for MSB conversion: Added floor operation.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/BitsPlusToolbox/BitsPlusPackColorImage.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/BitsPlusToolbox/BitsPlusPackColorImage.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/BitsPlusToolbox/BitsPlusPackColorImage.m</code>
-</div>

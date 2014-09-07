@@ -44,14 +44,3 @@ The script calls into the shell via "sudo" to achieve this
 setup task, which itself needs admin privileges to modify
 system files etc. "sudo" will prompt the user for his admin
 password to complete the tasks.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychLinuxConfiguration.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychLinuxConfiguration.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychLinuxConfiguration.m</code>
-</div>

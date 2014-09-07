@@ -174,13 +174,3 @@ ACKNOWLEDGEMENT: IccProfile.mex is largely a Matlab interface to
 the excellent free icclib created in C by Graeme Gill, for which we
 are very grateful.
 <http://web.access.net.au/argyll/color.html>
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/IccProfile.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/IccProfile.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/IccProfile.m</code>
-</div>

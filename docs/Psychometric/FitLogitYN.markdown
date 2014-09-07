@@ -22,13 +22,3 @@ See also: FitLogistic, FitWeibYN, FitCumNormYN,
  InvertLogistic, ComputeLogistic.
 
 2/8/97      dhb     Wrote it.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./Psychometric/FitLogitYN.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./Psychometric/FitLogitYN.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./Psychometric/FitLogitYN.m</code>
-</div>

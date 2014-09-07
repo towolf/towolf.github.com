@@ -28,13 +28,3 @@ See also CalDemo, CalibrateFitGamma, SetGammaMethod, GamutToSettings
 6/5/10   dhb      Update type list provided to user.
          dhb      Better plots, using plot subroutines.
 5/26/12  dhb      Added ability to use raw measured data as the fit gamma table.  See comment where that's done below.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/RefitCalGamma.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/RefitCalGamma.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/RefitCalGamma.m</code>
-</div>

@@ -112,14 +112,3 @@ return the state of three buttons. GetMouse can't distinguish between
 multiple mice and will always return the unified state of all mice.
 ----
 See also: GetClicks, SetMouse
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/GetMouse.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/GetMouse.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/GetMouse.m</code>
-</div>

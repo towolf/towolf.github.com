@@ -73,13 +73,3 @@ NOTE to previous MacOS-9 users: OSX is case sensitive!!!
 it, as an example for usage of Psychtoolbox-3, Version 1.0.6.
 03/01/08 Mario Kleiner modified the code to make use of new functionality
 added in Psychtoolbox 3.0.8.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/PsychExampleExperiments/OldNewRecognition/OldNewRecogExp.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/PsychExampleExperiments/OldNewRecognition/OldNewRecogExp.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/PsychExampleExperiments/OldNewRecognition/OldNewRecogExp.m</code>
-</div>

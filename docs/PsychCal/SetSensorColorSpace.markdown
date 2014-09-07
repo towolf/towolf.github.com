@@ -21,13 +21,3 @@ errorRet indicates status of the operation.
   \== 1: Bad condition number on linear/device conversion matrix
 
 quiet flag suppresses error messages, default 0.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/SetSensorColorSpace.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/SetSensorColorSpace.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/SetSensorColorSpace.m</code>
-</div>

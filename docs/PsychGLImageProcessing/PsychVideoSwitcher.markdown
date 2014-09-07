@@ -184,14 +184,3 @@ PsychVideoSwitcher(win);
 implement the green channel trigger functionality for onscreen window
 'win'. This routine uses MOGL glXXX() functions to implement drawing of
 proper trigger pixel values to the green channel for trigger creation.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/PsychVideoSwitcher.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/PsychVideoSwitcher.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/PsychVideoSwitcher.m</code>
-</div>

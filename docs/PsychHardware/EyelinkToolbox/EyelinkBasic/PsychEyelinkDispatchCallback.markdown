@@ -42,13 +42,3 @@ History:ed
 20\.7.2010 drawing of instructions, eye-image+title, playing sounds in seperate functions
 
 1\.2.2010 nj modified to allow for cross hair and fix bugs
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/EyelinkToolbox/EyelinkBasic/PsychEyelinkDispatchCallback.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/EyelinkToolbox/EyelinkBasic/PsychEyelinkDispatchCallback.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/EyelinkToolbox/EyelinkBasic/PsychEyelinkDispatchCallback.m</code>
-</div>

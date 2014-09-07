@@ -66,14 +66,3 @@ Windows-XP SP2.
 Using OS/X or Linux will usually get you comparably good or better
 results with most standard sound hardware, due to the technically
 superior sound systems of these operating systems.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychSound/InitializePsychSound.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychSound/InitializePsychSound.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychSound/InitializePsychSound.m</code>
-</div>

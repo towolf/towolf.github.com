@@ -118,13 +118,3 @@ OS X \_ OS9 \_ Windows \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
 ----
 
     See also KbCheck, KbDemo, KbWait.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/KbName.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/KbName.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/KbName.m</code>
-</div>

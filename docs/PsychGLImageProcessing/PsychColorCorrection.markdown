@@ -465,14 +465,3 @@ objects and slots to the imaging pipelines hook chain(s):
 PsychColorCorrection('ApplyPostGLSLLinkSetup', window, viewId);
 - Perform whatever setup work is needed after final GLSL program object
 has been created and attached to imaging pipeline.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/PsychColorCorrection.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/PsychColorCorrection.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/PsychColorCorrection.m</code>
-</div>

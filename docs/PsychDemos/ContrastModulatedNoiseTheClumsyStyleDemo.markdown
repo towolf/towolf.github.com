@@ -55,13 +55,3 @@ instead. That demo takes advantage of the imaging pipeline, greatly
 simplifying stimulus programming and lifting basically all restrictions
 of the approach presented here. Achievable redraw rates are also much
 higher that way!
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/ContrastModulatedNoiseTheClumsyStyleDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/ContrastModulatedNoiseTheClumsyStyleDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/ContrastModulatedNoiseTheClumsyStyleDemo.m</code>
-</div>

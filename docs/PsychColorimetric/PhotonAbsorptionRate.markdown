@@ -32,13 +32,3 @@ encoding: UTF-8
  06/26/03  dhb  Change to expect absorptanceSpectra and collectingDiameter in rows.
  7/08/03   dhb  Cosmetic.
  7/09/03   dhb  Take input in quantal units.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetric/PhotonAbsorptionRate.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetric/PhotonAbsorptionRate.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetric/PhotonAbsorptionRate.m</code>
-</div>

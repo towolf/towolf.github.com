@@ -22,13 +22,3 @@ occurs, the files \_ARE\_ output. Use e.g. '\\.m$' to only display files with
 default: '.', shows all files.
 QRELPATH if true, a listing of existing paths relative to DIRNM. Default
 false
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychFiles/DirList.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychFiles/DirList.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychFiles/DirList.m</code>
-</div>

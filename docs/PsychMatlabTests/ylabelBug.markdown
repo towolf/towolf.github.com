@@ -73,13 +73,3 @@ Sincerely,
 Sean Cote
 Technical Support Engineer
 scote@mathworks.com
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychMatlabTests/ylabelBug.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychMatlabTests/ylabelBug.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychMatlabTests/ylabelBug.m</code>
-</div>

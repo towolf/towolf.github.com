@@ -151,14 +151,3 @@ will be invalid, but later events will recover and thereby be unaffected.
 status = CMUBox('Status', handle);
 - Retrieve internal status of response box 'handle' as a struct.
 
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/CMUBox.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/CMUBox.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/CMUBox.m</code>
-</div>

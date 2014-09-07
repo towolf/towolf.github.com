@@ -17,14 +17,3 @@ It allows the systems GUI window manager to place the window at its own
 discretion, that is, the (x,y) position of the windows top-left corner,
 as provided in the 'rect' parameter, is ignored and placement of the
 window is left to where the operating system deems it most ergonomical.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/kPsychGUIWindowWMPositioned.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/kPsychGUIWindowWMPositioned.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/kPsychGUIWindowWMPositioned.m</code>
-</div>

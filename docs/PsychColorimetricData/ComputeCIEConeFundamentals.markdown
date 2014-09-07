@@ -100,13 +100,3 @@ ComputePhotopigmentBleaching.
               what's returned by ComputeRawConeFundamentals.
 05/24/14 dhb  Add fractionPigmentBleached optional arg.
 05/26/14 dhb  Comment improvements.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetricData/ComputeCIEConeFundamentals.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetricData/ComputeCIEConeFundamentals.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetricData/ComputeCIEConeFundamentals.m</code>
-</div>

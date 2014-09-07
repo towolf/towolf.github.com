@@ -25,13 +25,3 @@ This routine packs the bits properly for this function.
 3/01/07   mk      Bugfix for MSB conversion: Added floor operation.
 3/04/07   dhb     Modified to return some debugging information and
                   compare original with recent version.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/BitsPlusToolbox/BitsPlusPackMonoImage.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/BitsPlusToolbox/BitsPlusPackMonoImage.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/BitsPlusToolbox/BitsPlusPackMonoImage.m</code>
-</div>

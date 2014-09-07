@@ -38,13 +38,3 @@ See also: FitWeibTAFC, FitFitWeibAlphTAFC, FitCumNormYN, FitLogitYN
 10/13/00  dhb  Improve initial guess for alpha.  Thanks to Duje Tadin
                              for identifying the need for this.
 3/5/05      dhb  Update for optimization toolbox version 2.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./Psychometric/FitWeibYN.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./Psychometric/FitWeibYN.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./Psychometric/FitWeibYN.m</code>
-</div>

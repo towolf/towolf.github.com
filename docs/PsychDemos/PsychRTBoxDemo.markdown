@@ -39,14 +39,3 @@ a bit.
 
 See the "help PsychRTBox" online help of the PsychRTBox driver for
 detailed explanation of all commands and more commands.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/PsychRTBoxDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/PsychRTBoxDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/PsychRTBoxDemo.m</code>
-</div>

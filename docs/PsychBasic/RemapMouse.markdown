@@ -48,14 +48,3 @@ PsychImaging() function. It does not take other transformations into
 account, e.g., mirroring, arranging displays of a multi-display setup
 in an unusual way etc. You may need to add your own code to take such
 transformations into account.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/RemapMouse.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/RemapMouse.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/RemapMouse.m</code>
-</div>

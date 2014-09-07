@@ -81,14 +81,3 @@ Obviously this method of measuring carries quite a bit of uncertainty
 in exact timing, but with a high quality microphone, proper tuning and
 good sound hardware, it shouldn't be off too much. At least you get a
 rough feeling for the lags inherent to keyboards and mice.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/KeyboardLatencyTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/KeyboardLatencyTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/KeyboardLatencyTest.m</code>
-</div>

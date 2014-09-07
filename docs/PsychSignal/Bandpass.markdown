@@ -13,13 +13,3 @@ on this scale. We pass frequencies in the interval [fLow,fHigh). The
 asymmetric use of bounds guarantees that complementary filters will add
 to 1: [Bandpass](/docs/Bandpass)(n,0,f)+[Bandpass](/docs/Bandpass)(n,f,Inf)==ones(1,n). If fHigh is omitted
 it's assumed to be Inf. Also see Bandpass2.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychSignal/Bandpass.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychSignal/Bandpass.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychSignal/Bandpass.m</code>
-</div>

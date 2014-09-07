@@ -41,14 +41,3 @@ If you get stuck, post your question to the forum by email or web:
 <http://groups.yahoo.com/group/psychtoolbox/post/>
 Please specify your full name and the version of your operating system,
 MATLAB or Octave and Psychtoolbox.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./SetupPsychtoolbox.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./SetupPsychtoolbox.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./SetupPsychtoolbox.m</code>
-</div>

@@ -23,14 +23,3 @@ using this driver. It is much more convenient.
 
 For installation instructions for the required 3rd party driver see
 help InstallKinect.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/PsychKinectCore.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/PsychKinectCore.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/PsychKinectCore.m</code>
-</div>

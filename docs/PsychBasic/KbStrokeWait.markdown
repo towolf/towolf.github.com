@@ -25,13 +25,3 @@ single character, or for confirmation of something (e.g., "Press any key
 when you're ready for the next block of trials").
 
 See also: KbPressWait, KbReleaseWait, KbWait, KbCheck, KbStrokeWait.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/KbStrokeWait.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/KbStrokeWait.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/KbStrokeWait.m</code>
-</div>

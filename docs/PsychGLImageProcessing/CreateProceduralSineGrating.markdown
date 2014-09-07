@@ -59,14 +59,3 @@ g(x,y) = modulatecolor \* contrast \* contrastPreMultiplicator \* sin(x\*2\*pi\*
 
 Make sure to use the [Screen](/docs/Screen)('DrawTextures', ...); function properly to
 draw many different gratings simultaneously - this is much faster!
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/CreateProceduralSineGrating.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/CreateProceduralSineGrating.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/CreateProceduralSineGrating.m</code>
-</div>

@@ -122,13 +122,3 @@ used here (with extension by zeros).
   T\_xyz1931           - CIE 1931 color matching functions.
   T\_xyz1964           - CIE 1964 supplemental color matching functions.
   T\_xyzJuddVos        - Judd-Vos modified color matching functions.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetricData/PsychColorimetricMatFiles/Contents.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetricData/PsychColorimetricMatFiles/Contents.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetricData/PsychColorimetricMatFiles/Contents.m</code>
-</div>

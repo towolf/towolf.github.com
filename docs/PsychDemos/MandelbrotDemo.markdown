@@ -49,13 +49,3 @@ The shader used for this demo is part of the "Orange book" - The guide to
 the OpenGL Shading language. The code is copyright 3DLabs. See the
 3DLabs-License.txt file in the PsychDemos/OpenGLDemos/GLSLDemoShaders/
 subfolder for the license.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/MandelbrotDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/MandelbrotDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/MandelbrotDemo.m</code>
-</div>

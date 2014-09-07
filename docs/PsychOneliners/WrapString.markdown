@@ -23,13 +23,3 @@ it will give a fairly even right margin only for monospaced fonts, not
 proportionally spaced fonts. The more general solution would be based on
 counting pixels, not characters, using either [Screen](/docs/Screen) 'TextWidth' or
 TextBounds.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/WrapString.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/WrapString.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/WrapString.m</code>
-</div>

@@ -16,14 +16,3 @@ device entries alone.
 
 It then caches the preprocessed list to save processing time on
 successive calls to the function.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/Daq/PsychHIDDAQS.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/Daq/PsychHIDDAQS.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/Daq/PsychHIDDAQS.m</code>
-</div>

@@ -18,13 +18,3 @@ See also DefaultPhotoreceptors, FillInPhotoreceptors.
          dhb  For cmf-like spectral functions, print out peak wavelengths and peak values.
 10/16/13  mk  fields() -\> fieldnames() for Octave compatibility. Other
               bug fixes, e.g., wrong use of ii for innermost for-loops.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetricData/PrintPhotoreceptors.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetricData/PrintPhotoreceptors.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetricData/PrintPhotoreceptors.m</code>
-</div>

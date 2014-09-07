@@ -31,14 +31,3 @@ FORPQueueClear -- Clear queued FORP button presses.
           39120 Magdeburg
           Tel:    0049 (0)391 67 21723
           Email:  vincentdhs@gmx.de
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/FORP/Contents.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/FORP/Contents.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/FORP/Contents.m</code>
-</div>

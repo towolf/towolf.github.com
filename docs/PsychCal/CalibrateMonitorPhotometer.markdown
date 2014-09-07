@@ -47,13 +47,3 @@ Version 1.0: Patrick Mineault (patrick.mineault@gmail.com)
 19\.08.2012 mk Some cleanup.
  4\.09.2012 mk Use [Screen](/docs/Screen)('ColorRange') to adapt number/max of intensity
               level to given range of framebuffer.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/CalibrateMonitorPhotometer.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/CalibrateMonitorPhotometer.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/CalibrateMonitorPhotometer.m</code>
-</div>

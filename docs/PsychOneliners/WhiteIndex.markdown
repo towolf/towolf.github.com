@@ -17,14 +17,3 @@ windowPtrOrScreenNumber must be a screen number or a handle for
 an onscreen window. It won't work on offscreen windows or textures.
 
 See BlackIndex.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/WhiteIndex.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/WhiteIndex.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/WhiteIndex.m</code>
-</div>

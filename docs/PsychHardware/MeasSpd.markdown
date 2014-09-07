@@ -47,13 +47,3 @@ syncMode = 'off': Don't try to sync, even if meter supports it.
 8/26/10       dhb   The PR-655 line called the PR-650 code.  Change to call PR-655
 3/8/11        dhb   Pass syncMode option to speed things up for displays where it doesn't work.
 12/06/12      zlb   Adding PR-705 support as meter type 6.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/MeasSpd.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/MeasSpd.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/MeasSpd.m</code>
-</div>

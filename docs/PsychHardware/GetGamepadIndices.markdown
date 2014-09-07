@@ -26,13 +26,3 @@ GetGamepadIndices does not exist in Windows.
 ----
 
 see also: GetKeyboardIndices
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/GetGamepadIndices.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/GetGamepadIndices.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/GetGamepadIndices.m</code>
-</div>

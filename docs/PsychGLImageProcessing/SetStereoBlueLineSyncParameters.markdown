@@ -32,14 +32,3 @@ zero to one: Default is [1,1,1] = max red, green and blue --\> A white
 sync line. A setting of [0,0,1] = red off, green off, blue max would
 create a classic blue sync line. However, some CrystalEyes stereoenablers
 had problems detecting the signal this way, so we default to all-white.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/SetStereoBlueLineSyncParameters.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/SetStereoBlueLineSyncParameters.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/SetStereoBlueLineSyncParameters.m</code>
-</div>

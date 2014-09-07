@@ -23,13 +23,3 @@ meterType 6 is the PR705
 3/27/03  dhb, jmh  Fix up default argument.
 2/07/09  mk, tbc  Add PR-655 support.
 12/04/12 zlb  Add PR-705 support.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/CMClose.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/CMClose.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/CMClose.m</code>
-</div>

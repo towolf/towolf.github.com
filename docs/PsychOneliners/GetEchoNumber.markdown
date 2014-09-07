@@ -26,13 +26,3 @@ color for text. By default, the background is transparent. If a non-empty
 setting will affect the appearance of the text if 'bgColor' is specified!
 
 See also: GetNumber, GetString, GetEchoString
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/GetEchoNumber.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/GetEchoNumber.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/GetEchoNumber.m</code>
-</div>

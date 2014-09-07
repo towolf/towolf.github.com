@@ -56,13 +56,3 @@ time (EventTime) of the status check.
    09/10/06   fs   Wrote it.
    19/10/06   fs   Added some further improvements suggested by Mario
                    Kleiner.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/FORP/FORPWait.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/FORP/FORPWait.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/FORP/FORPWait.m</code>
-</div>

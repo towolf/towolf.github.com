@@ -20,13 +20,3 @@ If present, argument fitType is passed on to FitGamma.
 5/27/10   dhb  Allow gammaInputRaw to be either a single column or a matrix with same number of columns as devices.
                Check that last input values are unity.
 4/12/11   dhb  Return the parameter vector of whatever functional form was fit
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGamma/FitDeviceGamma.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGamma/FitDeviceGamma.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGamma/FitDeviceGamma.m</code>
-</div>

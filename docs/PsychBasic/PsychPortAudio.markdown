@@ -66,13 +66,3 @@ you omit that call, initialization of the driver may fail with some
 
 PsychPortAudio is built around a modified version of the free, open-source
 PortAudio sound library for portable realtime sound: http://www.portaudio.com
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/PsychPortAudio.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/PsychPortAudio.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/PsychPortAudio.m</code>
-</div>

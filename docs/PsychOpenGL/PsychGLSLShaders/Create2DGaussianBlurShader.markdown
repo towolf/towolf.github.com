@@ -32,14 +32,3 @@ blurshader = Create2DGaussianBlurShader(2.5);
 glUseProgram(blurshader);
 [Screen](/docs/Screen)('DrawTexture', win, mytexture, ....);
 glUseProgram(0);
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOpenGL/PsychGLSLShaders/Create2DGaussianBlurShader.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOpenGL/PsychGLSLShaders/Create2DGaussianBlurShader.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOpenGL/PsychGLSLShaders/Create2DGaussianBlurShader.m</code>
-</div>

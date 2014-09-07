@@ -329,14 +329,3 @@ need ever arise again in the future.
 versions or buy proper hardware than using these workarounds. They are
 meant as a last ressort, e.g., if you need to get something going quickly
 or can't get access to bug-fixed drivers.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDocumentation/ConserveVRAMSettings.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDocumentation/ConserveVRAMSettings.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDocumentation/ConserveVRAMSettings.m</code>
-</div>

@@ -38,13 +38,3 @@ encoding: UTF-8
                                     glitch.  I don't think this could have worked the way
                                     it was.  Perhaps no one calls it.
  5/2/02    dhb, kr  Add ADD flag.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/UpdateAmbient.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/UpdateAmbient.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/UpdateAmbient.m</code>
-</div>

@@ -18,13 +18,3 @@ parameters are taken as applying to separate columns.
 
 9/15/93  jms  Added some special casing to deal with matrix inputs
               with/without vectors of parameters
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./Psychometric/ComputeWeibYN.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./Psychometric/ComputeWeibYN.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./Psychometric/ComputeWeibYN.m</code>
-</div>

@@ -47,13 +47,3 @@ specific setup or situation is necessary.
 
 See RUSH, [Priority](/docs/Priority), MovieDemo, ScreenTest, SCREEN [Preference](/docs/Preference) MaxPriorityForBlankingInterrupt,
 SCREEN [Preference](/docs/Preference) SetClutPunchesBlankingClock.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychPriority/MaxPriority.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychPriority/MaxPriority.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychPriority/MaxPriority.m</code>
-</div>

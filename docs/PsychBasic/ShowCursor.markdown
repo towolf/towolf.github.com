@@ -67,13 +67,3 @@ reset to 0. The fat arrow and I beam are copied from the "Fat Cursors v
 1\.2" control panel created by Robert Abatecola, 5106 Forest Glen Drive,
 San Jose, CA 95129.
 ----
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/ShowCursor.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/ShowCursor.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/ShowCursor.m</code>
-</div>

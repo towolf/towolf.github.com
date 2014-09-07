@@ -23,13 +23,3 @@ Goodman's formula involves di, which I think is the distance to the
 image. Goodman's formula gives the limit in
 cycles/unit length.   The formula below gives
 the answer in cycles/degree.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOptics/ComputeDiffLimit.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOptics/ComputeDiffLimit.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOptics/ComputeDiffLimit.m</code>
-</div>

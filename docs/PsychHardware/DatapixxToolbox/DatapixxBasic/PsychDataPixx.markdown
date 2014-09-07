@@ -324,14 +324,3 @@ whatever actions are needed at shutdown, e.g., restoring identity clut on
 device, restoring default video mode and settings, closing device
 connection, cleanup of data structures etc.
 
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/DatapixxToolbox/DatapixxBasic/PsychDataPixx.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/DatapixxToolbox/DatapixxBasic/PsychDataPixx.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/DatapixxToolbox/DatapixxBasic/PsychDataPixx.m</code>
-</div>

@@ -52,14 +52,3 @@ Speak('Hello darling');
 
 Say same text with voice named "Albert":
 Speak('Hello darling', 'Albert');
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/Speak.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/Speak.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/Speak.m</code>
-</div>

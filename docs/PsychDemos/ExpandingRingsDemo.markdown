@@ -40,14 +40,3 @@ shapes. Default type is zero:
 0 = Hard transitions between red and yellow rings.
 1 = Transitions are modeled as a smooth sine wave, softly fading from
     yellow to red and back.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/ExpandingRingsDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/ExpandingRingsDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/ExpandingRingsDemo.m</code>
-</div>

@@ -38,14 +38,3 @@ For explanation of any particular [IOPort](/docs/IOPort) function, just add a qu
 mark "?". E.g. for 'OpenSerialPort', try either of these equivalent forms:
     [IOPort](/docs/IOPort)('OpenSerialPort?')
     [IOPort](/docs/IOPort) OpenSerialPort?
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/IOPort.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/IOPort.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/IOPort.m</code>
-</div>

@@ -40,14 +40,3 @@ drawing them.
 
 - The drawing speed is mostly limited by how fast Matlab can compute new
 random dot number matrices, not by properties of the stimulus images.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/FastMaskedNoiseDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/FastMaskedNoiseDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/FastMaskedNoiseDemo.m</code>
-</div>

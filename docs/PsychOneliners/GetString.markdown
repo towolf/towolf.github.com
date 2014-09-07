@@ -23,14 +23,3 @@ Windows-7.
 Useful for i/o in a [Screen](/docs/Screen) window. Typed keys are not echoed.
 
 See also: GetEchoString, GetNumber, GetEchoNumber
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/GetString.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/GetString.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/GetString.m</code>
-</div>

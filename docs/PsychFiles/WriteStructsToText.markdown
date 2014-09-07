@@ -24,13 +24,3 @@ leaving the calling routine to do the opening and closing.
 07/01/03 dhb  Support string fields too.
 08/12/06 dhb  Call filetype only if OS9.
 07/07/13 dhb  Add handling of non-string filename as fid.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychFiles/WriteStructsToText.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychFiles/WriteStructsToText.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychFiles/WriteStructsToText.m</code>
-</div>

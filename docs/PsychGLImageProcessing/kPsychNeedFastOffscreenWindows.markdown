@@ -20,13 +20,3 @@ and later. Check the www.psychtoolbox.org Wiki for graphics hardware
 recommendations and for a description of PTB's image processing
 capabilities. If you need to use older hardware, Offscreen windows will
 still work, but at a significantly lower speed.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/kPsychNeedFastOffscreenWindows.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/kPsychNeedFastOffscreenWindows.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/kPsychNeedFastOffscreenWindows.m</code>
-</div>

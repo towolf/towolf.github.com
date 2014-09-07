@@ -45,14 +45,3 @@ color pixel before writeout.
 'backgroundColorOffset' Optional, defaults to [0 0 0 0]. A RGBA offset
 color to add to the final RGBA colors of the drawn texture, prior to
 drawing it.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/MakeTextureDrawShader.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/MakeTextureDrawShader.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/MakeTextureDrawShader.m</code>
-</div>

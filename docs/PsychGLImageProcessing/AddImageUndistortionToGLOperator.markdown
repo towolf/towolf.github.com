@@ -47,14 +47,3 @@ correctedImage = [Screen](/docs/Screen)('TransformTexture', distortedImage, glop
 
 An example of this procedure can be seen in the demo
 "ImageUndistortionDemo".
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychGLImageProcessing/AddImageUndistortionToGLOperator.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychGLImageProcessing/AddImageUndistortionToGLOperator.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychGLImageProcessing/AddImageUndistortionToGLOperator.m</code>
-</div>

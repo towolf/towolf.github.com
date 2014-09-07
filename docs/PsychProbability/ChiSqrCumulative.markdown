@@ -29,13 +29,3 @@ March, 1990
 
 Computed using the Incomplete Gamma function, as given by
 Press et al. (Recipes) eq. (6.2.17)
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychProbability/ChiSqrCumulative.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychProbability/ChiSqrCumulative.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychProbability/ChiSqrCumulative.m</code>
-</div>

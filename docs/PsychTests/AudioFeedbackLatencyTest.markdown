@@ -33,14 +33,3 @@ Optional parameters:
 'freqout' = Samplerate of playback device.
 
 Obviously this test function can only be used in a very silent room!
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/AudioFeedbackLatencyTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/AudioFeedbackLatencyTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/AudioFeedbackLatencyTest.m</code>
-</div>

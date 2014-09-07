@@ -154,14 +154,3 @@ web: http://openkinect.org/wiki/Contributing\_Code
 # The source code of libusb-1.0 can be found at:
 
 web: http://www.libusb.org/
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDocumentation/InstallKinect.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDocumentation/InstallKinect.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDocumentation/InstallKinect.m</code>
-</div>

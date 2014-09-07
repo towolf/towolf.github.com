@@ -30,13 +30,3 @@ encoding: UTF-8
 pkt(1:6) are straightforward, pkt(7:8) need some work on figuring out what it all means
 
 Andrew D. Wilson, 2009 (adwkiwi@gmail.com)
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychContributed/WinTab/wintabfastLoop.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychContributed/WinTab/wintabfastLoop.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychContributed/WinTab/wintabfastLoop.m</code>
-</div>

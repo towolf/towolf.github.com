@@ -35,14 +35,3 @@ instance. By default, the first device (instance == 0) is assigned.
 
 'engineId' Enumerate for video capture engine 'engineId'. By default, the
 default videocapture engine is used.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychVideoCapture/PsychGetCamIdForSpec.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychVideoCapture/PsychGetCamIdForSpec.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychVideoCapture/PsychGetCamIdForSpec.m</code>
-</div>

@@ -21,14 +21,3 @@ the 3 beep tone schedule. After those 3 trials it exits.
 For more complex applications and use of sound schedules see
 BasicSoundScheduleDemo. For a complex mixture with audio mixing, see
 BasicAMAndMixScheduleDemo.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/SimpleSoundScheduleDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/SimpleSoundScheduleDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/SimpleSoundScheduleDemo.m</code>
-</div>

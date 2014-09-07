@@ -23,13 +23,3 @@ See also RefitCalGamma, CalibrateFitGamma, GamutToSettings
 8/21/97 dhb  Update for structure.
 3/12/98 dhb  Change name to SetGammaCorrectMode
 5/26/12 dhb  Add real exhaustive search mode (2).
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/SetGammaMethod.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/SetGammaMethod.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/SetGammaMethod.m</code>
-</div>

@@ -19,14 +19,3 @@ system scheduling noise and load.
 
 If the timestamps (minus a few outliers) disagree, then
 something is likely broken in OpenML flip timestamping.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/OMLBasicTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/OMLBasicTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/OMLBasicTest.m</code>
-</div>

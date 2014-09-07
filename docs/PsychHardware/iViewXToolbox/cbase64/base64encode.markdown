@@ -44,13 +44,3 @@ BASE64ENCODE Perform base64 encoding on a string.
       fwrite(ofid, base64encode(fread(ifid)));
 
    See also BASE64DECODE.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/iViewXToolbox/cbase64/base64encode.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/iViewXToolbox/cbase64/base64encode.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/iViewXToolbox/cbase64/base64encode.m</code>
-</div>

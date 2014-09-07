@@ -22,13 +22,3 @@ Also see RefitCalGamma, CalibrateFitGamma, FitGamma.
 8/7/00  dhb  Wrote it.
 3/5/05  dhb  A few more tests.
 6/5/10  dhb  Made sure this still runs OK.  A few small tweaks.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/FitGammaDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/FitGammaDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/FitGammaDemo.m</code>
-</div>

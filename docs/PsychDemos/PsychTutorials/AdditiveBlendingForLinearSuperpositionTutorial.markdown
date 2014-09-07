@@ -141,13 +141,3 @@ Needs hardware with support for imaging pipeline (GLSL shaders and
 floating point framebuffers). Should work well on ATI Radeon X1000 and
 later, Geforce 6000 and later and even better on DirectX10 hardware like
 Radeon HD series and NVidia Geforce 8 / 9 series and later.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/PsychTutorials/AdditiveBlendingForLinearSuperpositionTutorial.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/PsychTutorials/AdditiveBlendingForLinearSuperpositionTutorial.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/PsychTutorials/AdditiveBlendingForLinearSuperpositionTutorial.m</code>
-</div>

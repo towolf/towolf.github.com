@@ -25,13 +25,3 @@ wavelengths or as a [start delta num] description.
 8/22/05 pbg  Changed T\_out to include the extend variable (previously was
              hardwired to "1".
 8/13/11 dhb  Update comment to reflect changes in SplineRaw.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetric/SplineCmf.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetric/SplineCmf.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetric/SplineCmf.m</code>
-</div>

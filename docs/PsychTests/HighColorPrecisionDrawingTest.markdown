@@ -184,14 +184,3 @@ cases and save some time.
 
      This testcase 5 is incomplete and under development!
 
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/HighColorPrecisionDrawingTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/HighColorPrecisionDrawingTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/HighColorPrecisionDrawingTest.m</code>
-</div>

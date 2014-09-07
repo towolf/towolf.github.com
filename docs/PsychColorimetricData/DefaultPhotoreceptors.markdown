@@ -34,13 +34,3 @@ straightforward, now that all the pieces are implemented as via ComputeCIEConeFu
 8/12/13  dhb  Change field order to make printouts look nicer.
 11/13/13 dhb  Add 'LivingHumanRod' and 'LivingHumanMelanopsin' options.
 5/26/14  dhb  Add pupilDimater.value = [] to fix FillInPhotoreceptors.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetricData/DefaultPhotoreceptors.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetricData/DefaultPhotoreceptors.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetricData/DefaultPhotoreceptors.m</code>
-</div>

@@ -26,14 +26,3 @@ GPUFFTMoviePlaybackDemo - Use GPU accelerated FFT for filtering of a
 
 GPUFFTVideoCaptureDemo  - Use GPU accelerated FFT for filtering of a live
                           video feed.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/GPGPUDemos/Contents.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/GPGPUDemos/Contents.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/GPGPUDemos/Contents.m</code>
-</div>

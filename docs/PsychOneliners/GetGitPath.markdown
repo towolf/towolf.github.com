@@ -21,13 +21,3 @@ The function simply checks if the git executable is in the Matlab path
 and returns a proper path-spec. If it isn't found in the Matlab path, it
 tries default path locations for OS-X and Windows. If that doesn't work,
 it returns an empty string.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/GetGitPath.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/GetGitPath.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/GetGitPath.m</code>
-</div>

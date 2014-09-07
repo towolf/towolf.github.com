@@ -42,13 +42,3 @@ the number of keys to check.
 ----
 
 See also: FlushEvents, KbName, KbDemo, KbWait, KbCheck, GetChar, CharAvail.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/RestrictKeysForKbCheck.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/RestrictKeysForKbCheck.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/RestrictKeysForKbCheck.m</code>
-</div>

@@ -22,13 +22,3 @@ examples:
   Var2Str(var,'var2')
   ans =
       var2.field1.field2 = {true,'yar',int32(43),[3,6,1,2],@isempty};
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychFiles/Var2Str.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychFiles/Var2Str.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychFiles/Var2Str.m</code>
-</div>

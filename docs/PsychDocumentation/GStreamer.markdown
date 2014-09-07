@@ -135,14 +135,3 @@ brew install https://raw.github.com/Psychtoolbox-3/homebrew-versions/gst-ffmpeg0
 After a couple minutes of download and compile time, you'll have a fully
 functional [GStreamer](/docs/GStreamer) compiled from source - assuming everything goes
 well, that is.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDocumentation/GStreamer.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDocumentation/GStreamer.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDocumentation/GStreamer.m</code>
-</div>

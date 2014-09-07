@@ -66,13 +66,3 @@ as easy as a few mouse clicks and waiting a few minutes!
 ----
 
 See also: GetSecs, GetSecsTick, GetTicks, WaitTicks, PAUSE.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/WaitSecs.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/WaitSecs.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/WaitSecs.m</code>
-</div>

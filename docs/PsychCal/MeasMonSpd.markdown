@@ -36,13 +36,3 @@ encoding: UTF-8
  2/27/02   dhb   Change noMeterAvail to whichMeterType.
  8/19/12   mk    Rewrite g\_usebitspp path to use PTB imaging pipeline for higher robustness
                  and to support more display devices.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/MeasMonSpd.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/MeasMonSpd.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/MeasMonSpd.m</code>
-</div>

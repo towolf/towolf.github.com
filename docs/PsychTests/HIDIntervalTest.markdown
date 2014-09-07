@@ -30,13 +30,3 @@ beyond the 8 msecs granularity of the USB-HID scan cycle.
 
 Be very cautious when using normal keyboards for reaction time
 measurements, or better use a dedicated response box.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/HIDIntervalTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/HIDIntervalTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/HIDIntervalTest.m</code>
-</div>

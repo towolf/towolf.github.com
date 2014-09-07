@@ -33,13 +33,3 @@ With these set, things should work as they used to (but you'll loose the eye-ima
 
 Frans Cornelissen,
 Santa Barbara, 29th July 2010
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/EyelinkToolbox/compatibility.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/EyelinkToolbox/compatibility.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/EyelinkToolbox/compatibility.m</code>
-</div>

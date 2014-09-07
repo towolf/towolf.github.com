@@ -24,13 +24,3 @@ those associated with GetChar/CharAvail or with KbCheck and the timebase is
 the same as that returned by GetSecs (unlike GetChar/CharAvail).
 
 The first four demos here are analogous to those in KbDemo.m
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/KbQueueDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/KbQueueDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/KbQueueDemo.m</code>
-</div>

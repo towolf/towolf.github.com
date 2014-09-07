@@ -26,13 +26,3 @@ get answers consistent with what we get when we don't
 incorporate wavelength blurring.
 
 7/11/03  dhb  A few comments added.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetric/WlsToT.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetric/WlsToT.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetric/WlsToT.m</code>
-</div>

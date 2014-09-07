@@ -35,13 +35,3 @@ AlphaMultiplicationAccuracyTest -
 AlphaAdditionTest -
   Test that addition of source and destination terms has perfect
   precision.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/AlphaBlendingTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/AlphaBlendingTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/AlphaBlendingTest.m</code>
-</div>

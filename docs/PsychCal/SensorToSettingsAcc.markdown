@@ -26,13 +26,3 @@ encoding: UTF-8
  11/22/09   dhb      Check basis dimension and do the simple fast thing if it is 1.
                      This will speed things up when there is no point in trying the
                      iterative algorithm.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/SensorToSettingsAcc.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/SensorToSettingsAcc.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/SensorToSettingsAcc.m</code>
-</div>

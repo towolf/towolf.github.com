@@ -34,13 +34,3 @@ script. Caution: Make sure to always call ListenChar(0) at normal exit and in al
 error handling routines, otherwise Matlab will be left with a dead
 keyboard and you'll be unable to type any commands into the Matlab
 window! Pressing CTRL+C will reenable the keyboard in such a case.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/KbDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/KbDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/KbDemo.m</code>
-</div>

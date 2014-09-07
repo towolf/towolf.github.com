@@ -99,13 +99,3 @@ tested by me on any actual device! (MK).
 0x0a     10   DaqWriteCode          Write program memory     (unwritten)
 0x09      9   DaqReadCode           Read program memory      (unwritten)
 0x0c     12   DaqWriteSerialNumber  Write a new serial number to device (unwritten)
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/Daq/DaqCodes.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/Daq/DaqCodes.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/Daq/DaqCodes.m</code>
-</div>

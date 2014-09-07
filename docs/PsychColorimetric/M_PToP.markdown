@@ -31,13 +31,3 @@ dest - destination tristimulus vectors
  (n\_chromacy by n\_lights)
 
 8/2/94      dhb     Fixed bug in optional arg handling.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetric/M_PToP.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetric/M_PToP.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetric/M_PToP.m</code>
-</div>

@@ -27,13 +27,3 @@ See also [uvYToXYZ](/docs/uvYToXYZ), XYZToxyY, [xyYToXYZ](/docs/xyYToXYZ).
 6/16/10   dhb More extensive comment.
 5/6/11    dhb Comment fix.
           dhb Add "compute1960" option.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychColorimetric/XYZTouvY.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychColorimetric/XYZTouvY.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychColorimetric/XYZTouvY.m</code>
-</div>

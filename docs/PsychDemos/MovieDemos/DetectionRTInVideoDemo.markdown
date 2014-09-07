@@ -41,14 +41,3 @@ like (and that your hardware likes). Disadvantage would be: Longer trial
 setup time for loading the whole movie, higher memory consumption (keep
 all n frames in memory instead of only the current one) and the inability
 to play sound in sync with video.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/MovieDemos/DetectionRTInVideoDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/MovieDemos/DetectionRTInVideoDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/MovieDemos/DetectionRTInVideoDemo.m</code>
-</div>

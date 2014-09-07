@@ -13,13 +13,3 @@ machinery to the CIE 1924 scotopic sensitivity function.
 
 11/11/13  ms   Wrote it with DHB.
 11/15/13  dhb  Comment and clean up for insertion into PTB.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/RodFundamentalTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/RodFundamentalTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/RodFundamentalTest.m</code>
-</div>

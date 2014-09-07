@@ -35,13 +35,3 @@ same class as the corresponding levels.
     BalanceFactors(3, 1, {'same', 'diff'}, {'none', 'pattern', 'meta'});
 
 See also: BalanceTrials
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychProbability/BalanceFactors.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychProbability/BalanceFactors.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychProbability/BalanceFactors.m</code>
-</div>

@@ -115,14 +115,3 @@ need to help [Screen](/docs/Screen)() in one of multiple different ways:
    http://tech.groups.yahoo.com/group/psychtoolbox/message/16208
 
 Good luck with troubleshooting!
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDocumentation/DisplayOutputMappings.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDocumentation/DisplayOutputMappings.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDocumentation/DisplayOutputMappings.m</code>
-</div>

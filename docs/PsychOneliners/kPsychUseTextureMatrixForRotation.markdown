@@ -40,13 +40,3 @@ width and height of the rectangle. Otherwise the "rotated reading" from
 the texture would actually try to read from areas outside the texture
 matrix - this will create undefined visual results, but most likely not
 what you want.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/kPsychUseTextureMatrixForRotation.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/kPsychUseTextureMatrixForRotation.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/kPsychUseTextureMatrixForRotation.m</code>
-</div>

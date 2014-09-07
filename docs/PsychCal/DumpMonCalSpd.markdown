@@ -27,13 +27,3 @@ so that it can handle tristimulus and luminance calibrations.
 9/26/08  dhb, ijk, tyl  Made output easier to read.  Only access named files.
               Assume three primaries.
 5/27/11  dhb  Update name of default monitor calibration.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/DumpMonCalSpd.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/DumpMonCalSpd.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/DumpMonCalSpd.m</code>
-</div>

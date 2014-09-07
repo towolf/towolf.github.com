@@ -80,14 +80,3 @@ some fiddling around.
 
 -\> On MS-Windows there's usually no way to fix broken queries beyond the
 automatic fixes applied by [Screen](/docs/Screen)() if it detects a problem.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/BeampositionTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/BeampositionTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/BeampositionTest.m</code>
-</div>

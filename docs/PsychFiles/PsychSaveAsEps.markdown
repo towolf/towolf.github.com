@@ -153,13 +153,3 @@ The "resolution" parameter is ignored by my Apple LaserWriter 16/600.
 I've looked at the PostScript code in the .eps file and it looks
 perfect. For reasons that I don't understand, the printer is ignoring
 the setscreen command, leaving you at the default printer resolution.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychFiles/PsychSaveAsEps.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychFiles/PsychSaveAsEps.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychFiles/PsychSaveAsEps.m</code>
-</div>

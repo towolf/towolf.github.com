@@ -26,14 +26,3 @@ for some cameras, as some drivers have bugs and don't work well with all
 settings.
 
 'deviceId' Device index of video capture device. Defaults to system default.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/VideoCaptureStressTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/VideoCaptureStressTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/VideoCaptureStressTest.m</code>
-</div>

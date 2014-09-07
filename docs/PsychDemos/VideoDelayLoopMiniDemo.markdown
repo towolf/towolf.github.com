@@ -32,13 +32,3 @@ latencies. Use Linux if you want really low latencies and optimal
 control.
 
 This demo is only a proof of concept. Use with caution!
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/VideoDelayLoopMiniDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/VideoDelayLoopMiniDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/VideoDelayLoopMiniDemo.m</code>
-</div>

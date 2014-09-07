@@ -23,13 +23,3 @@ Calibration calls (e.g. trackersetup) is excluded to allow a quick test.
 6/1/01  added newfloatsampleavailable, newestfloatsample
 6/2/01  added eyelink commands to define options, currentmode, newsample, etc
 6/5/01  fwc changed to work with new toolbox version 1.1
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/EyelinkToolbox/EyelinkTests/testcalls.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/EyelinkToolbox/EyelinkTests/testcalls.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/EyelinkToolbox/EyelinkTests/testcalls.m</code>
-</div>

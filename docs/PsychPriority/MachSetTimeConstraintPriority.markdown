@@ -90,13 +90,3 @@ Mario Kleiner     mk
 4/6/05    awi     Added Mario's bug fix to Psychtoolbox.org master.
 4/6/05    awi     Replaced "GetBusFrequencymex" calls with "MachTimebase"
 4/8/05    awi     Changed "MachTimebase" to "MachAbsoluteTimeClockFrequency"
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychPriority/MachSetTimeConstraintPriority.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychPriority/MachSetTimeConstraintPriority.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychPriority/MachSetTimeConstraintPriority.m</code>
-</div>

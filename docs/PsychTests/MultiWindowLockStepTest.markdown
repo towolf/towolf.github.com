@@ -36,14 +36,3 @@ multi-screen, as the operating system will use very different
 underlying algorithms and methods to handle flips on windows,
 depending on their placement on different displays or not. Each
 operating system will also behave differently.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/MultiWindowLockStepTest.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/MultiWindowLockStepTest.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/MultiWindowLockStepTest.m</code>
-</div>

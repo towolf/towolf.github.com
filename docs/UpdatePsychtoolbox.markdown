@@ -36,14 +36,3 @@ incrementally downgrade until stuff works for you.
 
 UpdatePsychtoolbox cannot change the beta-vs-stable flavor of your
 Psychtoolbox. To change the flavor, run DownloadPsychtoolbox again.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./UpdatePsychtoolbox.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./UpdatePsychtoolbox.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./UpdatePsychtoolbox.m</code>
-</div>

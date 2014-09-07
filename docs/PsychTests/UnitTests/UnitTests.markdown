@@ -668,13 +668,3 @@ Quest/QuestSd.m
 Quest/QuestSimulate.m
 Quest/QuestTrials.m
 Quest/QuestUpdate.m
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/UnitTests/Contents.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/UnitTests/Contents.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/UnitTests/Contents.m</code>
-</div>

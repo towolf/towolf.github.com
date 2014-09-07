@@ -61,13 +61,3 @@ http://www.opengl.org
 
 The OpenGL for Matlab toolbox was developed and contributed under
 GPL license by Prof. Richard F. Murray, University of York, Canada.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/OpenGL4MatlabDemos/UtahTeapotDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/OpenGL4MatlabDemos/UtahTeapotDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/OpenGL4MatlabDemos/UtahTeapotDemo.m</code>
-</div>

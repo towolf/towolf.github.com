@@ -52,13 +52,3 @@ Date: October, 2006
 SerialComm was generously donated to the Psychtoolbox by Tom Davis.  You
 can find more of his Matlab creations at
 http://www.mathworks.com/matlabcentral/fileexchange/loadAuthor.do?objectType=author&objectId=1093697
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/SerialComm.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/SerialComm.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/SerialComm.m</code>
-</div>

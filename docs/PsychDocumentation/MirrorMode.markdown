@@ -75,13 +75,3 @@ way, Psychtoolbox at least keeps full control over the gfx-hardware, minimizing
 interference from other applications.
 
 Choose your poison, live is full of tradeoffs ;-)
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDocumentation/MirrorMode.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDocumentation/MirrorMode.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDocumentation/MirrorMode.m</code>
-</div>

@@ -36,14 +36,3 @@ is very preliminary so it doesn't work that well yet.
 
 See help PsychKinect, help PsychKinectCore and help InstallKinect for
 further info.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/Kinect3DDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/Kinect3DDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/Kinect3DDemo.m</code>
-</div>

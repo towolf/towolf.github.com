@@ -53,14 +53,3 @@ unsupported hardware.
 
 11 == Like mode 1 (frame-sequential) but using [Screen](/docs/Screen)'s built-in method,
 instead of the native method supported by your graphics card.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/StereoDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/StereoDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/StereoDemo.m</code>
-</div>

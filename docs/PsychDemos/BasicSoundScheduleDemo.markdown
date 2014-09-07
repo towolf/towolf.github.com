@@ -36,14 +36,3 @@ keys or any letter key, you can select a specific file for playback. By
 pressing any other key you exit the interactive loop. After the
 interactive loop has finished, a subset of the soundfiles is played again
 with a different method, for about 3 repetitions. Then the demo exits.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/BasicSoundScheduleDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/BasicSoundScheduleDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/BasicSoundScheduleDemo.m</code>
-</div>

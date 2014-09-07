@@ -17,13 +17,3 @@ sel = RandSel(in,n)
     a 10x10x5 matrix
   IN can be of any datatype and can have any number of dimensions and
   elements
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychProbability/URandSel.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychProbability/URandSel.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychProbability/URandSel.m</code>
-</div>

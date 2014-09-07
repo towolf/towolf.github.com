@@ -41,13 +41,3 @@ Denis Pelli 2/28/98 change "CalDat" to "PsychCalData"
               if .mat is not postpended.
 6/10/13  dhb  Fix buglet introduced 6/2/13 -- need to handle empty calFileName (thanks to MS for
               identifying the problem and the fix.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychCal/CalDataFolder.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychCal/CalDataFolder.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychCal/CalDataFolder.m</code>
-</div>

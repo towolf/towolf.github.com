@@ -63,13 +63,3 @@ with support for OpenGL Pixelshaders and the OpenGL shading language
 animation is deprecated. Today, most stimuli can be generated in much more
 flexible and elegant ways using PTB-3's new drawing features and OpenGL
 capabilities.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOpenGL/moglClutBlit.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOpenGL/moglClutBlit.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOpenGL/moglClutBlit.m</code>
-</div>

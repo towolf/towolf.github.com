@@ -43,14 +43,3 @@ from PsychSound into Matrix; Append content of matrix to a file; end;
 
 And you can do live capture, manipulation & analysis of sound, e.g.,
 voice triggers, feedback of recorded sound to sound output and such.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychObsolete/SoundTrigger.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychObsolete/SoundTrigger.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychObsolete/SoundTrigger.m</code>
-</div>

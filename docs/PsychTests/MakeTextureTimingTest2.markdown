@@ -33,13 +33,3 @@ optimizations. Your mileage may vary (TM), but it provides a rough
 impression at least.
 
 see also: PsychTests
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychTests/MakeTextureTimingTest2.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychTests/MakeTextureTimingTest2.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychTests/MakeTextureTimingTest2.m</code>
-</div>

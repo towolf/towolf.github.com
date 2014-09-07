@@ -17,14 +17,3 @@ GL\_TESS\_CONTROL\_SHADER, .tesseval = GL\_TESS\_EVALUATION\_SHADER. The
 optional 'debug' flag allows to enable debugging output.
 
 On successfull load & creation, a 'handle' to the new shader is returned.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOpenGL/LoadShaderFromFile.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOpenGL/LoadShaderFromFile.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOpenGL/LoadShaderFromFile.m</code>
-</div>

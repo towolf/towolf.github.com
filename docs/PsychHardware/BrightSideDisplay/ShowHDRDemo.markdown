@@ -16,14 +16,3 @@ low-dynamic range 'konijntjes' if 'imfilename' is omitted.
 the HDR device or BrightSide core library.
 
 'sf' - Scaling factor to apply.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/BrightSideDisplay/ShowHDRDemo.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/BrightSideDisplay/ShowHDRDemo.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/BrightSideDisplay/ShowHDRDemo.m</code>
-</div>

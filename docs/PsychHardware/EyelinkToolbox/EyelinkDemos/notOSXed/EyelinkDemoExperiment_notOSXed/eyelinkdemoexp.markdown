@@ -19,13 +19,3 @@ encoding: UTF-8
  02-06-01   fwc test for presence of default sounds using testeyelinksounds
  18-10-02   fwc small cosmetic changes and changes to work with toolbox version 1.4
  27-11-02   fwc changed dialog for dummy mode question
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/EyelinkToolbox/EyelinkDemos/notOSXed/EyelinkDemoExperiment_notOSXed/eyelinkdemoexp.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/EyelinkToolbox/EyelinkDemos/notOSXed/EyelinkDemoExperiment_notOSXed/eyelinkdemoexp.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/EyelinkToolbox/EyelinkDemos/notOSXed/EyelinkDemoExperiment_notOSXed/eyelinkdemoexp.m</code>
-</div>

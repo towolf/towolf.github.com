@@ -17,13 +17,3 @@ encoding: UTF-8
             dhb     Eliminate obsolete call to rand('uniform').
  7/24/04   awi     Cosmetic.
  1/29/05   dgp     Cosmetic.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychProbability/ChooseKFromN.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychProbability/ChooseKFromN.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychProbability/ChooseKFromN.m</code>
-</div>

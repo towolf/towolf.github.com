@@ -25,13 +25,3 @@ DN 28-04-2008 simplified input checking
 DN 28-05-2008 bugfix mixing numeric and char
 DN 09-06-2011 Now works fine with empty inputs. Few changes for compatibility
               with Octave, might have more up ahead.
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychOneliners/Interleave.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychOneliners/Interleave.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychOneliners/Interleave.m</code>
-</div>

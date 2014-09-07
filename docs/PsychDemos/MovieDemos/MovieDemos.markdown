@@ -23,14 +23,3 @@ DetectionRTInVideoDemo       -- How to collect reaction times in response to det
                                 event in a presented movie file. Takes care to get timing right.
 LoadMovieIntoTexturesDemo    -- Quickly load a movie into a stack of textures for quick playback
                                 with arbitrary speed and order.
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychDemos/MovieDemos/Contents.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychDemos/MovieDemos/Contents.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychDemos/MovieDemos/Contents.m</code>
-</div>

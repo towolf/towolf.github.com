@@ -27,14 +27,3 @@ by your system:
    measurement method.
 3\. If that fails it returns the measurment from
    [Screen](/docs/Screen)('GetFlipInterval').
-
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychBasic/VideoRefreshFromMeasurement.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychBasic/VideoRefreshFromMeasurement.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychBasic/VideoRefreshFromMeasurement.m</code>
-</div>

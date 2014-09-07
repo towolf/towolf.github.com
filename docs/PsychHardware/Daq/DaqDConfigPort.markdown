@@ -32,13 +32,3 @@ USB-1024LS: Has three ports, probably numbered: 1 = port A, 4 = port B,
 5/22/08   mk  Add (untested!) support for USB-1024LS box.
 5/23/08   mk  Add caching for HID device list.
 8/12/2010 sdv Fixed error when other HID devices have short names
-
-
-<div class="code_header" style="text-align:right;">
-  <span style="float:left;">Path&nbsp;&nbsp;</span> <span class="counter">Retrieve <a href=
-  "https://raw.github.com/Psychtoolbox-3/Psychtoolbox-3/beta/./PsychHardware/Daq/DaqDConfigPort.m">current version from GitHub</a> | View <a href=
-  "https://github.com/Psychtoolbox-3/Psychtoolbox-3/commits/beta/./PsychHardware/Daq/DaqDConfigPort.m">changelog</a></span>
-</div>
-<div class="code">
-  <code>./PsychHardware/Daq/DaqDConfigPort.m</code>
-</div>
