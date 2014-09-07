@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-MovingLineDemo\(\[xv=10\]\[, twolines=0\]\[, screenid=max\]\)
+MovingLineDemo([xv=10][, twolines=0][, screenid=max])
 
 Shows a pair of vertical lines, or a single line, which travel
 horizontally across the display from the left to the right, repeating

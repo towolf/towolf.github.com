@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glIsFramebuffer  Interface to OpenGL function glIsFramebuffer
 
-usage:  r = glIsFramebuffer\( framebuffer \)
+usage:  r = glIsFramebuffer( framebuffer )
 
-C function:  GLboolean glIsFramebuffer\(GLuint framebuffer\)
+C function:  GLboolean glIsFramebuffer(GLuint framebuffer)
 
 
 <div class="code_header" style="text-align:right;">

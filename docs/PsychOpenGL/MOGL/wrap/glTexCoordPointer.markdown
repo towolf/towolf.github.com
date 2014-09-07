@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glTextCoordPointer  Interface to glTexCoordPointer
 
-usage:  glTextCoordPointer\( size, type, stride, pointer \)
+usage:  glTextCoordPointer( size, type, stride, pointer )
 
-C function:  void glTexCoordPointer\(GLint size, GLenum type, GLsizei stride, const GLvoid\* pointer\)
+C function:  void glTexCoordPointer(GLint size, GLenum type, GLsizei stride, const GLvoid\* pointer)
 
 
 <div class="code_header" style="text-align:right;">

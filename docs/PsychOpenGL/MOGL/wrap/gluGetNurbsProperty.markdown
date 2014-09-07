@@ -8,9 +8,9 @@ encoding: UTF-8
 
 gluGetNurbsProperty  Interface to OpenGL function gluGetNurbsProperty
 
-usage:  data = gluGetNurbsProperty\( nurb, property \)
+usage:  data = gluGetNurbsProperty( nurb, property )
 
-C function:  void gluGetNurbsProperty\(GLUnurbs\* nurb, GLenum property, GLfloat\* data\)
+C function:  void gluGetNurbsProperty(GLUnurbs\* nurb, GLenum property, GLfloat\* data)
 
 
 <div class="code_header" style="text-align:right;">

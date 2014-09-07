@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glDepthMask  Interface to OpenGL function glDepthMask
 
-usage:  glDepthMask\( flag \)
+usage:  glDepthMask( flag )
 
-C function:  void glDepthMask\(GLboolean flag\)
+C function:  void glDepthMask(GLboolean flag)
 
 
 <div class="code_header" style="text-align:right;">

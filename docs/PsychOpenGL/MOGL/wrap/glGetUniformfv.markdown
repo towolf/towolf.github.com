@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGetUniformfv  Interface to OpenGL function glGetUniformfv
 
-usage:  params = glGetUniformfv\( program, location \)
+usage:  params = glGetUniformfv( program, location )
 
-C function:  void glGetUniformfv\(GLuint program, GLint location, GLfloat\* params\)
+C function:  void glGetUniformfv(GLuint program, GLint location, GLfloat\* params)
 
 
 <div class="code_header" style="text-align:right;">

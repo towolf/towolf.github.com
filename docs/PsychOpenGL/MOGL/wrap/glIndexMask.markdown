@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glIndexMask  Interface to OpenGL function glIndexMask
 
-usage:  glIndexMask\( mask \)
+usage:  glIndexMask( mask )
 
-C function:  void glIndexMask\(GLuint mask\)
+C function:  void glIndexMask(GLuint mask)
 
 
 <div class="code_header" style="text-align:right;">

@@ -10,7 +10,7 @@ Kinect3DDemo - Capture and display video and depths data from a Kinect box.
 
 # Usage:
 
-Kinect3DDemo\(\[stereomode=0\]\)
+Kinect3DDemo([stereomode=0])
 
 This connects to a Microsoft Kinect device on the USB bus, then captures
 and displays video and depths data delivered by the Kinect.

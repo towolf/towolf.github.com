@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glWindowPos3d  Interface to OpenGL function glWindowPos3d
 
-usage:  glWindowPos3d\( x, y, z \)
+usage:  glWindowPos3d( x, y, z )
 
-C function:  void glWindowPos3d\(GLdouble x, GLdouble y, GLdouble z\)
+C function:  void glWindowPos3d(GLdouble x, GLdouble y, GLdouble z)
 
 
 <div class="code_header" style="text-align:right;">

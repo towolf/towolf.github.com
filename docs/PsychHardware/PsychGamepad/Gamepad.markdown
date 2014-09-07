@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-result = Gamepad\(command \[,arg1\] \[,arg2\]\)
+result = Gamepad(command [,arg1] [,arg2])
 
 Gamepad reads the state of any USB game controller. Gamepad was
 previously named "JoyStick", the name has been changed to agree with the
-USB Human Interface Device \(HID\) terminology.
+USB Human Interface Device (HID) terminology.
 
 Gamepad provides built-in help.  For usage, enter "Gamepad" alone on the
 command line.
@@ -20,9 +20,9 @@ command line.
 As initialization of Gamepad takes significant time, you should call it
 once at the beginning of your script before entering the trial loop.
 After plugging/unplugging or replugging of any USB devices you \*must\*
-call Gamepad\('Unplug'\) or clear all, so Gamepad can recognize the changed
+call Gamepad('Unplug') or clear all, so Gamepad can recognize the changed
 hardware configuration at next invocation. Actually, a clear all is
-recommended, as Gamepad\('Unplug'\) doesn't work reliably on non-OSX systems.
+recommended, as Gamepad('Unplug') doesn't work reliably on non-OSX systems.
 
 The subfunctions for state queries of axis, button and hat state are
 optimized for low execution time -- suitable for time critical parts of
@@ -37,7 +37,7 @@ but superfast way to query device state.
 
 # LINUX
 
-Gamepad uses the [Screen](/docs/Screen)\(\) mex file and its mouse query functions.
+Gamepad uses the [Screen](/docs/Screen)() mex file and its mouse query functions.
 On Linux, gamepads and joysticks are treated as a special type of
 mouse/pointing device with multiple extra axes and buttons. If your
 GamePad is not recognized, you may need to install the joystick driver,
@@ -58,7 +58,7 @@ behavior of Gamepad on other platforms where it is a mex file.
 
 # WIN
 
-Gamepad is not yet supported on Windows. WinJoystickMex\(\) in the
+Gamepad is not yet supported on Windows. WinJoystickMex() in the
 Psychtoolbox/PsychContributed subfolder may serve as a temporary
 replacement.
 ----

@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glEvalPoint1  Interface to OpenGL function glEvalPoint1
 
-usage:  glEvalPoint1\( i \)
+usage:  glEvalPoint1( i )
 
-C function:  void glEvalPoint1\(GLint i\)
+C function:  void glEvalPoint1(GLint i)
 
 
 <div class="code_header" style="text-align:right;">

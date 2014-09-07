@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glViewportIndexedf  Interface to OpenGL function glViewportIndexedf
 
-usage:  glViewportIndexedf\( index, x, y, w, h \)
+usage:  glViewportIndexedf( index, x, y, w, h )
 
-C function:  void glViewportIndexedf\(GLuint index, GLfloat x, GLfloat y, GLfloat w, GLfloat h\)
+C function:  void glViewportIndexedf(GLuint index, GLfloat x, GLfloat y, GLfloat w, GLfloat h)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-excitation = ContrastToExcitation\(contrast,reference\)
+excitation = ContrastToExcitation(contrast,reference)
 
 Convert contrast to excitation coordinates.
 
-4/5/02  dhb, ly  Wrote it.
+\4/5/02  dhb, ly  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-\[mouseIndices, productNames, allInfo\] = GetMouseIndices\(\[typeOnly\]\)
+[mouseIndices, productNames, allInfo] = GetMouseIndices([typeOnly])
 
 # OS X
 
@@ -15,7 +15,7 @@ index. GetMouseIndices returns the indices for those HID devices which
 are mouses.  The product names of the mouses are returned in a second
 argument which is useful to identify the mouse associated with a
 paticular index.  For complete information on a gampad use
-PsychHID\('Devices'\).
+PsychHID('Devices').
 
 # LINUX
 

@@ -6,18 +6,18 @@ categories:
 encoding: UTF-8
 ---
 
-T\_absorbance = PhotopigmentNomogram\(S,lambdaMax,\[source\]\)
+T\_absorbance = PhotopigmentNomogram(S,lambdaMax,[source])
 
 Compute normalized absorbance according to various
 nomograms.  This is basically a wrapper routine.
   Baylor
   Dawis
-  Govardovskii \(Default\)
+  Govardovskii (Default)
   Lamb
   StockmanSharpe
 
-7/11/03  dhb  Wrote it.
-7/16/03  dhb  Add StockmanSharpe.
+\7/11/03  dhb  Wrote it.
+\7/16/03  dhb  Add StockmanSharpe.
 
 
 <div class="code_header" style="text-align:right;">

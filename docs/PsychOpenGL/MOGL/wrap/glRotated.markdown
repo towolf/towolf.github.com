@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glRotated  Interface to OpenGL function glRotated
 
-usage:  glRotated\( angle, x, y, z \)
+usage:  glRotated( angle, x, y, z )
 
-C function:  void glRotated\(GLdouble angle, GLdouble x, GLdouble y, GLdouble z\)
+C function:  void glRotated(GLdouble angle, GLdouble x, GLdouble y, GLdouble z)
 
 
 <div class="code_header" style="text-align:right;">

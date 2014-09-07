@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-failFlag=AlphaAdditionTest\(\[screenNumber\]\)
+failFlag=AlphaAdditionTest([screenNumber])
 
 Combine two alpha layers by addition and verify the result.
 

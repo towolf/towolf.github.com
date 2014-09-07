@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glMultiTexCoord3dv  Interface to OpenGL function glMultiTexCoord3dv
 
-usage:  glMultiTexCoord3dv\( target, v \)
+usage:  glMultiTexCoord3dv( target, v )
 
-C function:  void glMultiTexCoord3dv\(GLenum target, const GLdouble\* v\)
+C function:  void glMultiTexCoord3dv(GLenum target, const GLdouble\* v)
 
 
 <div class="code_header" style="text-align:right;">

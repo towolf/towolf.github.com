@@ -7,9 +7,9 @@ encoding: UTF-8
 ---
 
 
-dot motion demo using SCREEN\('DrawDots'\) subfunction
+dot motion demo using SCREEN('DrawDots') subfunction
 
-Usage: DotDemoStencil\(\[showSprites = 0\]\[, waitframes = 1\]\);
+Usage: DotDemoStencil([showSprites = 0][, waitframes = 1]);
 
 The optional parameter 'showSprites' when set to a non-zero value, will
 draw little smiley textures instead of dots, demonstrating
@@ -26,8 +26,8 @@ manipulate if you want.
 
 
 Note: Some versions of MacOS/X have defective dot drawing due to an
-operating system bug. If you happen to have such a system \(e.g., OS/X
-10.6.3 with NVidia Geforce-7xxx hardware\) then read "help ScreenDrawDots"
+operating system bug. If you happen to have such a system (e.g., OS/X
+\10.6.3 with NVidia Geforce-7xxx hardware) then read "help ScreenDrawDots"
 for a workaround.
 
 

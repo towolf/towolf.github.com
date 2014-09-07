@@ -10,7 +10,7 @@ glutWireIcosahedron  Interface to OpenGL function glutWireIcosahedron
 
 usage:  glutWireIcosahedron
 
-C function:  void glutWireIcosahedron\(void\)
+C function:  void glutWireIcosahedron(void)
 
 
 <div class="code_header" style="text-align:right;">

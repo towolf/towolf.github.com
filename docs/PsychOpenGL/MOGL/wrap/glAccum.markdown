@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glAccum  Interface to OpenGL function glAccum
 
-usage:  glAccum\( op, value \)
+usage:  glAccum( op, value )
 
-C function:  void glAccum\(GLenum op, GLfloat value\)
+C function:  void glAccum(GLenum op, GLfloat value)
 
 
 <div class="code_header" style="text-align:right;">

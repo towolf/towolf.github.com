@@ -10,7 +10,7 @@ glutSolidOctahedron  Interface to OpenGL function glutSolidOctahedron
 
 usage:  glutSolidOctahedron
 
-C function:  void glutSolidOctahedron\(void\)
+C function:  void glutSolidOctahedron(void)
 
 
 <div class="code_header" style="text-align:right;">

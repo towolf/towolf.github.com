@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-PlayMoviesWithoutGapDemo2\(moviename\)
+PlayMoviesWithoutGapDemo2(moviename)
 
 This demo accepts a pattern for a valid moviename, e.g.,
 moviename='\*.mpg', then it plays all movies in the current working
@@ -28,7 +28,7 @@ significant delays between them. The downside is loss in flexibility.
 This method only works if all movies have exactly the same image size,
 color depth and format, aspect ratio and playback framerate. They may
 only differ in filename, content and duration. Any other difference will
-cause malfunctions, even hard crashes of Matlab or Octave\!
+cause malfunctions, even hard crashes of Matlab or Octave!
 
 If you need a method that is more flexible and can handle movies of
 different format, use the method in PlayMoviesWithoutGapDemo1. That

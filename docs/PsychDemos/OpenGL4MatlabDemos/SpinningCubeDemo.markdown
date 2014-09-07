@@ -16,7 +16,7 @@ are textured via binary texture data loaded from a file.
 Stop the demo by pressing any key.
 
 Notable implementation details:
-The call InitializeMatlabOpenGL\(1\) at the top of the script initializes the
+The call InitializeMatlabOpenGL(1) at the top of the script initializes the
 Matlab-OpenGL toolbox and enables the 3D gfx support in Psychtoolbox to
 allow proper interfacing between the OpenGL toolbox and Psychtoolbox.
 
@@ -34,15 +34,15 @@ to the design of Matlab.
 
 In order to execute OpenGL 3D drawing commands to draw 3D stims into a
 Psychtoolbox Onscreen- or offscreen window, one needs to call
-[Screen](/docs/Screen)\('BeginOpenGL', windowPtr\). After OpenGL drawing and before
-execution of standard [Screen](/docs/Screen)\(\) commands, one needs to call
-[Screen](/docs/Screen)\('EndOpenGL', windowPtr\) to tell Psychtoolbox that 3D drawing is
+[Screen](/docs/Screen)('BeginOpenGL', windowPtr). After OpenGL drawing and before
+execution of standard [Screen](/docs/Screen)() commands, one needs to call
+[Screen](/docs/Screen)('EndOpenGL', windowPtr) to tell Psychtoolbox that 3D drawing is
 finished.
 
 Some OpenGL functions that return complex parameters to Matlab are not
 yet implemented - this is work in progress. The performance will be also
 lower than when coding in a compiled language like C++ or C -- that's the
-Matlab tax you'll have to pay ;-\)
+Matlab tax you'll have to pay ;-)
 
 Apart from that, use of OpenGL for Matlab is the same as OpenGL for the C
 programming language. If you are used to OpenGL coding in C, it should be

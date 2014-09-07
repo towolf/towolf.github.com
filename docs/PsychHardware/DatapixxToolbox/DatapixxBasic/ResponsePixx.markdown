@@ -10,8 +10,8 @@ ResponsePixx - Control and use the ResponsePixx response button box.
 
 This allows to record button events from the ResponsePixx response box
 device. Start and stop of logging of button responses and control of the
-button lights \(on/off and intensity\) can be done immediately or
-synchronized to the operation of the [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\) command, ie.,
+button lights (on/off and intensity) can be done immediately or
+synchronized to the operation of the [Screen](/docs/Screen)('[Flip](/docs/Flip)') command, ie.,
 synchronized to visual stimulus onset.
 
 By default, ResponsePixx response boxes with 5 buttons are supported.
@@ -31,26 +31,26 @@ potential for using it the wrong way and producing very "funny" bugs.
 For reaction time measurements wrt. visual stimuli, see the timestamp
 logging functions of the PsychDataPixx driver to get timestamps in
 Datapixx clock time. You can also calculate RT's in GetSecs time wrt. the
-host clock by using the usual [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\) or PsychPortAudio stimulus
+host clock by using the usual [Screen](/docs/Screen)('[Flip](/docs/Flip)') or PsychPortAudio stimulus
 onset timestamps, which may be even more convenient. However, if you do
 so, make sure that you read and understand the comments about achieving
 good precision by correcting for clock drift, both in the help of the
 ResponsePixx subfunctions and in the help of PsychDataPixx. Specifically
-look at PsychDataPixx\('GetPreciseTime'\) and
-PsychDataPixx\('BoxsecsToGetsecs'\).
+look at PsychDataPixx('GetPreciseTime') and
+PsychDataPixx('BoxsecsToGetsecs').
 
 
 Button mapping on the ResponsePixx handheld device:
----------------------------------------------------
+\---------------------------------------------------
 
-Buttonvector element \[1,2,3,4,5\] == \[Red, Yellow, Green, Blue, White\].
+Buttonvector element [1,2,3,4,5] == [Red, Yellow, Green, Blue, White].
 
 
 Subfunctions and their meaning:
--------------------------------
+\-------------------------------
 
-ResponsePixx\('Open' \[, numSamples=1000\]\[, bufferBaseAddress=12e6\]\[, nrButtons=5\]\);
-- Open ResponsePixx for button response collection. Configures the 24 bit
+ResponsePixx('Open' [, numSamples=1000][, bufferBaseAddress=12e6][, nrButtons=5]);
+\- Open ResponsePixx for button response collection. Configures the 24 bit
 digital input port of the DataPixx to receive button responses from a
 ResponsePixx response button box and to drive the button illumination
 lights of that box. Enabled button debouncing on the digital inputs.
@@ -70,50 +70,50 @@ This function doesn't start logging of responses. Call the 'StartNow' or
 'StopNow' or 'StopAtFlip' to stop response collection.
 
 
-ResponsePixx\('[Close](/docs/Close)'\);
-- [Close](/docs/Close) ResponsePixx after stopping any running logging operations.
+ResponsePixx('[Close](/docs/Close)');
+\- [Close](/docs/Close) ResponsePixx after stopping any running logging operations.
 Disable the button lights and reset the digital input port of the
 Datapixx.
 
 
-\[startTimeBox, startTimeGetSecs\] = ResponsePixx\('StartNow' \[, clearLog=0\]\[, buttonLightState\]\[, buttonLightIntensity\]\);
-- Start button response collection immediately \(ie., with minimum
-possible delay on your system\). Set the optional 'clearLog' flag to 1 if
+[startTimeBox, startTimeGetSecs] = ResponsePixx('StartNow' [, clearLog=0][, buttonLightState][, buttonLightIntensity]);
+\- Start button response collection immediately (ie., with minimum
+possible delay on your system). Set the optional 'clearLog' flag to 1 if
 all currently stored button responses should be discarded prior to
 logging of new responses, e.g., at start of a new trial.
 
 The optional vector 'buttonLightState' allows to define the on/off state
-of the button illumination, e.g., buttonLightState = \[0,1,0,0,1\] would
+of the button illumination, e.g., buttonLightState = [0,1,0,0,1] would
 turn on the light inside button 2 and 5 and turn off the lights in
 buttons 1, 3 and 4. By default, the state of the button lights is not
 changed. The optional value 'buttonLightIntensity' in the range 0.0 to
-1.0 controls the intensity of the button illumination.
+\1.0 controls the intensity of the button illumination.
 
 Returns a 'startTimeBox' timestamp in Datapixx clock time of when
 acquisition actually started. You can also use the 2nd optional return
 argument 'startTimeGetSecs' to get the same timestamp mapped to
-Psychtoolbox GetSecs\(\) time. For a more precise post-hoc mapping to
+Psychtoolbox GetSecs() time. For a more precise post-hoc mapping to
 GetSecs time, you can convert the 'startTimeBox' timestamp into
-Psychtoolbox GetSecs\(\) time with the proper mapping functions of
-PsychDataPixx \(see "help PsychDataPixx"\).
+Psychtoolbox GetSecs() time with the proper mapping functions of
+PsychDataPixx (see "help PsychDataPixx").
 
 The function can be called multiple times, while logging is already
 started, if you just want to clear the log of stored responses or change
 the state of the button lights.
 
 
-ResponsePixx\('StartAtFlip' \[, flipCount=next\]\[, clearLog=0\]\[, buttonLightState\]\[, buttonLightIntensity\]\);
-- Schedule start of response collection synchronized to the visual stimulus
-onset of a future [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\) or [Screen](/docs/Screen)\('AsyncFlipBegin'\) command.
+ResponsePixx('StartAtFlip' [, flipCount=next][, clearLog=0][, buttonLightState][, buttonLightIntensity]);
+\- Schedule start of response collection synchronized to the visual stimulus
+onset of a future [Screen](/docs/Screen)('[Flip](/docs/Flip)') or [Screen](/docs/Screen)('AsyncFlipBegin') command.
 
-All parameters are identical to the ones for ResponsePixx\('StartNow',...\),
+All parameters are identical to the ones for ResponsePixx('StartNow',...),
 except for the first optional parameter 'flipCount'. 'flipCount' defines
-at which [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\) acquisition should be started. If omitted or
-set to zero or \[\], acquisition will be started by the next flip command.
+at which [Screen](/docs/Screen)('[Flip](/docs/Flip)') acquisition should be started. If omitted or
+set to zero or [], acquisition will be started by the next flip command.
 Otherwise it will be started by the flip command with the given
-'flipCount'. You can query the current flipCount via PsychDatapixx\('FlipCount'\).
+'flipCount'. You can query the current flipCount via PsychDatapixx('FlipCount').
 
-Example: Setting flipCount = PsychDatapixx\('FlipCount'\) + 10; would start
+Example: Setting flipCount = PsychDatapixx('FlipCount') + 10; would start
 acquisition at the 10'th invocation of a flip command from now.
 
 This function doesn't return a start timestamp as acquisition will
@@ -121,9 +121,9 @@ only happen in the future, so the timestamp is only available in the
 future.
 
 
-\[stopTimeBox, stopTimeGetSecs\] = ResponsePixx\('StopNow' \[, clearLog=0\]\[, buttonLightState\]\[, buttonLightIntensity\]\);
-- Stop button response collection immediately \(ie., with minimum
-possible delay on your system\). See 'StartNow' for meaning of optional
+[stopTimeBox, stopTimeGetSecs] = ResponsePixx('StopNow' [, clearLog=0][, buttonLightState][, buttonLightIntensity]);
+\- Stop button response collection immediately (ie., with minimum
+possible delay on your system). See 'StartNow' for meaning of optional
 arguments.
 
 The function can be called multiple times, while logging is already
@@ -131,34 +131,34 @@ stopped, if you just want to clear the log of stored responses or change
 the state of the button lights.
 
 
-ResponsePixx\('StopAtFlip' \[, flipCount=next\]\[, clearLog=0\]\[, buttonLightState\]\[, buttonLightIntensity\]\);
-- Schedule stop of response collection synchronized to the visual stimulus
-onset of a future [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\) or [Screen](/docs/Screen)\('AsyncFlipBegin'\) command.
+ResponsePixx('StopAtFlip' [, flipCount=next][, clearLog=0][, buttonLightState][, buttonLightIntensity]);
+\- Schedule stop of response collection synchronized to the visual stimulus
+onset of a future [Screen](/docs/Screen)('[Flip](/docs/Flip)') or [Screen](/docs/Screen)('AsyncFlipBegin') command.
 See 'StartAtFlip' for meaning of parameters.
 
 
-\[buttonStates, transitionTimesSecs, underflows\] = ResponsePixx\('GetLoggedResponses' \[, numberResponses=current\]\[, blocking=1\]\[, timeout=inf\]\);
-- Try to fetch logged button responses from a running logging
+[buttonStates, transitionTimesSecs, underflows] = ResponsePixx('GetLoggedResponses' [, numberResponses=current][, blocking=1][, timeout=inf]);
+\- Try to fetch logged button responses from a running logging
 operation. Only call this function after logging has been
-started via ResponsePixx\('StartNow'\) or scheduled for start at a
-certain flipCount via ResponsePixx\('StartAtFlip'\) and the flip is
+started via ResponsePixx('StartNow') or scheduled for start at a
+certain flipCount via ResponsePixx('StartAtFlip') and the flip is
 imminent, i.e., after the flip command for that flip has been called
-already. The function will error-out if you call it too early\!
+already. The function will error-out if you call it too early!
 
 The optional 'numberResponses' asks the driver to return exactly
 'numberResponses' button transitions. By default it will return whatever
 is available at time of call. If 'numberResponses' is specified, but the
 requested amount is not yet available, the optional 'blocking' flag will
-define behaviour: If set to 1 \(default\), the driver will wait until the
+define behaviour: If set to 1 (default), the driver will wait until the
 specified amount becomes available. If set to 0, the driver will return
-with empty \[\] return arguments so you can retry later. If 'blocking' is
+with empty [] return arguments so you can retry later. If 'blocking' is
 set, then the driver will wait for at most 'timeout' seconds for a
 response, then return anyway. By default the timeout is infinite.
 
 'buttonStates' is a n-by-5 matrix: The n'th row encodes the button state
 after the n'th transition of button state. Each column encodes up/down
 state of a button, ie., the j'th column encodes state of the j'th button.
-0 = Button released, 1 = Button pressed. A button press followed by a
+\0 = Button released, 1 = Button pressed. A button press followed by a
 release would create two rows of button transition, one for the
 buttonState after pressing a button, a second one for the state after
 releasing the button. The ResponsePixx uses a debouncing algorithm to
@@ -168,7 +168,7 @@ filter out multiple transitions within a 30 msecs time window.
 of when the corresponding button state has changed. The i'th element
 corresponds to the time when the i'th element in the 'buttonStates'
 vector was logged due to a change in button state at that time. See
-"help PsychDataPixx" on how to map these box timestamps to GetSecs\(\)
+"help PsychDataPixx" on how to map these box timestamps to GetSecs()
 timestamps if you wish.
 
 'underflows' is the number of times the logging buffer underflowed. This
@@ -179,8 +179,8 @@ than the event buffer can hold. The size of the buffer can be selected at
 generous 1000 button events.
 
 
-\[buttonStates, boxTimeSecs, getsecsTimeSecs\] = ResponsePixx\('GetButtons'\);
-- Perform immediate query of response box button states. Return current
+[buttonStates, boxTimeSecs, getsecsTimeSecs] = ResponsePixx('GetButtons');
+\- Perform immediate query of response box button states. Return current
 state in 'buttonStates' and corresponding box time and GetSecs time
 timestamps of time of query in 'boxTimeSecs' and 'getsecsTimeSecs'.
 

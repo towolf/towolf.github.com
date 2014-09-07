@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glVertexAttrib4d  Interface to OpenGL function glVertexAttrib4d
 
-usage:  glVertexAttrib4d\( index, x, y, z, w \)
+usage:  glVertexAttrib4d( index, x, y, z, w )
 
-C function:  void glVertexAttrib4d\(GLuint index, GLdouble x, GLdouble y, GLdouble z, GLdouble w\)
+C function:  void glVertexAttrib4d(GLuint index, GLdouble x, GLdouble y, GLdouble z, GLdouble w)
 
 
 <div class="code_header" style="text-align:right;">

@@ -8,9 +8,9 @@ encoding: UTF-8
 
 gluEndSurface  Interface to OpenGL function gluEndSurface
 
-usage:  gluEndSurface\( nurb \)
+usage:  gluEndSurface( nurb )
 
-C function:  void gluEndSurface\(GLUnurbs\* nurb\)
+C function:  void gluEndSurface(GLUnurbs\* nurb)
 
 
 <div class="code_header" style="text-align:right;">

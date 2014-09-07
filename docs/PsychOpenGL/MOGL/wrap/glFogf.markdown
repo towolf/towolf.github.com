@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glFogf  Interface to OpenGL function glFogf
 
-usage:  glFogf\( pname, param \)
+usage:  glFogf( pname, param )
 
-C function:  void glFogf\(GLenum pname, GLfloat param\)
+C function:  void glFogf(GLenum pname, GLfloat param)
 
 
 <div class="code_header" style="text-align:right;">

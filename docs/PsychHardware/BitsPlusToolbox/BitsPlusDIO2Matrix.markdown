@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-encodedDIOdata = BitsPlusDIO2Matrix\(mask, data, command\);
+encodedDIOdata = BitsPlusDIO2Matrix(mask, data, command);
 
 Generates a Matlab matrix containing the magic code and data
 required to set the DIO port of CRS Bits++ box in Bits++ mode.

@@ -10,7 +10,7 @@ glPopMatrix  Interface to OpenGL function glPopMatrix
 
 usage:  glPopMatrix
 
-C function:  void glPopMatrix\(void\)
+C function:  void glPopMatrix(void)
 
 
 <div class="code_header" style="text-align:right;">

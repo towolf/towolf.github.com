@@ -8,9 +8,9 @@ encoding: UTF-8
 
 s=GetSecs
 
-GetSecs returns the time in seconds \(with high precision\). GetSecs uses
+GetSecs returns the time in seconds (with high precision). GetSecs uses
 the highest precision realtime clock on each operating system. The zero
-point \(point in time where GetSecs would report a value of zero\) is
+point (point in time where GetSecs would report a value of zero) is
 operating system dependent and nothing to be relied on.
 
 
@@ -20,15 +20,15 @@ Allocating a variable takes time too. Usually you'll want to omit
 those delays from your timing measurements by making sure all the
 functions you use are loaded and that all the variables you use are
 allocated, before you start timing. MEX files stay loaded until you
-flush the MEX files \(e.g. by changing directory or calling CLEAR
-MEX\). M files and variables stay in memory until you clear them.
+flush the MEX files (e.g. by changing directory or calling CLEAR
+MEX). M files and variables stay in memory until you clear them.
 
 # Win 
 
-On Windows machines the high precision QueryPerformanceCounter\(\) call
+On Windows machines the high precision QueryPerformanceCounter() call
 is used to get the number of seconds since system start up, if a
 performance counter is available. Otherwise, or if the high precision timer
-is found to be defective or unreliable, the less accurate timeGetTime\(\)
+is found to be defective or unreliable, the less accurate timeGetTime()
 system call is used. Some windows systems and pc's are known to have
 defective or unreliable timing facilities under some conditions.
 Psychtoolbox tries to detect and handle such systems at runtime - it
@@ -41,13 +41,13 @@ will be roughly millisecond resolution and accuracy.
 
 # OSX 
 
-On machines running Apples OSX, the mach\_absolutetime\(\) call is used,
+On machines running Apples OSX, the mach\_absolutetime() call is used,
 which provides at least microsecond accuracy and resolution. To our
 current knowledge, all Macintosh computers have reliably working clocks.
 
 # LINUX 
 
-On Linux, the gettimeofday\(\) system call is used, which usually has
+On Linux, the gettimeofday() system call is used, which usually has
 microsecond resolution and accuracy. Linux always chooses the highest
 precision clock on a system for that call, usually the processors
 performance counter or the HPET high precision event timer, or the ACPI

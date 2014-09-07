@@ -8,15 +8,15 @@ encoding: UTF-8
 
 DrawDots3DDemo -- Show fast drawing of 3D dots.
 
-Usage: DrawDots3DDemo\(\[stereoMode=0\]\[, multiSample=0\]\);
+Usage: DrawDots3DDemo([stereoMode=0][, multiSample=0]);
 
-This demo shows how to use the moglDrawDots3D\(\) function to draw 3D dots
+This demo shows how to use the moglDrawDots3D() function to draw 3D dots
 in OpenGL 3D mode. The function is mostly equivalent to
-[Screen](/docs/Screen)\('DrawDots'\) for drawing of 2D dots in regular 2D mode.
+[Screen](/docs/Screen)('DrawDots') for drawing of 2D dots in regular 2D mode.
 
 The first subdemo simply fills the whole 3D scene with uniformly sampled
 random 3D dots, using the special sampling procedure
-CreateUniformDotsIn3DFrustum\(\) which was contributed by Diederick
+CreateUniformDotsIn3DFrustum() which was contributed by Diederick
 Niehorster.
 
 The second subdemo shows how to use a GLSL vertex shader on modern GPU's
@@ -31,7 +31,7 @@ pretty boring, not showing the magic fountain, if your GPU doesn't
 support shaders.
 
 The 3rd subdemo is a speed shootout: It draws the same fountain as demo
-2, but as fast as it can, with sync of display updates to the vertical
+\2, but as fast as it can, with sync of display updates to the vertical
 retrace disabled. The fountain is drawn 3 times a 20 seconds duration.
 First with purely Matlab computed trajectories, then with the same shader
 as in demo 2, then again with the shader, but additionally applying

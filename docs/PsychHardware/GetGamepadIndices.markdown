@@ -14,7 +14,7 @@ PsychHID assigns each USB HID device connected to you computer a
 unique index. GetGamepadIndices returns the indices for those HID devices
 which are gamepads.  The product names of each gamepad are returned in a
 second argument which is useful to identify the gamepad associated with
-an index.  For complete information on a gampad use PsychHID\('Devices'\).
+an index.  For complete information on a gampad use PsychHID('Devices').
 
 # OS 9
 

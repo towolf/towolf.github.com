@@ -6,14 +6,14 @@ categories:
 encoding: UTF-8
 ---
 
-varargout = ColorCal2\(command, \[varargin\]\)
+varargout = ColorCal2(command, [varargin])
 
 Description:
 Interface function to communicate with the ColorCal2 USB device.
 
 LINUX: If you want to use this function without the need to run
-Matlab or Octave as root user \(i.e., without need for root login or the
-sudo command\), please copy the file ...
+Matlab or Octave as root user (i.e., without need for root login or the
+sudo command), please copy the file ...
 Psychtoolbox/PsychHardware/ColorCal2/60-cambridgeresearch-permissions.rules
 ... into the folder /etc/udev/rules.d/ on your system. This one time copy will
 require administrator privileges, but after that, any user should be able
@@ -21,15 +21,15 @@ to use the ColorCal devices or other CRS Ltd. devices without special permission
 
 
 Required Input:
-command \(string\) - Command to send to the ColorCal2 device.  Commands are
+command (string) - Command to send to the ColorCal2 device.  Commands are
                    case insensitive.
 
 Optional Input:
-varargin - Argument\(s\) required for a subset of the ColorCal2
+varargin - Argument(s) required for a subset of the ColorCal2
            commands.  Varies depending on the command.
 
 Optional Output:
-varargout - Value\(s\) returned for a subset of the ColorCal2 commands.
+varargout - Value(s) returned for a subset of the ColorCal2 commands.
 
 Command List:
 'DeviceInfo' - Retrieves the following device information in a struct: firmware
@@ -37,7 +37,7 @@ Command List:
      The struct's fields are romVersion, serialNumber, buildNumber.
 
      Example:
-     devInfo = ColorCal2\('DeviceInfo'\);
+     devInfo = ColorCal2('DeviceInfo');
 'GetRawData' - Returns the raw data for all three light channels, the
      contents of the zero correction array for all three channels, and
      the current reading of the trigger ADC.  Returns a single struct
@@ -52,9 +52,9 @@ Command List:
 
      Example: Retrieve the xyz values and correct them with the 1st
               calibration matrix.
-     cMatrix = ColorCal2\('ReadColorMatrix'\);
-     s = ColorCal2\('MeasureXYZ'\);
-     correctedValues = cMatrix\(1:3,:\) \* \[s.x s.y s.z\]';
+     cMatrix = ColorCal2('ReadColorMatrix');
+     s = ColorCal2('MeasureXYZ');
+     correctedValues = cMatrix(1:3,:) \* [s.x s.y s.z]';
 'ReadColorMatrix' or 'ReadColourMatrix' - Retrieves all 3 color
      calibration matrices from the device and returns them as a 9x3 matrix.
      Each set of 3 rows represents a single calibration matrix.  All
@@ -62,7 +62,7 @@ Command List:
 'SetLEDFunction' - Controls whether the LED is illuminated when the
      trigger signal is generated.  This state is stored in non-volatile
      memory and will survive a power cycle.  Takes 1 additional argument:
-     0 or 1.  0 = LED not active when triggered, 1 = LED active when
+     \0 or 1.  0 = LED not active when triggered, 1 = LED active when
      triggered.
 'SetTriggerThreshold' - Sets the threshold which must be exceeded by the
      first derivative of the trigger ADC before a trigger pulse is

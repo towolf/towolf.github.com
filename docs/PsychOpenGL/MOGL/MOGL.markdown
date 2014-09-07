@@ -27,14 +27,14 @@ more permissive MIT license since 2011.
 
     core/
 
-        \(first group:  main toolbox functions\)
+        (first group:  main toolbox functions)
 
         moglcore.mexmac -- main MEX interface to OpenGL functions
         oglconst.mat    -- constants used by OpenGL routines
         setupdate.sh    -- shell script to start or stop 'update' process
-                           \(normally called via wrap/glmSetUpdate.m\)
+                           (normally called via wrap/glmSetUpdate.m)
 
-        \(second group:  miscellaneous helper files\)
+        (second group:  miscellaneous helper files)
 
         edittag.m       -- edit all M-files that contain a given string
         finish.m        -- automatically run when quitting MATLAB
@@ -42,7 +42,7 @@ more permissive MIT license since 2011.
 
     source/
 
-        \(first group:  files that generate interface code\)
+        (first group:  files that generate interface code)
 
         autocode.m      -- MATLAB script that generates gl\_auto.c and M-file
                            interfaces to moglcore.mexmac
@@ -50,15 +50,15 @@ more permissive MIT license since 2011.
                            generate interfaces for;  most of these appear
                            in gl\_manual.c
         gl\_auto\_init.c  -- file used in generating gl\_auto.c;  contains
-                           top portion of file, i.e., \#includes, etc.
+                           top portion of file, i.e., #includes, etc.
         oglconst.m      -- MATLAB script that searches through OpenGL header
-                           files for \#defined constants, and writes them
+                           files for #defined constants, and writes them
                            to oglconst.mat as variables
         headers/\*.h     -- OpenGL headers to parse in addition to system
                            header files.
         private/\*.m     -- miscellaneous helper files for autocode.m
 
-        \(second group:  files that compile to produce moglcore.mexmac\)
+        (second group:  files that compile to produce moglcore.mexmac)
 
         gl\_auto.c       -- automatically generated interfaces to OpenGL functions
         gl\_manual.c     -- manually generated interfaces to OpenGL functions
@@ -75,7 +75,7 @@ more permissive MIT license since 2011.
 The following three commands will completely regenerate mogl.
 
 \>\> autocode     % generate gl\_auto.c and wrapper M-files
-\>\> \! make       % compile C code to produce MEX files
+\>\> ! make       % compile C code to produce MEX files
 \>\> oglconst     % save constants from header files in a .mat file
 
 

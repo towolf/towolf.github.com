@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-sumImage=AlphaSum\(image1, image2\)
+sumImage=AlphaSum(image1, image2)
 
 Return the sum of two images combined with alpha blending as would
 [Screen](/docs/Screen).

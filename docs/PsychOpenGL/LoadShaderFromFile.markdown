@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-handle = LoadShaderFromFile\(filename \[, shadertype\] \[, debug\]\)
+handle = LoadShaderFromFile(filename [, shadertype] [, debug])
 
 Loads a GLSL OpenGL shader definition from textfile 'filename' and
 creates an OpenGL GLSL shader of type 'shadertype'. Returns a handle to

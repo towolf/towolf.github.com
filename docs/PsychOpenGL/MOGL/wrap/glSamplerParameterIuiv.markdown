@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glSamplerParameterIuiv  Interface to OpenGL function glSamplerParameterIuiv
 
-usage:  glSamplerParameterIuiv\( sampler, pname, param \)
+usage:  glSamplerParameterIuiv( sampler, pname, param )
 
-C function:  void glSamplerParameterIuiv\(GLuint sampler, GLenum pname, const GLuint\* param\)
+C function:  void glSamplerParameterIuiv(GLuint sampler, GLenum pname, const GLuint\* param)
 
 
 <div class="code_header" style="text-align:right;">

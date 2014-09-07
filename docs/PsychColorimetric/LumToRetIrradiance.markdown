@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-irradiance = RadianceToRetIrradiance\(luminance,radiance,radianceS,pupilAreaMM,eyeSizeMM\)
+irradiance = RadianceToRetIrradiance(luminance,radiance,radianceS,pupilAreaMM,eyeSizeMM)
 
 Perform the geometric calculations necessary to convert a measurement of source
 radiance to corresponding retinal irradiance.
@@ -26,7 +26,7 @@ as this is more conveniently foldeded into the spectral absorptance.
 
 See also: PupilAreaFromLum, IsomerizationsInEyeDemo.
 
-7/10/03  dhb  Wrote it.
+\7/10/03  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

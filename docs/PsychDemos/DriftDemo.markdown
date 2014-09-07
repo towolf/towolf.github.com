@@ -9,9 +9,9 @@ encoding: UTF-8
 DriftDemo
 ----
 
-Display an animated grating using the new [Screen](/docs/Screen)\('DrawTexture'\) command.
-In Psychtoolbox-3 [Screen](/docs/Screen)\('DrawTexture'\) replaces
-[Screen](/docs/Screen)\('CopyWindow'\).
+Display an animated grating using the new [Screen](/docs/Screen)('DrawTexture') command.
+In Psychtoolbox-3 [Screen](/docs/Screen)('DrawTexture') replaces
+[Screen](/docs/Screen)('CopyWindow').
 
 This is a very simple, bare bones demo on how to do frame animation. For
 much more efficient ways to draw gratings and gabors, have a look at
@@ -20,9 +20,9 @@ ProceduralGarboriumDemo and DriftWaitDemo.
 
 # CopyWindow vs. DrawTexture:
 
-In the OS 9 Psychtoolbox, [Screen](/docs/Screen) \('CopyWindow"\) was used for all
+In the OS 9 Psychtoolbox, [Screen](/docs/Screen) ('CopyWindow") was used for all
 time-critical display of images, in particular for display of the movie
-frames in animated stimuli. In contrast, [Screen](/docs/Screen)\('DrawTexture'\) should not
+frames in animated stimuli. In contrast, [Screen](/docs/Screen)('DrawTexture') should not
 be used for display of all graphic elements,  but only for  display of
 MATLAB matrices.  For all other graphical elements, such as lines,  rectangles,
 and ovals we recommend that these be drawn directly to the  display

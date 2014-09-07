@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glDeleteRenderbuffers  Interface to OpenGL function glDeleteRenderbuffers
 
-usage:  glDeleteRenderbuffers\( n, renderbuffers \)
+usage:  glDeleteRenderbuffers( n, renderbuffers )
 
-C function:  void glDeleteRenderbuffers\(GLsizei n, const GLuint\* renderbuffers\)
+C function:  void glDeleteRenderbuffers(GLsizei n, const GLuint\* renderbuffers)
 
 
 <div class="code_header" style="text-align:right;">

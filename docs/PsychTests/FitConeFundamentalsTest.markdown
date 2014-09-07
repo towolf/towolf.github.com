@@ -19,9 +19,9 @@ its nominal lambdaMax values.  The fit to the 2-degree CIE
 fundamentals is not perfect, but it is pretty good. I think
 the deviations between what is produced by the nominal
 nomogram fit are probaby small compared with our certainty
-about the fundamentals \(this is just intuition, but for example
+about the fundamentals (this is just intuition, but for example
 the deviations are small compared to those between the Stockman-Sharpe
-and Smith-Pokorny fundamentals\).  One could try to develope a better
+and Smith-Pokorny fundamentals).  One could try to develope a better
 nomogram, for example by taking the ser/ala polymorphism explicitly
 into account when fitting it, but I'm not sure that would win if one
 wants to keep the convenient assumption of constant photopigment
@@ -31,9 +31,9 @@ If one really wanted to go after fitting the fundamentals from parts,
 searching on various densities as well as the lambda max values
 would probably be the way to go.
 
-8/11/11  dhb  Wrote it.
-8/14/11  dhb  Clean up and add comments.
-8/10/13  dhb  A few more notes.
+\8/11/11  dhb  Wrote it.
+\8/14/11  dhb  Clean up and add comments.
+\8/10/13  dhb  A few more notes.
 
 
 <div class="code_header" style="text-align:right;">

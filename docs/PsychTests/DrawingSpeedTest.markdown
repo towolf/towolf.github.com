@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-DrawingSpeedTest\(\[n=800\]\[,primitivetype=0\]\[,mode=0\]\[,gpumeasure=0\]\)
+DrawingSpeedTest([n=800][,primitivetype=0][,mode=0][,gpumeasure=0])
 
 Tests batch-drawing performance of some [Screen](/docs/Screen) functions. Batch drawing
 is a way to submit multiple primitives, e.g., Filled Rects, at once. This
@@ -23,9 +23,9 @@ draw each frame, default is 800. The test loop will draw 1000 identical
 frames and measure the time needed.
 
 'primitivetype' type of primitive: 0 = filled rects, 1 = framed rects, 2
-= filled ovals, 3 = framed ovals.
+\= filled ovals, 3 = framed ovals.
 
-'mode' type of drawing: 0 = One by one submission \(slowest\), 1 = batch
+'mode' type of drawing: 0 = One by one submission (slowest), 1 = batch
 submission, 2 = texture mapping for drawing, 3 = texture mapping with
 batch submission of textures.
 

@@ -6,8 +6,8 @@ categories:
 encoding: UTF-8
 ---
 
- \[photonAbsorptionRate\] =...
-        PhotonAbsorptionRate \(irradianceInQuanta, irradianceS, absorptanceSpectra, absorptanceSpectraS, collectingDiameter\)
+ [photonAbsorptionRate] =...
+        PhotonAbsorptionRate (irradianceInQuanta, irradianceS, absorptanceSpectra, absorptanceSpectraS, collectingDiameter)
 
  Compute photons being absorbed per photoreceptor per sec, given the spectrum incident on the
  photoreceptor array.  We typically take the collecting area of a photoreceptor to be the inner segement
@@ -24,14 +24,14 @@ encoding: UTF-8
    photonAbsorptionRate: quanta/sec/photorecptor
    irradianceInQuanta: quanta/um^2-sec-wlinterval
    absorptanceSpectra: probability an incident quantum will be absorbed.
-   collectingDiameter \(um^2\)
+   collectingDiameter (um^2)
 
- 05/06/03   lyin Wrote it
- 06/12/03   lyin Change the way variable being passed.
- 06/26/03  dhb  Change computation of area to pi\*r^2 rather than pi\*d^2\!
- 06/26/03  dhb  Change to expect absorptanceSpectra and collectingDiameter in rows.
- 7/08/03   dhb  Cosmetic.
- 7/09/03   dhb  Take input in quantal units.
+ \05/06/03   lyin Wrote it
+ \06/12/03   lyin Change the way variable being passed.
+ \06/26/03  dhb  Change computation of area to pi\*r^2 rather than pi\*d^2!
+ \06/26/03  dhb  Change to expect absorptanceSpectra and collectingDiameter in rows.
+ \7/08/03   dhb  Cosmetic.
+ \7/09/03   dhb  Take input in quantal units.
 
 
 <div class="code_header" style="text-align:right;">

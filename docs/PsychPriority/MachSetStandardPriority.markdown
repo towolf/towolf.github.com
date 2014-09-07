@@ -13,7 +13,7 @@ MachSetStandardPriority
 Restores the standard priorty flavor THREAD\_STANDARD\_POLICY to  the main
 MATLAB thread.  MachSetStandardPriority undoes previous calls to either
 MachSetTimConstraintPolicy or
-MachSetPriorityMex\('THREAD\_TIME\_CONSTRAINT\_POLICY',...\)
+MachSetPriorityMex('THREAD\_TIME\_CONSTRAINT\_POLICY',...)
 
 # OS 9
 

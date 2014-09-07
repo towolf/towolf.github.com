@@ -10,7 +10,7 @@ glutWireDodecahedron  Interface to OpenGL function glutWireDodecahedron
 
 usage:  glutWireDodecahedron
 
-C function:  void glutWireDodecahedron\(void\)
+C function:  void glutWireDodecahedron(void)
 
 
 <div class="code_header" style="text-align:right;">

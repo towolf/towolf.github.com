@@ -8,7 +8,7 @@ encoding: UTF-8
 
  test for the presence of sounds used by eyelink toolbox
 
- USAGE: err=testeyelinksounds\(el\)
+ USAGE: err=testeyelinksounds(el)
 
         el: if not supplied, we use 'initeyelinkdefaults'
             to open a structure with eyelink default values

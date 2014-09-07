@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-mMasked=MaskImageOut\(m \[,alphaIn\]\)
+mMasked=MaskImageOut(m [,alphaIn])
 
 Accept an image matrix "m" and return "nMasked", holding the same image
 but with adjusted alpha values.  MaskImageOut sets full opacity

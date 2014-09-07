@@ -6,12 +6,12 @@ categories:
 encoding: UTF-8
 ---
 
-wheelDelta = GetMouseWheel\(\[mouseIndex\]\)
+wheelDelta = GetMouseWheel([mouseIndex])
 
-Return change of mouse wheel position of a wheel mouse \(in "wheel clicks"\)
+Return change of mouse wheel position of a wheel mouse (in "wheel clicks")
 since last query. 'mouseIndex' is the PsychHID device index of the wheel
 mouse to query. The argument is optional: If left out, the first detected
-real wheel mouse \(ie. not a trackpad\) is queried.
+real wheel mouse (ie. not a trackpad) is queried.
 
 # OS X
 
@@ -25,7 +25,7 @@ discards movement events.
 
 # MS-Windows and Linux
 
-This function is not \(yet?\) supported.
+This function is not (yet?) supported.
 ----
 See also: GetClicks, GetMouseIndices, GetMouse, SetMouse, ShowCursor,
 HideCursor

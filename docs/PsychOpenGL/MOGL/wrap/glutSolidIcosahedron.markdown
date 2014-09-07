@@ -10,7 +10,7 @@ glutSolidIcosahedron  Interface to OpenGL function glutSolidIcosahedron
 
 usage:  glutSolidIcosahedron
 
-C function:  void glutSolidIcosahedron\(void\)
+C function:  void glutSolidIcosahedron(void)
 
 
 <div class="code_header" style="text-align:right;">

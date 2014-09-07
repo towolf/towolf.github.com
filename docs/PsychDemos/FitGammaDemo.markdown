@@ -19,9 +19,9 @@ is also more tied to our calibration structure.
 
 Also see RefitCalGamma, CalibrateFitGamma, FitGamma.
 
-8/7/00  dhb  Wrote it.
-3/5/05  dhb  A few more tests.
-6/5/10  dhb  Made sure this still runs OK.  A few small tweaks.
+\8/7/00  dhb  Wrote it.
+\3/5/05  dhb  A few more tests.
+\6/5/10  dhb  Made sure this still runs OK.  A few small tweaks.
 
 
 <div class="code_header" style="text-align:right;">

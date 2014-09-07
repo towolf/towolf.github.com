@@ -8,9 +8,9 @@ encoding: UTF-8
 
 alGenSources  Interface to OpenAL function alGenSources
 
-usage:  sources = alGenSources\( n \)
+usage:  sources = alGenSources( n )
 
-C function:  void alGenSources\(ALsizei n, ALuint\* sources\)
+C function:  void alGenSources(ALsizei n, ALuint\* sources)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-[Rush](/docs/Rush)\(rushedCode, priorityLevel\)
+[Rush](/docs/Rush)(rushedCode, priorityLevel)
 
-Note: This function is not needed anymore. Use [Priority](/docs/Priority)\(\) instead to
+Note: This function is not needed anymore. Use [Priority](/docs/Priority)() instead to
 simplify your life. The function is only left for backward compatibility
 to keep old code running.
 
@@ -24,16 +24,16 @@ allows normal operation of the functions you use, e.g. SND and SCREEN
 coding any particular priorityLevel, so that your program will gracefully
 adapt to run optimally on any computer. Here's a typical use:
 
-    [Screen](/docs/Screen)\('Screens'\);  % Make sure all functions \(SCREEN.mex\) are in memory.
+    [Screen](/docs/Screen)('Screens');  % Make sure all functions (SCREEN.mex) are in memory.
     i=0;                % Allocate all variables.
-    loop=\{
+    loop={
         'for i=1:100;'
-            '[Screen](/docs/Screen)\(window,''WaitBlanking''\);'
-            '[Screen](/docs/Screen)\(''CopyWindow'',w\(i\),window\);'
+            '[Screen](/docs/Screen)(window,''WaitBlanking'');'
+            '[Screen](/docs/Screen)(''CopyWindow'',w(i),window);'
         'end;'
-    \};
-    priorityLevel=MaxPriority\(window,'WaitBlanking'\);
-    [Rush](/docs/Rush)\(loop,priorityLevel\);
+    };
+    priorityLevel=MaxPriority(window,'WaitBlanking');
+    [Rush](/docs/Rush)(loop,priorityLevel);
 
 Allowable 'priorityLevel' settings are described in "help [Priority](/docs/Priority)".
 

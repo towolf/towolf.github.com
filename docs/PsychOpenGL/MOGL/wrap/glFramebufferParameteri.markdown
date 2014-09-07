@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glFramebufferParameteri  Interface to OpenGL function glFramebufferParameteri
 
-usage:  glFramebufferParameteri\( target, pname, param \)
+usage:  glFramebufferParameteri( target, pname, param )
 
-C function:  void glFramebufferParameteri\(GLenum target, GLenum pname, GLint param\)
+C function:  void glFramebufferParameteri(GLenum target, GLenum pname, GLint param)
 
 
 <div class="code_header" style="text-align:right;">

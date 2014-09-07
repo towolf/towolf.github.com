@@ -6,10 +6,10 @@ categories:
 encoding: UTF-8
 ---
 
-newRect = OffsetRect\(oldRect,x,y\)
+newRect = OffsetRect(oldRect,x,y)
 
-Offset the passed rect matrix by the horizontal \(x\)
-and vertical \(y\) shift given. You can also pass in column vectors x and y
+Offset the passed rect matrix by the horizontal (x)
+and vertical (y) shift given. You can also pass in column vectors x and y
 with e.g., n different "shifts" and the function will return n copies of
 oldRect, each shifted by one of the shift values in x and y.
 

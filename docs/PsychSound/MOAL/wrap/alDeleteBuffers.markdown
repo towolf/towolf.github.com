@@ -8,9 +8,9 @@ encoding: UTF-8
 
 alDeleteBuffers  Interface to OpenAL function alDeleteBuffers
 
-usage:  alDeleteBuffers\( n, buffers \)
+usage:  alDeleteBuffers( n, buffers )
 
-C function:  void alDeleteBuffers\(ALsizei n, const ALuint\* buffers\)
+C function:  void alDeleteBuffers(ALsizei n, const ALuint\* buffers)
 
 
 <div class="code_header" style="text-align:right;">

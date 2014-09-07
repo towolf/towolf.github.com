@@ -10,7 +10,7 @@ glReleaseShaderCompiler  Interface to OpenGL function glReleaseShaderCompiler
 
 usage:  glReleaseShaderCompiler
 
-C function:  void glReleaseShaderCompiler\(void\)
+C function:  void glReleaseShaderCompiler(void)
 
 
 <div class="code_header" style="text-align:right;">

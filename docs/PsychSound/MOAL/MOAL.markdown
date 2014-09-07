@@ -18,22 +18,22 @@ language.
 
     core/
 
-        \(first group:  main toolbox functions\)
+        (first group:  main toolbox functions)
 
         moalcore.mexmac -- main MEX interface to OpenAL functions
         oalconst.mat    -- constants used by OpenAL routines
 
     source/
 
-        \(first group:  files that generate interface code\)
+        (first group:  files that generate interface code)
 
         al\_auto\_init.c  -- file used in generating al\_auto.c;  contains
-                           top portion of file, i.e., \#includes, etc.
+                           top portion of file, i.e., #includes, etc.
         oalconst.m      -- MATLAB script that searches through OpenAL header
-                           files for \#defined constants, and writes them
+                           files for #defined constants, and writes them
                            to oalconst.mat as variables
 
-        \(second group:  files that compile to produce moalcore.mexmac\)
+        (second group:  files that compile to produce moalcore.mexmac)
 
         al\_auto.c       -- automatically generated interfaces to OpenAL functions
         al\_manual.c     -- manually generated interfaces to OpenAL functions
@@ -42,7 +42,7 @@ language.
         moaltypes.h     -- useful data types
         windowshacks.c  -- hacks needed for Windows compatibility.
 
-        \(third group:   Makefiles and build scripts.\)
+        (third group:   Makefiles and build scripts.)
         makefile        -- makefile to compile C files into moalcore.mexmac on PPC.
         makefile\_intelmac -- makefile for IntelMac.
         makefile\_linux    -- makefile for GNU/Linux.
@@ -55,8 +55,8 @@ language.
 
 The following three commands will completely regenerate moal.
 
-\>\> autocode\(1,\[\],1\)     % generate al\_auto.c and wrapper M-files
-\>\> \!make                % compile C code to produce MEX files
+\>\> autocode(1,[],1)     % generate al\_auto.c and wrapper M-files
+\>\> !make                % compile C code to produce MEX files
 \>\> oalconst             % save constants from header files in a .mat file
 
 

@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glArrayElement  Interface to OpenGL function glArrayElement
 
-usage:  glArrayElement\( i \)
+usage:  glArrayElement( i )
 
-C function:  void glArrayElement\(GLint i\)
+C function:  void glArrayElement(GLint i)
 
 
 <div class="code_header" style="text-align:right;">

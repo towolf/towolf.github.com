@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glDeleteLists  Interface to OpenGL function glDeleteLists
 
-usage:  glDeleteLists\( list, range \)
+usage:  glDeleteLists( list, range )
 
-C function:  void glDeleteLists\(GLuint list, GLsizei range\)
+C function:  void glDeleteLists(GLuint list, GLsizei range)
 
 
 <div class="code_header" style="text-align:right;">

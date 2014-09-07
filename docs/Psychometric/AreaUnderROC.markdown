@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-area = AreaUnderROC\(ROC\)
+area = AreaUnderROC(ROC)
 
 Compute the area under an ROC curve.
 

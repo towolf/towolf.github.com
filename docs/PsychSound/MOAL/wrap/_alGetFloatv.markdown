@@ -8,9 +8,9 @@ encoding: UTF-8
 
 alGetFloatv  Interface to OpenAL function alGetFloatv
 
-usage:  data = alGetFloatv\( param \)
+usage:  data = alGetFloatv( param )
 
-C function:  void alGetFloatv\(ALenum param, ALfloat\* data\)
+C function:  void alGetFloatv(ALenum param, ALfloat\* data)
 
 
 <div class="code_header" style="text-align:right;">

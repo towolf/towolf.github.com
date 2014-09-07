@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-cones = EnergyToCones\(wl,energy,S\_cones,T\_cones\)
+cones = EnergyToCones(wl,energy,S\_cones,T\_cones)
 
 Convert energy of a monochromatic light to cone excitations.
 
-8/16/96  dhb, abp  Wrote it.
+\8/16/96  dhb, abp  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

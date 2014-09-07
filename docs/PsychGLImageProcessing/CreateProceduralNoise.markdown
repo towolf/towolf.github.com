@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-\[noiseid, noiserect\] = CreateProceduralNoise\(windowPtr, width, height \[, noiseType='ClassicPerlin'\]\[, backgroundColorOffset =\(0,0,0,0\)\]\[, param1\]\[, param2, ...\]\)
+[noiseid, noiserect] = CreateProceduralNoise(windowPtr, width, height [, noiseType='ClassicPerlin'][, backgroundColorOffset =(0,0,0,0)][, param1][, param2, ...])
 
 Creates a procedural texture that allows to draw random noise stimulus patches
 in a very fast and efficient manner on modern graphics hardware.
@@ -20,19 +20,19 @@ vertex- and fragment shaders. See ProceduralNoiseDemo for examples on how to use
 'windowPtr' A handle to the onscreen window.
 
 
-'width' x 'height' The maximum 2D size \(in pixels\) of the noise patch.
+'width' x 'height' The maximum 2D size (in pixels) of the noise patch.
 
 
 'noiseType' Name of the noise function to use, defaults to 'ClassicPerlin'.
 The following types of noise are currently supported:
 
-- 'Perlin': Generates Perlin noise, which is approximately gaussian
+\- 'Perlin': Generates Perlin noise, which is approximately gaussian
             distributed.
 
-- 'ClassicPerlin': Like Perlin, but with the classic implementation.
+\- 'ClassicPerlin': Like Perlin, but with the classic implementation.
 
 
-'backgroundColorOffset' Optional, defaults to \[0 0 0 0\]. A RGBA offset
+'backgroundColorOffset' Optional, defaults to [0 0 0 0]. A RGBA offset
 color to add to the final RGBA colors of the drawn gabor, prior to
 drawing it.
 
@@ -41,25 +41,25 @@ drawing it.
 
 
 The function returns a procedural texture handle 'noiseid' that you can
-pass to the [Screen](/docs/Screen)\('DrawTexture\(s\)', windowPtr, noiseid, ...\) functions
+pass to the [Screen](/docs/Screen)('DrawTexture(s)', windowPtr, noiseid, ...) functions
 like any other texture handle. The 'noiserect' is a rectangle which
 describes the size of the noise texture support.
 
 # A typical invocation to draw a single noise patch may look like this:
 
-[Screen](/docs/Screen)\('DrawTexture', windowPtr, noiseid, \[\], dstRect, \[\], \[\], \[\],
-modulateColor, \[\], \[\], \[contrast, seed, 0, 0\]\);
+[Screen](/docs/Screen)('DrawTexture', windowPtr, noiseid, [], dstRect, [], [], [],
+modulateColor, [], [], [contrast, seed, 0, 0]);
 
 Draws the patch 'noiseid' into window 'windowPtr', at position 'dstRect',
-or in the center if 'dstRect' is set to \[\]. Make sure 'dstRect' has the
-size of 'noiserect' to avoid spatial distortions\! You could do, e.g.,
-dstRect = OffsetRect\(noiserect, xc, yc\) to place the patch centered at
-screen position \(xc,yc\).
+or in the center if 'dstRect' is set to []. Make sure 'dstRect' has the
+size of 'noiserect' to avoid spatial distortions! You could do, e.g.,
+dstRect = OffsetRect(noiserect, xc, yc) to place the patch centered at
+screen position (xc,yc).
 
 
 'modulateColor' is the base color of the noise patch - it defaults to
 white, ie. the noise has only luminance, but no color. If you'd set it to
-\[255 0 0\] you'd get a reddish noise.
+[255 0 0] you'd get a reddish noise.
 
 
 'contrast' is the amplitude of your patch in intensity units - A factor
@@ -69,9 +69,9 @@ here...
 
 'seed' Defines the random seed for drawing of a pseudo-random patch.
 
-Make sure to use the [Screen](/docs/Screen)\('DrawTextures', ...\); function properly,
-instead of the [Screen](/docs/Screen)\('DrawTexture', ...\); function, if you want to draw
-many different patches simultaneously - this is much faster\!
+Make sure to use the [Screen](/docs/Screen)('DrawTextures', ...); function properly,
+instead of the [Screen](/docs/Screen)('DrawTexture', ...); function, if you want to draw
+many different patches simultaneously - this is much faster!
 
 
 

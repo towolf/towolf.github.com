@@ -8,7 +8,7 @@ encoding: UTF-8
 
 Mathworks Case ID: 297565, submitted 10/4/99.
 
-YLABEL command \(in Matlab plots\) bug and work around.
+YLABEL command (in Matlab plots) bug and work around.
 
 dear mathworks
 
@@ -18,10 +18,10 @@ demonstrates the bug.
 % c vs k
 k=1:100;
 c=1./k;
-loglog\(k,c\)
-%xlabel\('Extent \(i.e. number of
-features\)','FontSize',14,'FontWeight','bold'\);
-ylabel\('Threshold contrast','FontSize',14,'FontWeight','bold'\);
+loglog(k,c)
+%xlabel('Extent (i.e. number of
+features)','FontSize',14,'FontWeight','bold');
+ylabel('Threshold contrast','FontSize',14,'FontWeight','bold');
 
 The plot looks ok in Matlab, but if you copy and paste it into any other
 application, eg Microsoft PowerPoint, the YLABEL command results in a
@@ -38,7 +38,7 @@ denis pelli
 professor of psychology and neural science at nyu
 apple developer
 
-# Reported as a bug to Mathworks on 10/4/99, Case ID: 297565. Their reply \(10/4\) follows:
+# Reported as a bug to Mathworks on 10/4/99, Case ID: 297565. Their reply (10/4) follows:
 
 Dear Denis,
 
@@ -52,11 +52,11 @@ attach Postscript to the PICT file.
 
 # To do this:
 
-1\)  Choose the Output Preferences item from the Options menu in Matlab.
+\1)  Choose the Output Preferences item from the Options menu in Matlab.
 
-2\)  In this dialog box, check the  Honor Figure Position checkbox.
+\2)  In this dialog box, check the  Honor Figure Position checkbox.
 
-3\)  Select Copy PICT with EPS as the default format.
+\3)  Select Copy PICT with EPS as the default format.
 
 Then you can copy and paste a graph into another application which will
 result in proper output.
@@ -66,7 +66,7 @@ pertain to your problem:
 
 <http://www.mathworks.com/support/solutions/v5/22133.shtml>
 
-I hope that this helps you\!
+I hope that this helps you!
 
 Sincerely,
 

@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glUseProgram  Interface to OpenGL function glUseProgram
 
-usage:  glUseProgram\( program \)
+usage:  glUseProgram( program )
 
-C function:  void glUseProgram\(GLuint program\)
+C function:  void glUseProgram(GLuint program)
 
 
 <div class="code_header" style="text-align:right;">

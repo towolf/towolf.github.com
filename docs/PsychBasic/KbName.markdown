@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-kbNameResult = KbName\(arg\)
+kbNameResult = KbName(arg)
 
     KbName maps between KbCheck-style keyscan codes and key names.
 
@@ -22,14 +22,14 @@ kbNameResult = KbName\(arg\)
     <return\> keypress used to execute the KbName function.
 
   \* If arg is 'UnifyKeyNames', KbName will switch its internal naming
-    scheme from the operating system specific scheme \(which was used in
-    the old Psychtoolboxes on MacOS-9 and on Windows\) to the MacOS-X
+    scheme from the operating system specific scheme (which was used in
+    the old Psychtoolboxes on MacOS-9 and on Windows) to the MacOS-X
     naming scheme, thereby allowing to use one common naming scheme for
     all operating systems, increasing portability of scripts. It is
-    recommended to call KbName\('UnifyKeyNames'\); at the beginning of each
+    recommended to call KbName('UnifyKeyNames'); at the beginning of each
     new experiment script.
-      CAUTION: This function may contain bugs. Please report them \(or fix
-      them\) if you find some.
+      CAUTION: This function may contain bugs. Please report them (or fix
+      them) if you find some.
 
   \* If arg is 'KeyNames', KbName will print out a table of all
     keycodes-\>keynames mappings.
@@ -59,8 +59,8 @@ kbNameResult = KbName\(arg\)
 
     There are standard character sets, but there are no standard key
     names.  The convention KbName follows is to name keys with  the primary
-    key label printed on the key.  For example, the the "\]\}"  key is named
-    "\]" because "\]" is the primary key label and "\}" is the  shifted key
+    key label printed on the key.  For example, the the "]}"  key is named
+    "]" because "]" is the primary key label and "}" is the  shifted key
     function.  In the case of  labels such as "5", which appears  on two
     keys, the name "5" designates the "5" key on the numeric keypad  and
     "5%" designates the QWERTY "5" key. Here, "5" specifies the primary
@@ -82,10 +82,10 @@ kbNameResult = KbName\(arg\)
 
     For example,
 
-    yesKey = KbName\('return'\);
-    \[a,b,keyCode\] = KbCheck;
-    if keyCode\(yesKey\)
-        flushevents\('keyDown'\);
+    yesKey = KbName('return');
+    [a,b,keyCode] = KbCheck;
+    if keyCode(yesKey)
+        flushevents('keyDown');
         ...
     end;
 
@@ -101,7 +101,7 @@ OS X \_ OS9 \_ Windows \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
   platforms and unique to each see the comments in the  body of KbName.m.
 
   KbName will try to use a mostly shared name mapping if you add the
-  command KbName\('UnifyKeyNames'\); at the top of your experiment script.
+  command KbName('UnifyKeyNames'); at the top of your experiment script.
   At least the names of special keys like cursor keys, function keys and
   such will be shared between the operating systems then.
 

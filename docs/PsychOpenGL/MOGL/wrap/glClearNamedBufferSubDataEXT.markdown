@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glClearNamedBufferSubDataEXT  Interface to OpenGL function glClearNamedBufferSubDataEXT
 
-usage:  glClearNamedBufferSubDataEXT\( buffer, internalformat, format, type, ptr, ptr, data \)
+usage:  glClearNamedBufferSubDataEXT( buffer, internalformat, format, type, ptr, ptr, data )
 
-C function:  void glClearNamedBufferSubDataEXT\(GLuint buffer, GLenum internalformat, GLenum format, GLenum type, GLsizei ptr, GLsizei ptr, const void\* data\)
+C function:  void glClearNamedBufferSubDataEXT(GLuint buffer, GLenum internalformat, GLenum format, GLenum type, GLsizei ptr, GLsizei ptr, const void\* data)
 
 
 <div class="code_header" style="text-align:right;">

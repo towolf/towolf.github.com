@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-PsychPortAudioDataPixxTimingTest\(\[waitTime = 1\]\[, exactstart=1\]\[, deviceid=-1\]\[, latbias=0\]\[, triggerLevel=0.01\]\)
+PsychPortAudioDataPixxTimingTest([waitTime = 1][, exactstart=1][, deviceid=-1][, latbias=0][, triggerLevel=0.01])
 
 Test script for sound onset timing reliability and sound onset latency of
 the PsychPortAudio sound driver.
@@ -27,15 +27,15 @@ parameter.
 
 # Optional parameters:
 
-'waitTime'   = Time to wait \(in seconds\) before playing sound. Defaults
+'waitTime'   = Time to wait (in seconds) before playing sound. Defaults
                to 1 second if omitted.
 
 'exactstart' = 0 -- Start immediately, measure absolute latency.
-             = 1 -- Test accuracy of scheduled sound onset. \(Default\)
+             \= 1 -- Test accuracy of scheduled sound onset. (Default)
 
-'deviceid'   = -1 -- Auto-select optimal device \(Default\).
+'deviceid'   = -1 -- Auto-select optimal device (Default).
             \>=0   -- Select specified output device. See
-                     PsychPortAudio\('GetDevices'\) for a list of devices.
+                     PsychPortAudio('GetDevices') for a list of devices.
 
 'latbias'    = Hardware inherent latency bias. To be determined by
                measurement - allows to PA to correct for it if provided.

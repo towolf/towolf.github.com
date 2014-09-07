@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-i = [Ranint](/docs/Ranint)\(\[dim\],n\)
+i = [Ranint](/docs/Ranint)([dim],n)
 
 Choose "dim" random integers in the range 1:n.
 

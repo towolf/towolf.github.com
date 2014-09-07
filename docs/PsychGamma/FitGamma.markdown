@@ -6,8 +6,8 @@ categories:
 encoding: UTF-8
 ---
 
-\[fit\_out,x,fitComment\] = ...
-  FitGamma\(values\_in,measurements,values\_out,\[fitType\]\)
+[fit\_out,x,fitComment] = ...
+  FitGamma(values\_in,measurements,values\_out,[fitType])
 
 Fit a gamma function.  This essentially a driver function.
 It has two main purposes.
@@ -17,14 +17,14 @@ underlying parametric forms for the fit and chooses the best
 for a particular data set.
 
 Second, it does the bookkeeping for fitting each column of
-input measurements.  \(Each of the underlying fit functions expects
-only vector input.\)
+input measurements.  (Each of the underlying fit functions expects
+only vector input.)
 
 To a large extent, the interface to the underlying fit functions
-\(e.g. FitGammaPow, FitGammaSig, ...\) is uniform.  However, this routine
+(e.g. FitGammaPow, FitGammaSig, ...) is uniform.  However, this routine
 does have to know a little bit about initial value dimension and choice.
 We have tried to localize this information in the initialization routines
-\(e.g. InitialXPow, InitialXSig, ...\) as much as possible, but some
+(e.g. InitialXPow, InitialXSig, ...) as much as possible, but some
 caution is advised.
 
 Optional argument fitType allows you to force the return of a particular
@@ -41,7 +41,7 @@ All fit types are in a form such that the fit is forced through the
 origin for 0 input.  This is because our convention is that gamma
 correction happens after subtraction of the ambient light.
 
-NOTE: FitGammaPow \(and perhaps other subroutines\) uses CONSTR, which is part of the
+NOTE: FitGammaPow (and perhaps other subroutines) uses CONSTR, which is part of the
 Mathworks Optimization Toolbox.
 
 Also see FitGammaDemo.

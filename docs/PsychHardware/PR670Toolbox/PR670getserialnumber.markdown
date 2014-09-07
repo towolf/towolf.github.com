@@ -17,7 +17,7 @@ to find out  which of the instruments in the lab was used for any
 particular measurement.
 
 Output:
-serialnumStr \(1xN char\) - The serial number as a char array.
+serialnumStr (1xN char) - The serial number as a char array.
 
 
 <div class="code_header" style="text-align:right;">

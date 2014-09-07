@@ -8,7 +8,7 @@ encoding: UTF-8
 
 Demonstrate how to do display devignetting aka per-pixel gain correction.
 
-Usage: VignettingCorrectionDemo\(\[docolor=0\]\[, precision=max\]\);
+Usage: VignettingCorrectionDemo([docolor=0][, precision=max]);
 
 'docolor' if set to non-zero will compute and apply per-color channel
 gains instead of the default luminance gain.
@@ -27,8 +27,8 @@ On modern graphics cards, Psychtoolbox allows to automatically apply a
 luminance- or color gainfield to all presented stimuli. Each pixel
 location can get individually gain corrected. This is useful to correct
 for spatial luminance or color inhomogenities of display devices, e.g.,
-video projectors \(due to lens vignetting effects\), or flat panels \(with
-their contrast and color view dependency\).
+video projectors (due to lens vignetting effects), or flat panels (with
+their contrast and color view dependency).
 
 You need recent graphics hardware for this to work and to work at a
 decent speed.

@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glMultMatrixf  Interface to OpenGL function glMultMatrixf
 
-usage:  glMultMatrixf\( m \)
+usage:  glMultMatrixf( m )
 
-C function:  void glMultMatrixf\(const GLfloat\* m\)
+C function:  void glMultMatrixf(const GLfloat\* m)
 
 
 <div class="code_header" style="text-align:right;">

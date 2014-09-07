@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glDeleteProgramPipelines  Interface to OpenGL function glDeleteProgramPipelines
 
-usage:  glDeleteProgramPipelines\( n, pipelines \)
+usage:  glDeleteProgramPipelines( n, pipelines )
 
-C function:  void glDeleteProgramPipelines\(GLsizei n, const GLuint\* pipelines\)
+C function:  void glDeleteProgramPipelines(GLsizei n, const GLuint\* pipelines)
 
 
 <div class="code_header" style="text-align:right;">

@@ -8,7 +8,7 @@ encoding: UTF-8
 
 glmSetFont  Set the font
 
-usage:  glmSetFont\( fname, fweight, fsize \)
+usage:  glmSetFont( fname, fweight, fsize )
 
 
 <div class="code_header" style="text-align:right;">

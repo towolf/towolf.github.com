@@ -10,7 +10,7 @@ encoding: UTF-8
 PsychGPUTestAndTweakGammaTables - Test and tweak GPU hardware gamma tables.
 
 This function is a helper function used for high-precision display
-devices like the Bits\# from CRS and DataPixx/ViewPixx/ProPixx from VPixx,
+devices like the Bits# from CRS and DataPixx/ViewPixx/ProPixx from VPixx,
 which need identity passthrough of framebuffer pixel data to the video outputs
 without any interference by the GPU and other intermediate encoder circuitry.
 
@@ -26,12 +26,12 @@ pixel passthrough after other hardware-independent measures have failed.
 The routine is, e.g., used by the 'GPUEncoderTest' / 'CheckGPUSanity'
 functions of the PsychDatapixx and BitsPlusPlus functions.
 
-Input parameters: \(Mandatory\)
+Input parameters: (Mandatory)
 'win' = Onscreen window handle for onscreen window which displays to the
         external high precision display device.
 
 'deviceType' = Type of device: 0 = VPixx Inc. Data-/View-/Pro-Pixx.
-                               1 = CRS Bits\#
+                               \1 = CRS Bits#
 
 'injectFault' = 1 = Intentionally setup a slightly faulty LUT to perturb
                 the signal and test the tweaking procedure. 0 = Don't.

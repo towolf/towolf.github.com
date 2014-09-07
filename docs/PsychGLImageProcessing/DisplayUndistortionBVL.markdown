@@ -6,12 +6,12 @@ categories:
 encoding: UTF-8
 ---
 
-\[scal\] = DisplayUndistortionBVL\(\[caliboutfilename\]\[, screenid\]\[, xnum=37\]\[, ynum=27\]\[, referenceImage=None\]\[, stereomode=0\]\)
-\[scal\] = DisplayUndistortionBVL\(\[caliboutfilename\]\[, calibinfilename\]\)
+[scal] = DisplayUndistortionBVL([caliboutfilename][, screenid][, xnum=37][, ynum=27][, referenceImage=None][, stereomode=0])
+[scal] = DisplayUndistortionBVL([caliboutfilename][, calibinfilename])
 
 Geometric display calibration procedure for undistortion of distorted
 displays. Needs graphics hardware with basic support for the PTB imaging
-pipeline \(see below\).
+pipeline (see below).
 
 This code was contributed by the members of the Banks Vision Lab at
 University of California, Berkeley. It is a subset of their internal
@@ -29,13 +29,13 @@ will show up undistorted on the display device.
 
 # For this to work, PTB needs two things:
 
-1. Recent graphics hardware with support for the PTB imaging pipeline:
+\1. Recent graphics hardware with support for the PTB imaging pipeline:
 See our Wiki for recommendations. However, all ATI cards starting with
 Radeon 9500 and all NVidia cards of type GeForce-FX5200 and later, as
 well as the Intel-GMA 950 and later should be able to do it, although
 more recent cards will have a higher performance.
 
-2. A calibration file that defines the warp transformation to apply. Your
+\2. A calibration file that defines the warp transformation to apply. Your
 experiment script will load that file into [Screen](/docs/Screen)'s "warp engine" at the
 beginning of your experiment.
 
@@ -44,21 +44,21 @@ interactive procedure: You can change and tweak the transformation until
 it fits your needs, ie. until it nicely undistorts your display. Then the
 corresponding calibration file is saved for later use with that display.
 
-DisplayUndistortionBVL defines a continous mapping \(x', y'\) = f\(x, y\)
-from uncorrected input pixel locations \(x,y\) in your stimulus image to
-output locations \(x', y'\) on your display. This mapping is defined by a
-3rd order, 2-dimensional polynomial that is fitted to the calibration data.
+DisplayUndistortionBVL defines a continous mapping (x', y') = f(x, y)
+from uncorrected input pixel locations (x,y) in your stimulus image to
+output locations (x', y') on your display. This mapping is defined by a
+\3rd order, 2-dimensional polynomial that is fitted to the calibration data.
 
 
 # How to use:
 
-1. Start the script, providing all parameters that you don't want to have
-at default settings \(all parameters have reasonable defaults\):
+\1. Start the script, providing all parameters that you don't want to have
+at default settings (all parameters have reasonable defaults):
 
 'caliboutfilename' Name of the file to which calibration results should
 be stored. If no name is provided, the file will be stored inside the
 'GeometryCalibration' subfolder of your psychtoolbox configuration
-directory \(path is PsychToolboxConfigDir\('GeometryCalibration'\). The
+directory (path is PsychToolboxConfigDir('GeometryCalibration'). The
 filename will contain the screenid and resolution of the display that was
 calibrated.
 
@@ -85,7 +85,7 @@ ynum = 27. 'xnum' and 'ynum' should be odd numbers. If you provide an
 even number it will be rounded up to the next odd number.
 
 'referenceImage' Optional name of an image file in a format supported by
-Matlab/Octaves imread\(\) command: If provided, the image will be loaded
+Matlab/Octaves imread() command: If provided, the image will be loaded
 from filesystem and drawn as a backdrop to the calibration grid. You can
 use this if you want to use this routine not to undistort a physical
 display, but want to undistort an existing image, e.g., create a proper
@@ -94,7 +94,7 @@ calibration file for the ImageUndistortionDemo routine.
 'stereomode' Optional stereo mode for display of calibration. Defaults to
 zero, i.e., monoscopic display.
 
-2. After startup, the script will display a grid of mostly evenly spaced
+\2. After startup, the script will display a grid of mostly evenly spaced
 points onscreen. The points will not be perfectly aligned to a grid due
 to the distortion caused by your display. Your job is to tweak and shift
 those points so that they line up to a rectilinear grid as good as
@@ -108,8 +108,8 @@ of your mechanical reference grid.
 
 # Mouse operation:
 
-In 'global mode' \(when you see the hair-cross in the center of the
-screen\), the mouse buttons do the following:
+In 'global mode' (when you see the hair-cross in the center of the
+screen), the mouse buttons do the following:
 
 'Left mouse' or 'l' key:   Switch to local mode.
 'Middle mouse' or 'm' key: Change stepsize for parameter adjustments.
@@ -129,9 +129,9 @@ can be changed:
                            draw a bounding rectangle around a region of
                            dots to select.
 
-'Middle mouse' or 'm' key: Change stepsize for translation of dot\(s\).
-'Right mouse' or 'r' key:  Unselect dot\(s\) if dot\(s\) is/are selected.
-                           Switch to 'global mode' if no dot\(s\) selected.
+'Middle mouse' or 'm' key: Change stepsize for translation of dot(s).
+'Right mouse' or 'r' key:  Unselect dot(s) if dot(s) is/are selected.
+                           Switch to 'global mode' if no dot(s) selected.
 
 
 
@@ -140,7 +140,7 @@ can be changed:
 'l' 'm' and 'r' buttons are synonyms for left- middle- and right mouse
 buttons. However, its much more convenient to use a three button mouse.
 
-Cursor arrow keys move selected dot\(s\) or change selected global
+Cursor arrow keys move selected dot(s) or change selected global
 parameters.
 
 'space' key toggles the display of the online help text.

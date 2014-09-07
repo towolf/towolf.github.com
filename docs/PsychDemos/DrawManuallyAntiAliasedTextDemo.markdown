@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-DrawManuallyAntiAliasedTextDemo\(\[textSize=96\]\) - Manually anti-alias text for special purpose applications.
+DrawManuallyAntiAliasedTextDemo([textSize=96]) - Manually anti-alias text for special purpose applications.
 
 This demo shows how to draw somewhat anti-aliased text efficiently if you
 can't use the operating systems built-in text anti-aliasing for some

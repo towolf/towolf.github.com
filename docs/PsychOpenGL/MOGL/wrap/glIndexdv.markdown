@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glIndexdv  Interface to OpenGL function glIndexdv
 
-usage:  glIndexdv\( c \)
+usage:  glIndexdv( c )
 
-C function:  void glIndexdv\(const GLdouble\* c\)
+C function:  void glIndexdv(const GLdouble\* c)
 
 
 <div class="code_header" style="text-align:right;">

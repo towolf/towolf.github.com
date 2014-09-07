@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-\[secs, keyCode, deltaSecs\] = KbPressWait\(\[deviceNumber\]\[, untilTime=inf\]\[, more optional args for KbWait\]\);
+[secs, keyCode, deltaSecs] = KbPressWait([deviceNumber][, untilTime=inf][, more optional args for KbWait]);
 
 KbPressWait waits for a single key press of your subject, ie. it waits
 until all keys on the keyboard are released, after that it waits for a
@@ -17,7 +17,7 @@ a key release.
 It also returns if the optional deadline 'untilTime' is reached.
 
 This is a convenience wrapper, doing the same thing as
-KbWait\(deviceNumber, 2, ...\); so read "help KbWait" for details about
+KbWait(deviceNumber, 2, ...); so read "help KbWait" for details about
 operation and returned values.
 
 You'll typically use this function to ask your subject for a response and

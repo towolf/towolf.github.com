@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-USAGE: \[result dummy\]=EyelinkInit\(\[dummy=0\]\[enableCallbacks=1\]\)
+USAGE: [result dummy]=EyelinkInit([dummy=0][enableCallbacks=1])
 
 # Initialize Eyelink system and connection. Optional arguments:
 

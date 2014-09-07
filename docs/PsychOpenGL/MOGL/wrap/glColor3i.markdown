@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glColor3i  Interface to OpenGL function glColor3i
 
-usage:  glColor3i\( red, green, blue \)
+usage:  glColor3i( red, green, blue )
 
-C function:  void glColor3i\(GLint red, GLint green, GLint blue\)
+C function:  void glColor3i(GLint red, GLint green, GLint blue)
 
 
 <div class="code_header" style="text-align:right;">

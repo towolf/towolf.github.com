@@ -8,9 +8,9 @@ encoding: UTF-8
 
 gluTessEndContour  Interface to OpenGL function gluTessEndContour
 
-usage:  gluTessEndContour\( tess \)
+usage:  gluTessEndContour( tess )
 
-C function:  void gluTessEndContour\(GLUtesselator\* tess\)
+C function:  void gluTessEndContour(GLUtesselator\* tess)
 
 
 <div class="code_header" style="text-align:right;">

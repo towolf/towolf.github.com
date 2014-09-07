@@ -23,17 +23,17 @@ is looking for it when it comes.
 
 This demo works fine the with Keyspan Digital Media Remote:
 http://www.keyspan.com/products/usb/remote/
-However, the Digital Media Remote is sluggish \(max alternating key rate of 2 Hz\),
+However, the Digital Media Remote is sluggish (max alternating key rate of 2 Hz),
 suggesting that it may not be well suited for measuring reaction time.
 
 Normally, characters typed creep through and appear in the command window or
 file being edited, depending on which has focus. You can prevent Matlab
-from receiving typed characters by calling ListenChar\(2\); at the
-beginning of you script and calling ListenChar\(0\); at the end of your
-script. Caution: Make sure to always call ListenChar\(0\) at normal exit and in all
+from receiving typed characters by calling ListenChar(2); at the
+beginning of you script and calling ListenChar(0); at the end of your
+script. Caution: Make sure to always call ListenChar(0) at normal exit and in all
 error handling routines, otherwise Matlab will be left with a dead
 keyboard and you'll be unable to type any commands into the Matlab
-window\! Pressing CTRL+C will reenable the keyboard in such a case.
+window! Pressing CTRL+C will reenable the keyboard in such a case.
 
 
 <div class="code_header" style="text-align:right;">

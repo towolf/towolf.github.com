@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-newPathList = RemoveMatchingPaths\(pathList, matchString\)
+newPathList = RemoveMatchingPaths(pathList, matchString)
 
 Removes any paths that contain the given matchString from the pathList.
 If no pathList is specified, then the program sets pathList to the result

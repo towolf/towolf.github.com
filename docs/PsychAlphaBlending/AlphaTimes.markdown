@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-matProduct=AlphaTimes\(mat1, alpha\)
+matProduct=AlphaTimes(mat1, alpha)
 
 Calculate the product of an image matrix and alpha as would [Screen](/docs/Screen) Alpha
 blending: Pointwise multiply and round.  Argument 'alpha' may

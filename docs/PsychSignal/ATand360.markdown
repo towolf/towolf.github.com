@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-ang = ATand360\(y,x\)
+ang = ATand360(y,x)
 returns angle from 0 to 360 based on x an y coords
 
 

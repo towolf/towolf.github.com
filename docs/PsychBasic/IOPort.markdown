@@ -7,7 +7,7 @@ encoding: UTF-8
 ---
 
 [IOPort](/docs/IOPort) is a MEX file for precise control of input/output hardware, e.g.,
-Serial ports \(or emulated serial ports like Serial-over-USB etc.\),
+Serial ports (or emulated serial ports like Serial-over-USB etc.),
 parallel ports, network ports, and special digital I/O boxes.
 
 # Goal
@@ -16,8 +16,8 @@ It provides a unified cross-platform interface to such devices and tries
 to bundle functionality in one MEX file that is common to all those
 devices, but implemented differently on each of them. An example would be
 sending of trigger signals: The step to send a trigger signal is always
-the same. Your code wants to send a trigger signal immediately \(with
-lowest possible delay\), at a scheduled point in time, or automatically in
+the same. Your code wants to send a trigger signal immediately (with
+lowest possible delay), at a scheduled point in time, or automatically in
 response to some event like stimulus onset. However, the mechanism to
 send triggers is different for different devices. [IOPort](/docs/IOPort) tries to provide
 a unified interface for such cases, so you need to code only once and
@@ -36,7 +36,7 @@ the driver.
 
 For explanation of any particular [IOPort](/docs/IOPort) function, just add a question
 mark "?". E.g. for 'OpenSerialPort', try either of these equivalent forms:
-    [IOPort](/docs/IOPort)\('OpenSerialPort?'\)
+    [IOPort](/docs/IOPort)('OpenSerialPort?')
     [IOPort](/docs/IOPort) OpenSerialPort?
 
 

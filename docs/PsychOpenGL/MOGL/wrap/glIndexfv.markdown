@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glIndexfv  Interface to OpenGL function glIndexfv
 
-usage:  glIndexfv\( c \)
+usage:  glIndexfv( c )
 
-C function:  void glIndexfv\(const GLfloat\* c\)
+C function:  void glIndexfv(const GLfloat\* c)
 
 
 <div class="code_header" style="text-align:right;">

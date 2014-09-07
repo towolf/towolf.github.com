@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-\[sensor,primaryE\] = SettingsToSensorAcc\(cal,settings\)
+[sensor,primaryE] = SettingsToSensorAcc(cal,settings)
 
 Convert from device setting coordinates to
 sensor color space coordinates.  Uses full

@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-radianceWattsPerM2Sr = RetIrradianceToRadiance\(irradianceWattsPerUm2,irradianceS,pupilAreaMm2,eyeLengthMm\)
+radianceWattsPerM2Sr = RetIrradianceToRadiance(irradianceWattsPerUm2,irradianceS,pupilAreaMm2,eyeLengthMm)
 
 Perform the geometric calculations necessary to convert a measurement of retinal
 irradiance to the source radiance that would produce it.
@@ -30,8 +30,8 @@ Note: This routine is now obsolete, as it mixes radiometric and unit conversions
 use RadianceAndPupilAreaEyeLengthToRetIrradiance and then take charge of your units in your
 calling code.
 
-2/28/13  dhb  Wrote it.
-3/6/13   dhb  Rewrite to use new conversion function.  Move to Obsolete directory.
+\2/28/13  dhb  Wrote it.
+\3/6/13   dhb  Rewrite to use new conversion function.  Move to Obsolete directory.
          dhb  Also improved variable naming.
 
 

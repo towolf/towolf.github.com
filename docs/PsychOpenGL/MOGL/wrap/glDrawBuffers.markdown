@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glDrawBuffers  Interface to OpenGL function glDrawBuffers
 
-usage:  glDrawBuffers\( n, bufs \)
+usage:  glDrawBuffers( n, bufs )
 
-C function:  void glDrawBuffers\(GLsizei n, const GLenum\* bufs\)
+C function:  void glDrawBuffers(GLsizei n, const GLenum\* bufs)
 
 
 <div class="code_header" style="text-align:right;">

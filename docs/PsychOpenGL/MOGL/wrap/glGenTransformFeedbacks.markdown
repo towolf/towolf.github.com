@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGenTransformFeedbacks  Interface to OpenGL function glGenTransformFeedbacks
 
-usage:  ids = glGenTransformFeedbacks\( n \)
+usage:  ids = glGenTransformFeedbacks( n )
 
-C function:  void glGenTransformFeedbacks\(GLsizei n, GLuint\* ids\)
+C function:  void glGenTransformFeedbacks(GLsizei n, GLuint\* ids)
 
 
 <div class="code_header" style="text-align:right;">

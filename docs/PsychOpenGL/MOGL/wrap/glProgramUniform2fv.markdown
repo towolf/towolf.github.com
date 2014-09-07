@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glProgramUniform2fv  Interface to OpenGL function glProgramUniform2fv
 
-usage:  glProgramUniform2fv\( program, location, count, value \)
+usage:  glProgramUniform2fv( program, location, count, value )
 
-C function:  void glProgramUniform2fv\(GLuint program, GLint location, GLsizei count, const GLfloat\* value\)
+C function:  void glProgramUniform2fv(GLuint program, GLint location, GLsizei count, const GLfloat\* value)
 
 
 <div class="code_header" style="text-align:right;">

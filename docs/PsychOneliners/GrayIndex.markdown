@@ -6,12 +6,12 @@ categories:
 encoding: UTF-8
 ---
 
-color=GrayIndex\(windowPtrOrScreenNumber,\[reflectance\]\)
+color=GrayIndex(windowPtrOrScreenNumber,[reflectance])
 Returns the CLUT index to produce the specified gray, on a scale of
-0 \(black\) to 1 \(white\) at the current screen depth, assuming a
+\0 (black) to 1 (white) at the current screen depth, assuming a
 standard color lookup table for that depth. E.g.
-     gray=GrayIndex\(w,0.3\);
-     [Screen](/docs/Screen)\(w,'FillRect',gray\);
+     gray=GrayIndex(w,0.3);
+     [Screen](/docs/Screen)(w,'FillRect',gray);
 
 See BlackIndex, WhiteIndex.
 

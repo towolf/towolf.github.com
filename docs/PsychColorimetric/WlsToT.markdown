@@ -6,12 +6,12 @@ categories:
 encoding: UTF-8
 ---
 
-T = WlsToT\(wls,\[sd\]\)
+T = WlsToT(wls,[sd])
 
 Produce the identity color matching matrix associated
 with the passed wavelength sampling.
 
-Arguments may be either \[start delta n\] description or
+Arguments may be either [start delta n] description or
 a list of wavelenghts.
 
 The second input sd is the standard deviation of a Gaussian
@@ -25,7 +25,7 @@ entries sum to 1.  This seems as if it is what we want to
 get answers consistent with what we get when we don't
 incorporate wavelength blurring.
 
-7/11/03  dhb  A few comments added.
+\7/11/03  dhb  A few comments added.
 
 
 <div class="code_header" style="text-align:right;">

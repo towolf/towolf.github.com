@@ -8,7 +8,7 @@ encoding: UTF-8
 
 Initialize eyelink defaults and control code structure
 
-USAGE: el=EyelinkInitDefaults\(\[window\]\)
+USAGE: el=EyelinkInitDefaults([window])
 
       window is optional windowPtr.
       If set, pixel coordinates are send to eyetracker

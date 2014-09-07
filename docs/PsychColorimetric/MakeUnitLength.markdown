@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-output = MakeUnitLength\(input\)
+output = MakeUnitLength(input)
 
 Make each column of the input have unit length.
 
-8/3/96  dhb  Added this comment.
+\8/3/96  dhb  Added this comment.
 
 
 <div class="code_header" style="text-align:right;">

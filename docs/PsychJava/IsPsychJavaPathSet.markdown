@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-isSet=IsPsychJavaPathSet\(newValue\)
+isSet=IsPsychJavaPathSet(newValue)
 
 Set and retain state indicating whether Psychtoolbox directories holding
 Java classes have been added to the MATLAB Java class path.

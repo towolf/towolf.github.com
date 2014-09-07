@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-HDRViewer\(\[imfilepattern\]\[, dummymode\]\[, scalefactor\]\) -- Load and show high
+HDRViewer([imfilepattern][, dummymode][, scalefactor]) -- Load and show high
 dynamic range images on the BrightSide Technologies High Dynamic Range
 display device.
 
@@ -35,7 +35,7 @@ zoomed. Releasing the mouse button will show the selected region zoomed
 up to fullscreen. A single mouse click will reset to the full image.
 
 Btw. you can find lot's of nice free HDR images by Googling on the
-internet\!
+internet!
 
 This is an extension of SimpleHDRDemo.m, see that file for basic usage of
 HDR displays with Psychtoolbox.

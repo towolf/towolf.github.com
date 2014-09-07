@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glVertexAttribFormat  Interface to OpenGL function glVertexAttribFormat
 
-usage:  glVertexAttribFormat\( attribindex, size, type, normalized, relativeoffset \)
+usage:  glVertexAttribFormat( attribindex, size, type, normalized, relativeoffset )
 
-C function:  void glVertexAttribFormat\(GLuint attribindex, GLint size, GLenum type, GLboolean normalized, GLuint relativeoffset\)
+C function:  void glVertexAttribFormat(GLuint attribindex, GLint size, GLenum type, GLboolean normalized, GLuint relativeoffset)
 
 
 <div class="code_header" style="text-align:right;">

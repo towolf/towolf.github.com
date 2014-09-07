@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-usage bitsGoggles\(left,right,window\)
+usage bitsGoggles(left,right,window)
 
 where 0 = goggle open
 and 1 = goggle closed

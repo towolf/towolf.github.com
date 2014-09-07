@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glFlushMappedBufferRange  Interface to OpenGL function glFlushMappedBufferRange
 
-usage:  glFlushMappedBufferRange\( target, ptr, ptr \)
+usage:  glFlushMappedBufferRange( target, ptr, ptr )
 
-C function:  void glFlushMappedBufferRange\(GLenum target, GLint ptr, GLsizei ptr\)
+C function:  void glFlushMappedBufferRange(GLenum target, GLint ptr, GLsizei ptr)
 
 
 <div class="code_header" style="text-align:right;">

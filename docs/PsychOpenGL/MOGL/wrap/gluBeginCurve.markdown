@@ -8,9 +8,9 @@ encoding: UTF-8
 
 gluBeginCurve  Interface to OpenGL function gluBeginCurve
 
-usage:  gluBeginCurve\( nurb \)
+usage:  gluBeginCurve( nurb )
 
-C function:  void gluBeginCurve\(GLUnurbs\* nurb\)
+C function:  void gluBeginCurve(GLUnurbs\* nurb)
 
 
 <div class="code_header" style="text-align:right;">

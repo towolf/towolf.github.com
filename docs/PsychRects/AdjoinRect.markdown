@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-rect=AdjoinRect\(rect,fixedRect,fixedSide\)
+rect=AdjoinRect(rect,fixedRect,fixedSide)
 
 Moves rect to be outside and alongside the specified edge of fixedRect.
 The legal values for fixedSide are: RectLeft, RectRight,

@@ -9,7 +9,7 @@ encoding: UTF-8
 AssertOpenGL
 
 Break and issue an eror message if the installed Psychtoolbox is not
-based on OpenGL or [Screen](/docs/Screen)\(\) is not working properly.
+based on OpenGL or [Screen](/docs/Screen)() is not working properly.
 To date there are four versions of the Psychtoolbox, each based on a
 different graphics library:
 
@@ -19,7 +19,7 @@ different graphics library:
  OSX: OpenGL for Psychtoolbox-3.
  Linux: OpenGL for Psychtoolbox-3.
 
- The Psychtoolboxes based on OpenGL are partially incompatible \(see below\)
+ The Psychtoolboxes based on OpenGL are partially incompatible (see below)
  with previous Psychtoolboxes.  A script which relies on the OpenGL
  Psychtoolbox should call AssertOpenGL so that it will issue the
  appropriate warning if a user tries to run it on a computer with a
@@ -28,9 +28,9 @@ different graphics library:
  OpenGL-based Psychtoolboxes are distinguised by the availability of these
  functions:
 
-  [Screen](/docs/Screen)\('[Flip](/docs/Flip)',...\);
-  [Screen](/docs/Screen)\('MakeTexture'\);
-  [Screen](/docs/Screen)\('DrawTexture'\);
+  [Screen](/docs/Screen)('[Flip](/docs/Flip)',...);
+  [Screen](/docs/Screen)('MakeTexture');
+  [Screen](/docs/Screen)('DrawTexture');
 
 
  If you know you're using Psychtoolbox-3, then the most likely cause for
@@ -38,9 +38,9 @@ different graphics library:
  Matlab/Octave + System setup, or in the Psychtoolbox installation.
 
  Typically either the [Screen](/docs/Screen) MEX file can't be found or accessed, due to
- some wrong Matlab/Octave path \(Proper [Screen](/docs/Screen) file not in path\), or due
- to some permission issue \(insufficient security access permissions -
- typically found on MS-Windows systems\), or the [Screen](/docs/Screen) MEX file can't be
+ some wrong Matlab/Octave path (Proper [Screen](/docs/Screen) file not in path), or due
+ to some permission issue (insufficient security access permissions -
+ typically found on MS-Windows systems), or the [Screen](/docs/Screen) MEX file can't be
  loaded and initialized due to some missing or wrong system library on
  your machine, e.g., the C runtime library is of an incompatible type.
  Simply type the command "[Screen](/docs/Screen)" at the prompt to see if this may be an

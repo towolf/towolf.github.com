@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGetString  Interface to glGetString
 
-usage:  r = glGetString\( name \)
+usage:  r = glGetString( name )
 
-C function:  const GLubyte \* glGetString \(GLenum name\)
+C function:  const GLubyte \* glGetString (GLenum name)
 
 
 <div class="code_header" style="text-align:right;">

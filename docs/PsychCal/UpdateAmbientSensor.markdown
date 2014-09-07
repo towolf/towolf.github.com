@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-cal = UpdateAmbientSensor\(cal,new\_ambient\_sensor,\[ADD\]\)
+cal = UpdateAmbientSensor(cal,new\_ambient\_sensor,[ADD])
 
 Update the ambient light used in the conversions.  The
 value for new\_ambient\_sensor should be passed in the
@@ -22,9 +22,9 @@ you typically don't want to keep adding multiple times.
 If instead you want to update in the measurement units,
 call UpdateAmbient instead.
 
-7/7/98    dhb          Wrote it.
-4/5/02    dhb, ly  Update for new interface.  Internal names not changed.
-5/2/02    dhb, kr  Add ADD flag.
+\7/7/98    dhb          Wrote it.
+\4/5/02    dhb, ly  Update for new interface.  Internal names not changed.
+\5/2/02    dhb, kr  Add ADD flag.
 
 
 <div class="code_header" style="text-align:right;">

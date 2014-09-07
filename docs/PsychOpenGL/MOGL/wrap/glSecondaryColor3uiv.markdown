@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glSecondaryColor3uiv  Interface to OpenGL function glSecondaryColor3uiv
 
-usage:  glSecondaryColor3uiv\( v \)
+usage:  glSecondaryColor3uiv( v )
 
-C function:  void glSecondaryColor3uiv\(const GLuint\* v\)
+C function:  void glSecondaryColor3uiv(const GLuint\* v)
 
 
 <div class="code_header" style="text-align:right;">

@@ -23,12 +23,12 @@ There seems to be a limit of 131 characters in the M-file comment lines
 that will be displayed as help text. I verified this using the following
 commands:
 
-\>\>x=help\('foo'\)
-\>\>size\(x\)
+\>\>x=help('foo')
+\>\>size(x)
 
 ans =
 
-    1    131
+    \1    131
 
 If this number is exceeded, the help text will ignore the rest of the
 M-file.  I will forward this to our development staff so that they may

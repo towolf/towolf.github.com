@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glDrawPixels  Interface to OpenGL function glDrawPixels
 
-usage:  glDrawPixels\( width, height, format, type, pixels \)
+usage:  glDrawPixels( width, height, format, type, pixels )
 
-C function:  void glDrawPixels\(GLsizei width, GLsizei height, GLenum format, GLenum type, const GLvoid\* pixels\)
+C function:  void glDrawPixels(GLsizei width, GLsizei height, GLenum format, GLenum type, const GLvoid\* pixels)
 
 
 <div class="code_header" style="text-align:right;">

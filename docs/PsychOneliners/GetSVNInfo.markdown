@@ -6,17 +6,17 @@ categories:
 encoding: UTF-8
 ---
 
- svnInfo = GetSVNInfo\(directoryOrFile\)
+ svnInfo = GetSVNInfo(directoryOrFile)
 
  Description:
  Retrieves the svn information on a specified directory or file.  This is
  essentially a wrapper around the shell command "svn info".
 
  Input:
- directoryOrFile \(string\) - Directory or file name of interest.
+ directoryOrFile (string) - Directory or file name of interest.
 
  Output:
- svnInfo \(struct\) - Structure containing the following information:
+ svnInfo (struct) - Structure containing the following information:
    Path
     URL
     RepositoryRoot

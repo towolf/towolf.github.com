@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-\[spd\] = GenerateBlackBody\(T,wls\_in\)
+[spd] = GenerateBlackBody(T,wls\_in)
 
 Generate spectral power distributions for black body radiators.
 Generated according to formula in W+S, pp. 11-12.

@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-q=QuestUpdate\(q,intensity,response\)
+q=QuestUpdate(q,intensity,response)
 
 Update the struct q to reflect the results of this trial. The historical
 records q.intensity and q.response are always updated, but q.pdf is only

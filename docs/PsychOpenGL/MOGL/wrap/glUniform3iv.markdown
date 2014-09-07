@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glUniform3iv  Interface to OpenGL function glUniform3iv
 
-usage:  glUniform3iv\( location, count, value \)
+usage:  glUniform3iv( location, count, value )
 
-C function:  void glUniform3iv\(GLint location, GLsizei count, const GLint\* value\)
+C function:  void glUniform3iv(GLint location, GLsizei count, const GLint\* value)
 
 
 <div class="code_header" style="text-align:right;">

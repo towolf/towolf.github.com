@@ -6,14 +6,14 @@ categories:
 encoding: UTF-8
 ---
 
-DisplayUndistortionBezier\(\[caliboutfilename\] \[, xnum=2\]\[, ynum=2\]\[, subdivision=100\]\[, imagename=default\]\[, screenid=max\]\[, stereomode=0\]\[, winrect=\[\]\]\[, calibinfilename\]\[, refimagename\]\)
+DisplayUndistortionBezier([caliboutfilename] [, xnum=2][, ynum=2][, subdivision=100][, imagename=default][, screenid=max][, stereomode=0][, winrect=[]][, calibinfilename][, refimagename])
 
 Geometric display calibration procedure for geometric undistortion of
 distorted displays. Needs graphics hardware with support for PTB imaging
 pipeline.
 
-IMPORTANT: While this routine is easy to use, it is also limited\! The
-Banks Vision Lab \(University of California, Berkeley\) has contributed a
+IMPORTANT: While this routine is easy to use, it is also limited! The
+Banks Vision Lab (University of California, Berkeley) has contributed a
 much more powerful and flexible calibration procedure.
 
 Read "help DisplayUndistortionBVL" for help and info on that one.
@@ -30,13 +30,13 @@ show up undistorted on the display device.
 
 # For this to work, PTB needs two things:
 
-1. Recent graphics hardware with support for the PTB imaging pipeline:
+\1. Recent graphics hardware with support for the PTB imaging pipeline:
 See our Wiki for recommendations. However, all ATI cards starting with
 Radeon 9500 and all NVidia cards of type GeForce-FX5200 and later, as
 well as the Intel-GMA 950 and later should be able to do it, although
 more recent cards will have a higher performance.
 
-2. A calibration file that defines the warp transformation to apply. Your
+\2. A calibration file that defines the warp transformation to apply. Your
 experiment script will load that file into [Screen](/docs/Screen)'s "warp engine" at the
 beginning of your experiment.
 
@@ -47,24 +47,24 @@ until it fits your needs, ie. it nicely undistorts your display. Then the
 corresponding calibration file is saved for later use with that display.
 
 As the name suggests, DisplayUndistortionBezier supports a continous
-mapping \(x', y'\) = Beziersurface\(x, y\) from input pixel locations \(x,y\)
-in your stimulus image to output locations \(x', y'\) on your display. This
-mapping is defined by a Bezier surface \(see Chapter 12 "Evaluators and
+mapping (x', y') = Beziersurface(x, y) from input pixel locations (x,y)
+in your stimulus image to output locations (x', y') on your display. This
+mapping is defined by a Bezier surface (see Chapter 12 "Evaluators and
 NURBS" or any other textbook about NURBS for a description of their
-mathematical properties\).
+mathematical properties).
 
 The shape of the Bezier surface is defined by the location of a couple of
 control points, which you can move around during the calibration
 procedure to modify the shape of the surface. You can select the number
-of control points to use: More control points \(=degrees of freedom\) allow
+of control points to use: More control points (=degrees of freedom) allow
 for more flexibility and finer control, but make the calibration procedure
 more tedious for you. Their number doesn't affect computation time when
 your experiment script is running.
 
 # How to use:
 
-1. Start the script, providing all parameters that you don't want to have
-at default settings \(all parameters have defaults\):
+\1. Start the script, providing all parameters that you don't want to have
+at default settings (all parameters have defaults):
 
 'caliboutfilename' Name of the file to which calibration results should
 be stored. Defaults to 'BezierCalibdata.mat' in your current working directory.
@@ -89,11 +89,11 @@ an alternative to the mesh grid. We default to our standard 'konintjes'
 image.
 
 'screenid' screen id of the target display for calibration.
-max\([Screen](/docs/Screen)\('Screens'\)\) by default.
+max([Screen](/docs/Screen)('Screens')) by default.
 
 'stereomode' Stereomode for which calibration should be applied: Defaults
-to 0 == Mono mode. \[6 1\] would mean: "Use stereomode 6 \(Anaglyph stereo\)
-and the right-eye view \(1\)".
+to 0 == Mono mode. [6 1] would mean: "Use stereomode 6 (Anaglyph stereo)
+and the right-eye view (1)".
 
 'winrect' Size of the calibration window: Defaults to full-screen.
 
@@ -101,7 +101,7 @@ and the right-eye view \(1\)".
 calibration are loaded from file 'calibinfilename' instead of starting
 from scratch. Useful for incremental calibration.
 
-2. After startup, the script will display a grid onscreen, which
+\2. After startup, the script will display a grid onscreen, which
 represents the displayed area after calibration. Your job is to tweak,
 shift and bend that grid so that it looks as flat and rectilinear as
 possible on your display from the viewpoint of your subject. The grid has

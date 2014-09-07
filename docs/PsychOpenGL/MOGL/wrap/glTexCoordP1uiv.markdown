@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glTexCoordP1uiv  Interface to OpenGL function glTexCoordP1uiv
 
-usage:  glTexCoordP1uiv\( type, coords \)
+usage:  glTexCoordP1uiv( type, coords )
 
-C function:  void glTexCoordP1uiv\(GLenum type, const GLuint\* coords\)
+C function:  void glTexCoordP1uiv(GLenum type, const GLuint\* coords)
 
 
 <div class="code_header" style="text-align:right;">

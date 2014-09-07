@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-string=QuoteString\(string\)
+string=QuoteString(string)
 
 Wraps a string in quotes, after doubling any embedded quotes.
 E.g. "Denis's disk" becomes "'Denis''s disk'"

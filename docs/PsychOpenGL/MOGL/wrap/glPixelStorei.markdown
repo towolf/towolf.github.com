@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glPixelStorei  Interface to OpenGL function glPixelStorei
 
-usage:  glPixelStorei\( pname, param \)
+usage:  glPixelStorei( pname, param )
 
-C function:  void glPixelStorei\(GLenum pname, GLint param\)
+C function:  void glPixelStorei(GLenum pname, GLint param)
 
 
 <div class="code_header" style="text-align:right;">

@@ -10,7 +10,7 @@ gluNewNurbsRenderer  Interface to OpenGL function gluNewNurbsRenderer
 
 usage:  r = gluNewNurbsRenderer
 
-C function:  GLUnurbs\* gluNewNurbsRenderer\(void\)
+C function:  GLUnurbs\* gluNewNurbsRenderer(void)
 
 
 <div class="code_header" style="text-align:right;">

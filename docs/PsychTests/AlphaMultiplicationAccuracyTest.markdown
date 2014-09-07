@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-\[maximumError, roundTypeStr, independentFlag\]=AlphaMultiplicationAccuracyTest\(\[screenNumber\]\)
+[maximumError, roundTypeStr, independentFlag]=AlphaMultiplicationAccuracyTest([screenNumber])
 
 Test the accuracy of alpha blending multiplication. OpenGL guarantees
 perfect accuracy of alpha multiplication for values 0 and 1 only.
@@ -18,10 +18,10 @@ double-precisions floating point multiplication.
 
 # Values of maximumError fall into three categories:
 
-0 <= maximumError < 0.5   : OpenGL rounds to nearest integer.  No
+\0 <= maximumError < 0.5   : OpenGL rounds to nearest integer.  No
                             accuracy loss for a single multiplication.
 
-0.5 <= maximumError < 1   : OpenGL truncates or rounds up. For a single
+\0.5 <= maximumError < 1   : OpenGL truncates or rounds up. For a single
                             multiplication, Accuracy is off  0.5 parts
                             in 255 more than would multiplying luminances
                             using floating-point values and rounding.

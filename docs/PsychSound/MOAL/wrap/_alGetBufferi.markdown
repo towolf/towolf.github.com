@@ -8,9 +8,9 @@ encoding: UTF-8
 
 alGetBufferi  Interface to OpenAL function alGetBufferi
 
-usage:  value = alGetBufferi\( bid, param \)
+usage:  value = alGetBufferi( bid, param )
 
-C function:  void alGetBufferi\(ALuint bid, ALenum param, ALint\* value\)
+C function:  void alGetBufferi(ALuint bid, ALenum param, ALint\* value)
 
 
 <div class="code_header" style="text-align:right;">

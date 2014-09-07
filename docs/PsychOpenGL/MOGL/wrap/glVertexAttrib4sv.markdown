@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glVertexAttrib4sv  Interface to OpenGL function glVertexAttrib4sv
 
-usage:  glVertexAttrib4sv\( index, v \)
+usage:  glVertexAttrib4sv( index, v )
 
-C function:  void glVertexAttrib4sv\(GLuint index, const GLshort\* v\)
+C function:  void glVertexAttrib4sv(GLuint index, const GLshort\* v)
 
 
 <div class="code_header" style="text-align:right;">

@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glEdgeFlagv  Interface to OpenGL function glEdgeFlagv
 
-usage:  glEdgeFlagv\( flag \)
+usage:  glEdgeFlagv( flag )
 
-C function:  void glEdgeFlagv\(const GLboolean\* flag\)
+C function:  void glEdgeFlagv(const GLboolean\* flag)
 
 
 <div class="code_header" style="text-align:right;">

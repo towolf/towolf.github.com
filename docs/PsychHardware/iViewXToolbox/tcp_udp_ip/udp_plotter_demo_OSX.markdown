@@ -12,10 +12,10 @@ Syntax:
 or
   UDP\_PLOTTER\_DEMO localport
 
-This script is a demo that listen for a UDP packet \(default port 3333\) and
+This script is a demo that listen for a UDP packet (default port 3333) and
 uses PLOT to dplay the sequence of doubles in the packet.
 
-\(C\) 2002 Peter Rydesaeter
+(C) 2002 Peter Rydesaeter
 
 
 <div class="code_header" style="text-align:right;">

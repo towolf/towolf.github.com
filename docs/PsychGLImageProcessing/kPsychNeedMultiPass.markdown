@@ -9,7 +9,7 @@ encoding: UTF-8
 rval = kPsychNeedMultiPass
 
 Return a flag that you can pass to the 'imagingmode' parameter of
-[Screen](/docs/Screen)\('OpenWindow'\) in order to request support for multi-pass
+[Screen](/docs/Screen)('OpenWindow') in order to request support for multi-pass
 processing with more than 2 passes in the builtin imaging pipeline.
 
 FIXME: More info...

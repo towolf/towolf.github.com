@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glIsShader  Interface to OpenGL function glIsShader
 
-usage:  r = glIsShader\( shader \)
+usage:  r = glIsShader( shader )
 
-C function:  GLboolean glIsShader\(GLuint shader\)
+C function:  GLboolean glIsShader(GLuint shader)
 
 
 <div class="code_header" style="text-align:right;">

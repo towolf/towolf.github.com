@@ -8,7 +8,7 @@ encoding: UTF-8
 
 glmSetSwapInterval  Set number of video frames between buffer flushes
 
-usage:  glmSetSwapInterval\( nframes \)
+usage:  glmSetSwapInterval( nframes )
 
 Note:  The AGL documentation indicates that 'nframes' will control the
 number of vertical refreshes between buffer flushes.  In practice, it seems

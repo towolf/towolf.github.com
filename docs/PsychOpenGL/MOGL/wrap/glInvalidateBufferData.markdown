@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glInvalidateBufferData  Interface to OpenGL function glInvalidateBufferData
 
-usage:  glInvalidateBufferData\( buffer \)
+usage:  glInvalidateBufferData( buffer )
 
-C function:  void glInvalidateBufferData\(GLuint buffer\)
+C function:  void glInvalidateBufferData(GLuint buffer)
 
 
 <div class="code_header" style="text-align:right;">

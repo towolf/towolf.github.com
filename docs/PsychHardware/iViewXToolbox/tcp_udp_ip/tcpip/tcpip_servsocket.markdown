@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-TCPIP\_SERVSOCKET\(port\) - Creates an listning socket.
+TCPIP\_SERVSOCKET(port) - Creates an listning socket.
 Returns a handler that can be used with TCPIP\_LISTEN
 To then get each clients connection to this socket.
 

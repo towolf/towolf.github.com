@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
- s = VignetCalibration\(\[filename\] \[, screenId\]\)
+ s = VignetCalibration([filename] [, screenId])
 
  Vignetted Luminance calibration procedure for undistortion of distorted
  display luminance.
@@ -21,10 +21,10 @@ encoding: UTF-8
  horizontal and vertical direction independently. It is also possible to
  adjust the minimal luminance.
 
- Once the calibration procedure is finished, the gain matrix \(and other
- possibly useful parameters and variables\) are saved to disk for use by a
- vignetting compensation program \(see 'VignettingCorrectionDemo' for an
- example of how to do this\).
+ Once the calibration procedure is finished, the gain matrix (and other
+ possibly useful parameters and variables) are saved to disk for use by a
+ vignetting compensation program (see 'VignettingCorrectionDemo' for an
+ example of how to do this).
 
 #  How to use:
 
@@ -32,7 +32,7 @@ encoding: UTF-8
 
  'filename' is the name of the file to which calibration results will be
  saved. If none is provided, a default name will be used. The default file
- will be stored in the directory returned by PsychtoolboxConfigDir\('ShadingCalibration'\).
+ will be stored in the directory returned by PsychtoolboxConfigDir('ShadingCalibration').
 
  'screenId' is the optional index of the screen that you want to
  calibrate. If only one screen is present, it is not necessary to include
@@ -51,10 +51,10 @@ encoding: UTF-8
  Space      -   change the parameter you wish to adjust
  '<' and '\>'    -   use these keys to change the increment size of the
                     parameter adjustments
- Arrow Keys -   adjust parameters \(depending on selected parameter\)
-                1. Luminance/Function type
-                2. Width/Steepness of function
-                3. Position of centre
+ Arrow Keys -   adjust parameters (depending on selected parameter)
+                \1. Luminance/Function type
+                \2. Width/Steepness of function
+                \3. Position of centre
 
 
 

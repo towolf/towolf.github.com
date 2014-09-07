@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glWindowPos2f  Interface to OpenGL function glWindowPos2f
 
-usage:  glWindowPos2f\( x, y \)
+usage:  glWindowPos2f( x, y )
 
-C function:  void glWindowPos2f\(GLfloat x, GLfloat y\)
+C function:  void glWindowPos2f(GLfloat x, GLfloat y)
 
 
 <div class="code_header" style="text-align:right;">

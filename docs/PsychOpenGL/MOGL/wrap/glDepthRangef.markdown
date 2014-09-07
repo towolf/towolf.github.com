@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glDepthRangef  Interface to OpenGL function glDepthRangef
 
-usage:  glDepthRangef\( n, f \)
+usage:  glDepthRangef( n, f )
 
-C function:  void glDepthRangef\(GLfloat n, GLfloat f\)
+C function:  void glDepthRangef(GLfloat n, GLfloat f)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-q = KbMapKey\(KeyNums,keyCode\)
+q = KbMapKey(KeyNums,keyCode)
 Checks if any of specified keys is depressed
 input: vector of key numbers, keystate boolean vector as returned by e.g.
        KbCheck.

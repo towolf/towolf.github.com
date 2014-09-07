@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-\[H1,H2\] = MunsellAngleToHue\(angle\)
+[H1,H2] = MunsellAngleToHue(angle)
 
 Invert MunsellHueToAngle.
 

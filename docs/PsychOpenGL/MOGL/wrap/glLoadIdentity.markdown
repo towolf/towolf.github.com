@@ -10,7 +10,7 @@ glLoadIdentity  Interface to OpenGL function glLoadIdentity
 
 usage:  glLoadIdentity
 
-C function:  void glLoadIdentity\(void\)
+C function:  void glLoadIdentity(void)
 
 
 <div class="code_header" style="text-align:right;">

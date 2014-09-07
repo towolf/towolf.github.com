@@ -15,7 +15,7 @@ list:
 For explanation of any particular PsychKinectCore function, just add a
 question mark "?". E.g. for 'Open', try either of these equivalent forms:
 
-    PsychKinectCore\('Open?'\)
+    PsychKinectCore('Open?')
     PsychKinectCore Open?
 
 For more info see "help PsychKinect". PsychKinect is the preferred way of

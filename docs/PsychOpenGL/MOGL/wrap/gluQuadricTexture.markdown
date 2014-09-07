@@ -8,9 +8,9 @@ encoding: UTF-8
 
 gluQuadricTexture  Interface to OpenGL function gluQuadricTexture
 
-usage:  gluQuadricTexture\( quad, texture \)
+usage:  gluQuadricTexture( quad, texture )
 
-C function:  void gluQuadricTexture\(GLUquadric\* quad, GLboolean texture\)
+C function:  void gluQuadricTexture(GLUquadric\* quad, GLboolean texture)
 
 
 <div class="code_header" style="text-align:right;">

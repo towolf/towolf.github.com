@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGetAttribLocation  Interface to OpenGL function glGetAttribLocation
 
-usage:  r = glGetAttribLocation\( program, name \)
+usage:  r = glGetAttribLocation( program, name )
 
-C function:  GLint glGetAttribLocation\(GLuint program, const GLchar\* name\)
+C function:  GLint glGetAttribLocation(GLuint program, const GLchar\* name)
 
 
 <div class="code_header" style="text-align:right;">

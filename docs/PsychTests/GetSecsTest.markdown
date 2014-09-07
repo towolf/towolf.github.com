@@ -6,13 +6,13 @@ categories:
 encoding: UTF-8
 ---
 
-GetSecsTest\(\[n=100000\]\)
+GetSecsTest([n=100000])
 
-This test is meant for Microsoft Windows only\!
+This test is meant for Microsoft Windows only!
 
 Performs a reliability test of your systems timing hardware. This script
 tries to find out if your systems clock works correctly, ie., if
-GetSecs\(\), WaitSecs\(\), [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\) and the PsychPortAudio functions
+GetSecs(), WaitSecs(), [Screen](/docs/Screen)('[Flip](/docs/Flip)') and the PsychPortAudio functions
 for timed stimulus onset and clock queries will work correctly.
 
 The optional parameter 'n' specifies how many samples to use for each
@@ -38,9 +38,9 @@ is that time is monotonically increasing on both clocks and that the
 ratio of elapsed time in both clocks is nearly the same: Dividing elapsed
 time as reported by the high-res timer by the elapsed time reported by
 the low-res timer should yield a ratio of very close to 1.0. The test
-also checks for regular low-res timer ticks, if pause\(\)'ing Matlabs
+also checks for regular low-res timer ticks, if pause()'ing Matlabs
 execution for multiple seconds affects the clocks in some worrying
-manner \(e.g., time slowing down\) or if quick switching between multiple
+manner (e.g., time slowing down) or if quick switching between multiple
 cpu cores of a multi-core machine causes time inconsistencies, e.g., time
 going backwards.
 
@@ -65,9 +65,9 @@ Starting with PTB releases as of 'beta' from 26th November 2007, PTB also
 performs a couple of runtime checks to spot more timer problems. These
 checks are performed all the time while your scripts are executing, so if
 you see some "CRITICAL-WARNING" messages about timer problems at the
-Matlab prompt while your scripts are executing, better take them serious\!
+Matlab prompt while your scripts are executing, better take them serious!
 
-For more \(up to date\) information about system configurations that might
+For more (up to date) information about system configurations that might
 suffer from clock problems, background information and troubleshooting
 tips, visit the Psychtoolbox Wiki's FAQ section, specifically:
 
@@ -75,7 +75,7 @@ http://psychtoolbox.org/wikka.php?wakka=FaqGetSecsTestFails
 
 Btw. Currently there are no known problems with timers and clocks on PC
 hardware running recent Linux distributions or on any Apple Macintosh
-computers running MacOS/X ;-\)  -- That's why first versions of this test
+computers running MacOS/X ;-)  -- That's why first versions of this test
 are only targeted at MS-Windows.
 
 

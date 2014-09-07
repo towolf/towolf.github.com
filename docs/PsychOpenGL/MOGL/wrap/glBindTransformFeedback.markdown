@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glBindTransformFeedback  Interface to OpenGL function glBindTransformFeedback
 
-usage:  glBindTransformFeedback\( target, id \)
+usage:  glBindTransformFeedback( target, id )
 
-C function:  void glBindTransformFeedback\(GLenum target, GLuint id\)
+C function:  void glBindTransformFeedback(GLenum target, GLuint id)
 
 
 <div class="code_header" style="text-align:right;">

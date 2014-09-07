@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-obj = AddNormalsToOBJ\(obj \[, flipDir=0\]\);
+obj = AddNormalsToOBJ(obj [, flipDir=0]);
 Adds surface normal vectors to the vertices of the given input 'obj' 3D
 object representation, returns the new 'obj' with added vertex normal
 vectors. If the input 'obj' already has normal vectors assigned, these
-are overwritten\!
+are overwritten!
 
 The optional parameter 'flipDir' defines if the direction of the computed
 normal vectors should be flipped by 180 degrees. Effectively, it selects

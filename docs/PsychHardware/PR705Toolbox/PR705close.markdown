@@ -14,7 +14,7 @@ PR705close
 Description:
 Exits PR-705 remote mode, then closes the serial port connection.
 
-11/29/12    zlb   Wrote it based on the PR670Toolbox.
+\11/29/12    zlb   Wrote it based on the PR670Toolbox.
 
 
 <div class="code_header" style="text-align:right;">

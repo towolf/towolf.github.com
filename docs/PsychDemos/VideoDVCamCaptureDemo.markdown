@@ -8,7 +8,7 @@ encoding: UTF-8
 
 Demonstrate simple use of built-in video capture engine with DV consumer cameras.
 
-VideoDVCamCaptureDemo\(\[fullscreen=0\]\[, fullsize=0\]\[, roi\]\[, depth\]\[,deviceId=0\]\[, moviename\]\)
+VideoDVCamCaptureDemo([fullscreen=0][, fullsize=0][, roi][, depth][,deviceId=0][, moviename])
 
 VideoDVCamCaptureDemo initializes the first attached and supported DV firewire
 consumer camera, then shows its video image in a Psychtoolbox window.
@@ -23,7 +23,7 @@ fullscreen window, as usual, otherwise a normal GUI window is used.
 resolution, ie. so it fills the maximum amount of display area, but
 preserving the original aspect ratio.
 
-'roi' Set to \[0 0 720 576\] for a PAL-DV camera and \[0 0 720 480\] for a NTSC-DV camera.
+'roi' Set to [0 0 720 576] for a PAL-DV camera and [0 0 720 480] for a NTSC-DV camera.
 Default is PAL if omitted.
 
 'deviceId' Device index of video capture device. Defaults to system default. You can

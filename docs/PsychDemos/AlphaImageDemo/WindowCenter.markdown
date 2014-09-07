@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-USAGE: \[x,y\] = WindowCenter\(window\)
+USAGE: [x,y] = WindowCenter(window)
 Returns a window's center point.
 
 

@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-function \[empty1,etc\]=DoNothing\(\[arg1\],\[etc\]\)
+function [empty1,etc]=DoNothing([arg1],[etc])
 
 DoNothing is a dummy MEX routine used to measure Matlab's overhead
 in calling MEX functions. Input arguments are ignored. DoNothing

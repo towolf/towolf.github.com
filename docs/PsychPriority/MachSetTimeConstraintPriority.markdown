@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-MachSetTimeConstraintPriority\(periodSecs,computationSecs, constraintSecs, preemptibleFlag\)
+MachSetTimeConstraintPriority(periodSecs,computationSecs, constraintSecs, preemptibleFlag)
 
 Assign the main MATLAB thread "time constraint" status, giving it super
 priority  over other threads on the system.  A thread given "time
@@ -47,16 +47,16 @@ For your script to abide  by CPU time usage limits set by arguments to
 MachSetTimeConstraintPriority it is necessary that it limit its own use
 of CPU time by calling blocking functions which surrender CPU time to
 other applications.    Use "BlockSecsMex" to surrender a specified period
-of time or use  Use [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\) to surrender time until the next video
+of time or use  Use [Screen](/docs/Screen)('[Flip](/docs/Flip)') to surrender time until the next video
 blanking interval. MATLAB when idle at the command line will
 automatically block.
 
 MachSetTimeConstraintPriority is primarily intended to be used with
-[Screen](/docs/Screen)\('CopyWindow'\) animations to avoid interruptions for periods long
+[Screen](/docs/Screen)('CopyWindow') animations to avoid interruptions for periods long
 enough to cause your animation script to miss an entire video frame.
 For animations:
       periodSecs- should be set to the video frame period as obtained
-      with 1/[Screen](/docs/Screen)\('FrameRate'\).
+      with 1/[Screen](/docs/Screen)('FrameRate').
 
       computationSecs- should exceed the maximum amount of time which
       your  script requires to render any single video frame.
@@ -85,11 +85,11 @@ Allen Ingling     awi     Allen.Ingling@nyu.edu
 Mario Kleiner     mk
 
 # HISTORY:
-8/13/03   awi     Wrote it.
-2/17/05   mk      bug-fix: constraintSecs argument was ignored.
-4/6/05    awi     Added Mario's bug fix to Psychtoolbox.org master.
-4/6/05    awi     Replaced "GetBusFrequencymex" calls with "MachTimebase"
-4/8/05    awi     Changed "MachTimebase" to "MachAbsoluteTimeClockFrequency"
+\8/13/03   awi     Wrote it.
+\2/17/05   mk      bug-fix: constraintSecs argument was ignored.
+\4/6/05    awi     Added Mario's bug fix to Psychtoolbox.org master.
+\4/6/05    awi     Replaced "GetBusFrequencymex" calls with "MachTimebase"
+\4/8/05    awi     Changed "MachTimebase" to "MachAbsoluteTimeClockFrequency"
 
 
 <div class="code_header" style="text-align:right;">

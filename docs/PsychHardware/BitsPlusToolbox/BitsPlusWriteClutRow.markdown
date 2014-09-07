@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-checkRow=BitsPlusWriteClutRow\(window,bitsPlusClutRow\)
+checkRow=BitsPlusWriteClutRow(window,bitsPlusClutRow)
 
 Write CLUT to first row of image.
 

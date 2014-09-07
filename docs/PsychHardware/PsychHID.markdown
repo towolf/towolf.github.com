@@ -7,14 +7,14 @@ encoding: UTF-8
 ---
 
 
-returnValues=PsychHID\(subcommand, arg1 \[,arg2\] ...\)
+returnValues=PsychHID(subcommand, arg1 [,arg2] ...)
 
 # OSX, Linux, Windows with GNU/Octave or Matlab version R2007a and later:
 
 PsychHID is a MEX file that communicates with any USB device that
-is HID-compliant. The Universal Serial Bus \(USB\) is quite popular, and
+is HID-compliant. The Universal Serial Bus (USB) is quite popular, and
 there are many USB devices that conform to the Human Interface Device
-\(HID\) class.  Typical HID devices are keyboards, mice and joysticks. That
+(HID) class.  Typical HID devices are keyboards, mice and joysticks. That
 is what the HID class was designed for, but manufacturers of more exotic
 input and output devices, including audio breakout boxes and data
 acquisition devices, have also opted to be HID-compliant.
@@ -22,10 +22,10 @@ acquisition devices, have also opted to be HID-compliant.
 In the OS9 and Win Psychtoolbox, most functions that accept user input
 were implemented as device-specific mex files. In the OSX Psychtoolbox
 they are M files that all call PsychHID, just one MEX for the many kinds
-of input device.  For example, in the OSX Psychtoolbox, Gamepad \(formerly
-named "Joystick"\) and KbCheck are M functions that call PsychHID.  For
-user programs, it is easier to call these special-purpose functions \(with
-self-documenting names\), which call PsychHID, than to call PsychHID
+of input device.  For example, in the OSX Psychtoolbox, Gamepad (formerly
+named "Joystick") and KbCheck are M functions that call PsychHID.  For
+user programs, it is easier to call these special-purpose functions (with
+self-documenting names), which call PsychHID, than to call PsychHID
 directly. PsychHID is more general, but also more complicated. However,
 if you acquire a novel input/output device that is HID-compliant, you can
 access it through PsychHID. PsychHID can distinguish between multiple
@@ -36,9 +36,9 @@ restarting MATLAB. We find that this reliably restores normal
 communication.
 
 MS-Windows and GNU/Linux: PsychHID uses the free/open-source libusb-1.0
-library \(http://libusb.org\) as a backend for low-level device control.
+library (http://libusb.org) as a backend for low-level device control.
 libusb is licensed under LGPLv2+ license. PsychHID also uses the BSD
-licensed HIDAPI library \(http://www.signal11.us/oss/hidapi/\) as backend
+licensed HIDAPI library (http://www.signal11.us/oss/hidapi/) as backend
 for USB-HID access.
 
 On Linux and Windows, not all PsychHID subfunctions are implemented, as
@@ -58,24 +58,24 @@ subcommands enter "PsychHID" at the MATLAB command line:
 
 \>\> PsychHID
 Usage:
-numberOfDevices=PsychHID\('NumDevices'\)
-numberOfElements=PsychHID\('NumElements',deviceNumber\)
-numberOfCollections=PsychHID\('NumCollections',deviceNumber\)
-devices=PsychHID\('Devices'\)
-elements=PsychHID\('Elements',deviceNumber\)
-collections=PsychHID\('Collections',deviceNumber\)
-elementState=PsychHID\('RawState',deviceNumber,elementNumber\)
-elementState=PsychHID\('CalibratedState',deviceNumber,elementNumber\)
-\[keyIsDown,secs,keyCode\]=PsychHID\('KbCheck',\[deviceNumber\]\)
-\[report,err\]=PsychHID\('GetReport',deviceNumber,reportType,reportID,reportBytes\)
-err=PsychHID\('SetReport',deviceNumber,reportType,reportID,report\)
+numberOfDevices=PsychHID('NumDevices')
+numberOfElements=PsychHID('NumElements',deviceNumber)
+numberOfCollections=PsychHID('NumCollections',deviceNumber)
+devices=PsychHID('Devices')
+elements=PsychHID('Elements',deviceNumber)
+collections=PsychHID('Collections',deviceNumber)
+elementState=PsychHID('RawState',deviceNumber,elementNumber)
+elementState=PsychHID('CalibratedState',deviceNumber,elementNumber)
+[keyIsDown,secs,keyCode]=PsychHID('KbCheck',[deviceNumber])
+[report,err]=PsychHID('GetReport',deviceNumber,reportType,reportID,reportBytes)
+err=PsychHID('SetReport',deviceNumber,reportType,reportID,report)
 
 For help on a specific PsychHID subcommand, call PsychHID with the
 subcommand suffixed with a question mark, for example:
 
   \>\> PsychHID NumDevices?
   Usage:
-  numberOfDevices=PsychHID\('NumDevices'\)
+  numberOfDevices=PsychHID('NumDevices')
   Return the the number of USB HID devices connected to your computer.
 
 TestPsychHID shows a list of all the HID-compliant devices.

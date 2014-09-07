@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-OMLBasicTest\(\[screenid=max\]\) - Test basic correctness of OpenML timestamping.
+OMLBasicTest([screenid=max]) - Test basic correctness of OpenML timestamping.
 
 Performs a sequence of 300 flips, acquires timestamps of
 [Flip](/docs/Flip) completion according to OML\_sync\_control timestamping,
@@ -17,7 +17,7 @@ and flip timestamps should be identical, the GetSecs timestamp
 only minimally later than the flip timestamp, depending on
 system scheduling noise and load.
 
-If the timestamps \(minus a few outliers\) disagree, then
+If the timestamps (minus a few outliers) disagree, then
 something is likely broken in OpenML flip timestamping.
 
 

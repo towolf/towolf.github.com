@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGetObjectPtrLabel  Interface to OpenGL function glGetObjectPtrLabel
 
-usage:  \[ length, label \] = glGetObjectPtrLabel\( ptr, bufSize \)
+usage:  [ length, label ] = glGetObjectPtrLabel( ptr, bufSize )
 
-C function:  void glGetObjectPtrLabel\(const void\* ptr, GLsizei bufSize, GLsizei\* length, GLchar\* label\)
+C function:  void glGetObjectPtrLabel(const void\* ptr, GLsizei bufSize, GLsizei\* length, GLchar\* label)
 
 
 <div class="code_header" style="text-align:right;">

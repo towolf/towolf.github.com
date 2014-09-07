@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-\[xinds yinds\] = CenterMatOnPoint\(mat,x,y\)
+[xinds yinds] = CenterMatOnPoint(mat,x,y)
 
 returns indices to center matrix on a point
 

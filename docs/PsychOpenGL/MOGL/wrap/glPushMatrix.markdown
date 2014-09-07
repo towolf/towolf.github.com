@@ -10,7 +10,7 @@ glPushMatrix  Interface to OpenGL function glPushMatrix
 
 usage:  glPushMatrix
 
-C function:  void glPushMatrix\(void\)
+C function:  void glPushMatrix(void)
 
 
 <div class="code_header" style="text-align:right;">

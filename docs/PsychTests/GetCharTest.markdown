@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-GetCharTest\(\[startAt\]\)
+GetCharTest([startAt])
 
 Test the Psychtoolbox function "GetChar".
 

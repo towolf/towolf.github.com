@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glDrawBuffer  Interface to OpenGL function glDrawBuffer
 
-usage:  glDrawBuffer\( mode \)
+usage:  glDrawBuffer( mode )
 
-C function:  void glDrawBuffer\(GLenum mode\)
+C function:  void glDrawBuffer(GLenum mode)
 
 
 <div class="code_header" style="text-align:right;">

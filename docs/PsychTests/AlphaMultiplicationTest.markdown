@@ -6,12 +6,12 @@ categories:
 encoding: UTF-8
 ---
 
-passedFlag=AlphaMultipicationTest\(\[screenNumber\]\)
+passedFlag=AlphaMultipicationTest([screenNumber])
 
 # TestAlphaMultiplication:
 
     Test for perfect alpha multiplication precision for alpha values 0 and
-    1. OpenGL guarantees precise alpha muliplicaion for only those alpha
+    \1. OpenGL guarantees precise alpha muliplicaion for only those alpha
     values. TestTestAlphaMultipicationAlphaTimes tests that guarantee.
 
     Test all alpha modes in all combinations.  This verifies that [Screen](/docs/Screen) sets

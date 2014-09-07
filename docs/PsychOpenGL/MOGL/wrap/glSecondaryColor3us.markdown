@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glSecondaryColor3us  Interface to OpenGL function glSecondaryColor3us
 
-usage:  glSecondaryColor3us\( red, green, blue \)
+usage:  glSecondaryColor3us( red, green, blue )
 
-C function:  void glSecondaryColor3us\(GLushort red, GLushort green, GLushort blue\)
+C function:  void glSecondaryColor3us(GLushort red, GLushort green, GLushort blue)
 
 
 <div class="code_header" style="text-align:right;">

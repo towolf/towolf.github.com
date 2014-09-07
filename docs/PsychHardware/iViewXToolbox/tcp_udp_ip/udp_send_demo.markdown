@@ -18,8 +18,8 @@ or
   UDP\_SEND\_DEMO function\_string hostname portnumber
 
 Default values:
-   function\_string  is by default sin\(0:0.1:6\) that will be evaluated and transmitted
-                    as a sequence of network byte ordered doubles \(or generated datatype\)
+   function\_string  is by default sin(0:0.1:6) that will be evaluated and transmitted
+                    as a sequence of network byte ordered doubles (or generated datatype)
 
    hostname         is by default localhost but can be any hostname if you whant to send
                     the packet to an other host.
@@ -33,7 +33,7 @@ that receives and plott the packets of numbers.
 
 # Example:
 
-udp\_send\_demo sin\(0:0.1:50\)./\(0:0.1:50\) plotterhost 33333
+udp\_send\_demo sin(0:0.1:50)./(0:0.1:50) plotterhost 33333
 
 
 

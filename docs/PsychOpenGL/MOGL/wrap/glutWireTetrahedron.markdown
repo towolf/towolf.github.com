@@ -10,7 +10,7 @@ glutWireTetrahedron  Interface to OpenGL function glutWireTetrahedron
 
 usage:  glutWireTetrahedron
 
-C function:  void glutWireTetrahedron\(void\)
+C function:  void glutWireTetrahedron(void)
 
 
 <div class="code_header" style="text-align:right;">

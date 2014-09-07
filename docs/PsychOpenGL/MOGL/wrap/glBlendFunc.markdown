@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glBlendFunc  Interface to OpenGL function glBlendFunc
 
-usage:  glBlendFunc\( sfactor, dfactor \)
+usage:  glBlendFunc( sfactor, dfactor )
 
-C function:  void glBlendFunc\(GLenum sfactor, GLenum dfactor\)
+C function:  void glBlendFunc(GLenum sfactor, GLenum dfactor)
 
 
 <div class="code_header" style="text-align:right;">

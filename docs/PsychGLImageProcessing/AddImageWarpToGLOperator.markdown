@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-\[warpmap warpmapgltexid\] = AddImageWarpToGLOperator\(gloperator \[, warprectangle\]\)
+[warpmap warpmapgltexid] = AddImageWarpToGLOperator(gloperator [, warprectangle])
 
-Add a generic image warp \(geometric distortion\) operation to a
+Add a generic image warp (geometric distortion) operation to a
 GLOperator.
 
 

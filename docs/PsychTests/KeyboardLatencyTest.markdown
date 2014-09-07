@@ -6,10 +6,10 @@ categories:
 encoding: UTF-8
 ---
 
-KeyboardLatencyTest\(\[triggerlevel=0.01\]\[,modality=0\]\[,submode\]\[,portString\]\)
+KeyboardLatencyTest([triggerlevel=0.01][,modality=0][,submode][,portString])
 
 Uses sound capture with high timing precision via
-PsychPortAudio\(\) for measuring latency, timing accuracy and variability
+PsychPortAudio() for measuring latency, timing accuracy and variability
 of various response input devices, e.g., keyboard, keypad, mouse, other
 HID devices like Joysticks etc., various response button boxes, and some
 exotic response devices.
@@ -24,14 +24,14 @@ and the difference is computed as device latency.
 Sound is captured from the default recording device, waiting
 until the amplitude exceeds some 'triggerlevel'.
 
-The 'modality' flag chooses between keyboard \(==0 - the default\), and
-mouse \(==1\). 'portString' allows to select which keyboard to test on some
-systems \(OS/X and Linux\). It also allows to select which mouse to test on
+The 'modality' flag chooses between keyboard (==0 - the default), and
+mouse (==1). 'portString' allows to select which keyboard to test on some
+systems (OS/X and Linux). It also allows to select which mouse to test on
 Linux, but not on other systems.
 
 A 'modality' of 2 queries the keyboard, a keypad, a mouse, or other HID
-devices by use of the KbTriggerWait\(\) function. 'submode' specifies the
-KbName\(\) keyCode of the key to test on a keyboard. By default the SPACE
+devices by use of the KbTriggerWait() function. 'submode' specifies the
+KbName() keyCode of the key to test on a keyboard. By default the SPACE
 key is used. For other devices you \*must\* specify a key or button number in
 'submode'. Specifiying numbers of non-existent keys or buttons will cause
 an infinite hang of Matlab or Octave, as there is no way to interrupt the
@@ -39,7 +39,7 @@ function or press a non-existent key or button. The optional 'portString'
 specifies the deviceIndex of the device to test. If omitted, the primary
 keyboard is tested.
 
-A 'modality' of 3 will test the PsychRTBox\(\) driver for the USTCRTBOX reaction
+A 'modality' of 3 will test the PsychRTBox() driver for the USTCRTBOX reaction
 time button box, if such a box is attached. A setting 4 will also test
 that box, but without opening a connection to it, ie., it is assumed that
 the box is already open from a previous call of this function with

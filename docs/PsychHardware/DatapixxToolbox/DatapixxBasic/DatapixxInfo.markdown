@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-DatapixxInfo\(\)
+DatapixxInfo()
 
 Print summary of all Datapixx systems.
 If the Datapixx is closed, it will be opened then closed by this function.

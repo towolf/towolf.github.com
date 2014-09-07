@@ -20,8 +20,8 @@ Stop the demo any time by pressing any key.
 The implementation is nearly identical as SpinningCubeDemo, so make sure
 you understand that file first.
 
-This demo uses the [Screen](/docs/Screen)\('GetOpenGLTexture'\) function to make a
-Psychtoolbox texture  \(loaded from the movie\) available to
+This demo uses the [Screen](/docs/Screen)('GetOpenGLTexture') function to make a
+Psychtoolbox texture  (loaded from the movie) available to
 OpenGL for 3D texture mapping.
 
 It opens a movie file and then - in a loop - fetches video images frame

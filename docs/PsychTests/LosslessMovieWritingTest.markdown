@@ -8,7 +8,7 @@ encoding: UTF-8
 
 LosslessMovieWritingTest - Test lossless encoding and decoding of video in movie files.
 
-LosslessMovieWritingTest\(\[codec=huffyuv\]\[, nrchannels=3\]\[, bpc=8\]\)
+LosslessMovieWritingTest([codec=huffyuv][, nrchannels=3][, bpc=8])
 
 This test is meant to exercise [Screen](/docs/Screen)'s movie writing function with
 different [GStreamer](/docs/GStreamer) video codecs and to test if specific codecs are
@@ -36,17 +36,17 @@ really encode the alpha channel and discard it instead, so nrchannels=4
 does not actually verify integrity of the alpha channel.
 
 'bpc' Bitdepth for color encoding: 8 is the default, which should work.
-16 is the other allowed option for 16 bpc testing. Most codecs can't
+\16 is the other allowed option for 16 bpc testing. Most codecs can't
 encode 16 bpc though and will reduce precision to <= 8 bpc. Check the
 code of this script to see how a Psychtoolbox proprietary 16 bpc encoding
 can be used to handle lossless 16 bpc, and how this can be decoded. Only
 Psychtoolbox can handle movies in this proprietary encoding, no other 3rd
-party tools\! Other constraints for 16 bpc mode: 1 layer grayscale images
+party tools! Other constraints for 16 bpc mode: 1 layer grayscale images
 must have a height for which height \* 2/3 is an integral value. 3 layer
 RGB images must not be wider than 2048 pixels for use with most codecs.
 
 This test script will write the - potentially huge - temporary test file
-into the current working directory and leave it there after the test\!
+into the current working directory and leave it there after the test!
 
 Requires a GPU which can handle at least 4096 x 4096 pixel textures,
 otherwise test failure will occur. The GPU must also support floating

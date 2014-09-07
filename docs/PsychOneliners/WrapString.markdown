@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-wrappedString=WrapString\(string,\[maxLineLength\]\)
+wrappedString=WrapString(string,[maxLineLength])
 
 Wraps text by changing spaces into linebreaks '\\n', making each line as
-long as possible without exceeding maxLineLength \(default 74
-characters\). WrapString does not break words, even if you have a word
+long as possible without exceeding maxLineLength (default 74
+characters). WrapString does not break words, even if you have a word
 that exceeds maxLineLength. The returned "wrappedString" is identical to
 the supplied "string" except for the conversion of some spaces into
 linebreaks. Besides making the text look pretty, wrapping the text will

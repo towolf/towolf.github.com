@@ -9,25 +9,25 @@ encoding: UTF-8
 CMUBox - Access CMU response button box or PST serial response button box as well as fORP and Bitwhacker devices.
 
 
-This allows to query button response boxes of type CMU \(Carnegie Mellon
-University box\) and PST \(E-Prime response box\). It also allows to use a
+This allows to query button response boxes of type CMU (Carnegie Mellon
+University box) and PST (E-Prime response box). It also allows to use a
 UBW32/Bitwhacker device to be used as a response box if the device is
 loaded with the StickOS firmware from http://cpustick.com. It also allows
 to use the Curdes fORP devices if connected via serial port. And it offers
 a simple way to access the RTBox in E-Prime mode.
 
 Commands and their syntax:
---------------------------
+\--------------------------
 
-handle = CMUBox\('Open', boxtype \[, portName\] \[, options\] \[, debounceSecs=0.030\] \[, isInverted\]\);
-- Open response box connected to serial port 'portName', or the first
+handle = CMUBox('Open', boxtype [, portName] [, options] [, debounceSecs=0.030] [, isInverted]);
+\- Open response box connected to serial port 'portName', or the first
 serial port found, if 'portName' is omitted. Initialize it, return a
 'handle' to it. You'll have to pass 'handle' to all following functions
 to access the box.
 
 If your system has multiple devices connected to multiple serial ports
 then you should explicitely specify the 'portName', otherwise the driver
-may connect to the wrong port and choke\!
+may connect to the wrong port and choke!
 
 The optional string parameter 'options' allows to tweak the behaviour of
 the driver for certain configurations. It supports the following options:
@@ -48,12 +48,12 @@ presses. The default setting is 30 msecs if this option is omitted.
 
 
 The optional parameter vector 'isInverted' defines whether a TTL input
-signal level of logic low \(0\) corresponds to a button press or a button
+signal level of logic low (0) corresponds to a button press or a button
 release. By default, a level of logic low is detected as button press.The
 vector has nine elements, one for each corresponding input line. If an
 element is 1, then a logic level of low is registered as a button press.
 A value of 0 means that a logic level of high is registered as a button
-press. E.g., isInverted = \[ 0 0 0 0 1 1 1 1 1 \] would register a logic
+press. E.g., isInverted = [ 0 0 0 0 1 1 1 1 1 ] would register a logic
 level of low as a button press on the first four inputs, whereas a level
 of high is required to detect a button press on the last five inputs.
 
@@ -74,7 +74,7 @@ the box is configured for something else than 19200 Baud, we will fail or
 hang. If 1600 samples/sec are configured instead of 800 sampes/sec, we
 won't care, but timing might be less accurate due to the too high USB load,
 unless we're running on a real serial port which shouldn't have a
-problem with 1600 samples/sec. Serial-over-USB however will likely choke\!
+problem with 1600 samples/sec. Serial-over-USB however will likely choke!
 Verify that the DIP switches or jumpers inside the box are properly set
 up.
 
@@ -96,7 +96,7 @@ ie., it will also report and timestamp button releases. The mapping of
 the returned status value to corresponding button / trigger states is
 dependent on the selected mode. Modes 0, 4 and 6 report ASCII codes that
 identify the pressed button, whereas mode 2 returns a status byte where
-each bit encodes the current \(updated\) status of a single button, similar
+each bit encodes the current (updated) status of a single button, similar
 to the PST and CMU response boxes. For the specifics, see the fORP manual
 at http://www.curdes.com/ForpUserGuide.html
 
@@ -107,17 +107,17 @@ the new status of one button or other input.
 'lumina' - Connect to a Cedrus Lumina response box.
 
 
-CMUBox\('[Close](/docs/Close)', handle\);
-- [Close](/docs/Close) connection to response box 'handle'. The 'handle' is invalid
+CMUBox('[Close](/docs/Close)', handle);
+\- [Close](/docs/Close) connection to response box 'handle'. The 'handle' is invalid
 thereafter.
 
 
-evt = CMUBox\('GetEvent', handle \[, waitForEvent=0\]\);
-- Retrieve next queued event received from the box in the struct 'evt'.
+evt = CMUBox('GetEvent', handle [, waitForEvent=0]);
+\- Retrieve next queued event received from the box in the struct 'evt'.
 If no new events are available and the optional 'waitForEvent' is set to
-1, then the function will wait until at least one valid event becomes
+\1, then the function will wait until at least one valid event becomes
 available and return that event. Otherwise it will return an empty struct,
-ie., evt = \[\] to signal that no new events are available.
+ie., evt = [] to signal that no new events are available.
 
 # The following subfields are available in 'evt' if 'evt' is non-empty:
 
@@ -134,7 +134,7 @@ Values 8 and 9 correspond to a button press of onboard buttons "USER" or
 The fORP device will encode evt.state differently depending on selected
 mode, either like a Bitwhacker device or like a CMU/PST response box.
 
-evt.time  = Psychtoolbox GetSecs\(\) timestamp of the time when the event
+evt.time  = Psychtoolbox GetSecs() timestamp of the time when the event
 was received from the box. The accuracy depends on the properties of your
 serial port device and system load. For a native serial port and a
 normally loaded system, you can expect about 1-2 msec delay. For a
@@ -143,13 +143,13 @@ settings but can be 2-3 msecs at best.
 
 evt.trouble = If zero, then evt is probably valid and good. If non-zero,
 then the timestamp is likely screwed and useless, as are probably all
-following timestamps, at least for CMU/PST boxes and fORP's in mode 1\!
+following timestamps, at least for CMU/PST boxes and fORP's in mode 1!
 For the Bitwhacker or fORP's in modes 0,2,4 or 6, only the current 'evt'
 will be invalid, but later events will recover and thereby be unaffected.
 
 
-status = CMUBox\('Status', handle\);
-- Retrieve internal status of response box 'handle' as a struct.
+status = CMUBox('Status', handle);
+\- Retrieve internal status of response box 'handle' as a struct.
 
 
 

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-betaEstimate=QuestBetaAnalysis\(q,\[fid\]\);
+betaEstimate=QuestBetaAnalysis(q,[fid]);
 
-Analyzes the quest function with beta as a free parameter. It prints \(in
-the file or files pointed to by fid\) the mean estimates of alpha \(as
-logC\) and beta. Gamma is left at whatever value the user fixed it at.
+Analyzes the quest function with beta as a free parameter. It prints (in
+the file or files pointed to by fid) the mean estimates of alpha (as
+logC) and beta. Gamma is left at whatever value the user fixed it at.
 
 Note that normalization of the pdf, by QuestRecompute, is disabled because it
 would need to be done across the whole q vector. Without normalization,

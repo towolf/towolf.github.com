@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glBlendEquationSeparateiARB  Interface to OpenGL function glBlendEquationSeparateiARB
 
-usage:  glBlendEquationSeparateiARB\( buf, modeRGB, modeAlpha \)
+usage:  glBlendEquationSeparateiARB( buf, modeRGB, modeAlpha )
 
-C function:  void glBlendEquationSeparateiARB\(GLuint buf, GLenum modeRGB, GLenum modeAlpha\)
+C function:  void glBlendEquationSeparateiARB(GLuint buf, GLenum modeRGB, GLenum modeAlpha)
 
 
 <div class="code_header" style="text-align:right;">

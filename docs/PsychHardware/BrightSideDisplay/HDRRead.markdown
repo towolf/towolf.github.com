@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-img = HDRRead\(imgfilename\[, continueOnError=0\]\[, flipit=0\]\)
+img = HDRRead(imgfilename[, continueOnError=0][, flipit=0])
 Read a high dynamic range image file and return it as Matlab double
-matrix, suitable for use with [Screen](/docs/Screen)\('MakeTexture'\) and friends.
+matrix, suitable for use with [Screen](/docs/Screen)('MakeTexture') and friends.
 
 'imgfilename' - Filename of the HDR image file to load.
 Returns 'img' - A double precision matrix of size h x w x c where h is

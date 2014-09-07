@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGenBuffers  Interface to OpenGL function glGenBuffers
 
-usage:  buffers = glGenBuffers\( n \)
+usage:  buffers = glGenBuffers( n )
 
-C function:  void glGenBuffers\(GLsizei n, GLuint\* buffers\)
+C function:  void glGenBuffers(GLsizei n, GLuint\* buffers)
 
 
 <div class="code_header" style="text-align:right;">

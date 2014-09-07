@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-nrslots = CountSlotsInGLOperator\(gloperator\)
+nrslots = CountSlotsInGLOperator(gloperator)
 
-Returns number of processing slots \(== individual processing operations\)
+Returns number of processing slots (== individual processing operations)
 in the given GL image processing operator 'gloperator'.
 
 

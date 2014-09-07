@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-\[primary\] = SettingsToPrimary\(cal,settings\)
+[primary] = SettingsToPrimary(cal,settings)
 
 Convert from device settings coordinates to
 primary coordinates by inverting

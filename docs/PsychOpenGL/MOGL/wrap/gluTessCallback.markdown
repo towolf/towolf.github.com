@@ -8,9 +8,9 @@ encoding: UTF-8
 
 gluTessCallback  Interface to OpenGL function gluTessCallback
 
-usage:  gluTessCallback\( tess, which, callback \)
+usage:  gluTessCallback( tess, which, callback )
 
-C function:  void gluTessCallback\(GLUtesselator\* tess, GLenum which, GLvoid\* callback\)
+C function:  void gluTessCallback(GLUtesselator\* tess, GLenum which, GLvoid\* callback)
 
 
 <div class="code_header" style="text-align:right;">

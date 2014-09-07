@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-priorityStruct = MachGetPriorityMex\(policyFlavorString, defaultFlag\)
+priorityStruct = MachGetPriorityMex(policyFlavorString, defaultFlag)
 
 # OSX
 
@@ -28,11 +28,11 @@ of the  three priority flavors: 'THREAD\_STANDARD\_POLICY',
 
   priorityStruct.policySize
       The amount of memory allocated for the policy struct passed to the
-      Mach function thread\_policy\_get\(\) by MachGetPriorityMex.
+      Mach function thread\_policy\_get() by MachGetPriorityMex.
 
   priorityStruct.policyFillSize
       amount of memory filled into the  policy struct by
-      Mach function thread\_policy\_get\(\).
+      Mach function thread\_policy\_get().
 
   priorityStruct.getDefault
       value of the defaultFlag argument passed into MachGetPriorityMex.
@@ -41,7 +41,7 @@ of the  three priority flavors: 'THREAD\_STANDARD\_POLICY',
       If the flag value passed to MachGetPriorityMex is 0, requesting
       current parameter values and not default parameter values and yet
       MachGetPriorityMex returns default parameters and defaultFlag value
-      1, then the priority flavor which was specified in the first
+      \1, then the priority flavor which was specified in the first
       argument to priorityFlavorString is not in effect.
 
 The form of the embedded struct "policy" depends on the value of
@@ -70,8 +70,8 @@ scheduler while a thread is in  THREAD\_TIME\_CONSTRAINT\_POLICY mode.  A
 thread is governed by the "importance" parameter only when in
 THREAD\_STANDARD\_POLICY mode.
 
-MachGetPriorityMex uses the OS X Darwin function thread\_policy\_get\(\).
-For more information on thread\_policy\_get\(\) see:
+MachGetPriorityMex uses the OS X Darwin function thread\_policy\_get().
+For more information on thread\_policy\_get() see:
 Psychtoolbox3/Source/Common/MachPriorityMex/MachGetPriorityMex.c
 http://developer.apple.com/documentation/Darwin/Conceptual/KernelProgramming/scheduler/chapter\_8\_section\_4.html
 /usr/include/mach/thread\_policy.h

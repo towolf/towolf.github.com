@@ -8,8 +8,8 @@ encoding: UTF-8
 
 PsychtoolboxKernelDriver - A low level support driver for Apple OS-X
 
-The PsychtoolboxKernelDriver \(PKD\) is a MacOS-X kernel extension \(a
-kext\). It currently should fully work with AMD/ATI Radeon graphics cards
+The PsychtoolboxKernelDriver (PKD) is a MacOS-X kernel extension (a
+kext). It currently should fully work with AMD/ATI Radeon graphics cards
 of the X1000, and HD2000 to HD8000 series and later. On NVidia and Intel
 cards, only beamposition queries for high precision timestamping are
 supported.
@@ -19,7 +19,7 @@ privileges and provides a few special services to PTB-3, ie., PTB's
 functionality is extended/enhanced if it detects such a driver at startup
 time:
 
-\* Beamposition queries \(See help BeampositionQueries\) allow for
+\* Beamposition queries (See help BeampositionQueries) allow for
 especially robust and accurate stimulus onset timestamping. They are
 no longer supported by OS-X 10.9 and later and were not supported at all
 on Intel based Macintosh computers with AMD/ATI or Intel graphics.
@@ -42,7 +42,7 @@ graphics cards of X1000 series and later.
 \* The driver implements workarounds to fix some problems caused by
 graphics driver and operating system bugs when the graphics card is used
 with high color/luminance precision display devices like the CRS Bits+ or
-Bits\# boxes, or the VPixx Inc. DataPixx and ViewPixx devices, and similar
+Bits# boxes, or the VPixx Inc. DataPixx and ViewPixx devices, and similar
 equipment. This is only supported on AMD/ATI graphics hardware.
 
 The driver only works with one single graphics card at a time. On a
@@ -51,9 +51,9 @@ system with an integrated intel gpu and a discrete NVidia or AMD gpu, it
 will automatically switch to use the proper gpu. On a multi-gpu system
 with multiple discrete gpu's, e.g., MacPro with multiple graphics cards
 installed, it will use the default gpu zero by default. You can ask it use a
-different gpu by calling the command PsychTweak\('UseGPUIndex', gpuidx\);
+different gpu by calling the command PsychTweak('UseGPUIndex', gpuidx);
 to select gpu 'gpuidx' - numbering starts at zero. Then call clear
-[Screen](/docs/Screen), so [Screen](/docs/Screen)\(\) actually picks up the new setting. Simultaneous use
+[Screen](/docs/Screen), so [Screen](/docs/Screen)() actually picks up the new setting. Simultaneous use
 of multiple gpu's is not supported at this time.
 
 As this driver accesses the hardware at a very low level, bypassing the
@@ -63,8 +63,8 @@ far didn't show any such problems, it may happen on your system. That is
 why this driver is an \*experimental\* feature and why you need to have
 administrator privileges to install and load the driver the first time.
 
-How to install \(one time setup\):
---------------------------------
+How to install (one time setup):
+\--------------------------------
 
 OSX versions older than 10.8 "Mountain Lion" and 32-Bit operating system
 kernels are no longer supported.
@@ -87,13 +87,13 @@ sudo unzip /Users/kleinerm/Psychtoolbox/PsychHardware/PsychtoolboxKernelDriver64
 On modern OSX systems, this will automatically load the driver after a
 few seconds, and also after each system restart. On older systems you
 have to load the driver manually - on new systems you could do this for
-debugging purposes: How to enable \(each time after restarting your system\):
+debugging purposes: How to enable (each time after restarting your system):
 
 In a terminal type:
 sudo kextload /System/Library/Extensions/PsychtoolboxKernelDriver.kext
 
 How to upgrade with a more recent version:
-------------------------------------------
+\------------------------------------------
 
 # You can unload and delete the driver before a driver upgrade via:
 
@@ -102,8 +102,8 @@ sudo rm -R /System/Library/Extensions/PsychtoolboxKernelDriver.kext
 
 Then you can follow the instructions for installation above.
 
-If everything went well, Psychtoolbox will report availability \(and its
-use\) of the driver the first time the [Screen](/docs/Screen)\(\) mex file gets loaded and
+If everything went well, Psychtoolbox will report availability (and its
+use) of the driver the first time the [Screen](/docs/Screen)() mex file gets loaded and
 used. If it doesn't happen immediately, type "clear [Screen](/docs/Screen)" to force a
 reload of [Screen](/docs/Screen).
 

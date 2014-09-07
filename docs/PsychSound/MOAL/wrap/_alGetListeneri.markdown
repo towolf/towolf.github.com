@@ -8,9 +8,9 @@ encoding: UTF-8
 
 alGetListeneri  Interface to OpenAL function alGetListeneri
 
-usage:  value = alGetListeneri\( param \)
+usage:  value = alGetListeneri( param )
 
-C function:  void alGetListeneri\(ALenum param, ALint\* value\)
+C function:  void alGetListeneri(ALenum param, ALint\* value)
 
 
 <div class="code_header" style="text-align:right;">

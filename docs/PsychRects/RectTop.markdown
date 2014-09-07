@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-yTop = rect\(RectTop\)
+yTop = rect(RectTop)
 
 RectTop returns the rect index of yTop.
 Also see PsychRects.

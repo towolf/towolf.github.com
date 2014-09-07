@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGetUniformdv  Interface to OpenGL function glGetUniformdv
 
-usage:  params = glGetUniformdv\( program, location \)
+usage:  params = glGetUniformdv( program, location )
 
-C function:  void glGetUniformdv\(GLuint program, GLint location, GLdouble\* params\)
+C function:  void glGetUniformdv(GLuint program, GLint location, GLdouble\* params)
 
 
 <div class="code_header" style="text-align:right;">

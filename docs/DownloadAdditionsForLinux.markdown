@@ -6,17 +6,17 @@ categories:
 encoding: UTF-8
 ---
 
-DownloadAdditionsForLinux\(targetdirectory \[, flavor\]\);
+DownloadAdditionsForLinux(targetdirectory [, flavor]);
 
 Install missing Matlab or Octave mex files for older versions of the
 Psychtoolbox, as provided by some Linux distributions, e.g., Ubuntu 12.10
-or \(as of April 2013\) 13.04.
+or (as of April 2013) 13.04.
 
-It needs Subversion to be installed on your machine \(sudo apt-get install
-subversion\).
+It needs Subversion to be installed on your machine (sudo apt-get install
+subversion).
 
 You \*do not need\* this function if you downloaded Psychtoolbox from its
-home-site via DownloadPsychtoolbox\(\), or if you install Psychtoolbox from
+home-site via DownloadPsychtoolbox(), or if you install Psychtoolbox from
 the NeuroDebian repository. If you install from NeuroDebian, simply
 install these packages:
 
@@ -30,7 +30,7 @@ sudo apt-get install octave-psychtoolbox-3-nonfree
 
 However, some Linux distributinos bundle Psychtoolbox as part of their
 standard package repository, e.g., Ubuntu 12.10 and 13.04, and they
-provide outdated packages \(as of April 2013\) which require you to run
+provide outdated packages (as of April 2013) which require you to run
 this script manually after each installation or update in order to
 retrieve mex files for Matlab, or the Datapixx and Eyelink mex files for
 octave.

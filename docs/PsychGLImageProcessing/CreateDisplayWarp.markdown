@@ -6,10 +6,10 @@ categories:
 encoding: UTF-8
 ---
 
-\[warpstruct, filterMode\] = CreateDisplayWarp\(window, calibfilename \[, showCalibOutput=0\]\);
+[warpstruct, filterMode] = CreateDisplayWarp(window, calibfilename [, showCalibOutput=0]);
 
 Helper routine for Geometric display undistortion mapping, not to be
-called inside normal PTB scripts\!
+called inside normal PTB scripts!
 
 This function reads a display calibration file 'calibfilename' and builds
 a "geometric warp function" based on the calibration information in
@@ -17,12 +17,12 @@ a "geometric warp function" based on the calibration information in
 a struct 'warpstruct' that defines the created warp function. You could
 pass this 'warpstruct' as a parameter to the Psychtoolbox command...
 
-PsychImaging\('AddTask', viewchannel, 'GeometryCorrection', warpstruct\);
+PsychImaging('AddTask', viewchannel, 'GeometryCorrection', warpstruct);
 
 However, you normally do not call this routine directly from your script. Its
-called internally by the PsychImaging\(\) command...
+called internally by the PsychImaging() command...
 
-PsychImaging\('AddTask', viewchannel, 'GeometryCorrection', calibfilename\);
+PsychImaging('AddTask', viewchannel, 'GeometryCorrection', calibfilename);
 
 ...in order to setup PTB's imaging pipeline for realtime geometry
 correction, based on the calibration info in the file 'calibfilename'.
@@ -31,11 +31,11 @@ Example: You created a calibration file 'mycalib.mat' to undistort the
 left view display of a stereo setup. Then you could apply this
 undistortion function via the following setup code:
 
-PsychImaging\('PrepareConfiguration'\);
-PsychImaging\('AddTask', 'LeftView', 'GeometryCorrection', 'mycalib.mat'\);
-window = PsychImaging\('OpenWindow', screenid\);
+PsychImaging('PrepareConfiguration');
+PsychImaging('AddTask', 'LeftView', 'GeometryCorrection', 'mycalib.mat');
+window = PsychImaging('OpenWindow', screenid);
 
-This would open an onscreen window just as window=[Screen](/docs/Screen)\('OpenWindow', screenid\);
+This would open an onscreen window just as window=[Screen](/docs/Screen)('OpenWindow', screenid);
 would do. It would configure the window for automatic undistortion based
 on the data in 'mycalib.mat'.
 
@@ -47,8 +47,8 @@ DisplayUndistortionBVL.m    -- Undistortion based on 3rd order polynomial
 surface. This is the recommended calibration procedure for most cases -
 Proven in real-world use on many different display types.
 
-DisplayUndistortionBezier.m -- Undistortion based on a NURBS surface \(Non
-uniform rational bezier spline surface\). A simple procedure.
+DisplayUndistortionBezier.m -- Undistortion based on a NURBS surface (Non
+uniform rational bezier spline surface). A simple procedure.
 
 DisplayUndistortionHalfCylinder.m -- Undistortion for projection of
 images to a half-cylindrical projection surface.

@@ -6,8 +6,8 @@ categories:
 encoding: UTF-8
 ---
 
- \[isoPerConeSec,absPerConeSec,photoreceptors\] = ...
-        RetIrradianceToIsoRecSec\(irradianceWatts,irradianceS,\[photoreceptors\]\)
+ [isoPerConeSec,absPerConeSec,photoreceptors] = ...
+        RetIrradianceToIsoRecSec(irradianceWatts,irradianceS,[photoreceptors])
 
  Convert retinal irradiance, measured in watts/um^2-wlinterval to
  isomerizations per cone per second.
@@ -28,7 +28,7 @@ encoding: UTF-8
  See also: DefaultPhotoreceptors, FillInPhotoreceptors, IsomerizationsInEyeDemo
    IsomerizationsInDishDemo.
 
- 7/25/03  dhb  Wrote it by pulling in code from elsewhere.
+ \7/25/03  dhb  Wrote it by pulling in code from elsewhere.
 
 
 <div class="code_header" style="text-align:right;">

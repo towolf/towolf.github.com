@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glVertex2sv  Interface to OpenGL function glVertex2sv
 
-usage:  glVertex2sv\( v \)
+usage:  glVertex2sv( v )
 
-C function:  void glVertex2sv\(const GLshort\* v\)
+C function:  void glVertex2sv(const GLshort\* v)
 
 
 <div class="code_header" style="text-align:right;">

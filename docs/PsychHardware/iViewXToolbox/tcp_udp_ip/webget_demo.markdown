@@ -11,7 +11,7 @@ WEBGET\_DEMO - Demo webpage downloader, returns a webpage as a string
 Syntax:
    webget\_demo url\_adress
  or
-   str=webget\_demo\('url\_adress'\)
+   str=webget\_demo('url\_adress')
 
  Version: 2002-02-01 for the tcpiptoolbox 2.x API
 

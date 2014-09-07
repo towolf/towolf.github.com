@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glVertex2iv  Interface to OpenGL function glVertex2iv
 
-usage:  glVertex2iv\( v \)
+usage:  glVertex2iv( v )
 
-C function:  void glVertex2iv\(const GLint\* v\)
+C function:  void glVertex2iv(const GLint\* v)
 
 
 <div class="code_header" style="text-align:right;">

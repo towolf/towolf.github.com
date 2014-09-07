@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glMapBuffer  Interface to OpenGL function glMapBuffer
 
-usage:  r = glMapBuffer\( target, access \)
+usage:  r = glMapBuffer( target, access )
 
-C function:  GLvoid\* glMapBuffer\(GLenum target, GLenum access\)
+C function:  GLvoid\* glMapBuffer(GLenum target, GLenum access)
 
 
 <div class="code_header" style="text-align:right;">

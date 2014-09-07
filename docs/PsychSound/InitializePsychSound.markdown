@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-InitializePsychSound\(\[reallyneedlowlatency=0\]\)
+InitializePsychSound([reallyneedlowlatency=0])
 
 This routine loads the PsychPortAudio sound driver for high-precision,
 low-latency, multi-channel sound playback and recording.
@@ -29,9 +29,9 @@ want reliable timing and time-stamping with latencies and accuracy better
 than 500 msecs, you \*must\* have a decent ASIO sound card with proper
 vendor supplied ASIO drivers installed in your computer. A regular card,
 for example built-in sound chips of your computer, will not suffice and
-we will not guarantee any reasonable timing precision at all\!
+we will not guarantee any reasonable timing precision at all!
 
-The Windows MME \(MultiMediaExtensions\) sound system has typical latencies
+The Windows MME (MultiMediaExtensions) sound system has typical latencies
 and inaccuracies in excess of 500 msecs, and the slightly better
 DirectSound sound system still has a typical latency of over 30
 milliseconds. Both systems are known to be buggy and unreliable wrt.
@@ -40,8 +40,8 @@ timing on many systems.
 The ASIO sound system provided by professional class sound cards usually
 has excellent timing precision and latencies below 15 msecs, often as low
 as 5 msecs for pro hardware. If you need really low latency or high
-precision sound on Windows, ASIO is what you must use: Some \(usually more
-expensive\) professional class sound cards ship with ASIO enabled sound
+precision sound on Windows, ASIO is what you must use: Some (usually more
+expensive) professional class sound cards ship with ASIO enabled sound
 drivers, or at least there's such a driver available from the support
 area of the website of your sound card vendor.
 
@@ -51,7 +51,7 @@ Technologies GmbH."
 For cards without native ASIO drivers, there's the free ASIO4ALL driver,
 downloadable from http://asio4all.com, which may or may not work well on
 your specific sound card - The driver emulates the ASIO interface on top
-of the WDM-KS \(Windows Driver Model Kernel Streaming\) API from Microsoft,
+of the WDM-KS (Windows Driver Model Kernel Streaming) API from Microsoft,
 so the quality depends on the underlying WDM driver. For research grade
 use, please do yourself a favor and invest in a real ASIO card.
 

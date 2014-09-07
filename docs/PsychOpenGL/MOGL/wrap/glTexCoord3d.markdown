@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glTexCoord3d  Interface to OpenGL function glTexCoord3d
 
-usage:  glTexCoord3d\( s, t, r \)
+usage:  glTexCoord3d( s, t, r )
 
-C function:  void glTexCoord3d\(GLdouble s, GLdouble t, GLdouble r\)
+C function:  void glTexCoord3d(GLdouble s, GLdouble t, GLdouble r)
 
 
 <div class="code_header" style="text-align:right;">

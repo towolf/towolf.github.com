@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glutWireCone  Interface to OpenGL function glutWireCone
 
-usage:  glutWireCone\( base, height, slices, stacks \)
+usage:  glutWireCone( base, height, slices, stacks )
 
-C function:  void glutWireCone\(GLdouble base, GLdouble height, GLint slices, GLint stacks\)
+C function:  void glutWireCone(GLdouble base, GLdouble height, GLint slices, GLint stacks)
 
 
 <div class="code_header" style="text-align:right;">

@@ -45,7 +45,7 @@ the toolbox and PTB-3.
   buffers:  the front buffer and the back buffer.  In double-buffered
   mode, all [Screen](/docs/Screen) drawing commands are issued to the back buffer, where
   what is drawn is hidden from view.  The contents of the back buffer
-  remain hidden from view until The [Screen](/docs/Screen)\('[Flip](/docs/Flip)', ...\) command is
+  remain hidden from view until The [Screen](/docs/Screen)('[Flip](/docs/Flip)', ...) command is
   issued. [Flip](/docs/Flip) waits  until the vertical retrace and then interchages the
   contents of the front and back buffers, bringining into view on the
   display what had previosly been hidden in the back buffer.
@@ -58,17 +58,17 @@ the toolbox and PTB-3.
   displaying MATLAB matrices during an animation:
 
       Steps to quickly display an image matrix in OS 9:
-        1. Create an offscreen window by calling OpenOffscreenWindow
-        2. Copy the matrix to an offsceen window using PutImage
-        3. Copy the offscreen window to an onscreen window using
+        \1. Create an offscreen window by calling OpenOffscreenWindow
+        \2. Copy the matrix to an offsceen window using PutImage
+        \3. Copy the offscreen window to an onscreen window using
         CopyWindow
 
   Instead of using Offscreen Windows to quickly display MATLAB Matrices
   the OSX Psychtoolbox uses Textures.
 
       Steps to quickly display an image matrix in PTB-3:
-        1. Create a texture and copy into it a matrix by using MakeTexture
-        2. Copy the texture quickly to the onscreen window using
+        \1. Create a texture and copy into it a matrix by using MakeTexture
+        \2. Copy the texture quickly to the onscreen window using
         DrawTexure
 
   What is the difference betwen offscreen windows and textures? The
@@ -92,16 +92,16 @@ the toolbox and PTB-3.
 
       %create and fill offscreen windows here...
       for i=1:numberOfMovieFrames
-          [Screen](/docs/Screen)\(window, 'WaitBlanking'\);
-          [Screen](/docs/Screen)\('CopyWindow', offscreenWindow\(i\), window\);
+          [Screen](/docs/Screen)(window, 'WaitBlanking');
+          [Screen](/docs/Screen)('CopyWindow', offscreenWindow(i), window);
       end
 
 #   PTB-3:
 
       %generate textures here...
       for i=1:numberOfMovieFrames
-          [Screen](/docs/Screen)\('DrawTexture', texture\(i\), window\);
-          [Screen](/docs/Screen)\(window, '[Flip](/docs/Flip)'\);
+          [Screen](/docs/Screen)('DrawTexture', texture(i), window);
+          [Screen](/docs/Screen)(window, '[Flip](/docs/Flip)');
       end
 
 
@@ -110,12 +110,12 @@ See also: DriftDemo, PsychDemos.
 
 # HISTORY
 
-7/3/04   awi  Wrote it.  Based on Denis Pelli's MovieDemo for OS 9.
-7/19/04  awi  restored [Priority](/docs/Priority), and time tests, added option to plot results.
-7/24/04  awi  Cosmetic
-9/8/04   awi  Added Try/Catch.
-4/23/05  mk   Added [Priority](/docs/Priority)\(0\) to Catch-Section.
-11/19/06 dhb  Remove OSX from name.
+\7/3/04   awi  Wrote it.  Based on Denis Pelli's MovieDemo for OS 9.
+\7/19/04  awi  restored [Priority](/docs/Priority), and time tests, added option to plot results.
+\7/24/04  awi  Cosmetic
+\9/8/04   awi  Added Try/Catch.
+\4/23/05  mk   Added [Priority](/docs/Priority)(0) to Catch-Section.
+\11/19/06 dhb  Remove OSX from name.
 
 
 <div class="code_header" style="text-align:right;">

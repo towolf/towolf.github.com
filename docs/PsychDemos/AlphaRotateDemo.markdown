@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-AlphaRotateDemo\(numFrames, ifis\)
+AlphaRotateDemo(numFrames, ifis)
 
 numFrames Number of grating textures to use for the drifting grating...
 
@@ -16,9 +16,9 @@ textures...
 
 # OS X
 
-Display a rotating grating using the new [Screen](/docs/Screen)\('DrawTexture'\) command.
-In the OS X Psychtoolbox [Screen](/docs/Screen)\('DrawTexture'\) replaces
-[Screen](/docs/Screen)\('CopyWindow'\).
+Display a rotating grating using the new [Screen](/docs/Screen)('DrawTexture') command.
+In the OS X Psychtoolbox [Screen](/docs/Screen)('DrawTexture') replaces
+[Screen](/docs/Screen)('CopyWindow').
 
 This illustrates an application of Alpha blending by masking the rotating
 grating with a gaussian transparency mask.

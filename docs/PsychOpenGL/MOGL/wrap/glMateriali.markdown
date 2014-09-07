@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glMateriali  Interface to OpenGL function glMateriali
 
-usage:  glMateriali\( face, pname, param \)
+usage:  glMateriali( face, pname, param )
 
-C function:  void glMateriali\(GLenum face, GLenum pname, GLint param\)
+C function:  void glMateriali(GLenum face, GLenum pname, GLint param)
 
 
 <div class="code_header" style="text-align:right;">

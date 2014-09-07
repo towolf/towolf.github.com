@@ -8,7 +8,7 @@ encoding: UTF-8
 
 PsychWatchDog - Watchdog mechanism and error handler for Psychtoolbox.
 
-PsychWatchDog\(\[heartbeat\]\);
+PsychWatchDog([heartbeat]);
 
 PsychWatchDog implements a watchdog timer under GNU/Octave. It is not
 supported under the Matlab runtime environment yet.
@@ -26,23 +26,23 @@ users script.
 
 # Usage:
 
-1. Call PsychWatchDog\(heartbeat\) once at the beginning of your script to
+\1. Call PsychWatchDog(heartbeat) once at the beginning of your script to
 enable the watchdog. A 'heartbeat' value of zero will only enable
 watching for CTRL + . key press. A 'heartbeat' value \> 0 will set the
 timeout to 'heartbeat' seconds.
 
-2. Periodically call PsychWatchDog; without arguments in your script to
+\2. Periodically call PsychWatchDog; without arguments in your script to
 tell the watchdog that your code is still running properly. If Octave
 waits for input and more than 'heartbeat' seconds elapse since the last
 PsychWatchDog call, then the watchdog will trigger and close all windows.
 
-3. At the end of your script, call PsychWatchDog\(-1\); to disable the
+\3. At the end of your script, call PsychWatchDog(-1); to disable the
 watchdog again.
 
-You can call PsychWatchDog\(\) with a vector of at least 2 keycodes as
+You can call PsychWatchDog() with a vector of at least 2 keycodes as
 delivered by KbName to change the abort key combo from CTRL + . to some
 other arbitrary two key combination. E.g., ...
-PsychWatchDog\(\[KbName\('ESCAPE'\), KbName\('q'\)\]\);
+PsychWatchDog([KbName('ESCAPE'), KbName('q')]);
 ... would change the abort key combo to ESCape key + q key.
 
 

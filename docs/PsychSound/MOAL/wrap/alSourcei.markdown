@@ -8,9 +8,9 @@ encoding: UTF-8
 
 alSourcei  Interface to OpenAL function alSourcei
 
-usage:  alSourcei\( sid, param, value \)
+usage:  alSourcei( sid, param, value )
 
-C function:  void alSourcei\(ALuint sid, ALenum param, ALint value\)
+C function:  void alSourcei(ALuint sid, ALenum param, ALint value)
 
 
 <div class="code_header" style="text-align:right;">

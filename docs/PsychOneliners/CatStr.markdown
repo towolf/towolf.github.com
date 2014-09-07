@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-string=CatStr\(stringArray\)
+string=CatStr(stringArray)
 The supplied array or cell array of strings is concatenated, to make one string.
 This function is used by [Rush](/docs/Rush).mex.
 

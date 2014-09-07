@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-PsychSetupCamera\(camsettingsfile, rate\)
+PsychSetupCamera(camsettingsfile, rate)
 
 Setup basic camera settings like exposure time, brightness and gain.
 

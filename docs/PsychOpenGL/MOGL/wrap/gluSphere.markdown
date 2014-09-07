@@ -8,9 +8,9 @@ encoding: UTF-8
 
 gluSphere  Interface to OpenGL function gluSphere
 
-usage:  gluSphere\( quad, radius, slices, stacks \)
+usage:  gluSphere( quad, radius, slices, stacks )
 
-C function:  void gluSphere\(GLUquadric\* quad, GLdouble radius, GLint slices, GLint stacks\)
+C function:  void gluSphere(GLUquadric\* quad, GLdouble radius, GLint slices, GLint stacks)
 
 
 <div class="code_header" style="text-align:right;">

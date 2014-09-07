@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGetAttachedShaders  Interface to OpenGL function glGetAttachedShaders
 
-usage:  \[ count, shaders \] = glGetAttachedShaders\( program, maxCount \)
+usage:  [ count, shaders ] = glGetAttachedShaders( program, maxCount )
 
-C function:  void glGetAttachedShaders\(GLuint program, GLsizei maxCount, GLsizei\* count, GLuint\* shaders\)
+C function:  void glGetAttachedShaders(GLuint program, GLsizei maxCount, GLsizei\* count, GLuint\* shaders)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-DriftTexturePrecisionTest\(\[highprecision=0\]\[, verbose=0\]\[, filterMode=1\]\)
+DriftTexturePrecisionTest([highprecision=0][, verbose=0][, filterMode=1])
 
 This test finds the minimum useful subtexel stepsize of the graphics hardwares
 texture coordinate interpolators. The minimum stepsize is the finest
@@ -23,8 +23,8 @@ increment was too small to resolve for this hardware. The smallest
 stepsize is found in multiple iterations that reduce the stepsize until
 no difference is found anymore.
 
-The minimum resolvable stepsize for an ATI Mobility Radeon X1600 \(e.g.,
-MacBook Pro\) is 1/64 th of a pixel, which corresponds to 6 bits subpixel
+The minimum resolvable stepsize for an ATI Mobility Radeon X1600 (e.g.,
+MacBook Pro) is 1/64 th of a pixel, which corresponds to 6 bits subpixel
 accuracy.
 
 If the optional flag 'highprecision' is set to 1 or 2, then floating

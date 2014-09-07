@@ -7,7 +7,7 @@ encoding: UTF-8
 ---
 
 
-PlayInterlacedMovieDemo\(moviename\)
+PlayInterlacedMovieDemo(moviename)
 
 A simple demo to show playback of interlaced movies. Input
 images from the movie are deinterlaced on-the-fly by use of a simple GLSL

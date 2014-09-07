@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-\[minval\] = MatMin\(image\)
+[minval] = MatMin(image)
 Find the minumum value in a matrix.
 
 

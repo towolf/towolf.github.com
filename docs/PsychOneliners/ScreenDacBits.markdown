@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-dacBits = ScreenDacBits\(windowPtrOrScreenNumber\)
+dacBits = ScreenDacBits(windowPtrOrScreenNumber)
 
 What is the precision of the DACs on this graphics card?
 

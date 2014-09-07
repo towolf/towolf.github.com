@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glDeleteBuffers  Interface to OpenGL function glDeleteBuffers
 
-usage:  glDeleteBuffers\( n, buffers \)
+usage:  glDeleteBuffers( n, buffers )
 
-C function:  void glDeleteBuffers\(GLsizei n, const GLuint\* buffers\)
+C function:  void glDeleteBuffers(GLsizei n, const GLuint\* buffers)
 
 
 <div class="code_header" style="text-align:right;">

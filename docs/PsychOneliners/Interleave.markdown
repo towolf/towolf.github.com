@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-\[vec\] = [Interleave](/docs/Interleave)\(varargin\)
+[vec] = [Interleave](/docs/Interleave)(varargin)
 Interleaves any number of vectors and scalars
 input is taken from consequetive elements of each input variable until a
 variable runs out.
@@ -15,9 +15,9 @@ Output will be cell if any of the inputs is cell.
 Output will be char if none of the input is cell and any of the inputs is
 char
 
-a   = \[A A A\], b= \[B B\], c= \[C C C C\], d=D
-out = [Interleave](/docs/Interleave)\(a,b,c,d\)
-out = \[A B C D A B C A C C\];
+a   = [A A A], b= [B B], c= [C C C C], d=D
+out = [Interleave](/docs/Interleave)(a,b,c,d)
+out = [A B C D A B C A C C];
 
 DN 06-11-2007
 DN 23-01-2008 updated to support scalars and conversion to char

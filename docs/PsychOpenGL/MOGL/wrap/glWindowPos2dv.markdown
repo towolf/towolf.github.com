@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glWindowPos2dv  Interface to OpenGL function glWindowPos2dv
 
-usage:  glWindowPos2dv\( v \)
+usage:  glWindowPos2dv( v )
 
-C function:  void glWindowPos2dv\(const GLdouble\* v\)
+C function:  void glWindowPos2dv(const GLdouble\* v)
 
 
 <div class="code_header" style="text-align:right;">

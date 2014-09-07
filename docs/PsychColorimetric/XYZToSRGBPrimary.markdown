@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-\[rgb,M\] = XYZToSRGBPrimary\(XYZ\)
+[rgb,M] = XYZToSRGBPrimary(XYZ)
 
 Convert between CIE XYZ to sRGB primary
 coordinates.  These are linear device
@@ -28,8 +28,8 @@ there is pretty good agreement across web sources.  Wikipedia
 seems fine, as does.
   http://www.w3.org/Graphics/Color/sRGB
 
-5/1/04  dhb             Wrote it.
-7/8/10    dhb             Updated to match standard I can now find on the web.
+\5/1/04  dhb             Wrote it.
+\7/8/10    dhb             Updated to match standard I can now find on the web.
 
 
 <div class="code_header" style="text-align:right;">

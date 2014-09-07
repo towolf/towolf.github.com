@@ -11,7 +11,7 @@ TextInOffscreenWindowTest
 Compare text drawn into an offscreen window to text drawn into an
 onscreen window.
 
-[Screen](/docs/Screen) currently fails this test; [Screen](/docs/Screen)\('DrawText'\) draws slightly
+[Screen](/docs/Screen) currently fails this test; [Screen](/docs/Screen)('DrawText') draws slightly
 differently into onscreen and offscreen windows. Visual examination of
 the difference between onscreen and offscreen text shows that the
 onscreen texts is larger by about two pixels.

@@ -9,16 +9,16 @@ encoding: UTF-8
 rval = kPsychNeedTwiceWidthWindow
 
 Return a flag that you can pass to the 'imagingmode' parameter of
-[Screen](/docs/Screen)\('OpenWindow'\) in order to request use of twice-width windows.
-These onscreen windows are treated by all drawing functions \(and geometry
-query functions like [Screen](/docs/Screen)\('Rect', window\); or [Screen](/docs/Screen)\('WindowSize',
-window\); as if they have twice the width of the underlying framebuffer in
+[Screen](/docs/Screen)('OpenWindow') in order to request use of twice-width windows.
+These onscreen windows are treated by all drawing functions (and geometry
+query functions like [Screen](/docs/Screen)('Rect', window); or [Screen](/docs/Screen)('WindowSize',
+window); as if they have twice the width of the underlying framebuffer in
 pixels.
 
 This is used for special packed-pixel display modes, where the content of
 two visual stimulus pixels is packed into one single output framebuffer
 pixel for video scanout. E.g., certain special medical displays for use
-in Radiology \(cfe. "Eizo RadiForce GS-520"\) are able to display
+in Radiology (cfe. "Eizo RadiForce GS-520") are able to display
 calibrated pure luminance images with a luminance precision of 12 bits
 per grayscale pixel at 5 Megapixels resolution. These displays are driven
 over a single-link DVI-D interface with a special pixel data transmission

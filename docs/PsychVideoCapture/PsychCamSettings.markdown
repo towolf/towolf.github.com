@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-rc = PsychCamSettings\(cmd, grabber \[, arg0, arg1, ...\]\)
+rc = PsychCamSettings(cmd, grabber [, arg0, arg1, ...])
 
 Setup tool for video sources for use with Psychtoolbox
 video capture functions. This function can mostly only operate
@@ -18,10 +18,10 @@ consumer/prosumer class cameras controlled by the [GStreamer](/docs/GStreamer) e
 e.g., webcams, DV cameras etc.
 
 PsychCamSettings is used to query or change settings of such
-a video source that is supported by the [Screen](/docs/Screen)\(\) subfunctions
+a video source that is supported by the [Screen](/docs/Screen)() subfunctions
 for video capture. The first parameter, a 'cmd' command string
 specifies the subfunction to execute. The second parameter
-'grabber' is the device handle returned by [Screen](/docs/Screen)\('OpenVideoCapture'\).
+'grabber' is the device handle returned by [Screen](/docs/Screen)('OpenVideoCapture').
 All following parameters are dependent on the selected subfunction.
 
 Subfunctions of form 'XXX' change the setting of a parameter XXX.
@@ -43,86 +43,86 @@ firewire camera. Basler A312fc, AVT Marlin F033.
 
 # Parameters and their meaning:
 
-curval = PsychCamSettings\('ExposureTime', grabber, val\)
--- Set and/or return current exposure time in milliseconds for supported cams, and
+curval = PsychCamSettings('ExposureTime', grabber, val)
+\-- Set and/or return current exposure time in milliseconds for supported cams, and
 in raw camera specific system units for unknown cameras.
 
-curval = PsychCamSettings\('Brightness', grabber, val\)
--- Set/Return brightness setting in arbitrary units. Brightness is the DC offset
+curval = PsychCamSettings('Brightness', grabber, val)
+\-- Set/Return brightness setting in arbitrary units. Brightness is the DC offset
 added to the CCD sensor signal before amplification and A/D conversion.
 
-curval = PsychCamSettings\('Gain', grabber, val\)
--- Set/Return gain setting in arbitrary units. Gain is the multiplier
+curval = PsychCamSettings('Gain', grabber, val)
+\-- Set/Return gain setting in arbitrary units. Gain is the multiplier
 applied to the CCD sensor signal during amplification and before A/D conversion.
 
-curval = PsychCamSettings\('Gamma', grabber, val\)
--- Set/Return gamma setting. Gamma is used to influence or set gamma correction.
+curval = PsychCamSettings('Gamma', grabber, val)
+\-- Set/Return gamma setting. Gamma is used to influence or set gamma correction.
 
-curval = PsychCamSettings\('Sharpness', grabber, val\)
--- Set/Return sharpness setting in arbitrary units. Manipulates digital post-
+curval = PsychCamSettings('Sharpness', grabber, val)
+\-- Set/Return sharpness setting in arbitrary units. Manipulates digital post-
 processing of images in the camera.
 
-curval = PsychCamSettings\('WhiteBalance', grabber, val\)
--- Set/Return white-balance setting in arbitrary units. Only meaningful on color cams.
+curval = PsychCamSettings('WhiteBalance', grabber, val)
+\-- Set/Return white-balance setting in arbitrary units. Only meaningful on color cams.
 
-curval = PsychCamSettings\('Saturation', grabber, val\)
--- Set/Return color saturation setting in arbitrary units. Only meaningful on color cams.
+curval = PsychCamSettings('Saturation', grabber, val)
+\-- Set/Return color saturation setting in arbitrary units. Only meaningful on color cams.
 
-Similar to above are queries and \(auto-\)settings for: Hue, WhiteShading, Iris, Focus, Pan, Tilt,
+Similar to above are queries and (auto-)settings for: Hue, WhiteShading, Iris, Focus, Pan, Tilt,
 Zoom, CaptureQuality, CaptureSize, Temperature, FrameRate, OpticalFilter and TriggerDelay.
 
-curval = PsychCamSettings\('BacklightCompensation', grabber, val\)
--- Set/Return setting for backlight compensation mode. Backlight compensation is active
+curval = PsychCamSettings('BacklightCompensation', grabber, val)
+\-- Set/Return setting for backlight compensation mode. Backlight compensation is active
 if control of exposure time, gain and brightness are switched to automatic. It defines
 the algorithm to use for computing the overall image brightness. This is currently
 only supported on the Unibrain Fire-i camera and has the following meaning:
 
-0 = Off. Just average across image.
-1 = Use a disc in the center of the image.
-2 = Use some weighted mix of a disc in the image center and the area outside the disc.
-3 = Use some portrait mode for optimal exposure of a person sitting in front of the cam.
-4 = Use upper third of image.
-5 = Use middle third of image.
-6 = Use lower third of image.
+\0 = Off. Just average across image.
+\1 = Use a disc in the center of the image.
+\2 = Use some weighted mix of a disc in the image center and the area outside the disc.
+\3 = Use some portrait mode for optimal exposure of a person sitting in front of the cam.
+\4 = Use upper third of image.
+\5 = Use middle third of image.
+\6 = Use lower third of image.
 
 # Special commands and their meaning:
 
-vendor = PsychCamSettings\('GetVendor', grabber\)
--- Return camera vendor name string.
+vendor = PsychCamSettings('GetVendor', grabber)
+\-- Return camera vendor name string.
 
-model = PsychCamSettings\('GetModel', grabber\)
--- Return camera model name string.
+model = PsychCamSettings('GetModel', grabber)
+\-- Return camera model name string.
 
-known = PsychCamSettings\('IsKnownCamera', grabber\)
--- Return 1, if this camera is known to PsychCamSettings,
+known = PsychCamSettings('IsKnownCamera', grabber)
+\-- Return 1, if this camera is known to PsychCamSettings,
 so it can accept and return meaningful physical properties,
 instead of unknown device units.
 
-settings = PsychCamSettings\('AutomateAllSettings', grabber\)
--- Switch all settings into automatic control mode, where possible,
+settings = PsychCamSettings('AutomateAllSettings', grabber)
+\-- Switch all settings into automatic control mode, where possible,
 and return the current settings in a struct.
 
-settings = PsychCamSettings\('GetAllSettings', grabber\)
--- Return all known settings in a struct.
+settings = PsychCamSettings('GetAllSettings', grabber)
+\-- Return all known settings in a struct.
 
-oldsettings = PsychCamSettings\('SetAllSettings', grabber, settings\)
--- Set all settings from a struct 'settings'.
+oldsettings = PsychCamSettings('SetAllSettings', grabber, settings)
+\-- Set all settings from a struct 'settings'.
 
-latency = PsychCamSettings\('EstimateLatency', grabber \[, fps\]\)
--- This command analyses the current camera settings and, based on
-the specification of the camera, tries to estimate the latency \(in
-seconds\) between start of exposure of a video frame and arrival of
+latency = PsychCamSettings('EstimateLatency', grabber [, fps])
+\-- This command analyses the current camera settings and, based on
+the specification of the camera, tries to estimate the latency (in
+seconds) between start of exposure of a video frame and arrival of
 the video frame in the computers video buffer.
 
 If you subtract this 'latency' value from the 'capturetimestamp'
-returned by the [Screen](/docs/Screen)\('GetCapturedImage'\) function, you should
-get an estimate of when \(in system time\) the image was
+returned by the [Screen](/docs/Screen)('GetCapturedImage') function, you should
+get an estimate of when (in system time) the image was
 actually acquired that corresponds to the captured image.
 
 Please note: In theory Basler firewire cameras with "SFF cycle timer support"
 should be able to report the start time of image exposure directly via
 the returned capture timestamps if the command ...
-[Screen](/docs/Screen)\('SetVideoCaptureParameter', grabber, 'BaslerFrameTimestampEnable'\);
+[Screen](/docs/Screen)('SetVideoCaptureParameter', grabber, 'BaslerFrameTimestampEnable');
 ... was executed before start of capture, therefore making this 'EstimateLatency'
 dance redundant. In practice though, the two tested Basler cameras which should
 support this feature didn't work properly, ie., they returned completely bogus
@@ -137,7 +137,7 @@ other device.
 
 The latency values computed here are based on the official camera
 specs. If the spec is wrong or inaccurate, then this value will
-be wrong or inaccurate as well, so use with caution\!
+be wrong or inaccurate as well, so use with caution!
 
 
 

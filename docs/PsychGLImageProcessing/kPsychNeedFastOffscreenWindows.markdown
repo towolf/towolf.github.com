@@ -8,7 +8,7 @@ encoding: UTF-8
 
 rval = kPsychNeedFastOffscreenWindows
 Return a flag that you can pass to the 'imagingmode' parameter of
-[Screen](/docs/Screen)\('OpenWindow'\) in order to request use of fast support for Offscreen windows.
+[Screen](/docs/Screen)('OpenWindow') in order to request use of fast support for Offscreen windows.
 
 If requested, Psychtoolbox will use an especially fast buffering scheme
 to implement Offscreen windows. This can significantly speed up drawing

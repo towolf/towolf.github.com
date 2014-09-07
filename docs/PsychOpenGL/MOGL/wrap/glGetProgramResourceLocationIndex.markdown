@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGetProgramResourceLocationIndex  Interface to OpenGL function glGetProgramResourceLocationIndex
 
-usage:  r = glGetProgramResourceLocationIndex\( program, programInterface, name \)
+usage:  r = glGetProgramResourceLocationIndex( program, programInterface, name )
 
-C function:  GLint glGetProgramResourceLocationIndex\(GLuint program, GLenum programInterface, const GLchar\* name\)
+C function:  GLint glGetProgramResourceLocationIndex(GLuint program, GLenum programInterface, const GLchar\* name)
 
 
 <div class="code_header" style="text-align:right;">

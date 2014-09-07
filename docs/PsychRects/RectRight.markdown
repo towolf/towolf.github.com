@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-xRight = rect\(RectRight\)
+xRight = rect(RectRight)
 
 RectRight returns the rect index of xRight.
 Also see PsychRects.

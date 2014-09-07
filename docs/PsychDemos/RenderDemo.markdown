@@ -21,7 +21,7 @@ encoding: UTF-8
 
 #  Demo 1:
 
- The RGB values are gamma corrected and live in the range \[0,1\].  If they
+ The RGB values are gamma corrected and live in the range [0,1].  If they
  contain 0 or 1, the xyY coordinates requested may have been out of gamut.
 
  A uniform color patch is displayed in the MATLAB figure window. This is
@@ -35,7 +35,7 @@ encoding: UTF-8
  Demo 2: As demo 1, but displaying in a onscreen window and performing the
  gamma correction via proper inverse gamma lookup tables loaded into the
  graphics card, thereby presenting on a linearized display, instead of
- using the SensorToSettings\(\) routine to adapt the stimulus to a
+ using the SensorToSettings() routine to adapt the stimulus to a
  non-linearized display.
 
  The last two demos Demo 3 and Demo 4 require a recent graphics card and
@@ -45,25 +45,25 @@ encoding: UTF-8
  able to support these demos.
 
  Demo 3: The stimulus is defined in XYZ tristimulus color space and
- converted automatically by [Screen](/docs/Screen)\(\) into RGB output format, taking the
+ converted automatically by [Screen](/docs/Screen)() into RGB output format, taking the
  calibration data in 'cal' into account.
 
  Demo 4: The stimulus is directly defined in xyY chromacity + luminance
  format and all conversions and calibrations are done automatically by
- [Screen](/docs/Screen)\(\).
+ [Screen](/docs/Screen)().
 
- 4/26/97  dhb  Wrote it.
- 7/25/97  dhb  Better initialization.
- 3/12/98  dgp  Use [Ask](/docs/Ask).
- 3/14/02  dhb  Update for OpenWindow.
- 4/03/02  awi  Merged in Windows changes.  On Windows we do not copy the result to the clipboard.
- 4/13/02  awi   Changed "SetColorSpace" to new name "SetSensorColorSpace".
+ \4/26/97  dhb  Wrote it.
+ \7/25/97  dhb  Better initialization.
+ \3/12/98  dgp  Use [Ask](/docs/Ask).
+ \3/14/02  dhb  Update for OpenWindow.
+ \4/03/02  awi  Merged in Windows changes.  On Windows we do not copy the result to the clipboard.
+ \4/13/02  awi   Changed "SetColorSpace" to new name "SetSensorColorSpace".
                 Changed "LinearToSettings" to new name "SensorToSettings".
- 12/21/02 dhb  Remove reliance on now obsolete OpenWindow/CloseWindow.
- 11/16/06 dhb  Start getting this to work with PTB-3.
- 11/22/06 dhb  Fixed except that [Ask](/docs/Ask)\(\) needs to be fixed.
- 6/16/11  dhb  The PTB display section was out of date and didn't work.  I removed it.
- 1/26/13  mk   Add standard PTB display, but also imaging pipeline based methods.
+ \12/21/02 dhb  Remove reliance on now obsolete OpenWindow/CloseWindow.
+ \11/16/06 dhb  Start getting this to work with PTB-3.
+ \11/22/06 dhb  Fixed except that [Ask](/docs/Ask)() needs to be fixed.
+ \6/16/11  dhb  The PTB display section was out of date and didn't work.  I removed it.
+ \1/26/13  mk   Add standard PTB display, but also imaging pipeline based methods.
 
 
 <div class="code_header" style="text-align:right;">

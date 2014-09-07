@@ -15,7 +15,7 @@ unique index. GetKeypadIndices returns the indices for those HID
 devices which are keypads.  The product names of each keypad are
 returned in a second argument which is useful to identify the keypad
 associated with an index.  For complete information on a keypad use
-PsychHID\('Devices'\).
+PsychHID('Devices').
 
 # OS 9
 

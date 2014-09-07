@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glMemoryBarrier  Interface to OpenGL function glMemoryBarrier
 
-usage:  glMemoryBarrier\( barriers \)
+usage:  glMemoryBarrier( barriers )
 
-C function:  void glMemoryBarrier\(GLbitfield barriers\)
+C function:  void glMemoryBarrier(GLbitfield barriers)
 
 
 <div class="code_header" style="text-align:right;">

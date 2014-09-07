@@ -8,9 +8,9 @@ encoding: UTF-8
 
 alDopplerVelocity  Interface to OpenAL function alDopplerVelocity
 
-usage:  alDopplerVelocity\( value \)
+usage:  alDopplerVelocity( value )
 
-C function:  void alDopplerVelocity\(ALfloat value\)
+C function:  void alDopplerVelocity(ALfloat value)
 
 
 <div class="code_header" style="text-align:right;">

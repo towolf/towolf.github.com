@@ -9,16 +9,16 @@ encoding: UTF-8
 kPsychGUIWindow -- Create onscreen windows with behaviour of normal GUI windows.
 
 This flag can be passed to the optional 'specialFlags' parameter of
-[Screen](/docs/Screen)\('OpenWindow', ...\) or PsychImaging\('OpenWindow', ...\).
+[Screen](/docs/Screen)('OpenWindow', ...) or PsychImaging('OpenWindow', ...).
 
 It will cause the onscreen window to be a "regular" window that mostly
 behaves like typical GUI windows on your system. The window will have a
 titlebar and title, a border and other decorations. It will have buttons
 and handles to allow it to be moved around, resized, minimized or
-maximized, hidden and so on. Functions like [Screen](/docs/Screen)\('Rect'\),
-[Screen](/docs/Screen)\('GlobalRect'\) and [Screen](/docs/Screen)\('WindowSize'\) will report the true size
+maximized, hidden and so on. Functions like [Screen](/docs/Screen)('Rect'),
+[Screen](/docs/Screen)('GlobalRect') and [Screen](/docs/Screen)('WindowSize') will report the true size
 and position of the window after it has been resized or moved around. The
-GetMouse\(\) function will optionally report if the window has keyboard
+GetMouse() function will optionally report if the window has keyboard
 input focus because it is the active foreground window.
 
 Window stacking order, transparency and other window manager interactions

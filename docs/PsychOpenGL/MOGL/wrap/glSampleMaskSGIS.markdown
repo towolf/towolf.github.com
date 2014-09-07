@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glSampleMaskSGIS  Interface to OpenGL function glSampleMaskSGIS
 
-usage:  glSampleMaskSGIS\( arg1, arg2 \)
+usage:  glSampleMaskSGIS( arg1, arg2 )
 
-C function:  void glSampleMaskSGIS\(GLclampf, GLboolean\)
+C function:  void glSampleMaskSGIS(GLclampf, GLboolean)
 
 
 <div class="code_header" style="text-align:right;">

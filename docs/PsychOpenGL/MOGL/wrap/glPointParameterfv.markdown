@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glPointParameterfv  Interface to OpenGL function glPointParameterfv
 
-usage:  glPointParameterfv\( pname, params \)
+usage:  glPointParameterfv( pname, params )
 
-C function:  void glPointParameterfv\(GLenum pname, const GLfloat\* params\)
+C function:  void glPointParameterfv(GLenum pname, const GLfloat\* params)
 
 
 <div class="code_header" style="text-align:right;">

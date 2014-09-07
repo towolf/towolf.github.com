@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGetBooleanv  Interface to glGetBooleanv
 
-usage:  params = glGetBooleanv\( pname \)
+usage:  params = glGetBooleanv( pname )
 
-C function:  void glGetBooleanv\(GLenum pname, GLboolean\* params\)
+C function:  void glGetBooleanv(GLenum pname, GLboolean\* params)
 
 
 <div class="code_header" style="text-align:right;">

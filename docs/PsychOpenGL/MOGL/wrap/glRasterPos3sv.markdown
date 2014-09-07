@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glRasterPos3sv  Interface to OpenGL function glRasterPos3sv
 
-usage:  glRasterPos3sv\( v \)
+usage:  glRasterPos3sv( v )
 
-C function:  void glRasterPos3sv\(const GLshort\* v\)
+C function:  void glRasterPos3sv(const GLshort\* v)
 
 
 <div class="code_header" style="text-align:right;">

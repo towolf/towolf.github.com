@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-Syntax: ColorVector = get\_color\(ColorNameString\)
+Syntax: ColorVector = get\_color(ColorNameString)
 
 convert color name to color triple. Color name/triple combinations
 were taken from the Unix X11/R4 rgb.txt file and converted to

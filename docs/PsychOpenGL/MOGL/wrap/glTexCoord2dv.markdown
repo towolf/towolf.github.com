@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glTexCoord2dv  Interface to OpenGL function glTexCoord2dv
 
-usage:  glTexCoord2dv\( v \)
+usage:  glTexCoord2dv( v )
 
-C function:  void glTexCoord2dv\(const GLdouble\* v\)
+C function:  void glTexCoord2dv(const GLdouble\* v)
 
 
 <div class="code_header" style="text-align:right;">

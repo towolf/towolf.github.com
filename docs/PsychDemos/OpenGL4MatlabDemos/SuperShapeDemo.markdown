@@ -9,17 +9,17 @@ encoding: UTF-8
 Draw SuperShapes with OpenGL
 
 This demo computes and displays a 3D supershape using the formula
-found by Gielis \(A generic geometric transformation that unifies
+found by Gielis (A generic geometric transformation that unifies
 a wide range of natural and abstract shapes. American Journal of
-Botany 90\(3\):333ï¿½338, 2003\)
+Botany 90(3):333ï¿½338, 2003)
 
 See also http://en.wikipedia.org/wiki/Superformula
 
 "The parameter m relates to the number of symmetries of a shape,
 parameter n1 determines flatness and sharpness of corners and convexity
 of sides. Both parameters n2 and n3 denote whether the shape is inscribed
-or circumscribed in the unit circle." \(from
-http://know-center.tugraz.at/download\_extern/papers/ISGI\_SuperShapes\_Lex\_Kienreich.pdf\)
+or circumscribed in the unit circle." (from
+http://know-center.tugraz.at/download\_extern/papers/ISGI\_SuperShapes\_Lex\_Kienreich.pdf)
 
 You can rotate the shape with the cursor keys.
 

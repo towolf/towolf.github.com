@@ -6,13 +6,13 @@ categories:
 encoding: UTF-8
 ---
 
- SetMouse\(x, y \[, windowPtrOrScreenNumber\]\[, mouseid\]\)
+ SetMouse(x, y [, windowPtrOrScreenNumber][, mouseid])
 
  Position the mouse cursor on the screen.
 
- The cursor position \(x,y\) is "local", i.e. relative to the origin of the
+ The cursor position (x,y) is "local", i.e. relative to the origin of the
  window or screen, if supplied. Otherwise it's "global", i.e. relative to
- the origin of the main screen \(the one with the menu bar\).
+ the origin of the main screen (the one with the menu bar).
 
  On Linux, the optional 'mouseid' parameter allows to select which
  of potentially multiple cursors should be repositioned. On OS/X and
@@ -20,13 +20,13 @@ encoding: UTF-8
 
 #  OS 9
 
- After calling SetMouse, there's a short period \(until the next tick?\)
+ After calling SetMouse, there's a short period (until the next tick?)
  during which GetMouse reports the old position, after which it reports
  the new position. To be conservative, you can code as follows:
   while 1
-    SetMouse\(theX,theY\);
-    \[checkX,checkY\] = GetMouse;
-    if \(checkX==theX\) && \(checkY==theY\)
+    SetMouse(theX,theY);
+    [checkX,checkY] = GetMouse;
+    if (checkX==theX) && (checkY==theY)
        break;
     end
   end
@@ -34,7 +34,7 @@ encoding: UTF-8
  Cursor updating is usually carried out by a System task that runs once
  per tick, so it's likely that SetMouse doesn't take effect until the
  next tick. Instead of the elaborate check suggested above, it might
- be enough, after calling SetMouse, to simply WaitTicks\(1\) before calling
+ be enough, after calling SetMouse, to simply WaitTicks(1) before calling
  GetMouse to be sure of getting the new position.
 
 #  OS-X, Linux & WINDOWS

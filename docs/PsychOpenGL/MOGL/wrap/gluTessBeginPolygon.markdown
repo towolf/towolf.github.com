@@ -8,9 +8,9 @@ encoding: UTF-8
 
 gluTessBeginPolygon  Interface to OpenGL function gluTessBeginPolygon
 
-usage:  gluTessBeginPolygon\( tess, data \)
+usage:  gluTessBeginPolygon( tess, data )
 
-C function:  void gluTessBeginPolygon\(GLUtesselator\* tess, GLvoid\* data\)
+C function:  void gluTessBeginPolygon(GLUtesselator\* tess, GLvoid\* data)
 
 
 <div class="code_header" style="text-align:right;">

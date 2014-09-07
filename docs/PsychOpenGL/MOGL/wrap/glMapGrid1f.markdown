@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glMapGrid1f  Interface to OpenGL function glMapGrid1f
 
-usage:  glMapGrid1f\( un, u1, u2 \)
+usage:  glMapGrid1f( un, u1, u2 )
 
-C function:  void glMapGrid1f\(GLint un, GLfloat u1, GLfloat u2\)
+C function:  void glMapGrid1f(GLint un, GLfloat u1, GLfloat u2)
 
 
 <div class="code_header" style="text-align:right;">

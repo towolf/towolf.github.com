@@ -9,7 +9,7 @@ encoding: UTF-8
 GLSLDemo - Demonstrate use of the GLSL OpenGL Shading language in the
 Psychtoolbox.
 
-The OpenGL shading language \(GLSL\) allows to write specialized programs
+The OpenGL shading language (GLSL) allows to write specialized programs
 which are uploaded into the graphics hardware itself. These programs
 are then executed very efficiently in the grahpics hardware. So called
 Vertex-Shaders are executed on a per-vertex basis. They calculate and

@@ -10,7 +10,7 @@ glFlush  Interface to OpenGL function glFlush
 
 usage:  glFlush
 
-C function:  void glFlush\(void\)
+C function:  void glFlush(void)
 
 
 <div class="code_header" style="text-align:right;">

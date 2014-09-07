@@ -12,7 +12,7 @@ TCP\_UDP\_IP  - Network comunication with other applic. & remote matlab control.
  Peter Rydesaeter with support from  Mario Bergeron,  Mike Medeiros
  Se the pnet.c file for more information.
 
- \(C\) 1998-2002 Peter Rydesaeter, Mitthoegskolan Oestersund
+ (C) 1998-2002 Peter Rydesaeter, Mitthoegskolan Oestersund
      GNU Public License, Se pnet.c for more license information.
 
  Contents.m            This help file.

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-directory=CalDataFolder\(\[forceDemo\],\[calFileName\],\[calDir\]\)
+directory=CalDataFolder([forceDemo],[calFileName],[calDir])
 
 Get the path to the CalData folder.
 
-If "forceDemo" is true \(false by default\), then force use of
+If "forceDemo" is true (false by default), then force use of
 PsychCalDemoData.  Otherwise return location of PsychCalLocalData
 if it exists, and PsychCalDemoData if it PsychCalLocalData does
 not exist.
@@ -31,15 +31,15 @@ See also LoadCalFile, SaveCalFile.
 
 Denis Pelli 7/25/96
 Denis Pelli 2/28/98 change "CalDat" to "PsychCalData"
-8/14/00  dhb  Add alternate name, change names.
-4/1/07   dhb  Fix subtle bug in error message when there are duplicate cal
+\8/14/00  dhb  Add alternate name, change names.
+\4/1/07   dhb  Fix subtle bug in error message when there are duplicate cal
               folders on path.
-3/7/08   mpr  changed documentation to make it consistent \(apparently
+\3/7/08   mpr  changed documentation to make it consistent (apparently
               "forceDemo" used to be "alt"
-4/2/13   dhb  Add calFileName and associated behavior.
-6/2/13   dhb  Make this properly return subfolder containing calibration file
+\4/2/13   dhb  Add calFileName and associated behavior.
+\6/2/13   dhb  Make this properly return subfolder containing calibration file
               if .mat is not postpended.
-6/10/13  dhb  Fix buglet introduced 6/2/13 -- need to handle empty calFileName \(thanks to MS for
+\6/10/13  dhb  Fix buglet introduced 6/2/13 -- need to handle empty calFileName (thanks to MS for
               identifying the problem and the fix.
 
 

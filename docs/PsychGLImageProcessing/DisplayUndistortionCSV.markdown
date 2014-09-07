@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-scal = DisplayUndistortionCSV\(calibinfilename \[, caliboutfilename\]\[, screenid\]\)
+scal = DisplayUndistortionCSV(calibinfilename [, caliboutfilename][, screenid])
 
 Geometric display calibration procedure for undistortion of distorted
 displays. Needs graphics hardware with basic support for the PTB imaging
-pipeline \(see below\).
+pipeline (see below).
 
 Many display devices, e.g., video beamers and most CRT displays cause
 some amount of spatial distortion to your visual stimuli during display.
@@ -26,27 +26,27 @@ will show up undistorted on the display device.
 
 # For this to work, PTB needs two things:
 
-1. Recent graphics hardware with support for the PTB imaging pipeline:
+\1. Recent graphics hardware with support for the PTB imaging pipeline:
 See our Wiki for recommendations. However, all ATI cards starting with
 Radeon 9500 and all NVidia cards of type GeForce-FX5200 and later, as
 well as the Intel-GMA 950 and later should be able to do it, although
 more recent cards will have a higher performance.
 
-2. A calibration file that defines the warp transformation to apply. Your
+\2. A calibration file that defines the warp transformation to apply. Your
 experiment script will load that file into [Screen](/docs/Screen)'s "warp engine" at the
-beginning of your experiment and [Screen](/docs/Screen)\(\) will automatically apply that
+beginning of your experiment and [Screen](/docs/Screen)() will automatically apply that
 warping to each stimulus image before output.
 
-DisplayUndistortionCSV defines a continous mapping \(x', y'\) = f\(x, y\)
-from uncorrected input pixel locations \(x,y\) in your stimulus image to
-output locations \(x', y'\) on your display. This mapping is defined by a
+DisplayUndistortionCSV defines a continous mapping (x', y') = f(x, y)
+from uncorrected input pixel locations (x,y) in your stimulus image to
+output locations (x', y') on your display. This mapping is defined by a
 linear mesh of quadrilaterals, as read from the given input file. The
 file format is compatible with the Warp-API of NVidia's proprietary
 graphics drivers for some high-end Quadro GPUs on Windows-7 and later.
 
 
 How to use:
------------
+\-----------
 
 
 # Execute the function with the following parameters:
@@ -67,20 +67,20 @@ c  = Column index of the vertex.
 r  = Row index of the vertex.
 
 Each row describes one vertex of a mesh of connected quadrilaterals
-\(GL\_QUADS\). The mesh is basically a rectilinear grid, whose "grid line"
+(GL\_QUADS). The mesh is basically a rectilinear grid, whose "grid line"
 intersections are the locations of the vertices. The mesh gets distorted
 by moving around those intersections, thereby forming the actual warp
 mesh.
 
-Pixel color values at location \(tx,ty\) of the input framebuffer are
-projected to location \(vx,vy\) of the warped output framebuffer. Quads are
+Pixel color values at location (tx,ty) of the input framebuffer are
+projected to location (vx,vy) of the warped output framebuffer. Quads are
 defined by 4 vertices which define their corners. Pixel sampling and
 output locations inside quads are bilinearly interpolated for a smooth
 warp grid. The origin of the calibration coordinate system is the
-top-left framebuffer / screen corner \(0,0\), x-axis points to the right,
+top-left framebuffer / screen corner (0,0), x-axis points to the right,
 y-axis points downwards. All coordinates are normalized to a unit square
-screen. The range 0.0 - 1.0 maps to the screen width or height \(0.0 =
-Left or Top, 1.0 = Right or bottom\) and is subject to rescaling for a
+screen. The range 0.0 - 1.0 maps to the screen width or height (0.0 =
+Left or Top, 1.0 = Right or bottom) and is subject to rescaling for a
 specific displays real resolution. Values outside the 0-1 range are
 allowed. The corresponding mesh locations will be clipped to screen
 corners during warping.
@@ -95,7 +95,7 @@ Psychtoolbox.
 `caliboutfilename` Name of the file to which calibration results should
 be stored. If no name is provided, the file will be stored inside the
 'GeometryCalibration' subfolder of your psychtoolbox configuration
-directory \(path is PsychToolboxConfigDir\('GeometryCalibration'\). The
+directory (path is PsychToolboxConfigDir('GeometryCalibration'). The
 filename will contain the screenid of the display that was calibrated.
 
 

@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glMultiTexCoord1f  Interface to OpenGL function glMultiTexCoord1f
 
-usage:  glMultiTexCoord1f\( target, s \)
+usage:  glMultiTexCoord1f( target, s )
 
-C function:  void glMultiTexCoord1f\(GLenum target, GLfloat s\)
+C function:  void glMultiTexCoord1f(GLenum target, GLfloat s)
 
 
 <div class="code_header" style="text-align:right;">

@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glEvalMesh1  Interface to OpenGL function glEvalMesh1
 
-usage:  glEvalMesh1\( mode, i1, i2 \)
+usage:  glEvalMesh1( mode, i1, i2 )
 
-C function:  void glEvalMesh1\(GLenum mode, GLint i1, GLint i2\)
+C function:  void glEvalMesh1(GLenum mode, GLint i1, GLint i2)
 
 
 <div class="code_header" style="text-align:right;">

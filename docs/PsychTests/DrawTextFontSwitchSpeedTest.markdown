@@ -8,7 +8,7 @@ encoding: UTF-8
 
 DrawTextFontSwitchSpeedTest - Test font settings switching speed.
 
-This is a benchmark of the speed with which [Screen](/docs/Screen)\('DrawText'\) et al.
+This is a benchmark of the speed with which [Screen](/docs/Screen)('DrawText') et al.
 can handle switching between different font settings between text
 drawing. Specifically it tests switching between different text sizes, text
 styles and font families. It also performs non-switched drawing to establish
@@ -20,7 +20,7 @@ summary of drawing speed and then exits.
 # Background:
 
 In an ideal world, changing text settings should not slow down text drawing.
-In the real world, each time you change a text setting, [Screen](/docs/Screen)\(\) needs to
+In the real world, each time you change a text setting, [Screen](/docs/Screen)() needs to
 recompute various things, e.g., it needs to load new font data from the
 filesystem, rasterize glyphs into little images, convert them into OpenGL
 textures and upload them into the graphics card. This takes time and slows

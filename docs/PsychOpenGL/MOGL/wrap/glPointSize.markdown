@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glPointSize  Interface to OpenGL function glPointSize
 
-usage:  glPointSize\( size \)
+usage:  glPointSize( size )
 
-C function:  void glPointSize\(GLfloat size\)
+C function:  void glPointSize(GLfloat size)
 
 
 <div class="code_header" style="text-align:right;">

@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glColor4fv  Interface to OpenGL function glColor4fv
 
-usage:  glColor4fv\( v \)
+usage:  glColor4fv( v )
 
-C function:  void glColor4fv\(const GLfloat\* v\)
+C function:  void glColor4fv(const GLfloat\* v)
 
 
 <div class="code_header" style="text-align:right;">

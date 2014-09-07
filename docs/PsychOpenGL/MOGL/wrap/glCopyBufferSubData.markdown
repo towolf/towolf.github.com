@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glCopyBufferSubData  Interface to OpenGL function glCopyBufferSubData
 
-usage:  glCopyBufferSubData\( readTarget, writeTarget, ptr, ptr, ptr \)
+usage:  glCopyBufferSubData( readTarget, writeTarget, ptr, ptr, ptr )
 
-C function:  void glCopyBufferSubData\(GLenum readTarget, GLenum writeTarget, GLint ptr, GLint ptr, GLsizei ptr\)
+C function:  void glCopyBufferSubData(GLenum readTarget, GLenum writeTarget, GLint ptr, GLint ptr, GLsizei ptr)
 
 
 <div class="code_header" style="text-align:right;">

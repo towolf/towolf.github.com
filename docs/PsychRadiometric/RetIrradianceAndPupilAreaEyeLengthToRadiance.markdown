@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-radiance\_PowerPerAreaSr = RetIrradianceAndPupilAreaEyeLengthToRadiance\(irradiance\_PowerPerArea,irradianceS,pupilArea,eyeLength\)
+radiance\_PowerPerAreaSr = RetIrradianceAndPupilAreaEyeLengthToRadiance(irradiance\_PowerPerArea,irradianceS,pupilArea,eyeLength)
 
 Perform the geometric calculations necessary to convert a measurement of retinal
 irradiance to the source radiance that would produce it.
@@ -14,7 +14,7 @@ irradiance to the source radiance that would produce it.
 Perform the geometric calculations necessary to convert a measurement of source
 radiance to corresponding retinal irradiance.
 
-Let x be the units of distance \(m, cm, mm, um, etc.\)
+Let x be the units of distance (m, cm, mm, um, etc.)
 
   Input irradiance\_PowerPerArea is in units of power/x^2-wlinterval.
   Input irradianceS gives the wavelength sampling information.
@@ -32,7 +32,7 @@ as this is more conveniently foldeded into the spectral absorptance.
 
 See also: PsychRadiometric, RadianceAndPupilAreaEyeLengthToRetIrradiance, PupilAreaFromLum, EyeLength.
 
-3/6/13  dhb  Wrote it.
+\3/6/13  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

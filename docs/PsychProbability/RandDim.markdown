@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-mat = RandDim\(in,dim\)
+mat = RandDim(in,dim)
 randomizes dimension DIM of matrix IN
 IN can have any number of dimensions
 

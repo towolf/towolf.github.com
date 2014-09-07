@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-UpdatePsychtoolbox\(targetdirectory, targetRevision\)
+UpdatePsychtoolbox(targetdirectory, targetRevision)
 
 Update your working copy of the Psychtoolbox with the latest bug fixes,
 enhancements, and features from the master server.
@@ -21,7 +21,7 @@ update the Psychtoolbox folder found by Matlab's or Octave's "which"
 command. For example:
 
 UpdatePsychtoolbox
-UpdatePsychtoolbox\('~/Applications/Psychtoobox'\)
+UpdatePsychtoolbox('~/Applications/Psychtoobox')
 
 The "targetRevision" argument is optional and should be normally omitted.
 Normal behaviour is to upgrade your working copy to the latest revision.

@@ -8,9 +8,9 @@ encoding: UTF-8
 
 gluDeleteQuadric  Interface to OpenGL function gluDeleteQuadric
 
-usage:  gluDeleteQuadric\( quad \)
+usage:  gluDeleteQuadric( quad )
 
-C function:  void gluDeleteQuadric\(GLUquadric\* quad\)
+C function:  void gluDeleteQuadric(GLUquadric\* quad)
 
 
 <div class="code_header" style="text-align:right;">

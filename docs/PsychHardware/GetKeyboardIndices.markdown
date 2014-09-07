@@ -6,14 +6,14 @@ categories:
 encoding: UTF-8
 ---
 
-\[keyboardIndices, productNames, allInfos\] = GetKeyboardIndices\(\[productName\]\[, serialNumber\]\[, locationID\]\)
+[keyboardIndices, productNames, allInfos] = GetKeyboardIndices([productName][, serialNumber][, locationID])
 
 The PsychHID assigns each USB HID device connected to you computer a
 unique index. GetKeyboardIndices returns the indices for those HID
 devices which are keyboards.  The product names of each keyboard are
 returned in a second argument which is useful to identify the keyboard
 associated with an index. The third return argument is a cell-array with
-complete information about the keyboard device, e.g., allInfos\{1\} returns
+complete information about the keyboard device, e.g., allInfos{1} returns
 all known info about the 1st detected keyboard.
 
 If you have multiple keyboards connected you can restrict the set of
@@ -22,7 +22,7 @@ returned keyboard by specifying the following optional match-critera:
 product      = Product name of target devices, as returned in 'productNames'.
 
 serialNumber = Serial number of target devices. This is a text string,
-               not a number\!
+               not a number!
 
 locationID   = Numeric id of where the device is connected to the
                computer. The number is supposed to be unique for a given

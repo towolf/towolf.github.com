@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-\[sensor\] = PrimaryToSensor\(cal,primary\)
+[sensor] = PrimaryToSensor(cal,primary)
 
 Convert from primary coordinates to sensor color
 space coordinates.  The ambient lighting is added to

@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glLightModeliv  Interface to OpenGL function glLightModeliv
 
-usage:  glLightModeliv\( pname, params \)
+usage:  glLightModeliv( pname, params )
 
-C function:  void glLightModeliv\(GLenum pname, const GLint\* params\)
+C function:  void glLightModeliv(GLenum pname, const GLint\* params)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
- dimensions = PhotoreceptorDimensions\(receptorTypes,whichDimension,species,source\)
+ dimensions = PhotoreceptorDimensions(receptorTypes,whichDimension,species,source)
 
  Return estimates of photoreceptor dimensions.
 
@@ -21,7 +21,7 @@ encoding: UTF-8
  estimate sources support all receptor types.
 
  Note that the following three numbers are overdetermined: photopigment
- specific density \(sd\), photopigment axial density \(ad\), and outer segment
+ specific density (sd), photopigment axial density (ad), and outer segment
  length osl.  In particular, ad = sd\*osl.  Depending on the measurement
  method, different sources provide different pairs of these numbers.
  We have attempted to enforce this consistency in the set of routines
@@ -33,24 +33,24 @@ encoding: UTF-8
     OSdiam, ISdiam, OSlength.
 
  Supported species:
-        Human \(Default\), GuineaPig, Dog
+        Human (Default), GuineaPig, Dog
 
  Supported sources:
-   Rodeick \(Default\).
-    CVRL \(Human Cone OS length\)
-   Webvision \(Human Cone IS diameter\)
-   Hendrickson \(Human Rod OS length\)
-    SterlingLab \(GuineaPig dimensions\).
+   Rodeick (Default).
+    CVRL (Human Cone OS length)
+   Webvision (Human Cone IS diameter)
+   Hendrickson (Human Rod OS length)
+    SterlingLab (GuineaPig dimensions).
    Generic
-   PennDog \(Dog dimensions\).
-   None \(returns empty for the corresponding value\)
+   PennDog (Dog dimensions).
+   None (returns empty for the corresponding value)
 
  The Generic type returns a single number for all species/type.
 
- 7/11/03  dhb  Wrote it.
- 12/04/07 dhb  Added dog but with placeholder numbers.
- 8/9/13   dhb  Comment clean up, allow 'None' to return empty as the value.
- 8/10/13  dhb  Added Webvision source for IS diameter.
+ \7/11/03  dhb  Wrote it.
+ \12/04/07 dhb  Added dog but with placeholder numbers.
+ \8/9/13   dhb  Comment clean up, allow 'None' to return empty as the value.
+ \8/10/13  dhb  Added Webvision source for IS diameter.
 
 
 <div class="code_header" style="text-align:right;">

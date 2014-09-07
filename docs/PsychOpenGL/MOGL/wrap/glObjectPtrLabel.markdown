@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glObjectPtrLabel  Interface to OpenGL function glObjectPtrLabel
 
-usage:  glObjectPtrLabel\( ptr, length, label \)
+usage:  glObjectPtrLabel( ptr, length, label )
 
-C function:  void glObjectPtrLabel\(const void\* ptr, GLsizei length, const GLchar\* label\)
+C function:  void glObjectPtrLabel(const void\* ptr, GLsizei length, const GLchar\* label)
 
 
 <div class="code_header" style="text-align:right;">

@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGenSamplers  Interface to OpenGL function glGenSamplers
 
-usage:  samplers = glGenSamplers\( count \)
+usage:  samplers = glGenSamplers( count )
 
-C function:  void glGenSamplers\(GLsizei count, GLuint\* samplers\)
+C function:  void glGenSamplers(GLsizei count, GLuint\* samplers)
 
 
 <div class="code_header" style="text-align:right;">

@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGetIntegerv  Interface to OpenGL function glGetIntegerv
 
-usage:  params = glGetIntegerv\( pname \)
+usage:  params = glGetIntegerv( pname )
 
-C function:  void glGetIntegerv\(GLenum pname, GLint\* params\)
+C function:  void glGetIntegerv(GLenum pname, GLint\* params)
 
 
 <div class="code_header" style="text-align:right;">

@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glDrawElementsInstancedBaseVertex  Interface to OpenGL function glDrawElementsInstancedBaseVertex
 
-usage:  glDrawElementsInstancedBaseVertex\( mode, count, type, indices, instancecount, basevertex \)
+usage:  glDrawElementsInstancedBaseVertex( mode, count, type, indices, instancecount, basevertex )
 
-C function:  void glDrawElementsInstancedBaseVertex\(GLenum mode, GLsizei count, GLenum type, const GLvoid\* indices, GLsizei instancecount, GLint basevertex\)
+C function:  void glDrawElementsInstancedBaseVertex(GLenum mode, GLsizei count, GLenum type, const GLvoid\* indices, GLsizei instancecount, GLint basevertex)
 
 
 <div class="code_header" style="text-align:right;">

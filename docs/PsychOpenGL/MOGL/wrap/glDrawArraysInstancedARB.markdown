@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glDrawArraysInstancedARB  Interface to OpenGL function glDrawArraysInstancedARB
 
-usage:  glDrawArraysInstancedARB\( mode, first, count, primcount \)
+usage:  glDrawArraysInstancedARB( mode, first, count, primcount )
 
-C function:  void glDrawArraysInstancedARB\(GLenum mode, GLint first, GLsizei count, GLsizei primcount\)
+C function:  void glDrawArraysInstancedARB(GLenum mode, GLint first, GLsizei count, GLsizei primcount)
 
 
 <div class="code_header" style="text-align:right;">

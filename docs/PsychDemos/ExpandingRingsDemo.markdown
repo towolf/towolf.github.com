@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-ExpandingRingsDemo\(\[ringtype=0\]\) -- Generate an "expanding rings"
+ExpandingRingsDemo([ringtype=0]) -- Generate an "expanding rings"
 stimulus by use of GLSL shaders and Psychtoolbox procedural textures.
 
 This demo illustrates the use of "procedural textures" with Psychtoolbox.
@@ -24,12 +24,12 @@ The algorithm has to be implemented by a GLSL shader program - a vertex
 shader, geometry shader, fragment shader or any combination of them. The
 shader program is read from a file, compiled and then attached to the
 texture at texture creation time. Procedural textures only work with
-graphics hardware that has sufficiently advanced support for \(at least\)
+graphics hardware that has sufficiently advanced support for (at least)
 hardware fragment shaders.
 
 This demo implements a procedural texture which shows a set of rings that
 can expand and move. The shader gets attached to a purely virtual
-texture. The texture is drawn via the standard [Screen](/docs/Screen)\('DrawTexture'\)
+texture. The texture is drawn via the standard [Screen](/docs/Screen)('DrawTexture')
 command -- your graphics processor generates the image content of the
 stimulus on the fly during drawing of the texture via execution of the
 shader at each output pixel location.
@@ -37,8 +37,8 @@ shader at each output pixel location.
 The optional 'ringtype' parameter allows to select between different ring
 shapes. Default type is zero:
 
-0 = Hard transitions between red and yellow rings.
-1 = Transitions are modeled as a smooth sine wave, softly fading from
+\0 = Hard transitions between red and yellow rings.
+\1 = Transitions are modeled as a smooth sine wave, softly fading from
     yellow to red and back.
 
 

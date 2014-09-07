@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-FlushEvents\(\['mouseUp'\],\['mouseDown'\],\['keyDown'\],\['autoKey'\],\['update'\],...\)
+FlushEvents(['mouseUp'],['mouseDown'],['keyDown'],['autoKey'],['update'],...)
 
 Remove events from the system event queue.
 
@@ -18,7 +18,7 @@ limitations and caveats of this function, and to learn about - often
 better - alternatives.
 
 FlushEvents will accept all arguments for backward compatibility with
-Psychtoolbox-2, but only 'keyDown' \(or no argument at all\) removes
+Psychtoolbox-2, but only 'keyDown' (or no argument at all) removes
 keypress events. Events other than keypress events are not supported.
 
 See also: GetChar, CharAvail, FlushEvents, EventAvail.

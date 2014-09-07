@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
- USAGE: result=dodriftcorrect\(el \[, x, y, draw, allowsetup\]\)
+ USAGE: result=dodriftcorrect(el [, x, y, draw, allowsetup])
 
         el: eyelink default values
         x,y: position of driftcorrection target

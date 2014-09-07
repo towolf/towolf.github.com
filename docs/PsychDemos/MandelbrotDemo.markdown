@@ -29,10 +29,10 @@ fragment shaders.
 This demo implements the mathematical formula for visualization of the
 famous fractal Mandelbrot set in a fragment shader. The shader gets
 attached to a purely virtual texture. The texture is drawn via the
-standard [Screen](/docs/Screen)\('DrawTexture'\) command -- your graphics processor
+standard [Screen](/docs/Screen)('DrawTexture') command -- your graphics processor
 generates the image content of the Mandelbrot set on the fly during
 drawing of the texture via evaluation of the mandelbrot formula.
-Selecting a subregion \(the sourceRect parameter of 'DrawTexture'\) allows
+Selecting a subregion (the sourceRect parameter of 'DrawTexture') allows
 to zoom into a specific subregion of the Mandelbrot set.
 
 The implementation uses up to 150 iterations of the equation for each
@@ -47,7 +47,7 @@ Mandelbrot set under the search term "Mandelbrot set".
 
 The shader used for this demo is part of the "Orange book" - The guide to
 the OpenGL Shading language. The code is copyright 3DLabs. See the
-3DLabs-License.txt file in the PsychDemos/OpenGLDemos/GLSLDemoShaders/
+\3DLabs-License.txt file in the PsychDemos/OpenGLDemos/GLSLDemoShaders/
 subfolder for the license.
 
 

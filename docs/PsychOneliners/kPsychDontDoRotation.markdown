@@ -9,7 +9,7 @@ encoding: UTF-8
 kPsychDontDoRotation
 
 Returns a constant to be passed as part of the 'specialFlags' parameter
-of the [Screen](/docs/Screen)\('DrawTexture'\) and [Screen](/docs/Screen)\('DrawTextures'\) command.
+of the [Screen](/docs/Screen)('DrawTexture') and [Screen](/docs/Screen)('DrawTextures') command.
 
 If this flag is set, the texture drawing functions will not apply texture
 Rotation by themselves, even if the 'rotationAngle' parameter is

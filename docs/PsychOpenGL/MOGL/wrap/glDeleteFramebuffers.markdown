@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glDeleteFramebuffers  Interface to OpenGL function glDeleteFramebuffers
 
-usage:  glDeleteFramebuffers\( n, framebuffers \)
+usage:  glDeleteFramebuffers( n, framebuffers )
 
-C function:  void glDeleteFramebuffers\(GLsizei n, const GLuint\* framebuffers\)
+C function:  void glDeleteFramebuffers(GLsizei n, const GLuint\* framebuffers)
 
 
 <div class="code_header" style="text-align:right;">

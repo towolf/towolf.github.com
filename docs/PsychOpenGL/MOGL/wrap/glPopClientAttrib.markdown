@@ -10,7 +10,7 @@ glPopClientAttrib  Interface to OpenGL function glPopClientAttrib
 
 usage:  glPopClientAttrib
 
-C function:  void glPopClientAttrib\(void\)
+C function:  void glPopClientAttrib(void)
 
 
 <div class="code_header" style="text-align:right;">

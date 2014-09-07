@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-p=QuestP\(q,x\)
+p=QuestP(q,x)
 
-The probability of a correct \(or yes\) response at intensity x, assuming
+The probability of a correct (or yes) response at intensity x, assuming
 threshold is at x=0.
 
 See Quest.

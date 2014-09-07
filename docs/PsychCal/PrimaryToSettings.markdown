@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-\[settings, badIndex\] = PrimaryToSettings\(cal, primary\)
+[settings, badIndex] = PrimaryToSettings(cal, primary)
 
 Convert from primary color space coordinates to device
 setting coordinates.

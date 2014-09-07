@@ -32,7 +32,7 @@ encoding: UTF-8
 
     Version 1.4.4 27-11-2002
 
-    fixed dummy mode bug in eyelink.dll \(was due to an eyelink software incompatability
+    fixed dummy mode bug in eyelink.dll (was due to an eyelink software incompatability
     eyelinkeventexample now works on both mac and pc
     new function in eyelinkoneliners: dummymodedlg
     is now used in some of the examples to ask to run in dummy mode when no eyelink is connected
@@ -48,20 +48,20 @@ encoding: UTF-8
     known bugs: on PC, there's no communication between operator PC and subject PC during image-mode display
     eyelinkeventexample does not work on PC
     On PC no builtin drift correction and trackersetup functions are implemented
-    PC version requires modified getchar.dll\!
+    PC version requires modified getchar.dll!
     Sounds are not original eyelink sounds.....
 
-    Version 1.4.2 10-11-2002 \(local release only\)
-    Version 1.4.1 18-10-2002 \(local release only\)
+    Version 1.4.2 10-11-2002 (local release only)
+    Version 1.4.1 18-10-2002 (local release only)
 
     dotrackersetup.m: now allows one to go directly into a particular tracker mode
     this option is not fully tested. Just leave out the 'sendkey' parameter and it will work as it used to.
     added call to 'getnextdata' in addition to 'getnextdatatype' to conform to the c-routine call
-    button \[,time\] = Eyelink\('lastbuttonpress'\) now will properly report time if requested
-                                                \(previous versions had an erroneous
-                                                time parameter on the right hand side\)
-    removed superfluous \(non-error\) messages from initialization and openfile functions
-    added event types to initeyelinkdefaults \(for use with getnextdata\)
+    button [,time] = Eyelink('lastbuttonpress') now will properly report time if requested
+                                                (previous versions had an erroneous
+                                                time parameter on the right hand side)
+    removed superfluous (non-error) messages from initialization and openfile functions
+    added event types to initeyelinkdefaults (for use with getnextdata)
     tested with PsychToolbox 2.5.2 and pre-release screen 2.5.3
 
     New naming scheme for folder and subfolders, a la PsychToolbox
@@ -73,11 +73,11 @@ encoding: UTF-8
         EyelinkOneLiners
 
     new functions:
-    time = Eyelink\('requesttime'\)
-    time = Eyelink\('readtime'\)
+    time = Eyelink('requesttime')
+    time = Eyelink('readtime')
 
-    result = Eyelink\('buttonstates'\)
-    \[result = \]Eyelink\('flushkeybuttons'\[, enablebuttons = 0\]\)
+    result = Eyelink('buttonstates')
+    [result = ]Eyelink('flushkeybuttons'[, enablebuttons = 0])
     utility function windowsize
 
     new tests:

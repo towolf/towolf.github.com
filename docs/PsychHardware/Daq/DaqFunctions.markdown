@@ -29,7 +29,7 @@ DaqDReadBit             Read single bit from digital port
 DaqDWriteBit            Write single bit to digital port
 
 \* Miscellaneous commands \*
-DaqDeviceIndex          Get reference\(s\) to our device\(s\)
+DaqDeviceIndex          Get reference(s) to our device(s)
 DaqFind                 Return DeviceIndex iff one device is connected
 DaqBlinkLED             Cause LED to blink
 DaqCInit                Initialize counter

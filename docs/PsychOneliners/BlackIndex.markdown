@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-color=BlackIndex\(windowPtrOrScreenNumber\)
+color=BlackIndex(windowPtrOrScreenNumber)
 Returns the CLUT index to produce black at the current screen depth,
 assuming a standard color lookup table for that depth. E.g.
-black=BlackIndex\(w\);
-[Screen](/docs/Screen)\(w,'FillRect',black\);
+black=BlackIndex(w);
+[Screen](/docs/Screen)(w,'FillRect',black);
 
 See WhiteIndex.
 

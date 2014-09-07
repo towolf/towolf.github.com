@@ -8,7 +8,7 @@ encoding: UTF-8
 
 glmMovie  Play a movie
 
-usage:  glmMovie\( imlist, poslist, vbllist, packimage1, ... \)
+usage:  glmMovie( imlist, poslist, vbllist, packimage1, ... )
 
 
 <div class="code_header" style="text-align:right;">

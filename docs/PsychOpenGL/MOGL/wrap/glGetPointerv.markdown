@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGetPointerv  Interface to glGetPointerv
 
-usage:  params = glGetPointerv\( pname \)
+usage:  params = glGetPointerv( pname )
 
-C function:  void glGetPointerv \(GLenum pname, GLvoid\* \*params\);
+C function:  void glGetPointerv (GLenum pname, GLvoid\* \*params);
 
 
 <div class="code_header" style="text-align:right;">

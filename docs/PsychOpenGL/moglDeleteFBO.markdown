@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-moglDeleteFBO\(fbo\) -- Delete FBO 'fbo' and its associated buffers and textures.
+moglDeleteFBO(fbo) -- Delete FBO 'fbo' and its associated buffers and textures.
 
 This function is mostly useful for image processing and GPGPU
 applications. Normal Psychtoolbox code will want to use standard

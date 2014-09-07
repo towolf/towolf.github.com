@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glLineWidth  Interface to OpenGL function glLineWidth
 
-usage:  glLineWidth\( width \)
+usage:  glLineWidth( width )
 
-C function:  void glLineWidth\(GLfloat width\)
+C function:  void glLineWidth(GLfloat width)
 
 
 <div class="code_header" style="text-align:right;">

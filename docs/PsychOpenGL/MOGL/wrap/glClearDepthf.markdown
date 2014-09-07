@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glClearDepthf  Interface to OpenGL function glClearDepthf
 
-usage:  glClearDepthf\( d \)
+usage:  glClearDepthf( d )
 
-C function:  void glClearDepthf\(GLfloat d\)
+C function:  void glClearDepthf(GLfloat d)
 
 
 <div class="code_header" style="text-align:right;">

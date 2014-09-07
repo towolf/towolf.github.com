@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-\[event, nremaining\] = KbEventGet\(\[deviceIndex\]\[, maxWaitTimeSecs=0\]\)
+[event, nremaining] = KbEventGet([deviceIndex][, maxWaitTimeSecs=0])
 
 Return oldest pending event, if any, in return argument 'event', and the
 remaining number of recorded events in the event buffer of a keyboard
@@ -16,7 +16,7 @@ By default, the event buffer of the default keyboard queue is checked,
 but you can specify 'deviceIndex' to check the buffer of the queue
 associated with 'deviceIndex'.
 
-KbEventGet\(\) will wait up to 'maxWaitTimeSecs' seconds for at least one
+KbEventGet() will wait up to 'maxWaitTimeSecs' seconds for at least one
 event to show up before it gives up. By default, it doesn't wait but just
 gives up if there aren't any events queued at time of invocation.
 
@@ -31,14 +31,14 @@ struct currently contains the following fields:
 
 'Pressed' = 1 for a key press event, 0 for a key release event.
 
-'CookedKey' = Keycode translated into a GetChar\(\) style ASCII character code.
+'CookedKey' = Keycode translated into a GetChar() style ASCII character code.
 Or zero if key does not have a corresponding character. Or -1 if mapping
 is unsupported for given event. This does not yet work correctly on OSX.
 
 Keyboard event buffers are a different way to access the information
 collected by keyboard queues. Before you can use an event buffer you
-always must create its "parent keyboard queue" via KbQueueCreate\(\) and
-call KbQueueStart\(\) to enable key event recording. See "help
+always must create its "parent keyboard queue" via KbQueueCreate() and
+call KbQueueStart() to enable key event recording. See "help
 KbQueueCreate" etc. on how to do this.
 ----
 

@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glPatchParameterfv  Interface to OpenGL function glPatchParameterfv
 
-usage:  glPatchParameterfv\( pname, values \)
+usage:  glPatchParameterfv( pname, values )
 
-C function:  void glPatchParameterfv\(GLenum pname, const GLfloat\* values\)
+C function:  void glPatchParameterfv(GLenum pname, const GLfloat\* values)
 
 
 <div class="code_header" style="text-align:right;">

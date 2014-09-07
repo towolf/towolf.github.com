@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-gestaltBits = [Gestalt](/docs/Gestalt)\(selector\)
+gestaltBits = [Gestalt](/docs/Gestalt)(selector)
 
 # OS X
 
@@ -18,10 +18,10 @@ logical array holding the result of the query.
 
 # For example:
 
-  gestaltbits = gestalt\('sysa'\)
+  gestaltbits = gestalt('sysa')
 
-     gestaltbits\(32\) will be 1 if run from a 680x0-based Macintosh, while
-     gestaltbits\(31\) will be 1 if run from a PowerPC-based Macintosh.
+     gestaltbits(32) will be 1 if run from a 680x0-based Macintosh, while
+     gestaltbits(31) will be 1 if run from a PowerPC-based Macintosh.
 
 For a list of four-character selector codes, see the Carbon [Gestalt](/docs/Gestalt)
 Manager Reference
@@ -44,9 +44,9 @@ work-alike implementation of the identically-named function previously
 provided by MATLAB.  The only differences between Psychtoolbox [Gestalt](/docs/Gestalt) and
 MATLAB [Gestalt](/docs/Gestalt) are:
 
-  1. Psychtoolbox [Gestalt](/docs/Gestalt) returns a struct holding information about
+  \1. Psychtoolbox [Gestalt](/docs/Gestalt) returns a struct holding information about
      itself when passed 'Version', for example:
-    \>\> [Gestalt](/docs/Gestalt)\('Version'\)
+    \>\> [Gestalt](/docs/Gestalt)('Version')
 
     ans =
 
@@ -61,9 +61,9 @@ MATLAB [Gestalt](/docs/Gestalt) are:
          project: 'OpenGL Psychtoolbox'
               os: 'Apple OS X'
         language: 'MATLAB'
-         authors: \[1x1 struct\]
+         authors: [1x1 struct]
 
-  2. Psychtoolbox [Gestalt](/docs/Gestalt) will return the error code in the event of any
+  \2. Psychtoolbox [Gestalt](/docs/Gestalt) will return the error code in the event of any
      [Gestalt](/docs/Gestalt) error.  MATLAB [Gestalt](/docs/Gestalt) will return the error code in the
      event of error code -5551.  Its behavior for other error codes is
      unknown.
@@ -77,7 +77,7 @@ In MATLAB versions below 6.0 MATLAB supplies [Gestalt](/docs/Gestalt).
 [Gestalt](/docs/Gestalt) does not exist in Windows.
 ----
 
-See also: [Screen](/docs/Screen)\('Computer?'\), MacModelName, AppleVersion
+See also: [Screen](/docs/Screen)('Computer?'), MacModelName, AppleVersion
 
 
 <div class="code_header" style="text-align:right;">

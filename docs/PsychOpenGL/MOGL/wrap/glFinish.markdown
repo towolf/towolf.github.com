@@ -10,7 +10,7 @@ glFinish  Interface to OpenGL function glFinish
 
 usage:  glFinish
 
-C function:  void glFinish\(void\)
+C function:  void glFinish(void)
 
 
 <div class="code_header" style="text-align:right;">

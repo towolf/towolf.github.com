@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-hz=FrameRate\(\[windowOrScreenNumber\]\)
+hz=FrameRate([windowOrScreenNumber])
 
 Returns accurate frame rate of window or screen. Default is the main
 screen. The windowOrScreenNumber and frame rate are cached so subsequent

@@ -6,13 +6,13 @@ categories:
 encoding: UTF-8
 ---
 
-DelayedSoundFeedbackDemo\(\[reqlatency=150 ms\]\[, duplex=0\]\[, freq = 48000\]\[, minLatency= 10 ms\]\)
+DelayedSoundFeedbackDemo([reqlatency=150 ms][, duplex=0][, freq = 48000][, minLatency= 10 ms])
 
-THIS IS EARLY ALPHA CODE\! IT MAY OR MAY NOT WORK RELIABLY ON YOUR SETUP\!
+# THIS IS EARLY ALPHA CODE! IT MAY OR MAY NOT WORK RELIABLY ON YOUR SETUP!
 TEST IT WITH MEASUREMENT EQUIPMENT IF YOU DEPEND ON ACCURATE FEEDBACK
-TIMING\!\!\!
+TIMING!!!
 
-Demonstrates usage of the new Psychtoolbox sound driver PsychPortAudio\(\)
+Demonstrates usage of the new Psychtoolbox sound driver PsychPortAudio()
 for audio feedback with a controlled delay.
 
 Sound is captured from the default recording device and then - with a
@@ -36,9 +36,9 @@ to setup.
 # 'duplex' = Select between full-duplex and half-duplex mode:
 
 Depending on your sound hardware you'll have to either leave 'duplex' at
-its default of zero \(2 times half-duplex mode, aka simplex mode\) or set
-it to 1 \(full-duplex mode\). On a given system, only one of these will work
-reliably \(or at all\): ASIO audio hardware -- typically on MS-Windows --
+its default of zero (2 times half-duplex mode, aka simplex mode) or set
+it to 1 (full-duplex mode). On a given system, only one of these will work
+reliably (or at all): ASIO audio hardware -- typically on MS-Windows --
 will usually need full-duplex mode and won't work at all in simplex mode.
 On Macintosh OS/X it depends on the sound hardware. IntelMacs are happy
 with half-duplex mode, some PowerMacs may need full-duplex mode. However,
@@ -47,7 +47,7 @@ much higher accuracy and reliability on OS/X at least with the built-in
 soundchips on Intel based Macintosh computers. On Linux, performance
 varies depending on the card at use.
 
-'freq' = Sampling frequency \(Hz\). Defaults to 48000 Hz as this rate is
+'freq' = Sampling frequency (Hz). Defaults to 48000 Hz as this rate is
 most commonly supported on most sound hardware. The maximum achievable
 value depends on your specific soundcard. IntelMac's built in soundchips
 allow for a maximum of 96000 Hz, high-end soundcards may allow for 192000
@@ -69,7 +69,7 @@ feedback with controlled low-latency, and a freq'ency of 96000 Hz. For
 lowest latency mode, you may try reqlatency = 0 and duplex = 1.
 
 On MS-Windows you \*must\* use a soundcard with ASIO support for any
-reasonable results\! Here you should always set duplex = 1 for full-duplex
+reasonable results! Here you should always set duplex = 1 for full-duplex
 operation, anything else will fail. Use reqlatency = 0 for feedback with
 minimal latency, positive values for feedback with controlled latency.
 Play around with the 'minLatency' parameter, set it as low as possible -

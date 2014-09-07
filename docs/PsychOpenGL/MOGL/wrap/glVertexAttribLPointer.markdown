@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glVertexAttribLPointer  Interface to OpenGL function glVertexAttribLPointer
 
-usage:  glVertexAttribLPointer\( index, size, type, stride, pointer \)
+usage:  glVertexAttribLPointer( index, size, type, stride, pointer )
 
-C function:  void glVertexAttribLPointer\(GLuint index, GLint size, GLenum type, GLsizei stride, const GLvoid\* pointer\)
+C function:  void glVertexAttribLPointer(GLuint index, GLint size, GLenum type, GLsizei stride, const GLvoid\* pointer)
 
 
 <div class="code_header" style="text-align:right;">

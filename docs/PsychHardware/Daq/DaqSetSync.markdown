@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-err=DaqSetSync\(DeviceIndex,type\)
+err=DaqSetSync(DeviceIndex,type)
 USB-1208FS: Configure sync input/output.
 "DeviceIndex" is a small integer, the array index specifying which HID
-        device in the array returned by PsychHID\('Devices'\) is interface
-        0 of the desired USB-1208FS box.
+        device in the array returned by PsychHID('Devices') is interface
+        \0 of the desired USB-1208FS box.
 "type" is 0 for master, 1 for slave with continuous clock, or 2 for slave
         with gated clock.
 This command configures the sync signal.  The sync signal may be used to
@@ -19,7 +19,7 @@ devices are to be used, one device is selected as the master and the rest
 as slaves.  The sync signal of all devices must be wired together.  The
 master will output a pulse every sample, and all of the devices will
 acquire their samples simultaneously. This may also be used to pace one
-or more devices from an external TTL/CMOS clock signal \(max rate 50 kHz.\)
+or more devices from an external TTL/CMOS clock signal (max rate 50 kHz.)
 This may also be used with an external trigger; the external trigger
 signal should be brought to the master device, and all devices will begin
 sampling when the master is triggered. If a device is configured as a

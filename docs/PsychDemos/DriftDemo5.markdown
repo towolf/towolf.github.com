@@ -6,13 +6,13 @@ categories:
 encoding: UTF-8
 ---
 
-function DriftDemo5\(angle, cyclespersecond, f, drawmask\)
+function DriftDemo5(angle, cyclespersecond, f, drawmask)
 ----
 
-Display animated gratings using the new [Screen](/docs/Screen)\('DrawTexture'\) command.
+Display animated gratings using the new [Screen](/docs/Screen)('DrawTexture') command.
 
 The demo shows two drifting sine gratings through circular apertures. The
-1st drifting grating is surrounded by an annulus \(a ring\) that shows a
+\1st drifting grating is surrounded by an annulus (a ring) that shows a
 second drifting grating with a different orientation.
 
 The demo ends after a key press or after 20 seconds have elapsed.

@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glScalef  Interface to OpenGL function glScalef
 
-usage:  glScalef\( x, y, z \)
+usage:  glScalef( x, y, z )
 
-C function:  void glScalef\(GLfloat x, GLfloat y, GLfloat z\)
+C function:  void glScalef(GLfloat x, GLfloat y, GLfloat z)
 
 
 <div class="code_header" style="text-align:right;">

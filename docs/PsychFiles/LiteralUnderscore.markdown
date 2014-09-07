@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-str =  LiteralUnderscore\(instr\)
+str =  LiteralUnderscore(instr)
 
 Some Matlab printing and plotting routines treat an
 underscore as an instruction to subscript the next

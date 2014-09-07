@@ -12,10 +12,10 @@ This demo makes use of the FOSS GPUmat toolbox to perform a GPU
 accelerated 2D FFT + filtering in frequency space + 2D inverse FFT on a
 live video feed from video capture or movie playback. GPUmat allows to
 use NVidia's CUDA gpu computing framework on supported NVidia gpu's
-\(GeForce-8000 series and later, aka Direct3D-10 or OpenGL-3 capable\).
+(GeForce-8000 series and later, aka Direct3D-10 or OpenGL-3 capable).
 
-It shows how a Psychtoolbox floating point texture \(with video content
-inside\) can be efficiently passed to GPUmat as a matrix of GPUsingle data
+It shows how a Psychtoolbox floating point texture (with video content
+inside) can be efficiently passed to GPUmat as a matrix of GPUsingle data
 type, which is stored and processed on the GPU. Then it uses GPUmat's fft
 routines for forward/inverse fft's and matrix manipulation. Then it
 returns the final image to Psychtoolbox as a new floating point texture
@@ -28,7 +28,7 @@ graphics card.
 
 # Usage:
 
-GPUFFTVideoCaptureDemo\(\[usegpu=1\]\[, showfft=0\]\[, fwidth=11\]\[, roi=\[0 0 640 480\]\]\[, depth=1\]\[, deviceId=0\]\[, cameraname\]\)
+GPUFFTVideoCaptureDemo([usegpu=1][, showfft=0][, fwidth=11][, roi=[0 0 640 480]][, depth=1][, deviceId=0][, cameraname])
 
 # Parameters:
 
@@ -39,7 +39,7 @@ GPUFFTVideoCaptureDemo\(\[usegpu=1\]\[, showfft=0\]\[, fwidth=11\]\[, roi=\[0 0 
 'fwidth' = Width of low-pass filter kernel in frequency space units.
 
 'roi' Selects a rectangular subregion of the camera for display. By
-default, it selects a \[0 0 640 480\] rectangle, ie. the full area of a
+default, it selects a [0 0 640 480] rectangle, ie. the full area of a
 camera with 640 x 480 pixels resolution. This parameter may need tweaking
 for some cameras, as some drivers have bugs and don't work well with all
 settings.

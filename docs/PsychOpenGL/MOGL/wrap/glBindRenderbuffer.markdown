@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glBindRenderbuffer  Interface to OpenGL function glBindRenderbuffer
 
-usage:  glBindRenderbuffer\( target, renderbuffer \)
+usage:  glBindRenderbuffer( target, renderbuffer )
 
-C function:  void glBindRenderbuffer\(GLenum target, GLuint renderbuffer\)
+C function:  void glBindRenderbuffer(GLenum target, GLuint renderbuffer)
 
 
 <div class="code_header" style="text-align:right;">

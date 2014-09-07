@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glEnableVertexAttribArray  Interface to OpenGL function glEnableVertexAttribArray
 
-usage:  glEnableVertexAttribArray\( index \)
+usage:  glEnableVertexAttribArray( index )
 
-C function:  void glEnableVertexAttribArray\(GLuint index\)
+C function:  void glEnableVertexAttribArray(GLuint index)
 
 
 <div class="code_header" style="text-align:right;">

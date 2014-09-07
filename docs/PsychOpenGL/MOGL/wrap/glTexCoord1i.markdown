@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glTexCoord1i  Interface to OpenGL function glTexCoord1i
 
-usage:  glTexCoord1i\( s \)
+usage:  glTexCoord1i( s )
 
-C function:  void glTexCoord1i\(GLint s\)
+C function:  void glTexCoord1i(GLint s)
 
 
 <div class="code_header" style="text-align:right;">

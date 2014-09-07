@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-DownloadPsychtoolbox\(\[targetdirectory\]\[, flavor\]\[, targetRevision\]\)
+DownloadPsychtoolbox([targetdirectory][, flavor][, targetRevision])
 
 This script downloads the latest GNU/Linux, Mac OSX, or Windows
 Psychtoolbox-3, version 3.0.10 or later, from our git-server to your
@@ -29,18 +29,18 @@ choose the unsupported legacy flavor "Psychtoolbox-3.0.10" via the
 optional 'flavor' parameter.
 
 If you want to download older versions of Psychtoolbox than 3.0.10, e.g.,
-version 3.0.9, use the DownloadLegacyPsychtoolbox\(\) function instead of
+version 3.0.9, use the DownloadLegacyPsychtoolbox() function instead of
 this function.
 
 On Mac OSX, all parameters are optional. On MS-Windows and GNU/Linux, the
 first parameter "targetdirectory" with the path to the installation
 target directory is required. The "targetdirectory" name may not contain
 any white space, otherwise download will fail with mysterious error
-messages\!
+messages!
 
 On OSX, your working copy of the Psychtoolbox will be placed in either
-your /Applications or your /Users/Shared folder \(depending on permissions
-and your preference\), or you may specify a 'targetdirectory', as you
+your /Applications or your /Users/Shared folder (depending on permissions
+and your preference), or you may specify a 'targetdirectory', as you
 prefer.
 
 On Microsoft Windows, you must specify the full path, including
@@ -48,7 +48,7 @@ the drive name where Psychtoolbox should be installed, e.g.,
 'C:\\MyToolboxes\\'.
 
 The desired flavor of a Psychtoolbox release can be selected via the
-optional "flavor" parameter: By default, 'beta' \(aka 'current'\) will be
+optional "flavor" parameter: By default, 'beta' (aka 'current') will be
 installed if you don't specify otherwise, as this is almost always the
 best possible choice. You may be able to download an old versioned
 release via a namestring like 'Psychtoolbox-x.y.z', e.g.,
@@ -57,7 +57,7 @@ only useful if you run a very old operating system or Matlab version that
 isn't supported by the current "beta" anymore, so you'd need to stick
 with an old versioned release.
 
-Normally your download should just work\(TM\). Very infrequently, the
+Normally your download should just work(TM). Very infrequently, the
 download servers may be overloaded or down for maintenance, resulting in
 download failure. In that case, please retry a few hours later.
 
@@ -75,18 +75,18 @@ Revisions can be specified by a revision number or by the special flag
 
 
 INSTALLATION INSTRUCTIONS: The Wiki contains much more up to date
-instructions. If in doubt, follow instructions on the Wiki\!
+instructions. If in doubt, follow instructions on the Wiki!
 
-1. If you don't already have it, you must install the Subversion client.
+\1. If you don't already have it, you must install the Subversion client.
 For Mac OSX 10.6 and later, download the latest Mac OSX Subversion client
-from: http://www.wandisco.com/subversion/download\#osx
+from: http://www.wandisco.com/subversion/download#osx
 If you have the XCode command line tools installed, you won't need to
 install subversion as it is included in these tools.
 
 # For Windows, download the Windows Subversion client from one of these:
 
-http://subversion.apache.org/packages.html\#windows
-http://www.wandisco.com/subversion/download\#windows
+http://subversion.apache.org/packages.html#windows
+http://www.wandisco.com/subversion/download#windows
 
 Install the Subversion client on your machine by double-clicking the
 installer and following the instructions. After installation of the
@@ -100,18 +100,18 @@ between the "Program" and "Files".
 
 Alternatively, if you don't have the neccessary permissions to install
 Subversion into a system folder, you can install Subversion into an
-arbitrary folder on your system \(excluding ones with blanks in their
-path\) and then add that folder to your Matlab or Octave path. E.g. you
+arbitrary folder on your system (excluding ones with blanks in their
+path) and then add that folder to your Matlab or Octave path. E.g. you
 installed into D:\\MyOwnFolder\\Subversion\\ . Then you can do this:
-addpath\('D:\\MyOwnFolder\\Subversion\\'\). Our installer should find the
+addpath('D:\\MyOwnFolder\\Subversion\\'). Our installer should find the
 client then.
 
 For Linux, just install the subversion package from your package
 management tool.
 
 
-2. On MacOS/X, to install the Psychtoolbox in the default location
-\(/Applications or, failing that, /Users/Shared\). Just type:
+\2. On MacOS/X, to install the Psychtoolbox in the default location
+(/Applications or, failing that, /Users/Shared). Just type:
 
 DownloadPsychtoolbox
 
@@ -125,14 +125,14 @@ the Psychtoolbox in some other folder, then specify it in the optional
 first argument of your call.
 
 On Windows or Linux, provide a pathname, e.g.:
-DownloadPsychtoolbox\('C:\\MyToolboxes\\'\);
+DownloadPsychtoolbox('C:\\MyToolboxes\\');
 
 That's it. Any pre-existing installation of the Psychtoolbox will be
-removed \(if you approve\). The program will then download the latest
+removed (if you approve). The program will then download the latest
 Psychtoolbox and update your MATLAB / OCTAVE path and other relevant
 system settings.
 
-Enjoy\! If you're new to this, you might start by typing "help
+Enjoy! If you're new to this, you might start by typing "help
 Psychtoolbox".
 
 P.S. If you get stuck, first check the FAQ section and Download section
@@ -159,14 +159,14 @@ old installation and get a fresh copy with the requested flavor.
 # PERMISSIONS:
 
 There's a thorny issue with permissions on OS/X. It may not be possible
-to install into /Applications \(or whatever the targetdirectory is\) with
+to install into /Applications (or whatever the targetdirectory is) with
 the user's existing privileges. The normal situation on Mac OSX is that a
 few users have "administrator" privileges, and many don't. By default,
 writing to the /Applications folder requires administrator privileges.
 
 DownloadPsychtoolbox creates the Psychtoolbox folder with permissions set
 to allow writing by everyone. Our hope is that this will allow updating
-\(by UpdatePsychtoolbox\) without need for administrator privileges.
+(by UpdatePsychtoolbox) without need for administrator privileges.
 
 Some labs that may want to be able to install without access to an
 administrator. For them we offer the fall back of installing Psychtoolbox
@@ -180,7 +180,7 @@ normally saved in MATLABROOT/toolbox/local/pathdef.m, where "MATLABROOT"
 stands for the result returned by running that function in MATLAB, e.g.
 '/Applications/MATLAB.app/Contents/Matlab14.1'. Since pathdef.m is inside
 the MATLAB package, which is normally in the Applications folder,
-ordinary users \(not administrators\) cannot write to pathdef.m. They'll
+ordinary users (not administrators) cannot write to pathdef.m. They'll
 get an error message whenever they try to save the path, e.g. by typing
 "savepath". Most users will find this an unacceptable limitation. The
 solution is very simple, ask an administrator to use File Get Info to set

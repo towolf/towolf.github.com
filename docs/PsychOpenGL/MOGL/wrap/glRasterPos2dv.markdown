@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glRasterPos2dv  Interface to OpenGL function glRasterPos2dv
 
-usage:  glRasterPos2dv\( v \)
+usage:  glRasterPos2dv( v )
 
-C function:  void glRasterPos2dv\(const GLdouble\* v\)
+C function:  void glRasterPos2dv(const GLdouble\* v)
 
 
 <div class="code_header" style="text-align:right;">

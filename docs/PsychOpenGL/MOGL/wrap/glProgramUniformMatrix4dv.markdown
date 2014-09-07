@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glProgramUniformMatrix4dv  Interface to OpenGL function glProgramUniformMatrix4dv
 
-usage:  glProgramUniformMatrix4dv\( program, location, count, transpose, value \)
+usage:  glProgramUniformMatrix4dv( program, location, count, transpose, value )
 
-C function:  void glProgramUniformMatrix4dv\(GLuint program, GLint location, GLsizei count, GLboolean transpose, const GLdouble\* value\)
+C function:  void glProgramUniformMatrix4dv(GLuint program, GLint location, GLsizei count, GLboolean transpose, const GLdouble\* value)
 
 
 <div class="code_header" style="text-align:right;">

@@ -9,12 +9,12 @@ encoding: UTF-8
 rval = kPsychNeedFastBackingStore
 
 Return a flag that you can pass to the 'imagingmode' parameter of
-[Screen](/docs/Screen)\('OpenWindow'\) in order to request use of fast image buffers.
+[Screen](/docs/Screen)('OpenWindow') in order to request use of fast image buffers.
 
 If requested, Psychtoolbox will use an especially fast buffering scheme
 to implement Offscreen windows and to implement the dontclear=1 mode of
-[Screen](/docs/Screen)\('[Flip](/docs/Flip)'\). This can significantly speed up drawing if you use
-[Screen](/docs/Screen)\('[Flip](/docs/Flip)'\) with dontclear=1 or if you make heavy use of Offscreen
+[Screen](/docs/Screen)('[Flip](/docs/Flip)'). This can significantly speed up drawing if you use
+[Screen](/docs/Screen)('[Flip](/docs/Flip)') with dontclear=1 or if you make heavy use of Offscreen
 windows.
 
 It is part of the Psychtoolbox imaging pipeline and only works on modern

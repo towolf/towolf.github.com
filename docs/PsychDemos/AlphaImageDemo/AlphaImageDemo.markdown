@@ -9,7 +9,7 @@ encoding: UTF-8
 AlphaImageDemo
 
 Display a gaussian masked image, locked to the cursor position,
-using the [Screen](/docs/Screen)\('DrawTexture'\) command.
+using the [Screen](/docs/Screen)('DrawTexture') command.
 
 This illustrates an application of OpenGL Alpha blending by displaying
 an image masked with a gaussian transparency mask.

@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glBegin  Interface to OpenGL function glBegin
 
-usage:  glBegin\( mode \)
+usage:  glBegin( mode )
 
-C function:  void glBegin\(GLenum mode\)
+C function:  void glBegin(GLenum mode)
 
 
 <div class="code_header" style="text-align:right;">

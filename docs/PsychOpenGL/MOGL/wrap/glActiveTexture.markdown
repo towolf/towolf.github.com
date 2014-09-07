@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glActiveTexture  Interface to OpenGL function glActiveTexture
 
-usage:  glActiveTexture\( texture \)
+usage:  glActiveTexture( texture )
 
-C function:  void glActiveTexture\(GLenum texture\)
+C function:  void glActiveTexture(GLenum texture)
 
 
 <div class="code_header" style="text-align:right;">

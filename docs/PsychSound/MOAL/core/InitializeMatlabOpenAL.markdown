@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-InitializeMatlabOpenAL\(\[debuglevel\] \[,snddevicename\] \[, openal\_c\_style\]\)
+InitializeMatlabOpenAL([debuglevel] [,snddevicename] [, openal\_c\_style])
 
 InitializeMatlabOpenAL -- Initialize the OpenAL for Matlab wrapper 'moal'.
 
@@ -19,7 +19,7 @@ OpenAL constants into your Matlab workspace. It will also set up
 Psychtoolbox for interfacing with external OpenAL code.
 
 MacOS/X users do not need to take any measures, OpenAL comes installed on
-Tiger \(10.4\) by default. The same is true for modern GNU/Linux distributions.
+Tiger (10.4) by default. The same is true for modern GNU/Linux distributions.
 
 Users of Microsoft Windows need to download and install the freely available
 OpenAL runtime for Windows. Follow the links to the runtime for Windows in

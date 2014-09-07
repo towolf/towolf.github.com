@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-LoadGenerator\(\[yieldmsecs=0\]\)
+LoadGenerator([yieldmsecs=0])
 
 Create cpu-load by simply executing an empty while-loop as fast as
 possible.

@@ -10,7 +10,7 @@ glGetGraphicsResetStatusARB  Interface to OpenGL function glGetGraphicsResetStat
 
 usage:  r = glGetGraphicsResetStatusARB
 
-C function:  GLenum glGetGraphicsResetStatusARB\(void\)
+C function:  GLenum glGetGraphicsResetStatusARB(void)
 
 
 <div class="code_header" style="text-align:right;">

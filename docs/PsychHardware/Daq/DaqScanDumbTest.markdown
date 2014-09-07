@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-DaqScanDumbTest - Minimal test of DaqAInScan\(\) functionality.
+DaqScanDumbTest - Minimal test of DaqAInScan() functionality.
 Tries 1 channel acquisition of samples from channel 0 with
-default sampling parameters \(1000 samples at 1 KhZ typically\).
+default sampling parameters (1000 samples at 1 KhZ typically).
 
 
 <div class="code_header" style="text-align:right;">

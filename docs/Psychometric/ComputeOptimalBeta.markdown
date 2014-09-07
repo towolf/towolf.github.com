@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-beta = ComputeOptimalBeta\(ps,pn,Vh,Vfa,Vm,Vcr\)
+beta = ComputeOptimalBeta(ps,pn,Vh,Vfa,Vm,Vcr)
 
 Compute the optimal beta to be used in a yes-no
 experiment with the passed prior odds and payoffs.

@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-inside = IsInRect\(x,y,rect\)
+inside = IsInRect(x,y,rect)
 
 Is location x,y inside the rect?
 

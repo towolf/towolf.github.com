@@ -8,7 +8,7 @@ encoding: UTF-8
 
 Most simplistic demo on how to play a movie.
 
-SimpleMovieDemo\(moviename \[, windowrect=\[\]\]\);
+SimpleMovieDemo(moviename [, windowrect=[]]);
 
 This bare-bones demo plays a single movie whose name has to be provided -
 including the full filesystem path to the movie - exactly once, then

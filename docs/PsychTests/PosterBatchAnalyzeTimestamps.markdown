@@ -8,7 +8,7 @@ encoding: UTF-8
 
 PosterBatchAnalyzeTimestamps
 
-Iterate over all timingtest result files \('Res\_flipconfig\_xxxx'\) which
+Iterate over all timingtest result files ('Res\_flipconfig\_xxxx') which
 contain valid high precision flip timestamps, either based on
 'p'hotodiode measurements or 'd'atapixx measurements.
 
@@ -22,8 +22,8 @@ The script iterates over each matching file and adds all collected raw
 and high precision timestamps to a large array of timestamps. At the end
 of iteration, the pooled dataset is analyzed for mean, max and min
 deviation between [Flip](/docs/Flip) onset timestamps and measured timestamps. The
-total range of deviation and the standard deviation from the mean \(==
-timestamp variability\) is computed as well. This is done on the raw
+total range of deviation and the standard deviation from the mean (==
+timestamp variability) is computed as well. This is done on the raw
 timestamps and high precision timestamps. End results are printed and
 scatterplots of all individual samples are shown.
 

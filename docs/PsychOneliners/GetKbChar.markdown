@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-\[ch, when\] = GetKbChar\(\[deviceIndex\]\[, untilTime=inf\]\[, optional KbCheck arguments...\]\);
+[ch, when] = GetKbChar([deviceIndex][, untilTime=inf][, optional KbCheck arguments...]);
 
-GetKbChar reimplements basic functionality of GetChar\(\) by use of KbCheck
+GetKbChar reimplements basic functionality of GetChar() by use of KbCheck
 and KbPressWait. It accepts optionally all arguments that KbCheck accepts
 and passes those arguments to KbCheck, e.g., a keyboard index in order to
 only query a specific keyboard for input.

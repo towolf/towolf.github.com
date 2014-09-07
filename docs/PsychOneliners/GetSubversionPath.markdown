@@ -10,7 +10,7 @@ svnpath = GetSubversionPath -- Return auto-detected installation path
 for svn client, if any. Return empty string if auto-detection not
 possible. Typical usage is like this:
 
-mysvncommand = \[GetSubversionPath 'svn status'\]; system\(mysvncommand\);
+mysvncommand = [GetSubversionPath 'svn status']; system(mysvncommand);
 
 GetSubversionPath will return the path to be prefixed in front of the svn
 executable. If none can be found, the svn executable will be executed

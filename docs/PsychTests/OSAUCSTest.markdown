@@ -12,7 +12,7 @@ Test the OSA UCS conversion routines.
 
 See XYZToLjg, LjgToXYZ.
 
-3/27/01  dhb  Wrote it.
+\3/27/01  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

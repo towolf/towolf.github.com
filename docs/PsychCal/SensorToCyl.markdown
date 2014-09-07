@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-cyl = SensorToCyl\(sensor\)
+cyl = SensorToCyl(sensor)
 
 Convert from sensor to cylindrical coordinates.
 
@@ -26,11 +26,11 @@ for angle.
 
 See also CylToSensor, SensorToPolar, PolarToSensor.
 
-10/17/93  dhb   Wrote it by converting CAP C code.
-2/20/94   jms   Added single argument case to avoid cData.
-4/5/02    dhb, ly  New calling interface.
-11/06/06  dhb   No longer allow two passed args.
-1/3/10    dhb   Elaborated comments a little.
+\10/17/93  dhb   Wrote it by converting CAP C code.
+\2/20/94   jms   Added single argument case to avoid cData.
+\4/5/02    dhb, ly  New calling interface.
+\11/06/06  dhb   No longer allow two passed args.
+\1/3/10    dhb   Elaborated comments a little.
 
 
 <div class="code_header" style="text-align:right;">

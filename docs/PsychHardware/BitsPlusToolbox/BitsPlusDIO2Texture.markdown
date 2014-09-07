@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-texturePtr = BitsPlusClut2Texture\(windowPtr, mask, data, command\)
+texturePtr = BitsPlusClut2Texture(windowPtr, mask, data, command)
 
   Generates a PsychToolbox texture containing the magic code and data
   required to set the DIO in Bits++ mode.

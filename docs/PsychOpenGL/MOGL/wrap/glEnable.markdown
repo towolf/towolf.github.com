@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glEnable  Interface to OpenGL function glEnable
 
-usage:  glEnable\( cap \)
+usage:  glEnable( cap )
 
-C function:  void glEnable\(GLenum cap\)
+C function:  void glEnable(GLenum cap)
 
 
 <div class="code_header" style="text-align:right;">

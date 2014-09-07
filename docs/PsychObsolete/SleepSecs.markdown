@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-SleepSecs\(s\)
+SleepSecs(s)
 
 Wait for duration s seconds, up to one second.  SleepSecs suspends the
 MATLAB process.
@@ -19,8 +19,8 @@ Whereas SleepSecs surrenders CPU time,  WaitSecs consumes CPU time,
 exceeding limits set by [Priority](/docs/Priority) or [Rush](/docs/Rush) and causing the Mach kernel to
 revoke any priority setting greater than 0.
 
-If you are playing an animation, then use [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\) to both
-synchronize updating of the display to the Video BLanking invterval \(VBL\)
+If you are playing an animation, then use [Screen](/docs/Screen)('[Flip](/docs/Flip)') to both
+synchronize updating of the display to the Video BLanking invterval (VBL)
 and to delay your animation loop until the next VBL; Like SleepSecs, [Flip](/docs/Flip)
 surrenders CPU time to other processes, abiding by limits set when
 negotiating with the kernel for priority levels \> 0.
@@ -34,7 +34,7 @@ calling WaitSecs, and then reeleveting priority.
 SleepSecs would be useful in a loop which called KbCheck at high priority
 while not displaying an animation.
 
-SleepSecs uses the Posix usleep \("microsleep"\) function.
+SleepSecs uses the Posix usleep ("microsleep") function.
 
 # OS 9
 
@@ -45,7 +45,7 @@ SleepSecs does not exist in OS 9.
 SleepSecs does not exist in Windows.
 ----
 
-See Also: [Priority](/docs/Priority), [Rush](/docs/Rush), SetMachPriorityMex, GetMachPriorityMex, [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\)
+See Also: [Priority](/docs/Priority), [Rush](/docs/Rush), SetMachPriorityMex, GetMachPriorityMex, [Screen](/docs/Screen)('[Flip](/docs/Flip)')
 
 
 

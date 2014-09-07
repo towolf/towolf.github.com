@@ -17,8 +17,8 @@ extraoplates outside of the physical gamut.
 
 The table provides values under CIE illuminant C.
 
-11/21/08  dhb, ijk  Finished from ijk initial version.
-11/25/08  dhb, ijk  Wrap table.
+\11/21/08  dhb, ijk  Finished from ijk initial version.
+\11/25/08  dhb, ijk  Wrap table.
 
 
 <div class="code_header" style="text-align:right;">

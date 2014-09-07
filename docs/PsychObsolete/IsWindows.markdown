@@ -11,7 +11,7 @@ function resultFlag = IsWindows
 OBSOLETE: please use IsWin instead.
 
 OSX, OS9: Returns true if the operating system is Windows.  Shorthand for:
-streq\(computer,'PCWIN'\)
+streq(computer,'PCWIN')
 
 WIN: Does not yet exist in Windows.
 

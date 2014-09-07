@@ -8,7 +8,7 @@ encoding: UTF-8
 
 ----
 
-AntiSaccade\(placeHolderFlag,gapManipulation\)
+AntiSaccade(placeHolderFlag,gapManipulation)
 placeHolderFlag = display place holders. Default 1
 gapManipulation = time gap. Default 1
 

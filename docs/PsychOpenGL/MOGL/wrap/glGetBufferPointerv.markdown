@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGetBufferPointerv  Interface to glGetBufferPointerv
 
-usage:  params = glGetBufferPointerv\( target, pname \)
+usage:  params = glGetBufferPointerv( target, pname )
 
-C function:  void glGetBufferPointerv\(GLenum target, GLenum pname, GLvoid\*\* params\)
+C function:  void glGetBufferPointerv(GLenum target, GLenum pname, GLvoid\*\* params)
 
 
 <div class="code_header" style="text-align:right;">

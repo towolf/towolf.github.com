@@ -17,7 +17,7 @@ GetSecs instead of GetBusTicks.
 
 GetBusTicksTick returns the period of the GetBusTicks clock.  The
 frequency is found in the hw.busfreq field of the struct returned by
-[Screen](/docs/Screen)\('Computer'\).
+[Screen](/docs/Screen)('Computer').
 
 # OS 9
 
@@ -28,7 +28,7 @@ GetBusTicksTick does not exist in OS 9.
 GetBusTicksTick does not exist in Windows.
 ----
 
-SEE ALSO: GetBusTicks, GetSecs, GetSecsTick, [Screen](/docs/Screen)\('Computer'\)
+SEE ALSO: GetBusTicks, GetSecs, GetSecsTick, [Screen](/docs/Screen)('Computer')
 
 
 <div class="code_header" style="text-align:right;">

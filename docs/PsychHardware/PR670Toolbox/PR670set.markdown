@@ -9,8 +9,8 @@ encoding: UTF-8
 PR670setget - Set and get PR-670 attributes
 
 Syntax:
-configOUT = PR670setget\(
-configOUT = PR670config\(configIN\)
+configOUT = PR670setget(
+configOUT = PR670config(configIN)
 
 Description:
 Sets various attributes of the PR-670.

@@ -6,13 +6,13 @@ categories:
 encoding: UTF-8
 ---
 
-in = FillEmptyFields\(in,filling\)
+in = FillEmptyFields(in,filling)
 
-If input is a struct \(-array\):
+If input is a struct (-array):
 Fills all empty fields in IN with FILLING
 Also operates on N-D struct arrays
 
-If input is a cell \(-array\):
+If input is a cell (-array):
 Fills all empty elements in IN with FILLING
 
 DN    2008

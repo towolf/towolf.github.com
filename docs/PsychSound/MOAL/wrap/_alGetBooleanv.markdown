@@ -8,9 +8,9 @@ encoding: UTF-8
 
 alGetBooleanv  Interface to OpenAL function alGetBooleanv
 
-usage:  data = alGetBooleanv\( param \)
+usage:  data = alGetBooleanv( param )
 
-C function:  void alGetBooleanv\(ALenum param, ALboolean\* data\)
+C function:  void alGetBooleanv(ALenum param, ALboolean\* data)
 
 
 <div class="code_header" style="text-align:right;">

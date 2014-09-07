@@ -8,9 +8,9 @@ encoding: UTF-8
 
 alSourcePlay  Interface to OpenAL function alSourcePlay
 
-usage:  alSourcePlay\( sid \)
+usage:  alSourcePlay( sid )
 
-C function:  void alSourcePlay\(ALuint sid\)
+C function:  void alSourcePlay(ALuint sid)
 
 
 <div class="code_header" style="text-align:right;">

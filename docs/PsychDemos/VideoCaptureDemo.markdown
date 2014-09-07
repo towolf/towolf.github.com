@@ -8,10 +8,10 @@ encoding: UTF-8
 
 Demonstrate simple use of built-in video capture engine.
 
-VideoCaptureDemo\(\[fullscreen=0\]\[, fullsize=0\]\[, roi=\[0 0 640 480\]\]\[, depth\]\[,deviceId=0\]\[, cameraname\]\[, bpc=8\]\)
+VideoCaptureDemo([fullscreen=0][, fullsize=0][, roi=[0 0 640 480]][, depth][,deviceId=0][, cameraname][, bpc=8])
 
 VideoCaptureDemo initializes the first attached and supported camera on
-your computer \(e.g, the built-in iSight of Apple Macintosh computers\),
+your computer (e.g, the built-in iSight of Apple Macintosh computers),
 then shows its video image in a Psychtoolbox window.
 
 By default, a capture rate of 30 frames per second is requested, and the
@@ -32,7 +32,7 @@ resolution, ie. so it fills the maximum amount of display area, but
 preserving the original aspect ratio.
 
 'roi' Selects a rectangular subregion of the camera for display. By
-default, it selects a \[0 0 640 480\] rectangle, ie. the full area of a
+default, it selects a [0 0 640 480] rectangle, ie. the full area of a
 camera with 640 x 480 pixels resolution. This parameter may need tweaking
 for some cameras, as some drivers have bugs and don't work well with all
 settings.

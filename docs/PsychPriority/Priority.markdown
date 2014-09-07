@@ -6,17 +6,17 @@ categories:
 encoding: UTF-8
 ---
 
-oldPriority=[Priority](/docs/Priority)\(\[newPriority\]\)
+oldPriority=[Priority](/docs/Priority)([newPriority])
 
 Query and optionally set the execution priority of your script to
-'newPriority' and switch from non-realtime to realtime scheduling \(for
-'newPriority' values greater than zero\).
+'newPriority' and switch from non-realtime to realtime scheduling (for
+'newPriority' values greater than zero).
 
 Higher priority levels will reduce the chance of other running
 applications and system processes interfering with the execution timing
 of your script, or reduce the severity of interference. However, various
 factors influence the timing behaviour of your computer and its hardware,
-so while use of [Priority](/docs/Priority)\(\) is one step to ensure good timing, it is not
+so while use of [Priority](/docs/Priority)() is one step to ensure good timing, it is not
 the only required step. The PsychDocumentation subfolder of your
 distribution as well as the Psychtoolbox Wiki contain various documents
 with tips on how to improve system timing behaviour. All else being
@@ -43,13 +43,13 @@ priority 0. You can check to see if this has happened by calling
 
 # Within a script there are two ways to limit MATLAB's use of CPU time:
 
-  1. Call "WaitSecs"
-  2. Call [Screen](/docs/Screen)\('[Flip](/docs/Flip)',...\)
+  \1. Call "WaitSecs"
+  \2. Call [Screen](/docs/Screen)('[Flip](/docs/Flip)',...)
 
 Both calls will sleep the main MATLAB thread, surrendering CPU time to
 other threads on the system until the MATLAB thread is awakened.
 WaitSecs sleeps the MATLAB thread for a specified period.
-[Screen](/docs/Screen)\('[Flip](/docs/Flip)',...\) sleeps the MATLAB thread until the next video blanking
+[Screen](/docs/Screen)('[Flip](/docs/Flip)',...) sleeps the MATLAB thread until the next video blanking
 interval.
 
 The priority value corresponds to the proportion of the video frame
@@ -75,7 +75,7 @@ priority level after changing the video mode and not before.
 
 # WINDOWS
 
-For the Windows version of [Priority](/docs/Priority) \(and [Rush](/docs/Rush)\), the priority levels set
+For the Windows version of [Priority](/docs/Priority) (and [Rush](/docs/Rush)), the priority levels set
 are  "process priority levels". There are 3 priority levels available,
 levels 0, 1, and 2. Level 0 is "normal priority level", level 1 is "high
 priority level", and level 2 is "real time priority level". Combined with
@@ -86,17 +86,17 @@ when no higher priority thread is ready to execute. Currently, no tests
 have been done to see what tasks are pre-empted by setting the Matlab
 process to real-time priority. It does seem to block keyboard input,
 though, so for example if you have a clut animation going on at priority
-level 2, then the force-quit key combo \(Ctrl-Alt-Delete\) does not  work.
+level 2, then the force-quit key combo (Ctrl-Alt-Delete) does not  work.
 However, the keyboard inputs are still sent to the message queue, so
 GetChar or GetClicks still work if they are also called at priority level
-2.
+\2.
 
 Typically you will not want to choose a higher priority than 1 unless you
 know exactly what you're doing.
 
 # LINUX
 
-To enable use of [Priority](/docs/Priority)\(\), you must run the script
+To enable use of [Priority](/docs/Priority)(), you must run the script
 PsychLinuxConfiguration at least once and follow its instructions.
 Normally the script will get executed automatically by our installer if
 you got Psychtoolbox via DownloadPsychtoolbox or UpdatePsychtoolbox.
@@ -117,7 +117,7 @@ applications.
 
 In realtime mode, PTB will also try to lock down all of Matlab/Octaves
 memory into physical RAM, preventing it from being paged out to disk by
-the virtual memory manager. If it works, it's great\! However, the amount
+the virtual memory manager. If it works, it's great! However, the amount
 of lockable memory is restricted to max. 50% of installed RAM memory on
 some older Linux setups, so if Matlab/Octave/your experiment would need
 more than 50% of available system memory, this will fail. PTB will output
@@ -127,7 +127,7 @@ of memory locking.
 
 On old single processor computers, be careful not to create any
 uninterruptible infinite loops in your code when running realtime,
-otherwise your system may lock up, requiring a hard reboot\!
+otherwise your system may lock up, requiring a hard reboot!
 ----
 
 see also OS X:    [Rush](/docs/Rush)

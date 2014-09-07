@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-ContrastModulatedNoiseTheElegantStyleDemo\(\[noisesize=512\] \[, staticnoise=0\]\)
+ContrastModulatedNoiseTheElegantStyleDemo([noisesize=512] [, staticnoise=0])
 
 This demo shows how to render contrast modulated noise efficiently on
 current state of the art graphics hardware by use of the Psychtoolbox
@@ -19,7 +19,7 @@ We use alpha-blending tricks to modulate the contrast of the noise in
 realtime. In this demo you can move the mouse pointer to drag around a
 "modulation disk" of 50 pixels diameter. Noise inside the disk has a
 different contrast 'fgcontrast' from the rest of the image, which has a
-contrast of 'bgcontrast' \(see top of code for fgcontrast and bgcontrast\).
+contrast of 'bgcontrast' (see top of code for fgcontrast and bgcontrast).
 
 You can press the cursor left and cursor right keys to decrement or
 increment the contrast inside the disk in steps of 0.01 units. Press
@@ -40,7 +40,7 @@ alpha-channel.
 
 Hardware requirements: ATI Radeon X-1000 or later, NVidia Geforce 6000 or
 later. Recommended is Radeon HD2000/3000/... or Geforce-8000/9000/...
-hardware for maximum fun\!
+hardware for maximum fun!
 
 The allowable contrast values for standard 2D drawing commands are
 limited to the range 0.0 to 1.0 on MacOS/X, they are not limited on
@@ -48,7 +48,7 @@ MS-Windows or GNU/Linux. Precision is set to 16bpc float, ie. about 3
 digits behind the decimal point or 1024 discriminable levels. On the most
 recent ATI HD-2000 and NVidia Geforce 8000 hardware one can lift this limit
 to 32bpc float -- 6.5 digits or about 8 million discriminable levels by a
-one-line code change in this script ;-\)
+one-line code change in this script ;-)
 
 
 <div class="code_header" style="text-align:right;">

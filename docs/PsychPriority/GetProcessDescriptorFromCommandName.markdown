@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-processDescriptor=GetProcessDescriptorFromCommandName\(commandName\)
+processDescriptor=GetProcessDescriptorFromCommandName(commandName)
 
 # OS X
 
@@ -16,7 +16,7 @@ the Unix command "ps" to get information about processes.
 
 # Try:
 
-  GetProcessDescriptorFromCommandName\('MATLAB'\);
+  GetProcessDescriptorFromCommandName('MATLAB');
 
 # OS 9
 

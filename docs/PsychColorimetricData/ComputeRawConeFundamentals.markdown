@@ -6,16 +6,16 @@ categories:
 encoding: UTF-8
 ---
 
-\[T\_quantalAbsorptionsNormalized,T\_quantalAbsorptions,T\_quantalIsomerizations\] = ComputeRawConeFundamentals\(params,staticParams\)
+[T\_quantalAbsorptionsNormalized,T\_quantalAbsorptions,T\_quantalIsomerizations] = ComputeRawConeFundamentals(params,staticParams)
 
 Function to compute normalized cone quantal sensitivities
 from underlying pieces and parameters.
 
 Note that this routine returns quantal sensitivities.  You
 may want energy sensitivities.  In that case, use EnergyToQuanta to convert
-  T\_energy = EnergyToQuanta\(S,T\_quantal'\)'
-and then renormalize.  \(You call EnergyToQuanta because you're converting
-sensitivities, which go the opposite directoin from spectra.\)
+  T\_energy = EnergyToQuanta(S,T\_quantal')'
+and then renormalize.  (You call EnergyToQuanta because you're converting
+sensitivities, which go the opposite directoin from spectra.)
 
 The routine also returns two quantal sensitivity functions.  The first gives
 the probability that a photon will be absorbed.  The second is the probability
@@ -51,7 +51,7 @@ that is held static during the fit and the other which
 contains the parameters that could be searched over by a calling
 routine.  For examples, see:
   FitConeFundamentalsWithNomogram, FitConeFundamentalsTest.
-Looking around today \(8/10/13\), I \(DHB\) don't see any examples where
+Looking around today (8/10/13), I (DHB) don't see any examples where
 this routine is called directly.  Rather, it is a subfunction
 called by ComputeCIEConeFundamentals.  The search routines above
 use ComputeCIEConeFundamentals, and only search over lambdaMax
@@ -60,13 +60,13 @@ day search over more parameters, but lost motivation to carry it
 throught.
 
 The computations done here are very similar to those done in
-routine FillInPhotoreceptors.  I \(DHB\) think that I forgot about
+routine FillInPhotoreceptors.  I (DHB) think that I forgot about
 what FillInPhotoreceptors could do when I wrote this, which has
 led to some redundancy. FillInPhotoreceptors returns a field
 called effectiveAbsorptance, which are the actual quantal efficiencies
-\(not normalized\) referred to the cornea.  FillInPhotoceptors also
+(not normalized) referred to the cornea.  FillInPhotoceptors also
 computes a field isomerizationAbsorptance, which takes the quantal
-efficiency of isomerizations \(probability of an isomerization given
+efficiency of isomerizations (probability of an isomerization given
 an absorption into acount.  This routine does not do that.
 
 It would probably be clever to unify the two sets of routines a
@@ -77,9 +77,9 @@ agree with each other, for cases where the parameters match.
 See also: ComputeCIEConeFundamentals, CIEConeFundamentalsTest, FitConeFundamentalsWithNomogram,
           FitConeFundamentalsTest, DefaultPhotoreceptors, FillInPhotoreceptors.
 
-8/12/11  dhb  Starting to make this actually work.
-8/14/11  dhb  Change name, expand comments.
-8/10/13  dhb  [Expand](/docs/Expand) comments.  Return unscaled quantal efficiencies too.
+\8/12/11  dhb  Starting to make this actually work.
+\8/14/11  dhb  Change name, expand comments.
+\8/10/13  dhb  [Expand](/docs/Expand) comments.  Return unscaled quantal efficiencies too.
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,12 +6,12 @@ categories:
 encoding: UTF-8
 ---
 
-psf = WestPSFMinutes\(radius\)
+psf = WestPSFMinutes(radius)
 
 Compute Westheimer's PSF function as a function
 of passed radius.  Radius passed in minutes of arc.
 
-7/11/94     dhb     Added comments, changed name.
+\7/11/94     dhb     Added comments, changed name.
 
 
 <div class="code_header" style="text-align:right;">

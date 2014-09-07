@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
- densities = PhotopigmentAxialDensity\(receptorTypes,\[species\],\[source\],\[fieldSizeDegrees\]\)
+ densities = PhotopigmentAxialDensity(receptorTypes,[species],[source],[fieldSizeDegrees])
 
  Return estimates of photopigment axial density, sometimes called peak
  absorbance.
@@ -22,7 +22,7 @@ encoding: UTF-8
  estimate sources support all receptor types.
 
  Note that the following three numbers are overdetermined: photopigment
- specific density \(sd\), photopigment axial density \(ad\), and outer segment
+ specific density (sd), photopigment axial density (ad), and outer segment
  length osl.  In particular, ad = sd\*osl.  Depending on the measurement
  method, different sources provide different pairs of these numbers.
  We have attempted to enforce this consistency in the set of routines
@@ -31,13 +31,13 @@ encoding: UTF-8
  a consistent triplet of numbers.
 
  Supported species:
-        Human \(Default\).
+        Human (Default).
 
  Supported sources:
-    Rodieck \(Human\) \(Default\).
-   StockmanSharpe \(Human\).
-   CIE \(Human\).
-   Tsujimuar \(Human, melanopsin gc's\)
+    Rodieck (Human) (Default).
+   StockmanSharpe (Human).
+   CIE (Human).
+   Tsujimuar (Human, melanopsin gc's)
 
  The CIE method takes a field size argument.  This
  overrides the specified foveal or not part of the
@@ -49,10 +49,10 @@ encoding: UTF-8
  The fieldSizeDegrees argument is ignored for sources other than
  CIE.
 
- 7/11/03  dhb  Wrote it.
- 8/12/11  dhb  Added CIE source, and allow passing of fieldSizeDegrees.
- 4/20/12  dhb  Add Tsujimura's estimate of melanopsin optical density in human.
- 12/16/12 dhb, ms Add Alpern's rod estimates from CVRL table.
+ \7/11/03  dhb  Wrote it.
+ \8/12/11  dhb  Added CIE source, and allow passing of fieldSizeDegrees.
+ \4/20/12  dhb  Add Tsujimura's estimate of melanopsin optical density in human.
+ \12/16/12 dhb, ms Add Alpern's rod estimates from CVRL table.
 
 
 <div class="code_header" style="text-align:right;">

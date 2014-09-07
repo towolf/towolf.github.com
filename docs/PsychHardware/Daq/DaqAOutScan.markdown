@@ -6,32 +6,32 @@ categories:
 encoding: UTF-8
 ---
 
-params=DaqAOutScan\(DeviceIndex,v,options\)
+params=DaqAOutScan(DeviceIndex,v,options)
 USB-1208FS: Analog output scan. Produce sampled analog output voltage
 waveforms on one or two channels. This command sends the values in "v"
-\(one column per channel\) to the specified range of \(one or two\) output
+(one column per channel) to the specified range of (one or two) output
 channels.
 
 "params.fActual" is the actual sampling frequency, sample/channel/s.
       It is as close as possible to the requested sampling frequency
       options.f.
 "params.countActual" is the actual total sample/channel sent.
-"params.start" is when the first report \("v" data\) was sent to the device.
+"params.start" is when the first report ("v" data) was sent to the device.
 "params.end" is when the final report was sent to device.
 "DeviceIndex" is a small integer, the array index specifying which HID
-      device in the array returned by PsychHID\('Devices'\) is interface 0
+      device in the array returned by PsychHID('Devices') is interface 0
       of the desired USB-1208FS box.
-"v" is a matrix, with one column per channel. \(If you're using only one
+"v" is a matrix, with one column per channel. (If you're using only one
       channel, then you're allowed to send the vector as either a column
-      or a row.\) Each value is a double, in the range 0 to 1, which will
+      or a row.) Each value is a double, in the range 0 to 1, which will
       produce an output voltage in the range 0 to 4.095 V.
-"options.FirstChannel" is the first channel of the scan \(0 - 1\). \(formerly
-      "options.lowChannel" -- that terminology is deprecated.\)
-"options.LastChannel" is the last channel of the scan \(0 - 1\), and must
+"options.FirstChannel" is the first channel of the scan (0 - 1). (formerly
+      "options.lowChannel" -- that terminology is deprecated.)
+"options.LastChannel" is the last channel of the scan (0 - 1), and must
       be greater than or equal to options.FirstChannel. The values
       options.FirstChannel and options.LastChannel specify the channel
-      range for the scan. \(Formerly "options.highChannel" -- that terminology
-      is deprecated.\)
+      range for the scan. (Formerly "options.highChannel" -- that terminology
+      is deprecated.)
 "options.f" is the desired sampling frequency, sample/channel/s, in the
       range 0.596/c to 10e6/c Hz, where c is the number of channels to be
       scanned.
@@ -39,16 +39,16 @@ channels.
       may be used to start the scan synchronously. If the bit is set, the
       device will wait until the appropriate trigger edge is detected,
       then begin emitting samples at the specified rate.
-"options.getReports" is 1 \(default\) = wait to receive report from
+"options.getReports" is 1 (default) = wait to receive report from
       USB-1208FS before sending each block of data in "v". 0 = send
       blocks of data at what should be the right rate.
-"options.print" is 1 = enable diagnostic printing; 0 \(default\) no
+"options.print" is 1 = enable diagnostic printing; 0 (default) no
       diagnostics.
 
 LIMITATIONS: As of 17 April 2005, DaqAoutScan works fine at up to 2000
 sample/s with one channel, or up to 200 sample/channel/s with two
-channels. \(It is surprising that these two limits are not exactly a
-factor of 2 apart.\) When I try to go faster than that I encounter various
+channels. (It is surprising that these two limits are not exactly a
+factor of 2 apart.) When I try to go faster than that I encounter various
 problems. Sometimes I get "data underrun" errors and sometimes the
 PsychHID SetReport call hangs up forever, never returning, making it
 necessary to quit MATLAB. I don't understand why these things happen;

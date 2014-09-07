@@ -9,7 +9,7 @@ encoding: UTF-8
 AntiAliasing -- Psychtoolbox facilities for Anti-Aliasing.
 
 According to http://www.wikipedia.org , anti-aliasing is the
-technique of minimizing aliasing \(jagged or blocky patterns\)
+technique of minimizing aliasing (jagged or blocky patterns)
 when representing a high-resolution signal at a lower resolution.
 
 If you want to know in detail about the reason for aliasing artifacts
@@ -24,17 +24,17 @@ and amount of brute-force applied to implement them.
 
 # Multisampling / Supersampling:
 
-The easiest \(for you\) and at the same time most general approach is the
+The easiest (for you) and at the same time most general approach is the
 brute-force approach, called "Multisampling" or "Supersampling", also
 known as "Full scene anti-aliasing" or FSAA. You can enable multisampling
 for an onscreen window by simply setting the optional argument 'multisample'
-of the [Screen](/docs/Screen)\('OpenWindow', ...\) - subfunction to a value greater than zero.
+of the [Screen](/docs/Screen)('OpenWindow', ...) - subfunction to a value greater than zero.
 Psychtoolbox will check if your graphics hardware supports multisampling and
 enable it for the new onscreen window, if possible. In a nutshell, the graphics
-hardware will then perform all drawing operations \(including all images, all 2D shapes
-like points, discs, lines, rectangles and polygons, text and all 3D OpenGL rendering\)
+hardware will then perform all drawing operations (including all images, all 2D shapes
+like points, discs, lines, rectangles and polygons, text and all 3D OpenGL rendering)
 at a much higher resolution than your display resolution, computing multiple color
-samples for each output pixel. When calling [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\), the hardware will
+samples for each output pixel. When calling [Screen](/docs/Screen)('[Flip](/docs/Flip)'), the hardware will
 downsample this high resolution image by use of a proper lowpass filter, combining
 the multiple color values of the multiple samples per pixel into a single color
 value for the final output pixel. A typical algorithm for this would be a weighted
@@ -45,9 +45,9 @@ A higher value means a higher quality, but at the same time higher requirements 
 terms of video memory usage and processing time.
 
 Psychtoolbox tries to select a value as close as possible to the requested value: It
-rounds up to the closest value supported by your hardware \(e.g., if you request 6
+rounds up to the closest value supported by your hardware (e.g., if you request 6
 samples, but the hardware only supports either 4 or 8 samples, PTB will select 8
-samples\). If you request a value that is greater than the highest supported value,
+samples). If you request a value that is greater than the highest supported value,
 PTB will use the maximum value supported by your system.
 
 The algorithms used for multisampling differ between each model of graphics hardware:
@@ -60,7 +60,7 @@ presentation of NVidia is http://developer.nvidia.com/object/gdc\_ogl\_multisamp
 A more detailed article is http://www.3dcenter.org/artikel/geforcefx\_aa\_modi/index\_english.php
 
 As stated above, this brute-force approach of anti-aliasing requires minimal
-work for you \(setting one optional parameter\) and it works always, but it is
+work for you (setting one optional parameter) and it works always, but it is
 expensive. For a multisample value of n, your hardware will need roughly n+1 times
 the amount of video memory and it will need more than n times the amount of computation
 time for drawing and showing your stimulus. The maximum value that you can set for n

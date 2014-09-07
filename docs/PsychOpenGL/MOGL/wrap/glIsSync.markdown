@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glIsSync  Interface to OpenGL function glIsSync
 
-usage:  r = glIsSync\( sync \)
+usage:  r = glIsSync( sync )
 
-C function:  GLboolean glIsSync\(GLsync sync\)
+C function:  GLboolean glIsSync(GLsync sync)
 
 
 <div class="code_header" style="text-align:right;">

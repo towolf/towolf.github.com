@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glLoadTransposeMatrixd  Interface to OpenGL function glLoadTransposeMatrixd
 
-usage:  glLoadTransposeMatrixd\( m \)
+usage:  glLoadTransposeMatrixd( m )
 
-C function:  void glLoadTransposeMatrixd\(const GLdouble\* m\)
+C function:  void glLoadTransposeMatrixd(const GLdouble\* m)
 
 
 <div class="code_header" style="text-align:right;">

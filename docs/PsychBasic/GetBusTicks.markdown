@@ -30,7 +30,7 @@ Allocating a variable takes time too. Usually you'll want to omit those
 delays from your timing measurements by making sure all the functions you
 use are loaded and that all the variables you use are allocated, before
 you start timing. MEX files stay loaded until you flush the MEX files
-\(e.g. by changing directory or calling CLEAR MEX\). M files and variables
+(e.g. by changing directory or calling CLEAR MEX). M files and variables
 stay in memory until you clear them.
 
 # OS 9

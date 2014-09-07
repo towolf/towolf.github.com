@@ -9,7 +9,7 @@ encoding: UTF-8
 rval = kPsychNeedOutputConversion
 
 Return a flag that you can pass to the 'imagingmode' parameter of
-[Screen](/docs/Screen)\('OpenWindow'\) in order to request support for special output
+[Screen](/docs/Screen)('OpenWindow') in order to request support for special output
 conversion operations needed to driver special output devices.
 
 If requested, Psychtoolbox will configure itself to support special

@@ -11,34 +11,34 @@ lut = CreatePseudoGrayLUT
 Create and return a 3 rows by 4096 columns RGB8 uint8 color lookup table
 'lut', suitable as lut for the generic LUT based luminance output
 formatter of the Psychtoolbox imaging pipeline. This is a helper function
-for PsychImaging\(\), usually not directly called by user code.
+for PsychImaging(), usually not directly called by user code.
 
 This will setup the pipeline for output of luminance images with about
-1786 different levels of perceived luminance on a standard 8 bits per
+\1786 different levels of perceived luminance on a standard 8 bits per
 color channel RGB framebuffer of a standard graphics card.
 
 # Usage:
 
 At the beginning of your script, replace the standard ...
 
-win = [Screen](/docs/Screen)\('OpenWindow', screenid, ...\);
+win = [Screen](/docs/Screen)('OpenWindow', screenid, ...);
 
 # ... call by the following commands:
 
-PsychImaging\('PrepareConfiguration'\);
-PsychImaging\('AddTask', 'General', 'EnablePseudoGrayOutput'\);
-win = PsychImaging\('OpenWindow', screenid, ....\);
+PsychImaging('PrepareConfiguration');
+PsychImaging('AddTask', 'General', 'EnablePseudoGrayOutput');
+win = PsychImaging('OpenWindow', screenid, ....);
 
 
 # Further explanation:
 
-The technique to represent 10.7 bits \(log2\(1786\)\) of luminance on a 8 bit
+The technique to represent 10.7 bits (log2(1786)) of luminance on a 8 bit
 display is called "Pseudo Gray" or "Bit-Stealing". It adds small delta
 values to the different color channels to "tilt" the RGB color vector of
 each pixel a bit away from the "pure luminance' axis. This slight tilt,
 combined with the different emission characteristics of red, green and
 blue monitor phospor and the different sensitivity of the human eye for the
-three different colors, will create the perception \(or illusion\) of extra
+three different colors, will create the perception (or illusion) of extra
 luminance values. So far the theory. In practice you'll need a well
 calibrated and gamma corrected color monitor for this to work, and there
 may be some smallish color artifacts in your stimuli.
@@ -59,9 +59,9 @@ The webpage refers to multiple different sources of this type of
 algorithm, apparently the principle was described by multiple independent
 authors. There is also a reference to the "Bit stealing" technique by:
 
-Tyler C.W., Chan H., Liu L., McBride B. & Kontsevich L.L. \(1992\)
+Tyler C.W., Chan H., Liu L., McBride B. & Kontsevich L.L. (1992)
 "Bit-stealing: How to get 1786 or more grey levels from an 8-bit color
-monitor", Proc. SPIE \#1666, pp 351-364.
+monitor", Proc. SPIE #1666, pp 351-364.
 
 However, i haven't ever read that article, so i don't know if it proposes
 exactly the same procedure although readers of that article told me that

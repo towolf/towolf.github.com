@@ -9,7 +9,7 @@ encoding: UTF-8
 kPsychUseTextureMatrixForRotation
 
 Returns a constant to be passed as part of the 'specialFlags' parameter
-of the [Screen](/docs/Screen)\('DrawTexture'\) and [Screen](/docs/Screen)\('DrawTextures'\) command.
+of the [Screen](/docs/Screen)('DrawTexture') and [Screen](/docs/Screen)('DrawTextures') command.
 
 If this flag is set, the texture drawing functions will use the OpenGL
 TEXTURE\_MATRIX instead of the MODELVIEW\_MATRIX for application of a
@@ -34,7 +34,7 @@ interference.
 
 If you use the 2nd mode of drawing, you'll need to make sure that the
 'srcRect' source rectangle only occupies a fraction of the texture image
-and that you'll have at least d \* sqrt\(2\) pixels space of defined texture
+and that you'll have at least d \* sqrt(2) pixels space of defined texture
 data around the center of the 'srcRect', when d is the maximum of the
 width and height of the rectangle. Otherwise the "rotated reading" from
 the texture would actually try to read from areas outside the texture

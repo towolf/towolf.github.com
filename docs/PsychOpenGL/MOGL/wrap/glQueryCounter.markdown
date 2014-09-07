@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glQueryCounter  Interface to OpenGL function glQueryCounter
 
-usage:  glQueryCounter\( id, target \)
+usage:  glQueryCounter( id, target )
 
-C function:  void glQueryCounter\(GLuint id, GLenum target\)
+C function:  void glQueryCounter(GLuint id, GLenum target)
 
 
 <div class="code_header" style="text-align:right;">

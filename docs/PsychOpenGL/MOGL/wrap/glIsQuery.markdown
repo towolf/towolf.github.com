@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glIsQuery  Interface to OpenGL function glIsQuery
 
-usage:  r = glIsQuery\( id \)
+usage:  r = glIsQuery( id )
 
-C function:  GLboolean glIsQuery\(GLuint id\)
+C function:  GLboolean glIsQuery(GLuint id)
 
 
 <div class="code_header" style="text-align:right;">

@@ -10,7 +10,7 @@ glPopName  Interface to OpenGL function glPopName
 
 usage:  glPopName
 
-C function:  void glPopName\(void\)
+C function:  void glPopName(void)
 
 
 <div class="code_header" style="text-align:right;">

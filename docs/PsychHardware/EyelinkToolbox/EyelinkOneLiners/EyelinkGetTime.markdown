@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-USAGE: eltime=EyelinkGetTime\(el \[, maxwait\]\)
+USAGE: eltime=EyelinkGetTime(el [, maxwait])
 Get tracker time
 
 el: is eyelinkdefault structure

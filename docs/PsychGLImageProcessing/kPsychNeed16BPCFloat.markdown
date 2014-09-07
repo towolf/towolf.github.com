@@ -9,7 +9,7 @@ encoding: UTF-8
 rval = kPsychNeed16BPCFloat
 
 Return a flag that you can pass to the 'imagingmode' parameter of
-[Screen](/docs/Screen)\('OpenWindow'\) in order to request support for internal
+[Screen](/docs/Screen)('OpenWindow') in order to request support for internal
 framebuffers that store color information with 16 bits per color
 component in floating point format.
 

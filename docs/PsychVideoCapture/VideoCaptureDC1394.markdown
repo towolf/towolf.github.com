@@ -14,7 +14,7 @@ engine for IIDC compliant machine vision cameras connected via IEEE-1394
 firewire bus or via USB bus and Firewire-over-USB protocol.
 
 This engine with engineID 1, as selectable via ...
-[Screen](/docs/Screen)\('[Preference](/docs/Preference)', 'DefaultVideocaptureEngine', 1\)
+[Screen](/docs/Screen)('[Preference](/docs/Preference)', 'DefaultVideocaptureEngine', 1)
 ... provides especially precise low-level control over the cameras, high
 framerates, low-latency and high timing precision.
 
@@ -34,14 +34,14 @@ system.
 The software manager on Linux will keep your system up to date with the
 latest stable version of the library.
 
-On MacOS/X for 64-Bit Matlab & Octave: [Screen](/docs/Screen)\(\) links dynamically against
+On MacOS/X for 64-Bit Matlab & Octave: [Screen](/docs/Screen)() links dynamically against
 a system-installed .dylib version of the library, if such a version is
 installed on your system. A precompiled library can be found in the
 Psychtoolbox/PsychVideoCapture/ subfolder as libdc1394.22.dylib. Copy it
 into the /usr/local/lib/ folder via executing this function
 'VideoCaptureDC1394' and entering your administrator password on request.
 The corresponding source code of this library can be found in the source
-code distribution of Psychtoolbox \(see "help UseTheSource"\) under:
+code distribution of Psychtoolbox (see "help UseTheSource") under:
 PsychSourceGL/Cohorts/libDC1394/ as libdc1394-2.2.0.tar at the moment of
 this writing. However, you can download the most recent copies of the
 libraries from libDC's sourceforge website anytime and install it instead

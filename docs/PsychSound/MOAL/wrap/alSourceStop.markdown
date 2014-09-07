@@ -8,9 +8,9 @@ encoding: UTF-8
 
 alSourceStop  Interface to OpenAL function alSourceStop
 
-usage:  alSourceStop\( sid \)
+usage:  alSourceStop( sid )
 
-C function:  void alSourceStop\(ALuint sid\)
+C function:  void alSourceStop(ALuint sid)
 
 
 <div class="code_header" style="text-align:right;">

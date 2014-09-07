@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glColor4b  Interface to OpenGL function glColor4b
 
-usage:  glColor4b\( red, green, blue, alpha \)
+usage:  glColor4b( red, green, blue, alpha )
 
-C function:  void glColor4b\(GLbyte red, GLbyte green, GLbyte blue, GLbyte alpha\)
+C function:  void glColor4b(GLbyte red, GLbyte green, GLbyte blue, GLbyte alpha)
 
 
 <div class="code_header" style="text-align:right;">

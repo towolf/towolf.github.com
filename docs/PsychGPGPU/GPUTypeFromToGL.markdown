@@ -6,15 +6,15 @@ categories:
 encoding: UTF-8
 ---
 
-outObj = GPUTypeFromToGL\(cmd, inObj \[, glObjType\]\[, outObj\]\[, keepmapped\]\[, mapflags\]\)
+outObj = GPUTypeFromToGL(cmd, inObj [, glObjType][, outObj][, keepmapped][, mapflags])
 
 Note: Calling this command requires calling the following command first
 to initialize Psychtoolbox GPU computing support:
 
-PsychImaging\('AddTask', 'General', 'UseGPGPUCompute', 'GPUmat'\);
+PsychImaging('AddTask', 'General', 'UseGPGPUCompute', 'GPUmat');
 
 Supported 'cmd' commands:
--------------------------
+\-------------------------
 
 if cmd is zero, then convert an OpenGL object of type glObjType,
 referenced by handle inObj into a GPU object and return it in outObj. If
@@ -32,7 +32,7 @@ possible, otherwise create a new one. 'keepmapped' - see explanation for cmd zer
 If cmd is == 2, then unmap the OpenGL object. You must do this if you previously
 set the optional 'keepmapped' flag to 1 during a copy operation and now want to
 use the object which was the source or the target of that copy again with OpenGL
-or [Screen](/docs/Screen)\(\), ie., with a Psychtoolbox drawing or image processing function.
+or [Screen](/docs/Screen)(), ie., with a Psychtoolbox drawing or image processing function.
 Unmapping is neccessary for proper OpenGL operation, but costs a fraction of a
 millisecond of overhead on well working operating systems like Linux. Clever use
 of the 'keepmapped' flag and this manual unmapping method sometimes allows to
@@ -40,12 +40,12 @@ save some redundant unmap calls.
 
 If cmd is == 3, then remove the OpenGL object from use by the GPU compute toolkit.
 This must be done before destroying/deleting the OpenGL object, e.g., before
-a call to [Screen](/docs/Screen)\('[Close](/docs/Close)', x\); for a window or texture handle x. This operation
+a call to [Screen](/docs/Screen)('[Close](/docs/Close)', x); for a window or texture handle x. This operation
 can be very expensive -- on the order of multiple milliseconds, so use sparingly.
 
-If cmd is == 4, all OpenGL objects are removed. Usually used before closing \(all\)
-onscreen windows, e.g., via [Screen](/docs/Screen)\('CloseAll'\) or [sca](/docs/sca). This cache flush is very
-expensive\!
+If cmd is == 4, all OpenGL objects are removed. Usually used before closing (all)
+onscreen windows, e.g., via [Screen](/docs/Screen)('CloseAll') or [sca](/docs/sca). This cache flush is very
+expensive!
 
 If cmd is == 5, then the given OpenGL object 'inObj' of type glObjType is mapped
 and a CUDA memory pointer is returned, for use with external mex files, so these

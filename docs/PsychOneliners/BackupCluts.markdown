@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-Backup current clut gamma tables of screens for later restoration via RestoreCluts\(\).
+Backup current clut gamma tables of screens for later restoration via RestoreCluts().
 
 # Usage:
 
-BackupCluts\(\[screenIds=all\]\);
+BackupCluts([screenIds=all]);
 
 Saves all cluts/gamma tables of all connected display screens by default,
 or of specified vector 'screenIds' to a global variable. The cluts can be

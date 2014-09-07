@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-\[params, data\] = DaqAInScanContinue\(DeviceIndex, options \[, wantLiveData=0\]\)
+[params, data] = DaqAInScanContinue(DeviceIndex, options [, wantLiveData=0])
 
 Calls DaqAInScan with the options set to only continue, and not begin or
 end. You may call DaqAInScanContinue as many times as you like, to keep

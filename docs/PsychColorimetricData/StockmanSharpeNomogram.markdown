@@ -6,22 +6,22 @@ categories:
 encoding: UTF-8
 ---
 
-T\_absorbance = StockmanSharpeNomogram\(S,lambdaMax\)
+T\_absorbance = StockmanSharpeNomogram(S,lambdaMax)
 
 Compute normalized absorbance according to the
 nomogram provided by Stockman and Sharpe:
-  See Stockman & Sharpe \(2000\), p. 1730 or http://www.cvrl.org/.
+  See Stockman & Sharpe (2000), p. 1730 or http://www.cvrl.org/.
 
 The lmax values of the fitted templates that best fits
-to the Stockman and Sharpe \(2000\) S-, M- and L-cone photopigment
+to the Stockman and Sharpe (2000) S-, M- and L-cone photopigment
 spectra are 420.7, 530.3 and 558.9 nm for the
 S-, M- and L-cones, respectively;
 
 The result is in quantal units, in the sense that to compute
 absorptions you want to incident spectra in quanta.
-To get sensitivity in energy units, apply EnergyToQuanta\(\)
-\(not QuantaToEnergy, because here you are converting sensitivity
-rather than spectra.\)
+To get sensitivity in energy units, apply EnergyToQuanta()
+(not QuantaToEnergy, because here you are converting sensitivity
+rather than spectra.)
 
 Argument lambdaMax may be a column vector of wavelengths.
 
@@ -30,7 +30,7 @@ formulae into absorbance.
 
 Note from DHB. By eye, this nomogram gives a good fit to the log10 LMS pigment
 absorbance spectra when you plot them on a log scale over 8 log units,
-as in Stockman & Sharpe \(2000\), Figure 12.  The fit does not look quite so
+as in Stockman & Sharpe (2000), Figure 12.  The fit does not look quite so
 good in my hands on a linear scale or an expanded log scale.
 I think the deviations occur in part because the tabulated
 photopigment absorbances for the L are a mixture of the ser/ala
@@ -45,10 +45,10 @@ probably the best current nomogram to use.
 See ComputeCIEConeFundamentals, CIEConeFundamentalsTest,
 FitConeFundamentalsFromNomogram, FitConeFundamentalsTest
 
-5/8/99  dhb  Started writing it.
-10/27/99    dhb  Added error return to prevent premature use of this routine.
-7/18/03   dhb  Finished it off.
-8/13/11   dhb  Improved comments.  Double check polynomial coefficients.
+\5/8/99  dhb  Started writing it.
+\10/27/99    dhb  Added error return to prevent premature use of this routine.
+\7/18/03   dhb  Finished it off.
+\8/13/11   dhb  Improved comments.  Double check polynomial coefficients.
 
 
 <div class="code_header" style="text-align:right;">

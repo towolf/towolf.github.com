@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glPixelStoref  Interface to OpenGL function glPixelStoref
 
-usage:  glPixelStoref\( pname, param \)
+usage:  glPixelStoref( pname, param )
 
-C function:  void glPixelStoref\(GLenum pname, GLfloat param\)
+C function:  void glPixelStoref(GLenum pname, GLfloat param)
 
 
 <div class="code_header" style="text-align:right;">

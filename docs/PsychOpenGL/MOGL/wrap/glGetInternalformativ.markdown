@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGetInternalformativ  Interface to OpenGL function glGetInternalformativ
 
-usage:  params = glGetInternalformativ\( target, internalformat, pname, bufSize \)
+usage:  params = glGetInternalformativ( target, internalformat, pname, bufSize )
 
-C function:  void glGetInternalformativ\(GLenum target, GLenum internalformat, GLenum pname, GLsizei bufSize, GLint\* params\)
+C function:  void glGetInternalformativ(GLenum target, GLenum internalformat, GLenum pname, GLsizei bufSize, GLint\* params)
 
 
 <div class="code_header" style="text-align:right;">

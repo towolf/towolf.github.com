@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glSecondaryColor3b  Interface to OpenGL function glSecondaryColor3b
 
-usage:  glSecondaryColor3b\( red, green, blue \)
+usage:  glSecondaryColor3b( red, green, blue )
 
-C function:  void glSecondaryColor3b\(GLbyte red, GLbyte green, GLbyte blue\)
+C function:  void glSecondaryColor3b(GLbyte red, GLbyte green, GLbyte blue)
 
 
 <div class="code_header" style="text-align:right;">

@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGenerateMipmapEXT  Interface to OpenGL function glGenerateMipmapEXT
 
-usage:  glGenerateMipmapEXT\( target \)
+usage:  glGenerateMipmapEXT( target )
 
-C function:  void glGenerateMipmapEXT\(GLenum target\)
+C function:  void glGenerateMipmapEXT(GLenum target)
 
 
 <div class="code_header" style="text-align:right;">

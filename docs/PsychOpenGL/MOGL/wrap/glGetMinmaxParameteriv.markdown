@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGetMinmaxParameteriv  Interface to OpenGL function glGetMinmaxParameteriv
 
-usage:  params = glGetMinmaxParameteriv\( target, pname \)
+usage:  params = glGetMinmaxParameteriv( target, pname )
 
-C function:  void glGetMinmaxParameteriv\(GLenum target, GLenum pname, GLint\* params\)
+C function:  void glGetMinmaxParameteriv(GLenum target, GLenum pname, GLint\* params)
 
 
 <div class="code_header" style="text-align:right;">

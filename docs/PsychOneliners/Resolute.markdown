@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-newplaat = [Resolute](/docs/Resolute)\(plaat,newres\)
+newplaat = [Resolute](/docs/Resolute)(plaat,newres)
 accepts matrix PLAAT and resizes it to NEWRES
 resizing is done by cutting and/or adding a white background
 

@@ -6,14 +6,14 @@ categories:
 encoding: UTF-8
 ---
 
-VideoDelayLoopMiniDemo\(\[delayframes = 0\] \[, duration = 30\] \[, firewireBasler = 0\]\);
+VideoDelayLoopMiniDemo([delayframes = 0] [, duration = 30] [, firewireBasler = 0]);
 
-Demonstrates most simplistic use of PsychVideoDelayLoop\(\) function for
+Demonstrates most simplistic use of PsychVideoDelayLoop() function for
 delayed visual feedback via a camera + display combo.
 
 'delayframes' == Requested delay in captured frames: 0 = Minimal delay
-\(i.e. request zero delay, get whatever the minimum of your camera +
-display combo is\).
+(i.e. request zero delay, get whatever the minimum of your camera +
+display combo is).
 
 The demo takes some startup time to calibrate, then provides visual
 feedback for 30 seconds, then ends, unless you specifiy a different
@@ -31,7 +31,7 @@ delay feedback. Pick a good IIDC Firewire camera if you want low
 latencies. Use Linux if you want really low latencies and optimal
 control.
 
-This demo is only a proof of concept. Use with caution\!
+This demo is only a proof of concept. Use with caution!
 
 
 <div class="code_header" style="text-align:right;">

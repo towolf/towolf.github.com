@@ -10,7 +10,7 @@ Use speech output to speak a given text.
 
 # Usage:
 
-\[ ret \] = Speak\(text \[, voice\]\[, rate\]\[, volume\]\[, pitch\]\[, language\]\);
+[ ret ] = Speak(text [, voice][, rate][, volume][, pitch][, language]);
 
 The function returns an optional 'ret'urn code 0 on success, non-zero
 on failure to speak the requested text.
@@ -26,7 +26,7 @@ The names of the available voices differ across operating systems.
 Linux supports, e.g., male1,  male2,  male3,  female1,  female2,
 female3, child\_male, child\_female.
 
-OS/X: Type "\!say -v ?" in Matlab to get a list of supported voices.
+OS/X: Type "!say -v ?" in Matlab to get a list of supported voices.
 
 The optional 'rate' parameter controls speed of speaking on OS/X and
 Linux. On OS/X it defines the number of words per minute, on Linux a
@@ -48,10 +48,10 @@ is the case by default, e.g., at least on Ubuntu Linux 12.04 and later.
 
 Examples:
 Say "Hello darling" with standard system voice:
-Speak\('Hello darling'\);
+Speak('Hello darling');
 
 Say same text with voice named "Albert":
-Speak\('Hello darling', 'Albert'\);
+Speak('Hello darling', 'Albert');
 
 
 

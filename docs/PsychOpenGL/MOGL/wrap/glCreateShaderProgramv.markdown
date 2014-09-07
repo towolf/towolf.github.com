@@ -8,7 +8,7 @@ encoding: UTF-8
 
 glCreateShaderProgramv  Interface to OpenGL function glCreateShaderProgramv
 
-usage:  r = glCreateShaderProgramv\( type, count, strings \)
+usage:  r = glCreateShaderProgramv( type, count, strings )
 
 You have to pass a single character string 'strings' that
 contains the ASCII text of the shaders source code. Each line in the
@@ -21,12 +21,12 @@ The 'count' parameter is ignored.
 
 A simple way to read a shader from a standard text file, e.g., for a
 vertex shader is as follows:
-fid=fopen\('MyShader.txt', 'r'\);
-shadersource=fread\(fid\);
-fclose\(fid\);
-shader = glCreateShaderProgramv\(GL.VERTEX\_SHADER, 1, shadersource\);
+fid=fopen('MyShader.txt', 'r');
+shadersource=fread(fid);
+fclose(fid);
+shader = glCreateShaderProgramv(GL.VERTEX\_SHADER, 1, shadersource);
 
-C function:  GLuint glCreateShaderProgramv\(GLenum type, GLsizei count, const GLchar\* const\)
+C function:  GLuint glCreateShaderProgramv(GLenum type, GLsizei count, const GLchar\* const)
 
 
 <div class="code_header" style="text-align:right;">

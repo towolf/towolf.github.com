@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-x = InitialXSig\(xp\)
+x = InitialXSig(xp)
 
 Initial values for sigmoid function fit.
 

@@ -12,24 +12,24 @@ Square and curly braces sometimes can't embrace multiple lines.
 
 # This works:
 
-\{'a'
-'b'\}
+{'a'
+'b'}
 
 # So does this:
 
-x=\{'a'
-'b'\}
+x={'a'
+'b'}
 
 # And this:
 
-x=char\(\{'a'
-'b'\}\)
+x=char({'a'
+'b'})
 
 # But this fails:
 
-char\(\{'a'
-'b'\}\)
-??? 'b'\}
+char({'a'
+'b'})
+??? 'b'}
        |
 Missing operator, comma, or semi-colon.
 

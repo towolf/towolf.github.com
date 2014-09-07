@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGetNamedFramebufferParameterivEXT  Interface to OpenGL function glGetNamedFramebufferParameterivEXT
 
-usage:  params = glGetNamedFramebufferParameterivEXT\( framebuffer, pname \)
+usage:  params = glGetNamedFramebufferParameterivEXT( framebuffer, pname )
 
-C function:  void glGetNamedFramebufferParameterivEXT\(GLuint framebuffer, GLenum pname, GLint\* params\)
+C function:  void glGetNamedFramebufferParameterivEXT(GLuint framebuffer, GLenum pname, GLint\* params)
 
 
 <div class="code_header" style="text-align:right;">

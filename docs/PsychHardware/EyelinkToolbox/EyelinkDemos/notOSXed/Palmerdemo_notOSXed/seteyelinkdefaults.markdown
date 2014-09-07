@@ -12,7 +12,7 @@ Assumes eyelink is already initialized.
 Pass screenRect; nothing returned
 John Palmer, last revised 6/6/01
 
-6/6/01  Begun based on testcalib and testcalls
+\6/6/01  Begun based on testcalib and testcalls
 
 
 <div class="code_header" style="text-align:right;">

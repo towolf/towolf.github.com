@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGetDoublev  Interface to glGetDoublev
 
-usage:  params = glGetDoublev\( pname \)
+usage:  params = glGetDoublev( pname )
 
-C function:  void glGetDoublev\(GLenum pname, GLdouble\* params\)
+C function:  void glGetDoublev(GLenum pname, GLdouble\* params)
 
 
 <div class="code_header" style="text-align:right;">

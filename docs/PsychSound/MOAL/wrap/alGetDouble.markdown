@@ -8,9 +8,9 @@ encoding: UTF-8
 
 alGetDouble  Interface to OpenAL function alGetDouble
 
-usage:  r = alGetDouble\( param \)
+usage:  r = alGetDouble( param )
 
-C function:  double alGetDouble\(ALenum param\)
+C function:  double alGetDouble(ALenum param)
 
 
 <div class="code_header" style="text-align:right;">

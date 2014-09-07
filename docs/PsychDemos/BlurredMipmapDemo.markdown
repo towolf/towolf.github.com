@@ -11,8 +11,8 @@ BlurredMipmapDemo - Show blurring of live video or movies via adaptive mipmappin
 This demo shows how to selectively blur regions of a live video stream
 captured from an attached camera, or a live playing movie. The method
 employed here uses a GLSL shader to select an individual blur level for
-each output pixel. Pixels close to the mouse cursor \(which simulates gaze
-position, e.g., as aquired by an eyetracker\) will be drawn sharp, whereas
+each output pixel. Pixels close to the mouse cursor (which simulates gaze
+position, e.g., as aquired by an eyetracker) will be drawn sharp, whereas
 pixels at larger radial distance will be drawn increasingly unsharp by
 low-pass filtering them.
 
@@ -33,7 +33,7 @@ cards.
 
 # Usage:
 
-BlurredMipmapDemo\(\[deviceIndexOrMoviename=0\]\[, gazeRadius=25\]\[, customMipmap=0\]\)
+BlurredMipmapDemo([deviceIndexOrMoviename=0][, gazeRadius=25][, customMipmap=0])
 
 'gazeRadius' Some falloff radius in pixels. Controls how quickly the
 resolution degrades with increasing distance from the cursorposition.

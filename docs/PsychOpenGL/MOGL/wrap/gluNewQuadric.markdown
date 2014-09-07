@@ -10,7 +10,7 @@ gluNewQuadric  Interface to OpenGL function gluNewQuadric
 
 usage:  r = gluNewQuadric
 
-C function:  GLUquadric\* gluNewQuadric\(void\)
+C function:  GLUquadric\* gluNewQuadric(void)
 
 
 <div class="code_header" style="text-align:right;">

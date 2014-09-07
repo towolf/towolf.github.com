@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-\[cal, cals, fullFilename\] = LoadCalFile\(\[filespec\], \[whichCal\], \[dir\]\)
+[cal, cals, fullFilename] = LoadCalFile([filespec], [whichCal], [dir])
 
 Load calibration data from saved file in the CalData folder.
 Will search one level deep in the CalData folder if the
@@ -36,20 +36,20 @@ file.
 
 See also SaveCalFile, CalDataFolder.
 
-5/28/96  dgp  Wrote it.
-6/6/96   dgp  Use CalibrationsFolder.
-6/6/96   dgp  Use whole path in filename so Matlab will only look there.
-7/25/96  dgp  Use CalDataFolder.
-8/4/96   dhb  More flexible filename interface.
-8/21/97  dhb  Rewrite for calibrations stored as cell array.
+\5/28/96  dgp  Wrote it.
+\6/6/96   dgp  Use CalibrationsFolder.
+\6/6/96   dgp  Use whole path in filename so Matlab will only look there.
+\7/25/96  dgp  Use CalDataFolder.
+\8/4/96   dhb  More flexible filename interface.
+\8/21/97  dhb  Rewrite for calibrations stored as cell array.
               Optional return of entire calibration history.
-8/26/97  dhb  Handle case of isempty\(cals\).
+\8/26/97  dhb  Handle case of isempty(cals).
               Added whichCal argument.
-5/18/99  dhb  Added dir argument.
-8/15/00  dhb  Modify to handle local/demo cal directories.
-4/2/13   dhb  Updated for subdir searching logic.
-6/2/13   dhb  More robust about whether passed filespec contains the trailing '.mat'.
-7/3/13   dhb  Fix buglet for check on trailing .mat when length of filename less than 4 chars.
+\5/18/99  dhb  Added dir argument.
+\8/15/00  dhb  Modify to handle local/demo cal directories.
+\4/2/13   dhb  Updated for subdir searching logic.
+\6/2/13   dhb  More robust about whether passed filespec contains the trailing '.mat'.
+\7/3/13   dhb  Fix buglet for check on trailing .mat when length of filename less than 4 chars.
 
 
 <div class="code_header" style="text-align:right;">

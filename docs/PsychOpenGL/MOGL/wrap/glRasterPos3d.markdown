@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glRasterPos3d  Interface to OpenGL function glRasterPos3d
 
-usage:  glRasterPos3d\( x, y, z \)
+usage:  glRasterPos3d( x, y, z )
 
-C function:  void glRasterPos3d\(GLdouble x, GLdouble y, GLdouble z\)
+C function:  void glRasterPos3d(GLdouble x, GLdouble y, GLdouble z)
 
 
 <div class="code_header" style="text-align:right;">

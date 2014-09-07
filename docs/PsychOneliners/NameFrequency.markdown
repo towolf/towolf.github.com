@@ -6,29 +6,29 @@ categories:
 encoding: UTF-8
 ---
 
-fName=NameFrequency\(fValue, \[numDecimalPlaces\]\)
+fName=NameFrequency(fValue, [numDecimalPlaces])
 
-NameFrequency accepts a frequency \(in Hz\) and returns a
+NameFrequency accepts a frequency (in Hz) and returns a
 string naming that frequency in a more readable form.  For example:
 
-    \>\> c=[Screen](/docs/Screen)\('Computer'\);
+    \>\> c=[Screen](/docs/Screen)('Computer');
     \>\> c.hw.cpufreq
 
     ans =
 
-       999999997
+       \999999997
 
-    \>\> NameFrequency\(c.hw.cpufreq\)
-
-    ans =
-
-    1.00 GHz
-
-    \>\> NameFrequency\(c.hw.cpufreq,6\)
+    \>\> NameFrequency(c.hw.cpufreq)
 
     ans =
 
-    999.999997 MHz
+    \1.00 GHz
+
+    \>\> NameFrequency(c.hw.cpufreq,6)
+
+    ans =
+
+    \999.999997 MHz
 
     \>\>
 

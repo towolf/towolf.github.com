@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-resultFlag = IsWin\(\[is64=0\]\)
+resultFlag = IsWin([is64=0])
 
 Return true if the operating system is Windows.
 If optional 'is64' flag is set to one, returns

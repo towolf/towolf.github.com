@@ -6,13 +6,13 @@ categories:
 encoding: UTF-8
 ---
 
-TextBoundsTest\(\[string\] \[, font\] \[, textSize\] \[, rotAngle\]\)
+TextBoundsTest([string] [, font] [, textSize] [, rotAngle])
 
-Test [Screen](/docs/Screen)\('TextBounds'\) as a fast way of determining the bounding
-rectangle \(aka bounding box\) of a string of text, as well as the very
+Test [Screen](/docs/Screen)('TextBounds') as a fast way of determining the bounding
+rectangle (aka bounding box) of a string of text, as well as the very
 precise but slow TextBounds.m function.
 
-[Screen](/docs/Screen)\('TextBounds'\) uses information from the operating system about the
+[Screen](/docs/Screen)('TextBounds') uses information from the operating system about the
 bounding polygons of a string of text to compute the bounding box. This
 is fast, but it relies on the typesetting algorithms of the OS and the
 information encoded in a font definition file playing well with each
@@ -22,13 +22,13 @@ in an unusual way that the OS facilities can't handle correctly. In such
 cases, textbounds will be way to big or too small and text may appear cut
 off.
 
-The TextBounds\(\) function implemented in TextBounds.m uses a different
+The TextBounds() function implemented in TextBounds.m uses a different
 approach: It draws the text string into a provided window - usually an
 offscreen window which is so big that it can easily accomodate the text
 string in question, ie., it is way too big for the string. Then it reads
 back the image of that string and computes the exact bounding box of the
 non-background pixels. This method is obviously independent of OS
-facilities and \(faulty\) information in the font files - thereby highly
+facilities and (faulty) information in the font files - thereby highly
 robust and accurate. However the approach is very slow, so you should
 only use this method if you really need it.
 
@@ -39,7 +39,7 @@ first predrawing it into an offscreen window of sufficient size, then
 blitting the really "meaningful" portions of that offscreen window into
 the real image window.
 
-Optional parameters: \(All have meaningful defaults\)
+Optional parameters: (All have meaningful defaults)
 'string' The text string to draw. Default: "Wordy"
 'font' Name of the font definition file. Default: "Chicago"
 'textSize' Size of text font. Default: 64 pts.

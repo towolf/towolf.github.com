@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glTexCoord1sv  Interface to OpenGL function glTexCoord1sv
 
-usage:  glTexCoord1sv\( v \)
+usage:  glTexCoord1sv( v )
 
-C function:  void glTexCoord1sv\(const GLshort\* v\)
+C function:  void glTexCoord1sv(const GLshort\* v)
 
 
 <div class="code_header" style="text-align:right;">

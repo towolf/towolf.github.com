@@ -10,7 +10,7 @@ glutSolidDodecahedron  Interface to OpenGL function glutSolidDodecahedron
 
 usage:  glutSolidDodecahedron
 
-C function:  void glutSolidDodecahedron\(void\)
+C function:  void glutSolidDodecahedron(void)
 
 
 <div class="code_header" style="text-align:right;">

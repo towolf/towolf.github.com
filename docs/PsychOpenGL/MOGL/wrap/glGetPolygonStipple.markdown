@@ -10,7 +10,7 @@ glGetPolygonStipple  Interface to OpenGL function glGetPolygonStipple
 
 usage:  mask = glGetPolygonStipple
 
-C function:  void glGetPolygonStipple\(GLubyte\* mask\)
+C function:  void glGetPolygonStipple(GLubyte\* mask)
 
 
 <div class="code_header" style="text-align:right;">

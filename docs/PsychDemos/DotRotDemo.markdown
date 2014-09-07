@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-dot motion demo using SCREEN\('DrawDots'\) subfunction
+dot motion demo using SCREEN('DrawDots') subfunction
 author: Keith Schneider, 12/13/04
 
 

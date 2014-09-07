@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glColor4us  Interface to OpenGL function glColor4us
 
-usage:  glColor4us\( red, green, blue, alpha \)
+usage:  glColor4us( red, green, blue, alpha )
 
-C function:  void glColor4us\(GLushort red, GLushort green, GLushort blue, GLushort alpha\)
+C function:  void glColor4us(GLushort red, GLushort green, GLushort blue, GLushort alpha)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-r = GrowRect\(r,horizontalPixels,verticalPixels\)
+r = GrowRect(r,horizontalPixels,verticalPixels)
 
 Grows a rect, by subtracting horizontalPixels from the left coordinate
 and verticalPixels from the top coordinate, and adding horizontalPixels

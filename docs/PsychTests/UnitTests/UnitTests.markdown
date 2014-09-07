@@ -14,7 +14,7 @@ Run unit tests by executing the script PsychtoolboxRoot\\PsychTests\\UnitTestRun
 for each m-file, the function that tests it is listed, if any
 
 generate with:
-  str = DirList\(PsychToolBoxRoot,true,\[\],\[\],'.svn|.FBCLockFolder|PsychHardware|PsychOpenGL|MOAL|PsychDocumentation|PsychDemos|PsychTests|PsychObsolete|PsychMatlabTests','\\.m$',true\)
+  str = DirList(PsychToolBoxRoot,true,[],[],'.svn|.FBCLockFolder|PsychHardware|PsychOpenGL|MOAL|PsychDocumentation|PsychDemos|PsychTests|PsychObsolete|PsychMatlabTests','\\.m$',true)
 and finally some manual editing
 
 

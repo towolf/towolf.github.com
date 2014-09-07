@@ -12,27 +12,27 @@ function is the number of replicates per cell.  It outputs one or more
 vectors or cell arrays, each containing factor values for a set of
 trials, balanced and, optionally, randomized.
 
-\[F1, F2, ...\] = BalanceFactors\(N, RND, LVL1, LVL2, ...\)
+[F1, F2, ...] = BalanceFactors(N, RND, LVL1, LVL2, ...)
 
 BalanceFactors must be called with three or more input arguments.  The
 first argument, N, specifies the number of replicates per combination of
 factor levels.  The second argument, RND, determines whether or not the
-returned factors should be shuffled \(non-zero values lead to shuffling\).
+returned factors should be shuffled (non-zero values lead to shuffling).
 
 The remaining input arguments specify the levels for each of a set of
 factors.  Factor levels can be specified as numeric vectors or cell
-arrays \(e.g., for category names\).  The returned factor lists will be the
+arrays (e.g., for category names).  The returned factor lists will be the
 same class as the corresponding levels.
 
 # EXAMPLES:
 
- \[targetPresent, setSize\] = BalanceFactors\(2, 0, 0:1, \[3 6 9 12\]\);
+ [targetPresent, setSize] = BalanceFactors(2, 0, 0:1, [3 6 9 12]);
 
- \[target, setSize, dur\] = ...
-    BalanceFactors\(1, 1, \[0 1\], \[4 8 12\], \[0 100 200\]\);
+ [target, setSize, dur] = ...
+    BalanceFactors(1, 1, [0 1], [4 8 12], [0 100 200]);
 
- \[samediff, mask\] = ...
-    BalanceFactors\(3, 1, \{'same', 'diff'\}, \{'none', 'pattern', 'meta'\}\);
+ [samediff, mask] = ...
+    BalanceFactors(3, 1, {'same', 'diff'}, {'none', 'pattern', 'meta'});
 
 See also: BalanceTrials
 

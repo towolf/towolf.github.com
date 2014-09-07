@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glRenderMode  Interface to OpenGL function glRenderMode
 
-usage:  r = glRenderMode\( mode \)
+usage:  r = glRenderMode( mode )
 
-C function:  GLint glRenderMode\(GLenum mode\)
+C function:  GLint glRenderMode(GLenum mode)
 
 
 <div class="code_header" style="text-align:right;">

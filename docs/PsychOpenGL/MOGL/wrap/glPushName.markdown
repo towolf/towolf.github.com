@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glPushName  Interface to OpenGL function glPushName
 
-usage:  glPushName\( name \)
+usage:  glPushName( name )
 
-C function:  void glPushName\(GLuint name\)
+C function:  void glPushName(GLuint name)
 
 
 <div class="code_header" style="text-align:right;">

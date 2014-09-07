@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-failFlag=AlphaBlendSettingTest\(\[screenNumber\]\)
+failFlag=AlphaBlendSettingTest([screenNumber])
 
-Test that [Screen](/docs/Screen)\('BlendFunction'\) recalls the same alpha blending values
+Test that [Screen](/docs/Screen)('BlendFunction') recalls the same alpha blending values
 as previoulsy set.
 
 If no return argument is provided, then TestAlphaBlendSetting issues an error

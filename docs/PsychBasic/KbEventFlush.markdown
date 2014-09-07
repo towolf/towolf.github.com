@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-nflushed = KbEventFlush\(\[deviceIndex\]\)
+nflushed = KbEventFlush([deviceIndex])
 
 Flush event buffer of a keyboard queue. This removes all stored events
 from the keyboard event buffer of a given keyboard queue. It returns the
@@ -18,8 +18,8 @@ associated with 'deviceIndex'.
 
 Keyboard event buffers are a different way to access the information
 collected by keyboard queues. Before you can use an event buffer you
-always must create its "parent keyboard queue" via KbQueueCreate\(\) and
-call KbQueueStart\(\) to enable key event recording. See "help
+always must create its "parent keyboard queue" via KbQueueCreate() and
+call KbQueueStart() to enable key event recording. See "help
 KbQueueCreate" etc. on how to do this.
 ----
 

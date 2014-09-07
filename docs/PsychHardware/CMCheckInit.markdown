@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-CMCheckInit\(\[meterType\], \[PortString\]\)
+CMCheckInit([meterType], [PortString])
 
 Initialize the color meter.  The routine calls the
 lower level routines for given 'meterType'. If the low level routine
@@ -16,8 +16,8 @@ routine  is silent.
 
 # The following colormeters are supported:
 
-meterType 1 is the PR650 \(default\)
-meterType 2 is the CVI \(need CVIToolbox\) - Not yet implemented\!
+meterType 1 is the PR650 (default)
+meterType 2 is the CVI (need CVIToolbox) - Not yet implemented!
 meterType 3 is the CRS Colorimeter
 meterType 4 is the PR655
 meterType 5 is the PR670
@@ -42,32 +42,32 @@ Other Colorimeters, e.g., CRS ColorCal, have their own specific setup
 methods and this routine just calls their setup code with default
 settings.
 
-9/15/93 dhb     Modified to use new CMInit properly.
-1/18/94 jms     Added gHardware switch
-1/24/94 dhb     Changed sign of gHardware switch.
-2/20/94 dhb     Call through CMETER rather than CM... routines.
-4/4/00  dhb       Optional port name, only used on SERIAL version.
-9/11/00 dhb       Added meterType.
-1/4/02  dhb, ly   Try to get OS9 version to work with Megawolf board and SERIAL.
-1/10/02 dhb, ly   Change calling convention.  Remove passing of port, but read
+\9/15/93 dhb     Modified to use new CMInit properly.
+\1/18/94 jms     Added gHardware switch
+\1/24/94 dhb     Changed sign of gHardware switch.
+\2/20/94 dhb     Call through CMETER rather than CM... routines.
+\4/4/00  dhb       Optional port name, only used on SERIAL version.
+\9/11/00 dhb       Added meterType.
+\1/4/02  dhb, ly   Try to get OS9 version to work with Megawolf board and SERIAL.
+\1/10/02 dhb, ly   Change calling convention.  Remove passing of port, but read
                   port from a "calibration" file in PsychCalLocalData if it's there.
-4/13/02 dgp     Cosmetic.
-2/26/03 dhb       Add CRS Colorimeter, change meter type of PR-650 to 1.
-10/05/06 dhb, cgb OSX version.
-11/27/07 mpr      replaced hard coded portNameIn with FindSerialPort for OS X, and
+\4/13/02 dgp     Cosmetic.
+\2/26/03 dhb       Add CRS Colorimeter, change meter type of PR-650 to 1.
+\10/05/06 dhb, cgb OSX version.
+\11/27/07 mpr      replaced hard coded portNameIn with FindSerialPort for OS X, and
                   attempted to make this more robust and user-friendly.
                   modifications tested only on Mac OS 10.5.1, Matlab 2007b, on
                   a Mac Pro.  Other systems may require more tinkering...
-2/07/09  mk, tbc  Add PR-655 support.
-2/07/09  mk       Add experimental setup code for use of [IOPort](/docs/IOPort) instead of SerialComm.
-2/11/09  cgb,mk   Small fixes: Now we use [IOPort](/docs/IOPort) instead of SerialComm --
+\2/07/09  mk, tbc  Add PR-655 support.
+\2/07/09  mk       Add experimental setup code for use of [IOPort](/docs/IOPort) instead of SerialComm.
+\2/11/09  cgb,mk   Small fixes: Now we use [IOPort](/docs/IOPort) instead of SerialComm --
                   by default. Verified to work for both PR650 and PR655 toolboxes.
-7/16/12  dhb      Choose right global default for 64-bit Matlab.  Hope I
+\7/16/12  dhb      Choose right global default for 64-bit Matlab.  Hope I
                   did this in a way that doesn't break anything else.
-7/20/12  dhb      Undid 7/16/12 change.  Error was due to a stale [IOPort](/docs/IOPort) on my path
-12/04/12 zlb      Adding PR-705 support.
-4/10/13  dhb      More flexible behavior supported via PRXXXPorts calibration file.
-1/25/13  dhb, ms  More info printed on failure for PR-670 case.  Trying to track down intermittant
+\7/20/12  dhb      Undid 7/16/12 change.  Error was due to a stale [IOPort](/docs/IOPort) on my path
+\12/04/12 zlb      Adding PR-705 support.
+\4/10/13  dhb      More flexible behavior supported via PRXXXPorts calibration file.
+\1/25/13  dhb, ms  More info printed on failure for PR-670 case.  Trying to track down intermittant
                   failures to initialize when routine is called multiple times in a long calibration loop.
 
 

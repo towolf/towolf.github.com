@@ -7,7 +7,7 @@ encoding: UTF-8
 ---
 
 
-LoadMovieIntoTexturesDemo\(moviename \[, fromTime=0\]\[, toTime=end\]\[, indexisFrames=0\]\[, benchmark=0\]\[, async=0\]\[, preloadSecs=1\]\[, specialflags=0\]\[, pixelFormat=4\]\)
+LoadMovieIntoTexturesDemo(moviename [, fromTime=0][, toTime=end][, indexisFrames=0][, benchmark=0][, async=0][, preloadSecs=1][, specialflags=0][, pixelFormat=4])
 
 A demo implementation on how to load a movie into standard
 Psychtoolbox textures for precisely controlled presentation timing and
@@ -17,14 +17,14 @@ Parameters:
 moviename - Filename of moviefile to use. If none is provided, then the
 simple DualDiscs collision movie is used which is part of PTB.
 
-fromTime - Start time \(in seconds\) from which the movie should be read
+fromTime - Start time (in seconds) from which the movie should be read
 into textures. Defaults to start of movie, if not provided.
 
-toTime - End time \(in seconds\) upto which the movie should be read
+toTime - End time (in seconds) upto which the movie should be read
 into textures. Defaults to end of movie, if not provided.
 
 indexIsFrames - If set to 1 then the fromTime and toTime parameters are
-interpreted as frameindex \(starting with 0 for the first frame\), instead
+interpreted as frameindex (starting with 0 for the first frame), instead
 of seconds. If set to 2 then presentation timestamps are ignored for the
 decision when to stop loading a movie. This is needed for certain movies
 with a broken encoding of time, as those would stop loading way too early
@@ -42,7 +42,7 @@ keyboard. A setting of 3 will also skip keyboard queries during the load
 phase, additionally it will not queue up textures in video memory, but
 instead load a texture and then immediately discard it. This is more
 resembling typical movie playback, where a frame is pulled, presented on
-screen, then discarded. It tests a different decoding path in [Screen](/docs/Screen)\(\). A
+screen, then discarded. It tests a different decoding path in [Screen](/docs/Screen)(). A
 setting of 4 will only test decoding performance of the movie, but omit
 creation of actual Psychtoolbox textures for presentation. This allows to
 separate computation time spent in the video decoder from time consumed
@@ -73,16 +73,16 @@ only format. Not all formats are supported by all GPU's, operating
 systems and video codecs. Defaults to 4 = RGBA 8 Bit per color channel.
 
 
-How the demo works: Read the source code - its well documented ;-\)
+How the demo works: Read the source code - its well documented ;-)
 
 This demo "preloads" the movie into textures:
 The whole movie gets read into PTB textures before start of trial. Then
 you show the textures in quick succession like in PlayMoviesDemo. The
 advantage of this approach is exact control over display timing and
 display order: You can show frames in any order you like at any rate you
-like \(and that your hardware likes\). Disadvantage: Longer trial
-setup time for loading the whole movie, higher memory consumption \(keep
-all n frames in memory instead of only the current one\) and the inability
+like (and that your hardware likes). Disadvantage: Longer trial
+setup time for loading the whole movie, higher memory consumption (keep
+all n frames in memory instead of only the current one) and the inability
 to play sound in sync with video.
 
 To make it a bit more interesting, you can use this demo to "browse" short

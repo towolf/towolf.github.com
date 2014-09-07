@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-ISO2007MPEPrintAnalysis\(IsOverLimit,ISO2007MPEStruct\)
+ISO2007MPEPrintAnalysis(IsOverLimit,ISO2007MPEStruct)
 
 Useful printout of ISO 2007 analysis.  Formatted for pasting into Doku Wiki.
 
-6/28/13  dhb  Wrote it.
+\6/28/13  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

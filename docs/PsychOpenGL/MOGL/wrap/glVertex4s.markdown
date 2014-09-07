@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glVertex4s  Interface to OpenGL function glVertex4s
 
-usage:  glVertex4s\( x, y, z, w \)
+usage:  glVertex4s( x, y, z, w )
 
-C function:  void glVertex4s\(GLshort x, GLshort y, GLshort z, GLshort w\)
+C function:  void glVertex4s(GLshort x, GLshort y, GLshort z, GLshort w)
 
 
 <div class="code_header" style="text-align:right;">

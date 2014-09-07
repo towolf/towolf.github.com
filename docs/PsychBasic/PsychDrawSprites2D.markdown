@@ -7,15 +7,15 @@ encoding: UTF-8
 ---
 
 Draw little texture in multiple places, with a similar syntax as
-[Screen](/docs/Screen)\('DrawDots'\).
+[Screen](/docs/Screen)('DrawDots').
 
-Usage: PsychDrawSprites2D\(windowPtr, spriteTex, xy \[, spriteScale=1\]\[, spriteAngle=0\]\[, spriteColor=white\]\[, center2D=\[0,0\]\]\[, spriteShader\]\);
+Usage: PsychDrawSprites2D(windowPtr, spriteTex, xy [, spriteScale=1][, spriteAngle=0][, spriteColor=white][, center2D=[0,0]][, spriteShader]);
 
 This is basically a 'DrawDots' work-alike, just that it doesn't draw nice
 round dots, but many copies of nice little texture images, each
 individually colored, scaled, positioned, shaded and rotated.
 
-It is a convenience wrapper around the [Screen](/docs/Screen)\('DrawTextures'\) command, a
+It is a convenience wrapper around the [Screen](/docs/Screen)('DrawTextures') command, a
 more low-level, more flexible command for drawing of many textures at
 once.
 
@@ -27,7 +27,7 @@ scaling factor. 'spriteAngle' global or per-sprite rotation angle.
 'spriteShader' a shader handle for shaded drawing.
 
 See [Screen](/docs/Screen) DrawTextures? for more help on the options and [Screen](/docs/Screen)
-DrawDots? for similar syntax. See DotDemo.m or DotDemo\(1\) for example
+DrawDots? for similar syntax. See DotDemo.m or DotDemo(1) for example
 usage.
 
 

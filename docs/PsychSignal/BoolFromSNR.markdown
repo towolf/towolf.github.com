@@ -6,8 +6,8 @@ categories:
 encoding: UTF-8
 ---
 
-creates a boolean \(selection\) vector from an SNR \(Signal-to-Noise Ratio\)
-q = BoolFromSNR\(SNR,n\)
+creates a boolean (selection) vector from an SNR (Signal-to-Noise Ratio)
+q = BoolFromSNR(SNR,n)
 
 
 <div class="code_header" style="text-align:right;">

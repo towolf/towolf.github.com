@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-\[avail, numChars\] = CharAvail
+[avail, numChars] = CharAvail
 
 CharAvail returns the availability of characters in the keyboard event
 queue and sometimes the queue's current size. "avail" will be 1 if
@@ -22,8 +22,8 @@ better - alternatives.
 Note that this routine does not actually remove characters from the event
 queue. Call GetChar to remove characters from the queue.
 
-GetChar and CharAvail are character-oriented \(and slow\), whereas KbCheck
-and KbWait are keypress-oriented \(and fast\). See KbCheck.
+GetChar and CharAvail are character-oriented (and slow), whereas KbCheck
+and KbWait are keypress-oriented (and fast). See KbCheck.
 
 See also: GetChar, ListenChar, FlushEvents, KbCheck, KbWait, KbDemo,
 KbQueueDemo.

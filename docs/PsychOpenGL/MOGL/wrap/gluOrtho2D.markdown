@@ -8,9 +8,9 @@ encoding: UTF-8
 
 gluOrtho2D  Interface to OpenGL function gluOrtho2D
 
-usage:  gluOrtho2D\( left, right, bottom, top \)
+usage:  gluOrtho2D( left, right, bottom, top )
 
-C function:  void gluOrtho2D\(GLdouble left, GLdouble right, GLdouble bottom, GLdouble top\)
+C function:  void gluOrtho2D(GLdouble left, GLdouble right, GLdouble bottom, GLdouble top)
 
 
 <div class="code_header" style="text-align:right;">

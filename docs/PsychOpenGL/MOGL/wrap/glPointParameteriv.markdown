@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glPointParameteriv  Interface to OpenGL function glPointParameteriv
 
-usage:  glPointParameteriv\( pname, params \)
+usage:  glPointParameteriv( pname, params )
 
-C function:  void glPointParameteriv\(GLenum pname, const GLint\* params\)
+C function:  void glPointParameteriv(GLenum pname, const GLint\* params)
 
 
 <div class="code_header" style="text-align:right;">

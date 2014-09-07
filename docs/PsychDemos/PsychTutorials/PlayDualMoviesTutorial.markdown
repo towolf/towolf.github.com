@@ -7,7 +7,7 @@ encoding: UTF-8
 ---
 
 
-PlayDualMoviesTutorial\(moviename\)
+PlayDualMoviesTutorial(moviename)
 
 This demo accepts a pattern for a valid moviename, e.g.,
 moviename='\*.mpg', then it plays all movies in the current working

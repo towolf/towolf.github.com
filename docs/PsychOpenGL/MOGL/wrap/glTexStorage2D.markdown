@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glTexStorage2D  Interface to OpenGL function glTexStorage2D
 
-usage:  glTexStorage2D\( target, levels, internalformat, width, height \)
+usage:  glTexStorage2D( target, levels, internalformat, width, height )
 
-C function:  void glTexStorage2D\(GLenum target, GLsizei levels, GLenum internalformat, GLsizei width, GLsizei height\)
+C function:  void glTexStorage2D(GLenum target, GLsizei levels, GLenum internalformat, GLsizei width, GLsizei height)
 
 
 <div class="code_header" style="text-align:right;">

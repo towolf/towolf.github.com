@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-AddToGLOperator\(gloperator, opname, shaderhandle \[, blittercfg\] \[, luttexid\]\)
+AddToGLOperator(gloperator, opname, shaderhandle [, blittercfg] [, luttexid])
 
 Add additional GLSL image processing shaders to GL operator 'gloperator'.
 

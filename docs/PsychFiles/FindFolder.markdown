@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-directory=FindFolder\(name\)
+directory=FindFolder(name)
 Searches the Matlab 'path' for the path to the named folder.
 There may be no matches, one match, or multiple matches.
 Each unique match appears as a row in "directory".

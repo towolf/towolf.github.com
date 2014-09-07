@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glProgramUniform4dv  Interface to OpenGL function glProgramUniform4dv
 
-usage:  glProgramUniform4dv\( program, location, count, value \)
+usage:  glProgramUniform4dv( program, location, count, value )
 
-C function:  void glProgramUniform4dv\(GLuint program, GLint location, GLsizei count, const GLdouble\* value\)
+C function:  void glProgramUniform4dv(GLuint program, GLint location, GLsizei count, const GLdouble\* value)
 
 
 <div class="code_header" style="text-align:right;">

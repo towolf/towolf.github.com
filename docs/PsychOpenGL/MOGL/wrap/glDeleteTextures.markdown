@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glDeleteTextures  Interface to OpenGL function glDeleteTextures
 
-usage:  glDeleteTextures\( n, textures \)
+usage:  glDeleteTextures( n, textures )
 
-C function:  void glDeleteTextures\(GLsizei n, const GLuint\* textures\)
+C function:  void glDeleteTextures(GLsizei n, const GLuint\* textures)
 
 
 <div class="code_header" style="text-align:right;">

@@ -8,7 +8,7 @@ encoding: UTF-8
 
 result = HatUp
 Return a constant for hat up position.  To read a hat position, use:
-JOYSTICK\(joystickNumber,'GetHat',hatNumber\).
+JOYSTICK(joystickNumber,'GetHat',hatNumber).
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-\[ch, when\] = GetChar\(\[getExtendedData\], \[getRawCode\]\)
+[ch, when] = GetChar([getExtendedData], [getRawCode])
 
 Wait for a typed character and return it.  If a character was typed
 before calling GetChar then GetChar will return that character immediatly.
@@ -29,11 +29,11 @@ operations, e.g., Matlab computations, sound output or visual stimulus
 drawing. After an initial call to ListenChar, the operating system will
 record all keyboard input into an internal queue. GetChar removes
 characters from that queue, one character per invocation of GetChar. You
-can empty that queue any time by calling FlushEvents\('keyDown'\).
+can empty that queue any time by calling FlushEvents('keyDown').
 
 If you want to check the current state of the keyboard, e.g., for
 triggering immediate actions in response to a key press, waiting for a
-subjects response, synchronizing to keytriggers \(e.g., fMRI machines\) or
+subjects response, synchronizing to keytriggers (e.g., fMRI machines) or
 if you require high timing precision then use KbCheck instead of GetChar.
 
 GetChar should work on all platforms, but its specific functionality,
@@ -42,9 +42,9 @@ and version, if you use Matlab or Octave, and if you use Matlab with or
 without Java based GUI active. For portability it is therefore best to
 ignore all info returned beyond the character code.
 
-"when" is a struct. It \(used to\) return the time of the keypress, the "adb"
+"when" is a struct. It (used to) return the time of the keypress, the "adb"
 address of the input device, and the state of all the modifier keys
-\(shift, control, command, option, alphaLock\) and the mouse button.
+(shift, control, command, option, alphaLock) and the mouse button.
 "when.secs" is an estimate, of what GetSecs would have been. Since it's
 derived sometime from a timebase different from the timebase of GetSecs,
 times returned by GetSecs are not directly comparable to when.secs.
@@ -60,24 +60,24 @@ operating system under Octave or in "matlab -nojvm" mode, or on Windows
 Vista and later versions of the Windows OS, when will only contain a
 valid timestamp, but all other fields will be meaningless.
 
-GetChar and CharAvail are character-oriented \(and slow\), whereas KbCheck
-and KbWait are keypress-oriented \(and fast\). If only a meta key \(like
-<option\> or <shift\>\) was hit, KbCheck will return true, because a key was
+GetChar and CharAvail are character-oriented (and slow), whereas KbCheck
+and KbWait are keypress-oriented (and fast). If only a meta key (like
+<option\> or <shift\>) was hit, KbCheck will return true, because a key was
 pressed, but CharAvail will return false, because no character was
 generated. See KbCheck.
 
 CharAvail and GetChar use the system event queue to retrieve the character
-generated, not the raw key press\(es\) per se. If the user presses "a",
+generated, not the raw key press(es) per se. If the user presses "a",
 GetChar returns 'a', but if the user presses option-e followed by "a",
 this selects an accented a, "?", which is treated by GetChar as a single
-character, even though it took the user three keypresses \(counting the
-option key\) to produce it.
+character, even though it took the user three keypresses (counting the
+option key) to produce it.
 
 There can be some delay between when the key is pressed and when CharAvail
 or GetChar detects it, due to internal processing overhead in Matlabs Java
 implementation. GetChar internally collects timestamps in the timebase
 used by Matlabs Java implementation, whereas other Psychtoolbox timing functions
-\(GetSecs, [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\), KbCheck, KbWait, ...\) use time reported by some
+(GetSecs, [Screen](/docs/Screen)('[Flip](/docs/Flip)'), KbCheck, KbWait, ...) use time reported by some
 high precision system timer. The "when.secs" time reported by GetChar is
 converted from Java timebase to Psychtoolboxs timebase. Due to conversion
 errors mostly out of our control, the reported values can be off by
@@ -91,16 +91,16 @@ operating system is bundled with a different Java version, so some Matlab
 versions may be reliable with respect to GetChars timing, whereas others
 are not.
 
----\> If precise timing of the keypress is important, use KbCheck or
-KbWait or KbQueueXXX functions or KbEventGet for consistent results\!
+\---\> If precise timing of the keypress is important, use KbCheck or
+KbWait or KbQueueXXX functions or KbEventGet for consistent results!
 
 # OS X / Windows-XP / Linux with Matlab and Java enabled
 
 JAVA PATH: The GetChar implementation for Matlab is based on Java.
 Therefore, the Psychtoolbox subfolder PsychJava must be added to Matlabs
 static classpath. Normally this is done by the Psychtoolbox installer by
-editing the Matlab file "classpath.txt" \(enter which\('classpath.txt'\) to
-find the location of that file\). If the installer fails to edit the file
+editing the Matlab file "classpath.txt" (enter which('classpath.txt') to
+find the location of that file). If the installer fails to edit the file
 properly, you'll need to perform that step manually by following the
 instructions of the installer. See 'help PsychJavaTrouble' for more infos
 on this.
@@ -113,10 +113,10 @@ to OS 9 GetChar with respect to background keystroke collection.
 
 KEYSTROKES IN MATLAB WINDOW: By default, all keystrokes are also sent to
 Matlabs window, generating some ugly clutter. You can suppress this by
-calling ListenChar\(2\), so your Matlab console stays nice and clean. Don't
-forget to call ListenChar\(1\) or ListenChar\(0\) though before the end of
+calling ListenChar(2), so your Matlab console stays nice and clean. Don't
+forget to call ListenChar(1) or ListenChar(0) though before the end of
 your script. If Matlab returns to its command prompt without reenabling
-keyboard input via ListenChar\(0\) or ListenChar\(1\), Matlab will be left
+keyboard input via ListenChar(0) or ListenChar(1), Matlab will be left
 with a dead keyboard until you press the CTRL+C key combo. This silencing
 of clutter does currently not work in matlab -nojvm mode, or if you use
 GNU/Octave instead of Matlab.

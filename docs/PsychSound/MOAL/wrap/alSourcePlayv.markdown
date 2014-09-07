@@ -8,9 +8,9 @@ encoding: UTF-8
 
 alSourcePlayv  Interface to OpenAL function alSourcePlayv
 
-usage:  alSourcePlayv\( ns, sids \)
+usage:  alSourcePlayv( ns, sids )
 
-C function:  void alSourcePlayv\(ALsizei ns, const ALuint\* sids\)
+C function:  void alSourcePlayv(ALsizei ns, const ALuint\* sids)
 
 
 <div class="code_header" style="text-align:right;">

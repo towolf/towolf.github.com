@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGetTexImage  Interface to OpenGL function glGetTexImage
 
-usage:  pixels = glGetTexImage\( target, level, format, type \)
+usage:  pixels = glGetTexImage( target, level, format, type )
 
-C function:  void glGetTexImage\(GLenum target, GLint level, GLenum format, GLenum type, GLvoid\* pixels\)
+C function:  void glGetTexImage(GLenum target, GLint level, GLenum format, GLenum type, GLvoid\* pixels)
 
 
 <div class="code_header" style="text-align:right;">

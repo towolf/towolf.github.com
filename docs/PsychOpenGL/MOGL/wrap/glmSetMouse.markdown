@@ -8,7 +8,7 @@ encoding: UTF-8
 
 glmSetMouse  Set position and visibility of mouse cursor
 
-usage:  glmSetMouse\( xy, visible \)
+usage:  glmSetMouse( xy, visible )
 
 
 <div class="code_header" style="text-align:right;">

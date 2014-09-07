@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glSampleCoverage  Interface to OpenGL function glSampleCoverage
 
-usage:  glSampleCoverage\( value, invert \)
+usage:  glSampleCoverage( value, invert )
 
-C function:  void glSampleCoverage\(GLclampf value, GLboolean invert\)
+C function:  void glSampleCoverage(GLclampf value, GLboolean invert)
 
 
 <div class="code_header" style="text-align:right;">

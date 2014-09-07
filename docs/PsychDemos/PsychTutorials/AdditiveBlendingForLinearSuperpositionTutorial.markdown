@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-AdditiveBlendingForLinearSuperpositionTutorial\(\[outputdevice='None'\] \[, overlay=1\] \[, colorclut=0\] \[, doGainCorrection=0\]\);
+AdditiveBlendingForLinearSuperpositionTutorial([outputdevice='None'] [, overlay=1] [, colorclut=0] [, doGainCorrection=0]);
 
 Illustrates use of floating point textures in combination with
 source-weighted additive alpha blending to create linear superpositions
@@ -17,7 +17,7 @@ addition/subtraction of luminance values. The demo uses a 32 bit floating
 point framebuffer on the latest hardware. This allows for an effective 23
 bits of precision in all math done and in the final stimuli - more than
 any display device in existence could resolve. On previous generation
-hardware \(older than NVidia Geforce 88000 or ATI Radeon HD2000\), alpha
+hardware (older than NVidia Geforce 88000 or ATI Radeon HD2000), alpha
 blending isn't supported in 32 bpc float precision. Therefore the demo
 will select 16 bpc floating point precision, where alpha blending works.
 This way the effective precision is 11 bits, a bit less than what special
@@ -47,25 +47,25 @@ references and details.
 
 'Native10Bit' - Enables the native 10 bpc framebuffer support on ATI
 Radeon X1xxx / HDxxx GPU's when used under Linux or OS/X with the
-PsychtoolboxKernelDriver loaded \(see "help PsychtoolboxKernelDriver" on
-how to do that\). These GPU's do support 10 bits per color channel when
+PsychtoolboxKernelDriver loaded (see "help PsychtoolboxKernelDriver" on
+how to do that). These GPU's do support 10 bits per color channel when
 this special mode is used. This also works with properly configured NVidia
 GPU's under Linux, and with NVidia Quadro and AMD Fire gpu's under
 some versions of MS-Windows.
 
 'Native11Bit' - Enables the native ~11 bpc framebuffer support on ATI
 Radeon X1xxx / HDxxx GPU's when used under Linux or OS/X with the
-PsychtoolboxKernelDriver loaded \(see "help PsychtoolboxKernelDriver" on
-how to do that\). These GPU's do support ~11 bits per color channel when
-this special mode is used \(11 bits red, 11 bits green, 10 bits blue\).
+PsychtoolboxKernelDriver loaded (see "help PsychtoolboxKernelDriver" on
+how to do that). These GPU's do support ~11 bits per color channel when
+this special mode is used (11 bits red, 11 bits green, 10 bits blue).
 
 'VideoSwitcher' - Enable the Xiangrui Li et al. VideoSwitcher, a special
-type of video attenuator \(see "help PsychVideoSwitcher"\) in standard
+type of video attenuator (see "help PsychVideoSwitcher") in standard
 "simple" mode.
 
 'VideoSwitcherCalibrated' - Enable the Xiangrui Li et al. VideoSwitcher,
-but use the more complex \(and more accurate?\) mode with calibrated lookup
-tables \(see "help PsychVideoSwitcher"\).
+but use the more complex (and more accurate?) mode with calibrated lookup
+tables (see "help PsychVideoSwitcher").
 
 'Attenuator' - Enable support for standard Pelli & Zhang style video
 attenuators by use of lookup tables.
@@ -74,16 +74,16 @@ Then we have support for the different modes of operation of the
 Cambridge Research Systems Bits++ box:
 
 'Mono++' - Use 14 bit mono output mode, either with color index overlay
-\(if the optional 2nd 'overlay' flag is set to 1, which is the default\),
+(if the optional 2nd 'overlay' flag is set to 1, which is the default),
 or without color index overlay.
 
 'Color++' - User 14 bits per color component mode.
 
 Then we have support for the different modes of operation of the
-VPixx Technologies DPixx \(DataPixx\) box:
+VPixx Technologies DPixx (DataPixx) box:
 
 'M16' - Use 16 bit mono output mode, either with color index overlay
-\(if the optional 2nd 'overlay' flag is set to 1, which is the default\),
+(if the optional 2nd 'overlay' flag is set to 1, which is the default),
 or without color index overlay.
 
 'C48' - User 16 bits per color component mode.
@@ -108,7 +108,7 @@ correction if you want.
 
 
 The fourth optional parameter 'doGainCorrection' if provided and set to
-1, will demonstrate use of display per-pixel gain correction, aka
+\1, will demonstrate use of display per-pixel gain correction, aka
 vignetting correction. It will modulate the brightness of each pixel with
 a gain factor, the gains increasing linearly from the left border to the
 right border of the display. See "help VignettingCorrectionDemo" for more
@@ -137,8 +137,8 @@ sync line just to show how to generate trigger signals on the
 VideoSwitcher device.
 
 
-Needs hardware with support for imaging pipeline \(GLSL shaders and
-floating point framebuffers\). Should work well on ATI Radeon X1000 and
+Needs hardware with support for imaging pipeline (GLSL shaders and
+floating point framebuffers). Should work well on ATI Radeon X1000 and
 later, Geforce 6000 and later and even better on DirectX10 hardware like
 Radeon HD series and NVidia Geforce 8 / 9 series and later.
 

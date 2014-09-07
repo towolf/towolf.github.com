@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-cal = SetGammaMethod\(cal,gammaMode,\[precision\]\)
+cal = SetGammaMethod(cal,gammaMode,[precision])
 
 Set up the gamma correction mode to be used.  Options
 are:
@@ -19,10 +19,10 @@ inverse table.  The default is 1000 levels.
 
 See also RefitCalGamma, CalibrateFitGamma, GamutToSettings
 
-8/4/96  dhb  Wrote it.
-8/21/97 dhb  Update for structure.
-3/12/98 dhb  Change name to SetGammaCorrectMode
-5/26/12 dhb  Add real exhaustive search mode \(2\).
+\8/4/96  dhb  Wrote it.
+\8/21/97 dhb  Update for structure.
+\3/12/98 dhb  Change name to SetGammaCorrectMode
+\5/26/12 dhb  Add real exhaustive search mode (2).
 
 
 <div class="code_header" style="text-align:right;">

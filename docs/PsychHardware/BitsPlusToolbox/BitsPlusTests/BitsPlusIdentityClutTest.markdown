@@ -6,14 +6,14 @@ categories:
 encoding: UTF-8
 ---
 
-Test signal transmission from the framebuffer to your CRS Bits+/Bits\#
+Test signal transmission from the framebuffer to your CRS Bits+/Bits#
 device or VPixx Inc. DataPixx/ViewPixx device and similar CRS and VPixx
 products.
 
 Test proper function of the T-Lock mechanism, proper loading of identity
 gamma tables into the GPU, and for bad interference of dithering hardware
 with the DVI stream. This test is meant for Mono++ mode of Bits+, it
-won't work properly in any other mode\!\!
+won't work properly in any other mode!!
 
 Disclaimer: This test only exists because of the huge number of serious &
 embarassing bugs in the graphics drivers and operating systems from
@@ -26,19 +26,19 @@ big companies.
 
 # Usage:
 
-BitsPlusIdentityClutTest\(\[whichScreen=max\]\[, usedpixx=0\]\[, winrect=\[\]\]\);
+BitsPlusIdentityClutTest([whichScreen=max][, usedpixx=0][, winrect=[]]);
 
 # How to test:
 
-1. Make sure your Bits+ box is switched to Mono++ mode by uploading the
+\1. Make sure your Bits+ box is switched to Mono++ mode by uploading the
    proper firmware. Or make sure your DataPixx is connected, both DVI
    cable and USB cable.
 
-2. Run the BitsPlusImagingPipelineTest script to validate that your
+\2. Run the BitsPlusImagingPipelineTest script to validate that your
    graphics card can create properly formatted images in the framebuffer
    for Bits+ or DataPixx.
 
-3. Run this script, optionally passing a screenid. It will test the
+\3. Run this script, optionally passing a screenid. It will test the
    secondary display on a multi-display setup by default, or the external
    display on a laptop. For a DataPixx device or similar, set the
    optional 'usedpixx' flag to 1.

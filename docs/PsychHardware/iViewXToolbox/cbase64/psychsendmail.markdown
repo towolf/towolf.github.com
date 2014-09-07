@@ -7,13 +7,13 @@ encoding: UTF-8
 ---
 
 SENDMAIL Send Internet e-mail
-  Using SENDMAIL \(which needs the TCP/UDP/IP toolbox, freely available from
-  http://petrydpc.ite.mh.se/tools/\) it is possible to send e-mail messages
+  Using SENDMAIL (which needs the TCP/UDP/IP toolbox, freely available from
+  http://petrydpc.ite.mh.se/tools/) it is possible to send e-mail messages
   from the Matlab prompt. This can be useful when you want to be notified
   when large jobs terminate on remote machines.
 
 Usage
-  \[RETCODE\] = SENDMAIL\(FROM, TO, SUBJ, MESG \[, FILENAME\]\) send an e-mail with
+  [RETCODE] = SENDMAIL(FROM, TO, SUBJ, MESG [, FILENAME]) send an e-mail with
   subject SUBJ and contents MESG to the email address in TO, with
   the From: field set to FROM.
 
@@ -28,13 +28,13 @@ Usage
   contain path information.
 
 Examples
-  sendmail\('me@some.where.com','me@else.where.org','Job Finished\!','It took 4 days, 12 hours,6 minutes.'\)
+  sendmail('me@some.where.com','me@else.where.org','Job Finished!','It took 4 days, 12 hours,6 minutes.')
 
-  sendmail\('me@some.where.com','me@else.where.org','Job Finished\!','Finaly...', 'results.mat'\)
+  sendmail('me@some.where.com','me@else.where.org','Job Finished!','Finaly...', 'results.mat')
 
 Installation
-  1. Make sure the TCP/UDP/IP toolbox is somewhere in your PATH
-  2. Adjust the SMTPSERVER, SMTPSERVERPORT and CLIENTIP variables to reflect your situation.
+  \1. Make sure the TCP/UDP/IP toolbox is somewhere in your PATH
+  \2. Adjust the SMTPSERVER, SMTPSERVERPORT and CLIENTIP variables to reflect your situation.
 
 
 <div class="code_header" style="text-align:right;">

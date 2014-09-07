@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGetMaterialfv  Interface to OpenGL function glGetMaterialfv
 
-usage:  params = glGetMaterialfv\( face, pname \)
+usage:  params = glGetMaterialfv( face, pname )
 
-C function:  void glGetMaterialfv\(GLenum face, GLenum pname, GLfloat\* params\)
+C function:  void glGetMaterialfv(GLenum face, GLenum pname, GLfloat\* params)
 
 
 <div class="code_header" style="text-align:right;">

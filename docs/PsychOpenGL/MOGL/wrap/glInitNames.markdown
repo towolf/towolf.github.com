@@ -10,7 +10,7 @@ glInitNames  Interface to OpenGL function glInitNames
 
 usage:  glInitNames
 
-C function:  void glInitNames\(void\)
+C function:  void glInitNames(void)
 
 
 <div class="code_header" style="text-align:right;">

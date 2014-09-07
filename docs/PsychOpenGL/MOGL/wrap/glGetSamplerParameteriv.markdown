@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGetSamplerParameteriv  Interface to OpenGL function glGetSamplerParameteriv
 
-usage:  params = glGetSamplerParameteriv\( sampler, pname \)
+usage:  params = glGetSamplerParameteriv( sampler, pname )
 
-C function:  void glGetSamplerParameteriv\(GLuint sampler, GLenum pname, GLint\* params\)
+C function:  void glGetSamplerParameteriv(GLuint sampler, GLenum pname, GLint\* params)
 
 
 <div class="code_header" style="text-align:right;">

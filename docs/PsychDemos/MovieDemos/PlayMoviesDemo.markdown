@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-PlayMoviesDemo\(moviename \[, backgroundMaskOut\]\[, tolerance\]\[, pixelFormat=4\]\[, maxThreads=-1\]\)
+PlayMoviesDemo(moviename [, backgroundMaskOut][, tolerance][, pixelFormat=4][, maxThreads=-1])
 
 This demo accepts a pattern for a valid moviename, e.g.,
 moviename=`\*.mpg`, then it plays all movies in the current working
@@ -27,8 +27,8 @@ next movie in the list. ESC ends the demo.
 
 If the optional RGB color vector backgroundMaskOut is provided, then
 color pixels in the video which are equal or close to backgroundMaskOut will be
-discarded during drawing. E.g., backgroundMaskOut = \[255 255 255\] would
-discard all white pixels, backgroundMaskOut = \[0 0 0\] would discard all
+discarded during drawing. E.g., backgroundMaskOut = [255 255 255] would
+discard all white pixels, backgroundMaskOut = [0 0 0] would discard all
 black pixels etc. The optional tolerance parameter allows for some
 lenience, e.g., tolerance = 10 would discard all pixels whose euclidean
 distance in RGB color space is less than 10 units to the backgroundMaskOut

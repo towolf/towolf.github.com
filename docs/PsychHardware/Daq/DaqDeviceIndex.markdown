@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-daq = DaqDeviceIndex\(\[DeviceName\]\[, ShowInterfaceNumberWarning=1\]\)
+daq = DaqDeviceIndex([DeviceName][, ShowInterfaceNumberWarning=1])
 Returns a list of all your USB -1208FS, -1408FS, or -1608FS daqs.
 
 CAUTION: This routine works well on GNU/Linux and MS-Windows, but is very
@@ -18,7 +18,7 @@ However that code has not been tested yet and may need some small amount
 of tweaking to make it really work. Search the Psychtoolbox forum for
 corresponding messages...
 
-TECHNICAL NOTE: When we call PsychHID\('Devices'\), each USB-1208FS/1408FS
+TECHNICAL NOTE: When we call PsychHID('Devices'), each USB-1208FS/1408FS
 box presents itself as four HID "devices" sharing the same serial number. They
 are interfaces 0,1,2,3. They usually appear in reverse order in the
 device list. Nearly all the commands use only interface 0, so
@@ -29,13 +29,13 @@ automatically.
 
 ADDENDUM: The above statement is correct for the 1208FS and the 1408FS,
 not for the 1608FS. Number of Devices found by PsychHID for a
-1608FS and Leopard varies from five to seven with little rhyme or reason.  It
+\1608FS and Leopard varies from five to seven with little rhyme or reason.  It
 appears that the correct number of interfaces is seven.  As with the 1208FS,
 most communication is through interface 0.  However, when acquiring data
-\(e.g., using DaqAInScan\), output is via interfaces 1 through 6.  Because
+(e.g., using DaqAInScan), output is via interfaces 1 through 6.  Because
 PsychHID's enumeration of the interfaces is flaky, you may need to run this
-function more than once \(with calls to DaqReset and probably "clear PsychHID"
-in between successive calls\) in order to get device enumeration completed
+function more than once (with calls to DaqReset and probably "clear PsychHID"
+in between successive calls) in order to get device enumeration completed
 correctly.  In DaqTest, user will be warned if they try to test a 1608 and
 this function doesn't return the right number of interfaces, so I added the
 second optional argument as a flag to suppress the warning that would be

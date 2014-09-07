@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-   \[x,y\] = RectCenterd\(rect\);
+   [x,y] = RectCenterd(rect);
 
     RectCenterd returns the x,y point at the center of a rect. It does the
     same as RectCenter, just without rounding the result to integer

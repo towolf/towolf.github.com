@@ -14,9 +14,9 @@ Dear Denis,
 
 I am responding to your e-mails of March 19, concerning FPRINTF.
 
-\> in my first message \(below\) i noted that
+\> in my first message (below) i noted that
 \>
-\> \>fprintf\('"%s" hit at time %.3f s\\n','5%',1\)
+\> \>fprintf('"%s" hit at time %.3f s\\n','5%',1)
 \> \>
 \> \>produces no output at all.
 \>
@@ -33,18 +33,18 @@ reason, passing more than two arguments to FPRINTF can cause the first
 argument to be treated as the filename or file ID.  This has been reported
 to our development staff to be addressed in a future version of Matlab.
 
-As a workaround you can manually specify FID to 1 \(for standard output\) in
+As a workaround you can manually specify FID to 1 (for standard output) in
 your FPRINTF statement:
 
   a='%04d';
-  fprintf\(1,'ls %s %i\\n',a,4\);
+  fprintf(1,'ls %s %i\\n',a,4);
 
 Another workaround is to make multiple calls to the FPRINTF command.  For
 example:
 
   a='%04d';
-  fprintf\('ls %s ',a\);
-  fprintf\('%d\\n',4\);
+  fprintf('ls %s ',a);
+  fprintf('%d\\n',4);
 
 If you have further questions regarding this issue, please be sure to
 mention the above case ID number in your e-mail response to me.

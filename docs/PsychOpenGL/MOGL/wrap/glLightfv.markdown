@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glLightfv  Interface to OpenGL function glLightfv
 
-usage:  glLightfv\( light, pname, params \)
+usage:  glLightfv( light, pname, params )
 
-C function:  void glLightfv\(GLenum light, GLenum pname, const GLfloat\* params\)
+C function:  void glLightfv(GLenum light, GLenum pname, const GLfloat\* params)
 
 
 <div class="code_header" style="text-align:right;">

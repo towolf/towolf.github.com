@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-mtf = DiffractionMTF\(s,pupil,nm\)
+mtf = DiffractionMTF(s,pupil,nm)
 
 Compute the diffraction-limited MTF
 for incoherent light.
@@ -15,7 +15,7 @@ for incoherent light.
     pupil = pupil diameter in mm
     nm = wavelength in nm
 
-Goodman, J. W. \(1968\) Introduction to Fourier Optics.
+Goodman, J. W. (1968) Introduction to Fourier Optics.
 San Francisco: McGraw-Hill.
 
 

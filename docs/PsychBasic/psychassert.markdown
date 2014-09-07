@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-[psychassert](/docs/psychassert)\(expression, ...\) - Replacement for Matlab 7 builtin assert\(\).
+[psychassert](/docs/psychassert)(expression, ...) - Replacement for Matlab 7 builtin assert().
 This is hopefully useful for older Matlab installations and
 for the Octave port:
 

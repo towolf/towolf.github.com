@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glFenceSync  Interface to OpenGL function glFenceSync
 
-usage:  r = glFenceSync\( condition, flags \)
+usage:  r = glFenceSync( condition, flags )
 
-C function:  GLsync glFenceSync\(GLenum condition, GLbitfield flags\)
+C function:  GLsync glFenceSync(GLenum condition, GLbitfield flags)
 
 
 <div class="code_header" style="text-align:right;">

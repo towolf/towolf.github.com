@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glPixelTransferf  Interface to OpenGL function glPixelTransferf
 
-usage:  glPixelTransferf\( pname, param \)
+usage:  glPixelTransferf( pname, param )
 
-C function:  void glPixelTransferf\(GLenum pname, GLfloat param\)
+C function:  void glPixelTransferf(GLenum pname, GLfloat param)
 
 
 <div class="code_header" style="text-align:right;">

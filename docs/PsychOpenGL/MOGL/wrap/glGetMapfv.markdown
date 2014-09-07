@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGetMapfv  Interface to OpenGL function glGetMapfv
 
-usage: glGetMapfv\( target, query, v \)
+usage: glGetMapfv( target, query, v )
 
-C function:  void glGetMapfv\(GLenum target, GLenum query, GLfloat\* v\)
+C function:  void glGetMapfv(GLenum target, GLenum query, GLfloat\* v)
 
 
 <div class="code_header" style="text-align:right;">

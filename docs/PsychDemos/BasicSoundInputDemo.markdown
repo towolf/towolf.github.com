@@ -6,10 +6,10 @@ categories:
 encoding: UTF-8
 ---
 
-BasicSoundInputDemo\(\[wavfilename\] \[, voicetrigger=0\] \[, maxsecs=inf\]\)
+BasicSoundInputDemo([wavfilename] [, voicetrigger=0] [, maxsecs=inf])
 
 Demonstrates very basic usage of the new Psychtoolbox sound driver
-PsychPortAudio\(\) for audio capture / recording.
+PsychPortAudio() for audio capture / recording.
 
 Sound is captured from the default recording device, optionally waiting
 until the amplitude exceeds some threshold level before start of

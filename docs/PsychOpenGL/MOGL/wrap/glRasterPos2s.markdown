@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glRasterPos2s  Interface to OpenGL function glRasterPos2s
 
-usage:  glRasterPos2s\( x, y \)
+usage:  glRasterPos2s( x, y )
 
-C function:  void glRasterPos2s\(GLshort x, GLshort y\)
+C function:  void glRasterPos2s(GLshort x, GLshort y)
 
 
 <div class="code_header" style="text-align:right;">

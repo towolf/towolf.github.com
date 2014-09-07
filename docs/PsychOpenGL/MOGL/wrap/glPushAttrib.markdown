@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glPushAttrib  Interface to OpenGL function glPushAttrib
 
-usage:  glPushAttrib\( mask \)
+usage:  glPushAttrib( mask )
 
-C function:  void glPushAttrib\(GLbitfield mask\)
+C function:  void glPushAttrib(GLbitfield mask)
 
 
 <div class="code_header" style="text-align:right;">

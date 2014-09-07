@@ -6,13 +6,13 @@ categories:
 encoding: UTF-8
 ---
 
-mtf = WilliamsMTF\(s\)
+mtf = WilliamsMTF(s)
 
 Compute the MTF measured by Williams et. al.
 for 633 nm light.
 
-7/11/94     dhb     Wrote it.
-7/14/94     dhb     Pulled calculation of rest into separate function.
+\7/11/94     dhb     Wrote it.
+\7/14/94     dhb     Pulled calculation of rest into separate function.
 
 
 <div class="code_header" style="text-align:right;">

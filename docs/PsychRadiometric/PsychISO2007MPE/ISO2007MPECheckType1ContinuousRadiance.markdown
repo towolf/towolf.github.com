@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-\[IsOverLimit,ISO2007MPEStruct\] = ISO2007MPECheckType1ContinuousRadiance\(S\_in,radiancein\_WattsPerSrM2,stimulusDurationSecs,stimulusAreaDegrees2,eyeLengthMm\)
+[IsOverLimit,ISO2007MPEStruct] = ISO2007MPECheckType1ContinuousRadiance(S\_in,radiancein\_WattsPerSrM2,stimulusDurationSecs,stimulusAreaDegrees2,eyeLengthMm)
 
 Run all the checks that apply to a radiance measurement for the ISO 2007 MPE standard, for a Type 1 instrument and continuous exposure.
 Does not do the convergent beam check -- see comment in Contents.m about when we think this applies.
@@ -19,11 +19,11 @@ This value is used in the conversion from radiance to retinal irradiance.
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 IMPORTANT: Before using the ISO2007MPE routines, please see the notes on usage
-and responsibility in PsychISO2007MPE/Contents.m \(type "help PsychISO2007MPE"
+and responsibility in PsychISO2007MPE/Contents.m (type "help PsychISO2007MPE"
 at the Matlab prompt.
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-6/28/13  dhb  Wrote it.
+\6/28/13  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

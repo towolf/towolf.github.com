@@ -6,12 +6,12 @@ categories:
 encoding: UTF-8
 ---
 
-InitializeMatlabOpenGL\(\[opengl\_c\_style\] \[, debuglevel\] \[, noswitchto3D\] \[, specialFlags=0\]\)
+InitializeMatlabOpenGL([opengl\_c\_style] [, debuglevel] [, noswitchto3D] [, specialFlags=0])
 
 InitializeMatlabOpenGL -- Initialize the OpenGL for Matlab wrapper 'mogl'.
 
 Call this function at the beginning of your experiment script before
-calling \*any\* Psychtoolbox [Screen](/docs/Screen)\(\) command, if you intend to use low-level
+calling \*any\* Psychtoolbox [Screen](/docs/Screen)() command, if you intend to use low-level
 OpenGL drawing commands in your script as provided by Richard Murrays
 moglcore extension.
 
@@ -27,11 +27,11 @@ routine.
 
 Options:
 opengl\_c\_style = 0 / 1:
-If you call InitializeMatlabOpenGL or InitializeMatlabOpenGL\(0\), all
+If you call InitializeMatlabOpenGL or InitializeMatlabOpenGL(0), all
 constants will be loaded in structs in order to avoid cluttering the
 Matlab workspace too much. You'll have to replace all GL\_xxx calls by
 GL.xxx calls, e.g., GL\_LIGHTING becomes GL.LIGHTING .
-If you call InitializeMatlabOpenGL\(1\), then all constants will additionally
+If you call InitializeMatlabOpenGL(1), then all constants will additionally
 be provided in standard C-Style syntax, aka GL\_LIGHTING.
 
 debuglevel = 0 to 3: Setting debuglevel == 0 will disable debug-output.
@@ -58,11 +58,11 @@ following values to setup such a special configuration:
    accumulation buffer at all. On most graphics cards the accumulation
    buffer is implemented in software - using it may drastically reduce
    graphics performance down to redraw rates of only a few frames per
-   second\! There are better methods based on clever use of alpha blending
+   second! There are better methods based on clever use of alpha blending
    and floating point resolution offscreen windows on modern graphics
    cards, or by direct low-level use of framebuffer objects.
 
-   -\> This flag is needed to make the glAccum\(\) command work.
+   \-\> This flag is needed to make the glAccum() command work.
 
 
 

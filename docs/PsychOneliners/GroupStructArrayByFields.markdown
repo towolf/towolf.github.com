@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-theGroupedArray = GroupStructArrayByFields\(theStructArray,theFields\)
+theGroupedArray = GroupStructArrayByFields(theStructArray,theFields)
 
 Group together the members of a struct array that share the same values
 in the passed fields.
@@ -14,7 +14,7 @@ in the passed fields.
 This is useful for sorting/grouping elements in a struct array on
 parameters that signify membership of trials to a particular condition.
 
-7/21/03  dhb  Wrote it.
+\7/21/03  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

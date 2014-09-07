@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGenFramebuffersEXT  Interface to OpenGL function glGenFramebuffersEXT
 
-usage:  framebuffers = glGenFramebuffersEXT\( n \)
+usage:  framebuffers = glGenFramebuffersEXT( n )
 
-C function:  void glGenFramebuffersEXT\(GLsizei n, GLuint\* framebuffers\)
+C function:  void glGenFramebuffersEXT(GLsizei n, GLuint\* framebuffers)
 
 
 <div class="code_header" style="text-align:right;">

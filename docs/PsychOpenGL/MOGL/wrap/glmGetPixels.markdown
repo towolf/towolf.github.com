@@ -8,7 +8,7 @@ encoding: UTF-8
 
 glmGetPixels  Read packed pixels from the screen
 
-usage:  pixels = glmGetPixels\( rect \)
+usage:  pixels = glmGetPixels( rect )
 
 
 <div class="code_header" style="text-align:right;">

@@ -8,9 +8,9 @@ encoding: UTF-8
 
 alGetBufferfv  Interface to OpenAL function alGetBufferfv
 
-usage:  values = alGetBufferfv\( bid, param \)
+usage:  values = alGetBufferfv( bid, param )
 
-C function:  void alGetBufferfv\(ALuint bid, ALenum param, ALfloat\* values\)
+C function:  void alGetBufferfv(ALuint bid, ALenum param, ALfloat\* values)
 
 
 <div class="code_header" style="text-align:right;">

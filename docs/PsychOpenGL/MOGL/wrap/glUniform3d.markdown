@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glUniform3d  Interface to OpenGL function glUniform3d
 
-usage:  glUniform3d\( location, x, y, z \)
+usage:  glUniform3d( location, x, y, z )
 
-C function:  void glUniform3d\(GLint location, GLdouble x, GLdouble y, GLdouble z\)
+C function:  void glUniform3d(GLint location, GLdouble x, GLdouble y, GLdouble z)
 
 
 <div class="code_header" style="text-align:right;">

@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glVertexAttribL1dv  Interface to OpenGL function glVertexAttribL1dv
 
-usage:  glVertexAttribL1dv\( index, v \)
+usage:  glVertexAttribL1dv( index, v )
 
-C function:  void glVertexAttribL1dv\(GLuint index, const GLdouble\* v\)
+C function:  void glVertexAttribL1dv(GLuint index, const GLdouble\* v)
 
 
 <div class="code_header" style="text-align:right;">

@@ -19,11 +19,11 @@ The priority flavor 'THREAD\_PRECEDENCE\_POLICY' is never returned
 because its status is implied  by either 'THREAD\_TIME\_CONSTRAINT\_POLICY'
 or  'THREAD\_STANDARD\_POLICY':
 
-  -If flavorNameString is 'THREAD\_TIME\_CONSTRAINT\_POLICY', then then
+  \-If flavorNameString is 'THREAD\_TIME\_CONSTRAINT\_POLICY', then then
   'THREAD\_PRECEDENCE\_POLICY'and its 'importance' parameter  are ignored
   by the Mach task scheduler.
 
-  -If flavorNameString is 'THREAD\_STANDARD\_POLICY' then the 'importance'
+  \-If flavorNameString is 'THREAD\_STANDARD\_POLICY' then the 'importance'
   parameter associated with 'THREAD\_PRECEDENCE\_POLICY' governs the
   relative allocation of CPU time between the main MATLAB thread and all
   other threads of the MATLAB process.

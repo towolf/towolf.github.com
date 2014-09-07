@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glNewList  Interface to OpenGL function glNewList
 
-usage:  glNewList\( list, mode \)
+usage:  glNewList( list, mode )
 
-C function:  void glNewList\(GLuint list, GLenum mode\)
+C function:  void glNewList(GLuint list, GLenum mode)
 
 
 <div class="code_header" style="text-align:right;">

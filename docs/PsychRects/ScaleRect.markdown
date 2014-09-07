@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-r = ScaleRect\(r,horizontalFactor,verticalFactor\)
+r = ScaleRect(r,horizontalFactor,verticalFactor)
 
 Scales a rect, by multiplying the left and right coordinates by the
 horizontal scale factor and multiplying the top and bottom coordinates

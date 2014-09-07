@@ -10,7 +10,7 @@ BitsPlusColorSimpleTest
 
 Lets see if we can tame Color++ mode.
 
-8/8/04  dhb     Started it.
+\8/8/04  dhb     Started it.
 
 
 <div class="code_header" style="text-align:right;">

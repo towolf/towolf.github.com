@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glShadeModel  Interface to OpenGL function glShadeModel
 
-usage:  glShadeModel\( mode \)
+usage:  glShadeModel( mode )
 
-C function:  void glShadeModel\(GLenum mode\)
+C function:  void glShadeModel(GLenum mode)
 
 
 <div class="code_header" style="text-align:right;">

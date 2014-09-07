@@ -8,7 +8,7 @@ encoding: UTF-8
 
 Fits a cumulative Gaussian to a set of probe values and subject responses
 
-\[loglik,m,d\] = FitCumGauss\_MES\(p,r,mset,dset,lapserate,guessrate\)
+[loglik,m,d] = FitCumGauss\_MES(p,r,mset,dset,lapserate,guessrate)
 Computes likelihood of each combination of PSEs mset and slopes dset
 given a set of probe values and responses using a cumulative Gaussian.
 

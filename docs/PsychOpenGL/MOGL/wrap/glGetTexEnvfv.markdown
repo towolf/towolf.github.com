@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGetTexEnvfv  Interface to OpenGL function glGetTexEnvfv
 
-usage:  params = glGetTexEnvfv\( target, pname \)
+usage:  params = glGetTexEnvfv( target, pname )
 
-C function:  void glGetTexEnvfv\(GLenum target, GLenum pname, GLfloat\* params\)
+C function:  void glGetTexEnvfv(GLenum target, GLenum pname, GLfloat\* params)
 
 
 <div class="code_header" style="text-align:right;">

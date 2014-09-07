@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-theStructs = ReadStructsFromText\(filename\)
+theStructs = ReadStructsFromText(filename)
 
 Open a tab delimited text file.  The first row should
 contain the field names for a structure.  Each following

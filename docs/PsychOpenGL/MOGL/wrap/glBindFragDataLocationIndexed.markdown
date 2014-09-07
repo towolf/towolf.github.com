@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glBindFragDataLocationIndexed  Interface to OpenGL function glBindFragDataLocationIndexed
 
-usage:  glBindFragDataLocationIndexed\( program, colorNumber, index, name \)
+usage:  glBindFragDataLocationIndexed( program, colorNumber, index, name )
 
-C function:  void glBindFragDataLocationIndexed\(GLuint program, GLuint colorNumber, GLuint index, const GLchar\* name\)
+C function:  void glBindFragDataLocationIndexed(GLuint program, GLuint colorNumber, GLuint index, const GLchar\* name)
 
 
 <div class="code_header" style="text-align:right;">

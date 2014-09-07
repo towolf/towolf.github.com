@@ -6,20 +6,20 @@ categories:
 encoding: UTF-8
 ---
 
-objobject=LoadOBJFile\(modelname \[, debug\] \[, preparse\]\)
+objobject=LoadOBJFile(modelname [, debug] [, preparse])
 
 Load an Alias/Wavefront ASCII-OBJ file and return description of corresponding 3D
 models in 'objobject'. The current implementation will only consider polygons
 with 3 or 4 vertices per polygon, corresponding to OpenGL GL\_TRIANGLES or GL\_QUADS.
-The routine can only parse ASCII OBJ files, not the \(more disk space efficient\)
+The routine can only parse ASCII OBJ files, not the (more disk space efficient)
 binary files. It will also ignore any part of the OBJ specification that is not a
 polygon mesh, e.g., NURBS. It will also ignore any kind of .mtl material/texture
 definition files.
 
 Parameters:
 'modelname' Filename of the OBJ file to read.
-'debug' \(Optional\) If set to non-zero, some debug output is written to the Matlab prompt.
-'preparse' \(Optional\) If set to non-zero \(default\), some preparsing is
+'debug' (Optional) If set to non-zero, some debug output is written to the Matlab prompt.
+'preparse' (Optional) If set to non-zero (default), some preparsing is
 done to speed up loading of large OBJ files. Preparsing assumes that all
 vertices, texture coordinates and face indices contain 3 components. If
 loading of your OBJ file fails, retry with preparse==0 to use a more
@@ -49,7 +49,7 @@ definitions will be returned in 'faces' whereas the Quads will be returned in
 in 'faces'. It is possible but uncommon for a OBJ file to not contain 'faces' at all.
 
 subMeshName = String with the name of the sub-mesh stored in cell, as
-defined by the 'g' \(geometry group\) parameter. Can be empty if no
+defined by the 'g' (geometry group) parameter. Can be empty if no
 explicit group names are defined.
 
 mtllib = Name of the .mtl material library definition file which contains
@@ -64,19 +64,19 @@ subfields:
 
    materialName   = String with name of material to select from mtllib.
 
-   triStartIndex  = Startindex \(Starting with 0 for first element\) of the
+   triStartIndex  = Startindex (Starting with 0 for first element) of the
                     first triangle face to render with given materialName.
 
-   quadStartIndex = Startindex \(Starting with 0 for first element\) of the
+   quadStartIndex = Startindex (Starting with 0 for first element) of the
                     first quad face to render with given materialName.
 
 
 Example: Assuming the OBJ file contains exactly one triangle mesh, you'll
-be able to access its data as: objobject\{1\}.faces --\> faces of the mesh,
-objobject\{1\}.vertices --\> vertex definitions, ...
+be able to access its data as: objobject{1}.faces --\> faces of the mesh,
+objobject{1}.vertices --\> vertex definitions, ...
 
-nobjects = length\(objobject\); Will return the number of meshes in the OBJ
-file in 'nobjects'. objobject\{i\}.vertices would return the vertex
+nobjects = length(objobject); Will return the number of meshes in the OBJ
+file in 'nobjects'. objobject{i}.vertices would return the vertex
 definition array of the i'th mesh in the OBJ file.
 
 

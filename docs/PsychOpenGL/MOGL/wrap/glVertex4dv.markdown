@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glVertex4dv  Interface to OpenGL function glVertex4dv
 
-usage:  glVertex4dv\( v \)
+usage:  glVertex4dv( v )
 
-C function:  void glVertex4dv\(const GLdouble\* v\)
+C function:  void glVertex4dv(const GLdouble\* v)
 
 
 <div class="code_header" style="text-align:right;">

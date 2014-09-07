@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glLoadName  Interface to OpenGL function glLoadName
 
-usage:  glLoadName\( name \)
+usage:  glLoadName( name )
 
-C function:  void glLoadName\(GLuint name\)
+C function:  void glLoadName(GLuint name)
 
 
 <div class="code_header" style="text-align:right;">

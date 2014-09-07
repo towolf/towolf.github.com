@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glTexEnvf  Interface to OpenGL function glTexEnvf
 
-usage:  glTexEnvf\( target, pname, param \)
+usage:  glTexEnvf( target, pname, param )
 
-C function:  void glTexEnvf\(GLenum target, GLenum pname, GLfloat param\)
+C function:  void glTexEnvf(GLenum target, GLenum pname, GLfloat param)
 
 
 <div class="code_header" style="text-align:right;">

@@ -9,19 +9,19 @@ encoding: UTF-8
 
     The EyelinkToolbox can be used to ceate eye-movement experiments and
    control the SR-Research Eyelinkï¿½ gazetrackers
-   \(http://www.eyelinkinfo.com/\) from within Matlab.
-   It is incorporated into the PsychToolbox \(http://www.psychtoolbox.org/\).
+   (http://www.eyelinkinfo.com/) from within Matlab.
+   It is incorporated into the PsychToolbox (http://www.psychtoolbox.org/).
    and uses the functions provided by the PsychToolBox for graphics and sound.
 
    For a complete list of available functions type "Eyelink" in the
    Matlab command window. For an explanation of any particular Eyelink
    function just add a question mark "?" after a command.
     E.g. for 'Initialize', try either of these equivalent forms:
-        Eyelink\('Initialize?'\)
+        Eyelink('Initialize?')
         Eyelink initialize?
 
-    \[optional arguments\]:
-    Brackets in the function list, e.g. \[remport\], indicate optional
+    [optional arguments]:
+    Brackets in the function list, e.g. [remport], indicate optional
    arguments, not matrices. Optional arguments must be in order, without
    omitting earlier ones.
 

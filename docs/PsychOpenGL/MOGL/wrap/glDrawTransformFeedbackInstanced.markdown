@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glDrawTransformFeedbackInstanced  Interface to OpenGL function glDrawTransformFeedbackInstanced
 
-usage:  glDrawTransformFeedbackInstanced\( mode, id, instancecount \)
+usage:  glDrawTransformFeedbackInstanced( mode, id, instancecount )
 
-C function:  void glDrawTransformFeedbackInstanced\(GLenum mode, GLuint id, GLsizei instancecount\)
+C function:  void glDrawTransformFeedbackInstanced(GLenum mode, GLuint id, GLsizei instancecount)
 
 
 <div class="code_header" style="text-align:right;">

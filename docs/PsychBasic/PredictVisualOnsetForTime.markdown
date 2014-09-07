@@ -6,18 +6,18 @@ categories:
 encoding: UTF-8
 ---
 
-tonset = PredictVisualOnsetForTime\(window, when \[, refreshinterval\]\)
+tonset = PredictVisualOnsetForTime(window, when [, refreshinterval])
 
 Map a specific requested 'when' visual onset time, as you would pass it as
-'when' parameter to [Screen](/docs/Screen)\('[Flip](/docs/Flip)', window, when\); to the estimated onset
+'when' parameter to [Screen](/docs/Screen)('[Flip](/docs/Flip)', window, when); to the estimated onset
 time of the "flipped" stimulus.
 
-By default, the refresh interval from [Screen](/docs/Screen)\('GetFlipInterval', window\);
+By default, the refresh interval from [Screen](/docs/Screen)('GetFlipInterval', window);
 is used for calculation, but you can provide an optional
 'refreshinterval' to override this choice.
 
 This function predicts the real onset time of your "flipped" stimulus,
-taking into account that [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\) will not show your stimulus at
+taking into account that [Screen](/docs/Screen)('[Flip](/docs/Flip)') will not show your stimulus at
 exactly the requested 'when' time, but it will synchronize stimulus onset
 to the display refresh cycle of your monitor, ie, it will wait for onset
 of the closest vertical blanking interval equal or later than 'when'.
@@ -28,7 +28,7 @@ such a time as sound onset deadline in order to synch sound onset with
 visual stimulus onset...
 
 Of course if your stimulus is too complex to be finished with drawing
-until 'when' then [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\) will miss the deadline and this
+until 'when' then [Screen](/docs/Screen)('[Flip](/docs/Flip)') will miss the deadline and this
 prediction will be wrong.
 
 # Accuracy of prediction:

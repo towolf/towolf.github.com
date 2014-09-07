@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-BitsPlusCSFDemo\(\[screenid=max\] \[, gamma = 2.2\]\[, method=0\]\[, charttype=0\]\)
+BitsPlusCSFDemo([screenid=max] [, gamma = 2.2][, method=0][, charttype=0])
 
 This demo utilizes the Psychtoolbox imaging pipeline. Therefore it won't
 work on gfx-hardware older than ATI Radeon X1000 or NVidia Geforce 6000.
@@ -48,7 +48,7 @@ display on multi-display setups. By default, the secondary display is
 chosen.
 
 Keyboard control keys:
-----------------------
+\----------------------
 
 At each press of space key, the display alternates between a high bpc
 version and a 8 bpc version to hopefully show a perceptible difference in
@@ -56,18 +56,18 @@ contrast resolution. The ESCape key exits the demo.
 
 The left- and right cursor keys allow you to change the gamma-correction
 setting. The demo starts with standard power-function gamma correction
-for a display with gamma 2.2, i.e., out = in ^ \(1/gamma\) with gamma =
-2.2.
+for a display with gamma 2.2, i.e., out = in ^ (1/gamma) with gamma =
+\2.2.
 
-This demo is derived from a similar demo \(written in C\) which is part of
+This demo is derived from a similar demo (written in C) which is part of
 the sample code collection for Bits++ from Cambridge Research Systems
 support website. It mostly replicates that C sample, however there are
 small differences.
 
-The original description of the CSF chart seems to be in \(not checked\):
-Campbell, F. W. and Robson, J. G. \(1968\) Application of Fourier analysis
-to the visibility of gratings. Journal of Physiology \(London\) 197:
-551-566.
+The original description of the CSF chart seems to be in (not checked):
+Campbell, F. W. and Robson, J. G. (1968) Application of Fourier analysis
+to the visibility of gratings. Journal of Physiology (London) 197:
+\551-566.
 
 
 

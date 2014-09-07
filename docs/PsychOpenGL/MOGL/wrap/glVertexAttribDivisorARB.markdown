@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glVertexAttribDivisorARB  Interface to OpenGL function glVertexAttribDivisorARB
 
-usage:  glVertexAttribDivisorARB\( index, divisor \)
+usage:  glVertexAttribDivisorARB( index, divisor )
 
-C function:  void glVertexAttribDivisorARB\(GLuint index, GLuint divisor\)
+C function:  void glVertexAttribDivisorARB(GLuint index, GLuint divisor)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-bool = CheckMonotonic\(vector\)
+bool = CheckMonotonic(vector)
 
 Check whether the passed vector is monotonically non-decreasing.
 

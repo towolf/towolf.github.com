@@ -6,14 +6,14 @@ categories:
 encoding: UTF-8
 ---
 
-BeampositionTest - Test GPU scanout position \("beamposition"\) queries.
+BeampositionTest - Test GPU scanout position ("beamposition") queries.
 
-Usage: BeampositionTest\(\[n=10000\]\[, screenid=max\]\[, synced=0\]\)
+Usage: BeampositionTest([n=10000][, screenid=max][, synced=0])
 
-Opens a onscreen window on screen 'screenid' \(default = maximum screenid\)
-and runs a sample loop, performing 'n' \(default 10000\) beamposition
+Opens a onscreen window on screen 'screenid' (default = maximum screenid)
+and runs a sample loop, performing 'n' (default 10000) beamposition
 queries, either as fast as it can if 'synced' == 0, or it performs
-[Screen](/docs/Screen)\('[Flip](/docs/Flip)'\) and takes one sample after each flip, ie., in sync with
+[Screen](/docs/Screen)('[Flip](/docs/Flip)') and takes one sample after each flip, ie., in sync with
 vertical retrace.
 
 Then it plots its samples in multiple figures:
@@ -25,7 +25,7 @@ sampled beampositions, and the duration of each query in msecs.
 Beamposition against time or samplecount should show a periodic sawtooth pattern,
 where scanout starts at zero and increments up to the value VBL Endline,
 as reported by PTB's Matlab output. The histogram should show an even
-distribution \(a flat line\) across all bins from bin 0 to bin "VBL
+distribution (a flat line) across all bins from bin 0 to bin "VBL
 Endline". Query times should be in the low microsecond range, e.g.,
 not much more than 20-30 usecs on a modern machine on average.
 
@@ -53,8 +53,8 @@ A flat-line of all-zero beampositions: Beamposition queries are
 unsupported, disabled or broken on your setup. If you know they should
 work, then PTB may query the wrong display on a multi-display setup. See
 'help DisplayOutputMappings' for remedies. Another possible fix is
-installing and loading the PsychtoolboxKernelDriver on OSX \('help
-PsychtoolboxKernelDriver'\) or running PsychLinuxConfiguration on Linux
+installing and loading the PsychtoolboxKernelDriver on OSX ('help
+PsychtoolboxKernelDriver') or running PsychLinuxConfiguration on Linux
 and rebooting the machine once to enable our own beamposition query
 mechanism. On Linux this is not needed when using the free and
 open-source graphics drivers, as these have a builtin timestamping
@@ -74,12 +74,12 @@ Weird looking non-sawtooth patterns: This is a totally broken graphics
 driver, often to be found on Apple machines running OSX with Apple Retina
 displays or other LCD flat panels. See previous paragraph for fixes.
 
--\> Most fixes involve switching to our own implementation of beamposition
+\-\> Most fixes involve switching to our own implementation of beamposition
 queries instead of using broken or missing OS implementations, and then
 some fiddling around.
 
--\> On MS-Windows there's usually no way to fix broken queries beyond the
-automatic fixes applied by [Screen](/docs/Screen)\(\) if it detects a problem.
+\-\> On MS-Windows there's usually no way to fix broken queries beyond the
+automatic fixes applied by [Screen](/docs/Screen)() if it detects a problem.
 
 
 

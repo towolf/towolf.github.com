@@ -8,7 +8,7 @@ encoding: UTF-8
 
 Template for asynchronous data collection and timestamping from serial port.
 
-DatarecordingFromSerialPortDemo\(\[maxReadQuantum=15\]\[, lineTerminator=10\]\[, sampleFreq=120\]\[, baudRate=115200\]\[, portSpec=auto-detect\]\[, specialSettings=None\]\)
+DatarecordingFromSerialPortDemo([maxReadQuantum=15][, lineTerminator=10][, sampleFreq=120][, baudRate=115200][, portSpec=auto-detect][, specialSettings=None])
 
 This demo shows how to perform efficient data recording of data from an
 external device which is connected to the serial port or a USB-Serial
@@ -22,16 +22,16 @@ The demo connects to the first found serial port, or optionally the port
 given by the 'portSpec' parameter, e.g., 'COM5'. It connects at a
 baudrate of 'baudRate' Baud, by default without flow-control, with 8
 databits, 1 stopbit and no parity, but you can set arbitrary settings via
-the optional 'specialSettings' string \(see [IOPort](/docs/IOPort) OpenSerialPort?
-online-help for possible parameters\).
+the optional 'specialSettings' string (see [IOPort](/docs/IOPort) OpenSerialPort?
+online-help for possible parameters).
 
 Then it allocates receivebufferspace for up to 1 hour of uninterrupted
 recording, then starts background recording of data.
 
 Datapackets can be read out in realtime, as demonstrated in the main
 while loop here, or offline at end of a session. Each packet is padded to
-be 'maxReadQuantum' bytes in size \(zeros are added for shorter packets\).
-Each packet comes with a GetSecs\(\) timestamp of when the first byte of a
+be 'maxReadQuantum' bytes in size (zeros are added for shorter packets).
+Each packet comes with a GetSecs() timestamp of when the first byte of a
 packet was received.
 
 Of course you'll need to understand the code of this demo and then

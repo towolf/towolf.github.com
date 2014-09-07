@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-FDFDemo\(dotDensity, dotLifetime\) - Demo of "formless dot field" stimulus
+FDFDemo(dotDensity, dotLifetime) - Demo of "formless dot field" stimulus
 via moglFDF.
 
 This demo generates a simple "formless dot field" random dot motion

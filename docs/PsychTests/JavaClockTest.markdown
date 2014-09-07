@@ -8,7 +8,7 @@ encoding: UTF-8
 
 JavaClockTest
 
-Test for divergence between the java.lang.System.currentTimeMillis\(\) and
+Test for divergence between the java.lang.System.currentTimeMillis() and
 GetSecs clocks.
 
 see also: CalibrateJavaClock, JavaTimeToGetSecs, GetChar

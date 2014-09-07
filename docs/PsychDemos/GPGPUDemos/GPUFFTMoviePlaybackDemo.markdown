@@ -11,11 +11,11 @@ GPUFFTMoviePlaybackDemo - Demonstrate use of GPGPU computing for live filtering 
 This demo makes use of the FOSS GPUmat toolbox to perform a GPU
 accelerated 2D FFT + filtering in frequency space + 2D inverse FFT on a
 movie video file. GPUmat allows to use NVidia's CUDA gpu computing
-framework on supported NVidia gpu's \(GeForce-8000 series and later, aka
-Direct3D-10 or OpenGL-3 capable\).
+framework on supported NVidia gpu's (GeForce-8000 series and later, aka
+Direct3D-10 or OpenGL-3 capable).
 
-It shows how a Psychtoolbox floating point texture \(with movie content
-inside\) can be efficiently passed to GPUmat as a matrix of GPUsingle data
+It shows how a Psychtoolbox floating point texture (with movie content
+inside) can be efficiently passed to GPUmat as a matrix of GPUsingle data
 type, which is stored and processed on the GPU. Then it uses GPUmat's fft
 routines for forward/inverse fft's and matrix manipulation. Then it
 returns the final image to Psychtoolbox as a new floating point texture
@@ -28,7 +28,7 @@ graphics card.
 
 # Usage:
 
-GPUFFTMoviePlaybackDemo\(\[usegpu=1\]\[, showfft=0\]\[, fwidth=11\]\[, roi\]\[, depth=1\]\[, moviename\]\)
+GPUFFTMoviePlaybackDemo([usegpu=1][, showfft=0][, fwidth=11][, roi][, depth=1][, moviename])
 
 # Parameters:
 
@@ -38,7 +38,7 @@ GPUFFTMoviePlaybackDemo\(\[usegpu=1\]\[, showfft=0\]\[, fwidth=11\]\[, roi\]\[, 
 
 'fwidth' = Width of low-pass filter kernel in frequency space units.
 
-'roi' = Region of interest to show, e.g., \[0,0,640,480\].
+'roi' = Region of interest to show, e.g., [0,0,640,480].
 
 'depth' = 1 for Mono, 3 for color processing.
 

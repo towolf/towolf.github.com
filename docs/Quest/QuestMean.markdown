@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-t=QuestMean\(q\)
+t=QuestMean(q)
 
 Get the mean threshold estimate.
 If q is a vector, then the returned t is a vector of the same size.

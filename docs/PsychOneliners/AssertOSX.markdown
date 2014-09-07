@@ -24,9 +24,9 @@ different category than those unique to OS X.  Please use AssertOpenGL in
 place of AssertOSX if your script calls functions specific to OpenGL but
 none specific to OS X. OpenGL-specific Psychtoolbox functions are any
 of the following:
-      [Screen](/docs/Screen)\('MakeTexture'\);
-      [Screen](/docs/Screen)\('DrawTexture'\);
-      [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\);
+      [Screen](/docs/Screen)('MakeTexture');
+      [Screen](/docs/Screen)('DrawTexture');
+      [Screen](/docs/Screen)('[Flip](/docs/Flip)');
 
 Some Psychtoolbox functions are unique to OS X because they exploit
 features in OS X not present in other operating systems, for example,
@@ -36,7 +36,7 @@ platform-specific functions.  Where available, you can use these to write
 platform-neutral scripts, unless for your purposes you must take
 advantage of features specific to the OS.  PsychHID is another such
 example.  It exists only for OS X but is overlayed by KbCheck and Gamepad
-\(a.k.a. Joystick\) which also exist on OS 9.  If you have an unusual USB
+(a.k.a. Joystick) which also exist on OS 9.  If you have an unusual USB
 HID device, you can read from it in OSX using PsychHID, though compromising
 platform independence.
 

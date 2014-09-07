@@ -6,19 +6,19 @@ categories:
 encoding: UTF-8
 ---
 
-MultiWindowLockStepTest\(\[nrwins=10\]\[, separateScreens=0\]\);
+MultiWindowLockStepTest([nrwins=10][, separateScreens=0]);
 
 Test if and how many parallel asynchronous window flips
 Psychtoolbox can handle on multiple onscreen windows.
 
 This test exercises the asynchronous flip scheduling and
-timestamping, aka the [Screen](/docs/Screen)\('AsyncFlipBegin'\); and
-[Screen](/docs/Screen)\('AsyncFlipCheckEnd'\); functions for parallel scheduling
+timestamping, aka the [Screen](/docs/Screen)('AsyncFlipBegin'); and
+[Screen](/docs/Screen)('AsyncFlipCheckEnd'); functions for parallel scheduling
 of multiple independent bufferswaps on multiple open onscreen
 windows.
 
 'nrwins' selects how many onscreen windows to drive in parallel.
-If set to \[\], 2 windows will be used. The i'th window is flipped
+If set to [], 2 windows will be used. The i'th window is flipped
 at a target rate of one flip every i'th video refresh interval.
 
 Timestamps are collected for all flips and in the end one plot

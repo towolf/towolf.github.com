@@ -8,9 +8,9 @@ encoding: UTF-8
 
 alSourceStopv  Interface to OpenAL function alSourceStopv
 
-usage:  alSourceStopv\( ns, sids \)
+usage:  alSourceStopv( ns, sids )
 
-C function:  void alSourceStopv\(ALsizei ns, const ALuint\* sids\)
+C function:  void alSourceStopv(ALsizei ns, const ALuint\* sids)
 
 
 <div class="code_header" style="text-align:right;">

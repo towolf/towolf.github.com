@@ -8,9 +8,9 @@ encoding: UTF-8
 
 gluPickMatrix  Interface to OpenGL function gluPickMatrix
 
-usage:  gluPickMatrix\( x, y, delX, delY, viewport \)
+usage:  gluPickMatrix( x, y, delX, delY, viewport )
 
-C function:  void gluPickMatrix\(GLdouble x, GLdouble y, GLdouble delX, GLdouble delY, GLint\* viewport\)
+C function:  void gluPickMatrix(GLdouble x, GLdouble y, GLdouble delX, GLdouble delY, GLint\* viewport)
 
 
 <div class="code_header" style="text-align:right;">

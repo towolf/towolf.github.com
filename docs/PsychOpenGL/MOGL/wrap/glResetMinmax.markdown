@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glResetMinmax  Interface to OpenGL function glResetMinmax
 
-usage:  glResetMinmax\( target \)
+usage:  glResetMinmax( target )
 
-C function:  void glResetMinmax\(GLenum target\)
+C function:  void glResetMinmax(GLenum target)
 
 
 <div class="code_header" style="text-align:right;">

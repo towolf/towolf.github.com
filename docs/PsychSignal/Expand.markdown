@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-B=[Expand](/docs/Expand)\(A,horizontalFactor,\[verticalFactor\]\)
+B=[Expand](/docs/Expand)(A,horizontalFactor,[verticalFactor])
 
 Expands the ND matrix A by cell replication, and returns the result.
 If the vertical scale factor is omitted, it is assumed to be

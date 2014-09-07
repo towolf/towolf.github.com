@@ -18,7 +18,7 @@ word at the top, so it was more easy to display content of various
 variables while stepping through code with the debugger during the
 tutorial session.
 
-The demos show the new PsychDefaultSetup\(2\); setup function and use a
+The demos show the new PsychDefaultSetup(2); setup function and use a
 normalized color space between 0.0 and 1.0 instead of classic 0-255.
 
 

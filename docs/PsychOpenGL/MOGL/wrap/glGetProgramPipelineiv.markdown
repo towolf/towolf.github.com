@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glGetProgramPipelineiv  Interface to OpenGL function glGetProgramPipelineiv
 
-usage:  params = glGetProgramPipelineiv\( pipeline, pname \)
+usage:  params = glGetProgramPipelineiv( pipeline, pname )
 
-C function:  void glGetProgramPipelineiv\(GLuint pipeline, GLenum pname, GLint\* params\)
+C function:  void glGetProgramPipelineiv(GLuint pipeline, GLenum pname, GLint\* params)
 
 
 <div class="code_header" style="text-align:right;">

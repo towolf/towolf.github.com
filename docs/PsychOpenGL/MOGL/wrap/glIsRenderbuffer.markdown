@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glIsRenderbuffer  Interface to OpenGL function glIsRenderbuffer
 
-usage:  r = glIsRenderbuffer\( renderbuffer \)
+usage:  r = glIsRenderbuffer( renderbuffer )
 
-C function:  GLboolean glIsRenderbuffer\(GLuint renderbuffer\)
+C function:  GLboolean glIsRenderbuffer(GLuint renderbuffer)
 
 
 <div class="code_header" style="text-align:right;">

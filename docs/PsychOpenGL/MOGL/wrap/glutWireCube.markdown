@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glutWireCube  Interface to OpenGL function glutWireCube
 
-usage:  glutWireCube\( size \)
+usage:  glutWireCube( size )
 
-C function:  void glutWireCube\(GLdouble size\)
+C function:  void glutWireCube(GLdouble size)
 
 
 <div class="code_header" style="text-align:right;">

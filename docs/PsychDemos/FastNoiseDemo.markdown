@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-FastNoiseDemo\(\[numRects=1\]\[, rectSize=128\]\[, scale=1\]\[, syncToVBL=1\]\[, dontclear=0\]\)
+FastNoiseDemo([numRects=1][, rectSize=128][, scale=1][, syncToVBL=1][, dontclear=0])
 
 Demonstrates how to generate and draw noise patches on-the-fly in a fast way. Can be
 used to benchmark your system by varying the load. If you like this demo
@@ -24,7 +24,7 @@ scale = 2, then each noise pixel would be replicated to draw an image
 that is twice the width and height of the input noise image. In this
 demo, a nearest neighbour filter is applied, i.e., pixels are just
 replicated, not bilinearly filtered -- Important to preserve statistical
-independence of the random pixel values\!
+independence of the random pixel values!
 
 syncToVBL = 1=Synchronize bufferswaps to retrace. 0=Swap immediately when
 drawing is finished. Value zero is useful for benchmarking the whole

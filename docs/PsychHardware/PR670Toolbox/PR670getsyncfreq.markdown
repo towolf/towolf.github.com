@@ -12,9 +12,9 @@ Syntax:
 syncFreq = PR655getsyncfreq
 
 Output:
-syncFreq \(scalar\) - The frequency of the light source in Hz.  Is empty if
+syncFreq (scalar) - The frequency of the light source in Hz.  Is empty if
     PR-670 encounters an error.
-errorCode \(scalar\) - The error code if an error occurs.  Is 0 if no
+errorCode (scalar) - The error code if an error occurs.  Is 0 if no
     error.
 
 

@@ -10,7 +10,7 @@ gluNewTess  Interface to OpenGL function gluNewTess
 
 usage:  r = gluNewTess
 
-C function:  GLUtesselator\* gluNewTess\(void\)
+C function:  GLUtesselator\* gluNewTess(void)
 
 
 <div class="code_header" style="text-align:right;">

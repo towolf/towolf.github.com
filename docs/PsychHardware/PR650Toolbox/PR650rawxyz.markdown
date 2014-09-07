@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-readStr = PR650rawxyz\(timeout\)
+readStr = PR650rawxyz(timeout)
 
 Make a raw XYZ measurement.
 

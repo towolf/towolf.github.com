@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glNormal3fv  Interface to OpenGL function glNormal3fv
 
-usage:  glNormal3fv\( v \)
+usage:  glNormal3fv( v )
 
-C function:  void glNormal3fv\(const GLfloat\* v\)
+C function:  void glNormal3fv(const GLfloat\* v)
 
 
 <div class="code_header" style="text-align:right;">

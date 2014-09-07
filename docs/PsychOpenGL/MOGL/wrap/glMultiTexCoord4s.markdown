@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glMultiTexCoord4s  Interface to OpenGL function glMultiTexCoord4s
 
-usage:  glMultiTexCoord4s\( target, s, t, r, q \)
+usage:  glMultiTexCoord4s( target, s, t, r, q )
 
-C function:  void glMultiTexCoord4s\(GLenum target, GLshort s, GLshort t, GLshort r, GLshort q\)
+C function:  void glMultiTexCoord4s(GLenum target, GLshort s, GLshort t, GLshort r, GLshort q)
 
 
 <div class="code_header" style="text-align:right;">

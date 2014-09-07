@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-function DriftDemo3\(\[cyclespersecond=1\]\[, p=32\]\)
+function DriftDemo3([cyclespersecond=1][, p=32])
 
-Display an animated grating using the new [Screen](/docs/Screen)\('DrawTexture'\) command.
-In the OpenGL-Psychtoolbox [Screen](/docs/Screen)\('DrawTexture'\) replaces
-[Screen](/docs/Screen)\('CopyWindow'\). The demo will stop after 60 seconds have
+Display an animated grating using the new [Screen](/docs/Screen)('DrawTexture') command.
+In the OpenGL-Psychtoolbox [Screen](/docs/Screen)('DrawTexture') replaces
+[Screen](/docs/Screen)('CopyWindow'). The demo will stop after 60 seconds have
 passed or after the user hits a key.
 
 This demo illustrates how to draw an animated grating online by use of
@@ -18,7 +18,7 @@ only one grating texture with the minimal amount of code and complexity.
 It is restricted in that the spatial period of the grating in pixels
 must divide the total size of the pattern without remainder and that the
 size of the grating in pixels must be a power of two, e.g., 256 or 512 or
-1024. For a more complex but more general solution which allows for
+\1024. For a more complex but more general solution which allows for
 arbitrary grating sizes and also masked gratings, see DriftDemo2. For a
 very fast and efficient method, which only works on recent graphics
 hardware, see DriftDemo4.
@@ -32,7 +32,7 @@ the pattern of the texture image in each direction.
 
 In each successive frame we draw a rectangular region of the sine
 texture onto the screen that is the size of the texture. This region,
-the 'srcRect' in the [Screen](/docs/Screen)\('DrawTexture'\) command, is shifted each
+the 'srcRect' in the [Screen](/docs/Screen)('DrawTexture') command, is shifted each
 frame. As the graphics hardware makes our special texture to appear as if
 it is repeating infinitely into each direction, we create the impression of
 a moving grating.
@@ -44,9 +44,9 @@ p = Spatial period of grating in pixels.
 
 # CopyWindow vs. DrawTexture:
 
-In the OS 9 Psychtoolbox, [Screen](/docs/Screen) \('CopyWindow"\) was used for all
+In the OS 9 Psychtoolbox, [Screen](/docs/Screen) ('CopyWindow") was used for all
 time-critical display of images, in particular for display of the movie
-frames in animated stimuli. In contrast, [Screen](/docs/Screen)\('DrawTexture'\) should not
+frames in animated stimuli. In contrast, [Screen](/docs/Screen)('DrawTexture') should not
 be used for display of all graphic elements,  but only for  display of
 MATLAB matrices.  For all other graphical elements, such as lines,  rectangles,
 and ovals we recommend that these be drawn directly to the  display

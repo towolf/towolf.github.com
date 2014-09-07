@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glMultiTexCoordP3uiv  Interface to OpenGL function glMultiTexCoordP3uiv
 
-usage:  glMultiTexCoordP3uiv\( texture, type, coords \)
+usage:  glMultiTexCoordP3uiv( texture, type, coords )
 
-C function:  void glMultiTexCoordP3uiv\(GLenum texture, GLenum type, const GLuint\* coords\)
+C function:  void glMultiTexCoordP3uiv(GLenum texture, GLenum type, const GLuint\* coords)
 
 
 <div class="code_header" style="text-align:right;">

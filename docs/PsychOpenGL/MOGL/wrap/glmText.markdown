@@ -8,7 +8,7 @@ encoding: UTF-8
 
 glmText  Write a string to the screen
 
-usage:  glmText\( string \)
+usage:  glmText( string )
 
 
 <div class="code_header" style="text-align:right;">

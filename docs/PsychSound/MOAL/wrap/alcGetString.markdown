@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-s = alcGetString\(enum\)
+s = alcGetString(enum)
 
 Retrieve string for given OpenAL ALC enum value.
 

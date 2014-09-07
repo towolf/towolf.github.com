@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glFogCoordPointer  Interface to glFogCoordPointer
 
-usage:  glFogCoordPointer\( arg1, arg2, arg3 \)
+usage:  glFogCoordPointer( arg1, arg2, arg3 )
 
-C function:  void glFogCoordPointer\(GLenum, GLsizei, const GLvoid\*\)
+C function:  void glFogCoordPointer(GLenum, GLsizei, const GLvoid\*)
 
 
 <div class="code_header" style="text-align:right;">

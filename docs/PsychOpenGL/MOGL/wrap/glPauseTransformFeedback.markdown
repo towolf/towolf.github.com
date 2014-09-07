@@ -10,7 +10,7 @@ glPauseTransformFeedback  Interface to OpenGL function glPauseTransformFeedback
 
 usage:  glPauseTransformFeedback
 
-C function:  void glPauseTransformFeedback\(void\)
+C function:  void glPauseTransformFeedback(void)
 
 
 <div class="code_header" style="text-align:right;">

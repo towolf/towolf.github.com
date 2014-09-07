@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glConvolutionParameteriv  Interface to OpenGL function glConvolutionParameteriv
 
-usage:  glConvolutionParameteriv\( target, pname, params \)
+usage:  glConvolutionParameteriv( target, pname, params )
 
-C function:  void glConvolutionParameteriv\(GLenum target, GLenum pname, const GLint\* params\)
+C function:  void glConvolutionParameteriv(GLenum target, GLenum pname, const GLint\* params)
 
 
 <div class="code_header" style="text-align:right;">

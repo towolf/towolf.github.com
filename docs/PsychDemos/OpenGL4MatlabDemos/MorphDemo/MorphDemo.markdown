@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-function MorphDemo\(\[textureon\]\[, dotson\]\[, normalson\]\[, stereomode\]\)
+function MorphDemo([textureon][, dotson][, normalson][, stereomode])
 MorphDemo -- Demonstrates use of "[moglmorpher](/docs/moglmorpher)" for fast morphing
 and rendering of 3D shapes. See "help [moglmorpher](/docs/moglmorpher)" for info on
 moglmorphers purpose and capabilities.
@@ -29,7 +29,7 @@ Control keys and their meaning:
 textureon = If set to 1, the objects will be textured, otherwise they will be
 just shaded without a texture. Defaults to zero.
 
-dotson = If set to 0 \(default\), just show surface. If set to 1, some dots are
+dotson = If set to 0 (default), just show surface. If set to 1, some dots are
 plotted to visualize the vertices of the underlying mesh. If set to 2, the
 mesh itself is superimposed onto the shape. If set to 3 or 4, then the projected
 vertex 2D coordinates are also visualized in a standard Matlab figure window.

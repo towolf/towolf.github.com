@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glCompileShader  Interface to OpenGL function glCompileShader
 
-usage:  glCompileShader\( shader \)
+usage:  glCompileShader( shader )
 
-C function:  void glCompileShader\(GLuint shader\)
+C function:  void glCompileShader(GLuint shader)
 
 
 <div class="code_header" style="text-align:right;">

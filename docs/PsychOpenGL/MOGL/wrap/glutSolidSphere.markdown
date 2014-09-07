@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glutSolidSphere  Interface to OpenGL function glutSolidSphere
 
-usage:  glutSolidSphere\( radius, slices, stacks \)
+usage:  glutSolidSphere( radius, slices, stacks )
 
-C function:  void glutSolidSphere\(GLdouble radius, GLint slices, GLint stacks\)
+C function:  void glutSolidSphere(GLdouble radius, GLint slices, GLint stacks)
 
 
 <div class="code_header" style="text-align:right;">

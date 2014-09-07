@@ -12,9 +12,9 @@ This function allows to setup [Screen](/docs/Screen) onscreen windows to be
 partially transparent, so one can simultaneously see the stimulus display and
 the Matlab window and other GUI windows.
 
-Usage: PsychDebugWindowConfiguration\(\[opaqueForHID=0\]\[, opacity=0.5\]\)
+Usage: PsychDebugWindowConfiguration([opaqueForHID=0][, opacity=0.5])
 
-To enable: Call PsychDebugWindowConfiguration before the [Screen](/docs/Screen)\('OpenWindow',...\) call\!
+To enable: Call PsychDebugWindowConfiguration before the [Screen](/docs/Screen)('OpenWindow',...) call!
 To disable: Type "clear [Screen](/docs/Screen)" or "clear all".
 
 The optional parameter 'opaqueForHID' if set to a non-zero value will
@@ -26,11 +26,11 @@ and timestamping disabled\*.
 
 The optional parameter 'opacity' controls how opaque the onscreen window
 is, in a range of 0.0 to 1.0 for 0% to 100% opacity. By default the
-window is 50% opaque \(or 50% transparent if you like\).
+window is 50% opaque (or 50% transparent if you like).
 
 Stimulus onset timing and timestamping will be inaccurate in this mode
-and graphics performance will be reduced\! Don't use for timing tests or
-during real experiment sessions\!
+and graphics performance will be reduced! Don't use for timing tests or
+during real experiment sessions!
 
 This feature will only work reliably - or at all - if your operating
 system is running with a compositing window manager installed and
@@ -41,7 +41,7 @@ GNOME-2/3, Compiz, Unity.
 
 Keyboard and mouse input may not work as expected under all conditions,
 i.e., it may by impaired in either Psychtoolbox, or for the other running
-applications. Good luck\!
+applications. Good luck!
 
 
 

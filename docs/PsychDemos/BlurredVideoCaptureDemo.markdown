@@ -15,20 +15,20 @@ on the GPU for potentially much higher speed.
 
 # Usage:
 
-BlurredVideoCaptureDemo\(\[filtertype=1\]\[, kwidth=11\]\[, deviceIndex=0\]\)
+BlurredVideoCaptureDemo([filtertype=1][, kwidth=11][, deviceIndex=0])
 
 # 'filtertype' is optional and can be:
 
-0 = None.
-1 = Gaussian blur - This is the default.
-2 = Prewitt operator.
-3 = Unsharp operator.
-4 = Sobel operator.
-5 = Log operator.
+\0 = None.
+\1 = Gaussian blur - This is the default.
+\2 = Prewitt operator.
+\3 = Unsharp operator.
+\4 = Sobel operator.
+\5 = Log operator.
 
-The filters are selected via the fspecial\(\) function, and converted into
+The filters are selected via the fspecial() function, and converted into
 proper convolution kernels. You may need the Matlab image processing
-toolobox or equivalent Octave package installed, for fspecial\(\) to be
+toolobox or equivalent Octave package installed, for fspecial() to be
 available.
 
 'kwidth' = Optional convolution kernel width in pixels. Defaults to 11.

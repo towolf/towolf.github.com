@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glViewport  Interface to OpenGL function glViewport
 
-usage:  glViewport\( x, y, width, height \)
+usage:  glViewport( x, y, width, height )
 
-C function:  void glViewport\(GLint x, GLint y, GLsizei width, GLsizei height\)
+C function:  void glViewport(GLint x, GLint y, GLsizei width, GLsizei height)
 
 
 <div class="code_header" style="text-align:right;">

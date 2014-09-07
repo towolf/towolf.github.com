@@ -9,11 +9,11 @@ encoding: UTF-8
 SyncedCLUTUpdateTest
 
 Perceptual test to test synchronization of hardware gamma table
-updates to the vertical refresh and to [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\).
+updates to the vertical refresh and to [Screen](/docs/Screen)('[Flip](/docs/Flip)').
 
-The command [Screen](/docs/Screen)\('LoadNormalizedGammaTable'\) provides the optional parameter
+The command [Screen](/docs/Screen)('LoadNormalizedGammaTable') provides the optional parameter
 'loadOnNextFlip'. If set to 1, Psychtoolbox is requested to defer the upload
-of the specified gamma table until next execution of the [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\) command,
+of the specified gamma table until next execution of the [Screen](/docs/Screen)('[Flip](/docs/Flip)') command,
 i.e. swapping the back- and front buffers and update of the gamma table should
 happen synchronously with each other and with vertical retrace.
 
@@ -21,7 +21,7 @@ This test allows to perceptually check correctness of this mechanism. In a loop
 it shows two alternating stimuli: A gray-level ramp of range 0-255, displayed
 with a hardware lut of \*half\* intensity range 0-0.5. Then, after next retrace, a
 gray-level ramp of \*half\* range 0-128 with a hardware lut of \*full\* intensity range
-0-1.0. If update of the visual stimulus \(the graylevel ramp\) and of the corresponding
+\0-1.0. If update of the visual stimulus (the graylevel ramp) and of the corresponding
 clut happens synchronously at the same vertical retrace during the '[Flip](/docs/Flip)' command,
 as expected, then the half intensity stim + full intensity lut or full intensity stim +
 half intensity lut should cancel each other out, resulting in the perception of a
@@ -35,7 +35,7 @@ parameter synced = 0 to enforce non-synced updates.
 Even if synced updates work, you may see some artifacts at the top of the display,
 due to the inability of slow gfx-hardware to update the lut quickly enough. Either
 avoid that display area for your stim or buy a faster graphics card. Enabling realtime
-scheduling via [Priority](/docs/Priority)\(\) command may also help.
+scheduling via [Priority](/docs/Priority)() command may also help.
 
 The accuracy of stimulus onset timestamps may be reduced on M$-Windows when using
 this mode of operation.

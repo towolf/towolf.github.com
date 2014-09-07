@@ -8,9 +8,9 @@ encoding: UTF-8
 
 glFogCoorddv  Interface to OpenGL function glFogCoorddv
 
-usage:  glFogCoorddv\( coord \)
+usage:  glFogCoorddv( coord )
 
-C function:  void glFogCoorddv\(const GLdouble\* coord\)
+C function:  void glFogCoorddv(const GLdouble\* coord)
 
 
 <div class="code_header" style="text-align:right;">

@@ -8,11 +8,11 @@ encoding: UTF-8
 
 glClear  Interface to glClear
 
-usage:  glClear\( mask \)
+usage:  glClear( mask )
 
-- 'mask' defaults to GL.COLOR\_BUFFER\_BIT | GL.DEPTH\_BUFFER\_BIT
+\- 'mask' defaults to GL.COLOR\_BUFFER\_BIT | GL.DEPTH\_BUFFER\_BIT
 
-C function:  void glClear\(GLbitfield mask\)
+C function:  void glClear(GLbitfield mask)
 
 
 <div class="code_header" style="text-align:right;">

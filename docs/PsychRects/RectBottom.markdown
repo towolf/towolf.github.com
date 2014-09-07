@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-yBottom = rect\(RectBottom\)
+yBottom = rect(RectBottom)
 
 RectBottom returns the rect index of yBottom.
 Also see PsychRects.

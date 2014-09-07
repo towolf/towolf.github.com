@@ -13,15 +13,15 @@ related operations.
 
 All movie playback, movie creation, video capture and video recording
 operations are based on [GStreamer](/docs/GStreamer). These functions won't work without a
-working [GStreamer](/docs/GStreamer) installation on your system \(with the exception of video
-capture from firewire DCAM/IIDC machine vision cameras on Linux and OSX\).
+working [GStreamer](/docs/GStreamer) installation on your system (with the exception of video
+capture from firewire DCAM/IIDC machine vision cameras on Linux and OSX).
 
 You will need at least version 0.10.24 of [GStreamer](/docs/GStreamer), but we recommend to
 use the latest available versions of the version 0.10.x series, as not
 all Psychtoolbox features are fully supported by version 0.10.24.
 Especially video capture, video recording and movie creation may be
 limited in functionality or performance if you don't use a recent version
-of [GStreamer](/docs/GStreamer). Do not install [GStreamer](/docs/GStreamer) version 1.0 or later\! We need 0.10
+of [GStreamer](/docs/GStreamer). Do not install [GStreamer](/docs/GStreamer) version 1.0 or later! We need 0.10
 and won't work with 1.0 yet.
 
 [GStreamer](/docs/GStreamer) is a free software / open-source multimedia framework. The
@@ -29,8 +29,8 @@ summary on its webpage tells us:
 
 "[GStreamer](/docs/GStreamer) is a library for constructing graphs of media-handling
 components. The applications it supports range from simple Ogg/Vorbis
-playback, audio/video streaming to complex audio \(mixing\) and video
-\(non-linear editing\) processing.
+playback, audio/video streaming to complex audio (mixing) and video
+(non-linear editing) processing.
 
 Applications can take advantage of advances in codec and filter
 technology transparently. Developers can add new codecs and filters by
@@ -41,7 +41,7 @@ ABI stable."
 
 In summary, [GStreamer](/docs/GStreamer) is for the free software world what Quicktime is
 for Apple's "walled garden". It is used a the standard media framework
-for many \(most?\) Linux desktop systems. It is also used on many Linux
+for many (most?) Linux desktop systems. It is also used on many Linux
 based embedded devices.
 
 
@@ -61,7 +61,7 @@ already ship with these.
 
 You may need to install some restricted plugin packages to play back all
 common audio and video file formats like MP3 and MP4. Video or movie
-recording with high quality \(DivX, H.264\) will also require recent
+recording with high quality (DivX, H.264) will also require recent
 versions of additional plugin packages which contain support for these
 formats. These are usually not installed by default due to licensing and
 patent clauses in place for some territories. You may want to
@@ -83,7 +83,7 @@ sudo apt-get install gstreamer0.10-ffmpeg
 
 # MS-Windows and Apple MacOSX:
 
-You must install [GStreamer](/docs/GStreamer) if you want to use multi-media functions\! If
+You must install [GStreamer](/docs/GStreamer) if you want to use multi-media functions! If
 you don't intend to use multi-media functions then installation of
 [GStreamer](/docs/GStreamer) is optional on MS-Windows, but possibly not on OSX.
 
@@ -92,14 +92,14 @@ you don't intend to use multi-media functions then installation of
 <http://www.gstreamer.com\>
 
 When the installer asks you to select the components it should install,
-select a "Custom installation" \(instead of "Full installation" or "Basic
-installation" or such\). Then, in the displayed check list of packages to
+select a "Custom installation" (instead of "Full installation" or "Basic
+installation" or such). Then, in the displayed check list of packages to
 install, select \*all\* components manually, if you want support for all
 video formats and all functionality. Without this, many popular video
 formats like H264 video will not play at all, or video recording / video
 capture and similar functions will not work. In fact, even our own demos,
-e.g., SimpleMovieDemo \*will fail\* if you don't have all codecs installed\!
--\> If SimpleMovieDemo doesn't work, then the most likely cause is that
+e.g., SimpleMovieDemo \*will fail\* if you don't have all codecs installed!
+\-\> If SimpleMovieDemo doesn't work, then the most likely cause is that
 you didn't select all [GStreamer](/docs/GStreamer) packages for installation, so restart the
 installer and repeat installation with the full set of packages.
 
@@ -115,7 +115,7 @@ Get Homebrew at ...
 
 http://mxcl.github.com/homebrew
 
-# then add the Homebrew-Versions repository via typing \(in your terminal window\):
+# then add the Homebrew-Versions repository via typing (in your terminal window):
 
 brew tap homebrew/versions
 

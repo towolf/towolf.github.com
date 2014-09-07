@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-\[xyz,qual\] = PR650measspd
+[xyz,qual] = PR650measspd
 
 Make a measurement of the spectrum.
 
