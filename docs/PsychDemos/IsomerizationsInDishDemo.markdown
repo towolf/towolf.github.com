@@ -45,6 +45,7 @@ better documentation and tidying is needed.
 04/27/13 dhb  Improve comments.
 7/19/13  dhb  Print out photoreceptors structure using PrintPhotoreceptors.
 8/11/13  dhb  Protect against case when absorbance is provided directly.
+05/26/14 dhb  Dusted off.
 
 
 <div class="code_header" style="text-align:right;">

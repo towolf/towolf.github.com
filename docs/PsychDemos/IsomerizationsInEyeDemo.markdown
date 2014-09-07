@@ -47,6 +47,9 @@ better documentation and tidying is needed.
          dhb  Add monochromatic light option to the section that starts with trolands.
 8/11/13  dhb  Add test of AborbtanceToAbsorbance.
          dhb  Protect against case when absorbance is provided directly.
+05/26/14 dhb  Dusted off.
+6/10/14  npc, dhb  Modifications for accessing calibration data using a @CalStruct object.
+7/7/14   dhb  Make calStruct object code conditional on the support routines existing on the path.
 
 
 <div class="code_header" style="text-align:right;">

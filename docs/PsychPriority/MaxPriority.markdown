@@ -21,7 +21,7 @@ compatible with all the functions that you're rushing.
 
 The name matching ignores case.
 
-OS X: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS X
 
 On OS X all priority levels are safe for all functions. MaxPriority
 always returns 9, the highest priority level.
@@ -29,7 +29,7 @@ always returns 9, the highest priority level.
 To preserve compatibility with other platforms we recommend using
 MaxPriority in your script on OS X, instead of the constant 9.
 
-WINDOWS: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# WINDOWS
 
 [Priority](/docs/Priority) levels returned by MaxPriority are 0, 1 and 2.
 Although use of priority levels \> 1 is possible and allowed by MaxPriority
@@ -38,13 +38,12 @@ to use levels \> 1 as this can interfere with execution of a lot of
 important system processes and severely reduce the stability of
 Windows execution.
 
-LINUX: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# LINUX
 
 MaxPriority always returns 1, although levels of up to 99 are possible.
 We recommend to sticking to the lowest level, unless some tweaking for a
 specific setup or situation is necessary.
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 See RUSH, [Priority](/docs/Priority), MovieDemo, ScreenTest, SCREEN [Preference](/docs/Preference) MaxPriorityForBlankingInterrupt,
 SCREEN [Preference](/docs/Preference) SetClutPunchesBlankingClock.

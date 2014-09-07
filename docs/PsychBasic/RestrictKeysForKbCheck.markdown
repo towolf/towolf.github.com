@@ -39,7 +39,7 @@ unwanted keys are ignored.
 Another advantage is a significant speed gain for KbCheck et al. on
 MacOS/X systems, where the execution time of KbChecks is proportional to
 the number of keys to check.
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 See also: FlushEvents, KbName, KbDemo, KbWait, KbCheck, GetChar, CharAvail.
 

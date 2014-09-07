@@ -8,7 +8,7 @@ encoding: UTF-8
 
 priorityStruct = MachGetPriorityMex\(policyFlavorString, defaultFlag\)
 
-OSX: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OSX
 
 Retrieve current or default parameters for the main MATLAB thread for any
 of the  three priority flavors: 'THREAD\_STANDARD\_POLICY',
@@ -76,15 +76,14 @@ Psychtoolbox3/Source/Common/MachPriorityMex/MachGetPriorityMex.c
 http://developer.apple.com/documentation/Darwin/Conceptual/KernelProgramming/scheduler/chapter\_8\_section\_4.html
 /usr/include/mach/thread\_policy.h
 
-OS9: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS9
 
 MachGetPriorityMex does not exist in OS 9.
 
-WIN: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# WIN
 
 MachGetPriorityMex does not exist in Windows.
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 see also: [Priority](/docs/Priority), [Rush](/docs/Rush), MachGetPriorityFlavor, MachSetPriorityMex,
 

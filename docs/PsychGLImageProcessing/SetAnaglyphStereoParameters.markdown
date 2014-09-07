@@ -40,7 +40,8 @@ windowPtr = PsychImaging\('OpenWindow', screenid, bgcolor, \[\], \[\], \[\], ste
 See 'help PsychImaging' and 'help PsychGLImageProcessing' for an overview
 of the imaging pipeline.
 
-# Parameters and their meaning
+Parameters and their meaning:
+-----------------------------
 
 'windowPtr' is the handle to a anaglyph stereo onscreen window.
 
@@ -142,6 +143,13 @@ final anaglyph image, but without applying anaglyph conversion to it.
 Wherever this overlay has an alpha color value of zero, the stimulus will
 be shown. Wherever its alpha value is greater than zero, the overlays
 image will be shown.
+
+overlaywindow = SetAnaglyphStereoParameters\('CreateGreenOverlay', win\);
+... and ...
+overlaywindow = SetAnaglyphStereoParameters\('CreateBlueOverlay', win\);
+... will allow to only place the overlay info into the green color channel
+or blue color channel, ie., the channel not used by Red-Blue or Red-Green
+color anaglyph stereo.
 
 'GetHandle' - Return GLSL handle to anaglyph shader. Allows to modify the
 shader itself, e.g., replace it by your own customized shader. Only for

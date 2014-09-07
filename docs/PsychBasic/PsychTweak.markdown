@@ -55,7 +55,8 @@ normally the first GPU \(index 0\) would always be used. This command
 allows to override that choice.
 
 
-# Debugging of [GStreamer](/docs/GStreamer) based functions
+Debugging of [GStreamer](/docs/GStreamer) based functions:
+---------------------------------------
 
 
 PsychTweak\('GStreamerDebug', debugconfig\);
@@ -83,7 +84,8 @@ user-code. Only some codecs support this. Currently available values are:
 threading. By default, Frame+Slice threading will be used.
 
 
-# Debugging of USB based functions
+Debugging of USB based functions:
+---------------------------------
 
 
 PsychTweak\('LibUSBDebug', verbosity\);
@@ -95,7 +97,8 @@ Possible values: 0 = Silence \(default\), 1 = Errors, 2 = Errors +
 Warnings, 3 = Errors + Warnings + Info messages.
 
 
-# MS-Windows only tweaks
+MS-Windows only tweaks:
+-----------------------
 
 PsychTweak\('BackwardTimejumpTolerance', secs\);
 
@@ -193,21 +196,12 @@ problems as the `lowres` workaround.
 This setting is off by default.
 
 
-# OSX only tweaks
-
-PsychTweak\('DisableCVDisplayLink'\);
-
--- Forbid use of OSX CoreVideo display links by [Screen](/docs/Screen)\(\) either for fallback
-timestamping, or for additional visual stimulus onset correctness checks.
-Use of display link is enabled by default, although it has very questionable
-value as timestamping fallback - you should use the PsychtoolboxKernelDriver
-for much more reliable and accurate timestamps. The display link still has
-some limited value for detection of certain graphics driver bugs.
-Unfortunately Apple's display link functions contain bugs which can cause
-Psychtoolbox to crash at the end of a session when the onscreen windows get
-closed. There is no known solution for this problem, therefore we provide
-this tweak if your system is affected by this crash bug. The bug only happens
-on some setups and only sometimes.
+History:
+ 9.07.2012  mk  Wrote it.
+31.08.2014  mk  Remove 'DisableCVDisplayLink' option, CVDisplayLinks
+                are off by default as of PTB 3.0.12 and must be enabled
+                by selecting a VBLTimestampingmode \> 0 via [Screen](/docs/Screen)\('[Preference](/docs/Preference)'\),
+                as they are way too unreliable and crash prone.
 
 
 

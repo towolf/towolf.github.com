@@ -19,8 +19,7 @@ images.
 This illustrates an application of OpenGL Alpha blending by compositing
 two images based on a spatial gaussian weight mask. Compositing is done
 by the graphics hardware.
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 see also: PsychDemosOSX, MovieDemoOSX, DriftDemo
 

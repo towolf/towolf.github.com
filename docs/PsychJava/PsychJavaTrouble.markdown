@@ -12,7 +12,7 @@ You probably arrived at this help text because of an error in execution
 of one of the Psychtoolbox Java based functions, e.g., ListenChar,
 CharAvail, GetChar or FlushEvents.
 
-There are four common reasons for failure of Java based Psychtoolbox
+These are common reasons for failure of Java based Psychtoolbox
 functions:
 
 1. You run Matlab in nojvm mode, i.e., you started Matlab via 'matlab

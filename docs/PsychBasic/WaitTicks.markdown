@@ -20,14 +20,14 @@ flush the MEX files \(e.g. by changing directory or calling CLEAR
 MEX\). M files and variables stay in memory until you clear them.
 
 
-Windows: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# Windows
 
 WaitTicks is implemented using WaitSecs.m, and each tick is interpreted
 as 1/60.15 seconds to be consistent with the Mac version.
 \(In Windows, a system tick is usually 1 millisecond, but with a precision that
 varies from system to system. We're ignoring the system ticks here.\)
 
-OS X: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS X
 
 "Ticks" functions are deprecated, use "Secs" functions instead;  To
 measure time, use GetSecs insted of GetTicks. To delay, use WaitSecs
@@ -38,7 +38,7 @@ and more accurate than "Ticks" functions.
 
 WaitTicks behaves exactly as on OS 9, relying on the Psychtoolbox mex
 function GetTicks to read the system tick count.
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 See also: GetTicks, GetSecs, WaitSecs.
 

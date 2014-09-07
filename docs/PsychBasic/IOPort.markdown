@@ -10,7 +10,7 @@ encoding: UTF-8
 Serial ports \(or emulated serial ports like Serial-over-USB etc.\),
 parallel ports, network ports, and special digital I/O boxes.
 
-Goal: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# Goal
 
 It provides a unified cross-platform interface to such devices and tries
 to bundle functionality in one MEX file that is common to all those
@@ -29,7 +29,7 @@ unified support for accessing the serial ports of your computer. All
 other functions and device classes will be added in future releases of
 the driver.
 
-Usage: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# Usage
 
 [IOPort](/docs/IOPort) has many functions; type "[IOPort](/docs/IOPort)" for a list:
     [IOPort](/docs/IOPort)

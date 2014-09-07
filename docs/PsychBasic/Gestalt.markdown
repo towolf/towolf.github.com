@@ -8,7 +8,7 @@ encoding: UTF-8
 
 gestaltBits = [Gestalt](/docs/Gestalt)\(selector\)
 
-OS X: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS X
 
 [Gestalt](/docs/Gestalt) calls the eponymous Macintosh system function [Gestalt](/docs/Gestalt), a
 general-purpose function that reports on particular features of your
@@ -68,15 +68,14 @@ MATLAB [Gestalt](/docs/Gestalt) are:
      event of error code -5551.  Its behavior for other error codes is
      unknown.
 
-OS 9: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS 9
 
 In MATLAB versions below 6.0 MATLAB supplies [Gestalt](/docs/Gestalt).
 
-WINDOWS: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# WINDOWS
 
 [Gestalt](/docs/Gestalt) does not exist in Windows.
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 See also: [Screen](/docs/Screen)\('Computer?'\), MacModelName, AppleVersion
 

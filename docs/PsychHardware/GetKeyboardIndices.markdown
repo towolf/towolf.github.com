@@ -33,11 +33,10 @@ locationID   = Numeric id of where the device is connected to the
                operating system upgrades - or may not be persistent at
                all in case of os bugs. Your mileage may vary...
 
-WINDOWS, LINUX: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# WINDOWS, LINUX
 
 GetKeyboardIndices does not yet exist in Windows and Linux.
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 see also: GetGamepadIndices
 

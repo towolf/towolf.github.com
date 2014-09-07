@@ -13,7 +13,7 @@ By default, the cursor of screen zero on Linux, and all screens on
 Windows and Mac OS/X is hidden. 'mouseid' defines which of multiple
 cursors shall be hidden on Linux. The parameter is silently ignored
 on other systems.
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 See ShowCursor, SetMouse
 

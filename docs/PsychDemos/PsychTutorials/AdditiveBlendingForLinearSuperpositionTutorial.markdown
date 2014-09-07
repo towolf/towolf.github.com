@@ -49,8 +49,15 @@ references and details.
 Radeon X1xxx / HDxxx GPU's when used under Linux or OS/X with the
 PsychtoolboxKernelDriver loaded \(see "help PsychtoolboxKernelDriver" on
 how to do that\). These GPU's do support 10 bits per color channel when
-this special mode is used. If you try this option on MS-Windows, or
-without the driver loaded or with a different GPU, it will just fail.
+this special mode is used. This also works with properly configured NVidia
+GPU's under Linux, and with NVidia Quadro and AMD Fire gpu's under
+some versions of MS-Windows.
+
+'Native11Bit' - Enables the native ~11 bpc framebuffer support on ATI
+Radeon X1xxx / HDxxx GPU's when used under Linux or OS/X with the
+PsychtoolboxKernelDriver loaded \(see "help PsychtoolboxKernelDriver" on
+how to do that\). These GPU's do support ~11 bits per color channel when
+this special mode is used \(11 bits red, 11 bits green, 10 bits blue\).
 
 'VideoSwitcher' - Enable the Xiangrui Li et al. VideoSwitcher, a special
 type of video attenuator \(see "help PsychVideoSwitcher"\) in standard

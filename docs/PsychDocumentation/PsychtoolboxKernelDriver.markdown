@@ -63,41 +63,11 @@ far didn't show any such problems, it may happen on your system. That is
 why this driver is an \*experimental\* feature and why you need to have
 administrator privileges to install and load the driver the first time.
 
-# How to install \(one time setup\)
+How to install \(one time setup\):
+--------------------------------
 
-There are two versions of the driver, one for 32-Bit OSX kernels, one for
-64-Bit kernels. You can find out which one you need by typing:
-\!uname -m
-
-If the output says "x86\_64" you'll need the 64-Bit driver, otherwise the
-32-Bit driver.
-
-# For 32-Bit OSX kernel
-
-This driver can no longer be maintained or improved, but should work on old versions
-of OSX which used to use 32-Bit kernels, and on their supported hardware. It has
-known limitations on AMD Radeon HD-4000 graphics cards and earlier cards wrt.
-control of digital display output dithering. Do not use it on such graphics cards
-for tasks which potentially need dithering to be disabled.
-
-# You must type this into the terminal:
-
-cd /System/Library/Extensions/
-sudo unzip /PathToPsychtoolbox/Psychtoolbox/PsychHardware/PsychtoolboxKernelDriver32BitLegacy.kext.zip
-
-"PathToPsychtoolbox" must be replaced with the path to the Psychtoolbox folder, e.g., if your
-Psychtoolbox is installed under /Users/kleinerm/Psychtoolbox, then the above command would
-look like this:
-
-sudo unzip /Users/kleinerm/Psychtoolbox/PsychHardware/PsychtoolboxKernelDriver32BitLegacy.kext.zip
-
-# For 64-Bit OSX kernel
-
-For OSX versions older than 10.8 Mountain Lion, use the PsychtoolboxKernelDriver64BitLegacy.kext.zip,
-which can no longer be maintained or improved but should work for OSX 10.6 - 10.7 and their supported
-hardware. It has known limitations on AMD Radeon HD-4000 graphics cards and earlier cards wrt.
-control of digital display output dithering. Do not use it on such graphics cards
-for tasks which potentially need dithering to be disabled. Upgrade to at least OSX version 10.8.
+OSX versions older than 10.8 "Mountain Lion" and 32-Bit operating system
+kernels are no longer supported.
 
 For OSX version 10.8 and later, use the PsychtoolboxKernelDriver64Bit.kext.zip, as exemplified
 here.
@@ -122,7 +92,8 @@ debugging purposes: How to enable \(each time after restarting your system\):
 In a terminal type:
 sudo kextload /System/Library/Extensions/PsychtoolboxKernelDriver.kext
 
-# How to upgrade with a more recent version
+How to upgrade with a more recent version:
+------------------------------------------
 
 # You can unload and delete the driver before a driver upgrade via:
 

@@ -16,9 +16,24 @@ lines. 'sx' defines the left border of the text: If it is left out, text
 starts at x-position zero, otherwise it starts at the specified position
 'sx'. If sx=='center', then each line of text is horizontally centered in
 the window. If sx=='right', then each line of text is right justified to
-the right border of the target window, or of 'winRect' if provided. 'sy'
-defines the top border of the text. If left out, it starts at the top of
-the window, otherwise it starts at the specified vertical pixel position.
+the right border of the target window, or of 'winRect', if provided.
+The options sx == 'wrapat' and sx == 'justifytomax' try to align the start
+of each text line to the left border and the end of each text line to either
+the specified 'wrapat' number of columns, or to the width of the widest line
+of text in the text string, causing all lines of text to appear of roughly
+even width. This is achieved by adjusting the width of blanks between words
+in each line of text to even out text line length. The sx == 'wrapat' and
+sx == 'justifytomax' options are considered experimental. They only work for
+non-flipped, simple text, and even there they may work badly, so don't rely on
+them doing the right thing without assistance of your code, e.g., breaking
+text into lines of reasonably similar length. The justification functions
+will not justify text which deviates by more than ptb\_drawformattedtext\_padthresh
+from the target width of the text, with ptb\_drawformattedtext\_padthresh being
+a global variable you can set. It defaults to 0.333 ie., doesn't justify text
+lines if the text lines are more than 33% shorter than the reference line.
+
+'sy' defines the top border of the text. If left out, it starts at the top
+of the window, otherwise it starts at the specified vertical pixel position.
 If sy=='center', then the whole text is vertically centered in the
 window. 'color' is the color value of the text \(color index or \[r g b\]
 triplet or \[r g b a\] quadruple\). If color is left out, the current text

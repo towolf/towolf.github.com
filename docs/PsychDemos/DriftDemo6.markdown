@@ -7,7 +7,7 @@ encoding: UTF-8
 ---
 
 function DriftDemo6\(angle, cyclespersecond, f\)
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 This demo demonstrates how to use [Screen](/docs/Screen)\('DrawTexture'\) in combination
 with GLSL texture draw shaders to efficiently combine two drifting
@@ -47,8 +47,7 @@ manipulating textures during drawing.
 angle = Angle of the gratings with respect to the vertical direction.
 cyclespersecond = Speed of gratings in cycles per second.
 f = Frequency of gratings in cycles per pixel.
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 see also: PsychDemos, MovieDemo
 

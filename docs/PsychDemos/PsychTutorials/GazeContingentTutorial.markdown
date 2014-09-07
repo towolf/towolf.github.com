@@ -6,8 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 Demo implementation of a generic gaze-contingent display.
 We take one input image and create - via image processing - two images

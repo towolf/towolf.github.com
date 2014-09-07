@@ -30,6 +30,9 @@ Because DHB and BAW have too much time on their hands -
 x/xx/10 baw  Checked with ISET-4.0 revision 351 \(BW\)
 2/28/13 dhb  Updated to work with vset rather than proprietary iset.
 8/5/13  dhb  Updated to work with isetbio, vset's successor.
+7/31/14 dhb, ncp Put a cd around call to isetbio xyz2lab to deal with
+             fact that 2014b has added a routine with this name that
+             doesn't work quite the same.
 
 
 <div class="code_header" style="text-align:right;">

@@ -8,7 +8,7 @@ encoding: UTF-8
 
 ticks = GetBusTicks
 
-OS X: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS X
 
 Return the number of system bus ticks since startup.  The period of the
 bus tick clock depends on the model and frequency of your CPU. Use
@@ -33,15 +33,14 @@ you start timing. MEX files stay loaded until you flush the MEX files
 \(e.g. by changing directory or calling CLEAR MEX\). M files and variables
 stay in memory until you clear them.
 
-OS 9: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS 9
 
 GetBusTicks does not exist in OS 9.
 
-WINDOWS: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# WINDOWS
 
 GetBusTicks does not exist in Windows.
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 See also: GetBusTicksTick, GetSecs, GetSecsTick,  GetTicks, GetTicksTick.
 

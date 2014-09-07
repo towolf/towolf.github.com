@@ -8,7 +8,8 @@ encoding: UTF-8
 
 InstallKinect - Kinect driver installation instructions.
 
-# MS-Windows
+MS-Windows:
+-----------
 
 Psychtoolbox on Windows currently only supports the original XBOX-360 Kinect,
 not the more recent versions of "Kinect for Windows". Use GNU/Linux if you want
@@ -47,7 +48,8 @@ The current Kinect low level drivers are still early prototypes, so
 expect occassional bugs or weird behaviour.
 
 
-# GNU/Linux
+GNU/Linux:
+----------
 
 If you use the Psychtoolbox distribution provided by the NeuroDebian
 project \(http://neuro.debian.net\) there's nothing to do. It should "just
@@ -91,7 +93,8 @@ administrator rights \(as the script calls the sudo command\).
 3. After this procedure, the Kinect should be fully useable by Psychtoolbox.
 
 
-# Mac OS/X
+Mac OS/X:
+---------
 
 See the OS/X section at http://openkinect.org/wiki/Getting\_Started
 You will need libfreenect version 0.1.2 or compatible for this to work.
@@ -113,7 +116,8 @@ corresponding source code of libusb-1.0.0 as well due to LGPLv2
 requirements.
 
 
-# CAVEATS
+# CAVEATS:
+--------
 
 This is still early prototype software, expect bugs, bumps and hickups.
 

@@ -88,13 +88,13 @@ NOTE: GetMouse no longer supports this obsolete usage:
 xy = GetMouse\(\[windowPtrOrScreenNumber\]\)
 where xy is a 1x2 vector containing the x, y coordinates.
 
-OS X: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS X
 
 Even if your mouse has more than three buttons, GetMouse will return as
 many values as your mouse has buttons. GetMouse can't distinguish between
 multiple mice and will always return the unified state of all mice.
 
-LINUX: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# LINUX
 
 GetMouse can distinguish between multiple mouse-like devices. It can return
 information about additional axis \(valuators\). GetMouse not only returns
@@ -103,14 +103,14 @@ Pen digitizer tablets \(e.g., Wacom tablets\), touch pads and touch screens,
 and joystick/gamepad devices. Usually you'd use the GamePad\(\) function though
 for Joystick/Gamepad query.
 
-M$-Windows: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# M$-Windows
 
 # Limitations:
 
 GetMouse will always assume a three button mouse and therefore always
 return the state of three buttons. GetMouse can't distinguish between
 multiple mice and will always return the unified state of all mice.
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 See also: GetClicks, SetMouse
 
 

@@ -24,8 +24,7 @@ A 'method' of 0 outputs to a regular 8 bit framebuffer. This is the
 default, if no method argument is provided.
 
 A 'method' of 1 tries to utilize the native 10 bpc framebuffers of recent
-ATI hardware on OS/X and Linux, if the PsychtoolboxKernelDriver is
-loaded.
+AMD/NVidia hardware.
 
 A 'method' of 2 uses a method known as "PseudoGray" or "Bitstealing" for
 output.
@@ -37,6 +36,9 @@ attenuator device.
 
 In 'method' == 5, the M16 display mode of the VPixx - DataPixx box is used.
 
+A 'method' of 6 tries to utilize the native ~11 bpc framebuffers of recent
+AMD hardware.
+
 The optional 'gamma' parameter allows to select the initial gamma value
 of your display to correct for. This can be changed interactively later
 on.
@@ -45,7 +47,8 @@ The optional 'screenid' parameter allows to select the id of the output
 display on multi-display setups. By default, the secondary display is
 chosen.
 
-# Keyboard control keys
+Keyboard control keys:
+----------------------
 
 At each press of space key, the display alternates between a high bpc
 version and a 8 bpc version to hopefully show a perceptible difference in

@@ -74,7 +74,7 @@ KbCheck and KbWait are MEX files, which take time to load when they're
 first called. They'll then stay loaded until you flush them \(e.g. by
 changing directory or calling CLEAR MEX\).
 
-OSX, Linux, and Windows with Octave or Matlab R2007a and later: \_\_\_\_\_\_\_\_\_
+# OSX, Linux, and Windows with Octave or Matlab R2007a and later
 
 KbCheck uses the PsychHID function, a general purpose function for
 reading from the Human Interface Device \(HID\) class of USB devices.
@@ -102,7 +102,7 @@ which have keys or buttons as if they were keyboards. If you pass in the
 deviceIndex of a mouse \(GetMouseIndices will provide with them\), it will
 report mouse button state as keyboard state. Similar behaviour usually
 works with Joysticks, Gamepads and other input controllers.
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 See also: FlushEvents, KbName, KbDemo, KbWait, GetChar, CharAvail.
 

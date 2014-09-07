@@ -11,7 +11,7 @@ SleepSecs\(s\)
 Wait for duration s seconds, up to one second.  SleepSecs suspends the
 MATLAB process.
 
-OS X: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS X
 
 If you set the priority level to greater than 0 using either [Priority](/docs/Priority) or
 [Rush](/docs/Rush) then use SleepSecs instead of WaitSecs while priority is elevated.
@@ -36,15 +36,14 @@ while not displaying an animation.
 
 SleepSecs uses the Posix usleep \("microsleep"\) function.
 
-OS 9: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS 9
 
 SleepSecs does not exist in OS 9.
 
-WINDOWS: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# WINDOWS
 
 SleepSecs does not exist in Windows.
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 See Also: [Priority](/docs/Priority), [Rush](/docs/Rush), SetMachPriorityMex, GetMachPriorityMex, [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\)
 

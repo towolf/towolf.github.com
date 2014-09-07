@@ -7,7 +7,7 @@ encoding: UTF-8
 ---
 
 function DriftDemo4\(\[angle=0\]\[, cyclespersecond=1\]\[, freq=1/360\]\[, gratingsize=360\]\[, internalRotation=0\]\)
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 Display an animated grating, using the new [Screen](/docs/Screen)\('DrawTexture'\) command.
 This demo demonstrates fast drawing of such a grating via use of procedural

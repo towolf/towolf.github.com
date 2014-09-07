@@ -6,8 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 Demo implemetation of detecting eye in fixation window on display
 computer through fixation update events from host pc
@@ -21,7 +20,7 @@ NOTE: Please make sure you are in the same directory where the change
 images are located.
 
 Press space to exit change
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 
 <div class="code_header" style="text-align:right;">

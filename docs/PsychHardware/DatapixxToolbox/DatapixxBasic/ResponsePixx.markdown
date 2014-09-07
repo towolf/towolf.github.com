@@ -40,12 +40,14 @@ look at PsychDataPixx\('GetPreciseTime'\) and
 PsychDataPixx\('BoxsecsToGetsecs'\).
 
 
-# Button mapping on the ResponsePixx handheld device
+Button mapping on the ResponsePixx handheld device:
+---------------------------------------------------
 
 Buttonvector element \[1,2,3,4,5\] == \[Red, Yellow, Green, Blue, White\].
 
 
-# Subfunctions and their meaning
+Subfunctions and their meaning:
+-------------------------------
 
 ResponsePixx\('Open' \[, numSamples=1000\]\[, bufferBaseAddress=12e6\]\[, nrButtons=5\]\);
 - Open ResponsePixx for button response collection. Configures the 24 bit

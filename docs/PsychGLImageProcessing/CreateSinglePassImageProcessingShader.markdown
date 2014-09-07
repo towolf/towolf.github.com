@@ -18,7 +18,8 @@ optional other properties.
 
 # The following types are currently supported:
 
-# 'BackgroundMaskOut'
+'BackgroundMaskOut':
+--------------------
 
  shader = CreateSinglePassImageProcessingShader\(windowPtr, 'BackgroundMaskOut', backgroundColor \[, tolerance\]\);
  - This shader draws a texture, but removes all "backgroundColor" pixels

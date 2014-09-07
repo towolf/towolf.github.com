@@ -7,7 +7,7 @@ encoding: UTF-8
 ---
 
 DriftWaitDemo\(\[movieDurationSecs=10\]\[, waitframes=1\]\)
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 Display an animated grating using the new [Screen](/docs/Screen)\('DrawTexture'\) command.
 In Psychtoolbox-3 [Screen](/docs/Screen)\('DrawTexture'\) replaces [Screen](/docs/Screen)\('CopyWindow'\).
@@ -32,8 +32,7 @@ MATLAB matrices.  For all other graphical elements, such as lines,  rectangles,
 and ovals we recommend that these be drawn directly to the  display
 window during the animation rather than rendered to offscreen  windows
 prior to the animation.
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 see also: PsychDemos, MovieDemo, DriftDemo
 

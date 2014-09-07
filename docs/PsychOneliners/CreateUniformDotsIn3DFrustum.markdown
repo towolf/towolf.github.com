@@ -21,7 +21,8 @@ variable into the quadratic shape random variable
 see Luc Devroye. Non-Uniform Random Variate Generation. New York:
 Springer-Verlag, 1986. Chapter 2
 \(http://cg.scs.carleton.ca/~luc/chapter\_two.pdf\)
-# compile following in latex to see full derivation
+compile following in latex to see full derivation:
+----
 \\documentclass\[12pt,a4paper\]\{minimal\}
 \\usepackage\{amsmath\}        % math
 

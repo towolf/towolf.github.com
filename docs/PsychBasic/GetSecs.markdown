@@ -23,7 +23,7 @@ allocated, before you start timing. MEX files stay loaded until you
 flush the MEX files \(e.g. by changing directory or calling CLEAR
 MEX\). M files and variables stay in memory until you clear them.
 
-Win : \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# Win 
 
 On Windows machines the high precision QueryPerformanceCounter\(\) call
 is used to get the number of seconds since system start up, if a
@@ -39,13 +39,13 @@ Windows varies: If the high precision clock is used, it will be
 microsecond resolution and accuracy, if the fallback clock is used, it
 will be roughly millisecond resolution and accuracy.
 
-OSX : \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OSX 
 
 On machines running Apples OSX, the mach\_absolutetime\(\) call is used,
 which provides at least microsecond accuracy and resolution. To our
 current knowledge, all Macintosh computers have reliably working clocks.
 
-LINUX : \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# LINUX 
 
 On Linux, the gettimeofday\(\) system call is used, which usually has
 microsecond resolution and accuracy. Linux always chooses the highest

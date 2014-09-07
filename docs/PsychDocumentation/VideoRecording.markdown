@@ -125,7 +125,8 @@ average video bitrate of 1000 kilobits/sec.
 
 # The following high level parameters are supported:
 
-# Video encoding settings
+Video encoding settings:
+------------------------
 
 Interlaced=0/1 - Tell codec if input video material is interlaced. This
                  allows to optimize encoding further for smaller file size
@@ -159,13 +160,15 @@ Videoquality=x - A value between 0.0 and 1.0 to select target video quality
                  may need to lower video quality, so your poor machine can
                  cope.
 
-# Audio encoding settings
+Audio encoding settings:
+------------------------
 
 Audioquality=x - See Videoquality, this time for the audio encoding.
 
 Audiobitrate=x kb/s  - See Videobitrate, this time for the audio encoding.
 
-# Multiplexer / File format settings
+Multiplexer / File format settings:
+-----------------------------------
 
 Timeresolution=x - How fine should time be resolved in the recorded footage?
                    A value of x means to divide 1 second into x units, i.e.,
@@ -185,7 +188,8 @@ Bigfiles=0/1     - If set to 1, allow recording of movie files with a size great
                    the "big file" file format.
 
 
-# Specifying low-level settings
+Specifying low-level settings:
+------------------------------
 
 For more control you can also specify the various codec types and their
 low level settings in the syntax of the "gst-launch" [GStreamer](/docs/GStreamer) command

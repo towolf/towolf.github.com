@@ -36,7 +36,8 @@ some weird error messages about "Invalid window record referenced"
 at invocation of the command.
 
 
-# Available subcommands and their meaning
+Available subcommands and their meaning:
+----------------------------------------
 
 [moglmorpher](/docs/moglmorpher)\('ForceGPUMorphingEnabled', enableflag\);
 

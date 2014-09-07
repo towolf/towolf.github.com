@@ -6,8 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 AntiSaccade\(placeHolderFlag,gapManipulation\)
 placeHolderFlag = display place holders. Default 1
@@ -19,8 +18,7 @@ stimulus: place holders, random duration of the initial fixation, and gap manipu
 
 This task demonstrates stimuli presentation with Eyelink and Data Viewer
 integration.
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 
 <div class="code_header" style="text-align:right;">

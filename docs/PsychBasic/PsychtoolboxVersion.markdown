@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-OS X, Windows, Linux: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS X, Windows, Linux
 
 \[versionString, versionStructure\]=PsychtoolboxVersion
 
@@ -32,7 +32,8 @@ processor architectures etc.\). This happens occassionally.
 Numeric values of the three integer fields contained in versionString are
 available in fields of the second return argument, "versionStructure".
 
-The field 'Flavor' defines the subtype of Psychtoolbox being used:
+# The field 'Flavor' defines the subtype of Psychtoolbox being used:
+
 \* beta: An experimental release that is already tested by the developers,
 but not yet sufficiently tested or proven in the field. Beta releases
 contain lots of new and experimental features that may be useful to you
@@ -44,6 +45,10 @@ are the only releases we provide at this point.
 
 \* trunk: Development prototypes, for testing and debugging by developers
 and really adventuruous users, not for production use\!
+
+\* Psychtoolbox-x.y.z: Old, no longer supported Psychtoolbox versions.
+
+\* Debian package: A Psychtoolbox provided by GNU/Debian or NeuroDebian.
 
 The revision number and the provided URL allows you to visit the developer
 website in the Internet and get direct access to all development logs
@@ -57,8 +62,7 @@ which returns version for themselves.  The version string for the
 built-in version numbers contains a fourth numeric field named "build".
 The build number is a unique serial number.  Mex files distinquished only
 by build numbers were compiled from identical C source files.
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 see also: [Screen](/docs/Screen)\('Version'\)
 

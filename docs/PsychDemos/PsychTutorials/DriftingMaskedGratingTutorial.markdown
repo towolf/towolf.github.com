@@ -7,7 +7,7 @@ encoding: UTF-8
 ---
 
 function DriftDemo2\(angle, cyclespersecond, f, drawmask\)
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 Display an animated grating using the new [Screen](/docs/Screen)\('DrawTexture'\) command.
 In the OS X Psychtoolbox [Screen](/docs/Screen)\('DrawTexture'\) replaces
@@ -44,8 +44,7 @@ MATLAB matrices.  For all other graphical elements, such as lines,  rectangles,
 and ovals we recommend that these be drawn directly to the  display
 window during the animation rather than rendered to offscreen  windows
 prior to the animation.
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 see also: PsychDemos, MovieDemo
 

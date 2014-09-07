@@ -10,14 +10,15 @@ rmse = ComputeRMSE\(data,predict,SUPRESS\_WARNING\)
 
 Compute a root fractional SSE between data and prediction.
 Inputs should be column vectors.
-Actual code is:
-  diff = predict-data;
-  rmse = sqrt\(\(diff'\*diff\)/\(data'\*data\)\);
 
 The routine badly named, because what it computes
 is not what anyone would call an RMSE.  A better
-name for the routine would be ComptueFRSSE or something
+name for the routine would be ComptueFSSE or something
 like that.
+
+Indeed, it now calls through an appropriately named
+ComputeFSSE, and issues an annoying warning encouraging
+the user to change the calling form.
 
 2/3/96   dhb  Added improved comments.
 1/13/13  dhb  Added cautionary comment about what this routine does.

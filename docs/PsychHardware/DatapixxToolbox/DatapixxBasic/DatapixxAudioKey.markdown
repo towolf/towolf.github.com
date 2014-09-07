@@ -17,7 +17,8 @@ This is an experimental proof-of-concept prototype\! Its name, behaviour
 and interface may change without warning in future beta-releases\!
 
 
-# Subfunctions and their meaning
+Subfunctions and their meaning:
+-------------------------------
 
 DatapixxAudioKey\('Open' \[, sampleRate\]\[, lrMode\]\[, inputJack\]\[, inputGain\]\);
 - Open audio system for recording. This will stop any running audio

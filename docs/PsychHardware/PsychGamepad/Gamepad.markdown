@@ -35,7 +35,7 @@ If you need ultra-fast queries, check the help for 'GetButtonRawMapping',
 but superfast way to query device state.
 
 
-LINUX: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# LINUX
 
 Gamepad uses the [Screen](/docs/Screen)\(\) mex file and its mouse query functions.
 On Linux, gamepads and joysticks are treated as a special type of
@@ -48,7 +48,7 @@ Joystick also operates as a mouse or not. An example configuration file
 with installation instructions is available in the
 Psychtoolbox/PsychContributed folder under the name "52-MyLinuxJoystick.conf".
 
-OSX: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OSX
 
 GamePad uses the PsychHID function, which provides a universal
 interface to USB HID devices, including keyboards.
@@ -56,12 +56,12 @@ interface to USB HID devices, including keyboards.
 On OS X Gamepad is an .m file but provides built-in help to match the
 behavior of Gamepad on other platforms where it is a mex file.
 
-WIN: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# WIN
 
 Gamepad is not yet supported on Windows. WinJoystickMex\(\) in the
 Psychtoolbox/PsychContributed subfolder may serve as a temporary
 replacement.
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 See also: PsychGamepad, PsychHID
 

@@ -31,8 +31,7 @@ stereo presentation.
 2. [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\) compresses those stimuli horizontally into the output
    framebuffer.
 
-3. At display time, the display stretches half frames to full width:
-   \_\_\_\_\_\_\_\_\_        \_\_\_\_\_\_\_\_\_       \_\_\_\_\_\_\_\_\_
+# 3. At display time, the display stretches half frames to full width        \_\_\_\_\_\_\_\_\_       \_\_\_\_\_\_\_\_\_
    | L | R |   ---\> | <-L-\>  |  +   | <-R-\>  |
    ---------        ----------      ----------
 

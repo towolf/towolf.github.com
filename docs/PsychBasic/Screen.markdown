@@ -65,7 +65,7 @@ If an error occurs in FOO, Matlab, instead of halting, will execute the
 second argument to EVAL, which restores your screen and reports the
 error.
 
-OpenGL: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OpenGL
 
 Instead of offscreen windows, the OpenGL Psychtoolbox uses fast rendering
 and OpenGL textures for animation. With the exception of matrices, all

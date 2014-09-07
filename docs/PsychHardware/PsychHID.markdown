@@ -87,12 +87,12 @@ http://developer.apple.com/samplecode/HID\_Utilities\_Source/HID\_Utilities\_Sou
 http://developer.apple.com/samplecode/HID\_Explorer/HID\_Explorer.html
 http://developer.apple.com/samplecode/Hardware/idxHumanInterfaceDeviceForceFeedback-date.html
 
-OS9 & Windows with Matlab versions older than R2007a: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS9 & Windows with Matlab versions older than R2007a
 
 PsychHID does not exist in these Psychtoolboxes.  The OS9 and
 WIN Psychtoolbox functions that read from user input devices use mex
 files specific to each input device.
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 See also: PsychHIDTest, Daq, DaqTest, KbCheck, Gamepad, PsychHardware.
 web http://psychtoolbox.org/usb.html -browser;

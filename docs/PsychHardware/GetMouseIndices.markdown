@@ -8,7 +8,7 @@ encoding: UTF-8
 
 \[mouseIndices, productNames, allInfo\] = GetMouseIndices\(\[typeOnly\]\)
 
-OS X: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS X
 
 PsychHID assigns each USB HID device connected to you computer a unique
 index. GetMouseIndices returns the indices for those HID devices which
@@ -17,17 +17,17 @@ argument which is useful to identify the mouse associated with a
 paticular index.  For complete information on a gampad use
 PsychHID\('Devices'\).
 
-LINUX: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# LINUX
 
 GetMouseIndices allows selection of different types of pointing devices
 via the optional 'typeOnly' argument:
 'masterPointer' will only return indices of so called "master pointer"
 devices. These correspond to visible mouse cursors.
 
-WINDOWS: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# WINDOWS
 
 GetMouseIndices works as on OS X.
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 see also: GetKeyboardIndices, GetKeypadIndices, GetGamepadIndices
 

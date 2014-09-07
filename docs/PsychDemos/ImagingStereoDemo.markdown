@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-ImagingStereoDemo\(\[stereoMode=8\]\[, usedatapixx = 0\]\[, writeMovie = 0\]\)
+ImagingStereoDemo\(\[stereoMode=8\]\[, usedatapixx = 0\]\[, writeMovie = 0\]\[, reduceCrossTalk = 0\]\)
 
 Demo on how to use OpenGL-Psychtoolbox to present stereoscopic stimuli
 when the Psychtoolbox imaging pipeline is enabled. Use of the imaging

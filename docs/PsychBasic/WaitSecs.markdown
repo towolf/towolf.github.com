@@ -35,7 +35,7 @@ you start timing. MEX files stay loaded until you flush the MEX files
 \(e.g. by changing directory or calling CLEAR MEX\). M files and variables
 stay in memory until you clear them.
 
-OS X: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS X
 
 WaitSecs always uses the high-precision uptime clock.  It sleeps the main
 MATLAB thread for the given wait period, surrendering CPU time to other
@@ -44,14 +44,14 @@ setting.
 
 WaitSecs ignores the OX MATLAB <ctrl\>-C break key sequenece.
 
-WINDOWS:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# WINDOWS
 
 WaitSecs uses  Windows QueryPerformanceCounter\(\) call which, in turn,
 reads a high-performance hardware counter in Pentium and better CPUs.
 
 WaitSecs ignores the Win MATLAB <ctrl\>-C break key sequenece.
 
-Linux: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# Linux
 
 WaitSecs always uses the POSIX realtime high-precision timing facilities
 \(clock\_nanosleep\(CLOCK\_RT,...\)\). It sleeps the main MATLAB thread for the
@@ -63,7 +63,7 @@ distros, e.g., Ubuntu 7.1, offer the option of installing a special
 low-latency soft-realtime \(preempt\) kernel for even higher timing
 precision - or even a hard-realtime kernel like RTLinux or RTAI. This is
 as easy as a few mouse clicks and waiting a few minutes\!
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 See also: GetSecs, GetSecsTick, GetTicks, WaitTicks, PAUSE.
 

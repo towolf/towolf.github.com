@@ -45,7 +45,8 @@ file format is compatible with the Warp-API of NVidia's proprietary
 graphics drivers for some high-end Quadro GPUs on Windows-7 and later.
 
 
-# How to use
+How to use:
+-----------
 
 
 # Execute the function with the following parameters:

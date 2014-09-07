@@ -20,7 +20,7 @@ feature.
 The return value 'oldType' is always zero, as this query mechanism is not
 supported with PTB-3. Just returned for backwards-compatibility.
 
-OSX, WINDOWS, LINUX: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OSX, WINDOWS, LINUX
 
 # Cursor shape can be selected. Four types are defined by name:
 
@@ -41,7 +41,7 @@ OSX, WINDOWS, LINUX: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
  http://developer.apple.com/documentation/macos8/HumanInterfaceToolbox/Ap
  pManager/ProgWithAppearanceMgr/Appearance.9d.html\#10244
 
-LINUX: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# LINUX
 
 Linux allows for display and handling of multiple mouse cursors if your
 X-Server is of version 1.7 or later.
@@ -66,7 +66,7 @@ the  System or Matlab's resource forks. If nothing is found, the type is
 reset to 0. The fat arrow and I beam are copied from the "Fat Cursors v
 1.2" control panel created by Robert Abatecola, 5106 Forest Glen Drive,
 San Jose, CA 95129.
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 
 <div class="code_header" style="text-align:right;">

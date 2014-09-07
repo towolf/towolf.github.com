@@ -52,7 +52,7 @@ Passing a deviceNumber of -1 will NOT cause all keyboards to be detected
 One disadvantage of this function is that it renders Matlab relatively
 unresponsive to Ctrl-C interrupts. KbQueueWait is a better option in
 this regard, but more complicated to use.
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 See also: KbQueueWait KbCheck, KbWait, GetChar, CharAvail, KbDemo.
 

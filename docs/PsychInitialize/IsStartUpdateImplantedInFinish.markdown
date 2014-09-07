@@ -8,7 +8,7 @@ encoding: UTF-8
 
 isImplanted=IsStartUpdateImplantedInFinish
 
-OS X: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS X
 
 Return TRUE if both the finish.m file is on the MATLAB path and if it
 includes a call to StartUpdateProcess.
@@ -43,15 +43,14 @@ ahead of the Psychtoolbox finish.m file on MATLAB's search path and add
 to your file the line:
   StartUpdateProcess;     %Restore the system update process.
 
-OS 9: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS 9
 
 IsStartUpdateImplantedInFinish does not exist in OS 9.
 
-WINDOWS:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# WINDOWS
 
 IsStartUpdateImplantedInFinish does not exist in Windows.
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 see also: finish, StartUpdateProcess, KillUpdateProcess, [Priority](/docs/Priority), [Rush](/docs/Rush).
 

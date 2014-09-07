@@ -7,7 +7,7 @@ encoding: UTF-8
 ---
 
 function DriftDemo5\(angle, cyclespersecond, f, drawmask\)
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 Display animated gratings using the new [Screen](/docs/Screen)\('DrawTexture'\) command.
 
@@ -26,7 +26,7 @@ angle = Angle of the grating with respect to the vertical direction.
 cyclespersecond = Speed of grating in cycles per second. f = Frequency of
 grating in cycles per pixel.
 drawmask = If set to 1, then a gaussian aperture is drawn over the grating
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 see also: PsychDemos, MovieDemo
 

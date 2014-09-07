@@ -8,7 +8,7 @@ encoding: UTF-8
 
 versionString=AppleVersion\(gestaltString\)
 
-OS 9 and OS X: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS 9 and OS X
 
 AppleVersion\('qtim'\) % QuickTime
 AppleVersion\('atkv'\) % AppleTalk
@@ -20,11 +20,10 @@ to retrieve the information. However, this is only useful for the few
 If the selector is undefined \(possibly because that software is
 not present\) APPLEVERSION returns an empty string.
 
-WINDOWS: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# WINDOWS
 
 AppleVersion does not exist in Windows.
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 see also: [Gestalt](/docs/Gestalt), [Screen](/docs/Screen)\('Computer?'\), MacModelName
 

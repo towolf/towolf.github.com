@@ -11,7 +11,7 @@ Draw SuperShapes with OpenGL
 This demo computes and displays a 3D supershape using the formula
 found by Gielis \(A generic geometric transformation that unifies
 a wide range of natural and abstract shapes. American Journal of
-Botany 90\(3\):333�338, 2003\)
+Botany 90\(3\):333ï¿½338, 2003\)
 
 See also http://en.wikipedia.org/wiki/Superformula
 

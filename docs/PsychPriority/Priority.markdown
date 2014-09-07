@@ -25,7 +25,7 @@ behaviour out of the box, with various possibilities to tweak and tune the
 system for even better timing behaviour. Mac OSX is the second best
 choice for precise timing.
 
-OS X: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS X
 
 Unlike on OS 9 and Windows, On OS X setting a high priority will not
 disable important parts of your computer such as the keybaord and hard
@@ -73,7 +73,7 @@ no longer match the true frame period. Therefore you should change the
 priority level after changing the video mode and not before.
 
 
-WINDOWS: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# WINDOWS
 
 For the Windows version of [Priority](/docs/Priority) \(and [Rush](/docs/Rush)\), the priority levels set
 are  "process priority levels". There are 3 priority levels available,
@@ -94,7 +94,7 @@ GetChar or GetClicks still work if they are also called at priority level
 Typically you will not want to choose a higher priority than 1 unless you
 know exactly what you're doing.
 
-LINUX: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# LINUX
 
 To enable use of [Priority](/docs/Priority)\(\), you must run the script
 PsychLinuxConfiguration at least once and follow its instructions.
@@ -128,7 +128,7 @@ of memory locking.
 On old single processor computers, be careful not to create any
 uninterruptible infinite loops in your code when running realtime,
 otherwise your system may lock up, requiring a hard reboot\!
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 see also OS X:    [Rush](/docs/Rush)
 see also Windows: [Rush](/docs/Rush)

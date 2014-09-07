@@ -40,8 +40,7 @@ collected by keyboard queues. Before you can use an event buffer you
 always must create its "parent keyboard queue" via KbQueueCreate\(\) and
 call KbQueueStart\(\) to enable key event recording. See "help
 KbQueueCreate" etc. on how to do this.
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 See also: KbQueueCreate, KbQueueStart, KbQueueStop, KbQueueCheck,
            KbQueueWait, KbQueueFlush, KbQueueRelease

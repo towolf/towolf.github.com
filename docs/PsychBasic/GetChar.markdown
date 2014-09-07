@@ -94,7 +94,7 @@ are not.
 ---\> If precise timing of the keypress is important, use KbCheck or
 KbWait or KbQueueXXX functions or KbEventGet for consistent results\!
 
-OS X / Windows-XP / Linux with Matlab and Java enabled: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS X / Windows-XP / Linux with Matlab and Java enabled
 
 JAVA PATH: The GetChar implementation for Matlab is based on Java.
 Therefore, the Psychtoolbox subfolder PsychJava must be added to Matlabs

@@ -20,7 +20,7 @@ missing. When foo.mex is missing, MATLAB silently executes the help file
 foo.m instead.  Calling AssertMex within foo.m detects and reports that
 error. E.g., in [Screen](/docs/Screen).m you'll find AssertMex\('[Screen](/docs/Screen).m'\) to handle
 missing or dysfunctional [Screen](/docs/Screen) mex files properly.
- \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 See also: AssertOpenGL, COMPUTER, IsOSX, IsWin
 

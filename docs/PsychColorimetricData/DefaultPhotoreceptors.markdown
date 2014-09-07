@@ -33,6 +33,7 @@ straightforward, now that all the pieces are implemented as via ComputeCIEConeFu
 5/10/12  dhb  Changed name for LivingHumanMelanopsin to postpend Tsujimura2010
 8/12/13  dhb  Change field order to make printouts look nicer.
 11/13/13 dhb  Add 'LivingHumanRod' and 'LivingHumanMelanopsin' options.
+5/26/14  dhb  Add pupilDimater.value = \[\] to fix FillInPhotoreceptors.
 
 
 <div class="code_header" style="text-align:right;">

@@ -235,8 +235,8 @@ UDP packets
 
   GOOD LUCK and HAVE FUN\!  :-\)
 
-      Peter Rydesäter,
-      Mitthögskolan\(Mid Sweden University\) campus Östersund, SWEDEN
+      Peter Rydesaeter,
+      Mitthoegskolan\(Mid Sweden University\) campus Oestersund, SWEDEN
 
 
 

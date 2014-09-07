@@ -10,7 +10,7 @@ numFonts=FontInfo\('NumFonts'\);        % Return the number of installed fonts
 fontInfoStructArray=FontInfo\('Fonts'\);% Return an array of font info structs
 versionInfo=FontInfo\('Version'\);      % Return version info for Fonts command
 
-OS X: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS X
 
 Return information about the text fonts installed on your computer.
 FontInfo may be used in conjunction with [Screen](/docs/Screen)\('DrawText'\) to select a
@@ -27,10 +27,10 @@ directly to [Screen](/docs/Screen)\('TextFont'\), or use the table returnd by th
 function to find the number of a font which satisfies your criteria for a
 font.  Among those critera may be the font name itself.
 
-OS 9, WINDOWS, Linux: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS 9, WINDOWS, Linux
 
 FontInfo does not exist on OS-9, Windows and Linux.
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 SEE ALSO: [Screen](/docs/Screen), [Screen](/docs/Screen)\('TextFont'\)
 

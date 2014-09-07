@@ -6,8 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 Demo implemetation of detecting eye in fixation window on display
 computer through samples from the tracker
@@ -18,7 +17,7 @@ This task demonstrates stimuli presentation with Eyelink and Data Viewer
 integration.
 
 press space to end experiment
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 
 <div class="code_header" style="text-align:right;">

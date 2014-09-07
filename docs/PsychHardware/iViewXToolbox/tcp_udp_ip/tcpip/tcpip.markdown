@@ -8,7 +8,7 @@ encoding: UTF-8
 
 Tcpip toolbox version 1.2.x  2000-12-14 for MATLAB 5.x 6.x
 
-Copyrigtht \(C\) Peter Rydesäter 1998 - 2000, Mitthögskolan, SWEDEN
+Copyrigtht \(C\) Peter Rydesaeter 1998 - 2000, Mitthoegskolan, SWEDEN
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -29,9 +29,9 @@ Please, send me an e-mail if you use this and/or improve it.
 Main implementation:              Implementation of windows support:
 ===================
 
-Peter Rydesäter                   Mario Bergeron
-Mitthögskolan                     LYR Signal Processing
-Östersund,Sweden                  Québec, Canada
+Peter Rydesaeter                  Mario Bergeron
+Mitthoegskolan                    LYR Signal Processing
+Oestersund,Sweden                 Quebec, Canada
 e-mail:Peter.Rydesater@ite.mh.se  e-mail: Mario.Bergeron@lyre.qc.ca
 
 

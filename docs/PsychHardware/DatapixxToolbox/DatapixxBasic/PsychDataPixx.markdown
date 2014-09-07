@@ -29,7 +29,8 @@ sections of the help of PsychImaging. That command will take care of most
 of the details of visual setup.
 
 
-# Commands and their syntax
+Commands and their syntax:
+--------------------------
 
 oldmode = PsychDataPixx\('SetDummyMode' \[, mode\]\);
 - Switch driver into dummy mode if 'mode' is set to 1. In dummy mode, the

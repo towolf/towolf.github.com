@@ -53,7 +53,7 @@ after pressing it againg, ie. waitForAllKeysReleased -\> waitForKeypress
 -\> waitForAllKeysReleased -\> Return \[secs, keyCode\] of the key press.
 
 
-OSX and Linux: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OSX and Linux
 
 KbWait uses the PsychHID function, a general purpose function for
 reading from the Human Interface Device \(HID\) class of USB devices.
@@ -72,8 +72,7 @@ which have keys or buttons as if they were keyboards. If you pass in the
 deviceIndex of a mouse \(GetMouseIndices will provide with them\), it will
 treat mouse button state as keyboard state. Similar behaviour usually
 works with Joysticks, Gamepads and other input controllers.
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 See also: KbCheck, KbStrokeWait, KbPressWait, KbReleaseWait, GetChar, CharAvail, KbDemo.
 

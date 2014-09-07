@@ -8,7 +8,7 @@ encoding: UTF-8
 
 BubbleDemo\(mode, ms, myimgfile\)
 
-OS X and WINDOWS: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS X and WINDOWS
 
 Demo implementation of a generic bubble display.
 We take one input image and create - via image processing - two images

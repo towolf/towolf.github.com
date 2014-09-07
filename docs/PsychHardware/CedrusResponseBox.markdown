@@ -23,7 +23,8 @@ associated button press timestamps.
 It supports multiple subcommands, which accept and return different
 arguments, as listed below.
 
-# Limitations
+Limitations:
+------------
 
 Functionality is currently limited mostly to button queries \(and RJ-45
 connector state queries\), including timestamps, as well as control of
@@ -49,7 +50,8 @@ In short: If you are looking for a reliable response box that is painfree
 to use, don't buy Cedrus devices\!
 
 
-# Subfunctions and their meaning
+Subfunctions and their meaning:
+-------------------------------
 
 Functions for device init and shutdown: Call once at beginning/end of
 your script. These are slow\!

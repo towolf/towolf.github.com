@@ -18,7 +18,7 @@ encoding: UTF-8
  of potentially multiple cursors should be repositioned. On OS/X and
  Windows this parameter is silently ignored.
 
- OS 9: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+#  OS 9
 
  After calling SetMouse, there's a short period \(until the next tick?\)
  during which GetMouse reports the old position, after which it reports
@@ -37,7 +37,7 @@ encoding: UTF-8
  be enough, after calling SetMouse, to simply WaitTicks\(1\) before calling
  GetMouse to be sure of getting the new position.
 
- OS-X, Linux & WINDOWS:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+#  OS-X, Linux & WINDOWS
 
  Psychtoolbox will accept the optional windowPtrOrScreenNumber
  argument and check it for validity.  However, supplying the argument will
@@ -52,8 +52,7 @@ encoding: UTF-8
  The delay between a call to SetMouse and when GetMouse will report the
  new mouse cursor position is not known.  GetMouse seems to report the new
  position immediately, but we have no guarantee that it always will.
-
- \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
  See Also: GetMouse, GetClicks
 

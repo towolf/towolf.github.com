@@ -128,7 +128,7 @@ encoding: UTF-8
   recorded. This would include the release of the carriage return used
   to execute KbQueueStart and the keys pressed and released to invoke
   KbQueueCheck
- \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
  See also: KbQueueCreate, KbQueueStart, KbQueueStop, KbQueueCheck,
             KbQueueWait, KbQueueFlush, KbQueueRelease

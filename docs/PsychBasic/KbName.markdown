@@ -115,8 +115,7 @@ OS X \_ OS9 \_ Windows \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
   because they used different types of keyboards: PS/2 for Windows, ADB
   for OS 9, and USB for OS 9, Windows, and OSX.  KbCheck on OS X returns
   USB keycodes.
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
     See also KbCheck, KbDemo, KbWait.
 

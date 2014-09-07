@@ -9,7 +9,7 @@ encoding: UTF-8
 PNET\_REMOTE   - Evaluation of matlab expression in remote host PNET
 
     Version: First includes in the tcp/udp/ip toolbox 2002-02-13
-             \(C\) 2002 Peter Rydesäter, GNU Public License
+             \(C\) 2002 Peter Rydesaeter, GNU Public License
 
     This function uses PNET for nonblocking remote controll of other matlab
     session on this or other hosts. This function implements different client

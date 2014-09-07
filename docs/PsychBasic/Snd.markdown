@@ -39,7 +39,8 @@ as of Octave 3.0.5, otherwise the required sound\(\) function won't be
 available and this function will fail\!
 
 
-# Supported functions
+Supported functions:
+--------------------
 
 [Snd](/docs/Snd)\('Play', signal \[, rate\]\[, sampleSize\]\) plays a sound.
 

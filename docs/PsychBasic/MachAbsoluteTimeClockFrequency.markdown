@@ -8,7 +8,7 @@ encoding: UTF-8
 
 timebaseFrequencyHz = MachAbsoluteTimeClockFrequency
 
-OS X: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS X
 
 Return the frequency of the Mach Kernel "absolute timebase clock".  The
 frequency depends your  hardware, both the model of CPU and a system
@@ -29,17 +29,17 @@ Q&A 1398:
 
  http://developer.apple.com/qa/qa2004/qa1398.html
 
-OS 9: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS 9
 
 MachAbsoluteTimeClockFrequency is not provided on OS 9 because the Mach
 time base is a feature of only the OS X Mach Kernel.
 
 
-WINDOWS: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# WINDOWS
 
 MachAbsoluteTimeClockFrequency is not provided on Windows because the
 Mach time base is a feature of only the OS X Mach Kernel.
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 see also: [Priority](/docs/Priority)
 

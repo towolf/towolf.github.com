@@ -7,13 +7,12 @@ encoding: UTF-8
 ---
 
 MouseTraceDemo2
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 Draw a curve with the mouse. Same as MouseTraceDemo, but asks
 [Screen](/docs/Screen)\('[Flip](/docs/Flip)'\) to not clear the framebuffer after flip. This way,
 we don't need to redraw the whole mousetrace in each frame.
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 See also: PsychDemos, MouseTraceDemo, GetMouse.
 

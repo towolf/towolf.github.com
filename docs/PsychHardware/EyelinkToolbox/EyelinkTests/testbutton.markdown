@@ -22,7 +22,7 @@ prints out by keypress:  button, states, eyelink time, getsecs time, overhead, d
 Typical Results:
 getsecs overhead 0.02 ms
 EXGetEyeLink overhead 0.60 ms
-random error in eyelink time ~ ±0.50 ms, good for a ms clock\!
+random error in eyelink time ~ +-0.50 ms, good for a ms clock\!
 
 
 <div class="code_header" style="text-align:right;">

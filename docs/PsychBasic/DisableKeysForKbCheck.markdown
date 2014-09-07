@@ -28,7 +28,7 @@ key codes, e.g., the status of the Laptop lid \(opened/closed\) could be
 reported by some special keycode. Whenever the Laptop lid is open, this key
 will be reported as pressed. You can work around this problem by passing
 a list of keycodes to be ignored by KbCheck and KbWait.
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 See also: FlushEvents, KbName, KbDemo, KbWait, KbCheck, GetChar, CharAvail.
 

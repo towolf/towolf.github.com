@@ -7,7 +7,7 @@ encoding: UTF-8
 ---
 
 DrawMirroredTextDemo\(\[upsideDown=0\]\)
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
  Trivial example of drawing mirrored text. This demonstrates how to use
  low-level OpenGL API functions to apply geometric transformations to
@@ -72,7 +72,7 @@ flipping drawn objects and shapes, there is also the [Screen](/docs/Screen)\('gl
 transform to apply rotation around axis.
 
 This transformations apply to any drawing command, not only text strings\!
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 see also: PsychDemos
 

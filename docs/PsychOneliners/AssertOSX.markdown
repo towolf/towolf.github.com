@@ -8,7 +8,7 @@ encoding: UTF-8
 
 AssertOSX
 
-OS X: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS X
 
 Call AssertOSX at the head of scripts which use functions unique to the
 OS X Psychtoolbox.  AssertOSX will exit with an error if called from
@@ -41,12 +41,12 @@ HID device, you can read from it in OSX using PsychHID, though compromising
 platform independence.
 
 Overview- New functions for OS X fall into one of these categories:
- ¥ OpenGL-specific functions which are a permanent departure from earlier
+ \* OpenGL-specific functions which are a permanent departure from earlier
   Psychtoolboxes.  Call IsOpenGL or AssertOpenGL if you use only these.
- ¥ Functions which take advantage of features unique to a specific
+ \* Functions which take advantage of features unique to a specific
  operating system.  When possible, avoid these by using platform-neutral
   overlay functions.
- ¥ Remaining differences are a temporary failure to keep the OS 9,
+ \* Remaining differences are a temporary failure to keep the OS 9,
  Windows, and OS X Psychtoolboxes synchronized during the course of
  development. The AssertOSX script is itself an example of this; it has
  not been ported back to OS 9 and Windows Psychtoolboxes yet.
@@ -59,15 +59,14 @@ Overview- New functions for OS X fall into one of these categories:
  OS version using MATLAB's "computer" command and conditionally executing
  platform-specific calls.
 
-OS9: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# OS9
 
 AssertOSX does not yet exist in OS 9.
 
-WIN: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# WIN
 
 AssertOSX does not yet exist in Windows.
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 see also: AssertOpenGL, IsOSX, computer
 

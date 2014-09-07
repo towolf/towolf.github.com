@@ -16,7 +16,8 @@ loaded with the StickOS firmware from http://cpustick.com. It also allows
 to use the Curdes fORP devices if connected via serial port. And it offers
 a simple way to access the RTBox in E-Prime mode.
 
-# Commands and their syntax
+Commands and their syntax:
+--------------------------
 
 handle = CMUBox\('Open', boxtype \[, portName\] \[, options\] \[, debounceSecs=0.030\] \[, isInverted\]\);
 - Open response box connected to serial port 'portName', or the first

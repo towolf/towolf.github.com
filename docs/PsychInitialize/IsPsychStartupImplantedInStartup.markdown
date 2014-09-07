@@ -15,7 +15,7 @@ If you have your own startup.m file which you want to use, then place it
 ahead of the Psychtoolbox startup.m file on MATLAB's search path and add
 to your file the line:
   PsychStartup; % Setup Psychtoolbox.
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+----
 
 
 <div class="code_header" style="text-align:right;">
