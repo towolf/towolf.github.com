@@ -259,7 +259,7 @@ actions:
   Example: Suppose your real window covers a 1920 x 1080 display.
 
   PsychImaging('AddTask', 'General', 'UsePanelFitter', [800 600], 'Aspect');
-  -> This would give you a virtual window of 800 x 600 pixels to draw
+  -\> This would give you a virtual window of 800 x 600 pixels to draw
   into and would rescale the 800 x 600 stimulus image to 1440 x 1080
   pixels and display it centered on the 1920 x 1080 pixels display.
   Aspect ratio would be correct and the image would cover the full height
@@ -268,10 +268,10 @@ actions:
   stimulus.
 
   PsychImaging('AddTask', 'General', 'UsePanelFitter', [800 600], 'AspectHeight');
-  -> Would do the same as above.
+  -\> Would do the same as above.
 
   PsychImaging('AddTask', 'General', 'UsePanelFitter', [800 600], 'AspectWidth');
-  -> Would create a final image of 1920 pixels width, as you asked to
+  -\> Would create a final image of 1920 pixels width, as you asked to
   cover the full display width, aspect ratio would be correct, but the
   top and bottom 75 pixels of your original stimulus would get cut away,
   because they wouldn't fit after scaling without distorting the image.
@@ -395,7 +395,7 @@ actions:
 
   The command PsychImaging('AddTask', 'General', 'NormalizedHighresColorRange', 1);
   is automatically executed if you used PsychDefaultSetup(featureLevel)
-  with a featureLevel of >= 2 at the top of your experiment script,
+  with a featureLevel of \>= 2 at the top of your experiment script,
   \*except\* that clamping is \*not\* disabled by default in this case! To
   disable clamping you'd still need to add this task explicitely, as
   unclamping may have unintended side effects on old graphics hardware.
@@ -617,7 +617,7 @@ actions:
 
   The status with the proprietary AMD drivers on Linux or on MS-Windows is unknown.
   Apple OSX 10.9 and earlier do not support any high precision video output over any digital
-  output, neither DVI-D, nor DisplayPort or HDMI. All you'll get at best on OSX is simulated > 8
+  output, neither DVI-D, nor DisplayPort or HDMI. All you'll get at best on OSX is simulated \> 8
   bpc via dithering.
 
   Usage: PsychImaging('AddTask', 'General', 'EnableNative10BitFramebuffer' [, disableDithering=0]);
@@ -632,7 +632,7 @@ actions:
   but leave that decision to the operating system and graphics drivers of
   your machine. A well working OS would disable dithering on a 10 bpc or
   higher color depth display, if the display reports its capability to the
-  OS via its EDID info. It would enable dithering on < 10 bpc displays, so
+  OS via its EDID info. It would enable dithering on \< 10 bpc displays, so
   you'd get a "pseudo 10 bpc" display where 10 bpc color depths is
   simulated on a 6 bpc or 8 bpc display via the dithering.
 
@@ -1067,7 +1067,7 @@ actions:
 
 \* More actions will be supported in the future. If you can think of an
   action of common interest not yet supported by this framework, please
-  file a feature request on our Wiki (Mainpage -> Feature Requests).
+  file a feature request on our Wiki (Mainpage -\> Feature Requests).
 
 
 After adding all wanted task specifications and other requirements,

@@ -19,7 +19,7 @@ a string S is given, loads from S.mat.  You can pass the
 trailing .mat as well and it will still work.
 
 If whichCal is specified, the whichCal'th calibration
-in the file is returned.  If whichCal > nCals, an
+in the file is returned.  If whichCal \> nCals, an
 empty calibration is returned.  whichCal defaults
 to the most recent calibration.
 

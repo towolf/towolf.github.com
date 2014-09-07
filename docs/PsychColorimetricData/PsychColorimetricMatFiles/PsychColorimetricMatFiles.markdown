@@ -71,7 +71,7 @@ used here (with extension by zeros).
   den\_lens\_cie\_1      - Part one of CIE component lens density function. CIE 170-1:2006, Table 6.10
   den\_lens\_cie\_2      - Part two of CIE component lens density function. CIE 170-1:2006, Table 6.10
   den\_lens\_ssf        - Stockman-Sharpe-Fach (1999) lens optical density spectrum.
-                      -   See CVRL database, CIE 170-1:2006, Table 6.10, 32 yo, pupil <= 3 degrees.
+                      -   See CVRL database, CIE 170-1:2006, Table 6.10, 32 yo, pupil \<= 3 degrees.
                       -   This is also the sum of den\_lens\_cie\_1 and den\_lens\_cie\_2
   den\_mac\_bone        - Macular pigment density from Bone et al. (1992).  See CVRL database, CIE 170-1:2006, Table 6.4, 2-deg.
   den\_mac\_vos         - Macular pigment density from Vos.  See CVRL database.
@@ -105,7 +105,7 @@ used here (with extension by zeros).
   T\_Lanom             - Demarco et al. anomolous L cone sensitivity.
   T\_log10coneabsorbance\_ss - Stockman-Sharpe (2000) log10 LMS cone photopigment absorbance.
                       -   See CVRL database, CIE 170-1:2006, Table 6.6.
-                      -   Some S-cone values were unspecified for wls > 615 nm in the table.
+                      -   Some S-cone values were unspecified for wls \> 615 nm in the table.
                       -   These were filled in here by linear extrapolation.
                       -   Note that you want to raise 10 to these numbers
                       -   to get absorbance, which itself is a log-like quantity.

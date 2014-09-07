@@ -78,12 +78,12 @@ cell size, which is usually a good choice. Note that there need not be
 any particular correspondence between pixels in your image and cells in
 the halftone; the printer automatically resamples your image to produce
 the halftone.
-    If you specify cellsPerInch (resolution>0) then the printer will be
+    If you specify cellsPerInch (resolution\>0) then the printer will be
 asked to print its halftone with that many halftone cells per inch. E.g.
 to produce a halftone original for subsequent one-to-one reproduction in
 a journal, you'll want the cells to be coarse enough for them to
 reproduce without re-screening, e.g. 100 cells per inch.
-    Alternatively, if you specify grayLevels (resolution<0) then the printer
+    Alternatively, if you specify grayLevels (resolution\<0) then the printer
 will be asked to print its halftone with cells containing grayLevels-1
 printer pixels, yielding the specified number of gray levels. E.g. you
 might want to force your 300 dpi LaserWriter to use big cells yielding

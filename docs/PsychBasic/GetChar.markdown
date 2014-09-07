@@ -62,7 +62,7 @@ valid timestamp, but all other fields will be meaningless.
 
 GetChar and CharAvail are character-oriented (and slow), whereas KbCheck
 and KbWait are keypress-oriented (and fast). If only a meta key (like
-<option> or <shift>) was hit, KbCheck will return true, because a key was
+\<option\> or \<shift\>) was hit, KbCheck will return true, because a key was
 pressed, but CharAvail will return false, because no character was
 generated. See KbCheck.
 
@@ -91,7 +91,7 @@ operating system is bundled with a different Java version, so some Matlab
 versions may be reliable with respect to GetChars timing, whereas others
 are not.
 
----> If precise timing of the keypress is important, use KbCheck or
+---\> If precise timing of the keypress is important, use KbCheck or
 KbWait or KbQueueXXX functions or KbEventGet for consistent results!
 
 # OS X / Windows-XP / Linux with Matlab and Java enabled

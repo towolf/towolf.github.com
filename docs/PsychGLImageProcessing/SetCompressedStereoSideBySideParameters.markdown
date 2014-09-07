@@ -32,7 +32,7 @@ stereo presentation.
    framebuffer.
 
 # 3\. At display time, the display stretches half frames to full width        \_\_\_\_\_\_\_\_\_       \_\_\_\_\_\_\_\_\_
-   | L | R |   ---> | <-L->  |  +   | <-R->  |
+   | L | R |   ---\> | \<-L-\>  |  +   | \<-R-\>  |
    ---------        ----------      ----------
 
 Side-by-side compressed images are one of several popular stereo HDMI

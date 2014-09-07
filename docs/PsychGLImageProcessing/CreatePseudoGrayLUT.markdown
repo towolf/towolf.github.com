@@ -53,7 +53,7 @@ framebuffer driver. See "help PsychImaging" for an overview and usage.
 The LUT encoding used here is based solely on the algorithm described at
 this webpage by Richard W. Franzen:
 
-<http://r0k.us/graphics/pseudoGrey.html>
+\<http://r0k.us/graphics/pseudoGrey.html\>
 
 The webpage refers to multiple different sources of this type of
 algorithm, apparently the principle was described by multiple independent

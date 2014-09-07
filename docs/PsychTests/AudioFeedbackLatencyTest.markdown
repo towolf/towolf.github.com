@@ -13,7 +13,7 @@ external measurement equipment: Sound signals are played back via
 PsychPortAudio at well defined points in time, using low-latency mode. At
 the same time, sound is captured via PsychPortAudio's capture facilities.
 The idea is that the microphone or line-in connector should pick up and
-capture the sound signals emitted through line-out (via a line-out ->
+capture the sound signals emitted through line-out (via a line-out -\>
 line-in feedback cable) or emitted through the speakers. We measure and
 compare timing of emitted vs. captured sound spikes.
 

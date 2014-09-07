@@ -74,11 +74,11 @@ Weird looking non-sawtooth patterns: This is a totally broken graphics
 driver, often to be found on Apple machines running OSX with Apple Retina
 displays or other LCD flat panels. See previous paragraph for fixes.
 
--> Most fixes involve switching to our own implementation of beamposition
+-\> Most fixes involve switching to our own implementation of beamposition
 queries instead of using broken or missing OS implementations, and then
 some fiddling around.
 
--> On MS-Windows there's usually no way to fix broken queries beyond the
+-\> On MS-Windows there's usually no way to fix broken queries beyond the
 automatic fixes applied by [Screen](/docs/Screen)() if it detects a problem.
 
 

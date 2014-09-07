@@ -41,7 +41,7 @@ is the subject number given as input argument "subNo" to this script.
 
 # Input parameters:
 
-subNo    subject number; use subNo>99 to skip check for existing file
+subNo    subject number; use subNo\>99 to skip check for existing file
 hand     response mapping for test phase
 
 e.g.: OldNewRecogExp(99,1);
@@ -56,7 +56,7 @@ TEST  PHASE: shown 6 objects, decide whether the object is old or new
    - reading from files to get condition on each trial
    - randomizing conditions (for the study and test phase)
    - showing image/collecting response (response time, accuracy)
-   - writing data to file "OldNewRecogExp\_<subNo>.dat
+   - writing data to file "OldNewRecogExp\_\<subNo\>.dat
 
 Please refer to other included demos for new functions of Psychtoolbox-3
 vs. the old Psychtoolbox-2.

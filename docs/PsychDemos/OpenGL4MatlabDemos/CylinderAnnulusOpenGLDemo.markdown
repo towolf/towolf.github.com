@@ -17,7 +17,7 @@ texture using [Screen](/docs/Screen)('MakeTexture'), then provides this texture 
 standard OpenGL compatible texture using [Screen](/docs/Screen)('GetOpenGLTexture').
 This standard texture is applied to a cylinder using standard OpenGL commands
 and finally the cylinder is drawn as a rotating object in a simple animation
-loop. --> You'll see a rotating cylinder.
+loop. --\> You'll see a rotating cylinder.
 
 Stop the demo by pressing any key and it will finish.
 

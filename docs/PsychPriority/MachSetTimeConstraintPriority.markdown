@@ -25,7 +25,7 @@ calculationSecs of computation will be greater than computationSecs
 itself;    computationSecs of CPU usage could require up to periodSecs to
 complete. Argument "constraintSecs" specifies a period in which
 computationSecs of CPU usage  is guranteed  to complete.  Note that
-constraintSecs must be >= computationSecs because computationSecs of CPU
+constraintSecs must be \>= computationSecs because computationSecs of CPU
 usage can not complete in less than  computationSecs. The maximum latency
 from the start of a computation to the end is constraintSecs -
 computationSecs.

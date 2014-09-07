@@ -320,12 +320,12 @@ time between April and July 2014 which made this workaround neccessary.
 However, the workaround is automatically enabled on such Linux versions
 without the need for this conservevram setting. The relevant Linux bugs
 have been fixed by mid-July 2014, ie., at the time of this writing, in all
-versions of the Linux kernel (Linux >= 3.13.11.5+, 3.14.12+, 3.15.5+, 3.16+).
+versions of the Linux kernel (Linux \>= 3.13.11.5+, 3.14.12+, 3.15.5+, 3.16+).
 Nonetheless we leave this manual way to enable the workaround, should the
 need ever arise again in the future.
 
 
---> It's always better to update your graphics drivers with fixed
+--\> It's always better to update your graphics drivers with fixed
 versions or buy proper hardware than using these workarounds. They are
 meant as a last ressort, e.g., if you need to get something going quickly
 or can't get access to bug-fixed drivers.

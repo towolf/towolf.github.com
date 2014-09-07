@@ -28,7 +28,7 @@ users script.
 
 1\. Call PsychWatchDog(heartbeat) once at the beginning of your script to
 enable the watchdog. A 'heartbeat' value of zero will only enable
-watching for CTRL + . key press. A 'heartbeat' value > 0 will set the
+watching for CTRL + . key press. A 'heartbeat' value \> 0 will set the
 timeout to 'heartbeat' seconds.
 
 2\. Periodically call PsychWatchDog; without arguments in your script to

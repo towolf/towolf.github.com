@@ -11,20 +11,20 @@ bytesName=NameBytes(numBytes [,abbreviateFlag])
 NameBytes accepts a quantity of bytes and returns a string naming that number
 of bytes in more readable form.  For example:
 
-    \>> c=[Screen](/docs/Screen)('Computer');
-    \>> c.hw.physmem
+    \>\> c=[Screen](/docs/Screen)('Computer');
+    \>\> c.hw.physmem
 
     ans =
 
        1\.3422e+09
 
-    \>> NameBytes(c.hw.physmem)
+    \>\> NameBytes(c.hw.physmem)
 
     ans =
 
     1\.25 GB
 
-    \>>
+    \>\>
 
 # Numbers of bytes have the following names and abbreviations:
 

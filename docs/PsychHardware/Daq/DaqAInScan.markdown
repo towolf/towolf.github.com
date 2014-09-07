@@ -258,7 +258,7 @@ and for the 1608FS:
 8/26/05 dgp Fixed bug in extraction of serial number, as suggested by Steve
             Van Hooser, vanhooser@neuro.duke.edu
 8/26/05 dgp Incorporated bug fix for compatibility with Mac OS X Tiger
-            suggested by Maria Mckinley <parody@u.washington.edu>. The reported
+            suggested by Maria Mckinley \<parody@u.washington.edu\>. The reported
             number of outputs of the USB-1208FS has changed in Tiger.
             http://groups.yahoo.com/group/psychtoolbox/message/3614
 1/02/07 mk  Add 'persistent dinc' to line 245. This apparently fixes some

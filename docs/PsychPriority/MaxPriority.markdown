@@ -32,9 +32,9 @@ MaxPriority in your script on OS X, instead of the constant 9.
 # WINDOWS
 
 [Priority](/docs/Priority) levels returned by MaxPriority are 0, 1 and 2.
-Although use of priority levels > 1 is possible and allowed by MaxPriority
+Although use of priority levels \> 1 is possible and allowed by MaxPriority
 if you don't try to acquire input from keyboard or mouse, it is discouraged
-to use levels > 1 as this can interfere with execution of a lot of
+to use levels \> 1 as this can interfere with execution of a lot of
 important system processes and severely reduce the stability of
 Windows execution.
 

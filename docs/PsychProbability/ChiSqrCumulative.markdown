@@ -9,9 +9,9 @@ encoding: UTF-8
 prob = ChiSqrCumulative(X2,v)
 
 Computes the chi-squared probability function. ChiSqrCumulative(X2,v)
-returns P(X2|v), the probability of observing a chi-squared value <= X2
+returns P(X2|v), the probability of observing a chi-squared value \<= X2
 with v degrees of freedom. This is the probability that the sum of
-squares of v unit-variance normally-distributed random variables is <=
+squares of v unit-variance normally-distributed random variables is \<=
 X2. X2 and v may be matrices of the same size size, or either may be a
 scalar.
 

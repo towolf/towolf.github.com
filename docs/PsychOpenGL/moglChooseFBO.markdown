@@ -8,7 +8,7 @@ encoding: UTF-8
 
 moglChooseFBO(fbo, bufferid) -- Set FBO 'fbo' as framebuffer.
 
-If fbo is > 0, then the corresponding FBO is bound and OpenGL is set up
+If fbo is \> 0, then the corresponding FBO is bound and OpenGL is set up
 to render and read from that FBO with orthogonal projection. If fbo is
 zero, then the system framebuffer is enabled again for normal drawing.
 

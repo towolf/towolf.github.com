@@ -50,7 +50,7 @@ PsychVideoDelayLoop('SetAbortKeys', keyarray)
 keys. If any of the keys given in the sequence is pressed, the
 video loop will exit. You can map keys to keycodes via KbName, e.g.,
 key1 = KbName('Escape'); key2 = KbName('Space'); keyarray = [key1 key2];
---> Create a keyarray that would abort on Escape- or Space- keypress.
+--\> Create a keyarray that would abort on Escape- or Space- keypress.
 
 PsychVideoDelayLoop('SetAbortTimeout', timeout)
 -- Define a maximum duration of the feedback loop in seconds. After
@@ -111,7 +111,7 @@ PsychVideoDelayLoop('RunLoop', delayFrames[, onlinecontrol]);
 The video loop will start and run until one of the abort keys is pressed,
 or the timeout is reached. It will log timestamps as requested. Each
 captured video frame is output again after 'delayFrames' capture cycle
-durations, e.g., capturerate = 30 fps -> cycle = 1/30 sec = 33.33 ms -->
+durations, e.g., capturerate = 30 fps -\> cycle = 1/30 sec = 33.33 ms --\>
 delay is at least delayFrames \* 33.33 ms. Images are drawn and shown
 in sync with vertical retrace after that amount of time. The real onset
 time obviously depends on the monitor refresh interval and phase between

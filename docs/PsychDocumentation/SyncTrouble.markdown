@@ -114,7 +114,7 @@ systems, where the display settings control panel for your graphics card
 allows to customize a couple of graphics driver parameters. Some of these
 settings can cause sync failure if they are wrong:
 
--> Make sure the "Synchronize bufferswaps to the vertical retrace" option
+-\> Make sure the "Synchronize bufferswaps to the vertical retrace" option
 is set to "Application controlled" or "Application controlled, default to
 on". The wording of the option differs between different graphics cards,
 search for something like that. Examples of other names: "Wait for
@@ -123,32 +123,32 @@ to off and \*not\* application controlled, then the sync tests will fail
 because the hardware doesn't synchronize its image onset (bufferswap) to
 the video refresh cycle of your display.
 
--> Make sure the "Triple buffering" setting is off, or if you can select
+-\> Make sure the "Triple buffering" setting is off, or if you can select
 some "Multibuffering" setting, that it is set to "double buffering" or
 "wait for 1 video refresh" or "swap every refresh". This option may not
 exist, but if it does, any other setting will cause the sync tests to
 possibly succeed, but later stimulus onset timestamping to fail with
 errors.
 
--> If there is an option "Buffer swap mode" or "Bufferswap strategy", it
+-\> If there is an option "Buffer swap mode" or "Bufferswap strategy", it
 should be set to "Auto select" or "Page flipping" or "Exchange buffers".
 The so called "Copy buffers" or "Blitting" option would result in lower
 performance and inaccurate timing.
 
--> On dual/multi display setups MS-Windows allows you to assign one
+-\> On dual/multi display setups MS-Windows allows you to assign one
 monitor the role of the "primary monitor" or "primary display". It is
 important that the display device which you use for stimulus presentation
 is the "primary display", otherwise random things may go wrong wrt. sync
 tests and timing.
 
--> If you have the choice to set your multi-monitor configuration to
+-\> If you have the choice to set your multi-monitor configuration to
 either "dual display mode"/"dual display performance mode"/"separate
 displays" or instead to "extended desktop mode" or "horizontal spanning",
 you should choose "extended desktop mode" or "horizontal spanning" modes
 for best timing and stimulus quality. Please note that this choice
 doesn't exist anymore on Windows-Vista and later.
 
--> On all operating systems in dual display or multi display mode it is
+-\> On all operating systems in dual display or multi display mode it is
 important that you configure both displays for exactly the same color
 depths, resolution and refresh rate if you want to present stimuli across
 multiple displays, e.g., for binocular stereoscopic presentation on a
@@ -395,9 +395,9 @@ PsychGPUControl('FullScreenWindowDisablesCompositor', 1);
 probably the latest version of GNOME-3) will automatically unredirect
 fullscreen windows and go out of the way, if you've enabled this in
 their settings. On GNOME-3, no setup is required. On KDE, do this:
-Open "KDE System Settings" -> "Desktop Effects" ->
-"Advanced" Tab -> "Suspend desktop effects for fullscreen windows"
--> Check the checkbox -> "Apply" -> Done. The same will happen on compiz
+Open "KDE System Settings" -\> "Desktop Effects" -\>
+"Advanced" Tab -\> "Suspend desktop effects for fullscreen windows"
+-\> Check the checkbox -\> "Apply" -\> Done. The same will happen on compiz
 with Ubuntu Linux 12.04.2 LTS or later. If you use a different desktop
 compositor, and on a few versions of compiz, the command doesn't yet
 work, so you need to check the manuals/help of your system on how to

@@ -46,7 +46,7 @@ MATLAB [Gestalt](/docs/Gestalt) are:
 
   1\. Psychtoolbox [Gestalt](/docs/Gestalt) returns a struct holding information about
      itself when passed 'Version', for example:
-    \>> [Gestalt](/docs/Gestalt)('Version')
+    \>\> [Gestalt](/docs/Gestalt)('Version')
 
     ans =
 

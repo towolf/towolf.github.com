@@ -30,8 +30,8 @@ hardware, operating system and display setup, the wiring can change
 dynamically.
 
 You can find more technical details at the following links if you are
-interested: <http://www.botchco.com/agd5f/?p=51> for AMD/ATI hardware,
-and <http://virtuousgeek.org/blog/index.php/jbarnes/2011/01/> for Intel
+interested: \<http://www.botchco.com/agd5f/?p=51\> for AMD/ATI hardware,
+and \<http://virtuousgeek.org/blog/index.php/jbarnes/2011/01/\> for Intel
 hardware.
 
 

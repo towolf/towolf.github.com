@@ -527,7 +527,7 @@ released. If 'whichButtons' is omitted, all buttons are tested.
 
 [timeSent, confidence] = PsychRTBox('TTL' [, handle] [, eventCode=1]);
 - Send TTL to DB-25 port (pin 8 is bit 0). The second input is event code
-(default 1 if omitted), 4-bit (0~15) for box versions < 5, and 8-bit
+(default 1 if omitted), 4-bit (0~15) for box versions \< 5, and 8-bit
 (0~255) for later versions. It can also be equivalent binary string, such
 as '0011'.
 
@@ -553,8 +553,8 @@ PsychRTBox('TTL',0).
 This function is only supported for v3.0 RTBoxes and later, the ones with
 EEG event code port support.
 
-In Version <5.0, the TTL width at DB-25 pins 17~24 is controlled by a
-potentiometer inside the box. In Version >= 5, the width is also
+In Version \<5.0, the TTL width at DB-25 pins 17~24 is controlled by a
+potentiometer inside the box. In Version \>= 5, the width is also
 controlled by 'TTLWidth' command.
 
 

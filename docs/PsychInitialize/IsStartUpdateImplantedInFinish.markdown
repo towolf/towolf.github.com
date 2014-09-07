@@ -35,7 +35,7 @@ StartUpdateProcess call.
 Neither [Rush](/docs/Rush) not [Priority](/docs/Priority) will raise the priorty above 0 if
 IsStartUpdatedImplantedInFinsh returns FALSE.  This helps is a precaution
 against exiting MATLAB and leaving the update process shut down. However,
-it is not foolproof.  If MATLAB crashes while priority is >0 then it will
+it is not foolproof.  If MATLAB crashes while priority is \>0 then it will
 not restart update on quitting.
 
 If you have your own finish.m file which you want to use, then place it

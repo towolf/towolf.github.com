@@ -49,7 +49,7 @@ consisting of 1000 frames.
 
 numifis = Number of monitor refresh intervals (IFIs) between flips:
 0 == [Flip](/docs/Flip) at each vertical retrace: This is the old PTB 1.0.50 behaviour.
-Values of numifis>0 will cause [Screen](/docs/Screen)('[Flip](/docs/Flip)') to wait for 'numifis'
+Values of numifis\>0 will cause [Screen](/docs/Screen)('[Flip](/docs/Flip)') to wait for 'numifis'
 monitor refresh intervals before flipping the back- and front buffers in
 sync with the vertical retrace.
 
@@ -155,7 +155,7 @@ no skipped frames.
 Figure 2 shows the rasterbeam positions when flip took its internal
 timestamp: The values should be usually above the screen height, e.g., on
 a monitor resolution of 1200 x 1024 pixels, values should be above 1024.
-Values way below 1024 are also ok (e.g., < 100). This just means that
+Values way below 1024 are also ok (e.g., \< 100). This just means that
 your computer is either pretty slow, or connected to a flat-panel.
 Lots of randomly distributed values between 0 and 1024 would indicate sync trouble.
 

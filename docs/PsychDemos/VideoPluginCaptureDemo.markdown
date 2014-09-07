@@ -33,7 +33,7 @@ This demo has various hard-coded parameters which allow you to tinker with
 things like Bayer filtering on the camera, versus on the host cpu, versus
 offline later on during playback of recorded video, to select different
 tradeoffs between quality, cpu load, speed and bus bandwidth use. It also
-allows to play with high bit depth (> 8 bpc) color and luminance formats,
+allows to play with high bit depth (\> 8 bpc) color and luminance formats,
 lossless video recording and other bits and pieces. Change the variables
 as you see fit and read the source carefully.
 

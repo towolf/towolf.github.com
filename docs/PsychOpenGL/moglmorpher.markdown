@@ -41,8 +41,8 @@ Available subcommands and their meaning:
 
 [moglmorpher](/docs/moglmorpher)('ForceGPUMorphingEnabled', enableflag);
 
-Forcefully enable or disable GPU based morphing. 'enableFlag'==1 ->
-Forcefully enable, 'enableFlag'==0 --> Forcefully disable.
+Forcefully enable or disable GPU based morphing. 'enableFlag'==1 -\>
+Forcefully enable, 'enableFlag'==0 --\> Forcefully disable.
 
 [moglmorpher](/docs/moglmorpher) can perform all morphing computations and rendering completely
 on the GPU on modern graphics hardware that supports this. This provides

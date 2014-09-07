@@ -21,7 +21,7 @@ specifying the screen location by using the destination rect argument of
 
 See also MovieDemo.
 
-Thanks to tj <thomasjerde@hotmail.com> for asking how.
+Thanks to tj \<thomasjerde@hotmail.com\> for asking how.
 <http://groups.yahoo.com/group/psychtoolbox/message/1101>
 
 6/20/02 awi  Wrote it as TargetDemo.

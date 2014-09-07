@@ -87,7 +87,7 @@ b) Multisample anti-aliasing does not work together with display rotation
    GPU's under OSX, as this is a purely political restriction introduced
    by Apple, making OSX less useful than it could be.
 
-c) There is a small performance impact on the order of < 1 millisecond
+c) There is a small performance impact on the order of \< 1 millisecond
    per [Screen](/docs/Screen)('[Flip](/docs/Flip)') with modern graphics cards due to the processing
    involved.
 

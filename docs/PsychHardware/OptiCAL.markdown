@@ -10,10 +10,10 @@ OptiCAL - Psychtoolbox [IOPort](/docs/IOPort) interface to the CRS OptiCAL lumin
           meter device
 
 Usage:
-  \>> handle = OptiCAL('Open', port)
-  \>> lum = OptiCAL('Read', handle)
-  \>> OptiCAL('[Close](/docs/Close)', handle)
-  \>> OptiCAL('CloseAll')
+  \>\> handle = OptiCAL('Open', port)
+  \>\> lum = OptiCAL('Read', handle)
+  \>\> OptiCAL('[Close](/docs/Close)', handle)
+  \>\> OptiCAL('CloseAll')
 
 Inputs:
   command   - string 'Open', 'Read', '[Close](/docs/Close)', or 'CloseAll'

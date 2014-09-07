@@ -81,7 +81,7 @@ Soundblaster Audigy ZS 2 seems to be limited to max. 48000 Hz in this
 mode.
 
 On Linux, no general statements can be made, only that some soundcards
-allow for extremely low latencies of < 2 msecs if properly tuned. Search
+allow for extremely low latencies of \< 2 msecs if properly tuned. Search
 the Internet for tips.
 
 

@@ -28,7 +28,7 @@ encoding: UTF-8
          12/29/07    mpr   made three-line questions possible
                      1/3/08         mpr     introduced NLChar for cross-platform compatibility
           3/5/08     mpr   small cosmetic fix for new case where a third line
-                           was needed even though Extent(3) < 2...
+                           was needed even though Extent(3) \< 2...
           3/21/08    mpr   allowed return value to signal if user closed window
                            instead of clicking uicontrol button (works only if
                            figure is modal)

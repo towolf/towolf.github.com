@@ -239,7 +239,7 @@ How to find out about VTOTAL? One way is to search the display control
 panel on Windows for some area with "Advanced Timing" or "Custom Timing"
 settings. The shareware utility "PowerStrip" (http://www.entechtaiwan.com/util/ps.shtm)
 also allows to change and display these parameters in the Display
-Profiles -> Configure -> Advanced Timing -> Vertical Geometry -> "Total"
+Profiles -\> Configure -\> Advanced Timing -\> Vertical Geometry -\> "Total"
 field.
 
 # Accuracy of beamposition method:

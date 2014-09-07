@@ -14,7 +14,7 @@ DrawMirroredTextDemo([upsideDown=0])
  the drawn objects.
 
  Will draw a text string, once in normal orientation, and once mirrored.
- The mirrored text is either mirrored left<->right, or upside down if you
+ The mirrored text is either mirrored left\<-\>right, or upside down if you
  set the optional 'upsideDown' flag to 1. At each key press, the text
  will be redrawn at an increasing size, until after a couple of redraws
  the demo will end.
@@ -59,7 +59,7 @@ DrawMirroredTextDemo([upsideDown=0])
  The flipping of all drawn shapes and objects around the screen position
  [xc,yc] -- the center of the text string.
 
- 5\. We [Screen](/docs/Screen)('DrawText') the text string --> The flipping applies.
+ 5\. We [Screen](/docs/Screen)('DrawText') the text string --\> The flipping applies.
 
  6\. We undo the whole transformation via [Screen](/docs/Screen)('glPopMatrix') thereby
  restoring the original "do nothing" transformation from the backup copy

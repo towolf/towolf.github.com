@@ -17,7 +17,7 @@ calloc() would do.
 nelements = The number of elements to allocate.
 nrbytes = The number of bytes for each element to allocate.
 
--> nelements \* nrbytes will be allocated.
+-\> nelements \* nrbytes will be allocated.
 
 On successfull allocation, ptr will be a handle for the memory buffer.
 You can think of ptr as a memory pointer in the C-language.

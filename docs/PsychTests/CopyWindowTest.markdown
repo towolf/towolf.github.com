@@ -13,15 +13,15 @@ Copies a small rectangular region from one window into another window.
 Each source region is copied/replicated 25 times into a 5 by 5 matrix.
 
 Tested paths are:
-Offscreen -> Onscreen : This is the most often used (and fastest) path.
-Offscreen -> Offscreen: From an offscreen window to a different offscreen window.
-Onscreen  -> Onscreen : From one area of onscreen window to a different area.
-Onscreen  -> Offscreen: From an area of onscreen window into a offscreen window.
+Offscreen -\> Onscreen : This is the most often used (and fastest) path.
+Offscreen -\> Offscreen: From an offscreen window to a different offscreen window.
+Onscreen  -\> Onscreen : From one area of onscreen window to a different area.
+Onscreen  -\> Offscreen: From an area of onscreen window into a offscreen window.
 
 The current CopyWindow implementation has a couple of restrictions:
 \* One can't copy from an offscreen window into the -same- offscreen window.
 \* One can't copy from an onscreen window into a -different- onscreen window.
-\* Sizes of sourceRect and targetRect need to match for Onscreen->Offscreen copy.
+\* Sizes of sourceRect and targetRect need to match for Onscreen-\>Offscreen copy.
 The optional [copyMode] argument is accepted but ignored.
 
 Result of these test need to be checked via visual inspection and common sense.

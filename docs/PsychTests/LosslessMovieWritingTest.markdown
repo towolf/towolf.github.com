@@ -37,7 +37,7 @@ does not actually verify integrity of the alpha channel.
 
 'bpc' Bitdepth for color encoding: 8 is the default, which should work.
 16 is the other allowed option for 16 bpc testing. Most codecs can't
-encode 16 bpc though and will reduce precision to <= 8 bpc. Check the
+encode 16 bpc though and will reduce precision to \<= 8 bpc. Check the
 code of this script to see how a Psychtoolbox proprietary 16 bpc encoding
 can be used to handle lossless 16 bpc, and how this can be decoded. Only
 Psychtoolbox can handle movies in this proprietary encoding, no other 3rd
@@ -50,7 +50,7 @@ into the current working directory and leave it there after the test!
 
 Requires a GPU which can handle at least 4096 x 4096 pixel textures,
 otherwise test failure will occur. The GPU must also support floating
-point textures for > 8 bpc tests.
+point textures for \> 8 bpc tests.
 
 
 

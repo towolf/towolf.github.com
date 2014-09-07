@@ -56,7 +56,7 @@ http://libusb.org/wiki/windows\_backend
 HELP: Like [Screen](/docs/Screen), PsychHID has built-in help. For a list of PsychHID
 subcommands enter "PsychHID" at the MATLAB command line:
 
-\>> PsychHID
+\>\> PsychHID
 Usage:
 numberOfDevices=PsychHID('NumDevices')
 numberOfElements=PsychHID('NumElements',deviceNumber)
@@ -73,7 +73,7 @@ err=PsychHID('SetReport',deviceNumber,reportType,reportID,report)
 For help on a specific PsychHID subcommand, call PsychHID with the
 subcommand suffixed with a question mark, for example:
 
-  \>> PsychHID NumDevices?
+  \>\> PsychHID NumDevices?
   Usage:
   numberOfDevices=PsychHID('NumDevices')
   Return the the number of USB HID devices connected to your computer.

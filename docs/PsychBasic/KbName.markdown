@@ -19,7 +19,7 @@ kbNameResult = KbName(arg)
     calls KbCheck.  KbName then returns a cell array holding the names of
     all keys which were down at the time of the KbCheck call. The
     one-second delay preceeding the call to KbCheck avoids catching the
-    <return> keypress used to execute the KbName function.
+    \<return\> keypress used to execute the KbName function.
 
   \* If arg is 'UnifyKeyNames', KbName will switch its internal naming
     scheme from the operating system specific scheme (which was used in
@@ -32,19 +32,19 @@ kbNameResult = KbName(arg)
       them) if you find some.
 
   \* If arg is 'KeyNames', KbName will print out a table of all
-    keycodes->keynames mappings.
+    keycodes-\>keynames mappings.
 
   \* If arg is 'KeyNamesOSX', KbName will print out a table of all
-    keycodes->keynames mappings for MacOS-X.
+    keycodes-\>keynames mappings for MacOS-X.
 
   \* If arg is 'KeyNamesOS9', KbName will print out a table of all
-    keycodes->keynames mappings for MacOS-9.
+    keycodes-\>keynames mappings for MacOS-9.
 
   \* If arg is 'KeyNamesWindows', KbName will print out a table of all
-    keycodes->keynames mappings for M$-Windows.
+    keycodes-\>keynames mappings for M$-Windows.
 
   \* If arg is 'KeyNamesLinux', KbName will print out a table of all
-    keycodes->keynames mappings for GNU/Linux, X11.
+    keycodes-\>keynames mappings for GNU/Linux, X11.
 
     KbName deals with keys, not characters. See KbCheck help for an
     explanation of keys, characters, and keycodes.

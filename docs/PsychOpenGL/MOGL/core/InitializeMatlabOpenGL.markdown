@@ -62,7 +62,7 @@ following values to setup such a special configuration:
    and floating point resolution offscreen windows on modern graphics
    cards, or by direct low-level use of framebuffer objects.
 
-   -> This flag is needed to make the glAccum() command work.
+   -\> This flag is needed to make the glAccum() command work.
 
 
 

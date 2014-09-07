@@ -62,7 +62,7 @@ Debugging of [GStreamer](/docs/GStreamer) based functions:
 PsychTweak('GStreamerDebug', debugconfig);
 
 -- Select level of verbosity for [GStreamer](/docs/GStreamer) low-level debug output.
-See <http://docs.gstreamer.com/display/GstSDK/Basic+tutorial+11%3A+Debugging+tools>
+See \<http://docs.gstreamer.com/display/GstSDK/Basic+tutorial+11%3A+Debugging+tools\>
 for explanation of debug options.
 
 
@@ -200,7 +200,7 @@ History:
  9\.07.2012  mk  Wrote it.
 31\.08.2014  mk  Remove 'DisableCVDisplayLink' option, CVDisplayLinks
                 are off by default as of PTB 3.0.12 and must be enabled
-                by selecting a VBLTimestampingmode > 0 via [Screen](/docs/Screen)('[Preference](/docs/Preference)'),
+                by selecting a VBLTimestampingmode \> 0 via [Screen](/docs/Screen)('[Preference](/docs/Preference)'),
                 as they are way too unreliable and crash prone.
 
 

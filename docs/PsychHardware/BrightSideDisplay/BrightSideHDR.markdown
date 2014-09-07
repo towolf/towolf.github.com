@@ -66,7 +66,7 @@ produces some debug output.
 # SUPPORT FOR RAW HDR IMAGE CAPTURE AND REPLAY:
 
 [sourceWin, destWin] = BrightSideHDR('CreateSnapshotBufferPair');
-- Create a pair of offscreen windows useable for "offline" HDR->BrightSide
+- Create a pair of offscreen windows useable for "offline" HDR-\>BrightSide
 conversion. Will create 'sourceWin' as a offscreen window with 32bpc
 float RGBA format, 'destWin' as a offscreenwindow with 8 bpc RGBA format.
 Both windows will have the size of the HDR displays framebuffer.

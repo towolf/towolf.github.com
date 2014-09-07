@@ -80,7 +80,7 @@ and CalibrateAmbDrvr so that is where you would look.
 
 7/7/98  dhb  Wrote from generic.
         dhb  dacsize/driver filled in by hand, [Screen](/docs/Screen) fails to return it.
-4/7/99  dhb  NINEBIT -> NBITS.
+4/7/99  dhb  NINEBIT -\> NBITS.
         dhb  Wrote version for Radius 10 bit cards.
 4/23/99 dhb  Change wavelength sampling to 380 4 101, PR-650 native.
 9/22/99 dhb, mdr  Define boxSize.

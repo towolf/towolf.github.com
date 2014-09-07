@@ -331,7 +331,7 @@ Bout = clut(Bin \* scalefactor,3);
 
 Color values for fractional indices inbetween reference values in the
 clut are interpolated linearly between the two nearest neighbour
-reference values --> linear interpolation.
+reference values --\> linear interpolation.
 
 Finally, Rout, Gout and Bout are clamped to the valid output range as set
 by the function PsychColorCorrection('SetColorClampingRange', ...); by
@@ -347,7 +347,7 @@ clut(2,r,g,b) == Corrected green color value for input color [r,g,b].
 clut(3,r,g,b) == Corrected blue color value for input color [r,g,b].
 
 clut must have at least one element in each color index dimension, ie., m, n
-and p must be >= 1, but usually will have more elements in each dimension
+and p must be \>= 1, but usually will have more elements in each dimension
 for a meaningful lookup color correction. In theory you would need m, n
 and p to be == 2^bpc for a given output device bitdepths bpc, e.g, for a
 8 bit output device, m,n,p would need to be 2^8 = 256 elements for a perfect
@@ -385,7 +385,7 @@ mapped accordingly to proper clut element indices.
 
 By default, color values for fractional indices inbetween reference
 values in the clut are interpolated linearly between the eight nearest
-neighbour reference values in the 3 dimensional space --> This is
+neighbour reference values in the 3 dimensional space --\> This is
 trilinear interpolation across all 3 color dimensions of the CLUT. If you
 set the optional parameter 'interpolate' to zero, then simple nearest
 neighbour sampling is performed instead.
@@ -397,7 +397,7 @@ for Rout, Gout and Bout. A setting of 1 will store values with 16 bpc
 floating point precision to resolve up to 10 bits or 1024 levels of
 linear precision. A setting of 2 will store values with 32 bpc floating
 point precision for up to 23 bits of linear precision. Be aware that
-precision values > 0 will increase memory consumption by a factor of 2x
+precision values \> 0 will increase memory consumption by a factor of 2x
 or 4x, which can be significant for lookup tables of non-trivial size.
 
 Final looked up, Rout, Gout and Bout are clamped to the valid output range as set

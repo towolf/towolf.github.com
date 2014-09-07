@@ -11,8 +11,8 @@ encoding: UTF-8
 Return keyboard status (keyIsDown), time (secs) of the status check, and
 keyboard scan code (keyCode).
 
-   keyIsDown      1 if any key, including modifiers such as <shift>,
-                  <control> or <caps lock> is down. 0 otherwise.
+   keyIsDown      1 if any key, including modifiers such as \<shift\>,
+                  \<control\> or \<caps lock\> is down. 0 otherwise.
 
    secs           Time of keypress as returned by GetSecs.
 
@@ -42,7 +42,7 @@ keyboard scan code (keyCode).
                   than 'deltaSecs' -- 'deltaSecs' is just a lower bound!
 
 KbCheck and KbWait determine whether any key is down now, including the
-meta keys: <caps lock>, <shift>, <command>, <control>, and <option>. The
+meta keys: \<caps lock\>, \<shift\>, \<command\>, \<control\>, and \<option\>. The
 only key not reported is the start key (triangle) used to power on your
 computer.
 

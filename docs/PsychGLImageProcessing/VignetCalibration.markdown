@@ -49,7 +49,7 @@ encoding: UTF-8
  Escape -   use this key to save and exit
  Tab        -   show/hide help text
  Space      -   change the parameter you wish to adjust
- '<' and '>'    -   use these keys to change the increment size of the
+ '\<' and '\>'    -   use these keys to change the increment size of the
                     parameter adjustments
  Arrow Keys -   adjust parameters (depending on selected parameter)
                 1\. Luminance/Function type

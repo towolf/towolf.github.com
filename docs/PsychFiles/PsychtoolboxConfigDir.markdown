@@ -26,7 +26,7 @@ History: 1/23/08    mpr configured it was about time to write this
                         PsychPrefsfolder.m file anymore.
          4/28/08    mk  Made compatible with Octave, added 'subDir'
                         option.
-         6/14/09    mk  Remove Octave code -> Not needed anymore.
+         6/14/09    mk  Remove Octave code -\> Not needed anymore.
 
 
 <div class="code_header" style="text-align:right;">

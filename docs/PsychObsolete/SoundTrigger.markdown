@@ -28,7 +28,7 @@ seconds of the most recently recorded sound are kept.
 a) Request a buffer big enough to store the full duration of your
 recording from Start of capture until the end, and read out the recorded
 data into a Matlab matrix after the end of the recording. This is the
-most easy to implement (nice linear control flow Start->Stop->Fetch), but
+most easy to implement (nice linear control flow Start-\>Stop-\>Fetch), but
 you have to know the maximum duration in advance, and you'll potentially
 use up significant amounts of memory.
 

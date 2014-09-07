@@ -69,7 +69,7 @@ future implementation may change significantly! Don't trust its results
 without validation against a known good reference implementation!
 
 NOTES: Filtermode 2 and 3 not fully implemented for the general case!
----> No separable 1D kernels, no support for all input->output mappings
+---\> No separable 1D kernels, no support for all input-\>output mappings
 
 
 <div class="code_header" style="text-align:right;">

@@ -17,7 +17,7 @@ A - coefficients to approximate data within model
  (n\_dimension by n\_data)
 X - matrix whose columns contain the data
  (n\_wavelengths by n\_data)
- (n\_data >= n\_dimension)
+ (n\_data \>= n\_dimension)
 n\_dimension - dimension of the linear model to find
 
 

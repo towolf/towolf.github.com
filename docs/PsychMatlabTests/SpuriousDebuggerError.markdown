@@ -20,7 +20,7 @@ SPURIOUS ERROR MESSAGE: In earlier versions, before 5.2.1, the Debugger
 wouldn't allow debugging of files in the Toolbox. Now it does (yay!), but
 when you press the bug symbol, Matlab first beeps spuriously, giving the
 misleading error message,
-"??? Error using ==> dbstatus Can't find M-file function."
+"??? Error using ==\> dbstatus Can't find M-file function."
 as it nevertheless opens the file in the Debugger and allows subsequent
 debugging.
 

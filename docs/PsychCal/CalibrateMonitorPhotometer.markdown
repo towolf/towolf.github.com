@@ -17,7 +17,7 @@ assuming you know how to operate CalibrateMonSpd() that is...
 numMeasures (default: 9) readings are taken manually, and the readings
 are fit with a gamma function and piecewise cubic splines. numMeasures -
 1 should be a power of 2, ideally (9, 17, 33, etc.). The corresponding
-linearized gamma tables (1 -> gamma, 2 -> splines) are returned, as well
+linearized gamma tables (1 -\> gamma, 2 -\> splines) are returned, as well
 as the display baseline, display range in cd/m^2 and display gamma. Plots
 of the two fits are created as well. Requires fit tools.
 

@@ -38,7 +38,7 @@ in 'help InitializePsychSound' for best results.
 
 'waitframes' = Time to wait (in video refresh intervals) before emitting beep + flash.
                Defaults to a value of 1, may need to be set higher for
-               high latency sound hardware (where absolute latency > 1
+               high latency sound hardware (where absolute latency \> 1
                video refresh duration).
 
 'useDPixx'   = 1 -- Use DataPixx device to automatically measure the true

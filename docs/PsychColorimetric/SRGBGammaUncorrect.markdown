@@ -8,7 +8,7 @@ encoding: UTF-8
 
 rgb = SRGBGammaUncorrect(RGB)
 
-Undo standard sRGB gamma correction, taking [0-255] -> [0-1].
+Undo standard sRGB gamma correction, taking [0-255] -\> [0-1].
 
 See XYZToSRGBPrimary for comment on evolution of the standard
 and of this implementation.

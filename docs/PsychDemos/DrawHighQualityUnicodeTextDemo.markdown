@@ -14,7 +14,7 @@ japanese text encoded in Unicode.
 MacOS/X has text fonts with support for japanese characters preinstalled,
 so this should just work out of the box. Have a look at the code of the
 demo on how to select a suitable font, and how to read unicode text from
-the filesystem. The (commented out) reading code for SHIFT\_JIS -> Unicode
+the filesystem. The (commented out) reading code for SHIFT\_JIS -\> Unicode
 conversion would only work on recent Matlab releases. Older releases need
 different approaches - also different wrt. PowerPC vs. IntelMac. That's
 why we hard-coded the text in this demo -- Want to have it working even

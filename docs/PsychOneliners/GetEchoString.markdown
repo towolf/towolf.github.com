@@ -8,8 +8,8 @@ encoding: UTF-8
 
 string = GetEchoString(window, msg, x, y, [textColor], [bgColor], [useKbCheck=0], [deviceIndex], [untilTime=inf], [KbCheck args...])
 
-Get a string typed at the keyboard. Entry is terminated by <return> or
-<enter>.
+Get a string typed at the keyboard. Entry is terminated by \<return\> or
+\<enter\>.
 
 Typed characters are displayed in the window. The delete or backspace key
 is handled correctly, ie., it erases the last typed character. Useful for

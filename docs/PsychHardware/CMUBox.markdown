@@ -127,7 +127,7 @@ active. A 0-bit means button released/signal inactive. See the
 documentation of your box for meaning of the single bits. If you use the
 Bitwhacker then evt.state does directly encode the button number of a
 pressed button: 0 == All buttons released and all TTL inputs low.
-Values 1-7 correspond to a low->high transition of TTL input pins A1 - A7.
+Values 1-7 correspond to a low-\>high transition of TTL input pins A1 - A7.
 Values 8 and 9 correspond to a button press of onboard buttons "USER" or
 "PRG". Bitwhacker can only report one active button or TTL line at a time.
 

@@ -11,7 +11,7 @@ luttex = PsychHelperCreateGenericLuminanceToRGBA8LUT(lut);
 Helper function for PsychImaging() - Don't call from usercode!
 
 Used by PsychImaging(....,'EnableGenericHighPrecisionLuminanceOutput', lut);
-Converts a luminance -> RGB8 or RGBA8 LUT as provided in the 3- or 4 rows
+Converts a luminance -\> RGB8 or RGBA8 LUT as provided in the 3- or 4 rows
 by n columns matrix 'lut' into an equivalent RGBA8 lookup table texture,
 then returns the texture handle to the calling routine.
 

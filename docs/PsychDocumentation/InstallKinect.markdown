@@ -65,7 +65,7 @@ password as requested. (Same procedure for Debian 4.0 or later)
    b) sudo apt-get update
    c) sudo apt-get install freenect
    d) sudo adduser YOURNAME video
-      --> (YOURNAME) is your user login name!
+      --\> (YOURNAME) is your user login name!
    e) Log out and Log in again.
 
 For non-Debian or non-Ubuntu Linux distributions, you'll need to install

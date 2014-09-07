@@ -23,9 +23,9 @@ IMINFO gives misleading error message.
 \>+imfinfo('bill.jpg','jpg')
 \>??? Reference to non-existent field 'BitDepth'.
 \>
-\>Error in ==> Savoca:Applications:Matlab
+\>Error in ==\> Savoca:Applications:Matlab
 \>5.2:Toolbox:matlab:iofun:private:imjpginfo.m
-\>On line 50  ==>     if (info.BitDepth == 8)
+\>On line 50  ==\>     if (info.BitDepth == 8)
 \>
 \>The cleanest fix for this buglet would be to check that 'msg' is empty
 \>before accessing any fields of 'info'.

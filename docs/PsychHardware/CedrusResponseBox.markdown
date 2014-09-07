@@ -144,7 +144,7 @@ finally receive that keypress via 'GetButtons' or 'WaitButtons'. You
 collected your response, the trial is done, but when the subject releases
 the button again, that will generate another event - a release event, in
 which you're not interested. Maybe the subject will accidentally hit the
-button as well. --> Good to clean the queue before a new trial.
+button as well. --\> Good to clean the queue before a new trial.
 
 This function has a second use as well. It has an optional output
 argument, 'status', which will return the current status of all buttons

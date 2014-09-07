@@ -84,7 +84,7 @@ treated as two ports, a low port and a high port.
 
 This is based on code and command codes found in usb-1024LS.h and .c,
 subroutine files of the free libhid, a GPL'ed cross platform HID device
-library written by Warren Jasper (<wjasper@tx.ncsu.edu>). It has not been
+library written by Warren Jasper (\<wjasper@tx.ncsu.edu\>). It has not been
 tested by me on any actual device! (MK).
 
 0x0d   13   DaqDConfigPort        Configure digital port (portid == portA = 0x1, portB = 0x4, portClow = 0x8 portCHi = 0x2)

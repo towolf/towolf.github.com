@@ -29,7 +29,7 @@ ESCAPE == Quit demo.
 
 # Options:
 
-stereomode = n. For n > 0 this activates stereoscopic rendering - The shape is
+stereomode = n. For n \> 0 this activates stereoscopic rendering - The shape is
 rendered from two slightly different viewpoints and one of Psychtoolbox's
 built-in stereo display algorithms is used to present the 3D stimulus. This
 is very preliminary so it doesn't work that well yet.

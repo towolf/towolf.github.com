@@ -10,7 +10,7 @@ RGB = SRGBGammaCorrect(rgb,[SCALE])
 
 Gamma correct according to sRGB standard.
 
-SCALE = 0: No scaling applied to input rgb.  Input values > 1 truncated to 1.
+SCALE = 0: No scaling applied to input rgb.  Input values \> 1 truncated to 1.
 SCALE = 1: Input data scaled to max of 1.  (Default).
 
 Input values less than 0 are truncated to zero.

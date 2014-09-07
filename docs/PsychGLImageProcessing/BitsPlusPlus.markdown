@@ -308,7 +308,7 @@ rc = BitsPlusPlus('CheckGPUSanity', window, xoffset [, injectFault=0]);
 -- Perform online-test of GPU identity gamma tables and DVI-D display
 encoders. Try to correct problems with wrong identity gamma tables and at
 least detect problems with (spatio-)temporal display dithering. Returns
-rc == 0 on full success, rc > 0 on failure.
+rc == 0 on full success, rc \> 0 on failure.
 If the optional 'injectFault' parameter is set to 1, then an intentionally
 perturbed gamma table is loaded into the gpu to test how well the gamma table
 tweaking code is able to recover from wrong tables.

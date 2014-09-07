@@ -42,14 +42,14 @@ MATLAB thread for the given wait period, surrendering CPU time to other
 processes while waiting.  WaitSecs is now safe to use at any priority
 setting.
 
-WaitSecs ignores the OX MATLAB <ctrl>-C break key sequenece.
+WaitSecs ignores the OX MATLAB \<ctrl\>-C break key sequenece.
 
 # WINDOWS
 
 WaitSecs uses  Windows QueryPerformanceCounter() call which, in turn,
 reads a high-performance hardware counter in Pentium and better CPUs.
 
-WaitSecs ignores the Win MATLAB <ctrl>-C break key sequenece.
+WaitSecs ignores the Win MATLAB \<ctrl\>-C break key sequenece.
 
 # Linux
 

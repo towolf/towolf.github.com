@@ -15,7 +15,7 @@ scale. The filter has gain 1 in the frequency interval [fLow,fHigh], and
 gain 0 outside it. Add EPS to create complementary filters that add to
 1, e.g.
     Bandpass2(n,0,f)+Bandpass2(n,f+eps,1)==Bandpass2(n,0,1)
-For circular symmetry make fHigh<=1. Setting fLow=0 and fHigh=Inf will
+For circular symmetry make fHigh\<=1. Setting fLow=0 and fHigh=Inf will
 produce an all-pass filter. Here's a typical use, to produce bandpass
 noise:
     noise=randn(n,n);

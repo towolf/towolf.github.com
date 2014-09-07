@@ -53,7 +53,7 @@ adding it to experiment scripts may impair proper working of that
 scripts.
 
 4\. You didn't restart Matlab after the Psychtoolbox installer asked you
-to do so. -> Restart Matlab and retry.
+to do so. -\> Restart Matlab and retry.
 
 5\. The versions of GetCharJava bundled with Psychtoolbox are incompatible
 with the version of Java installed on your machine or bundled with your

@@ -40,7 +40,7 @@ See also PsychGamma.
          dhb  Reduce redundant code for higher order terms by pulling out of switch
 08/03/07 dhb  Debug.  Add call to MakeMonotonic for first three components.
 11/19/09 dhb  Added crtSumPow option, coded to [0-1] world and using curve fit toolbox.
-3/07/10  dhb  Cosmetic to make m-lint happier, including some "|" -> "||"
+3/07/10  dhb  Cosmetic to make m-lint happier, including some "|" -\> "||"
 3/07/10  dhb  Added crtLinear option.
          dhb  contrasthThresh and fitBreakThresh values only set if not already in struct.
          dhb  Call MakeGammaMonotonic rather than MakeMonotonic where appropriate.

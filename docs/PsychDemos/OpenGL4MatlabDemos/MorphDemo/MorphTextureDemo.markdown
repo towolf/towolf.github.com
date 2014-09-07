@@ -31,7 +31,7 @@ Matlab figure window.
 normalson = If set to 1, then the surface normal vectors will get
 visualized as small green lines on the surface.
 
-stereomode = n. For n>0 this activates stereoscopic rendering - The shape
+stereomode = n. For n\>0 this activates stereoscopic rendering - The shape
 is rendered from two slightly different viewpoints and one of
 Psychtoolbox's built-in stereo display algorithms is used to present the
 3D stimulus. This is very preliminary so it doesn't work that well yet.
