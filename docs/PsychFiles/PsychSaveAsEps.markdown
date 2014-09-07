@@ -23,7 +23,7 @@ it will open it as a Word document containg the image.
 I suggest you use the $25 shareware Macintosh application EPS Factory
 to add a PICT preview to your file, based on the postscript already
 there. You can download EPS Factory from
-web http://www.artage.com/pages/products/products.html
+<http://www.artage.com/pages/products/products.html>
 \(The old freeware ps2eps is incompatible with Mac OS 8.6 and 9, alas.\)
 The PICT preview will make the image will look approximately right on
 your monitor, e.g. in Word.

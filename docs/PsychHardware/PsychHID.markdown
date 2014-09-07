@@ -95,7 +95,7 @@ files specific to each input device.
 ----
 
 See also: PsychHIDTest, Daq, DaqTest, KbCheck, Gamepad, PsychHardware.
-web http://psychtoolbox.org/usb.html -browser;
+<http://psychtoolbox.org/usb.html>
 
 
 <div class="code_header" style="text-align:right;">

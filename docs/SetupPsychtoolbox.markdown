@@ -36,9 +36,9 @@ version information. Convenient upgrades via UpdatePsychtoolbox may be
 impossible. Download size with this method is much higher as well.
 
 If you get stuck, post your question to the forum by email or web:
-web mailto:psychtoolbox@yahoogroups.com
-web http://groups.yahoo.com/group/psychtoolbox/messages/
-web http://groups.yahoo.com/group/psychtoolbox/post/
+<mailto:psychtoolbox@yahoogroups.com>
+<http://groups.yahoo.com/group/psychtoolbox/messages/>
+<http://groups.yahoo.com/group/psychtoolbox/post/>
 Please specify your full name and the version of your operating system,
 MATLAB or Octave and Psychtoolbox.
 

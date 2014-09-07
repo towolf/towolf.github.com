@@ -139,9 +139,9 @@ P.S. If you get stuck, first check the FAQ section and Download section
 of our Wiki at http://www.psychtoolbox.org. If that doesn't help, post
 your question to the forum by email or web:
 
-web mailto:psychtoolbox@yahoogroups.com
-web http://groups.yahoo.com/group/psychtoolbox/messages/
-web http://groups.yahoo.com/group/psychtoolbox/post/
+<mailto:psychtoolbox@yahoogroups.com>
+<http://groups.yahoo.com/group/psychtoolbox/messages/>
+<http://groups.yahoo.com/group/psychtoolbox/post/>
 
 Please specify your full name and the version of your operating system,
 MATLAB / OCTAVE, and psychtoolbox.
@@ -187,7 +187,7 @@ solution is very simple, ask an administrator to use File Get Info to set
 the pathdef.m file permissions to allow write by everyone. This needs to
 be done only once, after installing MATLAB.
 
-web http://www.mathworks.com/access/helpdesk/help/techdoc/matlab\_env/ws\_pat18.html
+<http://www.mathworks.com/access/helpdesk/help/techdoc/matlab\_env/ws\_pat18.html>
 
 
 

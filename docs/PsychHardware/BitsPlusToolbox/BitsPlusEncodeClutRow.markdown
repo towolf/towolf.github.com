@@ -13,7 +13,7 @@ BitsPlusEncodeClutRow accepts the desired content for the CLUT \(color
 look up table\) and encodes it so that it may be poked into the first \(or
 last\) line of the image. The BITS++ will detect the "unlock" code and
 transfer the CLUT data into the 256 entry, 3 channel, 14-bit CLUT.
-web http://www.crsltd.com/
+<http://www.crsltd.com/>
 
 
 <div class="code_header" style="text-align:right;">

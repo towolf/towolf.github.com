@@ -25,7 +25,7 @@ logical array holding the result of the query.
 
 For a list of four-character selector codes, see the Carbon [Gestalt](/docs/Gestalt)
 Manager Reference
-web http://developer.apple.com/ ;
+<http://developer.apple.com/>
 
 If the call to Carbon [Gestalt](/docs/Gestalt) returns an error then MATLAB [Gestalt](/docs/Gestalt) returns
 the error code in a double instead of gestaltBits in a logical array.

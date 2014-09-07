@@ -70,8 +70,8 @@ GNU/Linux, due to the availability of PsychHID for these platforms.
 Mario Kleiner, 15 August 2011.
 
 
-web http://www.measurementcomputing.com/cbicatalog/directory.asp?dept\_id=403 -browser;
-web http://psychtoolbox.org/daq.html -browser;
+<http://www.measurementcomputing.com/cbicatalog/directory.asp?dept\_id=403>
+<http://psychtoolbox.org/daq.html>
 See also: DaqFunctions, DaqTest, PsychHIDTest, PsychHID,
 PsychHardware, DaqPins, DaqCalls, DaqCodes,
 DaqDeviceIndex, DaqFind, DaqDIn, DaqDOut, DaqAIn, DaqAOut, DaqAInScan, DaqAOutScan.

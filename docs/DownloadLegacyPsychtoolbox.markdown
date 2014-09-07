@@ -87,7 +87,7 @@ instructions. If in doubt, follow instructions on the Wiki\!
 
 1. If you don't already have it, you must install the Subversion client.
 For Mac OSX, download the latest Mac OSX Subversion client from:
-web http://metissian.com/projects/macosx/subversion/
+<http://metissian.com/projects/macosx/subversion/>
 \(You can ignore the Subversion README file. If you do read it, you can
 skip the instruction to manually add /usr/local/bin to your unix path.
 That's tricky to do, and not needed for installation and updates because
@@ -96,7 +96,7 @@ and later often come already with Subversion preinstalled, so you may
 be able to skip step 1.
 
 For Windows, download the Windows Subversion client from:
-web http://subversion.tigris.org/files/documents/15/34093/svn-1.4.0-setup.exe
+<http://subversion.tigris.org/files/documents/15/34093/svn-1.4.0-setup.exe>
 Install the Subversion client on your machine by double-clicking the
 installer and following the instructions. After installation of the
 Subversion client, you will need to exit and restart Matlab or Octave, so it
@@ -143,9 +143,9 @@ P.S. If you get stuck, first check the FAQ section and Download section of
 our Wiki at http://www.psychtoolbox.org. If that doesn't help, post your
 question to the forum by email or web:
 
-web mailto:psychtoolbox@yahoogroups.com
-web http://groups.yahoo.com/group/psychtoolbox/messages/
-web http://groups.yahoo.com/group/psychtoolbox/post/
+<mailto:psychtoolbox@yahoogroups.com>
+<http://groups.yahoo.com/group/psychtoolbox/messages/>
+<http://groups.yahoo.com/group/psychtoolbox/post/>
 
 Please specify your full name and the version of your operating system,
 MATLAB / OCTAVE, and psychtoolbox.
@@ -197,7 +197,7 @@ get an error message whenever they try to save the path, e.g. by typing
 solution is very simple, ask an administrator to use File Get Info to set
 the pathdef.m file permissions to allow write by everyone. This needs to
 be done only once, after installing MATLAB.
-web http://www.mathworks.com/access/helpdesk/help/techdoc/matlab\_env/ws\_pat18.html
+<http://www.mathworks.com/access/helpdesk/help/techdoc/matlab\_env/ws\_pat18.html>
 
 
 

@@ -18,8 +18,8 @@ that implement all the original QUEST functions, plus several others.
 You can think of it as a Bayesian toolbox for testing observers and
 estimating their thresholds. This QUEST toolbox is self-contained,
 and runs on any computer with MATLAB 5 or better.
-web http://psychtoolbox.org/
-web http://psych.nyu.edu/pelli/software.html\#quest
+<http://psychtoolbox.org/>
+<http://psych.nyu.edu/pelli/software.html\#quest>
 
 By commenting and uncommenting five lines below, you can use this file
 to implement three QUEST-related procedures for measuring threshold.
@@ -120,7 +120,7 @@ psychometric method. Percept Psychophys, 33 \(2\), 113-20.
 
 All the papers of which I'm an author can be downloaded as PDF files
 from my web site:
-web http://psych.nyu.edu/pelli/
+<http://psych.nyu.edu/pelli/>
 
 Try "help Quest".
 

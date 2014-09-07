@@ -146,13 +146,13 @@ are discussed in the online help for the different subfunctions, our
 # BUGS
 
 All known bugs and fixes are eventually described at the web site under "Bugs":
-web http://psychtoolbox.org/ ;
+<http://psychtoolbox.org/>
 
 Initial reports appear first at the forum:
-web http://www.yahoogroups.com/messages/psychtoolbox/ ;
+<http://www.yahoogroups.com/messages/psychtoolbox/>
 
 If you find a bug, please report it to the forum:
-web mailto:psychtoolbox@yahoogroups.com ;
+<mailto:psychtoolbox@yahoogroups.com>
 
 It will help greatly if you can supply a  minimal-length program that exhibits
 the bug. And please include as much information about your hardware and software

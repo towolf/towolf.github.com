@@ -27,8 +27,8 @@ NOT RESPONDING? If PsychHID is not responding, e.g. after unplugging and
 re-plugging the USB connector of your device, try quitting and restarting
 MATLAB. We find that this reliably restores normal communication.
 
-web http://www.http://www.measurementcomputing.com/cbicatalog/directory.asp?dept\_id=403 -browser;
-web http://psychtoolbox.org/daq.html -browser;
+<http://www.http://www.measurementcomputing.com/cbicatalog/directory.asp?dept\_id=403>
+<http://psychtoolbox.org/daq.html>
 See also: Daq, DaqFunctions, DaqPins,PsychHIDTest,PsychHID,PsychHardware,
 DaqDeviceIndex, DaqDIn, DaqDOut, DaqAIn, DaqAOut, DaqAInScan, DaqAOutScan
 

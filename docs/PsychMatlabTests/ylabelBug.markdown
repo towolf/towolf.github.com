@@ -64,7 +64,7 @@ result in proper output.
 If this does not work for you, here is another technical note which may
 pertain to your problem:
 
-web http://www.mathworks.com/support/solutions/v5/22133.shtml
+<http://www.mathworks.com/support/solutions/v5/22133.shtml>
 
 I hope that this helps you\!
 

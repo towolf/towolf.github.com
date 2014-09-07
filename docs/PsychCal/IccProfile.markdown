@@ -27,7 +27,7 @@ display. The idea is that the file contains all the necessary
 information to transform the specification of a color in a standard
 perceptual space \(e.g. CIE X,Y,Z\) into the numbers necessary to
 display that color.
-web http://www.color.org/profiles.html ;
+<http://www.color.org/profiles.html>
 
 # USAGE:
 
@@ -74,8 +74,8 @@ screen 0 \(the main screen\) and provide it to you as a handy Matlab struct
 "icc" that you can use in your software. For explanation of the contents,
 consult the official ICC documentation, plus Apple's documentation of
 their custom tags: 'vcgt' and 'mmod'.
-web http://www.color.org/profiles.html ;
-web http://developer.apple.com/techpubs/macos8/MultimediaGraphics/ColorSyncManager/ManagingColorWithColorSync/ColorSync.7b.html
+<http://www.color.org/profiles.html>
+<http://developer.apple.com/techpubs/macos8/MultimediaGraphics/ColorSyncManager/ManagingColorWithColorSync/ColorSync.7b.html>
 
 # EXPLANATION OF TAG TYPE:
 
@@ -134,7 +134,7 @@ You can try running Apple's "Profile First Aid", which detects and
 fixs some common profile errors, though it too is less strict than
 icclib. "Profile First Aid" 3.0.1 is installed in the Apple
 Extras:ColorSync Extras folder when you install ColorSync 3.0.1
-web http://asu.info.apple.com/swupdates.nsf/artnum/n11674 ;
+<http://asu.info.apple.com/swupdates.nsf/artnum/n11674>
 
 # CALIBRATION:
 
@@ -151,17 +151,17 @@ printing and has good advice about choosing among these products.
 ColorBlind ProveIt\! software $50
 Does not include colorimeter. Can be used alone, using perceptual
 matching, or with the Sequel Chroma 4 colorimeter, below.
-web http://www.color.com/Products/proveit.html ;
-web http://www.inkjetmall.com/store/prove-it.html ;
+<http://www.color.com/Products/proveit.html>
+<http://www.inkjetmall.com/store/prove-it.html>
 
 Sequel Chroma 4 CRT & LCD monitor colorimeter $249
 Requires software, which is not included. Compatible with ColorBlind
 and Monaco.
-web http://www.inkjetmall.com/store/measuring-devices.html\#monitors ;
+<http://www.inkjetmall.com/store/measuring-devices.html\#monitors>
 
 Monaco EZColor software $299
 MonacoSENSOR colorimeter $249 \(or both together for $499\)
-web http://www.monacosys.com/monacoezcolor.html ;
+<http://www.monacosys.com/monacoezcolor.html>
 
 The ColorBlind+Sequel package, for $299, is cheaper than the $499
 Monaco package, and the ColorBlind software seems to be at least as
@@ -173,7 +173,7 @@ Denis Pelli
 ACKNOWLEDGEMENT: IccProfile.mex is largely a Matlab interface to
 the excellent free icclib created in C by Graeme Gill, for which we
 are very grateful.
-web http://web.access.net.au/argyll/color.html ;
+<http://web.access.net.au/argyll/color.html>
 
 
 <div class="code_header" style="text-align:right;">
