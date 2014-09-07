@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-OSSchedulingAccuracyTest(configFile [, duration=60])
+OSSchedulingAccuracyTest(configFile [, duration=60])  
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-corr = CovToCorr(K)
+corr = CovToCorr(K)  
 
-Compute the matrix of correlations from the covariance matrix.
+Compute the matrix of correlations from the covariance matrix.  
 
 
 <div class="code_header" style="text-align:right;">

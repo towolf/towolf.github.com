@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glutSolidTetrahedron  Interface to OpenGL function glutSolidTetrahedron
+glutSolidTetrahedron  Interface to OpenGL function glutSolidTetrahedron  
 
-usage:  glutSolidTetrahedron
+usage:  glutSolidTetrahedron  
 
-C function:  void glutSolidTetrahedron(void)
+C function:  void glutSolidTetrahedron(void)  
 
 
 <div class="code_header" style="text-align:right;">

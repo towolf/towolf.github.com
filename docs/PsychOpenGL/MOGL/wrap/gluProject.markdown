@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-gluProject  Interface to OpenGL function gluProject
+gluProject  Interface to OpenGL function gluProject  
 
-usage:  [ winX, winY, winZ, r ] = gluProject( objX, objY, objZ, model, proj, view )
+usage:  [ winX, winY, winZ, r ] = gluProject( objX, objY, objZ, model, proj, view )  
 
-C function:  GLint gluProject(GLdouble objX, GLdouble objY, GLdouble objZ, const GLdouble\* model, const GLdouble\* proj, const GLint\* view, GLdouble\* winX, GLdouble\* winY, GLdouble\* winZ)
+C function:  GLint gluProject(GLdouble objX, GLdouble objY, GLdouble objZ, const GLdouble\* model, const GLdouble\* proj, const GLint\* view, GLdouble\* winX, GLdouble\* winY, GLdouble\* winZ)  
 
 
 <div class="code_header" style="text-align:right;">

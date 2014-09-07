@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glNormal3bv  Interface to OpenGL function glNormal3bv
+glNormal3bv  Interface to OpenGL function glNormal3bv  
 
-usage:  glNormal3bv( v )
+usage:  glNormal3bv( v )  
 
-C function:  void glNormal3bv(const GLbyte\* v)
+C function:  void glNormal3bv(const GLbyte\* v)  
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glSecondaryColorPointer  Interface to glSecondaryColorPointer
+glSecondaryColorPointer  Interface to glSecondaryColorPointer  
 
-usage:  glSecondaryColorPointer( arg1, arg2, arg3, arg4 )
+usage:  glSecondaryColorPointer( arg1, arg2, arg3, arg4 )  
 
-C function:  void glSecondaryColorPointer(GLint, GLenum, GLsizei, const GLvoid\*)
+C function:  void glSecondaryColorPointer(GLint, GLenum, GLsizei, const GLvoid\*)  
 
 
 <div class="code_header" style="text-align:right;">

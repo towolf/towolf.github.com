@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alGetFloat  Interface to OpenAL function alGetFloat
+alGetFloat  Interface to OpenAL function alGetFloat  
 
-usage:  r = alGetFloat( param )
+usage:  r = alGetFloat( param )  
 
-C function:  float alGetFloat(ALenum param)
+C function:  float alGetFloat(ALenum param)  
 
 
 <div class="code_header" style="text-align:right;">

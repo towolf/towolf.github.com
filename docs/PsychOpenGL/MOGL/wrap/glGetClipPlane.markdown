@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetClipPlane  Interface to OpenGL function glGetClipPlane
+glGetClipPlane  Interface to OpenGL function glGetClipPlane  
 
-usage:  equation = glGetClipPlane( plane )
+usage:  equation = glGetClipPlane( plane )  
 
-C function:  void glGetClipPlane(GLenum plane, GLdouble\* equation)
+C function:  void glGetClipPlane(GLenum plane, GLdouble\* equation)  
 
 
 <div class="code_header" style="text-align:right;">

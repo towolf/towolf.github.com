@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-tickDuration=GetSecsTick
+tickDuration=GetSecsTick  
 
-GetSecsTick returns the fraction of a second which is a tick of the GetSecs clock.
+GetSecsTick returns the fraction of a second which is a tick of the GetSecs clock.  
 
-See also: GetSecs, WaitTicks, GetTicks, GetTicksTick, GetBusTicks, GetBusTicksTick.
+See also: GetSecs, WaitTicks, GetTicks, GetTicksTick, GetBusTicks, GetBusTicksTick.  
 
 
 <div class="code_header" style="text-align:right;">

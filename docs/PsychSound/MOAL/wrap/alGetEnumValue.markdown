@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alGetEnumValue  Interface to OpenAL function alGetEnumValue
+alGetEnumValue  Interface to OpenAL function alGetEnumValue  
 
-usage:  r = alGetEnumValue( ename )
+usage:  r = alGetEnumValue( ename )  
 
-C function:  ALenum alGetEnumValue(const ALchar\* ename)
+C function:  ALenum alGetEnumValue(const ALchar\* ename)  
 
 
 <div class="code_header" style="text-align:right;">

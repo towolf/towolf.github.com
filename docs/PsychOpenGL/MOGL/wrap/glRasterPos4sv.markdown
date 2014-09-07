@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glRasterPos4sv  Interface to OpenGL function glRasterPos4sv
+glRasterPos4sv  Interface to OpenGL function glRasterPos4sv  
 
-usage:  glRasterPos4sv( v )
+usage:  glRasterPos4sv( v )  
 
-C function:  void glRasterPos4sv(const GLshort\* v)
+C function:  void glRasterPos4sv(const GLshort\* v)  
 
 
 <div class="code_header" style="text-align:right;">

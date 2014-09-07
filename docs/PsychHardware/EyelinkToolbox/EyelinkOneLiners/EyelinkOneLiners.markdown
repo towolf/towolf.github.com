@@ -6,8 +6,8 @@ categories:
 encoding: UTF-8
 ---
 
-EyelinkToolbox:EyelinkBasic
-essential functions for use with the eyelinktoolbox
+EyelinkToolbox:EyelinkBasic  
+essential functions for use with the eyelinktoolbox  
 
 
 <div class="code_header" style="text-align:right;">

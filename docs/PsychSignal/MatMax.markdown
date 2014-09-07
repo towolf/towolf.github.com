@@ -6,8 +6,8 @@ categories:
 encoding: UTF-8
 ---
 
-[maxval] = MatMax(image)
-Find the maximum value in a matrix.
+[maxval] = MatMax(image)  
+Find the maximum value in a matrix.  
 
 
 <div class="code_header" style="text-align:right;">

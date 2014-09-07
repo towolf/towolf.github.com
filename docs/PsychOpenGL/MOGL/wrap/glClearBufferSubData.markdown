@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glClearBufferSubData  Interface to OpenGL function glClearBufferSubData
+glClearBufferSubData  Interface to OpenGL function glClearBufferSubData  
 
-usage:  glClearBufferSubData( target, internalformat, ptr, ptr, format, type, data )
+usage:  glClearBufferSubData( target, internalformat, ptr, ptr, format, type, data )  
 
-C function:  void glClearBufferSubData(GLenum target, GLenum internalformat, GLint ptr, GLsizei ptr, GLenum format, GLenum type, const void\* data)
+C function:  void glClearBufferSubData(GLenum target, GLenum internalformat, GLint ptr, GLsizei ptr, GLenum format, GLenum type, const void\* data)  
 
 
 <div class="code_header" style="text-align:right;">

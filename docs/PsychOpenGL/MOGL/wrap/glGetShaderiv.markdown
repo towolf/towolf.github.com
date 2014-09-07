@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetShaderiv  Interface to OpenGL function glGetShaderiv
+glGetShaderiv  Interface to OpenGL function glGetShaderiv  
 
-usage:  params = glGetShaderiv( shader, pname )
+usage:  params = glGetShaderiv( shader, pname )  
 
-C function:  void glGetShaderiv(GLuint shader, GLenum pname, GLint\* params)
+C function:  void glGetShaderiv(GLuint shader, GLenum pname, GLint\* params)  
 
 
 <div class="code_header" style="text-align:right;">

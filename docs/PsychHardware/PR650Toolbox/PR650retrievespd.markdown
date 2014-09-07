@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-[spd,qual,readStr] = PR650rawspd(filenumber,[S])
+[spd,qual,readStr] = PR650rawspd(filenumber,[S])  
 
-Retrieve spd stored in given filenumber.
+Retrieve spd stored in given filenumber.  
 
 
 <div class="code_header" style="text-align:right;">

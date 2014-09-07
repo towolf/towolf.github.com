@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glDrawTransformFeedbackStream  Interface to OpenGL function glDrawTransformFeedbackStream
+glDrawTransformFeedbackStream  Interface to OpenGL function glDrawTransformFeedbackStream  
 
-usage:  glDrawTransformFeedbackStream( mode, id, stream )
+usage:  glDrawTransformFeedbackStream( mode, id, stream )  
 
-C function:  void glDrawTransformFeedbackStream(GLenum mode, GLuint id, GLuint stream)
+C function:  void glDrawTransformFeedbackStream(GLenum mode, GLuint id, GLuint stream)  
 
 
 <div class="code_header" style="text-align:right;">

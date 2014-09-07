@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glutWireSphere  Interface to OpenGL function glutWireSphere
+glutWireSphere  Interface to OpenGL function glutWireSphere  
 
-usage:  glutWireSphere( radius, slices, stacks )
+usage:  glutWireSphere( radius, slices, stacks )  
 
-C function:  void glutWireSphere(GLdouble radius, GLint slices, GLint stacks)
+C function:  void glutWireSphere(GLdouble radius, GLint slices, GLint stacks)  
 
 
 <div class="code_header" style="text-align:right;">

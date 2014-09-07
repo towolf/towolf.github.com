@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glDisableVertexAttribArray  Interface to OpenGL function glDisableVertexAttribArray
+glDisableVertexAttribArray  Interface to OpenGL function glDisableVertexAttribArray  
 
-usage:  glDisableVertexAttribArray( index )
+usage:  glDisableVertexAttribArray( index )  
 
-C function:  void glDisableVertexAttribArray(GLuint index)
+C function:  void glDisableVertexAttribArray(GLuint index)  
 
 
 <div class="code_header" style="text-align:right;">

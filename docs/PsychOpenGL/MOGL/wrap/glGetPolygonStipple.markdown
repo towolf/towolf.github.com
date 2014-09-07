@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetPolygonStipple  Interface to OpenGL function glGetPolygonStipple
+glGetPolygonStipple  Interface to OpenGL function glGetPolygonStipple  
 
-usage:  mask = glGetPolygonStipple
+usage:  mask = glGetPolygonStipple  
 
-C function:  void glGetPolygonStipple(GLubyte\* mask)
+C function:  void glGetPolygonStipple(GLubyte\* mask)  
 
 
 <div class="code_header" style="text-align:right;">

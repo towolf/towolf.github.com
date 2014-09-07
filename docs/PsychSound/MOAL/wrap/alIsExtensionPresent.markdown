@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alIsExtensionPresent  Interface to OpenAL function alIsExtensionPresent
+alIsExtensionPresent  Interface to OpenAL function alIsExtensionPresent  
 
-usage:  r = alIsExtensionPresent( extname )
+usage:  r = alIsExtensionPresent( extname )  
 
-C function:  ALboolean alIsExtensionPresent(const ALchar\* extname)
+C function:  ALboolean alIsExtensionPresent(const ALchar\* extname)  
 
 
 <div class="code_header" style="text-align:right;">

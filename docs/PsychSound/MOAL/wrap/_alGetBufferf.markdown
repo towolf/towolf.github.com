@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alGetBufferf  Interface to OpenAL function alGetBufferf
+alGetBufferf  Interface to OpenAL function alGetBufferf  
 
-usage:  value = alGetBufferf( bid, param )
+usage:  value = alGetBufferf( bid, param )  
 
-C function:  void alGetBufferf(ALuint bid, ALenum param, ALfloat\* value)
+C function:  void alGetBufferf(ALuint bid, ALenum param, ALfloat\* value)  
 
 
 <div class="code_header" style="text-align:right;">

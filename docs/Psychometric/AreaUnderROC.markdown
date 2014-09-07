@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-area = AreaUnderROC(ROC)
+area = AreaUnderROC(ROC)  
 
-Compute the area under an ROC curve.
+Compute the area under an ROC curve.  
 
-xx/xx/xx  dhb  Wrote it.
+xx/xx/xx  dhb  Wrote it.  
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-gluBeginPolygon  Interface to OpenGL function gluBeginPolygon
+gluBeginPolygon  Interface to OpenGL function gluBeginPolygon  
 
-usage:  gluBeginPolygon( tess )
+usage:  gluBeginPolygon( tess )  
 
-C function:  void gluBeginPolygon(GLUtesselator\* tess)
+C function:  void gluBeginPolygon(GLUtesselator\* tess)  
 
 
 <div class="code_header" style="text-align:right;">

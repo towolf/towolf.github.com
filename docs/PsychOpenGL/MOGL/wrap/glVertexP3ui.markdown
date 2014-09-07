@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glVertexP3ui  Interface to OpenGL function glVertexP3ui
+glVertexP3ui  Interface to OpenGL function glVertexP3ui  
 
-usage:  glVertexP3ui( type, value )
+usage:  glVertexP3ui( type, value )  
 
-C function:  void glVertexP3ui(GLenum type, GLuint value)
+C function:  void glVertexP3ui(GLenum type, GLuint value)  
 
 
 <div class="code_header" style="text-align:right;">

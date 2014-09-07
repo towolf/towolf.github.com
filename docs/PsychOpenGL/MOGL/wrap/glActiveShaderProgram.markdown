@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glActiveShaderProgram  Interface to OpenGL function glActiveShaderProgram
+glActiveShaderProgram  Interface to OpenGL function glActiveShaderProgram  
 
-usage:  glActiveShaderProgram( pipeline, program )
+usage:  glActiveShaderProgram( pipeline, program )  
 
-C function:  void glActiveShaderProgram(GLuint pipeline, GLuint program)
+C function:  void glActiveShaderProgram(GLuint pipeline, GLuint program)  
 
 
 <div class="code_header" style="text-align:right;">

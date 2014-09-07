@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-LabLuvTest
+LabLuvTest  
 
-Test routines that convert to CIELAB and CIELUV.
+Test routines that convert to CIELAB and CIELUV.  
 
-7/11/03  dhb  Added comments, change name.
+7/11/03  dhb  Added comments, change name.  
 
 
 <div class="code_header" style="text-align:right;">

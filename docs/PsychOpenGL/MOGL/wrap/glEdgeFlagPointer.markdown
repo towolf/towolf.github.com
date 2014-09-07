@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glEdgeFlagPointer  Interface to glEdgeFlagPointer
+glEdgeFlagPointer  Interface to glEdgeFlagPointer  
 
-usage:  glEdgeFlagPointer( stride, pointer )
+usage:  glEdgeFlagPointer( stride, pointer )  
 
-C function:  void glEdgeFlagPointer(GLsizei stride, const GLvoid\* pointer)
+C function:  void glEdgeFlagPointer(GLsizei stride, const GLvoid\* pointer)  
 
 
 <div class="code_header" style="text-align:right;">

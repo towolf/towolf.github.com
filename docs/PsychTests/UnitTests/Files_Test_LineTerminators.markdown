@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-create some input
+create some input  
 
 
 <div class="code_header" style="text-align:right;">

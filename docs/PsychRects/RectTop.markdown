@@ -6,10 +6,10 @@ categories:
 encoding: UTF-8
 ---
 
-yTop = rect(RectTop)
+yTop = rect(RectTop)  
 
-RectTop returns the rect index of yTop.
-Also see PsychRects.
+RectTop returns the rect index of yTop.  
+Also see PsychRects.  
 
 
 <div class="code_header" style="text-align:right;">

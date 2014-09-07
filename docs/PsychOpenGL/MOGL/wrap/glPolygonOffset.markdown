@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glPolygonOffset  Interface to OpenGL function glPolygonOffset
+glPolygonOffset  Interface to OpenGL function glPolygonOffset  
 
-usage:  glPolygonOffset( factor, units )
+usage:  glPolygonOffset( factor, units )  
 
-C function:  void glPolygonOffset(GLfloat factor, GLfloat units)
+C function:  void glPolygonOffset(GLfloat factor, GLfloat units)  
 
 
 <div class="code_header" style="text-align:right;">

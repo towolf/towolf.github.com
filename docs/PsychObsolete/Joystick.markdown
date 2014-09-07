@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-warning('"Joystick has been renamed to "Gamepad".  To avoid this warning message use the new name,  "Gamepad".');
+warning('"Joystick has been renamed to "Gamepad".  To avoid this warning message use the new name,  "Gamepad".');  
 
 
 <div class="code_header" style="text-align:right;">

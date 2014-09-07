@@ -6,12 +6,12 @@ categories:
 encoding: UTF-8
 ---
 
-XYZ = LabToXYZ(Lab,whiteXYZ)
+XYZ = LabToXYZ(Lab,whiteXYZ)  
 
-Convert Lab to XYZ.
+Convert Lab to XYZ.  
 
-10/10/93    dhb   Converted from CAP C code.
-5/9/02      dhb   Improved help
+10/10/93    dhb   Converted from CAP C code.  
+5/9/02      dhb   Improved help  
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glUniform3fv  Interface to OpenGL function glUniform3fv
+glUniform3fv  Interface to OpenGL function glUniform3fv  
 
-usage:  glUniform3fv( location, count, value )
+usage:  glUniform3fv( location, count, value )  
 
-C function:  void glUniform3fv(GLint location, GLsizei count, const GLfloat\* value)
+C function:  void glUniform3fv(GLint location, GLsizei count, const GLfloat\* value)  
 
 
 <div class="code_header" style="text-align:right;">

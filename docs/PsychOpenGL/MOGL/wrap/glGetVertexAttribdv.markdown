@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetVertexAttribdv  Interface to OpenGL function glGetVertexAttribdv
+glGetVertexAttribdv  Interface to OpenGL function glGetVertexAttribdv  
 
-usage:  params = glGetVertexAttribdv( index, pname )
+usage:  params = glGetVertexAttribdv( index, pname )  
 
-C function:  void glGetVertexAttribdv(GLuint index, GLenum pname, GLdouble\* params)
+C function:  void glGetVertexAttribdv(GLuint index, GLenum pname, GLdouble\* params)  
 
 
 <div class="code_header" style="text-align:right;">

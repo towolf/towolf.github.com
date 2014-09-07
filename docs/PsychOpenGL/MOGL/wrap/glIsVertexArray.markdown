@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glIsVertexArray  Interface to OpenGL function glIsVertexArray
+glIsVertexArray  Interface to OpenGL function glIsVertexArray  
 
-usage:  r = glIsVertexArray( array )
+usage:  r = glIsVertexArray( array )  
 
-C function:  GLboolean glIsVertexArray(GLuint array)
+C function:  GLboolean glIsVertexArray(GLuint array)  
 
 
 <div class="code_header" style="text-align:right;">

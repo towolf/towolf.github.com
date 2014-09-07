@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-Puts up a dialog asking to run in dummy mode.
+Puts up a dialog asking to run in dummy mode.  
 
 
 <div class="code_header" style="text-align:right;">

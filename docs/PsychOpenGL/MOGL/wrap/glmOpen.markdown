@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-glmOpen  Open a screen in the mogl interface
+glmOpen  Open a screen in the mogl interface  
 
-usage:  [ xy, fps, bitdepth ] = glmOpen( device, resolution, stereo, attribs )
+usage:  [ xy, fps, bitdepth ] = glmOpen( device, resolution, stereo, attribs )  
 
 
 <div class="code_header" style="text-align:right;">

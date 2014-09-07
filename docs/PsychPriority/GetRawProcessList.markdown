@@ -6,23 +6,23 @@ categories:
 encoding: UTF-8
 ---
 
-processListString=GetRawProcessList
+processListString=GetRawProcessList  
 
-# OS X
+# OS X  
 
-Return in a single string the process list as retuned by the BSD ps
-command.  Specifically: ps -caxwl
+Return in a single string the process list as retuned by the BSD ps  
+command.  Specifically: ps -caxwl  
 
-# OS 9
+# OS 9  
 
-GetRawProcessList does not exist in OS 9.
+GetRawProcessList does not exist in OS 9.  
 
-# WINDOWS
+# WINDOWS  
 
-GetRawProcessList does not exist in Windows.
-----
+GetRawProcessList does not exist in Windows.  
+----  
 
-see also: GetProcessDescriptorFromCommandName, GetProcessList
+see also: GetProcessDescriptorFromCommandName, GetProcessList  
 
 
 <div class="code_header" style="text-align:right;">

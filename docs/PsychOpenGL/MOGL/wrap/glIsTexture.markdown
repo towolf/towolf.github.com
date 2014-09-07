@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glIsTexture  Interface to OpenGL function glIsTexture
+glIsTexture  Interface to OpenGL function glIsTexture  
 
-usage:  r = glIsTexture( texture )
+usage:  r = glIsTexture( texture )  
 
-C function:  GLboolean glIsTexture(GLuint texture)
+C function:  GLboolean glIsTexture(GLuint texture)  
 
 
 <div class="code_header" style="text-align:right;">

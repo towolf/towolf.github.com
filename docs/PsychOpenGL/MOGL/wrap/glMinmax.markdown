@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glMinmax  Interface to OpenGL function glMinmax
+glMinmax  Interface to OpenGL function glMinmax  
 
-usage:  glMinmax( target, internalformat, sink )
+usage:  glMinmax( target, internalformat, sink )  
 
-C function:  void glMinmax(GLenum target, GLenum internalformat, GLboolean sink)
+C function:  void glMinmax(GLenum target, GLenum internalformat, GLboolean sink)  
 
 
 <div class="code_header" style="text-align:right;">

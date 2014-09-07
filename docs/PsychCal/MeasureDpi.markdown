@@ -6,10 +6,10 @@ categories:
 encoding: UTF-8
 ---
 
-dpi=MeasureDpi([theScreen])
-Helps the user to accurately measure the screen's dots per inch.
+dpi=MeasureDpi([theScreen])  
+Helps the user to accurately measure the screen's dots per inch.  
 
-Denis Pelli
+Denis Pelli  
 
 
 <div class="code_header" style="text-align:right;">

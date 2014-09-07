@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glDrawElementsInstancedBaseVertexBaseInstance  Interface to OpenGL function glDrawElementsInstancedBaseVertexBaseInstance
+glDrawElementsInstancedBaseVertexBaseInstance  Interface to OpenGL function glDrawElementsInstancedBaseVertexBaseInstance  
 
-usage:  glDrawElementsInstancedBaseVertexBaseInstance( mode, count, type, indices, instancecount, basevertex, baseinstance )
+usage:  glDrawElementsInstancedBaseVertexBaseInstance( mode, count, type, indices, instancecount, basevertex, baseinstance )  
 
-C function:  void glDrawElementsInstancedBaseVertexBaseInstance(GLenum mode, GLsizei count, GLenum type, const void\* indices, GLsizei instancecount, GLint basevertex, GLuint baseinstance)
+C function:  void glDrawElementsInstancedBaseVertexBaseInstance(GLenum mode, GLsizei count, GLenum type, const void\* indices, GLsizei instancecount, GLint basevertex, GLuint baseinstance)  
 
 
 <div class="code_header" style="text-align:right;">

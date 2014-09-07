@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-makememcpyCudaOpenGL - Build CUDA\<-\>OpenGL interop helper mex file.
+makememcpyCudaOpenGL - Build CUDA\<-\>OpenGL interop helper mex file.  
 
-This needs the NVidia CUDA-5.0 SDK or later installed.
+This needs the NVidia CUDA-5.0 SDK or later installed.  
 
 
 

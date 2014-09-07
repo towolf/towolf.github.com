@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glMultiDrawArrays  Interface to OpenGL function glMultiDrawArrays
+glMultiDrawArrays  Interface to OpenGL function glMultiDrawArrays  
 
-usage:  glMultiDrawArrays( mode, first, count, primcount )
+usage:  glMultiDrawArrays( mode, first, count, primcount )  
 
-C function:  void glMultiDrawArrays(GLenum mode, const GLint\* first, const GLsizei\* count, GLsizei primcount)
+C function:  void glMultiDrawArrays(GLenum mode, const GLint\* first, const GLsizei\* count, GLsizei primcount)  
 
 
 <div class="code_header" style="text-align:right;">

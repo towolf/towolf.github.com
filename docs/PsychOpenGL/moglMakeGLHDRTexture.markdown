@@ -6,36 +6,36 @@ categories:
 encoding: UTF-8
 ---
 
-gltexId = moglMakeGLHDRTexture(hdrImage, gltextarget [, halffloat])
+gltexId = moglMakeGLHDRTexture(hdrImage, gltextarget [, halffloat])  
 
-Create a high dynamic range OpenGL texture from the given
-Matlab/Octave high dynamic range image matrix 'hdrImage' and attach
-it to the OpenGL texture target of type 'gltextarget'.
+Create a high dynamic range OpenGL texture from the given  
+Matlab/Octave high dynamic range image matrix 'hdrImage' and attach  
+it to the OpenGL texture target of type 'gltextarget'.  
 
-Before calling this function you must have called [Screen](/docs/Screen)('BeginOpenGL', win);
-with 'win' being the window handle for the onscreen window to
-which the texture should be attached.
+Before calling this function you must have called [Screen](/docs/Screen)('BeginOpenGL', win);  
+with 'win' being the window handle for the onscreen window to  
+which the texture should be attached.  
 
-Returns an OpenGL texture handle 'gltexId' for the created texture.
-The texture can be used like any other OpenGL texture, just
-with the difference that it represents its color values with 32 bit
-floating point precision instead of 8 bpc fixed point precision.
+Returns an OpenGL texture handle 'gltexId' for the created texture.  
+The texture can be used like any other OpenGL texture, just  
+with the difference that it represents its color values with 32 bit  
+floating point precision instead of 8 bpc fixed point precision.  
 
-'hdrImage' must be a (height, width, 4) matrix of type 'double' or
-'single', where channel 1=Red, 2=Green, 3=Blue, 4=Alpha. The numeric
-range (0.0 - 1.0) maps to (minimum intensity - maximum intensity).
+'hdrImage' must be a (height, width, 4) matrix of type 'double' or  
+'single', where channel 1=Red, 2=Green, 3=Blue, 4=Alpha. The numeric  
+range (0.0 - 1.0) maps to (minimum intensity - maximum intensity).  
 
-If 'halffloat' is set to 1 (default is 0), then the texture is created as
-half-precision floating point texture, ie 16 bpc floats. This saves
-memory and bandwidth and allows for floating point filtering on Geforce
-6000 and 7000 series.
+If 'halffloat' is set to 1 (default is 0), then the texture is created as  
+half-precision floating point texture, ie 16 bpc floats. This saves  
+memory and bandwidth and allows for floating point filtering on Geforce  
+6000 and 7000 series.  
 
-If you want to create a pure 2D texture and use it with Psychtoolbox'
-standard [Screen](/docs/Screen)() drawing command, then call moglMakeHDRTexture() instead.
+If you want to create a pure 2D texture and use it with Psychtoolbox'  
+standard [Screen](/docs/Screen)() drawing command, then call moglMakeHDRTexture() instead.  
 
-This function is most useful if you want to create textures not handled
-by Psychtoolbox, i.e., cube map textures for environment mapping and
-texture based lighting.
+This function is most useful if you want to create textures not handled  
+by Psychtoolbox, i.e., cube map textures for environment mapping and  
+texture based lighting.  
 
 
 <div class="code_header" style="text-align:right;">

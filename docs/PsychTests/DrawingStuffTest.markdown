@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-DrawingStuffTest
+DrawingStuffTest  
 
-Exercises FrameRect, DrawLine,  FillPoly and FramePoly on OS X.
+Exercises FrameRect, DrawLine,  FillPoly and FramePoly on OS X.  
 
 
 <div class="code_header" style="text-align:right;">

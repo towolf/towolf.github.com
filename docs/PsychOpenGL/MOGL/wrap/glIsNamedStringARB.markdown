@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glIsNamedStringARB  Interface to OpenGL function glIsNamedStringARB
+glIsNamedStringARB  Interface to OpenGL function glIsNamedStringARB  
 
-usage:  r = glIsNamedStringARB( namelen, name )
+usage:  r = glIsNamedStringARB( namelen, name )  
 
-C function:  GLboolean glIsNamedStringARB(GLint namelen, const GLchar\* name)
+C function:  GLboolean glIsNamedStringARB(GLint namelen, const GLchar\* name)  
 
 
 <div class="code_header" style="text-align:right;">

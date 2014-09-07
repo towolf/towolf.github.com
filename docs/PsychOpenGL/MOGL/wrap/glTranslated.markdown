@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glTranslated  Interface to OpenGL function glTranslated
+glTranslated  Interface to OpenGL function glTranslated  
 
-usage:  glTranslated( x, y, z )
+usage:  glTranslated( x, y, z )  
 
-C function:  void glTranslated(GLdouble x, GLdouble y, GLdouble z)
+C function:  void glTranslated(GLdouble x, GLdouble y, GLdouble z)  
 
 
 <div class="code_header" style="text-align:right;">

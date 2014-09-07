@@ -6,15 +6,15 @@ categories:
 encoding: UTF-8
 ---
 
-DrawFormattedTextDemo
+DrawFormattedTextDemo  
 
-Draws lots of formatted text, shows how to center text vertically and/or
-horizontally, how line-breaks are introduced, how to compute text
-bounding boxes.
+Draws lots of formatted text, shows how to center text vertically and/or  
+horizontally, how line-breaks are introduced, how to compute text  
+bounding boxes.  
 
-Press any key to cycle through different demo displays.
+Press any key to cycle through different demo displays.  
 
-see also: PsychDemos, [Screen](/docs/Screen) DrawText?, DrawSomeTextDemo
+see also: PsychDemos, [Screen](/docs/Screen) DrawText?, DrawSomeTextDemo  
 
 
 <div class="code_header" style="text-align:right;">

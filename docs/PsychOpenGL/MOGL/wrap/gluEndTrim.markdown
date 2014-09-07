@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-gluEndTrim  Interface to OpenGL function gluEndTrim
+gluEndTrim  Interface to OpenGL function gluEndTrim  
 
-usage:  gluEndTrim( nurb )
+usage:  gluEndTrim( nurb )  
 
-C function:  void gluEndTrim(GLUnurbs\* nurb)
+C function:  void gluEndTrim(GLUnurbs\* nurb)  
 
 
 <div class="code_header" style="text-align:right;">

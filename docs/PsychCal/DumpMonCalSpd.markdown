@@ -6,27 +6,27 @@ categories:
 encoding: UTF-8
 ---
 
-DumpMonCalSpd
+DumpMonCalSpd  
 
-This program reads a standard calibration file and
-reports what is in it.
+This program reads a standard calibration file and  
+reports what is in it.  
 
-Assumes exactly three primaries.  There
-may be rare cases where this is not the case, in which case
-you need to look at the calibration data by hand.
+Assumes exactly three primaries.  There  
+may be rare cases where this is not the case, in which case  
+you need to look at the calibration data by hand.  
 
-This version assumes that the calibration file contains
-measured spectral data.  It needs to be made more generic
-so that it can handle tristimulus and luminance calibrations.
+This version assumes that the calibration file contains  
+measured spectral data.  It needs to be made more generic  
+so that it can handle tristimulus and luminance calibrations.  
 
-8/22/97  dhb  Wrote it.
-2/25/98  dhb  Postpend Spd to the name.
-8/20/00  dhb  Change name to dump.
-3/1/02   dhb  Arbitrary file names.
-5/1/02   dhb  Add DUMPALL flag.
-9/26/08  dhb, ijk, tyl  Made output easier to read.  Only access named files.
-              Assume three primaries.
-5/27/11  dhb  Update name of default monitor calibration.
+8/22/97  dhb  Wrote it.  
+2/25/98  dhb  Postpend Spd to the name.  
+8/20/00  dhb  Change name to dump.  
+3/1/02   dhb  Arbitrary file names.  
+5/1/02   dhb  Add DUMPALL flag.  
+9/26/08  dhb, ijk, tyl  Made output easier to read.  Only access named files.  
+              Assume three primaries.  
+5/27/11  dhb  Update name of default monitor calibration.  
 
 
 <div class="code_header" style="text-align:right;">

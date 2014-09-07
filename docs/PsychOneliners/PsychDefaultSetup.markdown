@@ -6,41 +6,41 @@ categories:
 encoding: UTF-8
 ---
 
-PsychDefaultSetup(featureLevel) - Perform standard setup for Psychtoolbox.
+PsychDefaultSetup(featureLevel) - Perform standard setup for Psychtoolbox.  
 
-This function performs a few typical "boilerplate" setup operations
-at the beginning of a script to avoid repetitive code at the top of
-a script.
+This function performs a few typical "boilerplate" setup operations  
+at the beginning of a script to avoid repetitive code at the top of  
+a script.  
 
-Add it at the top of your script, so all its settings affect successive
-Psychtoolbox commands.
+Add it at the top of your script, so all its settings affect successive  
+Psychtoolbox commands.  
 
-The parameter 'featureLevel' determines what kind of setup is
-specifically performed. A higher number for 'featureLevel' will
-include all setup steps and default settings for lower numbers
-of 'featureLevel' and extend on them. E.g., a featureLevel of 2 would
-imply all setup operations of featureLevel 0 and 1, plus some new
-additional setup operations.
+The parameter 'featureLevel' determines what kind of setup is  
+specifically performed. A higher number for 'featureLevel' will  
+include all setup steps and default settings for lower numbers  
+of 'featureLevel' and extend on them. E.g., a featureLevel of 2 would  
+imply all setup operations of featureLevel 0 and 1, plus some new  
+additional setup operations.  
 
-A 'featureLevel' of 0 will do nothing but execute the AssertOpenGL command,
-to make sure that the [Screen](/docs/Screen)() mex file is properly installed and functional.
+A 'featureLevel' of 0 will do nothing but execute the AssertOpenGL command,  
+to make sure that the [Screen](/docs/Screen)() mex file is properly installed and functional.  
 
-A 'featureLevel' of 1 will additionally execute KbName('UnifyKeyNames') to
-provide a consistent mapping of keyCodes to key names on all operating
-systems.
+A 'featureLevel' of 1 will additionally execute KbName('UnifyKeyNames') to  
+provide a consistent mapping of keyCodes to key names on all operating  
+systems.  
 
-A 'featureLevel' of 2 will additionally imply the execution of
-[Screen](/docs/Screen)('ColorRange', window, 1, [], 1); immediately after and whenever
-PsychImaging('OpenWindow',...) is called, thereby switching the default
-color range from the classic 0-255 integer number range to the normalized
-floating point number range 0.0 - 1.0 to unify color specifications
-across differently capable display output devices, e.g., standard 8 bit
-displays vs. high precision 16 bit displays. Please note that clamping of
-valid color values to the 0 - 1 range is still active and colors will
-still be represented by 256 discrete levels (8 Bit resolution), unless
-you also use PsychImaging() commands to request unclamped color
-processing or floating point precision framebuffers. This function by
-itself only changes the range, not the precision of color specifications!
+A 'featureLevel' of 2 will additionally imply the execution of  
+[Screen](/docs/Screen)('ColorRange', window, 1, [], 1); immediately after and whenever  
+PsychImaging('OpenWindow',...) is called, thereby switching the default  
+color range from the classic 0-255 integer number range to the normalized  
+floating point number range 0.0 - 1.0 to unify color specifications  
+across differently capable display output devices, e.g., standard 8 bit  
+displays vs. high precision 16 bit displays. Please note that clamping of  
+valid color values to the 0 - 1 range is still active and colors will  
+still be represented by 256 discrete levels (8 Bit resolution), unless  
+you also use PsychImaging() commands to request unclamped color  
+processing or floating point precision framebuffers. This function by  
+itself only changes the range, not the precision of color specifications!  
 
 
 

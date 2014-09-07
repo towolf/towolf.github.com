@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-gluLookAt  Interface to OpenGL function gluLookAt
+gluLookAt  Interface to OpenGL function gluLookAt  
 
-usage:  gluLookAt( eyeX, eyeY, eyeZ, centerX, centerY, centerZ, upX, upY, upZ )
+usage:  gluLookAt( eyeX, eyeY, eyeZ, centerX, centerY, centerZ, upX, upY, upZ )  
 
-C function:  void gluLookAt(GLdouble eyeX, GLdouble eyeY, GLdouble eyeZ, GLdouble centerX, GLdouble centerY, GLdouble centerZ, GLdouble upX, GLdouble upY, GLdouble upZ)
+C function:  void gluLookAt(GLdouble eyeX, GLdouble eyeY, GLdouble eyeZ, GLdouble centerX, GLdouble centerY, GLdouble centerZ, GLdouble upX, GLdouble upY, GLdouble upZ)  
 
 
 <div class="code_header" style="text-align:right;">

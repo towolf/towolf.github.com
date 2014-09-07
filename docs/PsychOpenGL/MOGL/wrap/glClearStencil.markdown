@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glClearStencil  Interface to OpenGL function glClearStencil
+glClearStencil  Interface to OpenGL function glClearStencil  
 
-usage:  glClearStencil( s )
+usage:  glClearStencil( s )  
 
-C function:  void glClearStencil(GLint s)
+C function:  void glClearStencil(GLint s)  
 
 
 <div class="code_header" style="text-align:right;">

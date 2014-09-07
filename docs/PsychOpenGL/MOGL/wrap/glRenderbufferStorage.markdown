@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glRenderbufferStorage  Interface to OpenGL function glRenderbufferStorage
+glRenderbufferStorage  Interface to OpenGL function glRenderbufferStorage  
 
-usage:  glRenderbufferStorage( target, internalformat, width, height )
+usage:  glRenderbufferStorage( target, internalformat, width, height )  
 
-C function:  void glRenderbufferStorage(GLenum target, GLenum internalformat, GLsizei width, GLsizei height)
+C function:  void glRenderbufferStorage(GLenum target, GLenum internalformat, GLsizei width, GLsizei height)  
 
 
 <div class="code_header" style="text-align:right;">

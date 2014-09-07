@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glBufferData  Interface to OpenGL function glBufferData
+glBufferData  Interface to OpenGL function glBufferData  
 
-usage:  glBufferData( target, ptr, data, usage )
+usage:  glBufferData( target, ptr, data, usage )  
 
-C function:  void glBufferData(GLenum target, GLsizei ptr, const GLvoid\* data, GLenum usage)
+C function:  void glBufferData(GLenum target, GLsizei ptr, const GLvoid\* data, GLenum usage)  
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glVertexAttrib4Nuiv  Interface to OpenGL function glVertexAttrib4Nuiv
+glVertexAttrib4Nuiv  Interface to OpenGL function glVertexAttrib4Nuiv  
 
-usage:  glVertexAttrib4Nuiv( index, v )
+usage:  glVertexAttrib4Nuiv( index, v )  
 
-C function:  void glVertexAttrib4Nuiv(GLuint index, const GLuint\* v)
+C function:  void glVertexAttrib4Nuiv(GLuint index, const GLuint\* v)  
 
 
 <div class="code_header" style="text-align:right;">

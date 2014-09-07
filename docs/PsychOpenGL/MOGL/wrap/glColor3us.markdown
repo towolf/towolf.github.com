@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glColor3us  Interface to OpenGL function glColor3us
+glColor3us  Interface to OpenGL function glColor3us  
 
-usage:  glColor3us( red, green, blue )
+usage:  glColor3us( red, green, blue )  
 
-C function:  void glColor3us(GLushort red, GLushort green, GLushort blue)
+C function:  void glColor3us(GLushort red, GLushort green, GLushort blue)  
 
 
 <div class="code_header" style="text-align:right;">

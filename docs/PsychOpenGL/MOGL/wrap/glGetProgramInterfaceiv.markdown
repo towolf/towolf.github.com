@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetProgramInterfaceiv  Interface to OpenGL function glGetProgramInterfaceiv
+glGetProgramInterfaceiv  Interface to OpenGL function glGetProgramInterfaceiv  
 
-usage:  params = glGetProgramInterfaceiv( program, programInterface, pname )
+usage:  params = glGetProgramInterfaceiv( program, programInterface, pname )  
 
-C function:  void glGetProgramInterfaceiv(GLuint program, GLenum programInterface, GLenum pname, GLint\* params)
+C function:  void glGetProgramInterfaceiv(GLuint program, GLenum programInterface, GLenum pname, GLint\* params)  
 
 
 <div class="code_header" style="text-align:right;">

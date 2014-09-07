@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glClientActiveTexture  Interface to OpenGL function glClientActiveTexture
+glClientActiveTexture  Interface to OpenGL function glClientActiveTexture  
 
-usage:  glClientActiveTexture( texture )
+usage:  glClientActiveTexture( texture )  
 
-C function:  void glClientActiveTexture(GLenum texture)
+C function:  void glClientActiveTexture(GLenum texture)  
 
 
 <div class="code_header" style="text-align:right;">

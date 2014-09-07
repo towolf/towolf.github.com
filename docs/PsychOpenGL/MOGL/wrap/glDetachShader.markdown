@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glDetachShader  Interface to OpenGL function glDetachShader
+glDetachShader  Interface to OpenGL function glDetachShader  
 
-usage:  glDetachShader( program, shader )
+usage:  glDetachShader( program, shader )  
 
-C function:  void glDetachShader(GLuint program, GLuint shader)
+C function:  void glDetachShader(GLuint program, GLuint shader)  
 
 
 <div class="code_header" style="text-align:right;">

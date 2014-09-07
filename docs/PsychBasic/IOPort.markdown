@@ -6,38 +6,38 @@ categories:
 encoding: UTF-8
 ---
 
-[IOPort](/docs/IOPort) is a MEX file for precise control of input/output hardware, e.g.,
-Serial ports (or emulated serial ports like Serial-over-USB etc.),
-parallel ports, network ports, and special digital I/O boxes.
+[IOPort](/docs/IOPort) is a MEX file for precise control of input/output hardware, e.g.,  
+Serial ports (or emulated serial ports like Serial-over-USB etc.),  
+parallel ports, network ports, and special digital I/O boxes.  
 
-# Goal
+# Goal  
 
-It provides a unified cross-platform interface to such devices and tries
-to bundle functionality in one MEX file that is common to all those
-devices, but implemented differently on each of them. An example would be
-sending of trigger signals: The step to send a trigger signal is always
-the same. Your code wants to send a trigger signal immediately (with
-lowest possible delay), at a scheduled point in time, or automatically in
-response to some event like stimulus onset. However, the mechanism to
-send triggers is different for different devices. [IOPort](/docs/IOPort) tries to provide
-a unified interface for such cases, so you need to code only once and
-[IOPort](/docs/IOPort) takes care of the nitty gritty differences between different
-devices in how they send trigger signals.
+It provides a unified cross-platform interface to such devices and tries  
+to bundle functionality in one MEX file that is common to all those  
+devices, but implemented differently on each of them. An example would be  
+sending of trigger signals: The step to send a trigger signal is always  
+the same. Your code wants to send a trigger signal immediately (with  
+lowest possible delay), at a scheduled point in time, or automatically in  
+response to some event like stimulus onset. However, the mechanism to  
+send triggers is different for different devices. [IOPort](/docs/IOPort) tries to provide  
+a unified interface for such cases, so you need to code only once and  
+[IOPort](/docs/IOPort) takes care of the nitty gritty differences between different  
+devices in how they send trigger signals.  
 
-So far the theory. The current implementation of [IOPort](/docs/IOPort) only provides
-unified support for accessing the serial ports of your computer. All
-other functions and device classes will be added in future releases of
-the driver.
+So far the theory. The current implementation of [IOPort](/docs/IOPort) only provides  
+unified support for accessing the serial ports of your computer. All  
+other functions and device classes will be added in future releases of  
+the driver.  
 
-# Usage
+# Usage  
 
-[IOPort](/docs/IOPort) has many functions; type "[IOPort](/docs/IOPort)" for a list:
-    [IOPort](/docs/IOPort)
+[IOPort](/docs/IOPort) has many functions; type "[IOPort](/docs/IOPort)" for a list:  
+    [IOPort](/docs/IOPort)  
 
-For explanation of any particular [IOPort](/docs/IOPort) function, just add a question
-mark "?". E.g. for 'OpenSerialPort', try either of these equivalent forms:
-    [IOPort](/docs/IOPort)('OpenSerialPort?')
-    [IOPort](/docs/IOPort) OpenSerialPort?
+For explanation of any particular [IOPort](/docs/IOPort) function, just add a question  
+mark "?". E.g. for 'OpenSerialPort', try either of these equivalent forms:  
+    [IOPort](/docs/IOPort)('OpenSerialPort?')  
+    [IOPort](/docs/IOPort) OpenSerialPort?  
 
 
 

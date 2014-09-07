@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-ScreenTest
+ScreenTest  
 
-Test hardware/software configuration for performance.
+Test hardware/software configuration for performance.  
 
-10/14/06  dhb  Wrote stub version.
+10/14/06  dhb  Wrote stub version.  
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glConvolutionParameterfv  Interface to OpenGL function glConvolutionParameterfv
+glConvolutionParameterfv  Interface to OpenGL function glConvolutionParameterfv  
 
-usage:  glConvolutionParameterfv( target, pname, params )
+usage:  glConvolutionParameterfv( target, pname, params )  
 
-C function:  void glConvolutionParameterfv(GLenum target, GLenum pname, const GLfloat\* params)
+C function:  void glConvolutionParameterfv(GLenum target, GLenum pname, const GLfloat\* params)  
 
 
 <div class="code_header" style="text-align:right;">

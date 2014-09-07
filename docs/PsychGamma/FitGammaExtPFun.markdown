@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-[err,con] = FitGammaExtPFun(x,values,measurements)
+[err,con] = FitGammaExtPFun(x,values,measurements)  
 
-Error function for power function fit.
+Error function for power function fit.  
 
-9/21/93  DHB  Added positivity constraint.
+9/21/93  DHB  Added positivity constraint.  
 
 
 <div class="code_header" style="text-align:right;">

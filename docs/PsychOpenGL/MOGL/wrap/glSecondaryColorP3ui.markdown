@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glSecondaryColorP3ui  Interface to OpenGL function glSecondaryColorP3ui
+glSecondaryColorP3ui  Interface to OpenGL function glSecondaryColorP3ui  
 
-usage:  glSecondaryColorP3ui( type, color )
+usage:  glSecondaryColorP3ui( type, color )  
 
-C function:  void glSecondaryColorP3ui(GLenum type, GLuint color)
+C function:  void glSecondaryColorP3ui(GLenum type, GLuint color)  
 
 
 <div class="code_header" style="text-align:right;">

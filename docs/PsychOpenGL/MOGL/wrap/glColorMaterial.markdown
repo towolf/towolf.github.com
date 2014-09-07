@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glColorMaterial  Interface to OpenGL function glColorMaterial
+glColorMaterial  Interface to OpenGL function glColorMaterial  
 
-usage:  glColorMaterial( face, mode )
+usage:  glColorMaterial( face, mode )  
 
-C function:  void glColorMaterial(GLenum face, GLenum mode)
+C function:  void glColorMaterial(GLenum face, GLenum mode)  
 
 
 <div class="code_header" style="text-align:right;">

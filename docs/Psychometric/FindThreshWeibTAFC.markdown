@@ -6,14 +6,14 @@ categories:
 encoding: UTF-8
 ---
 
-threshold = FindThreshWeibTAFC(pCorrect,alpha,beta)
+threshold = FindThreshWeibTAFC(pCorrect,alpha,beta)  
 
-Invert Weibull function to find threshold for given pcorrect,
-alpha, and beta.
+Invert Weibull function to find threshold for given pcorrect,  
+alpha, and beta.  
 
-This function should invert ComputeWeibTAFC().
+This function should invert ComputeWeibTAFC().  
 
-8/25/94 dhb, ccc    New name, fixed comments
+8/25/94 dhb, ccc    New name, fixed comments  
 
 
 <div class="code_header" style="text-align:right;">

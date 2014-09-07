@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetActiveUniformBlockiv  Interface to OpenGL function glGetActiveUniformBlockiv
+glGetActiveUniformBlockiv  Interface to OpenGL function glGetActiveUniformBlockiv  
 
-usage:  params = glGetActiveUniformBlockiv( program, uniformBlockIndex, pname )
+usage:  params = glGetActiveUniformBlockiv( program, uniformBlockIndex, pname )  
 
-C function:  void glGetActiveUniformBlockiv(GLuint program, GLuint uniformBlockIndex, GLenum pname, GLint\* params)
+C function:  void glGetActiveUniformBlockiv(GLuint program, GLuint uniformBlockIndex, GLenum pname, GLint\* params)  
 
 
 <div class="code_header" style="text-align:right;">

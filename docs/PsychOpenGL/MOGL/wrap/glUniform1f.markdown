@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glUniform1f  Interface to OpenGL function glUniform1f
+glUniform1f  Interface to OpenGL function glUniform1f  
 
-usage:  glUniform1f( location, v0 )
+usage:  glUniform1f( location, v0 )  
 
-C function:  void glUniform1f(GLint location, GLfloat v0)
+C function:  void glUniform1f(GLint location, GLfloat v0)  
 
 
 <div class="code_header" style="text-align:right;">

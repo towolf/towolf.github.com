@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glInvalidateBufferSubData  Interface to OpenGL function glInvalidateBufferSubData
+glInvalidateBufferSubData  Interface to OpenGL function glInvalidateBufferSubData  
 
-usage:  glInvalidateBufferSubData( buffer, ptr, ptr )
+usage:  glInvalidateBufferSubData( buffer, ptr, ptr )  
 
-C function:  void glInvalidateBufferSubData(GLuint buffer, GLint ptr, GLsizei ptr)
+C function:  void glInvalidateBufferSubData(GLuint buffer, GLint ptr, GLsizei ptr)  
 
 
 <div class="code_header" style="text-align:right;">

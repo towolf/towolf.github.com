@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-gluNextContour  Interface to OpenGL function gluNextContour
+gluNextContour  Interface to OpenGL function gluNextContour  
 
-usage:  gluNextContour( tess, type )
+usage:  gluNextContour( tess, type )  
 
-C function:  void gluNextContour(GLUtesselator\* tess, GLenum type)
+C function:  void gluNextContour(GLUtesselator\* tess, GLenum type)  
 
 
 <div class="code_header" style="text-align:right;">

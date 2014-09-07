@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glBindBuffer  Interface to OpenGL function glBindBuffer
+glBindBuffer  Interface to OpenGL function glBindBuffer  
 
-usage:  glBindBuffer( target, buffer )
+usage:  glBindBuffer( target, buffer )  
 
-C function:  void glBindBuffer(GLenum target, GLuint buffer)
+C function:  void glBindBuffer(GLenum target, GLuint buffer)  
 
 
 <div class="code_header" style="text-align:right;">

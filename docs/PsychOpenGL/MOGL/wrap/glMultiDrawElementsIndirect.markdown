@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glMultiDrawElementsIndirect  Interface to OpenGL function glMultiDrawElementsIndirect
+glMultiDrawElementsIndirect  Interface to OpenGL function glMultiDrawElementsIndirect  
 
-usage:  glMultiDrawElementsIndirect( mode, type, indirect, drawcount, stride )
+usage:  glMultiDrawElementsIndirect( mode, type, indirect, drawcount, stride )  
 
-C function:  void glMultiDrawElementsIndirect(GLenum mode, GLenum type, const void\* indirect, GLsizei drawcount, GLsizei stride)
+C function:  void glMultiDrawElementsIndirect(GLenum mode, GLenum type, const void\* indirect, GLsizei drawcount, GLsizei stride)  
 
 
 <div class="code_header" style="text-align:right;">

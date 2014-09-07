@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glIndexubv  Interface to OpenGL function glIndexubv
+glIndexubv  Interface to OpenGL function glIndexubv  
 
-usage:  glIndexubv( c )
+usage:  glIndexubv( c )  
 
-C function:  void glIndexubv(const GLubyte\* c)
+C function:  void glIndexubv(const GLubyte\* c)  
 
 
 <div class="code_header" style="text-align:right;">

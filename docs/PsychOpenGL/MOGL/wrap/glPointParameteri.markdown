@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glPointParameteri  Interface to OpenGL function glPointParameteri
+glPointParameteri  Interface to OpenGL function glPointParameteri  
 
-usage:  glPointParameteri( pname, param )
+usage:  glPointParameteri( pname, param )  
 
-C function:  void glPointParameteri(GLenum pname, GLint param)
+C function:  void glPointParameteri(GLenum pname, GLint param)  
 
 
 <div class="code_header" style="text-align:right;">

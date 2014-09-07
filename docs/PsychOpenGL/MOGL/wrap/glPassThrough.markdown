@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glPassThrough  Interface to OpenGL function glPassThrough
+glPassThrough  Interface to OpenGL function glPassThrough  
 
-usage:  glPassThrough( token )
+usage:  glPassThrough( token )  
 
-C function:  void glPassThrough(GLfloat token)
+C function:  void glPassThrough(GLfloat token)  
 
 
 <div class="code_header" style="text-align:right;">

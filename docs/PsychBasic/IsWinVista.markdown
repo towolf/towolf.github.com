@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-IsWinVista - Return if this is a MS-Windows Vista OS or later.
+IsWinVista - Return if this is a MS-Windows Vista OS or later.  
 
 
 

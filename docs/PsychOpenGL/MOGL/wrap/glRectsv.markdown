@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glRectsv  Interface to OpenGL function glRectsv
+glRectsv  Interface to OpenGL function glRectsv  
 
-usage:  glRectsv( v1, v2 )
+usage:  glRectsv( v1, v2 )  
 
-C function:  void glRectsv(const GLshort\* v1, const GLshort\* v2)
+C function:  void glRectsv(const GLshort\* v1, const GLshort\* v2)  
 
 
 <div class="code_header" style="text-align:right;">

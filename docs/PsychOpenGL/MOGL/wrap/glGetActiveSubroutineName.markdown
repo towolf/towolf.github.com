@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetActiveSubroutineName  Interface to OpenGL function glGetActiveSubroutineName
+glGetActiveSubroutineName  Interface to OpenGL function glGetActiveSubroutineName  
 
-usage:  [ length, name ] = glGetActiveSubroutineName( program, shadertype, index, bufsize )
+usage:  [ length, name ] = glGetActiveSubroutineName( program, shadertype, index, bufsize )  
 
-C function:  void glGetActiveSubroutineName(GLuint program, GLenum shadertype, GLuint index, GLsizei bufsize, GLsizei\* length, GLchar\* name)
+C function:  void glGetActiveSubroutineName(GLuint program, GLenum shadertype, GLuint index, GLsizei bufsize, GLsizei\* length, GLchar\* name)  
 
 
 <div class="code_header" style="text-align:right;">

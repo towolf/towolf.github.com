@@ -6,15 +6,15 @@ categories:
 encoding: UTF-8
 ---
 
- out = EnforcePos(in)
+ out = EnforcePos(in)  
 
-Enforce the constraint that spectral power must be
-positive.
+Enforce the constraint that spectral power must be  
+positive.  
 
-A sophisticated algorithm might do something with small
-positive values as well.
+A sophisticated algorithm might do something with small  
+positive values as well.  
 
-10/23/93  dhb  Wrote it.
+10/23/93  dhb  Wrote it.  
 
 
 <div class="code_header" style="text-align:right;">

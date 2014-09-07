@@ -6,10 +6,10 @@ categories:
 encoding: UTF-8
 ---
 
- USAGE: [key, el]=EyelinkGetKey(el)
+ USAGE: [key, el]=EyelinkGetKey(el)  
 
-        el: eyelink default values, also stores
-           getkeytime (last time this function was used)
+        el: eyelink default values, also stores  
+           getkeytime (last time this function was used)  
 
 
 <div class="code_header" style="text-align:right;">

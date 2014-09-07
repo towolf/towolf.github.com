@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glPixelZoom  Interface to OpenGL function glPixelZoom
+glPixelZoom  Interface to OpenGL function glPixelZoom  
 
-usage:  glPixelZoom( xfactor, yfactor )
+usage:  glPixelZoom( xfactor, yfactor )  
 
-C function:  void glPixelZoom(GLfloat xfactor, GLfloat yfactor)
+C function:  void glPixelZoom(GLfloat xfactor, GLfloat yfactor)  
 
 
 <div class="code_header" style="text-align:right;">

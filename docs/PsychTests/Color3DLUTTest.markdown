@@ -6,13 +6,13 @@ categories:
 encoding: UTF-8
 ---
 
-A simple test/demo of use of 3D CLUT color correction.
+A simple test/demo of use of 3D CLUT color correction.  
 
-Shows some simple test color transformations, performs some CLUT
-conversion accuracy test at the end, measuring how smaller CLUT sizes /
-resolutions affect the precision of color conversion.
+Shows some simple test color transformations, performs some CLUT  
+conversion accuracy test at the end, measuring how smaller CLUT sizes /  
+resolutions affect the precision of color conversion.  
 
-Press any key to progress through different tests/demos.
+Press any key to progress through different tests/demos.  
 
 
 

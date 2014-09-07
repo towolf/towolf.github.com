@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glIsTransformFeedback  Interface to OpenGL function glIsTransformFeedback
+glIsTransformFeedback  Interface to OpenGL function glIsTransformFeedback  
 
-usage:  r = glIsTransformFeedback( id )
+usage:  r = glIsTransformFeedback( id )  
 
-C function:  GLboolean glIsTransformFeedback(GLuint id)
+C function:  GLboolean glIsTransformFeedback(GLuint id)  
 
 
 <div class="code_header" style="text-align:right;">

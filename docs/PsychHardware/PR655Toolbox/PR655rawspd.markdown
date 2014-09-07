@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-readStr = PR655rawspd(timeout)
+readStr = PR655rawspd(timeout)  
 
-Measure spd and return string.
+Measure spd and return string.  
 
-01/16/09    tbc   Adapted from PR650Toolbox for use with PR655
+01/16/09    tbc   Adapted from PR650Toolbox for use with PR655  
 
 
 

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-[width,height] = WindowSize(window)
+[width,height] = WindowSize(window)  
 
-Returns a window's width and height.
+Returns a window's width and height.  
 
-26/03/2001 fwc based on rectsize.m
+26/03/2001 fwc based on rectsize.m  
 
 
 <div class="code_header" style="text-align:right;">

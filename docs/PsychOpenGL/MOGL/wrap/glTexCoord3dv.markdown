@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glTexCoord3dv  Interface to OpenGL function glTexCoord3dv
+glTexCoord3dv  Interface to OpenGL function glTexCoord3dv  
 
-usage:  glTexCoord3dv( v )
+usage:  glTexCoord3dv( v )  
 
-C function:  void glTexCoord3dv(const GLdouble\* v)
+C function:  void glTexCoord3dv(const GLdouble\* v)  
 
 
 <div class="code_header" style="text-align:right;">

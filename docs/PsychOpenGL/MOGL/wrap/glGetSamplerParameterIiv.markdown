@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetSamplerParameterIiv  Interface to OpenGL function glGetSamplerParameterIiv
+glGetSamplerParameterIiv  Interface to OpenGL function glGetSamplerParameterIiv  
 
-usage:  params = glGetSamplerParameterIiv( sampler, pname )
+usage:  params = glGetSamplerParameterIiv( sampler, pname )  
 
-C function:  void glGetSamplerParameterIiv(GLuint sampler, GLenum pname, GLint\* params)
+C function:  void glGetSamplerParameterIiv(GLuint sampler, GLenum pname, GLint\* params)  
 
 
 <div class="code_header" style="text-align:right;">

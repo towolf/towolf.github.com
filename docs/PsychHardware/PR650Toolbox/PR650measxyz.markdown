@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-[xyz,qual] = PR650measspd
+[xyz,qual] = PR650measspd  
 
-Make a measurement of the spectrum.
+Make a measurement of the spectrum.  
 
 
 <div class="code_header" style="text-align:right;">

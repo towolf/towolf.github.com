@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glWindowPos3fv  Interface to OpenGL function glWindowPos3fv
+glWindowPos3fv  Interface to OpenGL function glWindowPos3fv  
 
-usage:  glWindowPos3fv( v )
+usage:  glWindowPos3fv( v )  
 
-C function:  void glWindowPos3fv(const GLfloat\* v)
+C function:  void glWindowPos3fv(const GLfloat\* v)  
 
 
 <div class="code_header" style="text-align:right;">

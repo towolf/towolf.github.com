@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-set a number of iviewx default parameters
+set a number of iviewx default parameters  
 
 
 <div class="code_header" style="text-align:right;">

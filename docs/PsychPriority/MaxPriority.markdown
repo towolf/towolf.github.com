@@ -6,47 +6,47 @@ categories:
 encoding: UTF-8
 ---
 
-priorityLevel=MaxPriority([windowPtrOrScreenNumber],['WaitBlanking'],['PeekBlanking'],...
-                            ['BlankingInterrupt'],['SetClut'],['ClutMovie'],...
-                            ['SND'],['sound'],['speak'],...
-                            ['GetSecs'],['WaitSecs'],['cputime'],...
-                            ['KbCheck'],['KbWait'],['CharAvail'],['GetChar'],...
-                            ['EventAvail'],['GetClicks'],['GetMouse'],['GetTicks'])
+priorityLevel=MaxPriority([windowPtrOrScreenNumber],['WaitBlanking'],['PeekBlanking'],...  
+                            ['BlankingInterrupt'],['SetClut'],['ClutMovie'],...  
+                            ['SND'],['sound'],['speak'],...  
+                            ['GetSecs'],['WaitSecs'],['cputime'],...  
+                            ['KbCheck'],['KbWait'],['CharAvail'],['GetChar'],...  
+                            ['EventAvail'],['GetClicks'],['GetMouse'],['GetTicks'])  
 
-MaxPriority.m receives a list of one or more function names, in any
-order, and returns the maximum priorityLevel that will allow all the
-named functions to work normally on this computer. Use MaxPriority
-before calling RUSH, to select the highest priorityLevel that's
-compatible with all the functions that you're rushing.
+MaxPriority.m receives a list of one or more function names, in any  
+order, and returns the maximum priorityLevel that will allow all the  
+named functions to work normally on this computer. Use MaxPriority  
+before calling RUSH, to select the highest priorityLevel that's  
+compatible with all the functions that you're rushing.  
 
-The name matching ignores case.
+The name matching ignores case.  
 
-# OS X
+# OS X  
 
-On OS X all priority levels are safe for all functions. MaxPriority
-always returns 9, the highest priority level.
+On OS X all priority levels are safe for all functions. MaxPriority  
+always returns 9, the highest priority level.  
 
-To preserve compatibility with other platforms we recommend using
-MaxPriority in your script on OS X, instead of the constant 9.
+To preserve compatibility with other platforms we recommend using  
+MaxPriority in your script on OS X, instead of the constant 9.  
 
-# WINDOWS
+# WINDOWS  
 
-[Priority](/docs/Priority) levels returned by MaxPriority are 0, 1 and 2.
-Although use of priority levels \> 1 is possible and allowed by MaxPriority
-if you don't try to acquire input from keyboard or mouse, it is discouraged
-to use levels \> 1 as this can interfere with execution of a lot of
-important system processes and severely reduce the stability of
-Windows execution.
+[Priority](/docs/Priority) levels returned by MaxPriority are 0, 1 and 2.  
+Although use of priority levels \> 1 is possible and allowed by MaxPriority  
+if you don't try to acquire input from keyboard or mouse, it is discouraged  
+to use levels \> 1 as this can interfere with execution of a lot of  
+important system processes and severely reduce the stability of  
+Windows execution.  
 
-# LINUX
+# LINUX  
 
-MaxPriority always returns 1, although levels of up to 99 are possible.
-We recommend to sticking to the lowest level, unless some tweaking for a
-specific setup or situation is necessary.
-----
+MaxPriority always returns 1, although levels of up to 99 are possible.  
+We recommend to sticking to the lowest level, unless some tweaking for a  
+specific setup or situation is necessary.  
+----  
 
-See RUSH, [Priority](/docs/Priority), MovieDemo, ScreenTest, SCREEN [Preference](/docs/Preference) MaxPriorityForBlankingInterrupt,
-SCREEN [Preference](/docs/Preference) SetClutPunchesBlankingClock.
+See RUSH, [Priority](/docs/Priority), MovieDemo, ScreenTest, SCREEN [Preference](/docs/Preference) MaxPriorityForBlankingInterrupt,  
+SCREEN [Preference](/docs/Preference) SetClutPunchesBlankingClock.  
 
 
 <div class="code_header" style="text-align:right;">

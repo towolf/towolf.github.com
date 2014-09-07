@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glFlush  Interface to OpenGL function glFlush
+glFlush  Interface to OpenGL function glFlush  
 
-usage:  glFlush
+usage:  glFlush  
 
-C function:  void glFlush(void)
+C function:  void glFlush(void)  
 
 
 <div class="code_header" style="text-align:right;">

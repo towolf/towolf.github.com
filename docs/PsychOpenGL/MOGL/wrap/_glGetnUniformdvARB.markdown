@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetnUniformdvARB  Interface to OpenGL function glGetnUniformdvARB
+glGetnUniformdvARB  Interface to OpenGL function glGetnUniformdvARB  
 
-usage:  params = glGetnUniformdvARB( program, location, bufSize )
+usage:  params = glGetnUniformdvARB( program, location, bufSize )  
 
-C function:  void glGetnUniformdvARB(GLuint program, GLint location, GLsizei bufSize, GLdouble\* params)
+C function:  void glGetnUniformdvARB(GLuint program, GLint location, GLsizei bufSize, GLdouble\* params)  
 
 
 <div class="code_header" style="text-align:right;">

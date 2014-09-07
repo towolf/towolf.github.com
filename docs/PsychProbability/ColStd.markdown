@@ -6,12 +6,12 @@ categories:
 encoding: UTF-8
 ---
 
-theMean = ColStd(matrix)
+theMean = ColStd(matrix)  
 
-Take the column standard deviation of a matrix.  Unlike std, always
-returns a vector, even if the matrix has only 1 row.
+Take the column standard deviation of a matrix.  Unlike std, always  
+returns a vector, even if the matrix has only 1 row.  
 
-2/13/96     dhb     Wrote it.
+2/13/96     dhb     Wrote it.  
 
 
 <div class="code_header" style="text-align:right;">

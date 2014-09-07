@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glInvalidateTexImage  Interface to OpenGL function glInvalidateTexImage
+glInvalidateTexImage  Interface to OpenGL function glInvalidateTexImage  
 
-usage:  glInvalidateTexImage( texture, level )
+usage:  glInvalidateTexImage( texture, level )  
 
-C function:  void glInvalidateTexImage(GLuint texture, GLint level)
+C function:  void glInvalidateTexImage(GLuint texture, GLint level)  
 
 
 <div class="code_header" style="text-align:right;">

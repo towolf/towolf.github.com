@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetSynciv  Interface to OpenGL function glGetSynciv
+glGetSynciv  Interface to OpenGL function glGetSynciv  
 
-usage:  [ length, values ] = glGetSynciv( sync, pname, bufSize )
+usage:  [ length, values ] = glGetSynciv( sync, pname, bufSize )  
 
-C function:  void glGetSynciv(GLsync sync, GLenum pname, GLsizei bufSize, GLsizei\* length, GLint\* values)
+C function:  void glGetSynciv(GLsync sync, GLenum pname, GLsizei bufSize, GLsizei\* length, GLint\* values)  
 
 
 <div class="code_header" style="text-align:right;">

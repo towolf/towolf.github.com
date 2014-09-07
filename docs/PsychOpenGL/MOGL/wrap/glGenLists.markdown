@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGenLists  Interface to OpenGL function glGenLists
+glGenLists  Interface to OpenGL function glGenLists  
 
-usage:  r = glGenLists( range )
+usage:  r = glGenLists( range )  
 
-C function:  GLuint glGenLists(GLsizei range)
+C function:  GLuint glGenLists(GLsizei range)  
 
 
 <div class="code_header" style="text-align:right;">

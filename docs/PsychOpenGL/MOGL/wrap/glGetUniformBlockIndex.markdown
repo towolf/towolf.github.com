@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetUniformBlockIndex  Interface to OpenGL function glGetUniformBlockIndex
+glGetUniformBlockIndex  Interface to OpenGL function glGetUniformBlockIndex  
 
-usage:  r = glGetUniformBlockIndex( program, uniformBlockName )
+usage:  r = glGetUniformBlockIndex( program, uniformBlockName )  
 
-C function:  GLuint glGetUniformBlockIndex(GLuint program, const GLchar\* uniformBlockName)
+C function:  GLuint glGetUniformBlockIndex(GLuint program, const GLchar\* uniformBlockName)  
 
 
 <div class="code_header" style="text-align:right;">

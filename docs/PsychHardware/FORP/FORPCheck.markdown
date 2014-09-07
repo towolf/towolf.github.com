@@ -6,46 +6,46 @@ categories:
 encoding: UTF-8
 ---
 
-FORPCheck Checks if a button of a FORP device (HH-5-CYL) is pressed.
+FORPCheck Checks if a button of a FORP device (HH-5-CYL) is pressed.  
 
-# Usage:
+# Usage:  
 
-   [KeyPressed,EventTime] = FORPCheck()
-
-
-Return the key name (KeyPressed) of the pressed button and the
-time (EventTime) of the status check.
+   [KeyPressed,EventTime] = FORPCheck()  
 
 
-   KeyPressed          Key name of the Pressed Button, empty string
-                       if none pressed.
+Return the key name (KeyPressed) of the pressed button and the  
+time (EventTime) of the status check.  
 
 
-   EventTime           Time of keypress check, as returned by GetSecs.
-
-# IMPORTANT NOTE:
-
-
-   See FORPWait.
-
-   Going through each device can be very time consuming. If would advise
-   to unplug each unnecessary device, so less devices has to be checked.
-   If you have got any advice for a better way to solve those problems, feel
-   free to let me know:
-
-          Florian Stendel
-          Visual Processing Lab
-          Universitaets - Augenklinik Magdeburg
-          Leipziger Strasse 44
-          39120 Magdeburg
-          Tel:    0049 (0)391 67 21723
-          Email:  vincentdhs@gmx.de
+   KeyPressed          Key name of the Pressed Button, empty string  
+                       if none pressed.  
 
 
-   10/10/06   fs   Wrote it.
-   10/16/06   mk   Add caching of device index.
-   10/17/06   fs   Done some restructuring and testing.
-   02/08/07   mk   New vendor id 6171 added to valid device lists.
+   EventTime           Time of keypress check, as returned by GetSecs.  
+
+# IMPORTANT NOTE:  
+
+
+   See FORPWait.  
+
+   Going through each device can be very time consuming. If would advise  
+   to unplug each unnecessary device, so less devices has to be checked.  
+   If you have got any advice for a better way to solve those problems, feel  
+   free to let me know:  
+
+          Florian Stendel  
+          Visual Processing Lab  
+          Universitaets - Augenklinik Magdeburg  
+          Leipziger Strasse 44  
+          39120 Magdeburg  
+          Tel:    0049 (0)391 67 21723  
+          Email:  vincentdhs@gmx.de  
+
+
+   10/10/06   fs   Wrote it.  
+   10/16/06   mk   Add caching of device index.  
+   10/17/06   fs   Done some restructuring and testing.  
+   02/08/07   mk   New vendor id 6171 added to valid device lists.  
 
 
 <div class="code_header" style="text-align:right;">

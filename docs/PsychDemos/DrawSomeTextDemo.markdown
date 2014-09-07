@@ -6,13 +6,13 @@ categories:
 encoding: UTF-8
 ---
 
-DrawSomeText
-----
+DrawSomeText  
+----  
 
- Trivial example of drawing text.
-----
+ Trivial example of drawing text.  
+----  
 
-see also: PsychDemos
+see also: PsychDemos  
 
 
 <div class="code_header" style="text-align:right;">

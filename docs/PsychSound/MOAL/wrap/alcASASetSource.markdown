@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-rc = alcAsaSetSource(property, sourceid, data);
+rc = alcAsaSetSource(property, sourceid, data);  
 
-Interface to function ALEnum alcAsaSetSource(ALuint property, ALuint sourceid, (ALvoid\*) data, ALuint size);
+Interface to function ALEnum alcAsaSetSource(ALuint property, ALuint sourceid, (ALvoid\*) data, ALuint size);  
 
 
 <div class="code_header" style="text-align:right;">

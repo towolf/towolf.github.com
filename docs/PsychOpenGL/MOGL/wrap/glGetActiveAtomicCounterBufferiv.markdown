@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetActiveAtomicCounterBufferiv  Interface to OpenGL function glGetActiveAtomicCounterBufferiv
+glGetActiveAtomicCounterBufferiv  Interface to OpenGL function glGetActiveAtomicCounterBufferiv  
 
-usage:  params = glGetActiveAtomicCounterBufferiv( program, bufferIndex, pname )
+usage:  params = glGetActiveAtomicCounterBufferiv( program, bufferIndex, pname )  
 
-C function:  void glGetActiveAtomicCounterBufferiv(GLuint program, GLuint bufferIndex, GLenum pname, GLint\* params)
+C function:  void glGetActiveAtomicCounterBufferiv(GLuint program, GLuint bufferIndex, GLenum pname, GLint\* params)  
 
 
 <div class="code_header" style="text-align:right;">

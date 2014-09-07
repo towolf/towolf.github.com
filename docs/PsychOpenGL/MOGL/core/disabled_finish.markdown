@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-FINISH  Clean up after MOGL toolbox before quitting MATLAB
+FINISH  Clean up after MOGL toolbox before quitting MATLAB  
 
-finish
+finish  
 
 
 <div class="code_header" style="text-align:right;">

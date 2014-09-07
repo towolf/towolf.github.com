@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glProgramUniform3fv  Interface to OpenGL function glProgramUniform3fv
+glProgramUniform3fv  Interface to OpenGL function glProgramUniform3fv  
 
-usage:  glProgramUniform3fv( program, location, count, value )
+usage:  glProgramUniform3fv( program, location, count, value )  
 
-C function:  void glProgramUniform3fv(GLuint program, GLint location, GLsizei count, const GLfloat\* value)
+C function:  void glProgramUniform3fv(GLuint program, GLint location, GLsizei count, const GLfloat\* value)  
 
 
 <div class="code_header" style="text-align:right;">

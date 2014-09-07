@@ -6,10 +6,10 @@ categories:
 encoding: UTF-8
 ---
 
-TestInitBugTest
+TestInitBugTest  
 
-Tests for a bug in DrawText where failing to initialize text paramters
-causes a SCREEN crash
+Tests for a bug in DrawText where failing to initialize text paramters  
+causes a SCREEN crash  
 
 
 <div class="code_header" style="text-align:right;">

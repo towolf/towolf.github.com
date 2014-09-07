@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glBindProgramPipeline  Interface to OpenGL function glBindProgramPipeline
+glBindProgramPipeline  Interface to OpenGL function glBindProgramPipeline  
 
-usage:  glBindProgramPipeline( pipeline )
+usage:  glBindProgramPipeline( pipeline )  
 
-C function:  void glBindProgramPipeline(GLuint pipeline)
+C function:  void glBindProgramPipeline(GLuint pipeline)  
 
 
 <div class="code_header" style="text-align:right;">

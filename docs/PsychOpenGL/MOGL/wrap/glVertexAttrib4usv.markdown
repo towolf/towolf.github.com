@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glVertexAttrib4usv  Interface to OpenGL function glVertexAttrib4usv
+glVertexAttrib4usv  Interface to OpenGL function glVertexAttrib4usv  
 
-usage:  glVertexAttrib4usv( index, v )
+usage:  glVertexAttrib4usv( index, v )  
 
-C function:  void glVertexAttrib4usv(GLuint index, const GLushort\* v)
+C function:  void glVertexAttrib4usv(GLuint index, const GLushort\* v)  
 
 
 <div class="code_header" style="text-align:right;">

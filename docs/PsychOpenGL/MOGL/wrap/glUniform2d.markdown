@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glUniform2d  Interface to OpenGL function glUniform2d
+glUniform2d  Interface to OpenGL function glUniform2d  
 
-usage:  glUniform2d( location, x, y )
+usage:  glUniform2d( location, x, y )  
 
-C function:  void glUniform2d(GLint location, GLdouble x, GLdouble y)
+C function:  void glUniform2d(GLint location, GLdouble x, GLdouble y)  
 
 
 <div class="code_header" style="text-align:right;">

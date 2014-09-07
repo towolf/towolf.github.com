@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glTexGeniv  Interface to OpenGL function glTexGeniv
+glTexGeniv  Interface to OpenGL function glTexGeniv  
 
-usage:  glTexGeniv( coord, pname, params )
+usage:  glTexGeniv( coord, pname, params )  
 
-C function:  void glTexGeniv(GLenum coord, GLenum pname, const GLint\* params)
+C function:  void glTexGeniv(GLenum coord, GLenum pname, const GLint\* params)  
 
 
 <div class="code_header" style="text-align:right;">

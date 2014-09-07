@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glBlendColor  Interface to OpenGL function glBlendColor
+glBlendColor  Interface to OpenGL function glBlendColor  
 
-usage:  glBlendColor( red, green, blue, alpha )
+usage:  glBlendColor( red, green, blue, alpha )  
 
-C function:  void glBlendColor(GLclampf red, GLclampf green, GLclampf blue, GLclampf alpha)
+C function:  void glBlendColor(GLclampf red, GLclampf green, GLclampf blue, GLclampf alpha)  
 
 
 <div class="code_header" style="text-align:right;">

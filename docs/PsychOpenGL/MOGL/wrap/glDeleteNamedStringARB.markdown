@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glDeleteNamedStringARB  Interface to OpenGL function glDeleteNamedStringARB
+glDeleteNamedStringARB  Interface to OpenGL function glDeleteNamedStringARB  
 
-usage:  glDeleteNamedStringARB( namelen, name )
+usage:  glDeleteNamedStringARB( namelen, name )  
 
-C function:  void glDeleteNamedStringARB(GLint namelen, const GLchar\* name)
+C function:  void glDeleteNamedStringARB(GLint namelen, const GLchar\* name)  
 
 
 <div class="code_header" style="text-align:right;">

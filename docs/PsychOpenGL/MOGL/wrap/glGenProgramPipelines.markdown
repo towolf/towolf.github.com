@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGenProgramPipelines  Interface to OpenGL function glGenProgramPipelines
+glGenProgramPipelines  Interface to OpenGL function glGenProgramPipelines  
 
-usage:  pipelines = glGenProgramPipelines( n )
+usage:  pipelines = glGenProgramPipelines( n )  
 
-C function:  void glGenProgramPipelines(GLsizei n, GLuint\* pipelines)
+C function:  void glGenProgramPipelines(GLsizei n, GLuint\* pipelines)  
 
 
 <div class="code_header" style="text-align:right;">

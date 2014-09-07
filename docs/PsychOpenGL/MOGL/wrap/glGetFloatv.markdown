@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetFloatv  Interface to glGetFloatv
+glGetFloatv  Interface to glGetFloatv  
 
-usage:  params = glGetFloatv( pname )
+usage:  params = glGetFloatv( pname )  
 
-C function:  void glGetFloatv(GLenum pname, GLfloat\* params)
+C function:  void glGetFloatv(GLenum pname, GLfloat\* params)  
 
 
 <div class="code_header" style="text-align:right;">

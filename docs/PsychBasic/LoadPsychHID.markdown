@@ -6,8 +6,8 @@ categories:
 encoding: UTF-8
 ---
 
-LoadPsychHID - Try to get PsychHID linked and loaded on MS-Windows, no
-matter what.
+LoadPsychHID - Try to get PsychHID linked and loaded on MS-Windows, no  
+matter what.  
 
 
 <div class="code_header" style="text-align:right;">

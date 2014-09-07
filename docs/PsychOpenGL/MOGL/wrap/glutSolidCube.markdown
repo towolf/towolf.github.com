@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glutSolidCube  Interface to OpenGL function glutSolidCube
+glutSolidCube  Interface to OpenGL function glutSolidCube  
 
-usage:  glutSolidCube( size )
+usage:  glutSolidCube( size )  
 
-C function:  void glutSolidCube(GLdouble size)
+C function:  void glutSolidCube(GLdouble size)  
 
 
 <div class="code_header" style="text-align:right;">

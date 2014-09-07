@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-glmClose  [Close](/docs/Close) the screen
+glmClose  [Close](/docs/Close) the screen  
 
-usage:  glmClose
+usage:  glmClose  
 
 
 <div class="code_header" style="text-align:right;">

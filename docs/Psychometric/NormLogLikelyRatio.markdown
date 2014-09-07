@@ -6,13 +6,13 @@ categories:
 encoding: UTF-8
 ---
 
-[loglikelyr,loglikelys,loglikelyn] = ...
-  NormLogLikelyRatio(x,un,varn,us,vars)
+[loglikelyr,loglikelys,loglikelyn] = ...  
+  NormLogLikelyRatio(x,un,varn,us,vars)  
 
-Compute log of the likelyhood ratio l(x) for univariate.
-Normally distributed signal and noise distributions.
+Compute log of the likelyhood ratio l(x) for univariate.  
+Normally distributed signal and noise distributions.  
 
-xx/xx/xx  dhb  Wrote it.
+xx/xx/xx  dhb  Wrote it.  
 
 
 <div class="code_header" style="text-align:right;">

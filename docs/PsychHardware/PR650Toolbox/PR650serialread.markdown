@@ -6,10 +6,10 @@ categories:
 encoding: UTF-8
 ---
 
-serialData = PR650serialread
+serialData = PR650serialread  
 
-Reads data off the serial port until there is nothing left.  Returns an
-empty matrix if there is nothing to read.
+Reads data off the serial port until there is nothing left.  Returns an  
+empty matrix if there is nothing to read.  
 
 
 <div class="code_header" style="text-align:right;">

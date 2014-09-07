@@ -6,29 +6,29 @@ categories:
 encoding: UTF-8
 ---
 
- svnInfo = GetSVNInfo(directoryOrFile)
+ svnInfo = GetSVNInfo(directoryOrFile)  
 
- Description:
- Retrieves the svn information on a specified directory or file.  This is
- essentially a wrapper around the shell command "svn info".
+ Description:  
+ Retrieves the svn information on a specified directory or file.  This is  
+ essentially a wrapper around the shell command "svn info".  
 
- Input:
- directoryOrFile (string) - Directory or file name of interest.
+ Input:  
+ directoryOrFile (string) - Directory or file name of interest.  
 
- Output:
- svnInfo (struct) - Structure containing the following information:
-   Path
-    URL
-    RepositoryRoot
-    RepositoryUUID
-    Revision
-    NodeKind
-    Schedule
-    LastChangedAuthor
-    LastChangedRev
-    LastChangedDate
+ Output:  
+ svnInfo (struct) - Structure containing the following information:  
+   Path  
+    URL  
+    RepositoryRoot  
+    RepositoryUUID  
+    Revision  
+    NodeKind  
+    Schedule  
+    LastChangedAuthor  
+    LastChangedRev  
+    LastChangedDate  
 
-    'svnInfo' will be empty if there is no svn info for 'directoryOrFile'.
+    'svnInfo' will be empty if there is no svn info for 'directoryOrFile'.  
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-dbUnits = LogToDb(logUnits)
+dbUnits = LogToDb(logUnits)  
 
-Convert from log units to decibels.
+Convert from log units to decibels.  
 
-1/5/95      dhb     Wrote it.
+1/5/95      dhb     Wrote it.  
 
 
 <div class="code_header" style="text-align:right;">

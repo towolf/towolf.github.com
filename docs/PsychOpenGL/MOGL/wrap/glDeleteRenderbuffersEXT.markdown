@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glDeleteRenderbuffersEXT  Interface to OpenGL function glDeleteRenderbuffersEXT
+glDeleteRenderbuffersEXT  Interface to OpenGL function glDeleteRenderbuffersEXT  
 
-usage:  glDeleteRenderbuffersEXT( n, renderbuffers )
+usage:  glDeleteRenderbuffersEXT( n, renderbuffers )  
 
-C function:  void glDeleteRenderbuffersEXT(GLsizei n, const GLuint\* renderbuffers)
+C function:  void glDeleteRenderbuffersEXT(GLsizei n, const GLuint\* renderbuffers)  
 
 
 <div class="code_header" style="text-align:right;">

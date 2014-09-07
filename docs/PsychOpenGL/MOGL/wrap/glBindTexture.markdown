@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glBindTexture  Interface to OpenGL function glBindTexture
+glBindTexture  Interface to OpenGL function glBindTexture  
 
-usage:  glBindTexture( target, texture )
+usage:  glBindTexture( target, texture )  
 
-C function:  void glBindTexture(GLenum target, GLuint texture)
+C function:  void glBindTexture(GLenum target, GLuint texture)  
 
 
 <div class="code_header" style="text-align:right;">

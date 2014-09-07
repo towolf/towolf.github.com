@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glTextureStorage2DMultisampleEXT  Interface to OpenGL function glTextureStorage2DMultisampleEXT
+glTextureStorage2DMultisampleEXT  Interface to OpenGL function glTextureStorage2DMultisampleEXT  
 
-usage:  glTextureStorage2DMultisampleEXT( texture, target, samples, internalformat, width, height, fixedsamplelocations )
+usage:  glTextureStorage2DMultisampleEXT( texture, target, samples, internalformat, width, height, fixedsamplelocations )  
 
-C function:  void glTextureStorage2DMultisampleEXT(GLuint texture, GLenum target, GLsizei samples, GLenum internalformat, GLsizei width, GLsizei height, GLboolean fixedsamplelocations)
+C function:  void glTextureStorage2DMultisampleEXT(GLuint texture, GLenum target, GLsizei samples, GLenum internalformat, GLsizei width, GLsizei height, GLboolean fixedsamplelocations)  
 
 
 <div class="code_header" style="text-align:right;">

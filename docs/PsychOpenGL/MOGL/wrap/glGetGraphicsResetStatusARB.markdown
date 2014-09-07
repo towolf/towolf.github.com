@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetGraphicsResetStatusARB  Interface to OpenGL function glGetGraphicsResetStatusARB
+glGetGraphicsResetStatusARB  Interface to OpenGL function glGetGraphicsResetStatusARB  
 
-usage:  r = glGetGraphicsResetStatusARB
+usage:  r = glGetGraphicsResetStatusARB  
 
-C function:  GLenum glGetGraphicsResetStatusARB(void)
+C function:  GLenum glGetGraphicsResetStatusARB(void)  
 
 
 <div class="code_header" style="text-align:right;">

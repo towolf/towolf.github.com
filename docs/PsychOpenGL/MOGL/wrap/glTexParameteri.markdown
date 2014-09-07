@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glTexParameteri  Interface to OpenGL function glTexParameteri
+glTexParameteri  Interface to OpenGL function glTexParameteri  
 
-usage:  glTexParameteri( target, pname, param )
+usage:  glTexParameteri( target, pname, param )  
 
-C function:  void glTexParameteri(GLenum target, GLenum pname, GLint param)
+C function:  void glTexParameteri(GLenum target, GLenum pname, GLint param)  
 
 
 <div class="code_header" style="text-align:right;">

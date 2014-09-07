@@ -6,14 +6,14 @@ categories:
 encoding: UTF-8
 ---
 
-DaqWaitButtonDumbTest1408FS.m
+DaqWaitButtonDumbTest1408FS.m  
 
-A quick and dirty demo on how to poll the digital inputs
-of a USB-1408FS as fast as possible, without overhead.
+A quick and dirty demo on how to poll the digital inputs  
+of a USB-1408FS as fast as possible, without overhead.  
 
-This is essentially a stripped down version of DaqDIn() with
-some polling loops wrapped around and a options.secs value of
-zero for essentially polling with no timeout.
+This is essentially a stripped down version of DaqDIn() with  
+some polling loops wrapped around and a options.secs value of  
+zero for essentially polling with no timeout.  
 
 
 

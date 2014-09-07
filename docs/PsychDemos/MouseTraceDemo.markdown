@@ -6,13 +6,13 @@ categories:
 encoding: UTF-8
 ---
 
-MouseTraceDemo
-----
+MouseTraceDemo  
+----  
 
-Draw a curve with the mouse.
-----
+Draw a curve with the mouse.  
+----  
 
-See also: PsychDemos, MouseTraceDemo2, GetMouse.
+See also: PsychDemos, MouseTraceDemo2, GetMouse.  
 
 
 <div class="code_header" style="text-align:right;">

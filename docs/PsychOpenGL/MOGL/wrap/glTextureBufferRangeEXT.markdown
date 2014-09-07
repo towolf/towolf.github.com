@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glTextureBufferRangeEXT  Interface to OpenGL function glTextureBufferRangeEXT
+glTextureBufferRangeEXT  Interface to OpenGL function glTextureBufferRangeEXT  
 
-usage:  glTextureBufferRangeEXT( texture, target, internalformat, buffer, ptr, ptr )
+usage:  glTextureBufferRangeEXT( texture, target, internalformat, buffer, ptr, ptr )  
 
-C function:  void glTextureBufferRangeEXT(GLuint texture, GLenum target, GLenum internalformat, GLuint buffer, GLint ptr, GLsizei ptr)
+C function:  void glTextureBufferRangeEXT(GLuint texture, GLenum target, GLenum internalformat, GLuint buffer, GLint ptr, GLsizei ptr)  
 
 
 <div class="code_header" style="text-align:right;">

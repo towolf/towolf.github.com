@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glVertexAttribIFormat  Interface to OpenGL function glVertexAttribIFormat
+glVertexAttribIFormat  Interface to OpenGL function glVertexAttribIFormat  
 
-usage:  glVertexAttribIFormat( attribindex, size, type, relativeoffset )
+usage:  glVertexAttribIFormat( attribindex, size, type, relativeoffset )  
 
-C function:  void glVertexAttribIFormat(GLuint attribindex, GLint size, GLenum type, GLuint relativeoffset)
+C function:  void glVertexAttribIFormat(GLuint attribindex, GLint size, GLenum type, GLuint relativeoffset)  
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-Is the script running in OpenGL Psychtoolbox?
+Is the script running in OpenGL Psychtoolbox?  
 
 
 <div class="code_header" style="text-align:right;">

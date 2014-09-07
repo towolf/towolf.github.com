@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-MOR  Logical inclusive OR of multiple arguments
+MOR  Logical inclusive OR of multiple arguments  
 
-o = mor( arg1, arg2, ... )
+o = mor( arg1, arg2, ... )  
 
 
 <div class="code_header" style="text-align:right;">

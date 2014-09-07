@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alListenerfv  Interface to OpenAL function alListenerfv
+alListenerfv  Interface to OpenAL function alListenerfv  
 
-usage:  alListenerfv( param, values )
+usage:  alListenerfv( param, values )  
 
-C function:  void alListenerfv(ALenum param, const ALfloat\* values)
+C function:  void alListenerfv(ALenum param, const ALfloat\* values)  
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glWaitSync  Interface to OpenGL function glWaitSync
+glWaitSync  Interface to OpenGL function glWaitSync  
 
-usage:  glWaitSync( sync, flags, timeout )
+usage:  glWaitSync( sync, flags, timeout )  
 
-C function:  void glWaitSync(GLsync sync, GLbitfield flags, GLuint64 timeout)
+C function:  void glWaitSync(GLsync sync, GLbitfield flags, GLuint64 timeout)  
 
 
 <div class="code_header" style="text-align:right;">

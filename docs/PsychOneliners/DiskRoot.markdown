@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-DiskName = DiskRoot
+DiskName = DiskRoot  
 
-Purpose:  Find the name of the disk for the current working directory.
+Purpose:  Find the name of the disk for the current working directory.  
 
 
 <div class="code_header" style="text-align:right;">

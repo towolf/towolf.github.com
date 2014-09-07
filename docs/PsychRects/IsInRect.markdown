@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-inside = IsInRect(x,y,rect)
+inside = IsInRect(x,y,rect)  
 
-Is location x,y inside the rect?
+Is location x,y inside the rect?  
 
-Also see PsychRects.
+Also see PsychRects.  
 
 
 <div class="code_header" style="text-align:right;">

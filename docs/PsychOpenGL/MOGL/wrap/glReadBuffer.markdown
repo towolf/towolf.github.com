@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glReadBuffer  Interface to OpenGL function glReadBuffer
+glReadBuffer  Interface to OpenGL function glReadBuffer  
 
-usage:  glReadBuffer( mode )
+usage:  glReadBuffer( mode )  
 
-C function:  void glReadBuffer(GLenum mode)
+C function:  void glReadBuffer(GLenum mode)  
 
 
 <div class="code_header" style="text-align:right;">

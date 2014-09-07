@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetRenderbufferParameteriv  Interface to OpenGL function glGetRenderbufferParameteriv
+glGetRenderbufferParameteriv  Interface to OpenGL function glGetRenderbufferParameteriv  
 
-usage:  params = glGetRenderbufferParameteriv( target, pname )
+usage:  params = glGetRenderbufferParameteriv( target, pname )  
 
-C function:  void glGetRenderbufferParameteriv(GLenum target, GLenum pname, GLint\* params)
+C function:  void glGetRenderbufferParameteriv(GLenum target, GLenum pname, GLint\* params)  
 
 
 <div class="code_header" style="text-align:right;">

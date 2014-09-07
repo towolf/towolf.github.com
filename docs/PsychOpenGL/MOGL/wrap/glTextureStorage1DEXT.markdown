@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glTextureStorage1DEXT  Interface to OpenGL function glTextureStorage1DEXT
+glTextureStorage1DEXT  Interface to OpenGL function glTextureStorage1DEXT  
 
-usage:  glTextureStorage1DEXT( texture, target, levels, internalformat, width )
+usage:  glTextureStorage1DEXT( texture, target, levels, internalformat, width )  
 
-C function:  void glTextureStorage1DEXT(GLuint texture, GLenum target, GLsizei levels, GLenum internalformat, GLsizei width)
+C function:  void glTextureStorage1DEXT(GLuint texture, GLenum target, GLsizei levels, GLenum internalformat, GLsizei width)  
 
 
 <div class="code_header" style="text-align:right;">

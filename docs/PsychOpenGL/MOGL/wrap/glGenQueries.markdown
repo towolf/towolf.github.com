@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGenQueries  Interface to OpenGL function glGenQueries
+glGenQueries  Interface to OpenGL function glGenQueries  
 
-usage:  ids = glGenQueries( n )
+usage:  ids = glGenQueries( n )  
 
-C function:  void glGenQueries(GLsizei n, GLuint\* ids)
+C function:  void glGenQueries(GLsizei n, GLuint\* ids)  
 
 
 <div class="code_header" style="text-align:right;">

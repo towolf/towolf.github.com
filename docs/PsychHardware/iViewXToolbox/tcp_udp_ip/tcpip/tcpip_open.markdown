@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-fid = tcpip\_open(adress\_string,portnumber) Open remote tcp/ip connection.
+fid = tcpip\_open(adress\_string,portnumber) Open remote tcp/ip connection.  
 
-opens tcp ip network connection.
+opens tcp ip network connection.  
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glViewportArrayv  Interface to OpenGL function glViewportArrayv
+glViewportArrayv  Interface to OpenGL function glViewportArrayv  
 
-usage:  glViewportArrayv( first, count, v )
+usage:  glViewportArrayv( first, count, v )  
 
-C function:  void glViewportArrayv(GLuint first, GLsizei count, const GLfloat\* v)
+C function:  void glViewportArrayv(GLuint first, GLsizei count, const GLfloat\* v)  
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-[fit\_out,x,err] = FitGammaLin(values\_in,measurements,values\_out)
+[fit\_out,x,err] = FitGammaLin(values\_in,measurements,values\_out)  
 
-Linearly interpolate gamma data
+Linearly interpolate gamma data  
 
-3/15/94     dhb, jms        Wrote it.
+3/15/94     dhb, jms        Wrote it.  
 
 
 <div class="code_header" style="text-align:right;">

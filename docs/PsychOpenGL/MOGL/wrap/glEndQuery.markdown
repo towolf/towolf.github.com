@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glEndQuery  Interface to OpenGL function glEndQuery
+glEndQuery  Interface to OpenGL function glEndQuery  
 
-usage:  glEndQuery( target )
+usage:  glEndQuery( target )  
 
-C function:  void glEndQuery(GLenum target)
+C function:  void glEndQuery(GLenum target)  
 
 
 <div class="code_header" style="text-align:right;">

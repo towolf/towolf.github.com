@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glTexImage3DMultisample  Interface to OpenGL function glTexImage3DMultisample
+glTexImage3DMultisample  Interface to OpenGL function glTexImage3DMultisample  
 
-usage:  glTexImage3DMultisample( target, samples, internalformat, width, height, depth, fixedsamplelocations )
+usage:  glTexImage3DMultisample( target, samples, internalformat, width, height, depth, fixedsamplelocations )  
 
-C function:  void glTexImage3DMultisample(GLenum target, GLsizei samples, GLint internalformat, GLsizei width, GLsizei height, GLsizei depth, GLboolean fixedsamplelocations)
+C function:  void glTexImage3DMultisample(GLenum target, GLsizei samples, GLint internalformat, GLsizei width, GLsizei height, GLsizei depth, GLboolean fixedsamplelocations)  
 
 
 <div class="code_header" style="text-align:right;">

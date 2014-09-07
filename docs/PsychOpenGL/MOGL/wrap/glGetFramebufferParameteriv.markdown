@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetFramebufferParameteriv  Interface to OpenGL function glGetFramebufferParameteriv
+glGetFramebufferParameteriv  Interface to OpenGL function glGetFramebufferParameteriv  
 
-usage:  params = glGetFramebufferParameteriv( target, pname )
+usage:  params = glGetFramebufferParameteriv( target, pname )  
 
-C function:  void glGetFramebufferParameteriv(GLenum target, GLenum pname, GLint\* params)
+C function:  void glGetFramebufferParameteriv(GLenum target, GLenum pname, GLint\* params)  
 
 
 <div class="code_header" style="text-align:right;">

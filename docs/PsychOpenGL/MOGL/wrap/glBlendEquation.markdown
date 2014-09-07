@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glBlendEquation  Interface to OpenGL function glBlendEquation
+glBlendEquation  Interface to OpenGL function glBlendEquation  
 
-usage:  glBlendEquation( mode )
+usage:  glBlendEquation( mode )  
 
-C function:  void glBlendEquation(GLenum mode)
+C function:  void glBlendEquation(GLenum mode)  
 
 
 <div class="code_header" style="text-align:right;">

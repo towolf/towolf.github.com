@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glutSolidTorus  Interface to OpenGL function glutSolidTorus
+glutSolidTorus  Interface to OpenGL function glutSolidTorus  
 
-usage:  glutSolidTorus( innerRadius, outerRadius, sides, rings )
+usage:  glutSolidTorus( innerRadius, outerRadius, sides, rings )  
 
-C function:  void glutSolidTorus(GLdouble innerRadius, GLdouble outerRadius, GLint sides, GLint rings)
+C function:  void glutSolidTorus(GLdouble innerRadius, GLdouble outerRadius, GLint sides, GLint rings)  
 
 
 <div class="code_header" style="text-align:right;">

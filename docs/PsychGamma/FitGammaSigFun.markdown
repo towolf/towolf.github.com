@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-[err,con] = FitGammaSigFun(x,values,measurements)
+[err,con] = FitGammaSigFun(x,values,measurements)  
 
-Error function for sigmoid function fit.
+Error function for sigmoid function fit.  
 
 
 <div class="code_header" style="text-align:right;">

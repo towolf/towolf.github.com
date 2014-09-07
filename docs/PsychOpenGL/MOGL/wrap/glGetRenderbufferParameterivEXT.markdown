@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetRenderbufferParameterivEXT  Interface to OpenGL function glGetRenderbufferParameterivEXT
+glGetRenderbufferParameterivEXT  Interface to OpenGL function glGetRenderbufferParameterivEXT  
 
-usage:  params = glGetRenderbufferParameterivEXT( target, pname )
+usage:  params = glGetRenderbufferParameterivEXT( target, pname )  
 
-C function:  void glGetRenderbufferParameterivEXT(GLenum target, GLenum pname, GLint\* params)
+C function:  void glGetRenderbufferParameterivEXT(GLenum target, GLenum pname, GLint\* params)  
 
 
 <div class="code_header" style="text-align:right;">

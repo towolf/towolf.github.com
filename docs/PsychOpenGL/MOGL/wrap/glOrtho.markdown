@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glOrtho  Interface to OpenGL function glOrtho
+glOrtho  Interface to OpenGL function glOrtho  
 
-usage:  glOrtho( left, right, bottom, top, zNear, zFar )
+usage:  glOrtho( left, right, bottom, top, zNear, zFar )  
 
-C function:  void glOrtho(GLdouble left, GLdouble right, GLdouble bottom, GLdouble top, GLdouble zNear, GLdouble zFar)
+C function:  void glOrtho(GLdouble left, GLdouble right, GLdouble bottom, GLdouble top, GLdouble zNear, GLdouble zFar)  
 
 
 <div class="code_header" style="text-align:right;">

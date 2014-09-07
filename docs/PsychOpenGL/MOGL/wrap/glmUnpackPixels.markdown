@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-glmUnpackPixels  Unpack an image read from the screen with glmGetPixels
+glmUnpackPixels  Unpack an image read from the screen with glmGetPixels  
 
-usage:  unpackim = glmUnpackPixels( packim )
+usage:  unpackim = glmUnpackPixels( packim )  
 
 
 <div class="code_header" style="text-align:right;">

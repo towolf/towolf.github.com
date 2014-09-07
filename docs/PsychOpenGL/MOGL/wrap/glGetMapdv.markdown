@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetMapdv  Interface to OpenGL function glGetMapdv
+glGetMapdv  Interface to OpenGL function glGetMapdv  
 
-usage:  glGetMapdv( target, query, v )
+usage:  glGetMapdv( target, query, v )  
 
-C function:  void glGetMapdv(GLenum target, GLenum query, GLdouble\* v)
+C function:  void glGetMapdv(GLenum target, GLenum query, GLdouble\* v)  
 
 
 <div class="code_header" style="text-align:right;">

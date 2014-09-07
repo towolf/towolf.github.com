@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alBufferData  Interface to OpenAL function alBufferData
+alBufferData  Interface to OpenAL function alBufferData  
 
-usage:  alBufferData( bid, format, data, size, freq )
+usage:  alBufferData( bid, format, data, size, freq )  
 
-C function:  void alBufferData(ALuint bid, ALenum format, const ALvoid\* data, ALsizei size, ALsizei freq)
+C function:  void alBufferData(ALuint bid, ALenum format, const ALvoid\* data, ALsizei size, ALsizei freq)  
 
 
 <div class="code_header" style="text-align:right;">

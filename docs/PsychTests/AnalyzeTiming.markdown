@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-Load result file: Will create struct 'res' with data:
+Load result file: Will create struct 'res' with data:  
 
 
 <div class="code_header" style="text-align:right;">

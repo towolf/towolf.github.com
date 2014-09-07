@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glCopyTexSubImage1D  Interface to OpenGL function glCopyTexSubImage1D
+glCopyTexSubImage1D  Interface to OpenGL function glCopyTexSubImage1D  
 
-usage:  glCopyTexSubImage1D( target, level, xoffset, x, y, width )
+usage:  glCopyTexSubImage1D( target, level, xoffset, x, y, width )  
 
-C function:  void glCopyTexSubImage1D(GLenum target, GLint level, GLint xoffset, GLint x, GLint y, GLsizei width)
+C function:  void glCopyTexSubImage1D(GLenum target, GLint level, GLint xoffset, GLint x, GLint y, GLsizei width)  
 
 
 <div class="code_header" style="text-align:right;">

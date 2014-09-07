@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glDeleteShader  Interface to OpenGL function glDeleteShader
+glDeleteShader  Interface to OpenGL function glDeleteShader  
 
-usage:  glDeleteShader( shader )
+usage:  glDeleteShader( shader )  
 
-C function:  void glDeleteShader(GLuint shader)
+C function:  void glDeleteShader(GLuint shader)  
 
 
 <div class="code_header" style="text-align:right;">

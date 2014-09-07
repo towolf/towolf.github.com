@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glColor4ub  Interface to OpenGL function glColor4ub
+glColor4ub  Interface to OpenGL function glColor4ub  
 
-usage:  glColor4ub( red, green, blue, alpha )
+usage:  glColor4ub( red, green, blue, alpha )  
 
-C function:  void glColor4ub(GLubyte red, GLubyte green, GLubyte blue, GLubyte alpha)
+C function:  void glColor4ub(GLubyte red, GLubyte green, GLubyte blue, GLubyte alpha)  
 
 
 <div class="code_header" style="text-align:right;">

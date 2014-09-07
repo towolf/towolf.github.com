@@ -6,8 +6,8 @@ categories:
 encoding: UTF-8
 ---
 
-create some simple and complicated variables, Var2Str should be able
-to handle all of them.
+create some simple and complicated variables, Var2Str should be able  
+to handle all of them.  
 
 
 <div class="code_header" style="text-align:right;">

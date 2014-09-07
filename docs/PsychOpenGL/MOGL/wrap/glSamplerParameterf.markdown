@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glSamplerParameterf  Interface to OpenGL function glSamplerParameterf
+glSamplerParameterf  Interface to OpenGL function glSamplerParameterf  
 
-usage:  glSamplerParameterf( sampler, pname, param )
+usage:  glSamplerParameterf( sampler, pname, param )  
 
-C function:  void glSamplerParameterf(GLuint sampler, GLenum pname, GLfloat param)
+C function:  void glSamplerParameterf(GLuint sampler, GLenum pname, GLfloat param)  
 
 
 <div class="code_header" style="text-align:right;">

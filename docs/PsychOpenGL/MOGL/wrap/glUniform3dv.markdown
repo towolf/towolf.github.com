@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glUniform3dv  Interface to OpenGL function glUniform3dv
+glUniform3dv  Interface to OpenGL function glUniform3dv  
 
-usage:  glUniform3dv( location, count, value )
+usage:  glUniform3dv( location, count, value )  
 
-C function:  void glUniform3dv(GLint location, GLsizei count, const GLdouble\* value)
+C function:  void glUniform3dv(GLint location, GLsizei count, const GLdouble\* value)  
 
 
 <div class="code_header" style="text-align:right;">

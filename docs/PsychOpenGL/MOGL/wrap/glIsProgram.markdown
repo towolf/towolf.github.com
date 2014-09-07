@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glIsProgram  Interface to OpenGL function glIsProgram
+glIsProgram  Interface to OpenGL function glIsProgram  
 
-usage:  r = glIsProgram( program )
+usage:  r = glIsProgram( program )  
 
-C function:  GLboolean glIsProgram(GLuint program)
+C function:  GLboolean glIsProgram(GLuint program)  
 
 
 <div class="code_header" style="text-align:right;">

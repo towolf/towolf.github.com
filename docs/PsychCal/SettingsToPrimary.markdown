@@ -6,15 +6,15 @@ categories:
 encoding: UTF-8
 ---
 
-[primary] = SettingsToPrimary(cal,settings)
+[primary] = SettingsToPrimary(cal,settings)  
 
-Convert from device settings coordinates to
-primary coordinates by inverting
-the gamma correction.
+Convert from device settings coordinates to  
+primary coordinates by inverting  
+the gamma correction.  
 
-# INPUTS:
-  calibration globals
-  settings -- column vectors in device settings
+# INPUTS:  
+  calibration globals  
+  settings -- column vectors in device settings  
 
 
 <div class="code_header" style="text-align:right;">

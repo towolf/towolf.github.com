@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glDrawArrays  Interface to OpenGL function glDrawArrays
+glDrawArrays  Interface to OpenGL function glDrawArrays  
 
-usage:  glDrawArrays( mode, first, count )
+usage:  glDrawArrays( mode, first, count )  
 
-C function:  void glDrawArrays(GLenum mode, GLint first, GLsizei count)
+C function:  void glDrawArrays(GLenum mode, GLint first, GLsizei count)  
 
 
 <div class="code_header" style="text-align:right;">

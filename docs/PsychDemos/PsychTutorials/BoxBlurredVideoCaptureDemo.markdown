@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-Initial flip to a blank screen:
+Initial flip to a blank screen:  
 
 
 <div class="code_header" style="text-align:right;">

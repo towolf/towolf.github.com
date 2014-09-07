@@ -6,12 +6,12 @@ categories:
 encoding: UTF-8
 ---
 
-rect = RectOfMatrix(mat)
+rect = RectOfMatrix(mat)  
 
-Accept an image as a matrix and return a Psychtoolbox rect specifying
-the bounds.
+Accept an image as a matrix and return a Psychtoolbox rect specifying  
+the bounds.  
 
-See also SetRect, PsychRects
+See also SetRect, PsychRects  
 
 
 <div class="code_header" style="text-align:right;">

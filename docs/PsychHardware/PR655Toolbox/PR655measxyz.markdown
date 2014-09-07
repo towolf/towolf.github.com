@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-[xyz,qual] = PR655measspd
+[xyz,qual] = PR655measspd  
 
-Make a measurement of the spectrum.
+Make a measurement of the spectrum.  
 
-01/16/09    tbc   Adapted from PR650Toolbox for use with PR655
+01/16/09    tbc   Adapted from PR650Toolbox for use with PR655  
 
 
 

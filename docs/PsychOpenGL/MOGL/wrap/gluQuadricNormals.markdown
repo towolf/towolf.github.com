@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-gluQuadricNormals  Interface to OpenGL function gluQuadricNormals
+gluQuadricNormals  Interface to OpenGL function gluQuadricNormals  
 
-usage:  gluQuadricNormals( quad, normal )
+usage:  gluQuadricNormals( quad, normal )  
 
-C function:  void gluQuadricNormals(GLUquadric\* quad, GLenum normal)
+C function:  void gluQuadricNormals(GLUquadric\* quad, GLenum normal)  
 
 
 <div class="code_header" style="text-align:right;">

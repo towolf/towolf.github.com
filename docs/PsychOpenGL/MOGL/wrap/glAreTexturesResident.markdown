@@ -6,12 +6,12 @@ categories:
 encoding: UTF-8
 ---
 
-glAreTexturesResident  Interface to glAreTexturesResident
+glAreTexturesResident  Interface to glAreTexturesResident  
 
-usage:  [ r, residences ] = glAreTexturesResident( n, textures )
-        [ r, residences ] = glAreTexturesResident( textures )
+usage:  [ r, residences ] = glAreTexturesResident( n, textures )  
+        [ r, residences ] = glAreTexturesResident( textures )  
 
-C function:  GLboolean glAreTexturesResident(GLsizei n, const GLuint\* textures, GLboolean\* residences)
+C function:  GLboolean glAreTexturesResident(GLsizei n, const GLuint\* textures, GLboolean\* residences)  
 
 
 <div class="code_header" style="text-align:right;">

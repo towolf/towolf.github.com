@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetError  Interface to OpenGL function glGetError
+glGetError  Interface to OpenGL function glGetError  
 
-usage:  r = glGetError
+usage:  r = glGetError  
 
-C function:  GLenum glGetError(void)
+C function:  GLenum glGetError(void)  
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-[err,con] = FitGammaPolyFun(x,values,measurements)
+[err,con] = FitGammaPolyFun(x,values,measurements)  
 
-Error function for modified polynomial function fit.
+Error function for modified polynomial function fit.  
 
 
 <div class="code_header" style="text-align:right;">

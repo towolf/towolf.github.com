@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glRectd  Interface to OpenGL function glRectd
+glRectd  Interface to OpenGL function glRectd  
 
-usage:  glRectd( x1, y1, x2, y2 )
+usage:  glRectd( x1, y1, x2, y2 )  
 
-C function:  void glRectd(GLdouble x1, GLdouble y1, GLdouble x2, GLdouble y2)
+C function:  void glRectd(GLdouble x1, GLdouble y1, GLdouble x2, GLdouble y2)  
 
 
 <div class="code_header" style="text-align:right;">

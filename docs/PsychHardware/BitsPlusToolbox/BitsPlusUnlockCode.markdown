@@ -6,12 +6,12 @@ categories:
 encoding: UTF-8
 ---
 
-unlockCode = BitsPlusUnlockCode
+unlockCode = BitsPlusUnlockCode  
 
-OBSOLETE: BitsPlusEncodeClutRow is now self-sufficient. BitsPlusUnlockCode is no longer needed.
-Fill up an array with the magic numbers required
-to get the Bits++ to use the first line of the
-frame buffer as the CLUT.
+OBSOLETE: BitsPlusEncodeClutRow is now self-sufficient. BitsPlusUnlockCode is no longer needed.  
+Fill up an array with the magic numbers required  
+to get the Bits++ to use the first line of the  
+frame buffer as the CLUT.  
 
 
 <div class="code_header" style="text-align:right;">

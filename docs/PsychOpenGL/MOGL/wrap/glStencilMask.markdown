@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glStencilMask  Interface to OpenGL function glStencilMask
+glStencilMask  Interface to OpenGL function glStencilMask  
 
-usage:  glStencilMask( mask )
+usage:  glStencilMask( mask )  
 
-C function:  void glStencilMask(GLuint mask)
+C function:  void glStencilMask(GLuint mask)  
 
 
 <div class="code_header" style="text-align:right;">

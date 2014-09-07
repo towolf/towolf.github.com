@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glTexCoord3s  Interface to OpenGL function glTexCoord3s
+glTexCoord3s  Interface to OpenGL function glTexCoord3s  
 
-usage:  glTexCoord3s( s, t, r )
+usage:  glTexCoord3s( s, t, r )  
 
-C function:  void glTexCoord3s(GLshort s, GLshort t, GLshort r)
+C function:  void glTexCoord3s(GLshort s, GLshort t, GLshort r)  
 
 
 <div class="code_header" style="text-align:right;">

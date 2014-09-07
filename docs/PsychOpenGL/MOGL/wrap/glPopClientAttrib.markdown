@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glPopClientAttrib  Interface to OpenGL function glPopClientAttrib
+glPopClientAttrib  Interface to OpenGL function glPopClientAttrib  
 
-usage:  glPopClientAttrib
+usage:  glPopClientAttrib  
 
-C function:  void glPopClientAttrib(void)
+C function:  void glPopClientAttrib(void)  
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glDisableClientState  Interface to OpenGL function glDisableClientState
+glDisableClientState  Interface to OpenGL function glDisableClientState  
 
-usage:  glDisableClientState( array )
+usage:  glDisableClientState( array )  
 
-C function:  void glDisableClientState(GLenum array)
+C function:  void glDisableClientState(GLenum array)  
 
 
 <div class="code_header" style="text-align:right;">

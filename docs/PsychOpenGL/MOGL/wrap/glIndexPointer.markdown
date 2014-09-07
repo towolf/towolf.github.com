@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glIndexPointer  Interface to glIndexPointer
+glIndexPointer  Interface to glIndexPointer  
 
-usage:  glIndexPointer( type, stride, pointer )
+usage:  glIndexPointer( type, stride, pointer )  
 
-C function:  void glIndexPointer(GLenum type, GLsizei stride, const GLvoid\* pointer)
+C function:  void glIndexPointer(GLenum type, GLsizei stride, const GLvoid\* pointer)  
 
 
 <div class="code_header" style="text-align:right;">

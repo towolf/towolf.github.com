@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGenTextures  Interface to glGenTextures
+glGenTextures  Interface to glGenTextures  
 
-usage:  textures = glGenTextures( n )
+usage:  textures = glGenTextures( n )  
 
-C function:  void glGenTextures(GLsizei n, GLuint\* textures)
+C function:  void glGenTextures(GLsizei n, GLuint\* textures)  
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glFramebufferRenderbuffer  Interface to OpenGL function glFramebufferRenderbuffer
+glFramebufferRenderbuffer  Interface to OpenGL function glFramebufferRenderbuffer  
 
-usage:  glFramebufferRenderbuffer( target, attachment, renderbuffertarget, renderbuffer )
+usage:  glFramebufferRenderbuffer( target, attachment, renderbuffertarget, renderbuffer )  
 
-C function:  void glFramebufferRenderbuffer(GLenum target, GLenum attachment, GLenum renderbuffertarget, GLuint renderbuffer)
+C function:  void glFramebufferRenderbuffer(GLenum target, GLenum attachment, GLenum renderbuffertarget, GLuint renderbuffer)  
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetLightfv  Interface to OpenGL function glGetLightfv
+glGetLightfv  Interface to OpenGL function glGetLightfv  
 
-usage:  params = glGetLightfv( light, pname )
+usage:  params = glGetLightfv( light, pname )  
 
-C function:  void glGetLightfv(GLenum light, GLenum pname, GLfloat\* params)
+C function:  void glGetLightfv(GLenum light, GLenum pname, GLfloat\* params)  
 
 
 <div class="code_header" style="text-align:right;">

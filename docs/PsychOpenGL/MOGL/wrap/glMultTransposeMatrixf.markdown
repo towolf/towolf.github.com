@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glMultTransposeMatrixf  Interface to OpenGL function glMultTransposeMatrixf
+glMultTransposeMatrixf  Interface to OpenGL function glMultTransposeMatrixf  
 
-usage:  glMultTransposeMatrixf( m )
+usage:  glMultTransposeMatrixf( m )  
 
-C function:  void glMultTransposeMatrixf(const GLfloat\* m)
+C function:  void glMultTransposeMatrixf(const GLfloat\* m)  
 
 
 <div class="code_header" style="text-align:right;">

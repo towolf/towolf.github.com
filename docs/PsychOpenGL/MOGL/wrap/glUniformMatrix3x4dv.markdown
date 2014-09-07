@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glUniformMatrix3x4dv  Interface to OpenGL function glUniformMatrix3x4dv
+glUniformMatrix3x4dv  Interface to OpenGL function glUniformMatrix3x4dv  
 
-usage:  glUniformMatrix3x4dv( location, count, transpose, value )
+usage:  glUniformMatrix3x4dv( location, count, transpose, value )  
 
-C function:  void glUniformMatrix3x4dv(GLint location, GLsizei count, GLboolean transpose, const GLdouble\* value)
+C function:  void glUniformMatrix3x4dv(GLint location, GLsizei count, GLboolean transpose, const GLdouble\* value)  
 
 
 <div class="code_header" style="text-align:right;">

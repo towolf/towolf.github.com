@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetObjectLabel  Interface to OpenGL function glGetObjectLabel
+glGetObjectLabel  Interface to OpenGL function glGetObjectLabel  
 
-usage:  [ length, label ] = glGetObjectLabel( identifier, name, bufSize )
+usage:  [ length, label ] = glGetObjectLabel( identifier, name, bufSize )  
 
-C function:  void glGetObjectLabel(GLenum identifier, GLuint name, GLsizei bufSize, GLsizei\* length, GLchar\* label)
+C function:  void glGetObjectLabel(GLenum identifier, GLuint name, GLsizei bufSize, GLsizei\* length, GLchar\* label)  
 
 
 <div class="code_header" style="text-align:right;">

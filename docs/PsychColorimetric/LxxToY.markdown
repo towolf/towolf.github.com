@@ -6,12 +6,12 @@ categories:
 encoding: UTF-8
 ---
 
-Y = LxxToY(Lxx,white)
+Y = LxxToY(Lxx,white)  
 
-Convert either Lab or Luv to Y, given the XYZ coordinates of
-the white point.
+Convert either Lab or Luv to Y, given the XYZ coordinates of  
+the white point.  
 
-10/10/93    dhb   Converted from CAP C code.
+10/10/93    dhb   Converted from CAP C code.  
 
 
 <div class="code_header" style="text-align:right;">

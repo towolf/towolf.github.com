@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glPixelMapusv  Interface to OpenGL function glPixelMapusv
+glPixelMapusv  Interface to OpenGL function glPixelMapusv  
 
-usage:  glPixelMapusv( map, mapsize, values )
+usage:  glPixelMapusv( map, mapsize, values )  
 
-C function:  void glPixelMapusv(GLenum map, GLint mapsize, const GLushort\* values)
+C function:  void glPixelMapusv(GLenum map, GLint mapsize, const GLushort\* values)  
 
 
 <div class="code_header" style="text-align:right;">

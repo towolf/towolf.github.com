@@ -6,14 +6,14 @@ categories:
 encoding: UTF-8
 ---
 
-glMultiDrawElements  Interface to OpenGL function glMultiDrawElements
+glMultiDrawElements  Interface to OpenGL function glMultiDrawElements  
 
-usage:  glMultiDrawElements( mode, count, type, indices, drawcount)
+usage:  glMultiDrawElements( mode, count, type, indices, drawcount)  
 
-Note: indices must be a cell array whose cells contain uint32() type
-vectors with the indices!
+Note: indices must be a cell array whose cells contain uint32() type  
+vectors with the indices!  
 
-C function:  void glMultiDrawElements(GLenum mode, const GLsizei\* count, GLenum type, const GLvoid\*\* indices, GLsizei drawcount)
+C function:  void glMultiDrawElements(GLenum mode, const GLsizei\* count, GLenum type, const GLvoid\*\* indices, GLsizei drawcount)  
 
 
 <div class="code_header" style="text-align:right;">

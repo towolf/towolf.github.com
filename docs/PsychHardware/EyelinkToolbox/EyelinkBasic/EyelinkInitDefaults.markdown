@@ -6,16 +6,16 @@ categories:
 encoding: UTF-8
 ---
 
-Initialize eyelink defaults and control code structure
+Initialize eyelink defaults and control code structure  
 
-USAGE: el=EyelinkInitDefaults([window])
+USAGE: el=EyelinkInitDefaults([window])  
 
-      window is optional windowPtr.
-      If set, pixel coordinates are send to eyetracker
+      window is optional windowPtr.  
+      If set, pixel coordinates are send to eyetracker  
 
-and fill it with some sensible values.
-Note that these values are only used by the m-file
-versions of dotrackersetup and dodriftcorrect.
+and fill it with some sensible values.  
+Note that these values are only used by the m-file  
+versions of dotrackersetup and dodriftcorrect.  
 
 
 <div class="code_header" style="text-align:right;">

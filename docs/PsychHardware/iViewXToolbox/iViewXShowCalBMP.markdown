@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-we could generate names based on specifications
+we could generate names based on specifications  
 
 
 <div class="code_header" style="text-align:right;">

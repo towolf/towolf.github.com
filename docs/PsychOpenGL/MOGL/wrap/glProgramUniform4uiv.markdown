@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glProgramUniform4uiv  Interface to OpenGL function glProgramUniform4uiv
+glProgramUniform4uiv  Interface to OpenGL function glProgramUniform4uiv  
 
-usage:  glProgramUniform4uiv( program, location, count, value )
+usage:  glProgramUniform4uiv( program, location, count, value )  
 
-C function:  void glProgramUniform4uiv(GLuint program, GLint location, GLsizei count, const GLuint\* value)
+C function:  void glProgramUniform4uiv(GLuint program, GLint location, GLsizei count, const GLuint\* value)  
 
 
 <div class="code_header" style="text-align:right;">

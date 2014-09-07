@@ -6,8 +6,8 @@ categories:
 encoding: UTF-8
 ---
 
-PsychtoolboxDate returns the release date, e.g. '1 August 1998'.
-You can supply this string as an argument to DATNUM.
+PsychtoolboxDate returns the release date, e.g. '1 August 1998'.  
+You can supply this string as an argument to DATNUM.  
 
 
 <div class="code_header" style="text-align:right;">

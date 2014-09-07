@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glVertexAttrib4Nsv  Interface to OpenGL function glVertexAttrib4Nsv
+glVertexAttrib4Nsv  Interface to OpenGL function glVertexAttrib4Nsv  
 
-usage:  glVertexAttrib4Nsv( index, v )
+usage:  glVertexAttrib4Nsv( index, v )  
 
-C function:  void glVertexAttrib4Nsv(GLuint index, const GLshort\* v)
+C function:  void glVertexAttrib4Nsv(GLuint index, const GLshort\* v)  
 
 
 <div class="code_header" style="text-align:right;">

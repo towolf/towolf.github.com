@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glUniformBlockBinding  Interface to OpenGL function glUniformBlockBinding
+glUniformBlockBinding  Interface to OpenGL function glUniformBlockBinding  
 
-usage:  glUniformBlockBinding( program, uniformBlockIndex, uniformBlockBinding )
+usage:  glUniformBlockBinding( program, uniformBlockIndex, uniformBlockBinding )  
 
-C function:  void glUniformBlockBinding(GLuint program, GLuint uniformBlockIndex, GLuint uniformBlockBinding)
+C function:  void glUniformBlockBinding(GLuint program, GLuint uniformBlockIndex, GLuint uniformBlockBinding)  
 
 
 <div class="code_header" style="text-align:right;">

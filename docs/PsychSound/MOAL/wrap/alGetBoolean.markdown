@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alGetBoolean  Interface to OpenAL function alGetBoolean
+alGetBoolean  Interface to OpenAL function alGetBoolean  
 
-usage:  r = alGetBoolean( param )
+usage:  r = alGetBoolean( param )  
 
-C function:  ALboolean alGetBoolean(ALenum param)
+C function:  ALboolean alGetBoolean(ALenum param)  
 
 
 <div class="code_header" style="text-align:right;">

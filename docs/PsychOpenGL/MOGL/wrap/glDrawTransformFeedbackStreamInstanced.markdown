@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glDrawTransformFeedbackStreamInstanced  Interface to OpenGL function glDrawTransformFeedbackStreamInstanced
+glDrawTransformFeedbackStreamInstanced  Interface to OpenGL function glDrawTransformFeedbackStreamInstanced  
 
-usage:  glDrawTransformFeedbackStreamInstanced( mode, id, stream, instancecount )
+usage:  glDrawTransformFeedbackStreamInstanced( mode, id, stream, instancecount )  
 
-C function:  void glDrawTransformFeedbackStreamInstanced(GLenum mode, GLuint id, GLuint stream, GLsizei instancecount)
+C function:  void glDrawTransformFeedbackStreamInstanced(GLenum mode, GLuint id, GLuint stream, GLsizei instancecount)  
 
 
 <div class="code_header" style="text-align:right;">

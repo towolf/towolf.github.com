@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glNamedFramebufferParameteriEXT  Interface to OpenGL function glNamedFramebufferParameteriEXT
+glNamedFramebufferParameteriEXT  Interface to OpenGL function glNamedFramebufferParameteriEXT  
 
-usage:  glNamedFramebufferParameteriEXT( framebuffer, pname, param )
+usage:  glNamedFramebufferParameteriEXT( framebuffer, pname, param )  
 
-C function:  void glNamedFramebufferParameteriEXT(GLuint framebuffer, GLenum pname, GLint param)
+C function:  void glNamedFramebufferParameteriEXT(GLuint framebuffer, GLenum pname, GLint param)  
 
 
 <div class="code_header" style="text-align:right;">

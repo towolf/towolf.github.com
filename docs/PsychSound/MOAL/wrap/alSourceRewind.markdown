@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alSourceRewind  Interface to OpenAL function alSourceRewind
+alSourceRewind  Interface to OpenAL function alSourceRewind  
 
-usage:  alSourceRewind( sid )
+usage:  alSourceRewind( sid )  
 
-C function:  void alSourceRewind(ALuint sid)
+C function:  void alSourceRewind(ALuint sid)  
 
 
 <div class="code_header" style="text-align:right;">

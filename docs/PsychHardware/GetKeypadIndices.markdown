@@ -6,27 +6,27 @@ categories:
 encoding: UTF-8
 ---
 
-keypadIndices= GetKeypadIndices
+keypadIndices= GetKeypadIndices  
 
-# OS X
+# OS X  
 
-The PsychHID assigns each USB HID device connected to you computer a
-unique index. GetKeypadIndices returns the indices for those HID
-devices which are keypads.  The product names of each keypad are
-returned in a second argument which is useful to identify the keypad
-associated with an index.  For complete information on a keypad use
-PsychHID('Devices').
+The PsychHID assigns each USB HID device connected to you computer a  
+unique index. GetKeypadIndices returns the indices for those HID  
+devices which are keypads.  The product names of each keypad are  
+returned in a second argument which is useful to identify the keypad  
+associated with an index.  For complete information on a keypad use  
+PsychHID('Devices').  
 
-# OS 9
+# OS 9  
 
-GetKeypadIndices does not exist in OS 9.
+GetKeypadIndices does not exist in OS 9.  
 
-# WINDOWS
+# WINDOWS  
 
-GetKeypadIndices does not exist in Windows.
-----
+GetKeypadIndices does not exist in Windows.  
+----  
 
-see also: GetGamepadIndices, GetKeyBoardIndices
+see also: GetGamepadIndices, GetKeyBoardIndices  
 
 
 <div class="code_header" style="text-align:right;">

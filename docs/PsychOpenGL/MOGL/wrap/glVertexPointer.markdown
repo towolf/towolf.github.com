@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glVertexPointer  Interface to glVertexPointer
+glVertexPointer  Interface to glVertexPointer  
 
-usage:  glVertexPointer( size, type, stride, pointer )
+usage:  glVertexPointer( size, type, stride, pointer )  
 
-C function:  void glVertexPointer(GLint size, GLenum type, GLsizei stride, const GLvoid\* pointer)
+C function:  void glVertexPointer(GLint size, GLenum type, GLsizei stride, const GLvoid\* pointer)  
 
 
 <div class="code_header" style="text-align:right;">

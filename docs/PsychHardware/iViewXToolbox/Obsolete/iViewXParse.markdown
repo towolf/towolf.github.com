@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-parse data string for iView commands
+parse data string for iView commands  
 
 
 <div class="code_header" style="text-align:right;">

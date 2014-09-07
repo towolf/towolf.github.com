@@ -6,12 +6,12 @@ categories:
 encoding: UTF-8
 ---
 
-MonoImageToSRGBTest
+MonoImageToSRGBTest  
 
-Test that our litte routine that converts a monochrome image to a
-color image works about right.
+Test that our litte routine that converts a monochrome image to a  
+color image works about right.  
 
-6/15/11  dhb, ms  Wrote it.
+6/15/11  dhb, ms  Wrote it.  
 
 
 <div class="code_header" style="text-align:right;">

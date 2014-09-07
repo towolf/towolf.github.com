@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glClearIndex  Interface to OpenGL function glClearIndex
+glClearIndex  Interface to OpenGL function glClearIndex  
 
-usage:  glClearIndex( c )
+usage:  glClearIndex( c )  
 
-C function:  void glClearIndex(GLfloat c)
+C function:  void glClearIndex(GLfloat c)  
 
 
 <div class="code_header" style="text-align:right;">

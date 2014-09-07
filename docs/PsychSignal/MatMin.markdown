@@ -6,8 +6,8 @@ categories:
 encoding: UTF-8
 ---
 
-[minval] = MatMin(image)
-Find the minumum value in a matrix.
+[minval] = MatMin(image)  
+Find the minumum value in a matrix.  
 
 
 <div class="code_header" style="text-align:right;">

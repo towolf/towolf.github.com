@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-tcpip\_close(fid) closes a open tcpip connection. No arg.=\>  [Close](/docs/Close) default.
+tcpip\_close(fid) closes a open tcpip connection. No arg.=\>  [Close](/docs/Close) default.  
 
-fid is file id for the open tcpip connection returned from tcpip\_open.
+fid is file id for the open tcpip connection returned from tcpip\_open.  
 
 
 

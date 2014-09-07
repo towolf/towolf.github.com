@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glVertexP4uiv  Interface to OpenGL function glVertexP4uiv
+glVertexP4uiv  Interface to OpenGL function glVertexP4uiv  
 
-usage:  glVertexP4uiv( type, value )
+usage:  glVertexP4uiv( type, value )  
 
-C function:  void glVertexP4uiv(GLenum type, const GLuint\* value)
+C function:  void glVertexP4uiv(GLenum type, const GLuint\* value)  
 
 
 <div class="code_header" style="text-align:right;">

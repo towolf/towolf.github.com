@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-Returns the value for vertical axes in the extreme down position.
+Returns the value for vertical axes in the extreme down position.  
 
 
 

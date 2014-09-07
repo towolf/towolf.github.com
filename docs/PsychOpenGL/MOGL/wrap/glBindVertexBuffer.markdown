@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glBindVertexBuffer  Interface to OpenGL function glBindVertexBuffer
+glBindVertexBuffer  Interface to OpenGL function glBindVertexBuffer  
 
-usage:  glBindVertexBuffer( bindingindex, buffer, ptr, stride )
+usage:  glBindVertexBuffer( bindingindex, buffer, ptr, stride )  
 
-C function:  void glBindVertexBuffer(GLuint bindingindex, GLuint buffer, GLint ptr, GLsizei stride)
+C function:  void glBindVertexBuffer(GLuint bindingindex, GLuint buffer, GLint ptr, GLsizei stride)  
 
 
 <div class="code_header" style="text-align:right;">

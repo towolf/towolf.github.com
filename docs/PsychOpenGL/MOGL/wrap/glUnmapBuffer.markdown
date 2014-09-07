@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glUnmapBuffer  Interface to OpenGL function glUnmapBuffer
+glUnmapBuffer  Interface to OpenGL function glUnmapBuffer  
 
-usage:  r = glUnmapBuffer( target )
+usage:  r = glUnmapBuffer( target )  
 
-C function:  GLboolean glUnmapBuffer(GLenum target)
+C function:  GLboolean glUnmapBuffer(GLenum target)  
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glStencilMaskSeparate  Interface to OpenGL function glStencilMaskSeparate
+glStencilMaskSeparate  Interface to OpenGL function glStencilMaskSeparate  
 
-usage:  glStencilMaskSeparate( face, mask )
+usage:  glStencilMaskSeparate( face, mask )  
 
-C function:  void glStencilMaskSeparate(GLenum face, GLuint mask)
+C function:  void glStencilMaskSeparate(GLenum face, GLuint mask)  
 
 
 <div class="code_header" style="text-align:right;">

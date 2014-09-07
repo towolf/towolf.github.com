@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glMultiTexCoord1d  Interface to OpenGL function glMultiTexCoord1d
+glMultiTexCoord1d  Interface to OpenGL function glMultiTexCoord1d  
 
-usage:  glMultiTexCoord1d( target, s )
+usage:  glMultiTexCoord1d( target, s )  
 
-C function:  void glMultiTexCoord1d(GLenum target, GLdouble s)
+C function:  void glMultiTexCoord1d(GLenum target, GLdouble s)  
 
 
 <div class="code_header" style="text-align:right;">

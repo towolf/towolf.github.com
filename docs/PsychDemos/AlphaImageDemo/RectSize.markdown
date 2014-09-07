@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-[width,height] = RectSize(rect)
+[width,height] = RectSize(rect)  
 
-Returns the rect's width and height.
+Returns the rect's width and height.  
 
-10/10/2000 fwc wrote it based on PsychToolbox RectHeight/RectWidth
+10/10/2000 fwc wrote it based on PsychToolbox RectHeight/RectWidth  
 
 
 <div class="code_header" style="text-align:right;">

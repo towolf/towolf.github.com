@@ -6,10 +6,10 @@ categories:
 encoding: UTF-8
 ---
 
-OGLCONST  Collect AL, ALU, and AAL constants from C header files, and
-          store them in oalconst.mat
+OGLCONST  Collect AL, ALU, and AAL constants from C header files, and  
+          store them in oalconst.mat  
 
-usage:  oalconst
+usage:  oalconst  
 
 
 <div class="code_header" style="text-align:right;">

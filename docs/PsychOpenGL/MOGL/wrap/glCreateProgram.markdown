@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glCreateProgram  Interface to OpenGL function glCreateProgram
+glCreateProgram  Interface to OpenGL function glCreateProgram  
 
-usage:  r = glCreateProgram
+usage:  r = glCreateProgram  
 
-C function:  GLuint glCreateProgram(void)
+C function:  GLuint glCreateProgram(void)  
 
 
 <div class="code_header" style="text-align:right;">

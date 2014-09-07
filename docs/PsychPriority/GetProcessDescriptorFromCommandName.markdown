@@ -6,28 +6,28 @@ categories:
 encoding: UTF-8
 ---
 
-processDescriptor=GetProcessDescriptorFromCommandName(commandName)
+processDescriptor=GetProcessDescriptorFromCommandName(commandName)  
 
-# OS X
+# OS X  
 
-Accept the name of a process and return a structure with fields
-describing that process.  GetProcessDescriptorFromCommandName relies on
-the Unix command "ps" to get information about processes.
+Accept the name of a process and return a structure with fields  
+describing that process.  GetProcessDescriptorFromCommandName relies on  
+the Unix command "ps" to get information about processes.  
 
-# Try:
+# Try:  
 
-  GetProcessDescriptorFromCommandName('MATLAB');
+  GetProcessDescriptorFromCommandName('MATLAB');  
 
-# OS 9
+# OS 9  
 
-GetProcessDescriptorFromCommandName does not exist in OS 9.
+GetProcessDescriptorFromCommandName does not exist in OS 9.  
 
-# WINDOWS
+# WINDOWS  
 
-GetProcessDescriptorFromCommandName does not exist in Windows.
-----
+GetProcessDescriptorFromCommandName does not exist in Windows.  
+----  
 
-SEE ALSO: GetProcessList, GetRawProcessList
+SEE ALSO: GetProcessList, GetRawProcessList  
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glLightModeli  Interface to OpenGL function glLightModeli
+glLightModeli  Interface to OpenGL function glLightModeli  
 
-usage:  glLightModeli( pname, param )
+usage:  glLightModeli( pname, param )  
 
-C function:  void glLightModeli(GLenum pname, GLint param)
+C function:  void glLightModeli(GLenum pname, GLint param)  
 
 
 <div class="code_header" style="text-align:right;">

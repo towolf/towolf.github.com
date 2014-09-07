@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glFogi  Interface to OpenGL function glFogi
+glFogi  Interface to OpenGL function glFogi  
 
-usage:  glFogi( pname, param )
+usage:  glFogi( pname, param )  
 
-C function:  void glFogi(GLenum pname, GLint param)
+C function:  void glFogi(GLenum pname, GLint param)  
 
 
 <div class="code_header" style="text-align:right;">

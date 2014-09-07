@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glCullFace  Interface to OpenGL function glCullFace
+glCullFace  Interface to OpenGL function glCullFace  
 
-usage:  glCullFace( mode )
+usage:  glCullFace( mode )  
 
-C function:  void glCullFace(GLenum mode)
+C function:  void glCullFace(GLenum mode)  
 
 
 <div class="code_header" style="text-align:right;">

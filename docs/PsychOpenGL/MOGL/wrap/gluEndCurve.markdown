@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-gluEndCurve  Interface to OpenGL function gluEndCurve
+gluEndCurve  Interface to OpenGL function gluEndCurve  
 
-usage:  gluEndCurve( nurb )
+usage:  gluEndCurve( nurb )  
 
-C function:  void gluEndCurve(GLUnurbs\* nurb)
+C function:  void gluEndCurve(GLUnurbs\* nurb)  
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-CalibrateManualDrvr
+CalibrateManualDrvr  
 
-Get some manual measurements from radiometer/photometer.
+Get some manual measurements from radiometer/photometer.  
 
 
 <div class="code_header" style="text-align:right;">

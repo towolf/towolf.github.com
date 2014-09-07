@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetActiveUniformBlockName  Interface to OpenGL function glGetActiveUniformBlockName
+glGetActiveUniformBlockName  Interface to OpenGL function glGetActiveUniformBlockName  
 
-usage:  [ length, uniformBlockName ] = glGetActiveUniformBlockName( program, uniformBlockIndex, bufSize )
+usage:  [ length, uniformBlockName ] = glGetActiveUniformBlockName( program, uniformBlockIndex, bufSize )  
 
-C function:  void glGetActiveUniformBlockName(GLuint program, GLuint uniformBlockIndex, GLsizei bufSize, GLsizei\* length, GLchar\* uniformBlockName)
+C function:  void glGetActiveUniformBlockName(GLuint program, GLuint uniformBlockIndex, GLsizei bufSize, GLsizei\* length, GLchar\* uniformBlockName)  
 
 
 <div class="code_header" style="text-align:right;">

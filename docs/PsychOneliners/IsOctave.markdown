@@ -6,12 +6,12 @@ categories:
 encoding: UTF-8
 ---
 
-resultFlag = IsOctave
+resultFlag = IsOctave  
 
-Returns true if the script is running under GNU/Octave.
+Returns true if the script is running under GNU/Octave.  
 
-Some scripts need to behave differently when running under
-GNU/Octave instead of running under Mathworks Matlab.
+Some scripts need to behave differently when running under  
+GNU/Octave instead of running under Mathworks Matlab.  
 
 
 <div class="code_header" style="text-align:right;">

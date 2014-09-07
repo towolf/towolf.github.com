@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alSourcePause  Interface to OpenAL function alSourcePause
+alSourcePause  Interface to OpenAL function alSourcePause  
 
-usage:  alSourcePause( sid )
+usage:  alSourcePause( sid )  
 
-C function:  void alSourcePause(ALuint sid)
+C function:  void alSourcePause(ALuint sid)  
 
 
 <div class="code_header" style="text-align:right;">

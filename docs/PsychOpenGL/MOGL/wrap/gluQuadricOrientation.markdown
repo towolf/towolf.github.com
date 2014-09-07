@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-gluQuadricOrientation  Interface to OpenGL function gluQuadricOrientation
+gluQuadricOrientation  Interface to OpenGL function gluQuadricOrientation  
 
-usage:  gluQuadricOrientation( quad, orientation )
+usage:  gluQuadricOrientation( quad, orientation )  
 
-C function:  void gluQuadricOrientation(GLUquadric\* quad, GLenum orientation)
+C function:  void gluQuadricOrientation(GLUquadric\* quad, GLenum orientation)  
 
 
 <div class="code_header" style="text-align:right;">

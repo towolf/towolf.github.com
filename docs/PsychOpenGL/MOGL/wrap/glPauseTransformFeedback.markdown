@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glPauseTransformFeedback  Interface to OpenGL function glPauseTransformFeedback
+glPauseTransformFeedback  Interface to OpenGL function glPauseTransformFeedback  
 
-usage:  glPauseTransformFeedback
+usage:  glPauseTransformFeedback  
 
-C function:  void glPauseTransformFeedback(void)
+C function:  void glPauseTransformFeedback(void)  
 
 
 <div class="code_header" style="text-align:right;">

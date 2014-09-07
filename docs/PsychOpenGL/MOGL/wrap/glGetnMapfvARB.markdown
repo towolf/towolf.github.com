@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetnMapfvARB  Interface to OpenGL function glGetnMapfvARB
+glGetnMapfvARB  Interface to OpenGL function glGetnMapfvARB  
 
-usage:  glGetnMapfvARB( target, query, bufSize, v )
+usage:  glGetnMapfvARB( target, query, bufSize, v )  
 
-C function:  void glGetnMapfvARB(GLenum target, GLenum query, GLsizei bufSize, GLfloat\* v)
+C function:  void glGetnMapfvARB(GLenum target, GLenum query, GLsizei bufSize, GLfloat\* v)  
 
 
 <div class="code_header" style="text-align:right;">

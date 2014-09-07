@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-gluPwlCurve  Interface to OpenGL function gluPwlCurve
+gluPwlCurve  Interface to OpenGL function gluPwlCurve  
 
-usage:  data = gluPwlCurve( nurb, count, stride, type )
+usage:  data = gluPwlCurve( nurb, count, stride, type )  
 
-C function:  void gluPwlCurve(GLUnurbs\* nurb, GLint count, GLfloat\* data, GLint stride, GLenum type)
+C function:  void gluPwlCurve(GLUnurbs\* nurb, GLint count, GLfloat\* data, GLint stride, GLenum type)  
 
 
 <div class="code_header" style="text-align:right;">

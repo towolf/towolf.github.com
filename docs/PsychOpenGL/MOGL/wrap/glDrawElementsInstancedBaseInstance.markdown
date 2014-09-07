@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glDrawElementsInstancedBaseInstance  Interface to OpenGL function glDrawElementsInstancedBaseInstance
+glDrawElementsInstancedBaseInstance  Interface to OpenGL function glDrawElementsInstancedBaseInstance  
 
-usage:  glDrawElementsInstancedBaseInstance( mode, count, type, indices, instancecount, baseinstance )
+usage:  glDrawElementsInstancedBaseInstance( mode, count, type, indices, instancecount, baseinstance )  
 
-C function:  void glDrawElementsInstancedBaseInstance(GLenum mode, GLsizei count, GLenum type, const void\* indices, GLsizei instancecount, GLuint baseinstance)
+C function:  void glDrawElementsInstancedBaseInstance(GLenum mode, GLsizei count, GLenum type, const void\* indices, GLsizei instancecount, GLuint baseinstance)  
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,17 +6,17 @@ categories:
 encoding: UTF-8
 ---
 
-minoltaMatrix = Float2Minolta(floatMatrix)
+minoltaMatrix = Float2Minolta(floatMatrix)  
 
-Description:
-Converts a matrix of floating point values to a matrix of Minolta
-formatted values.
+Description:  
+Converts a matrix of floating point values to a matrix of Minolta  
+formatted values.  
 
-Input:
-floatMatrix (double matrix) - Matrix of floating point values.
+Input:  
+floatMatrix (double matrix) - Matrix of floating point values.  
 
-Output:
-minoltaMatrix (integer matrix) - Matrix of integer Minolta values.
+Output:  
+minoltaMatrix (integer matrix) - Matrix of integer Minolta values.  
 
 
 <div class="code_header" style="text-align:right;">

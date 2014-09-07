@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetQueryObjectiv  Interface to OpenGL function glGetQueryObjectiv
+glGetQueryObjectiv  Interface to OpenGL function glGetQueryObjectiv  
 
-usage:  params = glGetQueryObjectiv( id, pname )
+usage:  params = glGetQueryObjectiv( id, pname )  
 
-C function:  void glGetQueryObjectiv(GLuint id, GLenum pname, GLint\* params)
+C function:  void glGetQueryObjectiv(GLuint id, GLenum pname, GLint\* params)  
 
 
 <div class="code_header" style="text-align:right;">

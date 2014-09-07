@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glTexCoordP1ui  Interface to OpenGL function glTexCoordP1ui
+glTexCoordP1ui  Interface to OpenGL function glTexCoordP1ui  
 
-usage:  glTexCoordP1ui( type, coords )
+usage:  glTexCoordP1ui( type, coords )  
 
-C function:  void glTexCoordP1ui(GLenum type, GLuint coords)
+C function:  void glTexCoordP1ui(GLenum type, GLuint coords)  
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetFramebufferAttachmentParameteriv  Interface to OpenGL function glGetFramebufferAttachmentParameteriv
+glGetFramebufferAttachmentParameteriv  Interface to OpenGL function glGetFramebufferAttachmentParameteriv  
 
-usage:  params = glGetFramebufferAttachmentParameteriv( target, attachment, pname )
+usage:  params = glGetFramebufferAttachmentParameteriv( target, attachment, pname )  
 
-C function:  void glGetFramebufferAttachmentParameteriv(GLenum target, GLenum attachment, GLenum pname, GLint\* params)
+C function:  void glGetFramebufferAttachmentParameteriv(GLenum target, GLenum attachment, GLenum pname, GLint\* params)  
 
 
 <div class="code_header" style="text-align:right;">

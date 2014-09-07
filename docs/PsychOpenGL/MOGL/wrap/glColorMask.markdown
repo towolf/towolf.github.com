@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glColorMask  Interface to OpenGL function glColorMask
+glColorMask  Interface to OpenGL function glColorMask  
 
-usage:  glColorMask( red, green, blue, alpha )
+usage:  glColorMask( red, green, blue, alpha )  
 
-C function:  void glColorMask(GLboolean red, GLboolean green, GLboolean blue, GLboolean alpha)
+C function:  void glColorMask(GLboolean red, GLboolean green, GLboolean blue, GLboolean alpha)  
 
 
 <div class="code_header" style="text-align:right;">

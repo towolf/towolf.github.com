@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glMaterialf  Interface to OpenGL function glMaterialf
+glMaterialf  Interface to OpenGL function glMaterialf  
 
-usage:  glMaterialf( face, pname, param )
+usage:  glMaterialf( face, pname, param )  
 
-C function:  void glMaterialf(GLenum face, GLenum pname, GLfloat param)
+C function:  void glMaterialf(GLenum face, GLenum pname, GLfloat param)  
 
 
 <div class="code_header" style="text-align:right;">

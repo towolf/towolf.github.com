@@ -6,10 +6,10 @@ categories:
 encoding: UTF-8
 ---
 
- x = InitialXPolyR(values\_in,measurements)
+ x = InitialXPolyR(values\_in,measurements)  
 
- 3/15/94        dhb, jms        Created from InitialXPoly to allow
-                                separate order for raw fits.
+ 3/15/94        dhb, jms        Created from InitialXPoly to allow  
+                                separate order for raw fits.  
 
 
 <div class="code_header" style="text-align:right;">

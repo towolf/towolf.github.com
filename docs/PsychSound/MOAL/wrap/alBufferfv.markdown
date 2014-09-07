@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alBufferfv  Interface to OpenAL function alBufferfv
+alBufferfv  Interface to OpenAL function alBufferfv  
 
-usage:  alBufferfv( bid, param, values )
+usage:  alBufferfv( bid, param, values )  
 
-C function:  void alBufferfv(ALuint bid, ALenum param, const ALfloat\* values)
+C function:  void alBufferfv(ALuint bid, ALenum param, const ALfloat\* values)  
 
 
 <div class="code_header" style="text-align:right;">

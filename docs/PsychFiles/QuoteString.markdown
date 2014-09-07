@@ -6,14 +6,14 @@ categories:
 encoding: UTF-8
 ---
 
-string=QuoteString(string)
+string=QuoteString(string)  
 
-Wraps a string in quotes, after doubling any embedded quotes.
-E.g. "Denis's disk" becomes "'Denis''s disk'"
-This is useful when supplying literal filenames in an eval statement.
-The quoting is necessary because the filename may contain spaces.
-The doubling is necessary because a single quote would be interpreted
-as the end of the string.
+Wraps a string in quotes, after doubling any embedded quotes.  
+E.g. "Denis's disk" becomes "'Denis''s disk'"  
+This is useful when supplying literal filenames in an eval statement.  
+The quoting is necessary because the filename may contain spaces.  
+The doubling is necessary because a single quote would be interpreted  
+as the end of the string.  
 
 
 <div class="code_header" style="text-align:right;">

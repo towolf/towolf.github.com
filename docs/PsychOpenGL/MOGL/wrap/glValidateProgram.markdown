@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glValidateProgram  Interface to OpenGL function glValidateProgram
+glValidateProgram  Interface to OpenGL function glValidateProgram  
 
-usage:  glValidateProgram( program )
+usage:  glValidateProgram( program )  
 
-C function:  void glValidateProgram(GLuint program)
+C function:  void glValidateProgram(GLuint program)  
 
 
 <div class="code_header" style="text-align:right;">

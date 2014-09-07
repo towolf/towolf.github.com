@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetActiveSubroutineUniformiv  Interface to OpenGL function glGetActiveSubroutineUniformiv
+glGetActiveSubroutineUniformiv  Interface to OpenGL function glGetActiveSubroutineUniformiv  
 
-usage:  values = glGetActiveSubroutineUniformiv( program, shadertype, index, pname )
+usage:  values = glGetActiveSubroutineUniformiv( program, shadertype, index, pname )  
 
-C function:  void glGetActiveSubroutineUniformiv(GLuint program, GLenum shadertype, GLuint index, GLenum pname, GLint\* values)
+C function:  void glGetActiveSubroutineUniformiv(GLuint program, GLenum shadertype, GLuint index, GLenum pname, GLint\* values)  
 
 
 <div class="code_header" style="text-align:right;">

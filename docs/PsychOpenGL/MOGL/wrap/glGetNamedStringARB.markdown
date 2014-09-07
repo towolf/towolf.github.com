@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetNamedStringARB  Interface to OpenGL function glGetNamedStringARB
+glGetNamedStringARB  Interface to OpenGL function glGetNamedStringARB  
 
-usage:  [ stringlen, string ] = glGetNamedStringARB( namelen, name, bufSize )
+usage:  [ stringlen, string ] = glGetNamedStringARB( namelen, name, bufSize )  
 
-C function:  void glGetNamedStringARB(GLint namelen, const GLchar\* name, GLsizei bufSize, GLint\* stringlen, GLchar\* string)
+C function:  void glGetNamedStringARB(GLint namelen, const GLchar\* name, GLsizei bufSize, GLint\* stringlen, GLchar\* string)  
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-Recursively get filenames of all result files in 'sdir' directory tree:
+Recursively get filenames of all result files in 'sdir' directory tree:  
 
 
 <div class="code_header" style="text-align:right;">

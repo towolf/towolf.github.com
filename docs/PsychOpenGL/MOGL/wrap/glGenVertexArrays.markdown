@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGenVertexArrays  Interface to OpenGL function glGenVertexArrays
+glGenVertexArrays  Interface to OpenGL function glGenVertexArrays  
 
-usage:  arrays = glGenVertexArrays( n )
+usage:  arrays = glGenVertexArrays( n )  
 
-C function:  void glGenVertexArrays(GLsizei n, GLuint\* arrays)
+C function:  void glGenVertexArrays(GLsizei n, GLuint\* arrays)  
 
 
 <div class="code_header" style="text-align:right;">

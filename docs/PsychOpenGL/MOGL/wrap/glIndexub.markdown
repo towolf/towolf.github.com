@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glIndexub  Interface to OpenGL function glIndexub
+glIndexub  Interface to OpenGL function glIndexub  
 
-usage:  glIndexub( c )
+usage:  glIndexub( c )  
 
-C function:  void glIndexub(GLubyte c)
+C function:  void glIndexub(GLubyte c)  
 
 
 <div class="code_header" style="text-align:right;">

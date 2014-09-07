@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-result = HatCenter
-Return a constant for hat center position.  To read a hat position, use:
-JOYSTICK(joystickNumber,'GetHat',hatNumber).
+result = HatCenter  
+Return a constant for hat center position.  To read a hat position, use:  
+JOYSTICK(joystickNumber,'GetHat',hatNumber).  
 
 
 <div class="code_header" style="text-align:right;">

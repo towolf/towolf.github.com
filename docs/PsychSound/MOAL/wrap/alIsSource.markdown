@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alIsSource  Interface to OpenAL function alIsSource
+alIsSource  Interface to OpenAL function alIsSource  
 
-usage:  r = alIsSource( sid )
+usage:  r = alIsSource( sid )  
 
-C function:  ALboolean alIsSource(ALuint sid)
+C function:  ALboolean alIsSource(ALuint sid)  
 
 
 <div class="code_header" style="text-align:right;">
