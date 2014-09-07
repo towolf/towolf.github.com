@@ -41,7 +41,7 @@ of the  three priority flavors: 'THREAD\_STANDARD\_POLICY',
       If the flag value passed to MachGetPriorityMex is 0, requesting
       current parameter values and not default parameter values and yet
       MachGetPriorityMex returns default parameters and defaultFlag value
-      \1, then the priority flavor which was specified in the first
+      1, then the priority flavor which was specified in the first
       argument to priorityFlavorString is not in effect.
 
 The form of the embedded struct "policy" depends on the value of

@@ -10,7 +10,7 @@ units = sampleCircle(nTheta,elevation)
 
 [Sample](/docs/Sample) points uniformly around a circle.
 
-\8/3/96  dhb  Added this comment.
+8/3/96  dhb  Added this comment.
 
 
 <div class="code_header" style="text-align:right;">

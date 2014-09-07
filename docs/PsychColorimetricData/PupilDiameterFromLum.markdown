@@ -22,12 +22,12 @@ encoding: UTF-8
         DeGrootGebhard:
             Formula is De Groot and Gebhard's from
             Eq. 2(2.4.5) of Wyszecki and Stiles,
-            \2cd edition (page 106).
+            2cd edition (page 106).
 
    MoonSpencer:
         Formula is Moon and Spencer's from
         Eq. 1(2.4.5) of Wyszecki and Stiles,
-        \2cd edition (page 106).
+        2cd edition (page 106).
 
  Notes:
     a) The calculations of the DeGroot/Gebhard formula do not seem to agree with the
@@ -45,7 +45,7 @@ encoding: UTF-8
 
             de Groot, S. G. and J. W. Gebhard (1952). "Pupil size as determined
             by adapting luminance." Journal of the Optical Society of America
-            \42: 492-495.
+            42: 492-495.
 
         For example, the Reeves (1918, "The visibility of radiation." Transactions of the
         Illuminating Engineering Society 13: 101-109) pupil diameter function is displaced
@@ -62,10 +62,10 @@ encoding: UTF-8
         As is mentioned in "How much light..." pupil size varies for all sorts of reasons and any
         estimate should be viewed as having a large tolerance.
 
- \4/2/99  dhb  Wrote it.
- \5/8/99  dhb  Consolidated different methods.
- \7/8/03  dhb  Accept strings without dashes.
- \12/4/07 dhb  Added dog case, with a place holder number of 8 mm.
+ 4/2/99  dhb  Wrote it.
+ 5/8/99  dhb  Consolidated different methods.
+ 7/8/03  dhb  Accept strings without dashes.
+ 12/4/07 dhb  Added dog case, with a place holder number of 8 mm.
 
 
 <div class="code_header" style="text-align:right;">

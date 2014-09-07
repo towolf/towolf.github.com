@@ -18,7 +18,7 @@ checks if there is any struct in the cell:
 fhndl = @isstruct
 check if there is any element in the cell extending
 over more than 2 dimensions:
-fhndl = @(x)ndims(x)\>2
+fhndl = @(x)ndims(x)>2
 
 DN    2008-05-28
 

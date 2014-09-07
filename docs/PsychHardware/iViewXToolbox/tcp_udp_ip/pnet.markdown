@@ -36,7 +36,7 @@ Commands for TCP connections
 
     Creates tcp/ip connection to the specified 'hostname' and port. On error
     it returns -1, on success it returns a conection handler as an integer
-    number \>=0. This function call is used to act as a "tcp-client".
+    number >=0. This function call is used to act as a "tcp-client".
     This function is alway nonblocking unless their is some troubles with
     namelookup that can block interpretation for a while.
 
@@ -133,7 +133,7 @@ Commands for TCP connections
     This returns a number telling about the status of a connection/socket.
     It is a different number for each type of connection or socket se
     \#define's in top of pnet.c. The most important status is when
-    peer has disconnect the status value is 0 else it is \>0.
+    peer has disconnect the status value is 0 else it is >0.
     This command can also be used with UDP packets, se the UDP section.
 
  stat=pnet(con,'setreadtimeout',sec)
@@ -188,7 +188,7 @@ UDP packets
 
     Creates a UDP socket and binds it to an UDP port. On this socket can you
     recive UDP packets destinated to this UDP port, and send UDP packets with
-    this sockat as source adress. Retruns -1 on fail or a handler \>=0 on
+    this sockat as source adress. Retruns -1 on fail or a handler >=0 on
     success. In this sockets write buffer you can create a UDP packet that
     is later sent with the 'writepacket' command.
 

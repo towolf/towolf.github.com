@@ -15,7 +15,7 @@ and is most valid for small angles around the fovea.
 
 See also: RetinalMMToDegrees, EyeLength.
 
-\7/15/03  dhb  Wrote it.
+7/15/03  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

@@ -35,7 +35,7 @@ based on only a random subset of the response history (see options
 its operation more robust for response errors and also avoids probe
 oscillations when the fit estimate is converging.
 When we are close to convergence, probes will tend to be near the 25% and
-\75% points. If a probe is 25% and you answer '1' (pedestal faster, which
+75% points. If a probe is 25% and you answer '1' (pedestal faster, which
 is likely, because it's near the correct 25% point), then for the next
 trial the peak in expected entropy reduction will generally be the 75%
 point, and vice versa. This can lead to undesirable probe sequences where
@@ -102,7 +102,7 @@ observer to indicate the slower interval, the slopes in our slope set
 would not match the task, and the staircase would get stuck at one of the
 probe bounds. In this case, the lower end of the probe space is
 associated with the response 1 and the higher end with the response
-\0--we'd thus have a negative slope for the fitted cumulative probability
+0--we'd thus have a negative slope for the fitted cumulative probability
 function.
 
 The staircase currently only supports logistic and cumulative Gaussian

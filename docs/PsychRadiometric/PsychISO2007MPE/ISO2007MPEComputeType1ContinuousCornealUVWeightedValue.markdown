@@ -9,7 +9,7 @@ encoding: UTF-8
 [val\_UWattsPerCm2,limit\_UWattsPerCm2] = ISO2007MPEComputeType1ContinuousCornealUVWeightedValue(S,radiance\_WattsPerSrM2,weightingS,stimulusDurationSecs,stimulusAreaDegrees2)
 
 Compute the weighted UV radiation for Type 1 instruments as given on page 7, Table 2,
-\5.4.1.1.
+5\.4.1.1.
 
 Input spectrum is radiance in units of Watts/[sr-m2-wlinterval].
 
@@ -19,7 +19,7 @@ See page 6 for a definition of a Type 1 instrument.  As far as I can tell, the k
 criterion is that it doesn't put out more light that exceeds the Type 1 limits.
 
 If the exposure time is longer than 2 hours the specified limits should be reduced by
-\1/exposureDuration in hours.  This routine implements that adjustment for its returned
+1/exposureDuration in hours.  This routine implements that adjustment for its returned
 limit value.  It does not implement a further reduction of of the limit (by a factor of 2)
 for microscopes and endoilluminators.
 
@@ -29,7 +29,7 @@ and responsibility in PsychISO2007MPE/Contents.m (type "help PsychISO2007MPE"
 at the Matlab prompt.
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-\6/25/13  dhb  Wrote it.
+6/25/13  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

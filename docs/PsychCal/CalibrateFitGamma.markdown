@@ -32,31 +32,31 @@ going to look into it in detail right now.
 
 See also PsychGamma.
 
-\3/26/02  dhb  Pulled out of CalibrateMonDrvr.
-\11/14/06 dhb  Define nInputLevels and pass to underlying fit routine.
-\07/22/07 dhb  Add simplePower fitType.
-\08/02/07 dhb  Optional pass of nInputLevels.
+3/26/02  dhb  Pulled out of CalibrateMonDrvr.
+11/14/06 dhb  Define nInputLevels and pass to underlying fit routine.
+07/22/07 dhb  Add simplePower fitType.
+08/02/07 dhb  Optional pass of nInputLevels.
          dhb  Don't allow a long string of zeros at the start.
          dhb  Reduce redundant code for higher order terms by pulling out of switch
-\08/03/07 dhb  Debug.  Add call to MakeMonotonic for first three components.
-\11/19/09 dhb  Added crtSumPow option, coded to [0-1] world and using curve fit toolbox.
-\3/07/10  dhb  Cosmetic to make m-lint happier, including some "|" -\> "||"
-\3/07/10  dhb  Added crtLinear option.
+08/03/07 dhb  Debug.  Add call to MakeMonotonic for first three components.
+11/19/09 dhb  Added crtSumPow option, coded to [0-1] world and using curve fit toolbox.
+3/07/10  dhb  Cosmetic to make m-lint happier, including some "|" -> "||"
+3/07/10  dhb  Added crtLinear option.
          dhb  contrasthThresh and fitBreakThresh values only set if not already in struct.
          dhb  Call MakeGammaMonotonic rather than MakeMonotonic where appropriate.
          dhb  Use linear interpolation for higher order linear model weights, rather than
               a polynomial.  I now think that ringing is worse than not smoothing enough.
-\3/08/10  dhb  Update list of options in comment above.
-\5/26/10  dhb  Allow gamma input values to be either a single column or a matrix with same number of columns as devices.
-\6/5/10   dhb  Extend fix above to higher order terms in the gamma fit.
+3/08/10  dhb  Update list of options in comment above.
+5/26/10  dhb  Allow gamma input values to be either a single column or a matrix with same number of columns as devices.
+6/5/10   dhb  Extend fix above to higher order terms in the gamma fit.
          dhb  Fix or supress MATLAB lint warnings.
          dhb  Add betacdf fit option, which seems to provide a flexible sigmoidally shaped fit.
-\6/8/10   dhb, ar Make sure to set cal.gammaInput in options that use curvefit toolbox method.
+6/8/10   dhb, ar Make sure to set cal.gammaInput in options that use curvefit toolbox method.
               Add a call to MakeGammaMonotonic around input values for higher order linmod fit.
-\6/1010   dhb  Fix higher order fit in case where there are multiple gamma input columns.  Blew this the other day.
-\6/11/10  dhb  Allow passing of weighting parameter as part of cal.describe.gamma structure.  Change functional form of betacdf
+6/1010   dhb  Fix higher order fit in case where there are multiple gamma input columns.  Blew this the other day.
+6/11/10  dhb  Allow passing of weighting parameter as part of cal.describe.gamma structure.  Change functional form of betacdf
               to include wrapped power functions.
-\4/12/11  dhb  For simplePower option, return vector of exponents in cal.describe.exponents.
+4/12/11  dhb  For simplePower option, return vector of exponents in cal.describe.exponents.
 
 
 <div class="code_header" style="text-align:right;">

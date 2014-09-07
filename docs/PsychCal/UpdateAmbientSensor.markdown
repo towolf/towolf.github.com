@@ -22,9 +22,9 @@ you typically don't want to keep adding multiple times.
 If instead you want to update in the measurement units,
 call UpdateAmbient instead.
 
-\7/7/98    dhb          Wrote it.
-\4/5/02    dhb, ly  Update for new interface.  Internal names not changed.
-\5/2/02    dhb, kr  Add ADD flag.
+7/7/98    dhb          Wrote it.
+4/5/02    dhb, ly  Update for new interface.  Internal names not changed.
+5/2/02    dhb, kr  Add ADD flag.
 
 
 <div class="code_header" style="text-align:right;">

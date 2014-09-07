@@ -13,7 +13,7 @@ ProceduralShadingAPI - Documentation useful for procedural shading:
 There are three ways to pass data to a procedural shader for drawing of
 parameterized textures or texture-like stimuli:
 
-\1. Texture data: If you create the procedural texture via
+1\. Texture data: If you create the procedural texture via
 [Screen](/docs/Screen)('MakeTexture', ...., shader); by attaching a GLSL shader to a
 texture matrix, then you can pass image data or other 2D data, e.g.,
 matrices with whatever data makes sense, e.g., precomputed lookup tables.
@@ -22,14 +22,14 @@ This makes sense for static data - content that doesn't change, so it can
 be encoded into the texture image matrix. Such textures or lookup tables
 can be large, but they consume a lot of memory and bandwith.
 
-\2. Infrequently changing parameters: Parameters that do change, but don't
+2\. Infrequently changing parameters: Parameters that do change, but don't
 change too often, e.g., change only once per trial or maybe once per
 stimulus frame, can be passed as uniforms to the shader via the
 glUniform() low-level OpenGL command. Uniforms values can be changed
 anytime on the fly, but changing them incurs some overhead, so doing it
 too often may significantly degrade stimulus drawing speed.
 
-\3. Frequently changing parameters: Parameters that do change once per
+3\. Frequently changing parameters: Parameters that do change once per
 drawn texture (per-gabor parameters for drawing a large number of gabor
 patches per image) can be passed as so called vertex attributes. These
 parameters are passed directly to the [Screen](/docs/Screen)('DrawTexture(s)') and

@@ -36,7 +36,7 @@ To get sensitivity in energy units, apply EnergyToQuanta().
 
 Argument lambdaMax may be a column vector of wavelengths.
 
-\03/08/2002 ly  Wrote it starting from DawisNomogram.
+03/08/2002 ly  Wrote it starting from DawisNomogram.
 
 
 <div class="code_header" style="text-align:right;">

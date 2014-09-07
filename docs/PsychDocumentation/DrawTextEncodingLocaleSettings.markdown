@@ -11,7 +11,7 @@ DrawTextEncodingLocaleSettings
 If you are just concerned with drawing "standard" ASCII text with the
 [Screen](/docs/Screen)('DrawText', window, text); command, i.e. text that only contains
 "standard" latin characters, e.g., abcdef....ABCDEF.... and numbers
-\01234567890 and a few punctuation marks and symbols like .,!?#@$%& etc.
+01234567890 and a few punctuation marks and symbols like .,!?#@$%& etc.
 then there's nothing you'd need to do. [Screen](/docs/Screen)('DrawText') and
 DrawFormattedText() will process these just fine.
 
@@ -34,7 +34,7 @@ any Unicode plane.
 The standard OS/X text renderer and MS-Windows text renderer only support
 UTF-16 / UCS-2 encoding. Therefore, characters outside of the BMP must be
 represented by pairs of codepoints, each with a value between 0 and 65535
-\- Two consecutive values in your double vector will represent one
+- Two consecutive values in your double vector will represent one
 character from outside the BMP.
 
 You can also draw non-ASCII character strings encoded into some single-byte

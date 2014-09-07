@@ -16,7 +16,7 @@ at the Matlab prompt.
 
 Printout utility for test scripts.
 
-\3/2/13  dhb  Wrote it.
+3/2/13  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

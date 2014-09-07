@@ -21,7 +21,7 @@ encoding: UTF-8
     L=y\*(L1-L0)+L0
  Our relation at match can be rewritten as
     L1\*L0=Ld\*Lb
-    \0=Ld\*Lb-L1\*L0
+    0=Ld\*Lb-L1\*L0
     \=(yd\*(L1-L0)+L0)\*(yb\*(L1-L0)+L0)-L1\*L0
     Let's divide by L1^2, and define r=L0/L1.
     \=(yd\*(1-r)+r)\*(yb\*(1-r)+r)-r
@@ -32,12 +32,12 @@ encoding: UTF-8
     r=roots(c)
  The answer, r, is the desired ratio of L0/L1.
 
- \5/28/96 dgp  Wrote it.
- \5/28/96 dgp  Updated to use new GetMouse, that flushes mouse events.
- \8/4/96  dhb  Changed name to ContrastMatch.
- \8/16/97 dgp  Changed "text" to "theText" to avoid conflict with TEXT function.
- \7/19/98 dgp  Removed obsolete TIMER.
- \6/30/03 dgp Updated [Screen](/docs/Screen) OpenScreen to [Screen](/docs/Screen) OpenWindow.
+ 5/28/96 dgp  Wrote it.
+ 5/28/96 dgp  Updated to use new GetMouse, that flushes mouse events.
+ 8/4/96  dhb  Changed name to ContrastMatch.
+ 8/16/97 dgp  Changed "text" to "theText" to avoid conflict with TEXT function.
+ 7/19/98 dgp  Removed obsolete TIMER.
+ 6/30/03 dgp Updated [Screen](/docs/Screen) OpenScreen to [Screen](/docs/Screen) OpenWindow.
 
 
 <div class="code_header" style="text-align:right;">

@@ -15,7 +15,7 @@ panel display, the so called "beamposition".
 
 # We use this mechanism for two purposes:
 
-\1. Independent measurement of the monitor refresh interval: Psychtoolbox
+1\. Independent measurement of the monitor refresh interval: Psychtoolbox
 executes a measurement loop during [Screen](/docs/Screen)('OpenWindow') where it determines
 the monitor refresh interval. It takes a timestamp whenever the beamposition
 resets to zero at the start of a new display refresh cycle. The difference
@@ -31,7 +31,7 @@ make the sync tests and display calibration as robust as possible, even
 if the operating system reports bogus values like 0 Hz, which can happen
 on MacOS-X and Windows with some flat panels.
 
-\2. Highly accurate and robust stimulus onset timestamps in [Screen](/docs/Screen)('[Flip](/docs/Flip)').
+2\. Highly accurate and robust stimulus onset timestamps in [Screen](/docs/Screen)('[Flip](/docs/Flip)').
 
 In normal operation, the [Screen](/docs/Screen)('[Flip](/docs/Flip)') command, after issuing a buffer-swap
 request to the gfx-hardware, pauses execution until the operating system
@@ -130,25 +130,25 @@ The behaviour of PTB can be controlled by the command:
 [Screen](/docs/Screen)('[Preference](/docs/Preference)', 'VBLTimestampingMode', mode); where mode can be one of the
 following:
 
-\-1 = Disable all cleverness, take noisy timestamps. This is the behaviour
+-1 = Disable all cleverness, take noisy timestamps. This is the behaviour
      you'd get from any other psychophysics toolkit, as far as we know.
 
- \0 = Disable kernel-level/CoreVideo fallback method (OSX and Linux), use
+ 0 = Disable kernel-level/CoreVideo fallback method (OSX and Linux), use
      either beamposition stamps or noisy stamps if beamposition is
      unavailable. This is the effective default setting on OSX and Windows.
 
- \1 = Use beamposition. Should it fail, switch to use of kernel-level/CoreVideo
+ 1 = Use beamposition. Should it fail, switch to use of kernel-level/CoreVideo
      timestamps. If that fails as well or is unavailable, use noisy
      stamps.
 
- \2 = Use beamposition, but cross-check with kernel-level/CoreVideo timestamps.
+ 2 = Use beamposition, but cross-check with kernel-level/CoreVideo timestamps.
      Use noisy stamps if beamposition mode fails. This is for the paranoid
      to check proper functioning.
 
- \3 = Always use kernel-level/CoreVideo timestamping, fall back to noisy
+ 3 = Always use kernel-level/CoreVideo timestamping, fall back to noisy
      stamps if it fails.
 
- \4 = Use OpenML OML\_sync\_control extension for high-precision timestamping
+ 4 = Use OpenML OML\_sync\_control extension for high-precision timestamping
      on supported system configuration, fall back on beamposition queries
      if the OpenML mechanism is unavailable. OpenML timestamping is
      currently a Linux only feature on the free open-source graphics
@@ -163,7 +163,7 @@ setup and operation.
 
 # There are multiple possible causes for failure:
 
-\1. Running digital displays like flat panels or projectors at non-native
+1\. Running digital displays like flat panels or projectors at non-native
 resolution, ie., anything other than their rated maximum resolution, or
 using display rotation by 90/180/270 degrees, e.g., putting the display
 from landscape into portrait orientation. This will violate various
@@ -175,12 +175,12 @@ display rotation functions of PsychImaging(). See the demo
 PanelFitterDemo.m and its "help PanelFitterDemo" for further explanation
 on how to use the panelfitter.
 
-\2. System overload: Too many other applications are running in parallel
+2\. System overload: Too many other applications are running in parallel
 to Psychtoolbox, introducing severe timing noise into the calibration and
 test loop. See 'help SyncTrouble' on what to do. This happens rather
 seldomly.
 
-\3. Driver bug: Not much you can do, except submit a bug report to Apple
+3\. Driver bug: Not much you can do, except submit a bug report to Apple
 or Microsoft for your specific hardware + software setup. This is by far
 the most common cause of failure. Psychtoolbox tries to enable
 work-arounds for some common problems if possible. Usually you should
@@ -239,7 +239,7 @@ How to find out about VTOTAL? One way is to search the display control
 panel on Windows for some area with "Advanced Timing" or "Custom Timing"
 settings. The shareware utility "PowerStrip" (http://www.entechtaiwan.com/util/ps.shtm)
 also allows to change and display these parameters in the Display
-Profiles -\> Configure -\> Advanced Timing -\> Vertical Geometry -\> "Total"
+Profiles -> Configure -> Advanced Timing -> Vertical Geometry -> "Total"
 field.
 
 # Accuracy of beamposition method:
@@ -251,7 +251,7 @@ than 100 microseconds, with a maximum deviation between the different
 methods of less than 200 microseconds.
 
 Initial checking on two Window PC's (Dell Inspiron 8000 Laptop, Geforce
-\2Go, Windows 2000, and some 3.2 Ghz Pentium-4 with NVidia Geforce 7800
+2Go, Windows 2000, and some 3.2 Ghz Pentium-4 with NVidia Geforce 7800
 GTX) shows a precision of about 30 microseconds. Multiple users performed
 similar testing procedures on their setups and confirmed the high
 accuracy and reliability for various MacOSX and Windows setups.

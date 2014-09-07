@@ -21,14 +21,14 @@ specifying the screen location by using the destination rect argument of
 
 See also MovieDemo.
 
-Thanks to tj <thomasjerde@hotmail.com\> for asking how.
+Thanks to tj <thomasjerde@hotmail.com> for asking how.
 <http://groups.yahoo.com/group/psychtoolbox/message/1101>
 
-\6/20/02 awi  Wrote it as TargetDemo.
-\6/20/02 dgp  Cosmetic.  Renamed SpriteDemo.
-\8/25/06 rhh  Added noise to the sprite.  Expanded comments.
-\10/14/06 dhb Save and restore altered prefs, more extensive comments for them
-\09/20/09 mk  Improve screenNumber selection as per suggestion of Peter April.
+6/20/02 awi  Wrote it as TargetDemo.
+6/20/02 dgp  Cosmetic.  Renamed SpriteDemo.
+8/25/06 rhh  Added noise to the sprite.  Expanded comments.
+10/14/06 dhb Save and restore altered prefs, more extensive comments for them
+09/20/09 mk  Improve screenNumber selection as per suggestion of Peter April.
 
 
 <div class="code_header" style="text-align:right;">

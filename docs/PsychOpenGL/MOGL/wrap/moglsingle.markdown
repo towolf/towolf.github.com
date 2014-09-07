@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-\--- OBSOLETE --- OBSOLETE --- OBSOLETE --- OBSOLETE ---
+--- OBSOLETE --- OBSOLETE --- OBSOLETE --- OBSOLETE ---
 PSYCHTOOLBOX SPECIFIC single() implementation:
 
 retval = moglsingle(arg) -- convert into

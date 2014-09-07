@@ -65,7 +65,7 @@ printers can only print to within about a half inch of the edge. The
 pageRect, though supplied in Apple's Rect data structure, must be in
 Adobe's coordinates, respecting the names of the Rect structure's
 fields: left, top, right, bottom. So, for an image to fill most of an
-\8.5x11 page, with 0.5" margins, you might use the following:
+8\.5x11 page, with 0.5" margins, you might use the following:
 
         pageRect=SetRect(0.5,10.5,8,0.5)\*72;
 
@@ -78,7 +78,7 @@ cell size, which is usually a good choice. Note that there need not be
 any particular correspondence between pixels in your image and cells in
 the halftone; the printer automatically resamples your image to produce
 the halftone.
-    If you specify cellsPerInch (resolution\>0) then the printer will be
+    If you specify cellsPerInch (resolution>0) then the printer will be
 asked to print its halftone with that many halftone cells per inch. E.g.
 to produce a halftone original for subsequent one-to-one reproduction in
 a journal, you'll want the cells to be coarse enough for them to
@@ -87,7 +87,7 @@ reproduce without re-screening, e.g. 100 cells per inch.
 will be asked to print its halftone with cells containing grayLevels-1
 printer pixels, yielding the specified number of gray levels. E.g. you
 might want to force your 300 dpi LaserWriter to use big cells yielding
-\256 gray levels.
+256 gray levels.
     If resolution==0 or resolution==[], it will be ignored.
     Here's a minimal example that prints an image to disk, preserving the
 size and scale of the image,
@@ -135,7 +135,7 @@ LaserStatus, a desk accessory included in the
 MockPackage Plus Utilities
 from:
 CE Software
-\1854 Fuller Road
+1854 Fuller Road
 PO Box 65580
 West Des Moines, Iowa 50265
 (515)-224-1995

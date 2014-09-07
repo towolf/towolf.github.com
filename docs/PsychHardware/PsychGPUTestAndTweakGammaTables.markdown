@@ -31,7 +31,7 @@ Input parameters: (Mandatory)
         external high precision display device.
 
 'deviceType' = Type of device: 0 = VPixx Inc. Data-/View-/Pro-Pixx.
-                               \1 = CRS Bits#
+                               1 = CRS Bits#
 
 'injectFault' = 1 = Intentionally setup a slightly faulty LUT to perturb
                 the signal and test the tweaking procedure. 0 = Don't.

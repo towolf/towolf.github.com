@@ -41,16 +41,16 @@ PsychDataPixx('BoxsecsToGetsecs').
 
 
 Button mapping on the ResponsePixx handheld device:
-\---------------------------------------------------
+---------------------------------------------------
 
 Buttonvector element [1,2,3,4,5] == [Red, Yellow, Green, Blue, White].
 
 
 Subfunctions and their meaning:
-\-------------------------------
+-------------------------------
 
 ResponsePixx('Open' [, numSamples=1000][, bufferBaseAddress=12e6][, nrButtons=5]);
-\- Open ResponsePixx for button response collection. Configures the 24 bit
+- Open ResponsePixx for button response collection. Configures the 24 bit
 digital input port of the DataPixx to receive button responses from a
 ResponsePixx response button box and to drive the button illumination
 lights of that box. Enabled button debouncing on the digital inputs.
@@ -71,13 +71,13 @@ This function doesn't start logging of responses. Call the 'StartNow' or
 
 
 ResponsePixx('[Close](/docs/Close)');
-\- [Close](/docs/Close) ResponsePixx after stopping any running logging operations.
+- [Close](/docs/Close) ResponsePixx after stopping any running logging operations.
 Disable the button lights and reset the digital input port of the
 Datapixx.
 
 
 [startTimeBox, startTimeGetSecs] = ResponsePixx('StartNow' [, clearLog=0][, buttonLightState][, buttonLightIntensity]);
-\- Start button response collection immediately (ie., with minimum
+- Start button response collection immediately (ie., with minimum
 possible delay on your system). Set the optional 'clearLog' flag to 1 if
 all currently stored button responses should be discarded prior to
 logging of new responses, e.g., at start of a new trial.
@@ -87,7 +87,7 @@ of the button illumination, e.g., buttonLightState = [0,1,0,0,1] would
 turn on the light inside button 2 and 5 and turn off the lights in
 buttons 1, 3 and 4. By default, the state of the button lights is not
 changed. The optional value 'buttonLightIntensity' in the range 0.0 to
-\1.0 controls the intensity of the button illumination.
+1\.0 controls the intensity of the button illumination.
 
 Returns a 'startTimeBox' timestamp in Datapixx clock time of when
 acquisition actually started. You can also use the 2nd optional return
@@ -103,7 +103,7 @@ the state of the button lights.
 
 
 ResponsePixx('StartAtFlip' [, flipCount=next][, clearLog=0][, buttonLightState][, buttonLightIntensity]);
-\- Schedule start of response collection synchronized to the visual stimulus
+- Schedule start of response collection synchronized to the visual stimulus
 onset of a future [Screen](/docs/Screen)('[Flip](/docs/Flip)') or [Screen](/docs/Screen)('AsyncFlipBegin') command.
 
 All parameters are identical to the ones for ResponsePixx('StartNow',...),
@@ -122,7 +122,7 @@ future.
 
 
 [stopTimeBox, stopTimeGetSecs] = ResponsePixx('StopNow' [, clearLog=0][, buttonLightState][, buttonLightIntensity]);
-\- Stop button response collection immediately (ie., with minimum
+- Stop button response collection immediately (ie., with minimum
 possible delay on your system). See 'StartNow' for meaning of optional
 arguments.
 
@@ -132,13 +132,13 @@ the state of the button lights.
 
 
 ResponsePixx('StopAtFlip' [, flipCount=next][, clearLog=0][, buttonLightState][, buttonLightIntensity]);
-\- Schedule stop of response collection synchronized to the visual stimulus
+- Schedule stop of response collection synchronized to the visual stimulus
 onset of a future [Screen](/docs/Screen)('[Flip](/docs/Flip)') or [Screen](/docs/Screen)('AsyncFlipBegin') command.
 See 'StartAtFlip' for meaning of parameters.
 
 
 [buttonStates, transitionTimesSecs, underflows] = ResponsePixx('GetLoggedResponses' [, numberResponses=current][, blocking=1][, timeout=inf]);
-\- Try to fetch logged button responses from a running logging
+- Try to fetch logged button responses from a running logging
 operation. Only call this function after logging has been
 started via ResponsePixx('StartNow') or scheduled for start at a
 certain flipCount via ResponsePixx('StartAtFlip') and the flip is
@@ -158,7 +158,7 @@ response, then return anyway. By default the timeout is infinite.
 'buttonStates' is a n-by-5 matrix: The n'th row encodes the button state
 after the n'th transition of button state. Each column encodes up/down
 state of a button, ie., the j'th column encodes state of the j'th button.
-\0 = Button released, 1 = Button pressed. A button press followed by a
+0 = Button released, 1 = Button pressed. A button press followed by a
 release would create two rows of button transition, one for the
 buttonState after pressing a button, a second one for the state after
 releasing the button. The ResponsePixx uses a debouncing algorithm to
@@ -180,7 +180,7 @@ generous 1000 button events.
 
 
 [buttonStates, boxTimeSecs, getsecsTimeSecs] = ResponsePixx('GetButtons');
-\- Perform immediate query of response box button states. Return current
+- Perform immediate query of response box button states. Return current
 state in 'buttonStates' and corresponding box time and GetSecs time
 timestamps of time of query in 'boxTimeSecs' and 'getsecsTimeSecs'.
 

@@ -21,7 +21,7 @@ See also: PsychDemos, MouseTraceDemo, GetMouse.
 
 # HISTORY
 
-\4/1/2013  mk       Derived from MouseTraceDemo2.
+4/1/2013  mk       Derived from MouseTraceDemo2.
 
 
 <div class="code_header" style="text-align:right;">

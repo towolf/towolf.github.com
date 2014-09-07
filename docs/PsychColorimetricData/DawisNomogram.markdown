@@ -30,8 +30,8 @@ To get sensitivity in energy units, apply EnergyToQuanta().
 
 Argument lambdaMax may be a column vector of wavelengths.
 
-\10/30/97 dhb  Wrote it.
-\07/01/03 dhb  Add computation of T\_absorbance.
+10/30/97 dhb  Wrote it.
+07/01/03 dhb  Add computation of T\_absorbance.
 
 
 <div class="code_header" style="text-align:right;">

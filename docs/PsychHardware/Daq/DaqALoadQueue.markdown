@@ -16,22 +16,22 @@ setting. DaqALoadQueue allows you to specify that sequence.
 "channel" is a vector of length 1 to 8; each value (0 to 15) selects any of
     various single-ended or differential measurements.
  "channel"    Measurement
-     \0        0-1 (differential)
-     \1        2-3 (differential)
-     \2        4-5 (differential)
-     \3        6-7 (differential)
-     \4        1-0 (differential)
-     \5        3-2 (differential)
-     \6        5-4 (differential)
-     \7        7-6 (differential)
-     \8          0 (single-ended)
-     \9          1 (single-ended)
-    \10          2 (single-ended)
-    \11          3 (single-ended)
-    \12          4 (single-ended)
-    \13          5 (single-ended)
-    \14          6 (single-ended)
-    \15          7 (single-ended)
+     0        0-1 (differential)
+     1        2-3 (differential)
+     2        4-5 (differential)
+     3        6-7 (differential)
+     4        1-0 (differential)
+     5        3-2 (differential)
+     6        5-4 (differential)
+     7        7-6 (differential)
+     8          0 (single-ended)
+     9          1 (single-ended)
+    10          2 (single-ended)
+    11          3 (single-ended)
+    12          4 (single-ended)
+    13          5 (single-ended)
+    14          6 (single-ended)
+    15          7 (single-ended)
 "range" is a vector of the same length, with values of 0 to 7, specifying
     the desired gain (and voltage range) for the corresponding channel...
     unless we're talking channels greater than 7.  Single-ended inputs always
@@ -39,10 +39,10 @@ setting. DaqALoadQueue allows you to specify that sequence.
     than zero for a single-ended measurement, your setting will be ignored.
     For differential measurements (channels 0:7), the mapping between the
     values passed to this function and the gain (and actual range) are:
-    \0 for 1x (+/-20 V),    1 for 2x (+/-10 V),
-    \2 for 4x (+/-5 V),     3 for 5x (+/-4 V),
-    \4 for 8x (+/-2.5 V),   5 for 10x (+/-2 V),
-    \6 for 16x (+/-1.25 V), 7 for 20x (+/-1 V).
+    0 for 1x (+/-20 V),    1 for 2x (+/-10 V),
+    2 for 4x (+/-5 V),     3 for 5x (+/-4 V),
+    4 for 8x (+/-2.5 V),   5 for 10x (+/-2 V),
+    6 for 16x (+/-1.25 V), 7 for 20x (+/-1 V).
 
 USB-1608FS:
 "DeviceIndex" has the same meaning here as for the USB-1208FS.
@@ -59,7 +59,7 @@ similar as possible for operations of both types of device, user is still
 allowed to pass an arbitrary set of channel/gain pairs (as long as there
 no repeats), and the function will do its best not to touch the gains of
 other channels.  To be safe, you should always specify the gains for all
-\8 channels, but I figure you will only read from the channels whose gains
+8 channels, but I figure you will only read from the channels whose gains
 you explicitly set...  Even though that behavior does not happen
 automatically through calls to this function as it may with the 1208FS.
 However, since we cannot poll the device to find out the current gain
@@ -70,18 +70,18 @@ function may cause some gains to get changed even if not specified by the
 user.  Did I mention that you should always specify the gains for all 8
 channels?  Anyhoo...
 "range" has the same conceptual meaning for the 1608 as it does for the
-\1208, but the numbers are different:
+1208, but the numbers are different:
 
-    \0 for 1x (+/- 10 V),      1 for 2x (+/- 5 V),
-    \2 for 4x (+/- 2.5 V),     3 for 5x (+/- 2 V),
-    \4 for 8x (+/- 1.25 V),    5 for 10x (+/- 1 V),
-    \6 for 16x (+/- 0.625 V),  7 for 32x (+/- 0.3125 V).
+    0 for 1x (+/- 10 V),      1 for 2x (+/- 5 V),
+    2 for 4x (+/- 2.5 V),     3 for 5x (+/- 2 V),
+    4 for 8x (+/- 1.25 V),    5 for 10x (+/- 1 V),
+    6 for 16x (+/- 0.625 V),  7 for 32x (+/- 0.3125 V).
 
 See also Daq, DaqFunctions, DaqPins, DaqTest, PsychHidTest, DaqAIn,
 DaqAInScan, DaqAInScanBegin.
 
-\4/15/05 dgp Wrote it.
-\1/8/08  mpr created behavior appropriate for 1608
+4/15/05 dgp Wrote it.
+1/8/08  mpr created behavior appropriate for 1608
 
 
 <div class="code_header" style="text-align:right;">

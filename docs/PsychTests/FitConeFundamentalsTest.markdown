@@ -31,9 +31,9 @@ If one really wanted to go after fitting the fundamentals from parts,
 searching on various densities as well as the lambda max values
 would probably be the way to go.
 
-\8/11/11  dhb  Wrote it.
-\8/14/11  dhb  Clean up and add comments.
-\8/10/13  dhb  A few more notes.
+8/11/11  dhb  Wrote it.
+8/14/11  dhb  Clean up and add comments.
+8/10/13  dhb  A few more notes.
 
 
 <div class="code_header" style="text-align:right;">

@@ -22,10 +22,10 @@ pass this as 1.  It is 0 by default.
 
 See also [uvYToXYZ](/docs/uvYToXYZ), XYZToxyY, [xyYToXYZ](/docs/xyYToXYZ).
 
-\10/31/94  dhb   Wrote it.
-\8/24/09   dhb Speed it up a lot by preallocating output.
-\6/16/10   dhb More extensive comment.
-\5/6/11    dhb Comment fix.
+10/31/94  dhb   Wrote it.
+8/24/09   dhb Speed it up a lot by preallocating output.
+6/16/10   dhb More extensive comment.
+5/6/11    dhb Comment fix.
           dhb Add "compute1960" option.
 
 

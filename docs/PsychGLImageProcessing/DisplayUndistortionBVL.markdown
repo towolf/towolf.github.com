@@ -29,13 +29,13 @@ will show up undistorted on the display device.
 
 # For this to work, PTB needs two things:
 
-\1. Recent graphics hardware with support for the PTB imaging pipeline:
+1\. Recent graphics hardware with support for the PTB imaging pipeline:
 See our Wiki for recommendations. However, all ATI cards starting with
 Radeon 9500 and all NVidia cards of type GeForce-FX5200 and later, as
 well as the Intel-GMA 950 and later should be able to do it, although
 more recent cards will have a higher performance.
 
-\2. A calibration file that defines the warp transformation to apply. Your
+2\. A calibration file that defines the warp transformation to apply. Your
 experiment script will load that file into [Screen](/docs/Screen)'s "warp engine" at the
 beginning of your experiment.
 
@@ -47,12 +47,12 @@ corresponding calibration file is saved for later use with that display.
 DisplayUndistortionBVL defines a continous mapping (x', y') = f(x, y)
 from uncorrected input pixel locations (x,y) in your stimulus image to
 output locations (x', y') on your display. This mapping is defined by a
-\3rd order, 2-dimensional polynomial that is fitted to the calibration data.
+3rd order, 2-dimensional polynomial that is fitted to the calibration data.
 
 
 # How to use:
 
-\1. Start the script, providing all parameters that you don't want to have
+1\. Start the script, providing all parameters that you don't want to have
 at default settings (all parameters have reasonable defaults):
 
 'caliboutfilename' Name of the file to which calibration results should
@@ -94,7 +94,7 @@ calibration file for the ImageUndistortionDemo routine.
 'stereomode' Optional stereo mode for display of calibration. Defaults to
 zero, i.e., monoscopic display.
 
-\2. After startup, the script will display a grid of mostly evenly spaced
+2\. After startup, the script will display a grid of mostly evenly spaced
 points onscreen. The points will not be perfectly aligned to a grid due
 to the distortion caused by your display. Your job is to tweak and shift
 those points so that they line up to a rectilinear grid as good as

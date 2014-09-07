@@ -26,13 +26,13 @@ will show up undistorted on the display device.
 
 # For this to work, PTB needs two things:
 
-\1. Recent graphics hardware with support for the PTB imaging pipeline:
+1\. Recent graphics hardware with support for the PTB imaging pipeline:
 See our Wiki for recommendations. However, all ATI cards starting with
 Radeon 9500 and all NVidia cards of type GeForce-FX5200 and later, as
 well as the Intel-GMA 950 and later should be able to do it, although
 more recent cards will have a higher performance.
 
-\2. A calibration file that defines the warp transformation to apply. Your
+2\. A calibration file that defines the warp transformation to apply. Your
 experiment script will load that file into [Screen](/docs/Screen)'s "warp engine" at the
 beginning of your experiment and [Screen](/docs/Screen)() will automatically apply that
 warping to each stimulus image before output.
@@ -46,7 +46,7 @@ graphics drivers for some high-end Quadro GPUs on Windows-7 and later.
 
 
 How to use:
-\-----------
+-----------
 
 
 # Execute the function with the following parameters:

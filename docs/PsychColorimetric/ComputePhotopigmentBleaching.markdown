@@ -70,9 +70,9 @@ source
   'Boynton'  -- Boynton and Kaiser, Human Color Vision, 2nd edition,
                 pp. 211 and following.  [Default.]
 
-\05/23/14 dhb  Wrote it.
-\05/26/14 dhb  Clean up.
-\06/02/14 dhb  Take isomerizations number based on 2:1 L:M assumed ratio.
+05/23/14 dhb  Wrote it.
+05/26/14 dhb  Clean up.
+06/02/14 dhb  Take isomerizations number based on 2:1 L:M assumed ratio.
 
 
 <div class="code_header" style="text-align:right;">

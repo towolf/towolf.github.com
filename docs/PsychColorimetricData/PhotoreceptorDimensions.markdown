@@ -47,10 +47,10 @@ encoding: UTF-8
 
  The Generic type returns a single number for all species/type.
 
- \7/11/03  dhb  Wrote it.
- \12/04/07 dhb  Added dog but with placeholder numbers.
- \8/9/13   dhb  Comment clean up, allow 'None' to return empty as the value.
- \8/10/13  dhb  Added Webvision source for IS diameter.
+ 7/11/03  dhb  Wrote it.
+ 12/04/07 dhb  Added dog but with placeholder numbers.
+ 8/9/13   dhb  Comment clean up, allow 'None' to return empty as the value.
+ 8/10/13  dhb  Added Webvision source for IS diameter.
 
 
 <div class="code_header" style="text-align:right;">

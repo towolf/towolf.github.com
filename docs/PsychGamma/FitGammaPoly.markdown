@@ -10,8 +10,8 @@ encoding: UTF-8
 
 Fit homogeneous polynomial to gamma data.
 
-\3/15/94     dhb, jms        Ignore low values on fit.
-\3/4/05      dhb             Removed old commented out code.
+3/15/94     dhb, jms        Ignore low values on fit.
+3/4/05      dhb             Removed old commented out code.
 
 
 <div class="code_header" style="text-align:right;">

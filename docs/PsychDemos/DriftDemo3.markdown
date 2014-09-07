@@ -18,7 +18,7 @@ only one grating texture with the minimal amount of code and complexity.
 It is restricted in that the spatial period of the grating in pixels
 must divide the total size of the pattern without remainder and that the
 size of the grating in pixels must be a power of two, e.g., 256 or 512 or
-\1024. For a more complex but more general solution which allows for
+1024\. For a more complex but more general solution which allows for
 arbitrary grating sizes and also masked gratings, see DriftDemo2. For a
 very fast and efficient method, which only works on recent graphics
 hardware, see DriftDemo4.

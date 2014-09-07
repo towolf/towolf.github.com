@@ -10,7 +10,7 @@ encoding: UTF-8
     S,radiance\_WattsPerSrM2,weightingR,stimulusDurationSecs)
 
  Compute the weighted thermal radiance for Type 1 instruments as given on page 9, Table 2,
- \5.4.1.6.b.  Note.  The limit specified there is 6 W/[sr-cm2].  I reduced to 5.88 because
+ 5\.4.1.6.b.  Note.  The limit specified there is 6 W/[sr-cm2].  I reduced to 5.88 because
  this is the worst-case Type 2 limit (largest retinal diameter spot, see Table 4, 5.5.1.5b),
  and it seemed more conservative to do so.
 
@@ -22,7 +22,7 @@ encoding: UTF-8
  criterion is that it doesn't put out more light that exceeds the Type 1 limits.
 
  If the exposure time is longer than 2 hours the specified limits should be reduced by
- \1/exposureDuration in hours.  This routine implements that adjustment for its returned
+ 1/exposureDuration in hours.  This routine implements that adjustment for its returned
  limit value.  It does not implement a further reduction of of the limit (by a factor of 2)
  specifed for microscopes and endoilluminators.
 
@@ -45,7 +45,7 @@ encoding: UTF-8
  at the Matlab prompt.
  \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
- \6/26/13  dhb  Wrote it.
+ 6/26/13  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

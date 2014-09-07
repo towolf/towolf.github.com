@@ -17,10 +17,10 @@ SEE ALSO: TestMATLABTimingOSX.m
 Allen Ingling     awi     Allen.Ingling@nyu.edu
 
 # HISTORY:
-\9/22/03   awi     Adapted from previous versions and other stuff.
-\11/04/03  awi     Added axis labels.
-\4/6/05    awi     Replaced "GetBusFrequencymex" calls with "MachTimebase"
-\4/8/05    awi     Updated "MachTimebase" to new name "MachAbsoluteTimeClockFrequency"
+9/22/03   awi     Adapted from previous versions and other stuff.
+11/04/03  awi     Added axis labels.
+4/6/05    awi     Replaced "GetBusFrequencymex" calls with "MachTimebase"
+4/8/05    awi     Updated "MachTimebase" to new name "MachAbsoluteTimeClockFrequency"
 
 
 <div class="code_header" style="text-align:right;">

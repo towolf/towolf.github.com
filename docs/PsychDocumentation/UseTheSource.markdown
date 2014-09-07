@@ -18,16 +18,16 @@ GitHub.
 
 # To download the source code:
 
-\1. Open a Unix terminal window on OS-X or Linux or a NT command
+1\. Open a Unix terminal window on OS-X or Linux or a NT command
    shell on M$-Windows.
 
-\2. Use the "svn" commandline tool to download source code. On
+2\. Use the "svn" commandline tool to download source code. On
    OS-X or Linux, the svn tool is usually stored in the
    /usr/local/bin directory, you may want to add this to your
    PATH. On Windows, the svn client should be already in your
    %PATH%
 
-\3. The following command would download the current development branch of
+3\. The following command would download the current development branch of
    the full PTB distribution into the subdirectory /Users/kleinerm/MyPTB :
 
    svn checkout https://github.com/Psychtoolbox-3/Psychtoolbox-3/ /Users/kleinerm/MyPTB/

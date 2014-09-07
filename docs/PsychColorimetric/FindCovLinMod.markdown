@@ -14,7 +14,7 @@ distributed Normally with covariance matrix K.
 The second two return values are only computed
 if x0 is passed.
 
-\8/22/94     dhb     Wrote it.
+8/22/94     dhb     Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

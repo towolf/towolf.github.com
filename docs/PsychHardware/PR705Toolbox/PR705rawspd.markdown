@@ -19,7 +19,7 @@ rawspd (1xN char) - The raw character array resulting from a measurement.
 This will be an empty string if the timeout period was reached.
 errcode (scalar) - The error code reported by the meter (success = 0).
 
-\12/06/12   zlb   Wrote it.
+12/06/12   zlb   Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

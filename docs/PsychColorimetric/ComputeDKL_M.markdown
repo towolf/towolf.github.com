@@ -28,11 +28,11 @@ background that defines the space.
 See [DKLDemo](/docs/DKLDemo) for proper use of this function.  Also
 DKLToConeInc and ConeIncToDKL.
 
-\8/30/96   dhb  Pulled it out.
-\4/9/05    dhb  Allow passing of cones and luminance to be used.
-\11/17/05  dhb  Require passing of cones and luminance.
+8/30/96   dhb  Pulled it out.
+4/9/05    dhb  Allow passing of cones and luminance to be used.
+11/17/05  dhb  Require passing of cones and luminance.
           dhb  Fixed definition of M\_raw to handle arbitrary L,M scaling.
-\10/5/12   dhb  Comment specifying coordinate system convention.  Supress extraneous printout.
+10/5/12   dhb  Comment specifying coordinate system convention.  Supress extraneous printout.
 
 
 <div class="code_header" style="text-align:right;">

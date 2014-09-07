@@ -13,7 +13,7 @@ encoding: UTF-8
                 'v', start validation
                 'c', start calibration
                 'd', start driftcorrection
-                \13, or el.ENTER\_KEY, show 'eye' setup image
+                13, or el.ENTER\_KEY, show 'eye' setup image
 
 
 <div class="code_header" style="text-align:right;">

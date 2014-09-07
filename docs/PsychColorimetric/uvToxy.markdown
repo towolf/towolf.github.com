@@ -22,9 +22,9 @@ pass this as 1.  It is 0 by default.
 
 See also [uvYToXYZ](/docs/uvYToXYZ), XYZTouvY, [xyTouv](/docs/xyTouv)
 
-\7/15/03  dhb, bx  Wrote it.
-\3/17/04  dhb      Fixed typos.  This must not have been tested previously.
-\5/06/11  dhb      Improve comment, optional 1960 computations
+7/15/03  dhb, bx  Wrote it.
+3/17/04  dhb      Fixed typos.  This must not have been tested previously.
+5/06/11  dhb      Improve comment, optional 1960 computations
 
 
 <div class="code_header" style="text-align:right;">

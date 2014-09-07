@@ -27,25 +27,25 @@ override the default stepsize
 examples:
   SmartVec([1 5],3)
   ans =
-       \1     2     3     5     6     7
+       1     2     3     5     6     7
   SmartVec([1 5],[3 5])
   ans =
-       \1     2     3     5     6     7     8     9
+       1     2     3     5     6     7     8     9
   SmartVec([1 5],[3 5],'neg')
   ans =
-       \1     0    -1     5     4     3     2     1
+       1     0    -1     5     4     3     2     1
   SmartVec([1 5],[3 5],2,'neg')
   ans =
-       \1     -1   -3     5     3     1     -1    -3
+       1     -1   -3     5     3     1     -1    -3
   SmartVec([1 5],3,'neg')
   ans =
-       \1     0    -1     5     4     3
+       1     0    -1     5     4     3
   SmartVec([1 5],[3 5],'flat')
   ans =
-       \1     1     1     5     5     5     5     5
+       1     1     1     5     5     5     5     5
   SmartVec([1 5],3,'flat')
   ans =
-       \1     1     1     5     5     5
+       1     1     1     5     5     5
 
 
 <div class="code_header" style="text-align:right;">

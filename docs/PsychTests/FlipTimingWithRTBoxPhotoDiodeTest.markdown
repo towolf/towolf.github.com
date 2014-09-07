@@ -22,7 +22,7 @@ This documentation is incomplete for now, good luck!
 'configFile' Filename of benchmark configuration file.
 
 Mandatory variables in file:
-\----------------------------
+----------------------------
 
 conf.Stereo              = Stereomode to use.
 conf.[Priority](/docs/Priority)            = Realtime priority to use.

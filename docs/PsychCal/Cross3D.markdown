@@ -13,7 +13,7 @@ combinations of the passed input vectors.
 
 See also meshgrid, ndgrid.
 
-\8/25/97   dhb  Add to Cal subfolder.
+8/25/97   dhb  Add to Cal subfolder.
 
 
 <div class="code_header" style="text-align:right;">

@@ -10,7 +10,7 @@ RGB = SRGBGammaCorrect(rgb,[SCALE])
 
 Gamma correct according to sRGB standard.
 
-SCALE = 0: No scaling applied to input rgb.  Input values \> 1 truncated to 1.
+SCALE = 0: No scaling applied to input rgb.  Input values > 1 truncated to 1.
 SCALE = 1: Input data scaled to max of 1.  (Default).
 
 Input values less than 0 are truncated to zero.
@@ -30,9 +30,9 @@ after scaling into [0,255].]
 See XYZToSRGBPrimary for comment on evolution of the standard
 and of this implementation.
 
-\5/1/04    dhb             Wrote it.
-\7/8/10    dhb             Updated to match standard I can now find on the web.
-\6/15/11   dhb, ms         Clarify input output range issues in comment.
+5/1/04    dhb             Wrote it.
+7/8/10    dhb             Updated to match standard I can now find on the web.
+6/15/11   dhb, ms         Clarify input output range issues in comment.
 
 
 <div class="code_header" style="text-align:right;">

@@ -19,7 +19,7 @@ degrees are essentially linear with retinal extent.
 
 See also: PsychRadiometric, RetIrradiancePerDegrees2AndEyeLengthToRetIrradiancePerArea.
 
-\6/23/13  dhb  Wrote it.
+6/23/13  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

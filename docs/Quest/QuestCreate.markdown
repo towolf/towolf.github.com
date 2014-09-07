@@ -81,7 +81,7 @@ encoding: UTF-8
     tGuess+(-range/2:grain:range/2). "range" is used only momentarily here,
     to determine "dim", which is retained in the quest struct. "dim" is the
     number of distinct intensities that the internal table can store, e.g.
-    \500. QUEST assumes that intensities outside of this interval have zero
+    500\. QUEST assumes that intensities outside of this interval have zero
     prior probability, i.e. they are impossible values for threshold. The
     cost of making "range" too big is some extra storage and computation,
     which are usually negligible. The cost of making "range" too small is

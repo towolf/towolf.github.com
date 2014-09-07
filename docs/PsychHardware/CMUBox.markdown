@@ -17,10 +17,10 @@ to use the Curdes fORP devices if connected via serial port. And it offers
 a simple way to access the RTBox in E-Prime mode.
 
 Commands and their syntax:
-\--------------------------
+--------------------------
 
 handle = CMUBox('Open', boxtype [, portName] [, options] [, debounceSecs=0.030] [, isInverted]);
-\- Open response box connected to serial port 'portName', or the first
+- Open response box connected to serial port 'portName', or the first
 serial port found, if 'portName' is omitted. Initialize it, return a
 'handle' to it. You'll have to pass 'handle' to all following functions
 to access the box.
@@ -108,14 +108,14 @@ the new status of one button or other input.
 
 
 CMUBox('[Close](/docs/Close)', handle);
-\- [Close](/docs/Close) connection to response box 'handle'. The 'handle' is invalid
+- [Close](/docs/Close) connection to response box 'handle'. The 'handle' is invalid
 thereafter.
 
 
 evt = CMUBox('GetEvent', handle [, waitForEvent=0]);
-\- Retrieve next queued event received from the box in the struct 'evt'.
+- Retrieve next queued event received from the box in the struct 'evt'.
 If no new events are available and the optional 'waitForEvent' is set to
-\1, then the function will wait until at least one valid event becomes
+1, then the function will wait until at least one valid event becomes
 available and return that event. Otherwise it will return an empty struct,
 ie., evt = [] to signal that no new events are available.
 
@@ -127,7 +127,7 @@ active. A 0-bit means button released/signal inactive. See the
 documentation of your box for meaning of the single bits. If you use the
 Bitwhacker then evt.state does directly encode the button number of a
 pressed button: 0 == All buttons released and all TTL inputs low.
-Values 1-7 correspond to a low-\>high transition of TTL input pins A1 - A7.
+Values 1-7 correspond to a low->high transition of TTL input pins A1 - A7.
 Values 8 and 9 correspond to a button press of onboard buttons "USER" or
 "PRG". Bitwhacker can only report one active button or TTL line at a time.
 
@@ -149,7 +149,7 @@ will be invalid, but later events will recover and thereby be unaffected.
 
 
 status = CMUBox('Status', handle);
-\- Retrieve internal status of response box 'handle' as a struct.
+- Retrieve internal status of response box 'handle' as a struct.
 
 
 

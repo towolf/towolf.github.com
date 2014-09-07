@@ -38,15 +38,15 @@ encoding: UTF-8
 
 #     Contents of the EyelinkToolbox folder:
 
-    \-Contents.m: this file.
+    -Contents.m: this file.
 
-    \-Changes.m: file that documents changes to the EyelinkToolbox
+    -Changes.m: file that documents changes to the EyelinkToolbox
 
-    \-EyelinkBasic
+    -EyelinkBasic
         Eyelink.mex/dll file and a collection of m-files that provide the
        core functionality of the toolbox.
 
-    \-EyelinkDemos
+    -EyelinkDemos
        EyelinkShortDemos is the best place to start. Contains relatively
        simple demos. The SR-Research Demo folder is a slightly more
        elaborate example. The folder BRMIC contains the original example
@@ -54,7 +54,7 @@ encoding: UTF-8
        Peters and Palmer 2002). It is obsolete in many ways but left in
        the toolbox for historic reasons.
 
-   \-EyelinkOneLiners
+   -EyelinkOneLiners
        Handy routines that provide less essential functionality
 
     We welcome any observations, suggestions that may help us improve this
@@ -81,7 +81,7 @@ encoding: UTF-8
 
    The Eyelink Toolbox: Eye tracking with MATLAB and the Psychophysics
    Toolbox. Behavior Research Methods, Instruments & Computers, 34,
-   \613-617.
+   613-617.
 
    Pelli, D. G. (1997) The VideoToolbox software for visual psychophysics:
    Transforming numbers into movies, Spatial Vision 10:437-442.
@@ -108,7 +108,7 @@ encoding: UTF-8
 
 
    Frans W. Cornelissen
-    \22nd July 2010
+    22nd July 2010
     email: f.w.cornelissen@med.umcg.nl
 
     Enno Peters, Frans Cornelissen and John Palmer

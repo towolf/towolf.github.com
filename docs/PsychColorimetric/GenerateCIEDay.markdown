@@ -24,7 +24,7 @@ the file B\_cieday.
   xd  - row vector of x chromaticities
   yd  - row vector of y chromaticities
 
-\9/28/93   dhb, jms  Changed argument name to Temp
+9/28/93   dhb, jms  Changed argument name to Temp
                     If B not passed, return spd = [] and other data
 
 

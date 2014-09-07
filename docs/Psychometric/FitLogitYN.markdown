@@ -21,7 +21,7 @@ other candidate models for psychometric functions.
 See also: FitLogistic, FitWeibYN, FitCumNormYN,
  InvertLogistic, ComputeLogistic.
 
-\2/8/97      dhb     Wrote it.
+2/8/97      dhb     Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

@@ -38,12 +38,12 @@ in 'help InitializePsychSound' for best results.
 
 'waitframes' = Time to wait (in video refresh intervals) before emitting beep + flash.
                Defaults to a value of 1, may need to be set higher for
-               high latency sound hardware (where absolute latency \> 1
+               high latency sound hardware (where absolute latency > 1
                video refresh duration).
 
 'useDPixx'   = 1 -- Use DataPixx device to automatically measure the true
                     audio onset time wrt. to visual stimulus onset.
-               \0 -- Don't use DataPixx. This is the default.
+               0 -- Don't use DataPixx. This is the default.
 
 'triggerLevel' = Sound signal amplitude for DataPixx to detect sound
                  onset. Defaults to 0.01 = 1% of max amplitude if

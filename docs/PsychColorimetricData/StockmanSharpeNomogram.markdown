@@ -45,10 +45,10 @@ probably the best current nomogram to use.
 See ComputeCIEConeFundamentals, CIEConeFundamentalsTest,
 FitConeFundamentalsFromNomogram, FitConeFundamentalsTest
 
-\5/8/99  dhb  Started writing it.
-\10/27/99    dhb  Added error return to prevent premature use of this routine.
-\7/18/03   dhb  Finished it off.
-\8/13/11   dhb  Improved comments.  Double check polynomial coefficients.
+5/8/99  dhb  Started writing it.
+10/27/99    dhb  Added error return to prevent premature use of this routine.
+7/18/03   dhb  Finished it off.
+8/13/11   dhb  Improved comments.  Double check polynomial coefficients.
 
 
 <div class="code_header" style="text-align:right;">

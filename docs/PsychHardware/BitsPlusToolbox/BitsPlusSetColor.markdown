@@ -17,10 +17,10 @@ framebuffer load mode.
 This routine is not required to be speedy, and it isn't.
 
 xx/xx/02  jmh  Wrote it, but didn't comment.
-\2/23/03   dhb  Added comments.
-\2/28/03   dhb, ptw  Add delay to make sure glitch has settled.
+2/23/03   dhb  Added comments.
+2/28/03   dhb, ptw  Add delay to make sure glitch has settled.
                Changed name, fixed up.
-\3/8/03    dhb  Remove call to bitsplus.
+3/8/03    dhb  Remove call to bitsplus.
 
 
 <div class="code_header" style="text-align:right;">

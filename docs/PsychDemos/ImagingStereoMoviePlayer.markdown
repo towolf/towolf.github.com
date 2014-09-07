@@ -20,11 +20,11 @@ and other more advanced anaglyph algorithms.
 'anaglyphmode' when imaging is enabled, allows to select the type of
 anaglyph algorithm:
 
-\0 = Standard anaglyphs.
-\1 = Gray anaglyphs.
-\2 = Half-color anaglyphs.
-\3 = Optimized color anaglyphs.
-\4 = Full color anaglyphs.
+0 = Standard anaglyphs.
+1 = Gray anaglyphs.
+2 = Half-color anaglyphs.
+3 = Optimized color anaglyphs.
+4 = Full color anaglyphs.
 
 See "help SetAnaglyphParameters" for further description and references.
 

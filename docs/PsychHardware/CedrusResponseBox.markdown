@@ -24,7 +24,7 @@ It supports multiple subcommands, which accept and return different
 arguments, as listed below.
 
 Limitations:
-\------------
+------------
 
 Functionality is currently limited mostly to button queries (and RJ-45
 connector state queries), including timestamps, as well as control of
@@ -51,13 +51,13 @@ to use, don't buy Cedrus devices!
 
 
 Subfunctions and their meaning:
-\-------------------------------
+-------------------------------
 
 Functions for device init and shutdown: Call once at beginning/end of
 your script. These are slow!
 
 handle = CedrusResponseBox('Open', port [, lowbaudrate]);
-\- Open a compatible response box which is connected to the given named
+- Open a compatible response box which is connected to the given named
 serial 'port'. 'port'names differ accross operating systems. A typical
 port name for Windows would be 'COM2', whereas a typical port name on OS/X
 or Linux would be the name of a serial port device file, e.g.,
@@ -92,17 +92,17 @@ away in the future and is for debugging only!
 
 
 CedrusResponseBox('[Close](/docs/Close)', handle);
-\- [Close](/docs/Close) connection to response box. The 'handle' becomes invalid after
+- [Close](/docs/Close) connection to response box. The 'handle' becomes invalid after
 that command.
 
 
 CedrusResponseBox('CloseAll');
-\- [Close](/docs/Close) all connections to all response boxes. This is a convenience
+- [Close](/docs/Close) all connections to all response boxes. This is a convenience
 function for quick shutdown.
 
 
 dev = CedrusResponseBox('GetDeviceInfo', handle);
-\- Return queried information about the device in a struct 'dev'. 'dev'
+- Return queried information about the device in a struct 'dev'. 'dev'
 contains (amongst other) the following fields:
 
 General information:
@@ -134,17 +134,17 @@ not available".
 # Functions for use within script. These are as fast as possible:
 
 CedrusResponseBox('ClearQueues', handle);
-\- Clear all queues, discard all pending data.
+- Clear all queues, discard all pending data.
 
 [status = ] CedrusResponseBox('FlushEvents', handle);
-\- Empty/clear/flush the queue of pending events. Use this to get rid of
+- Empty/clear/flush the queue of pending events. Use this to get rid of
 any stale button press or release events before start of response
 collection in a trial. E.g., Assume you wait for a subjects keypress and
 finally receive that keypress via 'GetButtons' or 'WaitButtons'. You
 collected your response, the trial is done, but when the subject releases
 the button again, that will generate another event - a release event, in
 which you're not interested. Maybe the subject will accidentally hit the
-button as well. --\> Good to clean the queue before a new trial.
+button as well. --> Good to clean the queue before a new trial.
 
 This function has a second use as well. It has an optional output
 argument, 'status', which will return the current status of all buttons
@@ -173,7 +173,7 @@ E.g. I often find myself doing the following:
 ...to wait for the subject to release any buttons which might currently be down.
 
 evt = CedrusResponseBox('GetButtons', handle);
-\- Return next queued button-press or button-release event from the box.
+- Return next queued button-press or button-release event from the box.
 Each time a button on the box is pressed or released, and each time the
 state of the accessory connector changes, an "event" data packet is sent
 from the box to the computer. The packet is timestamped with the time of
@@ -192,9 +192,9 @@ evt.port    = Number of the device port on which the event occured. Push
               connector is on port 1, port 2 is the voice-key (if any).
 
 evt.action  = Action that triggered the event:
-              \1 = Button press, 0 = Button release for pushbuttons.
-              \1 = TTL line high, 0 = TTL line low for RJ-45 I/O lines.
-              \1 = Voice onse, 0 = Voice offset/silence for Voicekey.
+              1 = Button press, 0 = Button release for pushbuttons.
+              1 = TTL line high, 0 = TTL line low for RJ-45 I/O lines.
+              1 = Voice onse, 0 = Voice offset/silence for Voicekey.
 
 evt.button  = Number of the button that was pressed or released (1 to 8)
               or the TTL line that was going high/low. Numbers vary by
@@ -211,18 +211,18 @@ evt.rawtime = Time of the event in secs since last reset of the reaction
 
 
 evt = CedrusResponseBox('WaitButtons', handle);
-\- Queries and returns the same info as 'GetButtons', but waits for
+- Queries and returns the same info as 'GetButtons', but waits for
 events. If there isn't any event available, will wait until one becomes
 available.
 
 evt = CedrusResponseBox('WaitButtonPress', handle);
-\- Like WaitButtons, but will wait until the subject /presses/ a key -- the
+- Like WaitButtons, but will wait until the subject /presses/ a key -- the
 signal that a key has been released is not acceptable -- Button release
 events are simply discarded.
 
 
 evt = CedrusResponseBox('GetBaseTimer', handle [, nSamples=1]);
-\- Query current time of base timer of the box. Returned values are in
+- Query current time of base timer of the box. Returned values are in
 seconds, resolution is milliseconds. evt.basetimer is the timers time,
 maybe corrected for serial link receive latency. evt.ptbreceivetime is a
 timestamp taken via PTB's GetSecs() at time of receive of the data.
@@ -247,7 +247,7 @@ other.
 
 
 resetTime = CedrusResponseBox('ResetRTTimer', handle);
-\- Reset reaction time timer of box to zero. This should not be neccessary
+- Reset reaction time timer of box to zero. This should not be neccessary
 if you use the evt.ptbtime timestamps for time measurements or reaction
 time measurements. If you however use uncalibrated mode and the
 evt.rawtime values directly, this function may be useful to establish a
@@ -263,7 +263,7 @@ events in the queue before performing the query!
 
 
 slope = CedrusResponseBox('GetBoxTimerSlope', handle);
-\- Compute slope (drift) between computer clock and device clock. 'slope'
+- Compute slope (drift) between computer clock and device clock. 'slope'
 tells how many seconds of time "elapse" on the computer in GetSecs time
 for each "elapsed" second of box time. At device open time, the driver
 takes a timestamp from the device basetimer. This function also takes a
@@ -273,7 +273,7 @@ more accurate the clock-drift estimate will be.
 
 
 roundtrip = CedrusResponseBox('RoundTripTest', handle);
-\- Initiate 100 trials of the roundtrip test of the box. Data is echoed
+- Initiate 100 trials of the roundtrip test of the box. Data is echoed
 forth and back 100 times between PTB and the box, and the latency is
 measured (in seconds, with msecs resolution). The vector of all samples
 is returned in 'roundtrip' for evaluation and debugging. The measured
@@ -286,7 +286,7 @@ events in the queue before performing the query!
 
 
 [currentMode] = CedrusResponseBox('SetConnectorMode', handle [, mode]);
-\- Set or get mode of operation of external accessory connector: 'mode' can be
+- Set or get mode of operation of external accessory connector: 'mode' can be
 any of the following text strings:
 
 'GeneralPurpose': Input/Output assignment of pins can be freely
@@ -308,7 +308,7 @@ as return argument 'currentMode'. If mode is given, nothing is returned.
 
 
 CedrusResponseBox('SetOutputLineLevels', handle, outlevels);
-\- Set accessory connector output lines to state specified in 'outlevels'.
+- Set accessory connector output lines to state specified in 'outlevels'.
 outlevels is an 8 element vector of zeros and ones. Each element
 corresponds to an output pin, and its values sets the output level of
 that pin. Example: outlevel = [1,1,1,1,0,0,0,0] would set the 4 lines
@@ -320,10 +320,10 @@ The command is only effective if connector is set to 'GeneralPurpose'.
 
 
 CedrusResponseBox('DefineInputLinesAndLevels', handle, inputlines, logiclevel, debouncetime);
-\- Define which lines on the connector are inputs: 'inputlines' is a
+- Define which lines on the connector are inputs: 'inputlines' is a
 vector with the line numbers of the input lines. All other lines are
 designated as output lines, e.g., inputlines = [0, 2, 4] would set lines
-\0, 2 and 4 as inputs, remaining lines 1,3,5,6,7 as outputs. 'logiclevel'
+0, 2 and 4 as inputs, remaining lines 1,3,5,6,7 as outputs. 'logiclevel'
 tells if the default TTL level of the input lines is low (logiclevel=1)
 or high (logiclevel=0). Example: logiclevel = 1 means that the lines are
 pulled low by default, so they will detect an active high state -- if
@@ -338,7 +338,7 @@ The command is only effective if connector is set to 'GeneralPurpose'.
 
 
 inputLines = CedrusResponseBox('ReadInputLines', handle);
-\- Read current state of the connectors input lines: Returns an 8 element
+- Read current state of the connectors input lines: Returns an 8 element
 vector where each element corresponds to one input line and a 1 means
 active, 0 means inactive. This corresponds to XiD command 'ar'.
 

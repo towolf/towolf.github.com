@@ -41,7 +41,7 @@ maximum permissable exposure to broadband lights.
 
   In addition, for exposure durations of less than 2 hours (7200) seconds, the
   Type 2 limits are more lenient than the Type 1 limits, except for 5.5.1.5b versus
-  \5.4.1.6b, where the worst case Type 2 limit is a little lower (5.88 W/[sr-cm2]
+  5\.4.1.6b, where the worst case Type 2 limit is a little lower (5.88 W/[sr-cm2]
   than the Type 1 limit (6 W/[sr-cm2]).  To be conservative, I used the 5.88 value
   in the relevant routine.
 

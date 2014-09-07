@@ -45,8 +45,8 @@ screenid = Which screen to run on. Default = max screen.
 workload = Which drawing workload to simulate in test part II [0, 1 2].
            See code for workloads. 0 Simulates drawing into offscreen
            windows, then blitting those into onscreen window.
-           \1 simulates large luminance texture workload.
-           \2 simulate the kind of texture creation, upload and
+           1 simulates large luminance texture workload.
+           2 simulate the kind of texture creation, upload and
            drawing workload you would have when playing back 1920x1080p
            HD video in color.
 

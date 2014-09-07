@@ -17,7 +17,7 @@ hardware without any restrictions.
 If you hardware is able to support all its functions (especially
 framebuffer blending) without restrictions then all framebuffers will be
 configured to 32 bpc precision. This should be the case on ATI Radeon HD
-\2000 and NVidia Geforce 8000 hardware. On older hardware, which is limited
+2000 and NVidia Geforce 8000 hardware. On older hardware, which is limited
 in its functionality when using 32 bpc framebuffers (e.g., the very
 useful framebuffer blending doesn't work), PTB will allocate a lower
 precision 16 bpc float framebuffer as initial framebuffer for user code

@@ -14,8 +14,8 @@ and functionality.
 
 History
 ~2006     fwc    created it, to use updated functions
-\15-06-10  fwc    updated to enable eye image display
-\17-06-10  fwc    made colour of the gaze dot change, just for fun
+15-06-10  fwc    updated to enable eye image display
+17-06-10  fwc    made colour of the gaze dot change, just for fun
 
 
 <div class="code_header" style="text-align:right;">

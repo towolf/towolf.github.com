@@ -33,8 +33,8 @@ Examples
   sendmail('me@some.where.com','me@else.where.org','Job Finished!','Finaly...', 'results.mat')
 
 Installation
-  \1. Make sure the TCP/UDP/IP toolbox is somewhere in your PATH
-  \2. Adjust the SMTPSERVER, SMTPSERVERPORT and CLIENTIP variables to reflect your situation.
+  1\. Make sure the TCP/UDP/IP toolbox is somewhere in your PATH
+  2\. Adjust the SMTPSERVER, SMTPSERVERPORT and CLIENTIP variables to reflect your situation.
 
 
 <div class="code_header" style="text-align:right;">

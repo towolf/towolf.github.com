@@ -17,12 +17,12 @@ the screw terminal of the device.
       of the desired USB-1208FS box.
 See also Daq, DaqFunctions, DaqPins, DaqTest, PsychHIDTest.
 
-\4/15/05 dgp Wrote it.
-\12/20/07  mpr   tested it on a 1608FS and made input argument optional
-\1/13/08   mpr   swept through and tried to make terminology consistent
+4/15/05 dgp Wrote it.
+12/20/07  mpr   tested it on a 1608FS and made input argument optional
+1/13/08   mpr   swept through and tried to make terminology consistent
                     with that of other daq functions
-\5/22/08   mk  Add (untested!) support for USB-1024LS box.
-\5/23/08   mk  Add caching for HID device list.
+5/22/08   mk  Add (untested!) support for USB-1024LS box.
+5/23/08   mk  Add caching for HID device list.
 
 
 <div class="code_header" style="text-align:right;">

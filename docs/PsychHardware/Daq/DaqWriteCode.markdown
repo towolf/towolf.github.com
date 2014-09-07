@@ -13,13 +13,13 @@ in update mode (see PrepareDownload).  The WriteCode command will
 normally be used when downloading a new hex file, so it supports the
 memory ranges that may be found in the hex file.
 The address ranges are:
-\0x000000 - 0x007AFF: FLASH program memory
-\0x200000 - 0x200007: ID memory (serial number is stored here)
-\0x300000 - 0x30000F: CONFIG memory (processor configuration data)
-\0xF00000 - 0xF03FFF: EEPROM memory
+0x000000 - 0x007AFF: FLASH program memory
+0x200000 - 0x200007: ID memory (serial number is stored here)
+0x300000 - 0x30000F: CONFIG memory (processor configuration data)
+0xF00000 - 0xF03FFF: EEPROM memory
 When writing to FLASH program memory, length(data) must be 32 and the
 device must receive data in successive 32-byte chunks starting on a
-\64-byte boundary. When writing to other kinds of memory, length(data) can
+64-byte boundary. When writing to other kinds of memory, length(data) can
 be any number of bytes up to the maximum (32).
 "DeviceIndex" is a small integer, the array index specifying which HID
       device in the array returned by PsychHID('Devices') is interface 0
@@ -28,9 +28,9 @@ be any number of bytes up to the maximum (32).
 "data" is a vector with length up to 32, one element per byte.
 See also Daq, DaqFunctions, DaqPins, DaqTest, PsychHIDTest.
 
-\4/15/05 dgp Wrote it.
-\12/2x/07  mpr tested it and found it wanting
-\1/11/08   mpr   swept through attempting to improve consistency across
+4/15/05 dgp Wrote it.
+12/2x/07  mpr tested it and found it wanting
+1/11/08   mpr   swept through attempting to improve consistency across
                   daq functions
 
 I have no current plans to make sure this code works, but on 1/8/08 I

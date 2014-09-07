@@ -37,8 +37,8 @@ shader at each output pixel location.
 The optional 'ringtype' parameter allows to select between different ring
 shapes. Default type is zero:
 
-\0 = Hard transitions between red and yellow rings.
-\1 = Transitions are modeled as a smooth sine wave, softly fading from
+0 = Hard transitions between red and yellow rings.
+1 = Transitions are modeled as a smooth sine wave, softly fading from
     yellow to red and back.
 
 

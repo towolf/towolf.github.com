@@ -40,7 +40,7 @@ available and this function will fail!
 
 
 Supported functions:
-\--------------------
+--------------------
 
 [Snd](/docs/Snd)('Play', signal [, rate][, sampleSize]) plays a sound.
 

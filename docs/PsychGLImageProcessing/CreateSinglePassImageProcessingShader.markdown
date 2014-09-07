@@ -19,10 +19,10 @@ optional other properties.
 # The following types are currently supported:
 
 'BackgroundMaskOut':
-\--------------------
+--------------------
 
  shader = CreateSinglePassImageProcessingShader(windowPtr, 'BackgroundMaskOut', backgroundColor [, tolerance]);
- \- This shader draws a texture, but removes all "backgroundColor" pixels
+ - This shader draws a texture, but removes all "backgroundColor" pixels
  during drawing, effectively masking them out. 'backgroundColor' is a 3
  component [R, G, B] vector with the RGB color values of the color to be
  considered a background to remove. All color values around an euclidean

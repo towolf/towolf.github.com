@@ -51,7 +51,7 @@ IMPORTANT:
   The second seems a little old, but is the most recent ICNIRP guideline for broadband
   that I could easily locate.
 
- \- David Brainard, March 6, 2013.
+ - David Brainard, March 6, 2013.
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 REFERENCES.

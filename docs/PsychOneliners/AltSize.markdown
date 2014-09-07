@@ -18,17 +18,17 @@ example:
     in = ones(1,2,3,4,5);
     [d e f g h i] = AltSize(in,[1 3 2 8 4 2])
     d =
-         \1
+         1
     e =
-         \3
+         3
     f =
-         \2
+         2
     g =
-         \1
+         1
     h =
-         \4
+         4
     i =
-         \2
+         2
 
 
 <div class="code_header" style="text-align:right;">

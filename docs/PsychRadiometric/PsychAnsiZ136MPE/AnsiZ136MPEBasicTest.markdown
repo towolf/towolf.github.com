@@ -17,7 +17,7 @@ at the Matlab prompt.
 Test code for our implementation of ANSI Z136.1-2007. Reproduces many figures from the
 standard.
 
-\2/22/13  dhb  Wrote it.
+2/22/13  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

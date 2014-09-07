@@ -12,8 +12,8 @@ Returns the smallest enclosing rect for the drawn text, relative to the
 current location. This bound is based on the actual pixels drawn, so it
 incorporates effects of text smoothing, etc. All text is drawn on the
 same baseline, horizontally centered by using the x offset
-\-[Screen](/docs/Screen)(w,'TextWidth',string)/2. "text" may be a cell array or matrix of
-\1 or more strings. The strings are drawn one on top of another, all
+-[Screen](/docs/Screen)(w,'TextWidth',string)/2. "text" may be a cell array or matrix of
+1 or more strings. The strings are drawn one on top of another, all
 horizontally centered at the current position, before the bounds are
 calculated. This returns the smallest box that will contain all the
 strings. The prior contents of the scratch window are lost. Usually it

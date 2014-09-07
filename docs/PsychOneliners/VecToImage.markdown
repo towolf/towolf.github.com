@@ -13,7 +13,7 @@ Image must be square for this to work properly.
 
 Also see ImageToVec.
 
-\8/13/94     dhb     Added optional nRows,nCols arguments.
+8/13/94     dhb     Added optional nRows,nCols arguments.
 
 
 <div class="code_header" style="text-align:right;">

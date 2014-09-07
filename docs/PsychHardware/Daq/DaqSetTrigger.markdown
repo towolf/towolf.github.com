@@ -15,7 +15,7 @@ as configured. options.trigger must be 1 in the DaqAInScan command
 to utilize this feature.
 "DeviceIndex" is a small integer, the array index specifying which HID
         device in the array returned by PsychHID('Devices') is interface
-        \0 of the desired USB-1208FS box.
+        0 of the desired USB-1208FS box.
 "rising" selects the desired edge type (0 = falling, 1 = rising) for the
         external trigger.
 See also Daq, DaqFunctions, DaqPins, DaqTest, PsychHIDTest.

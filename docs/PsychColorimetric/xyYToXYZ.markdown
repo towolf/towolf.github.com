@@ -11,7 +11,7 @@ XYZ = [xyYToXYZ](/docs/xyYToXYZ)(xyY)
 Compute tristimulus coordinates from
 chromaticity and luminance.
 
-\8/24/09  dhb  Look at it.
+8/24/09  dhb  Look at it.
 
 
 <div class="code_header" style="text-align:right;">

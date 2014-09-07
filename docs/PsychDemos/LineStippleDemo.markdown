@@ -13,7 +13,7 @@ and "DrawLine".
 
 
 # HISTORY
-  \11/19/06  dhb  Remove OSX from name.  No info present about who wrote
+  11/19/06  dhb  Remove OSX from name.  No info present about who wrote
                  in the first place.
 
 

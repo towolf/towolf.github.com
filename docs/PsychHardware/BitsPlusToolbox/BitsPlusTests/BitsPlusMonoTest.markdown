@@ -11,7 +11,7 @@ BItsPlusMonoTest
 Simple test of Bits++ interface when it is in its Mono++
 mode.
 
-\2/15/04  dhb    Wrote it.
+2/15/04  dhb    Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

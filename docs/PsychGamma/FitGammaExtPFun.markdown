@@ -10,7 +10,7 @@ encoding: UTF-8
 
 Error function for power function fit.
 
-\9/21/93  DHB  Added positivity constraint.
+9/21/93  DHB  Added positivity constraint.
 
 
 <div class="code_header" style="text-align:right;">

@@ -72,8 +72,8 @@ subfields:
 
 
 Example: Assuming the OBJ file contains exactly one triangle mesh, you'll
-be able to access its data as: objobject{1}.faces --\> faces of the mesh,
-objobject{1}.vertices --\> vertex definitions, ...
+be able to access its data as: objobject{1}.faces --> faces of the mesh,
+objobject{1}.vertices --> vertex definitions, ...
 
 nobjects = length(objobject); Will return the number of meshes in the OBJ
 file in 'nobjects'. objobject{i}.vertices would return the vertex

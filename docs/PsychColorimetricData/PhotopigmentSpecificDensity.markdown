@@ -41,8 +41,8 @@ encoding: UTF-8
  The Generic source returns a single number for all species and receptor types.
  This number is 0.015 /um.
 
- \7/11/03  dhb  Wrote it.
- \8/9/13   dhb  Comment clean up, allow 'None' to return empty as the value.
+ 7/11/03  dhb  Wrote it.
+ 8/9/13   dhb  Comment clean up, allow 'None' to return empty as the value.
 
 
 <div class="code_header" style="text-align:right;">

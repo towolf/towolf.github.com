@@ -30,7 +30,7 @@ because one doesn't need to recreate the noise texture each frame.
 How this works? Basically we use standard [Screen](/docs/Screen) 2D drawing commands to
 draw a "contrast values weight map" into the alpha-channel, so the
 alpha-channel encodes contrast values between 0.0 and 1.0 in steps of
-\1/256th. Then we draw a noise texture of fixed contrast into the
+1/256th. Then we draw a noise texture of fixed contrast into the
 framebuffer and the alpha-blending hardware takes care of modulating the
 contrast of the drawn noise texture with the values from the
 alpha-channel.

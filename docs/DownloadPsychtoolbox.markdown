@@ -77,7 +77,7 @@ Revisions can be specified by a revision number or by the special flag
 INSTALLATION INSTRUCTIONS: The Wiki contains much more up to date
 instructions. If in doubt, follow instructions on the Wiki!
 
-\1. If you don't already have it, you must install the Subversion client.
+1\. If you don't already have it, you must install the Subversion client.
 For Mac OSX 10.6 and later, download the latest Mac OSX Subversion client
 from: http://www.wandisco.com/subversion/download#osx
 If you have the XCode command line tools installed, you won't need to
@@ -110,7 +110,7 @@ For Linux, just install the subversion package from your package
 management tool.
 
 
-\2. On MacOS/X, to install the Psychtoolbox in the default location
+2\. On MacOS/X, to install the Psychtoolbox in the default location
 (/Applications or, failing that, /Users/Shared). Just type:
 
 DownloadPsychtoolbox

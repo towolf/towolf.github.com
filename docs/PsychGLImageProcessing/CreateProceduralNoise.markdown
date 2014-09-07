@@ -26,10 +26,10 @@ vertex- and fragment shaders. See ProceduralNoiseDemo for examples on how to use
 'noiseType' Name of the noise function to use, defaults to 'ClassicPerlin'.
 The following types of noise are currently supported:
 
-\- 'Perlin': Generates Perlin noise, which is approximately gaussian
+- 'Perlin': Generates Perlin noise, which is approximately gaussian
             distributed.
 
-\- 'ClassicPerlin': Like Perlin, but with the classic implementation.
+- 'ClassicPerlin': Like Perlin, but with the classic implementation.
 
 
 'backgroundColorOffset' Optional, defaults to [0 0 0 0]. A RGBA offset

@@ -42,7 +42,7 @@ w      = Width of the projection area at a radius distance R in cm for
          sphere curvature correction.
 b      = Radius of the spherical projection screen for sphere curvature correction.
 
-\-\> Type "edit SphereProjectionShader.frag.txt" and look at the warp
+-> Type "edit SphereProjectionShader.frag.txt" and look at the warp
 shader code for a full understanding of the roff and rpow coefficients
 for spherical remapping. Also see Psychtoolbox forum message 11660.
 

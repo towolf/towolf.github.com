@@ -74,9 +74,9 @@ more permissive MIT license since 2011.
 
 The following three commands will completely regenerate mogl.
 
-\>\> autocode     % generate gl\_auto.c and wrapper M-files
-\>\> ! make       % compile C code to produce MEX files
-\>\> oglconst     % save constants from header files in a .mat file
+\>> autocode     % generate gl\_auto.c and wrapper M-files
+\>> ! make       % compile C code to produce MEX files
+\>> oglconst     % save constants from header files in a .mat file
 
 
 <div class="code_header" style="text-align:right;">

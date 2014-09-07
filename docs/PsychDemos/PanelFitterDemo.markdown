@@ -23,7 +23,7 @@ display would be inconvenient, as everything would be shown tilted by 90
 degrees to your subject. Here the panelfitter can help by providing a
 framebuffer that is rotated by 90 degrees wrt. its normal shape, ie., the
 framebuffer is 1080 x 1920 pixels in size instead of its natural 1920 x
-\1080 pixels. Drawing into such a framebuffer becomes natural and easy
+1080 pixels. Drawing into such a framebuffer becomes natural and easy
 again, as the shape and orientation of the framebuffer corresponds to the
 effective shape and orientation of your display device.
 

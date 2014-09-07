@@ -21,7 +21,7 @@ MakeItWls, and MakeItStruct take any of the three formats and return
 one.  By calling one of these before using wavelength format information,
 it is possible to write code that is compatible with all three.
 
-\7/11/03  dhb  Wrote this test program.
+7/11/03  dhb  Wrote this test program.
 
 
 <div class="code_header" style="text-align:right;">

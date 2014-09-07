@@ -46,7 +46,7 @@ THE TEST BLINDLY and APPLY COMMON SENSE when looking at the results.
 configuration to use. All elements have defaults:
 
 Colorclamping (aka high-precision vertex colors vs. standard vertex colors)
-\-1 / 0 / 1 = Unclamped high-res via shader / Unclamped high-res / Clamped.
+-1 / 0 / 1 = Unclamped high-res via shader / Unclamped high-res / Clamped.
              Default is 0 == Let PTB auto-select opmode with highest
              precision. A setting of -1 overrides PTB's choice to always
              use an internal implementation -- If auto-detection works
@@ -58,14 +58,14 @@ Colorclamping (aka high-precision vertex colors vs. standard vertex colors)
              where bit-accurate output doesnt' matter too much.
 
 Framebuffer: (aka bit-depth and format of framebuffer)
-\0 / 1 / 2 / 3/ 4 = 8 bpc fixed, 16bpc float, 32bpc float, 32bpc float
+0 / 1 / 2 / 3/ 4 = 8 bpc fixed, 16bpc float, 32bpc float, 32bpc float
              if possible while alpha-blending enabled 16bpc otherwise,
-             \16bpc fixed point (on ATI hardware only).
+             16bpc fixed point (on ATI hardware only).
 
              Precision with which the framebuffer operates: 8 bpc fixed
              is a standard 8 bits per precision 256 levels framebuffer.
-             \16bpc float allows for an effective 10-11 bit precision,
-             \32bpc float allows for an effective 23 bit precision, 16 bpc
+             16bpc float allows for an effective 10-11 bit precision,
+             32bpc float allows for an effective 23 bit precision, 16 bpc
              fixed is only supported on ATI hardware and allows for an
              effective 16 bit precision, but without alpha-blending
              support.
@@ -95,7 +95,7 @@ Framebuffer: (aka bit-depth and format of framebuffer)
 
 
 Textures: (aka texture precision)
-\0 / 1 / 2 = 8 bpc fixed, 16bpc float, 32bpc float.
+0 / 1 / 2 = 8 bpc fixed, 16bpc float, 32bpc float.
 
              Precision with which textures are represented -- and
              ultimately drawn. Same explanations apply as with
@@ -107,7 +107,7 @@ Textures: (aka texture precision)
              higher precision than you really need!
 
 Samplers: (aka texture sampling method)
-\0 / 1 / 2 = Hardware / PTB-Auto / PTB-Shaders.
+0 / 1 / 2 = Hardware / PTB-Auto / PTB-Shaders.
 
              Method employed for texture drawing: PTB-Auto is the
              preferred choice -- Let PTB auto-select best method for
@@ -118,7 +118,7 @@ Samplers: (aka texture sampling method)
              precise.
 
 Filters: (aka texture filtering method)
-\0 / 1     = Nearest-Neighbour / Bilinear filtering.
+0 / 1     = Nearest-Neighbour / Bilinear filtering.
 
             Method of filtering texture pixels before drawing:
             Nearest-Neighbour just uses pixels as they are -- blocky or
@@ -148,23 +148,23 @@ will only test up to 'maxdepth' bits of precision!
 'testblocks' parameter: A vector of tests to carry out. By default all
 tests are carried out and each single test is interruptible by holding
 down the left mouse button for a while. However this may take quite long
-\-- dozens of minutes, maybe even over an hour! For that reason you can
+-- dozens of minutes, maybe even over an hour! For that reason you can
 specify your own 'testblocks' vector to only run a subset of all test
 cases and save some time.
 
 # The following test cases are currently implemented:
 
-\1  = Test precision of clearing of the framebuffer to selected
+1  = Test precision of clearing of the framebuffer to selected
      'clearcolor'. 'clearcolor' is set in [Screen](/docs/Screen)('OpenWindow') or
      PsychImaging('OpenWindow') etc. or via [Screen](/docs/Screen)('FillRect', window,
      clearcolor). Framebuffer clearing is performed after each
      [Screen](/docs/Screen)('[Flip](/docs/Flip)') or [Screen](/docs/Screen)('FillRect', window, clearcolor) command and
      this test tests precision of that operation.
 
-\2  = Test precision of [Screen](/docs/Screen) 2D drawing commands like FillRect,
+2  = Test precision of [Screen](/docs/Screen) 2D drawing commands like FillRect,
      FrameRect, FillOval, FrameOval, DrawLine etc.
 
-\3  = Test precision of [Screen](/docs/Screen) 2D batch-drawing commands, ie. commands
+3  = Test precision of [Screen](/docs/Screen) 2D batch-drawing commands, ie. commands
      that allow to draw multiple primitives per command, e.g., DrawDots,
      DrawLines and the batch versions of FillRect, FrameRect, FillOval
      etc.
@@ -173,12 +173,12 @@ cases and save some time.
      imaging pipeline, e.g., in Mono++ or Color++ mode of a CRS Bits++
      box.
 
-\4  = Test precision of texture drawing commands when the special
+4  = Test precision of texture drawing commands when the special
      'globalAlpha' or 'modulateColor' arguments are used to modulate the
      textures pixel values during drawing -- for example for contrast
      selection.
 
-\5  = Test of precision of alpha-blending: Does use of the alpha-blending
+5  = Test of precision of alpha-blending: Does use of the alpha-blending
      function via [Screen](/docs/Screen)('BlendFunction') introduce any loss of numeric
      stimulus precision - and if so, how much?
 

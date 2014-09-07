@@ -31,7 +31,7 @@ pretty boring, not showing the magic fountain, if your GPU doesn't
 support shaders.
 
 The 3rd subdemo is a speed shootout: It draws the same fountain as demo
-\2, but as fast as it can, with sync of display updates to the vertical
+2, but as fast as it can, with sync of display updates to the vertical
 retrace disabled. The fountain is drawn 3 times a 20 seconds duration.
 First with purely Matlab computed trajectories, then with the same shader
 as in demo 2, then again with the shader, but additionally applying

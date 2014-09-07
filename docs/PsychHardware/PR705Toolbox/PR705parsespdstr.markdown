@@ -20,7 +20,7 @@ Input:
 rawspd (1xN char) - Raw data returned from a meter measurment.
 S (1x3) - Wavelength sampling.  Default: [380 5 81]
 
-\12/06/12    zlb   Wrote it based on the PR670Toolbox.
+12/06/12    zlb   Wrote it based on the PR670Toolbox.
 
 
 <div class="code_header" style="text-align:right;">

@@ -19,8 +19,8 @@ Intensity is normalized to max of 1.
 
 Formulae from Hecht, Optics, 2cd edition, p. 419.
 
-\1/13/04  dhb  Wrote it.
-\12/27/04 dhb    Deal with case of input == 0.
+1/13/04  dhb  Wrote it.
+12/27/04 dhb    Deal with case of input == 0.
 
 
 <div class="code_header" style="text-align:right;">

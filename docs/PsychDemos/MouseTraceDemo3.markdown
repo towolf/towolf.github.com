@@ -15,7 +15,7 @@ See also: PsychDemos, MouseTraceDemo, GetMouse.
 
 # HISTORY
 
-\7/30/11  mk       Derived from MouseTraceDemo2.
+7/30/11  mk       Derived from MouseTraceDemo2.
 
 
 

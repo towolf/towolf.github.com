@@ -78,21 +78,21 @@ and CalibrateAmbDrvr so that is where you would look.
     LoadIdentityClut/RestoreCluts, everything else is just begging for
     trouble.
 
-\7/7/98  dhb  Wrote from generic.
+7/7/98  dhb  Wrote from generic.
         dhb  dacsize/driver filled in by hand, [Screen](/docs/Screen) fails to return it.
-\4/7/99  dhb  NINEBIT -\> NBITS.
+4/7/99  dhb  NINEBIT -> NBITS.
         dhb  Wrote version for Radius 10 bit cards.
-\4/23/99 dhb  Change wavelength sampling to 380 4 101, PR-650 native.
-\9/22/99 dhb, mdr  Define boxSize.
-\8/11/00 dhb  Save mon in rawdata.
-\8/18/00 dhb  More descriptive information saved.
-\8/20/00 dhb  Automatic check for RADIUS and number of DAC bits.
-\9/10/00 pbe  Added option to blank another screen while measuring.
-\2/27/02 dhb  Various small fixes, including Radeon support.
+4/23/99 dhb  Change wavelength sampling to 380 4 101, PR-650 native.
+9/22/99 dhb, mdr  Define boxSize.
+8/11/00 dhb  Save mon in rawdata.
+8/18/00 dhb  More descriptive information saved.
+8/20/00 dhb  Automatic check for RADIUS and number of DAC bits.
+9/10/00 pbe  Added option to blank another screen while measuring.
+2/27/02 dhb  Various small fixes, including Radeon support.
         dhb  Change noMeterAvail to whichMeterType.
-\11/08/06 cgb, dhb  OS/X.
-\9/27/08 dhb  Default primary bases is 1 now.  Use RefitCalLinMod to change later if desired.
-\8/19/12 mk   [Ask](/docs/Ask) user for choice of display output device.
+11/08/06 cgb, dhb  OS/X.
+9/27/08 dhb  Default primary bases is 1 now.  Use RefitCalLinMod to change later if desired.
+8/19/12 mk   [Ask](/docs/Ask) user for choice of display output device.
 
 
 <div class="code_header" style="text-align:right;">

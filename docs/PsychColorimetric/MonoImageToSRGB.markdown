@@ -19,7 +19,7 @@ there determines whether autoscaling is applied to the image.
 
 See MonoImageToSRGBTest.
 
-\6/15/11  dhb, ms  Wrote it.
+6/15/11  dhb, ms  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

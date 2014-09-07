@@ -17,9 +17,9 @@ from the MATLAB convention of row dim then column dim.
 
 See also ImageToCalFormat
 
-\8/04/04  dhb  Wrote it.
-\9/1/09   dhb  Update help.
-\10/2/09  dhb  Try again on making help clear.
+8/04/04  dhb  Wrote it.
+9/1/09   dhb  Update help.
+10/2/09  dhb  Try again on making help clear.
 
 
 <div class="code_header" style="text-align:right;">

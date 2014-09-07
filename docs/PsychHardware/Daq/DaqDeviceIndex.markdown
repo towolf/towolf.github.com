@@ -29,7 +29,7 @@ automatically.
 
 ADDENDUM: The above statement is correct for the 1208FS and the 1408FS,
 not for the 1608FS. Number of Devices found by PsychHID for a
-\1608FS and Leopard varies from five to seven with little rhyme or reason.  It
+1608FS and Leopard varies from five to seven with little rhyme or reason.  It
 appears that the correct number of interfaces is seven.  As with the 1208FS,
 most communication is through interface 0.  However, when acquiring data
 (e.g., using DaqAInScan), output is via interfaces 1 through 6.  Because

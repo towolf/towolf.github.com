@@ -35,8 +35,8 @@ those devices, you should modify this code to accept portnumber as an
 additional input parameter.  See DaqDConfigPort for an example of how to deal
 with the added input.
 
-\12/17/07  mpr scavenged and modified code from DaqDConfigPort
-\1/11/08   mpr swept through trying to improve consistency across daq
+12/17/07  mpr scavenged and modified code from DaqDConfigPort
+1/11/08   mpr swept through trying to improve consistency across daq
                 functions
 
 

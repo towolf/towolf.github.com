@@ -48,7 +48,7 @@ user interface, the other for Psychtoolbox.
 
 The graphics hardware now has to maintain at least two separate framebuffers, one
 for each display. It also has to maintain different memory buffers for textures,
-\3D geometry and context state for each single application that is visible: At
+3D geometry and context state for each single application that is visible: At
 least one OpenGL context for the Matlab window, at least one context for the Aqua
 user interface, at least one context for each other visible application, at least
 one for Psychtoolbox. All these buffers take away precious VRAM memory that could

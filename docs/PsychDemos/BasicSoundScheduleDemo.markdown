@@ -10,12 +10,12 @@ BasicSoundScheduleDemo([wavfilenames])
 
 # This demo shows two things:
 
-\- How to use audio schedules in PsychPortAudio to preprogram a sequence
+- How to use audio schedules in PsychPortAudio to preprogram a sequence
 of different sounds to play and how to dynamically add new sounds to the
 schedule while it is playing. This is similar to "playlists" in typical
 audio player applications like iTunes or the iPod etc.
 
-\- How to create and use many prefilled audio buffers before start of a
+- How to create and use many prefilled audio buffers before start of a
 session. This way you can preload all needed sounds before start of an
 experiment into memory, in a format optimized for fast playback and low
 memory usage. This is similar to the concept of textures or offscreen

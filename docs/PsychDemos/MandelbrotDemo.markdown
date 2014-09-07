@@ -47,7 +47,7 @@ Mandelbrot set under the search term "Mandelbrot set".
 
 The shader used for this demo is part of the "Orange book" - The guide to
 the OpenGL Shading language. The code is copyright 3DLabs. See the
-\3DLabs-License.txt file in the PsychDemos/OpenGLDemos/GLSLDemoShaders/
+3DLabs-License.txt file in the PsychDemos/OpenGLDemos/GLSLDemoShaders/
 subfolder for the license.
 
 

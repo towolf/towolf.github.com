@@ -27,11 +27,11 @@ sensitivities. See:
    DefaultPhotoreceptors, FillInPhotoreceptors, PrintPhotoreceptors,IsomerizationsInDishDemo
    IsomerizationsInEyeDemo, ComputeCIEConeFundamentals, ComputeRawConeFundamentals.
 
-\8/11/11  dhb  Wrote it
-\8/14/11  dhb  Clean up a little.
-\12/16/12 dhb  Added test for rods.
-\08/10/13 dhb  Better integration with the photoreceptor struct code.
-\03/14/14 dhb  Add Smith-Pokorny to 2 degree plot, for comparison.
+8/11/11  dhb  Wrote it
+8/14/11  dhb  Clean up a little.
+12/16/12 dhb  Added test for rods.
+08/10/13 dhb  Better integration with the photoreceptor struct code.
+03/14/14 dhb  Add Smith-Pokorny to 2 degree plot, for comparison.
 
 
 <div class="code_header" style="text-align:right;">

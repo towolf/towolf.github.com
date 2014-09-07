@@ -59,7 +59,7 @@ The following subcommands are currently suppported:
 
 
 handle = PsychRTBox('Open' [, deviceID] [, skipSync=0]);
-\-- Try to open a connected RTBox, return a device handle 'handle' to it
+-- Try to open a connected RTBox, return a device handle 'handle' to it
 on success. The handle can be used in all further subcommands to refer to
 the box. By default, all USB ports (or rather USB-Serial ports) are scanned
 for a connected RTBox and the driver will connect to the first box found.
@@ -82,7 +82,7 @@ will perform an initial clock synchronization.
 
 
 clockRatio = PsychRTBox('ClockRatio' [, handle] [, durationSecs]);
-\-- Perform a clock drift calibration between the computers GetSecs host
+-- Perform a clock drift calibration between the computers GetSecs host
 clock and the internal clock of the box 'handle'. Restrict calibration to
 a maximum of 'durationSecs' (default 60 seconds if omitted). Return the
 computed 'clockRatio' and use it for all further operations.
@@ -98,7 +98,7 @@ drift, thereby providing the accuracy needed for reaction time studies.
 
 The clockRatio value tells, how many seconds of GetSecs time elapse when
 the box clock measures 1 second elapsed time. Ideally this value would be
-\1, ie. both clocks run at the same speed. A more realistic value would be,
+1, ie. both clocks run at the same speed. A more realistic value would be,
 e.g., 1.000009 -- The computer clock goes 9 microseconds faster than the
 box clock, so the drift will accumulate an error of 9 microseconds for
 each elapsed second of your study.
@@ -131,7 +131,7 @@ provides the most accurate timestamps.
 
 
 [syncResult, clockRatio] = PsychRTBox('SyncClocks' [, handle]);
-\-- Synchronize or resynchronize the clocks of the host computer and the
+-- Synchronize or resynchronize the clocks of the host computer and the
 box. Return result in 'syncResult' and the current clockRatio in
 'clockRatio'. This routine is automatically carried out during invocation
 of PsychRTBox('ClockRatio'); but you can repeat the sync procedure
@@ -161,7 +161,7 @@ a call to PsychRTBox('SyncConstraints').
 
 
 [oldmaxDurationSecs, oldgoodEnoughSecs, oldrequiredSecs, oldsyncMethod] = PsychRTBox('SyncConstraints'[, maxDurationSecs][, goodEnoughSecs][, requiredSecs][, syncMethod]);
-\-- Change the constraints to apply during calls to PsychRTBox('SyncClocks');
+-- Change the constraints to apply during calls to PsychRTBox('SyncClocks');
 Optionally return old settings.
 
 'maxDurationSecs' limits any call to 'SyncClocks' to a duration of at
@@ -192,14 +192,14 @@ that.
 
 
 oldverbose = PsychRTBox('Verbosity' [, handle], verbosity);
-\-- Set level of verbosity for driver: 0 = Shut up. 1 = Report errors
+-- Set level of verbosity for driver: 0 = Shut up. 1 = Report errors
 only. 2 = Report warnings as well. 3 = Report additional status info. 4 =
 Be very verbose about what is going on. The default setting is 3 --
 Report moderate status output.
 
 
 devinfo = PsychRTBox('BoxInfo' [, handle] [, newdevinfo]);
-\-- Return a struct 'devinfo' with all information about the current
+-- Return a struct 'devinfo' with all information about the current
 status and parameter settings for RTBox 'handle'. Optionally set a new
 struct with updated parameters via 'newdevinfo'. This function is mostly
 useful for debugging and benchmarking the driver itself. Most information
@@ -207,18 +207,18 @@ contained in 'devinfo' will be useless for your purpose.
 
 
 PsychRTBox('[Close](/docs/Close)', handle);
-\-- [Close](/docs/Close) connection to specific box 'handle'. Release all associated
+-- [Close](/docs/Close) connection to specific box 'handle'. Release all associated
 ressources.
 
 
 PsychRTBox('CloseAll');
-\-- [Close](/docs/Close) connections to all attached RTBox devices. Reset the PsychRTBox
+-- [Close](/docs/Close) connections to all attached RTBox devices. Reset the PsychRTBox
 driver completely. You'll usually use this function at the end of your
 experiment script to clean up.
 
 
 oldeventspec = PsychRTBox('Enable' [,handle][, eventspec]);
-\-- Enable specified type of event 'eventspec' on box 'handle'. This
+-- Enable specified type of event 'eventspec' on box 'handle'. This
 allows to enable detection and reporting of a specific type of event. By
 default, only reporting of push-button press is enabled, as this is the
 most common use of a response box.
@@ -236,7 +236,7 @@ names of all currently enabled events.
 
 
 oldeventspec = PsychRTBox('Disable' [,handle][, eventspec]);
-\-- Disable specified type of event 'eventspec' on box 'handle'. This
+-- Disable specified type of event 'eventspec' on box 'handle'. This
 allows to disable detection and reporting of a specific type of event. By
 default, only reporting of push-button press is enabled, as this is the
 most common use of a response box.
@@ -250,7 +250,7 @@ information about events. For this you use these commands:
 
 
 PsychRTBox('Start' [, handle] [, dontwaitforstart=0]);
-\-- Start event detection and reporting by the box. The box will start
+-- Start event detection and reporting by the box. The box will start
 detecting button and trigger events from here on and record them in the
 event buffer.
 
@@ -265,7 +265,7 @@ box, which can take 16 - 30 msecs in some cases.
 
 
 PsychRTBox('Stop' [, handle]);
-\-- Stop event detection and reporting by the box. The box will ignore
+-- Stop event detection and reporting by the box. The box will ignore
 detecting button and trigger events from here on and no longerrecord them
 in the event buffer.
 
@@ -273,7 +273,7 @@ You will usually call this at the end of a response period.
 
 
 PsychRTBox('Clear' [, handle] [, syncClocks=0] [, dontRestart=0]);
-\-- Stop event detection and reporting by the box, clear all recorded
+-- Stop event detection and reporting by the box, clear all recorded
 events so far, then restart reporting if it was active before calling
 this function.
 
@@ -291,7 +291,7 @@ same as calling PsychRTBox('SyncClocks').
 
 
 [time, event, boxtime] = PsychRTBox('GetSecs' [, handle] [, interTimeout=0.1] [, maxTimeout=interTimeout] [, maxItems=inf]);
-\-- Retrieve recorded events from the box 'handle'.
+-- Retrieve recorded events from the box 'handle'.
 
 By default, as many events are returned as are available within the
 test interval, but you can select a specific number of wanted events
@@ -352,7 +352,7 @@ input arguments, but different return arguments. All of these return
 timestamps in box time without remapping to GetSecs time by calling:
 
 [boxtime, event] = PsychRTBox('BoxSecs' ...);
-\-- Timestamps are in raw box clock time, everything else is the same as
+-- Timestamps are in raw box clock time, everything else is the same as
 in PsychRTBox('GetSecs' ...).
 
 If you have the 'boxtime' timestamps from one of the previous functions
@@ -360,7 +360,7 @@ around, you can map them later to GetSecs time with very high precision
 at the end of your experiment session via:
 
 [GetSecs, Stddev] = PsychRTBox('BoxsecsToGetsecs' [, handle], boxTimes);
-\-- Perform a post-hoc mapping of a vector of raw box timestamps
+-- Perform a post-hoc mapping of a vector of raw box timestamps
 'boxTimes' into a vector of host clock 'GetSecs' timestamps. Return some
 error measure in 'Stddev' as well, if available.
 
@@ -389,7 +389,7 @@ etc. etc.
 
 
 sendTime = PsychRTBox('SerialTrigger' [, handle]);
-\-- Send a software generated trigger to the box via the serial port
+-- Send a software generated trigger to the box via the serial port
 connection. This will register as a event of type 'serial' and you can
 retrieve timestamps relative to the first trigger within a response
 period via the PsychRTBox('serial', ...); command.
@@ -399,7 +399,7 @@ sendTime = PsychRTBox('EngageLightTrigger [, handle]);
 sendTime = PsychRTBox('EngagePulseTrigger [, handle]);
 sendTime = PsychRTBox('EngageTRTrigger [, handle]);
 
-\-- Engage trigger input on the box for reception of a one-shot trigger
+-- Engage trigger input on the box for reception of a one-shot trigger
 signal. This function will return immediately after submitting the
 request to the box. It may take up to 5 msecs worst-case until the
 trigger input is really enabled. If you want to wait for the trigger to
@@ -425,7 +425,7 @@ Similar reasoning applies to Pulse and TR triggers.
 
 
 oldNames = PsychRTBox('ButtonNames' [, handle] [, newNames]);
-\-- Query or assign labels for the four response box buttons other than
+-- Query or assign labels for the four response box buttons other than
 the default names.
 
 This function allows to assign arbitrary names to the four buttons on the
@@ -445,7 +445,7 @@ assigning the same name to multiple buttons is not allowed.
 
 
 oldIntervals = PsychRTBox('DebounceInterval' [, handle] [, debounceSecs]);
-\-- Query current button debounce intervals (in 4-element vector
+-- Query current button debounce intervals (in 4-element vector
 'oldIntervals', one value for each button), and optionally set new
 debounce interval in seonds via the optional argument 'debounceSecs'.
 'debounceSecs' can be a scalar, in which case the same setting is applied
@@ -483,10 +483,10 @@ interval more fine-grained.
 
 
 [oldValue] = PsychRTBox('HardwareDebounce' [, handle] [, scanNum]);
-\-- Set/get hardware debouncer setting. The hardware will treat a button
+-- Set/get hardware debouncer setting. The hardware will treat a button
 event as valid only if the button state stays stable for at least
 'scanNum' scanning iterations of the firmware. The scan interval is about
-\67 microseconds. The valid scanNum is from 1 through 255, with a default
+67 microseconds. The valid scanNum is from 1 through 255, with a default
 setting of 16 cycles for 1.072 msecs debounce interval.
 
 For software debouncing at the driver level, see PsychRTBox('DebounceInterval')
@@ -494,7 +494,7 @@ above.
 
 
 buttonState = PsychRTBox('ButtonDown' [, handle] [, whichButtons]);
-\-- This reports the current button state of all response buttons of box
+-- This reports the current button state of all response buttons of box
 'handle', or a subset of response buttons if specified by the optional
 'whichButtons' argument, e.g., whichButton = {'1', '4'} to only test
 buttons 1 and 4. 'buttonState' is a vector which contains a 1 for each
@@ -516,17 +516,17 @@ driver configuration.
 
 
 buttonState = PsychRTBox('WaitButtonDown' [, handle] [, whichButtons]);
-\-- Wait until at least one of the specified buttons in 'whichButtons' is
+-- Wait until at least one of the specified buttons in 'whichButtons' is
 pressed down. If 'whichButtons' is omitted, all buttons are tested.
 
 
 PsychRTBox('WaitButtonUp' [, handle] [, whichButtons]);
-\-- Wait until all of the specified buttons in 'whichButtons' are
+-- Wait until all of the specified buttons in 'whichButtons' are
 released. If 'whichButtons' is omitted, all buttons are tested.
 
 
 [timeSent, confidence] = PsychRTBox('TTL' [, handle] [, eventCode=1]);
-\- Send TTL to DB-25 port (pin 8 is bit 0). The second input is event code
+- Send TTL to DB-25 port (pin 8 is bit 0). The second input is event code
 (default 1 if omitted), 4-bit (0~15) for box versions < 5, and 8-bit
 (0~255) for later versions. It can also be equivalent binary string, such
 as '0011'.
@@ -543,8 +543,8 @@ EEG event code support.
 
 
 [oldValue] = PsychRTBox('TTLWidth' [, handle][, widthSecs]);
-\- Set/get TTL pulse width in seconds. The default width is 0.97e-3, ie.
-\97 microseconds when the device is opened. The actual width may have some
+- Set/get TTL pulse width in seconds. The default width is 0.97e-3, ie.
+97 microseconds when the device is opened. The actual width may have some
 small variation. The supported width ranges from 0.14e-3 to 35e-3 secs. A
 infinite width 'inf' is also supported. Infinite width means the TTL will
 stay until it is changed by the next PsychRTBox('TTL') command, such as
@@ -554,12 +554,12 @@ This function is only supported for v3.0 RTBoxes and later, the ones with
 EEG event code port support.
 
 In Version <5.0, the TTL width at DB-25 pins 17~24 is controlled by a
-potentiometer inside the box. In Version \>= 5, the width is also
+potentiometer inside the box. In Version >= 5, the width is also
 controlled by 'TTLWidth' command.
 
 
 [oldValue] = RTBox('TTLResting' [, handle][, newLevel]);
-\- Set/get TTL polarity for DB-25 pins 1~8. The default is 0, meaning the
+- Set/get TTL polarity for DB-25 pins 1~8. The default is 0, meaning the
 TTL resting is low. If you set newLevel to nonzero, the resting TTL will
 be high level. If you need different polarity for different pins, let us
 know. This function is only supported with firmware version 3.1 and

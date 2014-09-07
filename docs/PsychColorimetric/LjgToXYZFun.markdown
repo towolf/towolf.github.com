@@ -11,7 +11,7 @@ encoding: UTF-8
 Optimization function for LjgToXYZ numerical
 search.  Not vectorized.
 
-\3/27/01  dhb  Wrote it.
+3/27/01  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

@@ -109,12 +109,12 @@ There are multiple classes of possible causes for sync failure. Work down
 this list of causes and solutions down until your problem is resolved or
 you hit the bottom of the list:
 
-\1. Wrong configuration settings: This usually only affects MS-Windows
+1\. Wrong configuration settings: This usually only affects MS-Windows
 systems, where the display settings control panel for your graphics card
 allows to customize a couple of graphics driver parameters. Some of these
 settings can cause sync failure if they are wrong:
 
-\-\> Make sure the "Synchronize bufferswaps to the vertical retrace" option
+-> Make sure the "Synchronize bufferswaps to the vertical retrace" option
 is set to "Application controlled" or "Application controlled, default to
 on". The wording of the option differs between different graphics cards,
 search for something like that. Examples of other names: "Wait for
@@ -123,32 +123,32 @@ to off and \*not\* application controlled, then the sync tests will fail
 because the hardware doesn't synchronize its image onset (bufferswap) to
 the video refresh cycle of your display.
 
-\-\> Make sure the "Triple buffering" setting is off, or if you can select
+-> Make sure the "Triple buffering" setting is off, or if you can select
 some "Multibuffering" setting, that it is set to "double buffering" or
 "wait for 1 video refresh" or "swap every refresh". This option may not
 exist, but if it does, any other setting will cause the sync tests to
 possibly succeed, but later stimulus onset timestamping to fail with
 errors.
 
-\-\> If there is an option "Buffer swap mode" or "Bufferswap strategy", it
+-> If there is an option "Buffer swap mode" or "Bufferswap strategy", it
 should be set to "Auto select" or "Page flipping" or "Exchange buffers".
 The so called "Copy buffers" or "Blitting" option would result in lower
 performance and inaccurate timing.
 
-\-\> On dual/multi display setups MS-Windows allows you to assign one
+-> On dual/multi display setups MS-Windows allows you to assign one
 monitor the role of the "primary monitor" or "primary display". It is
 important that the display device which you use for stimulus presentation
 is the "primary display", otherwise random things may go wrong wrt. sync
 tests and timing.
 
-\-\> If you have the choice to set your multi-monitor configuration to
+-> If you have the choice to set your multi-monitor configuration to
 either "dual display mode"/"dual display performance mode"/"separate
 displays" or instead to "extended desktop mode" or "horizontal spanning",
 you should choose "extended desktop mode" or "horizontal spanning" modes
 for best timing and stimulus quality. Please note that this choice
 doesn't exist anymore on Windows-Vista and later.
 
-\-\> On all operating systems in dual display or multi display mode it is
+-> On all operating systems in dual display or multi display mode it is
 important that you configure both displays for exactly the same color
 depths, resolution and refresh rate if you want to present stimuli across
 multiple displays, e.g., for binocular stereoscopic presentation on a
@@ -159,14 +159,14 @@ problems or tearing artifacts on one of the display if you do dual
 display stimulation. It may also cause failures in timetamping.
 
 
-\2. Temporary timing glitches or system malfunction: It may help to
+2\. Temporary timing glitches or system malfunction: It may help to
 restart Matlab/Octave, or to reboot your machine. Sometimes this resolves
 intermittent problems on your system, especially after the system was
 running without reboot for a long time, on high load, or if display
 settings or display configuration has been changed frequently.
 
 
-\3. Driver bugs: Many graphics card device drivers have bugs that cause
+3\. Driver bugs: Many graphics card device drivers have bugs that cause
 synchronization to fail. If none of the above steps resolves your
 problems, check the website of your computer vendor or graphics card
 vendor, or use the "Check for driver updates" function of some operating
@@ -174,7 +174,7 @@ systems to find out if new, more recent graphics drivers have been
 released for your graphics card. If so, update to them. A tremendeously
 large number of problems can be resolved by a simple driver update!
 
-# \4. Driver/Hardware limitations:
+# 4\. Driver/Hardware limitations:
 
 Most systems can't provide reliable research grade timing if you don't
 display your stimuli in fullscreen windows, but use windowed mode
@@ -234,7 +234,7 @@ refresh rate. You'll have to try, as it has been found to be highly
 dependent on hardware, driver and operating system, which combinations
 work and which don't.
 
-\5. Graphics system overload: If you ask too much from your poor graphics
+5\. Graphics system overload: If you ask too much from your poor graphics
 hardware, the system may enter a state where the electronics is not
 capable of performing drawing operations in hardware, either because it
 runs out of video memory ressources, or because it is lacking the
@@ -260,7 +260,7 @@ Troubleshooting: Try lower display resolutions and multisampling levels,
 switch dual display setups into mirror-mode if possible, or buy a
 graphics adapter with more onboard memory.
 
-\6. General system overload: If you run too many applications on your
+6\. General system overload: If you run too many applications on your
 system in parallel to your Psychtoolbox+Matlab/Octave session, then these
 applications may cause significant timing jitter in your system, so the
 execution of Psychtoolbox - and its measurement loops - becomes
@@ -271,21 +271,21 @@ needed for your study, then retry. The usual suspects are: Virus
 scanners, applications accessing the network or the harddiscs,
 applications like iTunes, system software update...
 
-\7. Bad drivers or hardware in your system that interferes with general
+7\. Bad drivers or hardware in your system that interferes with general
 system timing: This is difficult to diagnose. At least on MS-Windows, you
 can download a free tool "dpclat.exe" from the internet (Use Google to
 find it). If you run it, it will tell you if there are potential problems
 with your systems timing and give hints on how to resolve them.
 
-\8. Running inside a Virtual Machine: This almost always causes extremely
+8\. Running inside a Virtual Machine: This almost always causes extremely
 bad timing. The command PsychTweak('PrepareForVirtualmachine') may help by
 disabling most timing tests. This is only useful for demos, not for real
 data collection, of course!
 
-\9. Other: Search the FAQ pages on the www.psychtoolbox.org Wiki and (via
+9\. Other: Search the FAQ pages on the www.psychtoolbox.org Wiki and (via
 Google search) the Psychtoolbox forum for other problems and solutions.
 
-\10. If everything else fails, post on the forum for help, but read our
+10\. If everything else fails, post on the forum for help, but read our
 instructions on how to ask questions on the forum properly. You can find
 these instructions on the "Forum" and "Bugs" pages of our Wiki. If we
 find that you didn't read the instructions and you're basically wasting
@@ -364,7 +364,7 @@ BeampositionQueries' for more info about display issues.
 
 # LINUX specific tips:
 
-\1. Just as on all other operating systems, timed visual stimulus onset
+1\. Just as on all other operating systems, timed visual stimulus onset
 and stimulus onset timestamping is not reliable on regular (non
 fullscreen) windows, windows that don't cover the complete desktop of a
 Psychtoolbox screen (also known as X-[Screen](/docs/Screen)) or transparent windows,
@@ -381,7 +381,7 @@ stimulus displays are grouped in one (or multiple) X-[Screen](/docs/Screen) whic
 fully covered by your PTB onscreen window, and other displays, e.g.,
 operator GUI displays, are grouped into a different X-[Screen](/docs/Screen).
 
-\2. A major source of timing trouble can be 3D desktop compositors. Either
+2\. A major source of timing trouble can be 3D desktop compositors. Either
 use a user interface that doesn't employ a desktop compositor, e.g., the
 GNOME-2 classic 2D desktop, LXDE or XFCE desktop, or configure your
 desktop compositor of choice to
@@ -395,9 +395,9 @@ PsychGPUControl('FullScreenWindowDisablesCompositor', 1);
 probably the latest version of GNOME-3) will automatically unredirect
 fullscreen windows and go out of the way, if you've enabled this in
 their settings. On GNOME-3, no setup is required. On KDE, do this:
-Open "KDE System Settings" -\> "Desktop Effects" -\>
-"Advanced" Tab -\> "Suspend desktop effects for fullscreen windows"
-\-\> Check the checkbox -\> "Apply" -\> Done. The same will happen on compiz
+Open "KDE System Settings" -> "Desktop Effects" ->
+"Advanced" Tab -> "Suspend desktop effects for fullscreen windows"
+-> Check the checkbox -> "Apply" -> Done. The same will happen on compiz
 with Ubuntu Linux 12.04.2 LTS or later. If you use a different desktop
 compositor, and on a few versions of compiz, the command doesn't yet
 work, so you need to check the manuals/help of your system on how to
@@ -421,7 +421,7 @@ graphics drivers radeon, nouveau or intel, PTB will output warnings about
 non-pageflipped flips in such a case. It will also output warnings if the
 proprietary driver is recent enough to support detecting this.
 
-\3. Another reason for timestamping problems can be the use of
+3\. Another reason for timestamping problems can be the use of
 triple-buffering.
 
 Psychtoolbox would warn you, at least when the free graphics drivers are

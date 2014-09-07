@@ -7,7 +7,7 @@ encoding: UTF-8
 ---
 
 Returns 1 if active rendering api is OpenGL-ES1.x,
-\0 otherwise.
+0 otherwise.
 
 
 <div class="code_header" style="text-align:right;">

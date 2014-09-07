@@ -20,8 +20,8 @@ spec\_in may have multiple columns, in which case spec\_out does as well.
 wls\_in and wls\_out may be specified as a column vector of
 wavelengths or as a [start delta num] description.
 
-\7/26/03  dhb  Add extend argument
-\8/13/11  dhb  Added linear extrapolation option for extend
+7/26/03  dhb  Add extend argument
+8/13/11  dhb  Added linear extrapolation option for extend
 
 
 <div class="code_header" style="text-align:right;">

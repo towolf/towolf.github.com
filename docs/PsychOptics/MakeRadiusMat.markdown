@@ -16,7 +16,7 @@ performing certain 2D image processing operations.
 
 The no-loop algorithm is due to Stan Klein.
 
-\7/11/94     dhb     Slick version.
+7/11/94     dhb     Slick version.
 
 
 <div class="code_header" style="text-align:right;">

@@ -77,9 +77,9 @@ agree with each other, for cases where the parameters match.
 See also: ComputeCIEConeFundamentals, CIEConeFundamentalsTest, FitConeFundamentalsWithNomogram,
           FitConeFundamentalsTest, DefaultPhotoreceptors, FillInPhotoreceptors.
 
-\8/12/11  dhb  Starting to make this actually work.
-\8/14/11  dhb  Change name, expand comments.
-\8/10/13  dhb  [Expand](/docs/Expand) comments.  Return unscaled quantal efficiencies too.
+8/12/11  dhb  Starting to make this actually work.
+8/14/11  dhb  Change name, expand comments.
+8/10/13  dhb  [Expand](/docs/Expand) comments.  Return unscaled quantal efficiencies too.
 
 
 <div class="code_header" style="text-align:right;">

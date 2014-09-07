@@ -13,7 +13,7 @@ The form of the logistic equation is y = 1/(1+10^-(ax+b)).
 
 See also: ComputeLogistic, FitLogistic, FitLogitYN.
 
-\2/15/95     dhb     Wrote it.
+2/15/95     dhb     Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

@@ -10,7 +10,7 @@ encoding: UTF-8
 
 Cubic spline through gamma data
 
-\7/18/94     dhb     Wrote it.
+7/18/94     dhb     Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

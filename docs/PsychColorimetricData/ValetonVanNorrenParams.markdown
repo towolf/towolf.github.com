@@ -36,7 +36,7 @@ and gamma.
 See also: TrolandsToRetIrradiance, RetIrradianceToIsoRecSec, EyeLength,
   DefaultPhotoreceptors, FillInPhotoreceptors.
 
-\7/18/03  dhb  Started writing it.
+7/18/03  dhb  Started writing it.
 
 
 <div class="code_header" style="text-align:right;">

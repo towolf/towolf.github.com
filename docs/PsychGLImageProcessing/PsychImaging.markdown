@@ -25,12 +25,12 @@ See "help PsychGLImageprocessing" for more info.
 # Subcommands and their meaning:
 
 PsychImaging('PrepareConfiguration');
-\- Prepare setup of imaging pipeline for onscreen window.
+- Prepare setup of imaging pipeline for onscreen window.
 This is the first step in the sequence of configuration steps.
 
 
 PsychImaging('AddTask', whichChannel, whichTask [,param1]...);
-\- Add a specific task or processing requirement to the list of actions
+- Add a specific task or processing requirement to the list of actions
 to be performed by the pipeline for the currently selected onscreen
 window. 'whichChannel' is a string with the name of the channel to
 configure:
@@ -259,19 +259,19 @@ actions:
   Example: Suppose your real window covers a 1920 x 1080 display.
 
   PsychImaging('AddTask', 'General', 'UsePanelFitter', [800 600], 'Aspect');
-  \-\> This would give you a virtual window of 800 x 600 pixels to draw
+  -> This would give you a virtual window of 800 x 600 pixels to draw
   into and would rescale the 800 x 600 stimulus image to 1440 x 1080
   pixels and display it centered on the 1920 x 1080 pixels display.
   Aspect ratio would be correct and the image would cover the full height
-  \1080 pixels of the display, but only 1440 out of 1920 pixels of its
+  1080 pixels of the display, but only 1440 out of 1920 pixels of its
   width, thereby leaving black borders on the left and right side of your
   stimulus.
 
   PsychImaging('AddTask', 'General', 'UsePanelFitter', [800 600], 'AspectHeight');
-  \-\> Would do the same as above.
+  -> Would do the same as above.
 
   PsychImaging('AddTask', 'General', 'UsePanelFitter', [800 600], 'AspectWidth');
-  \-\> Would create a final image of 1920 pixels width, as you asked to
+  -> Would create a final image of 1920 pixels width, as you asked to
   cover the full display width, aspect ratio would be correct, but the
   top and bottom 75 pixels of your original stimulus would get cut away,
   because they wouldn't fit after scaling without distorting the image.
@@ -335,7 +335,7 @@ actions:
   On graphics hardware that supports this, a 16 bit signed integer
   framebuffer will be created. Such a framebuffer can store intermediate
   color values in the normalized range [-1.0 ; +1.0] with a precision of
-  \15 bits per component. Only positive values between 0.0 and 1.0 are
+  15 bits per component. Only positive values between 0.0 and 1.0 are
   displayable in the end though. If the graphics hardware does not support this,
   a 16 bit unsigned integer framebuffer is tried instead. Such a framebuffer
   allows for 16 bits of precision per color component. However, many graphics
@@ -361,9 +361,9 @@ actions:
   compositing and image processing operations. It also allows
   alpha-blending with signed color values and intermediate results that
   are outside the displayable range, e.g., negative. Precision is about
-  \6.5 digits behind the dezimal point or 8 million discriminable displayable
+  6\.5 digits behind the dezimal point or 8 million discriminable displayable
   levels. Be aware that only the most recent hardware (NVidia Geforce
-  \8000 series, ATI Radeon HD 2000 series) is able to perform
+  8000 series, ATI Radeon HD 2000 series) is able to perform
   alpha-blending at full speed in this mode. Enabling alpha-blending on
   older hardware may cause a significant decrease in drawing performance,
   or alpha blending may not work at all at this precision! If you'd like
@@ -395,7 +395,7 @@ actions:
 
   The command PsychImaging('AddTask', 'General', 'NormalizedHighresColorRange', 1);
   is automatically executed if you used PsychDefaultSetup(featureLevel)
-  with a featureLevel of \>= 2 at the top of your experiment script,
+  with a featureLevel of >= 2 at the top of your experiment script,
   \*except\* that clamping is \*not\* disabled by default in this case! To
   disable clamping you'd still need to add this task explicitely, as
   unclamping may have unintended side effects on old graphics hardware.
@@ -489,11 +489,11 @@ actions:
 
   Usage: PsychImaging('AddTask', 'General', 'EnableVideoSwitcherSimpleLuminanceOutput' [, btrr] [, trigger]);
 
-  \- The optional 'btrr' parameter is the Blue-To-Red-Ratio to use. If the
+  - The optional 'btrr' parameter is the Blue-To-Red-Ratio to use. If the
   parameter is left out, the btrr value will be read from a global
   configuration file.
 
-  \- The optional 'trigger' parameter can be zero for "No trigger", or 1
+  - The optional 'trigger' parameter can be zero for "No trigger", or 1
   for "Use trigger as configured". By default, trigger is off (==0).
   Enabled, one can use the VideoSwitcher('SetTrigger', ...); function to
   configure when and how a trigger signal should be emitted. Trigger
@@ -517,17 +517,17 @@ actions:
 
   Usage: PsychImaging('AddTask', 'General', 'EnableVideoSwitcherCalibratedLuminanceOutput' [, btrr] [, lut] [, trigger]);
 
-  \- The optional 'btrr' parameter is the Blue-To-Red-Ratio to use. If the
+  - The optional 'btrr' parameter is the Blue-To-Red-Ratio to use. If the
   parameter is left out, the btrr value will be read from a global
   configuration file.
 
-  \- The optional 'lut' paramter is a 257 elements vector of luminance
+  - The optional 'lut' paramter is a 257 elements vector of luminance
   values, which maps blue channel drive indices to luminance values. This
   lut needs to be acquired via a calibration procedure by use of a
   photometer. If 'lut' is left out, the table will be read from a global
   configuration file.
 
-  \- The optional 'trigger' parameter can be zero for "No trigger", or 1
+  - The optional 'trigger' parameter can be zero for "No trigger", or 1
   for "Use trigger as configured". By default, trigger is off (==0).
   Enabled, one can use the VideoSwitcher('SetTrigger', ...); function to
   configure when and how a trigger signal should be emitted. Trigger
@@ -571,7 +571,7 @@ actions:
   graphics drivers, we follow a hybrid approach: We use a special kernel
   level driver to reconfigure the hardware for 10 bpc framebuffer support.
   Then we use a special imaging pipeline formatting plugin to convert
-  \16 bpc or 32 bpc stimuli into the special data format required by this
+  16 bpc or 32 bpc stimuli into the special data format required by this
   framebuffer configuration.
 
   You'll need to install and load the special Psychtoolbox kernel driver
@@ -617,7 +617,7 @@ actions:
 
   The status with the proprietary AMD drivers on Linux or on MS-Windows is unknown.
   Apple OSX 10.9 and earlier do not support any high precision video output over any digital
-  output, neither DVI-D, nor DisplayPort or HDMI. All you'll get at best on OSX is simulated \> 8
+  output, neither DVI-D, nor DisplayPort or HDMI. All you'll get at best on OSX is simulated > 8
   bpc via dithering.
 
   Usage: PsychImaging('AddTask', 'General', 'EnableNative10BitFramebuffer' [, disableDithering=0]);
@@ -663,9 +663,9 @@ actions:
   need 33 bits per pixel, and current graphics hardware can't handle that.
 
   How many bits of precision of these ~ 11 bpc actually reach your display device?
-  \- Analog VGA only provides for maximum 10 bpc output precision on all shipping
+  - Analog VGA only provides for maximum 10 bpc output precision on all shipping
     NVidia and AMD graphics cards. Intel graphics cards only allow for 8 bpc.
-  \- DisplayPort or HDMI might allow for transfer of 11 bpc precision, in general they
+  - DisplayPort or HDMI might allow for transfer of 11 bpc precision, in general they
     support up to 12 bpc. However additional hardware restrictions for your graphics
     card may limit precision to as low as 10 bpc. To our knowledge, only AMD graphics
     cards support ~ 11 bpc framebuffers at all. Radeon HD-7000 and earlier can only
@@ -870,7 +870,7 @@ actions:
   methods are implemented to squeeze your stimulus image horizontally by
   a factor of two. The following options exist:
 
-  \0 = This is the "classic" mode which was used in all Psychtoolbox
+  0 = This is the "classic" mode which was used in all Psychtoolbox
   versions prior to 22nd September 2010. If you want to keep old code
   working as is, select 0. In this mode, your script will only see a
   framebuffer that is half the true horizontal resolution of your
@@ -890,7 +890,7 @@ actions:
   lines would display as expected, but each white or black stripe would be
   two pixels wide on the display instead of one pixel wide.
 
-  \1 = Subsample: Your framebuffer will appear at the same resolution as
+  1 = Subsample: Your framebuffer will appear at the same resolution as
   your display device. Aspect ratio of drawn stimuli/text etc. will be
   correct and as expected. However, every 2nd column of pixels in your
   stimulus (ie., all odd-numbered x-coordinates 1,3,5,7,...) will be
@@ -901,7 +901,7 @@ actions:
   in the even columns would be used, whereas the black pixels in the odd
   columns would be ignored.
 
-  \2 = Average: Your framebuffer will appear at the same resolution as
+  2 = Average: Your framebuffer will appear at the same resolution as
   your display device. Aspect ratio of drawn stimuli/text etc. will be
   correct and as expected. However, each pair of adjacent even/odd pixel
   columns will be averaged before output. Stimulus pixels 0 and 1 will
@@ -1067,7 +1067,7 @@ actions:
 
 \* More actions will be supported in the future. If you can think of an
   action of common interest not yet supported by this framework, please
-  file a feature request on our Wiki (Mainpage -\> Feature Requests).
+  file a feature request on our Wiki (Mainpage -> Feature Requests).
 
 
 After adding all wanted task specifications and other requirements,
@@ -1075,7 +1075,7 @@ call...
 
 [windowPtr, windowRect] = PsychImaging('OpenWindow', screenid, [backgroundcolor], ....);
 
-\- Finishes the setup phase for imaging pipeline, creates a suitable onscreen
+- Finishes the setup phase for imaging pipeline, creates a suitable onscreen
 window and performs all remaining configuration steps. After this
 command, your onscreen window will be ready for drawing and display of
 stimuli. All specified imaging operations will get automatically applied
@@ -1086,7 +1086,7 @@ After the window has been opened you can call the following commands any
 time at runtime:
 
 PsychImaging('RestrictProcessingToROI', window, whichChannel, ROI);
-\- Restrict the processing area of viewChannel 'whichChannel' of onscreen
+- Restrict the processing area of viewChannel 'whichChannel' of onscreen
 window 'window' to the rectangular subarea defined by 'ROI'. See the
 explanation above for subtask 'RestrictProcessing'. This does exactly the
 same but allows a dynamic change of the restricted area at any point
@@ -1094,13 +1094,13 @@ during your experiment script.
 
 
 PsychImaging('UnrestrictProcessing', window, whichChannel);
-\- Remove a restriction of the processing area of viewChannel
+- Remove a restriction of the processing area of viewChannel
 'whichChannel' of onscreen window 'window' to a previously defined
 subarea. Can be called anytime during your scripts execution.
 
 
 [overlaywin, overlaywinRect] = PsychImaging('GetOverlayWindow', win);
-\- Will return the handle to the 'overlaywin'dow associated with the
+- Will return the handle to the 'overlaywin'dow associated with the
 given 'win'dow, if any. Will abort with an error message if the 'win'dow
 doesn't have an associated overylay window.
 Currently, only the CRS Bits+ box in Mono++ mode and the VPixx DataPixx
@@ -1115,7 +1115,7 @@ is opened in videomode 'M16WithOverlay'.
 # The following commands are only for specialists:
 
 [imagingMode, needStereomode] = PsychImaging('FinalizeConfiguration');
-\- Finish the configuration phase for this window. This will compute an
+- Finish the configuration phase for this window. This will compute an
 optimal configuration for all stages of the pipeline, but won't apply it
 yet. You'll have to call [Screen](/docs/Screen)('OpenWindow', windowPtr, ......,
 imagingMode, ...); with the returned 'imagingMode' + any other options
@@ -1129,7 +1129,7 @@ your window properly configured.
 
 
 PsychImaging('PostConfiguration', windowPtr [, clearcolor]);
-\- To be called after opening the onscreen window 'windowPtr'.
+- To be called after opening the onscreen window 'windowPtr'.
 Performs all the setup work to be done after the window was created.
 
 

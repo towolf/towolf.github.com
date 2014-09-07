@@ -27,10 +27,10 @@ could not care less about that information.
 
 # We collect this information exclusively for the following purpose:
 
-\1. Statistics about total number of downloads for the purpose of
+1\. Statistics about total number of downloads for the purpose of
    documenting the use of PTB.
 
-\2. Statistics about distribution of user base wrt. operating system,
+2\. Statistics about distribution of user base wrt. operating system,
    and Matlab / Octave version to prioritize development for the most
    common platform+OS combinations.
 

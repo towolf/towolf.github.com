@@ -17,12 +17,12 @@ Syntax: path=PsychHomeDir([subDir])
          if neccessary.
 
 History: 1/23/08    mpr configured it was about time to write this
-         \3/7/08     mpr streamlined this
-         \3/8/08     mk  A bit more of streamlining - Don't write the
+         3/7/08     mpr streamlined this
+         3/8/08     mk  A bit more of streamlining - Don't write the
                         PsychPrefsfolder.m file anymore.
-         \4/28/08    mk  Made compatible with Octave, added 'subDir'
+         4/28/08    mk  Made compatible with Octave, added 'subDir'
                         option.
-         \2/06/09    mk  Derived from PsychtoolboxConfigDir().
+         2/06/09    mk  Derived from PsychtoolboxConfigDir().
 
 
 <div class="code_header" style="text-align:right;">

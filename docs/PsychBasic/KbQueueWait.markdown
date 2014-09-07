@@ -12,17 +12,17 @@ encoding: UTF-8
   KbQueueWait, KbQueueFlush and KbQueueRelease provide replacments for
   KbCheck and KbWait, providing the following advantages:
 
-     \1) Brief key presses that would be missed by KbCheck or KbWait
+     1) Brief key presses that would be missed by KbCheck or KbWait
         are reliably detected
-     \2) The times of key presses are recorded more accurately
-     \3) The times of key releases are also recorded
+     2) The times of key presses are recorded more accurately
+     3) The times of key releases are also recorded
 
 #  Limitations:
 
-     \1) If a key is pressed multiple times before KbQueueCheck is called,
+     1) If a key is pressed multiple times before KbQueueCheck is called,
         only the times of the first and last presses and releases of that
         key can be recovered (this has no effect on other keys)
-     \2) If many keys are pressed very quickly in succession, it is at least
+     2) If many keys are pressed very quickly in succession, it is at least
         theoretically possible for the queue to fill more quickly than
         it can be emptied, losing key events temporarily while filled to
         capacity. The queue holds up to thirty events, and events are

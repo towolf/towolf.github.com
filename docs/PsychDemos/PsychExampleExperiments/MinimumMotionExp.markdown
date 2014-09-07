@@ -40,7 +40,7 @@ Toolbox 3 and Matlab 7.4 or later (or Octave 3.2 or later) are required.
 
 Note: Writing of result files is disabled, but can be enabled in a
 "production setting" by providing the optional argument 'writeResult' as
-\1.
+1\.
 
 This script is contributed by Don MacLeod, UCSD. It was modified by Mario
 Kleiner for portability across all supported operating systems and for

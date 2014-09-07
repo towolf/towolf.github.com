@@ -10,7 +10,7 @@ function [val\_UWattsPerCm2,limit\_UWattsPerCm2] = ISO2007MPEComputeType1Continu
   S,radiance\_WattsPerSrM2,weightingA,stimulusDurationSecs,[eyeLengthMm])
 
 Compute the weighted aphakic (photochemical) retinal irradiance for Type 1 instruments as given on page 8, Table 2,
-\5.4.1.3.a.
+5\.4.1.3.a.
 
 Input spectrum is radiance in units of Watts/[sr-m2-wlinterval].
 
@@ -20,7 +20,7 @@ See page 6 for a definition of a Type 1 instrument.  As far as I can tell, the k
 criterion is that it doesn't put out more light that exceeds the Type 1 limits.
 
 If the exposure time is longer than 2 hours the specified limits should be reduced by
-\1/exposureDuration in hours.  This routine implements that adjustment for its returned
+1/exposureDuration in hours.  This routine implements that adjustment for its returned
 limit value.  It does not implement a further reduction of of the limit (by a factor of 2)
 specifed for microscopes and endoilluminators.
 
@@ -39,7 +39,7 @@ and responsibility in PsychISO2007MPE/Contents.m (type "help PsychISO2007MPE"
 at the Matlab prompt.
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-\6/26/13  dhb  Wrote it.
+6/26/13  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

@@ -36,14 +36,14 @@ that is 1 - (10^0 + (-ln(10)\*x) = ln(10)\*x.  Plugging in OD\*absorbanceSpectra
 we get the absorptanceSpectra = ln(10)\*OD\*absorbanceSpectra.
 
 
-\04/29/03 lyin   Wrote wrote with advice from dhb
-\04/30/03 lyin   Reorganize the variable
-\06/12/03 lyin   Change the way variable being passed
-\06/23/03 dhb        Check dimensions of spectra and density.
-\06/30/03 dhb      Change to toolbox convention, put sensitivity like stuff in rows.
-\08/11/13 dhb      Fix comment to reflect row convention change made in 2003.  Slowly but surely we fix things up.
-\10/29/13 dhb, ms  Add commment about absorptance for low OD.
-\12/02/13 dhb      Fix spelling of "absorptance" in routine names and throughout.
+04/29/03 lyin   Wrote wrote with advice from dhb
+04/30/03 lyin   Reorganize the variable
+06/12/03 lyin   Change the way variable being passed
+06/23/03 dhb        Check dimensions of spectra and density.
+06/30/03 dhb      Change to toolbox convention, put sensitivity like stuff in rows.
+08/11/13 dhb      Fix comment to reflect row convention change made in 2003.  Slowly but surely we fix things up.
+10/29/13 dhb, ms  Add commment about absorptance for low OD.
+12/02/13 dhb      Fix spelling of "absorptance" in routine names and throughout.
 
 
 <div class="code_header" style="text-align:right;">

@@ -20,9 +20,9 @@ See CIE Colorimetry 2004, Appendix A, or Judd and Wyszecki, p. 296. If
 you want this (maybe to compute correlated color temperatures), you can
 pass this as 1.  It is 0 by default.
 
-\7/15/03  dhb, bx  Wrote it.
-\3/17/04  dhb      Fixed typos.  This must not have been tested previously.
-\5/06/11  dhb      Added optional 1960 computation, and improved comments.
+7/15/03  dhb, bx  Wrote it.
+3/17/04  dhb      Fixed typos.  This must not have been tested previously.
+5/06/11  dhb      Added optional 1960 computation, and improved comments.
 
 
 <div class="code_header" style="text-align:right;">

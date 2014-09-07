@@ -29,12 +29,12 @@ encoding: UTF-8
 
  See also: FitWeibTAFC, FitFitWeibYN, FitCumNormYN, FitLogitYN
 
- \8/25/94    dhb, ccc    Cleaned comments, return 92% correct threshold.
- \2/8/97    dhb         Added check for optimization toolbox.
- \4/26/97   dhb         Change threshold to thresh92.
- \4/18/02   dhb         Fix reference to undefined variable 'levels'.
+ 8/25/94    dhb, ccc    Cleaned comments, return 92% correct threshold.
+ 2/8/97    dhb         Added check for optimization toolbox.
+ 4/26/97   dhb         Change threshold to thresh92.
+ 4/18/02   dhb         Fix reference to undefined variable 'levels'.
            dhb         Suppress warnings in calls to optimization toolbox.
- \3/5/05 dhb         Update for optimization toolbox version 2.
+ 3/5/05 dhb         Update for optimization toolbox version 2.
 
 
 <div class="code_header" style="text-align:right;">

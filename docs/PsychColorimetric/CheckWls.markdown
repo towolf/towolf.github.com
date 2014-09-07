@@ -20,14 +20,14 @@ errorRet indicates status
 
 Arg quiet tells function whether or not to print display to
 screen notifying user that check failed:
-    \0 =\> display message
-  else =\> keep quiet
+    0 => display message
+  else => keep quiet
 
-\9/13/93  dhb  Added error return, no longer exits on error.
-\3/12/99  xmz  Took care of cases when wls1 and wls2 are not
+9/13/93  dhb  Added error return, no longer exits on error.
+3/12/99  xmz  Took care of cases when wls1 and wls2 are not
               equal in length.
-\1/4/00   mpr  Added quiet flag to suppress display.
-\4/22/04  dhb  Make quiet the default.
+1/4/00   mpr  Added quiet flag to suppress display.
+4/22/04  dhb  Make quiet the default.
 
 
 <div class="code_header" style="text-align:right;">

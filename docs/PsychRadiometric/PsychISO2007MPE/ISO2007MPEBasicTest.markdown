@@ -23,7 +23,7 @@ broadly consistent with what we find when we compare the same light to the ANSI
 standard for laser light (with a few assumptions to apply that standard to
 broadband light.)
 
-\6/26/13  dhb  Wrote it.
+6/26/13  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

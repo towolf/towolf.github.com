@@ -108,7 +108,7 @@ correction if you want.
 
 
 The fourth optional parameter 'doGainCorrection' if provided and set to
-\1, will demonstrate use of display per-pixel gain correction, aka
+1, will demonstrate use of display per-pixel gain correction, aka
 vignetting correction. It will modulate the brightness of each pixel with
 a gain factor, the gains increasing linearly from the left border to the
 right border of the display. See "help VignettingCorrectionDemo" for more

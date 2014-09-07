@@ -28,14 +28,14 @@ encoding: UTF-8
 
  See also: FitWeibAlphTAFC, FitWeibYN, FitCumNormYN, FitLogitYN
 
- \8/25/94   dhb, ccc    Cleaned comments, return 92% correct threshold
- \2/5/97    dhb         Check if fminu is not available.
+ 8/25/94   dhb, ccc    Cleaned comments, return 92% correct threshold
+ 2/5/97    dhb         Check if fminu is not available.
                        Add slope test.
- \4/26/97   dhb         Fix bug in threshold assignment
- \10/13/00  dhb         Improve initial guess for alpha.  Thanks to Duje Tadin
+ 4/26/97   dhb         Fix bug in threshold assignment
+ 10/13/00  dhb         Improve initial guess for alpha.  Thanks to Duje Tadin
                        for identifying the need for this.
- \4/18/02   dhb         Suppress warnings in calls to optimization toolbox.
- \3/5/05    dhb         Update for optimization toolbox version 2.
+ 4/18/02   dhb         Suppress warnings in calls to optimization toolbox.
+ 3/5/05    dhb         Update for optimization toolbox version 2.
 
 
 <div class="code_header" style="text-align:right;">

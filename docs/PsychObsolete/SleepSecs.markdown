@@ -23,7 +23,7 @@ If you are playing an animation, then use [Screen](/docs/Screen)('[Flip](/docs/F
 synchronize updating of the display to the Video BLanking invterval (VBL)
 and to delay your animation loop until the next VBL; Like SleepSecs, [Flip](/docs/Flip)
 surrenders CPU time to other processes, abiding by limits set when
-negotiating with the kernel for priority levels \> 0.
+negotiating with the kernel for priority levels > 0.
 
 You should not need to continuously sleep the MATLAB process at high
 priority for periods greater than 1 second.  If you feel the need for

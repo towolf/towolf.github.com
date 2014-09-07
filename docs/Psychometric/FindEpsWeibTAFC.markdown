@@ -22,8 +22,8 @@ It would not be hard to fix this to include delta
 and gamma as parameters, but QUEST('Epsilon') seems
 to do the trick.
 
-\8/26/94     ccc, dhb        Wrote it.
-\8/30/94     dhb                 Comment comparing to QUEST('Epsilon').
+8/26/94     ccc, dhb        Wrote it.
+8/30/94     dhb                 Comment comparing to QUEST('Epsilon').
 
 
 <div class="code_header" style="text-align:right;">

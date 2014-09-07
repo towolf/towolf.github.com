@@ -89,7 +89,7 @@ you don't intend to use multi-media functions then installation of
 
 # Download and install the latest [GStreamer](/docs/GStreamer) runtimes from:
 
-<http://www.gstreamer.com\>
+<http://www.gstreamer.com>
 
 When the installer asks you to select the components it should install,
 select a "Custom installation" (instead of "Full installation" or "Basic
@@ -99,7 +99,7 @@ video formats and all functionality. Without this, many popular video
 formats like H264 video will not play at all, or video recording / video
 capture and similar functions will not work. In fact, even our own demos,
 e.g., SimpleMovieDemo \*will fail\* if you don't have all codecs installed!
-\-\> If SimpleMovieDemo doesn't work, then the most likely cause is that
+-> If SimpleMovieDemo doesn't work, then the most likely cause is that
 you didn't select all [GStreamer](/docs/GStreamer) packages for installation, so restart the
 installer and repeat installation with the full set of packages.
 

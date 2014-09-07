@@ -13,7 +13,7 @@ for a monochromatic light.
 
 See W&S, p. 103.
 
-\8/15/96  dhb, abp  Wrote the header.
+8/15/96  dhb, abp  Wrote the header.
 
 
 <div class="code_header" style="text-align:right;">

@@ -30,15 +30,15 @@ BitsPlusIdentityClutTest([whichScreen=max][, usedpixx=0][, winrect=[]]);
 
 # How to test:
 
-\1. Make sure your Bits+ box is switched to Mono++ mode by uploading the
+1\. Make sure your Bits+ box is switched to Mono++ mode by uploading the
    proper firmware. Or make sure your DataPixx is connected, both DVI
    cable and USB cable.
 
-\2. Run the BitsPlusImagingPipelineTest script to validate that your
+2\. Run the BitsPlusImagingPipelineTest script to validate that your
    graphics card can create properly formatted images in the framebuffer
    for Bits+ or DataPixx.
 
-\3. Run this script, optionally passing a screenid. It will test the
+3\. Run this script, optionally passing a screenid. It will test the
    secondary display on a multi-display setup by default, or the external
    display on a laptop. For a DataPixx device or similar, set the
    optional 'usedpixx' flag to 1.

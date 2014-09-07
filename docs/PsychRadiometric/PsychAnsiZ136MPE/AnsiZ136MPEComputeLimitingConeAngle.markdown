@@ -18,7 +18,7 @@ Compute the limiting cone angle, ANSI Z136.1-2007, Table 5, p. 75.
 
 This is only defined for durations between 0.7 sec and 3\*10^4 sec.
 
-\2/20/13  dhb  Wrote it.
+2/20/13  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

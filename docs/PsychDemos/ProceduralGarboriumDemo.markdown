@@ -30,14 +30,14 @@ the gabor formula is evaluated on the fly inside your fast graphics card.
 This method has a few advantages over the standard texture based method
 (as demonstrated in GarboriumDemo):
 
-\- GPU's are extremely fast at this kind of jobs, so the method is
+- GPU's are extremely fast at this kind of jobs, so the method is
 significantly faster on modern GPU's, especially for large patches,
 allowing for even higher redraw rates.
 
-\- As the formula is evaluated on the fly for each output pixel, there are
+- As the formula is evaluated on the fly for each output pixel, there are
 no resampling artifacts, regardless of size of your gabor.
 
-\- You can change all interesting stimulus parameters on the fly -- change
+- You can change all interesting stimulus parameters on the fly -- change
 contrast, aspect ratio, spatial constant, frequency, phase, orientation
 etc. for each patch during each redraw cycle without the need to
 recompute any matrices and without any speed penalty.

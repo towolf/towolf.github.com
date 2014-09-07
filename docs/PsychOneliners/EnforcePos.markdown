@@ -14,7 +14,7 @@ positive.
 A sophisticated algorithm might do something with small
 positive values as well.
 
-\10/23/93  dhb  Wrote it.
+10/23/93  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

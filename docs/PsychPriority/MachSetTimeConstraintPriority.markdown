@@ -25,7 +25,7 @@ calculationSecs of computation will be greater than computationSecs
 itself;    computationSecs of CPU usage could require up to periodSecs to
 complete. Argument "constraintSecs" specifies a period in which
 computationSecs of CPU usage  is guranteed  to complete.  Note that
-constraintSecs must be \>= computationSecs because computationSecs of CPU
+constraintSecs must be >= computationSecs because computationSecs of CPU
 usage can not complete in less than  computationSecs. The maximum latency
 from the start of a computation to the end is constraintSecs -
 computationSecs.
@@ -85,11 +85,11 @@ Allen Ingling     awi     Allen.Ingling@nyu.edu
 Mario Kleiner     mk
 
 # HISTORY:
-\8/13/03   awi     Wrote it.
-\2/17/05   mk      bug-fix: constraintSecs argument was ignored.
-\4/6/05    awi     Added Mario's bug fix to Psychtoolbox.org master.
-\4/6/05    awi     Replaced "GetBusFrequencymex" calls with "MachTimebase"
-\4/8/05    awi     Changed "MachTimebase" to "MachAbsoluteTimeClockFrequency"
+8/13/03   awi     Wrote it.
+2/17/05   mk      bug-fix: constraintSecs argument was ignored.
+4/6/05    awi     Added Mario's bug fix to Psychtoolbox.org master.
+4/6/05    awi     Replaced "GetBusFrequencymex" calls with "MachTimebase"
+4/8/05    awi     Changed "MachTimebase" to "MachAbsoluteTimeClockFrequency"
 
 
 <div class="code_header" style="text-align:right;">

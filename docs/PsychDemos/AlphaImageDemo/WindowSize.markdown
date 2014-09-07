@@ -10,7 +10,7 @@ encoding: UTF-8
 
 Returns a window's width and height.
 
-\26/03/2001 fwc based on rectsize.m
+26/03/2001 fwc based on rectsize.m
 
 
 <div class="code_header" style="text-align:right;">

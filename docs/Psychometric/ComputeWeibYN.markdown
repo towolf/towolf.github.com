@@ -16,7 +16,7 @@ parameters are taken as applying to separate columns.
 
    pyes = ( 1.0 - exp( - (x./alpha).^beta ) )
 
-\9/15/93  jms  Added some special casing to deal with matrix inputs
+9/15/93  jms  Added some special casing to deal with matrix inputs
               with/without vectors of parameters
 
 

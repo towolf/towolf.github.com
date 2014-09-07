@@ -35,23 +35,23 @@ clut, the clut from a previous call will be used. Initially it is a
 graylevel ramp.
 
 Usage:
-\1. Add the command "InitializeMatlabOpenGL" at the top of your script,
+1\. Add the command "InitializeMatlabOpenGL" at the top of your script,
 before the first call to [Screen](/docs/Screen)('OpenWindow', ...). If you don't use any
-\3D graphics, InitializeMatlabOpenGL([], 0, 1); will be the fastest.
+3D graphics, InitializeMatlabOpenGL([], 0, 1); will be the fastest.
 
-\2. Create your color index image either as a texture, e.g., via
+2\. Create your color index image either as a texture, e.g., via
 src=[Screen](/docs/Screen)('MakeTexture', win, myimage), or create it as Offscreen window
 src=[Screen](/docs/Screen)('OpenOffscreenWindow', win) and draw your index colored
 stimulus into it.
 
-\3. Whenever you want to change the clut and draw the image with updated
+3\. Whenever you want to change the clut and draw the image with updated
 clut, call moglClutBlit(win, src, newclut); with newclut being the new
 color lookup table.
 
-\4. Call the [Screen](/docs/Screen)('[Flip](/docs/Flip)', ...) command to show the new image, drawn with
+4\. Call the [Screen](/docs/Screen)('[Flip](/docs/Flip)', ...) command to show the new image, drawn with
 the new clut.
 
-\5. At the end of your script and before you [Screen](/docs/Screen)('[Close](/docs/Close)', win) or
+5\. At the end of your script and before you [Screen](/docs/Screen)('[Close](/docs/Close)', win) or
 [Screen](/docs/Screen)('CloseAll'), call moglClutBlit() without parameters, so it can
 clean up after itself.
 

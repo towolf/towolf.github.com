@@ -10,13 +10,13 @@ MakeTextureTimingTest2([screenid=max][,width=1024][,height=1024][,channels=4][,n
 
 Test creation timing of a texture of specific 'width' x 'height' size with
 'channels' color channels (1=Luminance, 2=Luminance+Alpha, 3=RGB,
-\4=RGBA). Also measure texture upload speed if 'preload==1' and drawing
+4=RGBA). Also measure texture upload speed if 'preload==1' and drawing
 speed if 'preload==2'. Use 'specialFlags' for texture creation, most
 interestingly a value of 4 to use planar texture storage, which can be
 faster under some circumstances. Create textures of 'precision' - 0 = 8
 bit integer, -1 = 8 bit integer, but created from double() input instead
 of uint8 input, 1 = 16 bpc float or 16 bit signed integer as fallback, 2 =
-\32 bpc float. Use 'nSamples' samples to compute mean timing.
+32 bpc float. Use 'nSamples' samples to compute mean timing.
 
 All parameters are optional: Defaults are width x height = 1024 x 1024,
 channels = 4 (RGBA), screenid = max id, 100 samples, preload but don't

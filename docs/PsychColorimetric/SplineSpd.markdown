@@ -23,14 +23,14 @@ spd\_in may have multiple columns, in which case spd\_out does as well.
 wls\_in and wls\_out may be specified as a column vector of
 wavelengths or as a [start delta n] description.
 
-\5/6/98  dhb  Change normalization method so that sum is constant.
+5/6/98  dhb  Change normalization method so that sum is constant.
              This is a little closer to the desired result for
              functions with big derivatives.
-\12/7/98 dhb  Remove 5/6/98 change, as it produces the wrong power
+12/7/98 dhb  Remove 5/6/98 change, as it produces the wrong power
              when you spline across different wavelength regions.
-\7/26/03 dhb  Add extend argument and pass to SplineRaw.
-\8/13/11 dhb  Update comment to reflect changes in SplineRaw.
-\5/10/12 dhb  Small comment fix
+7/26/03 dhb  Add extend argument and pass to SplineRaw.
+8/13/11 dhb  Update comment to reflect changes in SplineRaw.
+5/10/12 dhb  Small comment fix
 
 
 <div class="code_header" style="text-align:right;">

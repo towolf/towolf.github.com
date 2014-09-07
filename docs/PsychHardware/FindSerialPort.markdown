@@ -26,7 +26,7 @@ find a matching useable port, or if it finds multiple matches, ie. if the
 mapping is ambiguous. If you set the optional flag 'dontFail' to 1, it
 will continue in such cases without any error message: It will simply
 return an empty [] PortNumber if no matching port can be found, or the
-\1st detected matching port, if multiple matches exist.
+1st detected matching port, if multiple matches exist.
 
 Please note that support of SerialComm for OS/X is a legacy, only left
 for backwards compatibility! New code should only use the new [IOPort](/docs/IOPort)

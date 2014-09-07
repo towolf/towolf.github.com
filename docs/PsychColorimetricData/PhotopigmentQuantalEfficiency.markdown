@@ -24,8 +24,8 @@ encoding: UTF-8
  is currently the only interesting source implemented.  The value comes from
  Rodieck RW, The First Steps in Seeing, page 472.
 
- \7/25/03  dhb  Wrote it.
- \8/9/13   dhb  Add type of 1.
+ 7/25/03  dhb  Wrote it.
+ 8/9/13   dhb  Add type of 1.
 
 
 <div class="code_header" style="text-align:right;">

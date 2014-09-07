@@ -10,7 +10,7 @@ encoding: UTF-8
 
 Find underlying parameters that fit the passed corneal cone fundamentals
 
-\8/4/03  dhb  Wrote it.
+8/4/03  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

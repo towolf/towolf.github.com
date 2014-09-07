@@ -14,35 +14,35 @@ function.
 
 # PsychPortAudio provides the following features:
 
-\- Allows instant start of sound playback with a very low onset latency
+- Allows instant start of sound playback with a very low onset latency
   compared to other sound drivers (on well working hardware).
 
-\- Allows start of playback at a scheduled future system time: E.g.,
+- Allows start of playback at a scheduled future system time: E.g.,
   schedule sound onset for a specific time in the future (e.g., visual
   stimulus onset time), then do other things in your Matlab code.
   Scheduled start of playback can be accurate to the sub-millisecond level
   on some system setups.
 
-\- Wait for sound onset, or continue with execution of your code
+- Wait for sound onset, or continue with execution of your code
   immediately.
 
-\- Asynchronous operation: Sound playback works in the background while
+- Asynchronous operation: Sound playback works in the background while
   your code continues to do other things.
 
-\- Infinitely repeating playback, or playback of a sound for 'n' times.
+- Infinitely repeating playback, or playback of a sound for 'n' times.
 
-\- Returns timestamps and status for all crucial events.
+- Returns timestamps and status for all crucial events.
 
-\- Support multi-channel devices, e.g., 8-channel sound cards.
+- Support multi-channel devices, e.g., 8-channel sound cards.
 
-\- Supports multi-channel sound capture and full-duplex capture
+- Supports multi-channel sound capture and full-duplex capture
   and playback of sound on some systems.
 
-\- Enumerate, open and use multiple sound cards in parallel.
+- Enumerate, open and use multiple sound cards in parallel.
 
-\- Reliable (compared to Matlabs sound facilities).
+- Reliable (compared to Matlabs sound facilities).
 
-\- Efficient, causes only very low cpu load.
+- Efficient, causes only very low cpu load.
 
 See the "help InitializePsychSound" for more info on low-latency
 configurations. See "help BasicSoundOutputDemo" for a very basic demo of

@@ -20,7 +20,7 @@ It also needs the Bits++ from Cambridge Research Systems!!
 
 Sections have been lifted from the OSX movie demo etc.
 
-\26/04/2005    ejw     wrote it.
+26/04/2005    ejw     wrote it.
 
 
 <div class="code_header" style="text-align:right;">

@@ -13,16 +13,16 @@ encoding: UTF-8
 Return a string identifying this release of the Psychtoolbox.
 The first three numbers identify the base version of Psychtoolbox:
 
-\- Leftmost: Increments indicate a disruptive change in the feature
+- Leftmost: Increments indicate a disruptive change in the feature
 set and design of the software, by abrupt introduction of design changes.
 This should never happen, as this would mean a completely new product,
 entirely incompatible with the old software.
 
-\- Middle: Increments indicate significant enhancements or changes in
+- Middle: Increments indicate significant enhancements or changes in
 functionality. This will usually only happen every couple of years at
 most.
 
-\- Rightmost: A counter to distinguish multiple releases having the same
+- Rightmost: A counter to distinguish multiple releases having the same
 leftmost and middle version numbers. This happens if there are backwards
 incompatible changes to the programming interface or functionality which
 may require code adjustments in user code. It also happens if we cancel

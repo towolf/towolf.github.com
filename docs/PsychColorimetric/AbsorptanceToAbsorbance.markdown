@@ -39,9 +39,9 @@ from constituant parts, and thus probably don't need to do that.  See
 
 Originally written by HH, Copyright HH, Vista Lab, 2010
 
-\8/11/13  dhb  Moved into PTB, modified comments so as not to refer to non-PTB routines.
+8/11/13  dhb  Moved into PTB, modified comments so as not to refer to non-PTB routines.
          dhb  That this actually inverts is tested in IsomerizationsInEyeDemo.
-\12/02/13 dhb  Fix spelling of "absorptance" in routine names and throughout.
+12/02/13 dhb  Fix spelling of "absorptance" in routine names and throughout.
 
 
 <div class="code_header" style="text-align:right;">

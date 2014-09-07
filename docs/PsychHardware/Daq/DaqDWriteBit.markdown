@@ -24,7 +24,7 @@ USB-1608FS: Write bit to digital port.
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 BitNumber should range from 0:7 specifying the channel whose bit you want set;
-\0 corresponds to screw terminal 21, 1 corresponds to screw terminal 23, etc.
+0 corresponds to screw terminal 21, 1 corresponds to screw terminal 23, etc.
 "value" should be 0 or 1.
 
 BitNumber can be a vector in order to write multiple bits at once.  To
@@ -34,8 +34,8 @@ must be a scalar in which case all designated bits will be given that value.
 See also Daq, DaqFunctions, DaqPins, DaqTest, PsychHIDTest,
 DaqDConfigPortBit, DaqDReadBit, DaqDeviceIndex, DaqDIn, DaqDOut.
 
-\12/17/07 mpr scavenged code from DaqDOut and edited it to make this
-\1/11/08  mpr  swept through attempting to improve consistency across daq
+12/17/07 mpr scavenged code from DaqDOut and edited it to make this
+1/11/08  mpr  swept through attempting to improve consistency across daq
                   functions
 
 

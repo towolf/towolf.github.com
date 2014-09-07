@@ -18,7 +18,7 @@ Compute constant Cb, ANSI Z136.1-2007, Table 6, p. 76.
 
 This is only defined between 400 and 600 nm.
 
-\2/20/13  dhb  Wrote it.
+2/20/13  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

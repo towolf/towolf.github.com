@@ -16,8 +16,8 @@ routines that I think work for full spectra.  See
   TrolandsToRetIrradiance
   RetIrradianceToTrolands
 
-\8/16/96  dhb, abp  Made ourselves write it late at night.
-\8/12/11  dhb       Expanded comment.
+8/16/96  dhb, abp  Made ourselves write it late at night.
+8/12/11  dhb       Expanded comment.
 
 
 <div class="code_header" style="text-align:right;">

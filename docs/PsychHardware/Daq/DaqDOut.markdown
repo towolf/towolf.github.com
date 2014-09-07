@@ -20,19 +20,19 @@ be ignored if passed.  Function will check to determine if device is a 1608,
 and act accordingly.
 
 USB-1024LS: Has three ports, probably numbered: 1 = port A, 4 = port B,
-\10 = port C (the sum of: 8 = portC low, 2 = portC high). Maybe you'll
+10 = port C (the sum of: 8 = portC low, 2 = portC high). Maybe you'll
 need to set port C separately in two calls for low- and high- part.
 
 
 See also Daq, DaqFunctions, DaqPins, DaqTest, PsychHIDTest.
 DaqDeviceIndex, DaqDIn, DaqDOut, DaqAIn, DaqAOut, DaqAInScan,DaqAOutScan.
 
-\4/15/05 dgp Wrote it.
-\12/18/07  mpr   updated for use with USB-1608FS
-\1/11/08   mpr   swept through trying to improve consistency across daq
+4/15/05 dgp Wrote it.
+12/18/07  mpr   updated for use with USB-1608FS
+1/11/08   mpr   swept through trying to improve consistency across daq
                   functions
-\5/22/08   mk  Add (untested!) support for USB-1024LS box.
-\5/23/08   mk  Add caching for HID device list.
+5/22/08   mk  Add (untested!) support for USB-1024LS box.
+5/23/08   mk  Add caching for HID device list.
 
 
 <div class="code_header" style="text-align:right;">

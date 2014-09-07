@@ -18,7 +18,7 @@ To get sensitivity in energy units, apply EnergyToQuanta().
 
 Argument lambdaMax may be a column vector of wavelengths.
 
-\8/20/98 dhb  Wrote it.
+8/20/98 dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

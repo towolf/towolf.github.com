@@ -13,8 +13,8 @@ edittag( tag, filter )
 
 e.g., edittag('---protected---','wrap/\*.m')
 
-\- 'tag' defaults to '---protected---'
-\- 'filter' defaults to 'WRAPDIR/\*.m', where WRAPDIR is the folder that
+- 'tag' defaults to '---protected---'
+- 'filter' defaults to 'WRAPDIR/\*.m', where WRAPDIR is the folder that
   holds the M-file wrappers
 
 

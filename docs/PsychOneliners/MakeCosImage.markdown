@@ -13,7 +13,7 @@ Computes a two-dimensional cosine function image.
 The image has dimensions nRowPixels by nColPixels.
 If nColPixels is omitted, a square image is returned.
 
-\8/15/94     dhb     Both row and column dimensions used if passed.
+8/15/94     dhb     Both row and column dimensions used if passed.
 
 
 <div class="code_header" style="text-align:right;">

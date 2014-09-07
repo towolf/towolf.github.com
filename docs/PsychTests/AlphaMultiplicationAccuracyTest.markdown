@@ -18,15 +18,15 @@ double-precisions floating point multiplication.
 
 # Values of maximumError fall into three categories:
 
-\0 <= maximumError < 0.5   : OpenGL rounds to nearest integer.  No
+0 <= maximumError < 0.5   : OpenGL rounds to nearest integer.  No
                             accuracy loss for a single multiplication.
 
-\0.5 <= maximumError < 1   : OpenGL truncates or rounds up. For a single
+0\.5 <= maximumError < 1   : OpenGL truncates or rounds up. For a single
                             multiplication, Accuracy is off  0.5 parts
                             in 255 more than would multiplying luminances
                             using floating-point values and rounding.
 
-maximumError \>= 1         : Something is wrong.
+maximumError >= 1         : Something is wrong.
 
 
 TestAlphaMultiplicationAccuracy tries to determine whether OpenGL alpha

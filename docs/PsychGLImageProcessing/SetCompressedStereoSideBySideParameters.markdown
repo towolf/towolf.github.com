@@ -25,15 +25,15 @@ stereo presentation.
 
 # This is how compressed side-by-side stereo works:
 
-\1. Usercode draws stimuli into the left-eye and righ-eye framebuffers at
+1\. Usercode draws stimuli into the left-eye and righ-eye framebuffers at
    full display resolution.
 
-\2. [Screen](/docs/Screen)('[Flip](/docs/Flip)') compresses those stimuli horizontally into the output
+2\. [Screen](/docs/Screen)('[Flip](/docs/Flip)') compresses those stimuli horizontally into the output
    framebuffer.
 
-# \3. At display time, the display stretches half frames to full width        \_\_\_\_\_\_\_\_\_       \_\_\_\_\_\_\_\_\_
-   | L | R |   ---\> | <-L-\>  |  +   | <-R-\>  |
-   \---------        ----------      ----------
+# 3\. At display time, the display stretches half frames to full width        \_\_\_\_\_\_\_\_\_       \_\_\_\_\_\_\_\_\_
+   | L | R |   ---> | <-L->  |  +   | <-R->  |
+   ---------        ----------      ----------
 
 Side-by-side compressed images are one of several popular stereo HDMI
 formats.

@@ -30,7 +30,7 @@ Subcommands, their syntax & meaning:
 \====================================
 
 [oldflag, oldgain] = moglExtractTexture('DebugFlag', flag [, debugGain]);
-\- Set debug flag to value 'flag'. Default is zero. Non-zero values enable
+- Set debug flag to value 'flag'. Default is zero. Non-zero values enable
 different visualizations that may aid debugging non-working setups. 1 =
 Show silhouette buffer, 2 = Show trackbuffer, 3 = Show extracted texture.
 A setting of -1 shows the real rendered image. A value of -2 disables any
@@ -43,7 +43,7 @@ outside the standard displayable range between zero and one.
 
 
 context = moglExtractTexture('CreateContext', window, rect, texCoordMin, texCoordMax, texResolution [,zThreshold=Off]);
-\- Create a "rendercontext" for a single 3D object. Returns a 'context'
+- Create a "rendercontext" for a single 3D object. Returns a 'context'
 handle to it which needs to be passed in to all other functions as
 reference. All following parameters are required and don't have any
 defaults:
@@ -70,7 +70,7 @@ longer processing times. This defines the size of returned extracted
 textures.
 
 'zThreshold' Optional zThreshold for occlusion test: By default, it is
-\10.0 ie. occlusion test disabled. A value between 0.0 and 1.0 will enable
+10\.0 ie. occlusion test disabled. A value between 0.0 and 1.0 will enable
 occlusion testing -- Texels that would correspond to occluded surface patches are
 not extracted. Small numbers (close to zero) make the test more sensitive but
 can cause artifacts due to internal numeric roundoff errors. Bigger
@@ -82,7 +82,7 @@ The default setting (bigger than 1.0) will disable occlusion test --
 
 
 context = moglExtractTexture('SetRenderCallback', context, callbackEvalString);
-\- Define the 'eval' string for this context to be used as rendercallback.
+- Define the 'eval' string for this context to be used as rendercallback.
 Pass in a Matlab command string (for evaluation via eval() function in the
 Workspace of the calling function). This string is called/executed during
 each 'Update' cycle. It has to contain the code that performs the actual
@@ -96,11 +96,11 @@ it would be a waste of computation time.
 
 
 context = moglExtractTexture('DestroyContext', context);
-\- Destroy a processing context, release all of its ressources.
+- Destroy a processing context, release all of its ressources.
 
 
 [texBuffer, texId, texTarget] = moglExtractTexture('Extract', context, inputTexture [, newTexture = 0]);
-\- Perform an 'Extract' cycle for given context. A new "3D frame" is rendered
+- Perform an 'Extract' cycle for given context. A new "3D frame" is rendered
 via the rendercallback function, then analysed, to provide the 3D surface
 geometry and occlusion info and mapping for texture extraction. This info
 is then used to extract pixel color values from the given video input

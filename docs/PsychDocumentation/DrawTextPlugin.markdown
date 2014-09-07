@@ -79,7 +79,7 @@ X-Server installed, you'll have those libraries available.
 
 # Reasons for failure to load the plugin:
 
-\1. One of the libraries mentioned above is not installed or not correctly
+1\. One of the libraries mentioned above is not installed or not correctly
    installed on your system. It is also possible that the installed
    libraries are of an incompatible version.
 
@@ -92,7 +92,7 @@ X-Server installed, you'll have those libraries available.
    libraries were found or are missing. This should allow you to find out
    what libraries are missing or incompatible, and to fix the problem.
 
-\2. The plugin can't be found in your Psychtoolbox/PsychBasic/PsychPlugins
+2\. The plugin can't be found in your Psychtoolbox/PsychBasic/PsychPlugins
    folder, either because it is missing, or the path to that folder can't
    be found. In the former case, run UpdatePsychtoolbox again -
    something's broken with your Psychtoolbox installation. In the latter
@@ -100,7 +100,7 @@ X-Server installed, you'll have those libraries available.
    library folders, e.g., /usr/lib /lib or /usr/local/lib - This way the
    system may be able to automatically locate the plugin.
 
-\3. Other: Use Google to search the Psychtoolbox forum and the internet
+3\. Other: Use Google to search the Psychtoolbox forum and the internet
    for help, check for info on the Psychtoolbox Wiki and - if everything
    else fails - contact the Psychtoolbox forum for help. In the latter
    case, describe exactly your system, what troubleshooting steps you

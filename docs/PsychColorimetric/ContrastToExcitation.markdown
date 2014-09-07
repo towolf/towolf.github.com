@@ -10,7 +10,7 @@ excitation = ContrastToExcitation(contrast,reference)
 
 Convert contrast to excitation coordinates.
 
-\4/5/02  dhb, ly  Wrote it.
+4/5/02  dhb, ly  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

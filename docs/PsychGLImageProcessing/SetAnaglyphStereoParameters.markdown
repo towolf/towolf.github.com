@@ -12,7 +12,7 @@ Change parameters of built-in anaglyph stereo display function at
 runtime. Allows to change all relevant settings of the algorithm at any
 time in your script. You need to open your onscreen window with the
 'stereomode' parameter set to one of the anaglyph modes (i.e. one of
-\6=Red-Green anaglyph, 7=Green-Red, 8=Red-Blue, 9=Blue-Red, where
+6=Red-Green anaglyph, 7=Green-Red, 8=Red-Blue, 9=Blue-Red, where
 Red-Green means "Left eye displayed in red channel, right eye displayed
 in green channel").
 
@@ -41,7 +41,7 @@ See 'help PsychImaging' and 'help PsychGLImageProcessing' for an overview
 of the imaging pipeline.
 
 Parameters and their meaning:
-\-----------------------------
+-----------------------------
 
 'windowPtr' is the handle to a anaglyph stereo onscreen window.
 

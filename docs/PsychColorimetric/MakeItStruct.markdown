@@ -12,7 +12,7 @@ Convert a wavelength representation to struct format.
 
 See also: MakeItS, MakeItWls, WavelengthSamplingTest.
 
-\7/11/03  dhb  Wrote it.
+7/11/03  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

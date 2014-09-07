@@ -55,9 +55,9 @@ language.
 
 The following three commands will completely regenerate moal.
 
-\>\> autocode(1,[],1)     % generate al\_auto.c and wrapper M-files
-\>\> !make                % compile C code to produce MEX files
-\>\> oalconst             % save constants from header files in a .mat file
+\>> autocode(1,[],1)     % generate al\_auto.c and wrapper M-files
+\>> !make                % compile C code to produce MEX files
+\>> oalconst             % save constants from header files in a .mat file
 
 
 <div class="code_header" style="text-align:right;">

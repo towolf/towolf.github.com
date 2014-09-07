@@ -33,13 +33,13 @@ encoding: UTF-8
                                    readingInWatts is the total power measured.
                   radiometer is a structure describing the radiometer. (default = Sterling Lab's IL1400A).
 
- \04/29/03   lyin Wrote it with advice from DHB
- \05/06/03   lyin Put wls into variable: lightSource
- \05/06/03   lyin Correction for wavelength sampling interval
- \06/12/03   lyin Change the way, variable being passed
- \6/26/03   dhb  Change some names, also compute power per wavelength interval, not per nm.
- \6/30/03   dhb  Lots more changes.
- \7/08/03   dhb  Monochromatic ref spectrum default, as per manual.
+ 04/29/03   lyin Wrote it with advice from DHB
+ 05/06/03   lyin Put wls into variable: lightSource
+ 05/06/03   lyin Correction for wavelength sampling interval
+ 06/12/03   lyin Change the way, variable being passed
+ 6/26/03   dhb  Change some names, also compute power per wavelength interval, not per nm.
+ 6/30/03   dhb  Lots more changes.
+ 7/08/03   dhb  Monochromatic ref spectrum default, as per manual.
 
 
 <div class="code_header" style="text-align:right;">

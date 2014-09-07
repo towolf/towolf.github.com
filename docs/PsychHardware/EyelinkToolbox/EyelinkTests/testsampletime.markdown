@@ -41,13 +41,13 @@ This suggests the lag between DOS record and sample at Mac and in
 transmitting the messages is not more than 1-2 ms.
 There still remains to measure the lag between eye and the DOS record
 
-\5/29/01 Begun based on shorteyelinkdemo and testcalib
-\5/30/01 Added measurements of sample time interval
-\5/31/01 many improvements
-\6/1/01  updated documentation
-\6/4/01  using alt version of initwindow in meyelinkinit2
-\6/5/01  fwc changed to work with new toolbox version 1.1
-\6/6/01  v3, jp:  removed global "el", moved initeyelinkdefine after initialize
+5/29/01 Begun based on shorteyelinkdemo and testcalib
+5/30/01 Added measurements of sample time interval
+5/31/01 many improvements
+6/1/01  updated documentation
+6/4/01  using alt version of initwindow in meyelinkinit2
+6/5/01  fwc changed to work with new toolbox version 1.1
+6/6/01  v3, jp:  removed global "el", moved initeyelinkdefine after initialize
 
 
 <div class="code_header" style="text-align:right;">

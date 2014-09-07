@@ -10,7 +10,7 @@ encoding: UTF-8
 
 Linearly interpolate gamma data
 
-\3/15/94     dhb, jms        Wrote it.
+3/15/94     dhb, jms        Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

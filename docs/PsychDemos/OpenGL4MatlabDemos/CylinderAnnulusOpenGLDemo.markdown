@@ -17,7 +17,7 @@ texture using [Screen](/docs/Screen)('MakeTexture'), then provides this texture 
 standard OpenGL compatible texture using [Screen](/docs/Screen)('GetOpenGLTexture').
 This standard texture is applied to a cylinder using standard OpenGL commands
 and finally the cylinder is drawn as a rotating object in a simple animation
-loop. --\> You'll see a rotating cylinder.
+loop. --> You'll see a rotating cylinder.
 
 Stop the demo by pressing any key and it will finish.
 
@@ -31,9 +31,9 @@ a "earth surface texture image". This demonstrates algorithmic texture
 generation and the use of trilinear mipmap filtering to improve image
 quality for high frequency edges and such...
 
-\0 = Jpeg image of earth surface.
-\1 = Checkerboard pattern.
-\2 = Simple vertical annulus.
+0 = Jpeg image of earth surface.
+1 = Checkerboard pattern.
+2 = Simple vertical annulus.
 
 The OpenGL Red Book is a great introduction and reference for OpenGL
 programming. Release 1.0 is available online, later releases can be

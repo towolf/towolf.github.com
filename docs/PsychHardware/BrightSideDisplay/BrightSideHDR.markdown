@@ -66,7 +66,7 @@ produces some debug output.
 # SUPPORT FOR RAW HDR IMAGE CAPTURE AND REPLAY:
 
 [sourceWin, destWin] = BrightSideHDR('CreateSnapshotBufferPair');
-\- Create a pair of offscreen windows useable for "offline" HDR-\>BrightSide
+- Create a pair of offscreen windows useable for "offline" HDR->BrightSide
 conversion. Will create 'sourceWin' as a offscreen window with 32bpc
 float RGBA format, 'destWin' as a offscreenwindow with 8 bpc RGBA format.
 Both windows will have the size of the HDR displays framebuffer.
@@ -80,7 +80,7 @@ HDR content.
 
 
 [rawImg] = BrightSideHDR('ConvertImageToSnapshotBuffer', destWin, sourceWin);
-\- Convert HDR image in offscreen window 'sourceWin' into a HDR
+- Convert HDR image in offscreen window 'sourceWin' into a HDR
 useable raw image in offscreen window 'destWin'. Optionally return a
 Matlab uint8 RGB image matrix with the raw data as 1st return argument
 rawImg.
@@ -91,7 +91,7 @@ sourceWin);
 
 
 rawSnapshotMatrix = BrightSideHDR('GetRawFramebufferSnapshot');
-\-Call immediately after [Screen](/docs/Screen)('[Flip](/docs/Flip)'). This will create a "screenshot" of the
+-Call immediately after [Screen](/docs/Screen)('[Flip](/docs/Flip)'). This will create a "screenshot" of the
 framebuffer for the currently displaying HDR image and return a Matlab
 matrix with proper raw framebuffer data, formatted for the HDR display.
 Can be used to [Screen](/docs/Screen)('MakeTexture') a texture that you can blit into the

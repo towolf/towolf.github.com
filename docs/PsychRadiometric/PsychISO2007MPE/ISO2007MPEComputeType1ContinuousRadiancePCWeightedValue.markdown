@@ -10,7 +10,7 @@ encoding: UTF-8
     S,radiance\_WattsPerSrM2,weightingA,stimulusDurationSecs)
 
  Compute the weighted aphakic (photochemical) radiance for Type 1 instruments as given on page 8, Table 2,
- \5.4.1.3.b.
+ 5\.4.1.3.b.
 
  Input spectrum is radiance in units of Watts/[sr-m2-wlinterval].
 
@@ -20,7 +20,7 @@ encoding: UTF-8
  criterion is that it doesn't put out more light that exceeds the Type 1 limits.
 
  If the exposure time is longer than 2 hours the specified limits should be reduced by
- \1/exposureDuration in hours.  This routine implements that adjustment for its returned
+ 1/exposureDuration in hours.  This routine implements that adjustment for its returned
  limit value.  It does not implement a further reduction of of the limit (by a factor of 2)
  specifed for microscopes and endoilluminators.
 
@@ -43,7 +43,7 @@ encoding: UTF-8
  at the Matlab prompt.
  \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
- \6/26/13  dhb  Wrote it.
+ 6/26/13  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

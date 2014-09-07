@@ -16,8 +16,8 @@ el=EyelinkInitDefaults(window);
 el.backgroundColour = BlackIndex(window);
 EyelinkUpdateDefaults(el);
 
-\27-1-2011 NJ created
-\19-12-2012 IA Fix hardcoded callback
+27-1-2011 NJ created
+19-12-2012 IA Fix hardcoded callback
 
 
 <div class="code_header" style="text-align:right;">

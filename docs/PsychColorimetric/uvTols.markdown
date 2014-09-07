@@ -16,8 +16,8 @@ is an exact linear transformation and so you don't get as many
 weird little numerical things happening when you apply this to
 uv for spectral lights.
 
-\3/17/04  dhb        Wrote it.
-\05/06/11 dhb      Make function name in file match actual function name.
+3/17/04  dhb        Wrote it.
+05/06/11 dhb      Make function name in file match actual function name.
 
 
 <div class="code_header" style="text-align:right;">

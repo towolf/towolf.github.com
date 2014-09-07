@@ -14,8 +14,8 @@ NOTE: Uses Mathworks Optimization Toolbox.
 
 Also see FitGamma, FitGammaDemo.
 
-\4/08/02 awi   Turned off warnings while calling constr to avoid future obsolete warning
-\3/4/05  dhb   Conditionals for optimization toolbox version.
+4/08/02 awi   Turned off warnings while calling constr to avoid future obsolete warning
+3/4/05  dhb   Conditionals for optimization toolbox version.
 
 
 <div class="code_header" style="text-align:right;">

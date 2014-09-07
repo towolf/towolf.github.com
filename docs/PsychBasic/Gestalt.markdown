@@ -44,9 +44,9 @@ work-alike implementation of the identically-named function previously
 provided by MATLAB.  The only differences between Psychtoolbox [Gestalt](/docs/Gestalt) and
 MATLAB [Gestalt](/docs/Gestalt) are:
 
-  \1. Psychtoolbox [Gestalt](/docs/Gestalt) returns a struct holding information about
+  1\. Psychtoolbox [Gestalt](/docs/Gestalt) returns a struct holding information about
      itself when passed 'Version', for example:
-    \>\> [Gestalt](/docs/Gestalt)('Version')
+    \>> [Gestalt](/docs/Gestalt)('Version')
 
     ans =
 
@@ -63,7 +63,7 @@ MATLAB [Gestalt](/docs/Gestalt) are:
         language: 'MATLAB'
          authors: [1x1 struct]
 
-  \2. Psychtoolbox [Gestalt](/docs/Gestalt) will return the error code in the event of any
+  2\. Psychtoolbox [Gestalt](/docs/Gestalt) will return the error code in the event of any
      [Gestalt](/docs/Gestalt) error.  MATLAB [Gestalt](/docs/Gestalt) will return the error code in the
      event of error code -5551.  Its behavior for other error codes is
      unknown.

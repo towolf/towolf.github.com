@@ -22,9 +22,9 @@ CombVec Generate all possible combinations of input vectors.
     a2 = [3 4; 3 4];
     a3 = CombVec(a1,a2)
     a3 =
-        \1     2     1     2
-        \3     3     4     4
-        \3     3     4     4
+        1     2     1     2
+        3     3     4     4
+        3     3     4     4
 
 
 <div class="code_header" style="text-align:right;">

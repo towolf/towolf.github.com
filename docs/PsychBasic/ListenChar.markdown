@@ -39,10 +39,10 @@ GetChar et al.
 
 # Some of the restrictions and caveats:
 
-\1. Works very well with Matlab and its Java based GUI enabled on Linux
+1\. Works very well with Matlab and its Java based GUI enabled on Linux
 and MacOSX, as well as on WindowsXP.
 
-\2. When used on Windows Vista or later (Vista, Windows-7, Windows-8, ...)
+2\. When used on Windows Vista or later (Vista, Windows-7, Windows-8, ...)
 with Matlab's Java GUI, you cannot use any KbQueue functions at the same
 time, ie., KbQueueCreate/Start/Stop/Check/Wait as well as KbWaitTrigger,
 KbEventFlush, KbEventAvail, and KbEventGet are off limits after any call
@@ -57,7 +57,7 @@ Linux. Use of other keyboards than the default keyboard, or of other
 devices, e.g., mouse or joystick, is not prohibited during use of GetChar
 et al.
 
-\3. If you use Matlab in "matlab -nojvm" mode without its GUI, or if you
+3\. If you use Matlab in "matlab -nojvm" mode without its GUI, or if you
 use GNU/Octave instead of Matlab, the same restrictions as in 2. apply -
 no parallel use of the default keyboards KbQueue - or any KbQueue on OSX
 with GetChar et al. The only feature that works in parallel with KbQueues
@@ -70,7 +70,7 @@ didn't get KbQueueStart called, ie. if it is stopped. On OSX with a
 stopped Keyboard queue, neither CTRL+C nor stopping a runaway script
 works.
 
-\4. On Linux, as a exception, some GetChar, CharAvail functionality may
+4\. On Linux, as a exception, some GetChar, CharAvail functionality may
 still work in case 3. under certain conditions, e.g., if you don't use
 ListenChar(2) and your Matlab/Octave is not in interactive mode.
 

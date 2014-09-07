@@ -15,7 +15,7 @@ Can pass figure handle. Returns figure handle.
 
 See also CalibratePlotSpectra, CalibratePlotAmbient.
 
-\6/5/10  dhb  Wrote it.
+6/5/10  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

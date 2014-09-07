@@ -30,8 +30,8 @@ Note: This routine is now obsolete, as it mixes radiometric and unit conversions
 use RadianceAndPupilAreaEyeLengthToRetIrradiance and then take charge of your units in your
 calling code.
 
-\2/28/13  dhb  Wrote it.
-\3/6/13   dhb  Rewrite to use new conversion function.  Move to Obsolete directory.
+2/28/13  dhb  Wrote it.
+3/6/13   dhb  Rewrite to use new conversion function.  Move to Obsolete directory.
          dhb  Also improved variable naming.
 
 

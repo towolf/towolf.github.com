@@ -62,7 +62,7 @@ Command List:
 'SetLEDFunction' - Controls whether the LED is illuminated when the
      trigger signal is generated.  This state is stored in non-volatile
      memory and will survive a power cycle.  Takes 1 additional argument:
-     \0 or 1.  0 = LED not active when triggered, 1 = LED active when
+     0 or 1.  0 = LED not active when triggered, 1 = LED active when
      triggered.
 'SetTriggerThreshold' - Sets the threshold which must be exceeded by the
      first derivative of the trigger ADC before a trigger pulse is

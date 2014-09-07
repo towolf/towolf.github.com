@@ -35,13 +35,13 @@ gfx cards gamma tables are more efficient for the simple case.
 
 # How to use:
 
-\1. Before opening an onscreen window, you use the following
+1\. Before opening an onscreen window, you use the following
 PsychImaging() setup call to specify the method of display color correction
 to apply, and the view channel to apply it to (in case there are multiple
 like in many stereo display setups):
 
 PsychImaging('AddTask', whichChannel, 'DisplayColorCorrection', methodname);
-\- where whichChannel can be 'LeftView' or 'RightView' for the left- or
+- where whichChannel can be 'LeftView' or 'RightView' for the left- or
 right display output channel/device of a stereo setup, or
 'FinalFormatting' if you have a single display monoscopic setup or want
 to apply the same color correction to both channels of a stereo setup.
@@ -54,14 +54,14 @@ make sure to specify them in the order in which they should be executed.
 The system tries to order operations in a reasonable way, but it is not
 fool-proof!
 
-\2. Then, after you've specified all other window parameters via the
+2\. Then, after you've specified all other window parameters via the
 PsychImaging() subcommands, you open the onscreen window via the usual
 win = PsychImaging('OpenWindow', ....); call, as always when you use the
 imaging pipeline. This will open the window and apply the chosen color
 correction method, choosing reasonable default parameters for the method
 at hand.
 
-\3. At any time in your script you can change the operating parameters of
+3\. At any time in your script you can change the operating parameters of
 the chosen color correction method via the PsychColorCorrection()
 subfunctions mentioned below. You'll have to specify the window handle
 for the onscreen window whose parameters should be changed, and - in a
@@ -127,7 +127,7 @@ PsychImaging('DisplayColorCorrection', ....., methodname):
 
   Extend RGB component of color by a fourth "constant 1" component,
   multiply by specified 4-by-4 matrix, normalize by dividing result by
-  \4'th component, return transformed rgb components as output color. Pass
+  4'th component, return transformed rgb components as output color. Pass
   through alpha-channel unmodified.
 
   rgbw' = M \* [r,g,b,1]'
@@ -242,7 +242,7 @@ when setting up the window with PsychImaging().
 
 
 PsychColorCorrection('SetColorClampingRange', window, min, max [,viewId]);
-\- Set the range of allowable output color or luminance intensity values
+- Set the range of allowable output color or luminance intensity values
 to the interval [min; max] for onscreen window 'window'. Values outside
 that range get either clamped to the 'min'imum or 'max'imum value, or -
 in 'CheckOnly' mode - will be visually marked as out of range. The default
@@ -251,7 +251,7 @@ display.
 
 
 PsychColorCorrection('SetEncodingGamma', window, gamma [,viewId]);
-\- Set the gamma value to use for gamma correction on window 'window'.
+- Set the gamma value to use for gamma correction on window 'window'.
 'gamma' can be either a single scalar if the same gamma should apply to
 all color channels (or single luminance channel), or it can be a
 three-component [gammaRed, gammaGreen, gammaBlue] vector, if each color
@@ -263,7 +263,7 @@ simple power-law mapping of input values to output values: out = in ^ gamma.
 'in' must be greater than zero, and 'gamma' must be greater than zero,
 otherwise results may be undefined, depending on your graphics hardware.
 However, usually only encoding 'gamma' values in the range of about
-\0.33 - 1.0 are meaningful.
+0\.33 - 1.0 are meaningful.
 
 Example: If your monitor has a "decoding gamma" of 1.8, the proper
 setting for 'gamma' would be gamma = 1/1.8. For a decoding gamma of 2.2,
@@ -271,7 +271,7 @@ you'd choose gamma = 1/2.2 ...
 
 
 PsychColorCorrection('SetExtendedGammaParameters', window, minL, maxL, gain, bias [,viewId]);
-\- Set the additional (optional) parameters to fine-tune gamma correction on
+- Set the additional (optional) parameters to fine-tune gamma correction on
 window 'window'. All these parameters have reasonable defaults. All
 parameters can be supplied as a scalar value if the same setting shall
 apply to all color channels (or a single luminance channel), or you can
@@ -291,31 +291,31 @@ Required parameters:
 
 
 PsychColorCorrection('SetMultMatrix4', window, matrix [, viewId]);
-\- Set the 4-by-4 color transformation matrix to use for the 'MatrixMultiply4'
+- Set the 4-by-4 color transformation matrix to use for the 'MatrixMultiply4'
 color correction method. 'matrix' must be the 2D 4 rows by 4 columns
 matrix to use. By default, the matrix is set to an identity matrix.
 
 
 PsychColorCorrection('SetSensorToPrimary', window, cal [, viewId]);
-\- Set the 'cal'ibration struct to use for the 'SensorToPrimary' color
+- Set the 'cal'ibration struct to use for the 'SensorToPrimary' color
 correction method. 'cal' must be the same input format as used for the
 M-Function SensorToPrimary(). By default, the transformation is a "no
 operation".
 
 
 PsychColorCorrection('SetLookupTable', window, clut [, viewId][, maxinput=1][, scalefactor]);
-\- Assign color lookup table 'clut' for use with color correction method
+- Assign color lookup table 'clut' for use with color correction method
 'LookupTable'. 'clut' must be a 1 column vector for pure luminance lookup
 tables, or a 3 column matrix for RGB color lookup tables with one column
 per color channel, ie., [1,2,3] = [Red, Green, Blue]. clut must have at
 least 1 row, but usually will have way more than 2 rows, typically almost
 as many rows as n = 2^bpc for a given output device bitdepths bpc. For a
-\10 bit output device, n would be usually 2^10 = 1024 rows for a perfect
+10 bit output device, n would be usually 2^10 = 1024 rows for a perfect
 one-to-one mapping. At runtime, color correction will be performed by the
 following formula: Be Rin, Gin, Bin the input red, green and blue color
 components, and Rout, Gout, Bout the final output value for the
 framebuffer. First Rin, Gin and Bin are clamped individually to the range
-\0.0 - 'maxinput' (maxinput is 1.0 by default), scalefactor is chosen by
+0\.0 - 'maxinput' (maxinput is 1.0 by default), scalefactor is chosen by
 default as scalefactor = [number of rows in clut - 1] / maxinput, ie., it
 maps the possible input range 0 - maxinput to the full range of row
 indices 1 - rowcount to cover the full range of entries stored in the
@@ -331,7 +331,7 @@ Bout = clut(Bin \* scalefactor,3);
 
 Color values for fractional indices inbetween reference values in the
 clut are interpolated linearly between the two nearest neighbour
-reference values --\> linear interpolation.
+reference values --> linear interpolation.
 
 Finally, Rout, Gout and Bout are clamped to the valid output range as set
 by the function PsychColorCorrection('SetColorClampingRange', ...); by
@@ -339,7 +339,7 @@ default to the range 0.0 - 1.0.
 
 
 PsychColorCorrection('SetLookupTable3D', window, clut [, viewId][, maxinput=1][, scalefactor][, precision=0][, interpolate=1]);
-\- Assign 4D color lookup table 'clut' for use with color correction method
+- Assign 4D color lookup table 'clut' for use with color correction method
 'LookupTable3D'. 'clut' must be a 4D 3-by-m-by-n-by-p matrix. The first dimension encodes the
 output color values to use:
 clut(1,r,g,b) == Corrected red color value for input color [r,g,b].
@@ -347,10 +347,10 @@ clut(2,r,g,b) == Corrected green color value for input color [r,g,b].
 clut(3,r,g,b) == Corrected blue color value for input color [r,g,b].
 
 clut must have at least one element in each color index dimension, ie., m, n
-and p must be \>= 1, but usually will have more elements in each dimension
+and p must be >= 1, but usually will have more elements in each dimension
 for a meaningful lookup color correction. In theory you would need m, n
 and p to be == 2^bpc for a given output device bitdepths bpc, e.g, for a
-\8 bit output device, m,n,p would need to be 2^8 = 256 elements for a perfect
+8 bit output device, m,n,p would need to be 2^8 = 256 elements for a perfect
 one-to-one mapping. In reality you likely don't want to use such large
 sizes, as such a huge and dense 3D CLUT would take up considerable
 amounts of graphics memory and cause large slowdowns of all drawing
@@ -361,7 +361,7 @@ At runtime, color correction will be performed by the following 3D table
 lookup procedure: Let Rin, Gin, Bin be the input red, green and blue
 color components, and Rout, Gout, Bout the final output values for the
 framebuffer. First Rin, Gin and Bin are clamped individually to the range
-\0.0 - 'maxinput' (maxinput is 1.0 by default), scalefactor is chosen by
+0\.0 - 'maxinput' (maxinput is 1.0 by default), scalefactor is chosen by
 default as scalefactor = (1.0 / maxinput), ie., it maps the possible
 input range 0 - 'maxinput' to the range 0.0 - 1.0, which covers the full
 range of entries stored in the clut. This is the most reasonable default,
@@ -385,7 +385,7 @@ mapped accordingly to proper clut element indices.
 
 By default, color values for fractional indices inbetween reference
 values in the clut are interpolated linearly between the eight nearest
-neighbour reference values in the 3 dimensional space --\> This is
+neighbour reference values in the 3 dimensional space --> This is
 trilinear interpolation across all 3 color dimensions of the CLUT. If you
 set the optional parameter 'interpolate' to zero, then simple nearest
 neighbour sampling is performed instead.
@@ -397,7 +397,7 @@ for Rout, Gout and Bout. A setting of 1 will store values with 16 bpc
 floating point precision to resolve up to 10 bits or 1024 levels of
 linear precision. A setting of 2 will store values with 32 bpc floating
 point precision for up to 23 bits of linear precision. Be aware that
-precision values \> 0 will increase memory consumption by a factor of 2x
+precision values > 0 will increase memory consumption by a factor of 2x
 or 4x, which can be significant for lookup tables of non-trivial size.
 
 Final looked up, Rout, Gout and Bout are clamped to the valid output range as set
@@ -413,7 +413,7 @@ drawing performance of your graphics card. Define your clut's wisely!
 
 PsychColorCorrection('SetGainMatrix', window, matrix [, viewId][, precision=2]);
 
-\- Set gain matrix for method 'GainMatrix'.
+- Set gain matrix for method 'GainMatrix'.
 If matrix is a 2D matrix, the gain will be applied to all color
 channels equally. If matrix is a 3D matrix, matrix(y,x,1) will define
 the red channel gain, matrix(y,x,2) will define the green channel gain,
@@ -421,7 +421,7 @@ and matrix(y,x,3) will define the blue channel gain.
 
 The optional 'precision' parameter defines the numerical precision with
 which the gain factors are stored. The default setting of 2 stores with
-\32 bit floating point precision - about 6 digits behind the decimal
+32 bit floating point precision - about 6 digits behind the decimal
 point. A Setting of 1 stores with 16 bit float precision, about 3 digits.
 A Setting of 0 stores with 256 levels, about 2 digits. A lower precision
 is less precise but allows for faster processing and higher redraw rates
@@ -439,7 +439,7 @@ dirty setup work...
 
 
 PsychColorCorrection('ChooseColorCorrection', methodname);
-\- Specify the method to be used for color correction for the next
+- Specify the method to be used for color correction for the next
 onscreen window that will be opened. This needs to be called \*before\* the
 window is opened, however its usually done automatically at the right
 moment by routines like PsychImaging() or BitsPlusPlus() if you use these
@@ -449,7 +449,7 @@ to open windows.
 # Called after [Screen](/docs/Screen)('OpenWindow') during shader and pipeline setup:
 
 [shader, idstring, configString, overrideMain] = PsychColorCorrection('GetCompiledShaders', window, debuglevel);
-\- Compile corresponding shaders for chosen color correction method,
+- Compile corresponding shaders for chosen color correction method,
 return shaderhandles and idstring to calling routine. That routine will
 link the returned shaders with other shader code to produce the final
 GLSL program object for color conversion and output formatting. 'shader'
@@ -463,7 +463,7 @@ objects and slots to the imaging pipelines hook chain(s):
 
 
 PsychColorCorrection('ApplyPostGLSLLinkSetup', window, viewId);
-\- Perform whatever setup work is needed after final GLSL program object
+- Perform whatever setup work is needed after final GLSL program object
 has been created and attached to imaging pipeline.
 
 

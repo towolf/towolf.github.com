@@ -10,7 +10,7 @@ encoding: UTF-8
 
 Make a measurement of the spectrum.
 
-\01/16/09    tbc   Adapted from PR650Toolbox for use with PR655
+01/16/09    tbc   Adapted from PR650Toolbox for use with PR655
 
 
 

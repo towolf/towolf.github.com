@@ -29,7 +29,7 @@ as this is more conveniently foldeded into the spectral absorptance.
 
 See also: PsychRadiometric, RetIrradianceAndPupilAreaEyeLengthToRadiance, PupilAreaFromLum, EyeLength.
 
-\3/6/13  dhb  Wrote it.
+3/6/13  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

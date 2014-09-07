@@ -36,7 +36,7 @@ ARGB tuple to the framebuffer. At display scanout time, the CRTC's will
 find 32 bit pixels properly formatted for RGB111110 scanout.
 
 History:
-\8-June-2014  Written - Derived from PsychHelperCreateARGB2101010RemapCLUT.m (MK).
+8-June-2014  Written - Derived from PsychHelperCreateARGB2101010RemapCLUT.m (MK).
 
 
 <div class="code_header" style="text-align:right;">

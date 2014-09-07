@@ -18,10 +18,10 @@ then adjust x,y by linear interpolation between chroma 0 and 2,
 using the chromaticity of a zero chroma sample as (0.3101, 0.3162).
 This is the chromaticity of illuminant C.  We think this is right.
 
-\11/21/08  dhb, ijk  Wrote it.
-\12/01/08  ijk       Added interpolation for low chroma samples.
+11/21/08  dhb, ijk  Wrote it.
+12/01/08  ijk       Added interpolation for low chroma samples.
           ijk, dhb  Tried to make it go fast by allowing precomputation.
-\12/22/08  ijk, dhb  Change y chromaticity of CIE C to .3162, to match standard (was .3163).
+12/22/08  ijk, dhb  Change y chromaticity of CIE C to .3162, to match standard (was .3163).
 
 
 <div class="code_header" style="text-align:right;">

@@ -43,7 +43,7 @@ green, blue, alpha) for convolution.
 'nroutchannels' = The number of channels to convolve as output: 3 =
 Convolve each of the three color channels red, green and blue separately
 by the same kernel. An (optional) alpha channel is passed through unmodified.
-\1 = Output a filtered luminance channel, and an (optional) unmodified
+1 = Output a filtered luminance channel, and an (optional) unmodified
 alpha channel. If input is a 3 channel RGB image, then the RGB image will
 get converted to luminance before convolution. 4 = Filter all four
 channels independently.
@@ -69,7 +69,7 @@ future implementation may change significantly! Don't trust its results
 without validation against a known good reference implementation!
 
 NOTES: Filtermode 2 and 3 not fully implemented for the general case!
-\---\> No separable 1D kernels, no support for all input-\>output mappings
+---> No separable 1D kernels, no support for all input->output mappings
 
 
 <div class="code_header" style="text-align:right;">

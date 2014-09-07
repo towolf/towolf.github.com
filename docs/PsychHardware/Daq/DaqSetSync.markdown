@@ -10,7 +10,7 @@ err=DaqSetSync(DeviceIndex,type)
 USB-1208FS: Configure sync input/output.
 "DeviceIndex" is a small integer, the array index specifying which HID
         device in the array returned by PsychHID('Devices') is interface
-        \0 of the desired USB-1208FS box.
+        0 of the desired USB-1208FS box.
 "type" is 0 for master, 1 for slave with continuous clock, or 2 for slave
         with gated clock.
 This command configures the sync signal.  The sync signal may be used to

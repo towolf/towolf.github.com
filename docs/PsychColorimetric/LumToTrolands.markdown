@@ -11,7 +11,7 @@ trolands = LumToTrolands(luminance,pupilAreaMM)
 Convert luminance in photopic/scotopic cd/m2 to corresponding
 trolands.
 
-\7/29/03  dhb  Wrote it.
+7/29/03  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

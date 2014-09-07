@@ -13,8 +13,8 @@ for a monochromatic light.
 
 See W&S, p. 103.
 
-\8/15/96  dhb, abp  Wrote the header.
-\8/22/96  dhb       Wavelength should be in meters.
+8/15/96  dhb, abp  Wrote the header.
+8/22/96  dhb       Wavelength should be in meters.
 
 
 <div class="code_header" style="text-align:right;">

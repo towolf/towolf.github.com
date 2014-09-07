@@ -16,7 +16,7 @@ method is particularly specific to the CVI
 and PR-650 devices, but the names in the
 structures are coded that way.
 
-\1/02/01  dhb, mpr  Wrote it.
+1/02/01  dhb, mpr  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

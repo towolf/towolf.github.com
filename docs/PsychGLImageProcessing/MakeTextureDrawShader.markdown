@@ -27,7 +27,7 @@ associated.
 'shadertype' A name string that defines the type of shader / image
 processing operation to apply. It can be one of the following:
 
-\- 'SeparateAlphaChannel': Alpha values are looked up at the regular
+- 'SeparateAlphaChannel': Alpha values are looked up at the regular
 locations defined via the 'srcRect' parameter in a [Screen](/docs/Screen)('DrawTexture')
 call. RGB color values are looked up at srcRect, offset by some (dx,dy)
 offset, as provided by the 'auxParameters' vector [dx, dy, 0, 0].
@@ -38,7 +38,7 @@ while keeping the alpha image at a fixed location, solely defined by
 stimulus with a fixed alpha channel mask applied, ie., the color image
 should move, but the alpha mask should stay fixed.
 
-\- 'PremultipliedAlphaChannel': Like 'SeparateAlphaChannel', but the alpha
+- 'PremultipliedAlphaChannel': Like 'SeparateAlphaChannel', but the alpha
 value is not written to the framebuffer, but premultiplied to the RGB
 color pixel before writeout.
 

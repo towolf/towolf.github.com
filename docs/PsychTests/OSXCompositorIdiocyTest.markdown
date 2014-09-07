@@ -38,12 +38,12 @@ stimulation wrt. presentation timing and timestamping.
 What this test does is it alternates between the two buffers
 of the doublebuffered window. One buffer is filled black, the
 other white.
-\- If [Screen](/docs/Screen)('[Flip](/docs/Flip)') is executed by your operating system
+- If [Screen](/docs/Screen)('[Flip](/docs/Flip)') is executed by your operating system
 and graphics hardware via so called page-flipping, then you should
 observe flicker and the timing and timestamping of visual stimuli
 should be research grade.
 
-\- However, there is still some chance of observing flicker even
+- However, there is still some chance of observing flicker even
 if page-flipping isn't used, but the desktop compositor is active
 in a triple-buffer configuration. Therefore a successfull run of
 this test is not 100% proof that you are safe from timing woes.

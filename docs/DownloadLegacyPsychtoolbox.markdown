@@ -10,7 +10,7 @@ DownloadLegacyPsychtoolbox([targetdirectory] [,downloadmethod=0] [,targetRevisio
 
 CAUTION: This script is for legacy downloads. Use DownloadPsychtoolbox
 for downloads of the current Psychtoolbox 3.0.10 or later. Psychtoolbox
-\3.0.9 and earlier are completely unsupported and unmaintained!
+3\.0.9 and earlier are completely unsupported and unmaintained!
 
 This script downloads \*old versions\* of Psychtoolbox-3, specifically
 version 3.0.9 or earlier from the Subversion master server at GoogleCode
@@ -85,7 +85,7 @@ most current one.
 INSTALLATION INSTRUCTIONS: The Wiki contains much more up to date
 instructions. If in doubt, follow instructions on the Wiki!
 
-\1. If you don't already have it, you must install the Subversion client.
+1\. If you don't already have it, you must install the Subversion client.
 For Mac OSX, download the latest Mac OSX Subversion client from:
 <http://metissian.com/projects/macosx/subversion/>
 (You can ignore the Subversion README file. If you do read it, you can
@@ -115,7 +115,7 @@ into D:\\MyOwnFolder\\Subversion\\ . Then you can do this:
 addpath('D:\\MyOwnFolder\\Subversion\\'). Our installer should find the
 client then.
 
-\2. On MacOS/X, to install the Psychtoolbox in the default location
+2\. On MacOS/X, to install the Psychtoolbox in the default location
 (/Applications or, failing that, /Users/Shared). Just type:
 
 DownloadPsychtoolbox

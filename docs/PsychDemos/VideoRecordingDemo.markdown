@@ -43,7 +43,7 @@ and are explained in 'help VideoRecording'.
 Empirically, the MPEG-4 or H264 codecs seem to provide a good tradeoff
 between quality, compression, speed and cpu load. They allow to reliably
 record drop-free sound and video with a resolution of 640x480 pixels at
-\30 frames per second.
+30 frames per second.
 
 H.264 has better quality and higher compression, but is able to nearly
 saturate a MacBookPro, so reliable recording at 30 fps may be difficult

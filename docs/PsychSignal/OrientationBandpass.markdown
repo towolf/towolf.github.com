@@ -11,7 +11,7 @@ meant to be used as a band-pass filter. The matrix size is mxn if "size"
 is [m,n], and nxn if "size" is n. The matrix elements represent gain at
 each freq, uniformly spaced from about -1 to 1 of Nyquist frequency (see
 FREQSPACE). oLow and oHigh are the cut-off orientations in degrees (e.g.
-\0 to 360). The interval will include all angles from oLow up to but not
+0 to 360). The interval will include all angles from oLow up to but not
 including orientation oHigh. oHigh must be in the range [oLow,oLow+180].
 Setting oHigh=oLow+180 will produce an all-pass filter. The filter has
 gain 1 in the orientation intervals [oLow,oHigh) and

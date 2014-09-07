@@ -13,8 +13,8 @@ it to vector format.
 
 Also see VecToImage.
 
-\8/13/94     dhb     Added image size return
-\6/13/12      dn     No need for reshape call
+8/13/94     dhb     Added image size return
+6/13/12      dn     No need for reshape call
 
 
 <div class="code_header" style="text-align:right;">

@@ -24,9 +24,9 @@ Input variables: relativeSpectrum - the relative power as a function of waveleng
                  species - what species determins eye length: 'Human' (Default), 'Monkey'.
                  source - source for eye length estimate, passed directly to EyeLength and inherits its default.
 
-\07/18/03  dhb         Wrote it.
-\1/26/04   ly, dhb     Fix JuddVos path through switch.
-\7/16/13   dhb         Comment and code cleaning, minor.
+07/18/03  dhb         Wrote it.
+1/26/04   ly, dhb     Fix JuddVos path through switch.
+7/16/13   dhb         Comment and code cleaning, minor.
 
 
 <div class="code_header" style="text-align:right;">

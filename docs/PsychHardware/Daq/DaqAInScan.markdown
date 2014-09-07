@@ -59,22 +59,22 @@ you supply channel and range when you call DaqAInScan.
     to the device by calling DaqALoadQueue before issuing the AInScan
     command.
     "channel" Measurement
-     \0        0-1 (differential)
-     \1        2-3 (differential)
-     \2        4-5 (differential)
-     \3        6-7 (differential)
-     \4        1-0 (differential)
-     \5        3-2 (differential)
-     \6        5-4 (differential)
-     \7        7-6 (differential)
-     \8          0 (single-ended)
-     \9          1 (single-ended)
-    \10          2 (single-ended)
-    \11          3 (single-ended)
-    \12          4 (single-ended)
-    \13          5 (single-ended)
-    \14          6 (single-ended)
-    \15          7 (single-ended)
+     0        0-1 (differential)
+     1        2-3 (differential)
+     2        4-5 (differential)
+     3        6-7 (differential)
+     4        1-0 (differential)
+     5        3-2 (differential)
+     6        5-4 (differential)
+     7        7-6 (differential)
+     8          0 (single-ended)
+     9          1 (single-ended)
+    10          2 (single-ended)
+    11          3 (single-ended)
+    12          4 (single-ended)
+    13          5 (single-ended)
+    14          6 (single-ended)
+    15          7 (single-ended)
 
 "options.range" is a vector of the same length as options.channel, with
     values of 0 to 7, specifying the desired gain (and voltage range) for
@@ -87,10 +87,10 @@ you supply channel and range when you call DaqAInScan.
     channel higher than 7, any range values you pass for that channel will be
     ignored.
 
-    \0 for Gain 1x (+-20 V),     1 for Gain 2x (+-10 V),
-    \2 for Gain 4x (+-5 V),      3 for Gain 5x (+-4 V),
-    \4 for Gain 8x (+-2.5 V),    5 for Gain 10x (+-2 V),
-    \6 for Gain 16x (+-1.25 V),  7 for Gain 20x (+-1 V).
+    0 for Gain 1x (+-20 V),     1 for Gain 2x (+-10 V),
+    2 for Gain 4x (+-5 V),      3 for Gain 5x (+-4 V),
+    4 for Gain 8x (+-2.5 V),    5 for Gain 10x (+-2 V),
+    6 for Gain 16x (+-1.25 V),  7 for Gain 20x (+-1 V).
 
 "options.FirstChannel" (0 to 15) is the first channel of the scan. NOT
     RECOMMENDED; use options.channel instead. If you specify FirstChannel
@@ -115,13 +115,13 @@ you supply channel and range when you call DaqAInScan.
     will not lose data.  Otherwise the FIFO fills, and you get jack diddly
     squat.
 "options.f" is desired sampling frequency, sample/channel/s, in the range
-    \0.596/c to 10e6/c Hz, where c is the number of channels being
+    0\.596/c to 10e6/c Hz, where c is the number of channels being
     scanned.
 "options.immediate" is 1 = immediate-transfer mode, 0 (default) =
     block-transfer mode. At low sampling rates, immediate-transfer mode
     will reduce the delay in receiving the sampled data. In
     immediate-transfer mode, each 16-bit sample is sent immediately (a
-    \2-byte report), rather than waiting for the buffer to fill (62
+    2-byte report), rather than waiting for the buffer to fill (62
     bytes). This mode should not be used if the aggregate sampling rate
     is greater than 2,000 samples per second in order to avoid data loss.
     The difference between the two modes will be more apparent if you
@@ -161,7 +161,7 @@ you supply channel and range when you call DaqAInScan.
 "options.end" is 1 (default) to wait until done and return the result.
 
 LIMITATION: The literature from Measurement Computing mentions a speed of
-\50 kHz, but that's a theoretical limit. As of 17 April 2005, DaqAInScan
+50 kHz, but that's a theoretical limit. As of 17 April 2005, DaqAInScan
 achieves 2000/c sample/channel/s, where c is the number of channels being
 sampled.
 
@@ -178,7 +178,7 @@ user.  Since that would entail a potentially mystifying performance hit, I
 instead opt to tell user that they cannot set FirstChannel higher than
 LastChannel.  What follows are other differences in options...  If an option
 is not specified below, then it behaves the same for the 1608FS as for the
-\1208FS.
+1208FS.
 
 "options.channel" will be ignored (though you will get a warning).  Do \*NOT\*
     even consider using this method with a 1608FS as it would be too confusing
@@ -191,10 +191,10 @@ is not specified below, then it behaves the same for the 1608FS as for the
     voltage range) for the corresponding channel as in the 1208FS except that
     the mapping differs.  For the USB-1608FS, the values mean:
 
-    \0 for Gain 1x (+/- 10 V),     1 for Gain 2x (+/- 5 V),
-    \2 for Gain 4x (+/- 2.5 V),    3 for Gain 5x (+/- 2 V),
-    \4 for Gain 8x (+/- 1.25 V),   5 for Gain 10x (+/- 1 V),
-    \6 for Gain 16x (+/- 0.625 V), 7 for Gain 32x (+/- 0.3125 V)
+    0 for Gain 1x (+/- 10 V),     1 for Gain 2x (+/- 5 V),
+    2 for Gain 4x (+/- 2.5 V),    3 for Gain 5x (+/- 2 V),
+    4 for Gain 8x (+/- 1.25 V),   5 for Gain 10x (+/- 1 V),
+    6 for Gain 16x (+/- 0.625 V), 7 for Gain 32x (+/- 0.3125 V)
 
 If options.range is passed, this function will call DaqALoadQueue for you.  If
 it is not, then it is assumed you do not wish to change the gains, and that
@@ -235,43 +235,43 @@ To use this function, you don't need the following information.  However, if
 you want to modify it, this information may prove useful to you.  The options
 that are passed through PsychHID are combined into a single 8-bit number.  The
 settings for the bits (that I know of) for the 1208FS are:
-   \1 (0x1) Execution Mode (1=counted, 0=continuous)
-   \2 (0x2) Transfer mode (1=immediate, 0=blocked)
-   \3 (0x4) Trigger mode (1=external, 0=internal)
-   \5 (0x10) Gain Queue mode (1=use stored queue, 0=use channels passed)
-   \6 (0x20) Retrigger mode (1=reset trigger, 0=don't)
+   1 (0x1) Execution Mode (1=counted, 0=continuous)
+   2 (0x2) Transfer mode (1=immediate, 0=blocked)
+   3 (0x4) Trigger mode (1=external, 0=internal)
+   5 (0x10) Gain Queue mode (1=use stored queue, 0=use channels passed)
+   6 (0x20) Retrigger mode (1=reset trigger, 0=don't)
 
 and for the 1608FS:
-   \1 (0x1) Execution Mode (1=counted, 0=continuous)
-   \2 (0x2) Burst Mode (1=burst I/O, 0=normal I/O)
-   \3 (0x4) Transfer mode (1=immediate, 0=blocked)
-   \4 (0x8) Trigger mode (1=external, 0=internal)
-   \5 (0x10) External sync (1=use external, 0=don't); as noted above, this may
+   1 (0x1) Execution Mode (1=counted, 0=continuous)
+   2 (0x2) Burst Mode (1=burst I/O, 0=normal I/O)
+   3 (0x4) Transfer mode (1=immediate, 0=blocked)
+   4 (0x8) Trigger mode (1=external, 0=internal)
+   5 (0x10) External sync (1=use external, 0=don't); as noted above, this may
              be the same as retrigger mode
-   \6 (0x20) Debug mode (1=debug, 0=non-debug) (I don't know what this does)
+   6 (0x20) Debug mode (1=debug, 0=non-debug) (I don't know what this does)
 
-\4/15/05 dgp Wrote it.
-\4/15/05 dgp Merged several of the arguments into the "options" struct.
-\4/25/05 dgp Added options.channel, options.range, and options.sendChannelRange.
-\4/27/05 dgp Fixed immediate-transfer mode once I realized that the report
+4/15/05 dgp Wrote it.
+4/15/05 dgp Merged several of the arguments into the "options" struct.
+4/25/05 dgp Added options.channel, options.range, and options.sendChannelRange.
+4/27/05 dgp Fixed immediate-transfer mode once I realized that the report
             contains only one sample, not one sample per channel.
-\8/26/05 dgp Fixed bug in extraction of serial number, as suggested by Steve
+8/26/05 dgp Fixed bug in extraction of serial number, as suggested by Steve
             Van Hooser, vanhooser@neuro.duke.edu
-\8/26/05 dgp Incorporated bug fix for compatibility with Mac OS X Tiger
-            suggested by Maria Mckinley <parody@u.washington.edu\>. The reported
+8/26/05 dgp Incorporated bug fix for compatibility with Mac OS X Tiger
+            suggested by Maria Mckinley <parody@u.washington.edu>. The reported
             number of outputs of the USB-1208FS has changed in Tiger.
             http://groups.yahoo.com/group/psychtoolbox/message/3614
-\1/02/07 mk  Add 'persistent dinc' to line 245. This apparently fixes some
+1/02/07 mk  Add 'persistent dinc' to line 245. This apparently fixes some
             bug, bugfix proposed by Florian Stendel.
-\1/x/08  mpr modified for use of USB-1608FS, added options.ReleaseTime; changed
+1/x/08  mpr modified for use of USB-1608FS, added options.ReleaseTime; changed
               low and high Channels to First and Last because previous
               terminology seemed too easily confused with high and low bytes
               or high and low channels in 1208FS pin out diagrams.
-\3/14/08 mpr added warning when data are discarded
-\3/15/09 mk  timer\_preload calculation changed according to bug report and bugfix
+3/14/08 mpr added warning when data are discarded
+3/15/09 mk  timer\_preload calculation changed according to bug report and bugfix
             suggested by Peter Meilstrup in forum message 9221. There was an
             off-by-one bug present...
-\3/24/12 mk  Add handling for options.livedata -- retrieval of data while
+3/24/12 mk  Add handling for options.livedata -- retrieval of data while
             DAQ is running.
 
 

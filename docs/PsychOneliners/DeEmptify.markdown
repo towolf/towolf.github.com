@@ -9,9 +9,9 @@ encoding: UTF-8
 in = DeEmptify(in,column)
 deletes empty cells or rows from cellarray:
 
-\- if only IN is specified, IN has to be a vector. IN will be returned
+- if only IN is specified, IN has to be a vector. IN will be returned
   with all empty cells deleted
-\- if IN is a matrix, COLUMN must be specified. Rows are only
+- if IN is a matrix, COLUMN must be specified. Rows are only
   deleted from IN when an empty cell is encountered in a column
   specified in COLUMN. COLUMN can be a vector
 

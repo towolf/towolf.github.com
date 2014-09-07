@@ -21,13 +21,13 @@ OUTPUTS:
 
 See also: FitWeibTAFC, FitFitWeibYN, FitWeibAlphTAFC, FitLogitYN
 
-\9/22/93   jms   Created from FitWeibullYN.
-\2/8/97    dhb   Cleaned up and added some comments.
+9/22/93   jms   Created from FitWeibullYN.
+2/8/97    dhb   Cleaned up and added some comments.
                 Check that optimization toolbox is present.
-\10/4/00   dhb   Fixed bugs along lines suggested by Keith Schneider.
+10/4/00   dhb   Fixed bugs along lines suggested by Keith Schneider.
                 Case of uInitial = 0 wasn't handled properly, and
                 variance search limits were set based on mean.
-\3/4/05      dhb   Conditionals for optimization toolbox version.
+3/4/05      dhb   Conditionals for optimization toolbox version.
 
 
 <div class="code_header" style="text-align:right;">

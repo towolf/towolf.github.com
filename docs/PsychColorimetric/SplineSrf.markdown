@@ -21,8 +21,8 @@ srf\_in may have multiple columns, in which case srf\_out does as well.
 wls\_in and wls\_out may be specified as a column vector of
 wavelengths or as a [start delta num] description.
 
-\7/26/03 dhb  Add extend argument and pass to SplineRaw.
-\8/13/11 dhb  Update comment to reflect changes in SplineRaw.
+7/26/03 dhb  Add extend argument and pass to SplineRaw.
+8/13/11 dhb  Update comment to reflect changes in SplineRaw.
 
 
 <div class="code_header" style="text-align:right;">

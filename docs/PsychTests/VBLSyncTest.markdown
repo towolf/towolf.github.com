@@ -48,8 +48,8 @@ consisting of 1000 frames.
 
 
 numifis = Number of monitor refresh intervals (IFIs) between flips:
-\0 == [Flip](/docs/Flip) at each vertical retrace: This is the old PTB 1.0.50 behaviour.
-Values of numifis\>0 will cause [Screen](/docs/Screen)('[Flip](/docs/Flip)') to wait for 'numifis'
+0 == [Flip](/docs/Flip) at each vertical retrace: This is the old PTB 1.0.50 behaviour.
+Values of numifis>0 will cause [Screen](/docs/Screen)('[Flip](/docs/Flip)') to wait for 'numifis'
 monitor refresh intervals before flipping the back- and front buffers in
 sync with the vertical retrace.
 

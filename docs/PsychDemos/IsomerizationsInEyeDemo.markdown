@@ -35,21 +35,21 @@ that the resulting coordinates are isomerization rates in
 real units.  I think that we're close to having that, but
 better documentation and tidying is needed.
 
-\07/08/03 dhb  Wrote starting from IsomerizationsInDishDemo.
-\07/11/03 dhb  Grab data through subroutines.  Get rid of integration time.
-\07/15/03 dhb  Take eye size from function.
-\08/14/11 dhb  Comment out saving of T\_dogrec at end.  Want to be careful when and where
+07/08/03 dhb  Wrote starting from IsomerizationsInDishDemo.
+07/11/03 dhb  Grab data through subroutines.  Get rid of integration time.
+07/15/03 dhb  Take eye size from function.
+08/14/11 dhb  Comment out saving of T\_dogrec at end.  Want to be careful when and where
               this is done, but the template may be useful someday.
-\03/20/12 dhb  Update cal file for PTB 3.
-\04/09/12 dhb  Add test of irradiance to troland conversion.
-\04/27/13 dhb  More extensive comments.
-\7/19/13  dhb  Print out photoreceptors structure using PrintPhotoreceptors.
+03/20/12 dhb  Update cal file for PTB 3.
+04/09/12 dhb  Add test of irradiance to troland conversion.
+04/27/13 dhb  More extensive comments.
+7/19/13  dhb  Print out photoreceptors structure using PrintPhotoreceptors.
          dhb  Add monochromatic light option to the section that starts with trolands.
-\8/11/13  dhb  Add test of AborbtanceToAbsorbance.
+8/11/13  dhb  Add test of AborbtanceToAbsorbance.
          dhb  Protect against case when absorbance is provided directly.
-\05/26/14 dhb  Dusted off.
-\6/10/14  npc, dhb  Modifications for accessing calibration data using a @CalStruct object.
-\7/7/14   dhb  Make calStruct object code conditional on the support routines existing on the path.
+05/26/14 dhb  Dusted off.
+6/10/14  npc, dhb  Modifications for accessing calibration data using a @CalStruct object.
+7/7/14   dhb  Make calStruct object code conditional on the support routines existing on the path.
 
 
 <div class="code_header" style="text-align:right;">

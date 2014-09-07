@@ -22,8 +22,8 @@ pass this as 1.  It is 0 by default.
 
 See also XYZTouvY, [xyTouv](/docs/xyTouv), XYZToxyY, [xyYToXYZ](/docs/xyYToXYZ)
 
-\10/31/94    dhb  Wrote it.
-\5/06/11   dhb  Improve comment.
+10/31/94    dhb  Wrote it.
+5/06/11   dhb  Improve comment.
 
 
 <div class="code_header" style="text-align:right;">

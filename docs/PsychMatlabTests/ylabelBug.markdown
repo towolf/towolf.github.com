@@ -52,11 +52,11 @@ attach Postscript to the PICT file.
 
 # To do this:
 
-\1)  Choose the Output Preferences item from the Options menu in Matlab.
+1)  Choose the Output Preferences item from the Options menu in Matlab.
 
-\2)  In this dialog box, check the  Honor Figure Position checkbox.
+2)  In this dialog box, check the  Honor Figure Position checkbox.
 
-\3)  Select Copy PICT with EPS as the default format.
+3)  Select Copy PICT with EPS as the default format.
 
 Then you can copy and paste a graph into another application which will
 result in proper output.

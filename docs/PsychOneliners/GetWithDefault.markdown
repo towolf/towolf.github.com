@@ -11,7 +11,7 @@ inputVal = GetWithDefault(prompt,defaultVal)
 Prompt for a number or string, with a default returned if user
 hits return.
 
-\4/3/10  dhb  Wrote it.
+4/3/10  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

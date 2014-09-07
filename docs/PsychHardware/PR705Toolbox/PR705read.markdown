@@ -19,7 +19,7 @@ from not requiring an explicit port handle, this function is identical to
 Output:
 serialData (1xN char).
 
-\11/29/12    zlb   Wrote it based on the PR670Toolbox.
+11/29/12    zlb   Wrote it based on the PR670Toolbox.
 
 
 <div class="code_header" style="text-align:right;">

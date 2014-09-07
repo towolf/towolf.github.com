@@ -21,10 +21,10 @@ T\_in may have multiple rows, in which case T\_out does as well.
 wls\_in and wls\_out may be specified as a column vector of
 wavelengths or as a [start delta num] description.
 
-\7/26/03 dhb  Add extend argument and pass to SplineRaw.
-\8/22/05 pbg  Changed T\_out to include the extend variable (previously was
+7/26/03 dhb  Add extend argument and pass to SplineRaw.
+8/22/05 pbg  Changed T\_out to include the extend variable (previously was
              hardwired to "1".
-\8/13/11 dhb  Update comment to reflect changes in SplineRaw.
+8/13/11 dhb  Update comment to reflect changes in SplineRaw.
 
 
 <div class="code_header" style="text-align:right;">

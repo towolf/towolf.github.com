@@ -93,13 +93,13 @@ See also: ComputeRawConeFundamentals, CIEConeFundamentalsTest,
 FitConeFundamentalsTest, FitConeFundamentalsWithNomogram, StockmanSharpeNomogram,
 ComputePhotopigmentBleaching.
 
-\8/13/11  dhb  Wrote it.
-\8/14/11  dhb  Clean up a little.
-\12/16/12 dhb, ms  Add rod option.
-\08/10/13 dhb  Test for consistency between what's returned by FillInPhotoreceptors and
+8/13/11  dhb  Wrote it.
+8/14/11  dhb  Clean up a little.
+12/16/12 dhb, ms  Add rod option.
+08/10/13 dhb  Test for consistency between what's returned by FillInPhotoreceptors and
               what's returned by ComputeRawConeFundamentals.
-\05/24/14 dhb  Add fractionPigmentBleached optional arg.
-\05/26/14 dhb  Comment improvements.
+05/24/14 dhb  Add fractionPigmentBleached optional arg.
+05/26/14 dhb  Comment improvements.
 
 
 <div class="code_header" style="text-align:right;">

@@ -44,72 +44,72 @@ firewire camera. Basler A312fc, AVT Marlin F033.
 # Parameters and their meaning:
 
 curval = PsychCamSettings('ExposureTime', grabber, val)
-\-- Set and/or return current exposure time in milliseconds for supported cams, and
+-- Set and/or return current exposure time in milliseconds for supported cams, and
 in raw camera specific system units for unknown cameras.
 
 curval = PsychCamSettings('Brightness', grabber, val)
-\-- Set/Return brightness setting in arbitrary units. Brightness is the DC offset
+-- Set/Return brightness setting in arbitrary units. Brightness is the DC offset
 added to the CCD sensor signal before amplification and A/D conversion.
 
 curval = PsychCamSettings('Gain', grabber, val)
-\-- Set/Return gain setting in arbitrary units. Gain is the multiplier
+-- Set/Return gain setting in arbitrary units. Gain is the multiplier
 applied to the CCD sensor signal during amplification and before A/D conversion.
 
 curval = PsychCamSettings('Gamma', grabber, val)
-\-- Set/Return gamma setting. Gamma is used to influence or set gamma correction.
+-- Set/Return gamma setting. Gamma is used to influence or set gamma correction.
 
 curval = PsychCamSettings('Sharpness', grabber, val)
-\-- Set/Return sharpness setting in arbitrary units. Manipulates digital post-
+-- Set/Return sharpness setting in arbitrary units. Manipulates digital post-
 processing of images in the camera.
 
 curval = PsychCamSettings('WhiteBalance', grabber, val)
-\-- Set/Return white-balance setting in arbitrary units. Only meaningful on color cams.
+-- Set/Return white-balance setting in arbitrary units. Only meaningful on color cams.
 
 curval = PsychCamSettings('Saturation', grabber, val)
-\-- Set/Return color saturation setting in arbitrary units. Only meaningful on color cams.
+-- Set/Return color saturation setting in arbitrary units. Only meaningful on color cams.
 
 Similar to above are queries and (auto-)settings for: Hue, WhiteShading, Iris, Focus, Pan, Tilt,
 Zoom, CaptureQuality, CaptureSize, Temperature, FrameRate, OpticalFilter and TriggerDelay.
 
 curval = PsychCamSettings('BacklightCompensation', grabber, val)
-\-- Set/Return setting for backlight compensation mode. Backlight compensation is active
+-- Set/Return setting for backlight compensation mode. Backlight compensation is active
 if control of exposure time, gain and brightness are switched to automatic. It defines
 the algorithm to use for computing the overall image brightness. This is currently
 only supported on the Unibrain Fire-i camera and has the following meaning:
 
-\0 = Off. Just average across image.
-\1 = Use a disc in the center of the image.
-\2 = Use some weighted mix of a disc in the image center and the area outside the disc.
-\3 = Use some portrait mode for optimal exposure of a person sitting in front of the cam.
-\4 = Use upper third of image.
-\5 = Use middle third of image.
-\6 = Use lower third of image.
+0 = Off. Just average across image.
+1 = Use a disc in the center of the image.
+2 = Use some weighted mix of a disc in the image center and the area outside the disc.
+3 = Use some portrait mode for optimal exposure of a person sitting in front of the cam.
+4 = Use upper third of image.
+5 = Use middle third of image.
+6 = Use lower third of image.
 
 # Special commands and their meaning:
 
 vendor = PsychCamSettings('GetVendor', grabber)
-\-- Return camera vendor name string.
+-- Return camera vendor name string.
 
 model = PsychCamSettings('GetModel', grabber)
-\-- Return camera model name string.
+-- Return camera model name string.
 
 known = PsychCamSettings('IsKnownCamera', grabber)
-\-- Return 1, if this camera is known to PsychCamSettings,
+-- Return 1, if this camera is known to PsychCamSettings,
 so it can accept and return meaningful physical properties,
 instead of unknown device units.
 
 settings = PsychCamSettings('AutomateAllSettings', grabber)
-\-- Switch all settings into automatic control mode, where possible,
+-- Switch all settings into automatic control mode, where possible,
 and return the current settings in a struct.
 
 settings = PsychCamSettings('GetAllSettings', grabber)
-\-- Return all known settings in a struct.
+-- Return all known settings in a struct.
 
 oldsettings = PsychCamSettings('SetAllSettings', grabber, settings)
-\-- Set all settings from a struct 'settings'.
+-- Set all settings from a struct 'settings'.
 
 latency = PsychCamSettings('EstimateLatency', grabber [, fps])
-\-- This command analyses the current camera settings and, based on
+-- This command analyses the current camera settings and, based on
 the specification of the camera, tries to estimate the latency (in
 seconds) between start of exposure of a video frame and arrival of
 the video frame in the computers video buffer.

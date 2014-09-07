@@ -30,13 +30,13 @@ show up undistorted on the display device.
 
 # For this to work, PTB needs two things:
 
-\1. Recent graphics hardware with support for the PTB imaging pipeline:
+1\. Recent graphics hardware with support for the PTB imaging pipeline:
 See our Wiki for recommendations. However, all ATI cards starting with
 Radeon 9500 and all NVidia cards of type GeForce-FX5200 and later, as
 well as the Intel-GMA 950 and later should be able to do it, although
 more recent cards will have a higher performance.
 
-\2. A calibration file that defines the warp transformation to apply. Your
+2\. A calibration file that defines the warp transformation to apply. Your
 experiment script will load that file into [Screen](/docs/Screen)'s "warp engine" at the
 beginning of your experiment.
 
@@ -63,7 +63,7 @@ your experiment script is running.
 
 # How to use:
 
-\1. Start the script, providing all parameters that you don't want to have
+1\. Start the script, providing all parameters that you don't want to have
 at default settings (all parameters have defaults):
 
 'caliboutfilename' Name of the file to which calibration results should
@@ -101,7 +101,7 @@ and the right-eye view (1)".
 calibration are loaded from file 'calibinfilename' instead of starting
 from scratch. Useful for incremental calibration.
 
-\2. After startup, the script will display a grid onscreen, which
+2\. After startup, the script will display a grid onscreen, which
 represents the displayed area after calibration. Your job is to tweak,
 shift and bend that grid so that it looks as flat and rectilinear as
 possible on your display from the viewpoint of your subject. The grid has

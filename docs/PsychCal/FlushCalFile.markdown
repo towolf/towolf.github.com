@@ -21,8 +21,8 @@ defaults to 1.
 
 If specified file cannot be found does nothing.
 
-\8/26/97  dhb  Wrote it.
-\8/21/00  dhb  Update for dual cal dir scheme.  Not tested hard.
+8/26/97  dhb  Wrote it.
+8/21/00  dhb  Update for dual cal dir scheme.  Not tested hard.
 
 
 <div class="code_header" style="text-align:right;">

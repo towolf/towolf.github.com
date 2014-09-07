@@ -52,18 +52,18 @@ encoding: UTF-8
  format and all conversions and calibrations are done automatically by
  [Screen](/docs/Screen)().
 
- \4/26/97  dhb  Wrote it.
- \7/25/97  dhb  Better initialization.
- \3/12/98  dgp  Use [Ask](/docs/Ask).
- \3/14/02  dhb  Update for OpenWindow.
- \4/03/02  awi  Merged in Windows changes.  On Windows we do not copy the result to the clipboard.
- \4/13/02  awi   Changed "SetColorSpace" to new name "SetSensorColorSpace".
+ 4/26/97  dhb  Wrote it.
+ 7/25/97  dhb  Better initialization.
+ 3/12/98  dgp  Use [Ask](/docs/Ask).
+ 3/14/02  dhb  Update for OpenWindow.
+ 4/03/02  awi  Merged in Windows changes.  On Windows we do not copy the result to the clipboard.
+ 4/13/02  awi   Changed "SetColorSpace" to new name "SetSensorColorSpace".
                 Changed "LinearToSettings" to new name "SensorToSettings".
- \12/21/02 dhb  Remove reliance on now obsolete OpenWindow/CloseWindow.
- \11/16/06 dhb  Start getting this to work with PTB-3.
- \11/22/06 dhb  Fixed except that [Ask](/docs/Ask)() needs to be fixed.
- \6/16/11  dhb  The PTB display section was out of date and didn't work.  I removed it.
- \1/26/13  mk   Add standard PTB display, but also imaging pipeline based methods.
+ 12/21/02 dhb  Remove reliance on now obsolete OpenWindow/CloseWindow.
+ 11/16/06 dhb  Start getting this to work with PTB-3.
+ 11/22/06 dhb  Fixed except that [Ask](/docs/Ask)() needs to be fixed.
+ 6/16/11  dhb  The PTB display section was out of date and didn't work.  I removed it.
+ 1/26/13  mk   Add standard PTB display, but also imaging pipeline based methods.
 
 
 <div class="code_header" style="text-align:right;">

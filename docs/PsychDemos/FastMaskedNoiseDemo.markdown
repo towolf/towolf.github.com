@@ -28,17 +28,17 @@ independence of the random pixel values!
 If you play around with the parameters and compare performance to the
 FastNoiseDemo, you will notice the following:
 
-\- Scaling the stimulus to a bigger size is nearly free on modern graphics
+- Scaling the stimulus to a bigger size is nearly free on modern graphics
 hardware, so you can generate low-resolution noise stimuli that still
 fill a huge fraction of your display area if you want.
 
-\- Drawing the aperture is nearly free, i.e., this demo runs nearly as
+- Drawing the aperture is nearly free, i.e., this demo runs nearly as
 fast as the FastNoiseDemo without masking. This is because modern
 gfx-hardware is highly optimized for texture drawing and alpha blending.
 The aperture textures are cached in fast onboard VRAM memory to speed up
 drawing them.
 
-\- The drawing speed is mostly limited by how fast Matlab can compute new
+- The drawing speed is mostly limited by how fast Matlab can compute new
 random dot number matrices, not by properties of the stimulus images.
 
 

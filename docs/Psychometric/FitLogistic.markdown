@@ -19,7 +19,7 @@ should probably fit a cumulative normal or Weibull function.
 See also: ComputeLogistic, InvertLogistic, FitLogitYN, FitWeibTAFC,
   FitWeibYN, FitAlphaWeibTAFC.
 
-\2/15/95     dhb     Wrote it.
+2/15/95     dhb     Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

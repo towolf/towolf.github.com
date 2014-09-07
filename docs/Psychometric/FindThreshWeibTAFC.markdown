@@ -13,7 +13,7 @@ alpha, and beta.
 
 This function should invert ComputeWeibTAFC().
 
-\8/25/94 dhb, ccc    New name, fixed comments
+8/25/94 dhb, ccc    New name, fixed comments
 
 
 <div class="code_header" style="text-align:right;">

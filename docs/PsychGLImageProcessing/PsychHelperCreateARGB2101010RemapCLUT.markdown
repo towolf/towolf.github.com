@@ -36,8 +36,8 @@ ARGB tuple to the framebuffer. At display scanout time, the CRTC's will
 find 32 bit pixels properly formatted for ARGB2101010 scanout.
 
 History:
-\01/13/08  Written (MK).
-\08/29/11  Add caching for LUT in mat file to speed this up a bit (MK).
+01/13/08  Written (MK).
+08/29/11  Add caching for LUT in mat file to speed this up a bit (MK).
 
 
 <div class="code_header" style="text-align:right;">

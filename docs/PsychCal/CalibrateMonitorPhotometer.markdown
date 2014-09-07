@@ -16,8 +16,8 @@ assuming you know how to operate CalibrateMonSpd() that is...
 
 numMeasures (default: 9) readings are taken manually, and the readings
 are fit with a gamma function and piecewise cubic splines. numMeasures -
-\1 should be a power of 2, ideally (9, 17, 33, etc.). The corresponding
-linearized gamma tables (1 -\> gamma, 2 -\> splines) are returned, as well
+1 should be a power of 2, ideally (9, 17, 33, etc.). The corresponding
+linearized gamma tables (1 -> gamma, 2 -> splines) are returned, as well
 as the display baseline, display range in cd/m^2 and display gamma. Plots
 of the two fits are created as well. Requires fit tools.
 
@@ -41,11 +41,11 @@ load MyGammaTable
 
 History:
 Version 1.0: Patrick Mineault (patrick.mineault@gmail.com)
-\22.10.2010 mk Switch numeric input from use of input() to use of
+22\.10.2010 mk Switch numeric input from use of input() to use of
               GetNumber(). Restore gamma table after measurement. Make
               more robust.
-\19.08.2012 mk Some cleanup.
- \4.09.2012 mk Use [Screen](/docs/Screen)('ColorRange') to adapt number/max of intensity
+19\.08.2012 mk Some cleanup.
+ 4\.09.2012 mk Use [Screen](/docs/Screen)('ColorRange') to adapt number/max of intensity
               level to given range of framebuffer.
 
 

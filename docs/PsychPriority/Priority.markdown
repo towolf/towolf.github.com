@@ -43,8 +43,8 @@ priority 0. You can check to see if this has happened by calling
 
 # Within a script there are two ways to limit MATLAB's use of CPU time:
 
-  \1. Call "WaitSecs"
-  \2. Call [Screen](/docs/Screen)('[Flip](/docs/Flip)',...)
+  1\. Call "WaitSecs"
+  2\. Call [Screen](/docs/Screen)('[Flip](/docs/Flip)',...)
 
 Both calls will sleep the main MATLAB thread, surrendering CPU time to
 other threads on the system until the MATLAB thread is awakened.
@@ -89,7 +89,7 @@ though, so for example if you have a clut animation going on at priority
 level 2, then the force-quit key combo (Ctrl-Alt-Delete) does not  work.
 However, the keyboard inputs are still sent to the message queue, so
 GetChar or GetClicks still work if they are also called at priority level
-\2.
+2\.
 
 Typically you will not want to choose a higher priority than 1 unless you
 know exactly what you're doing.

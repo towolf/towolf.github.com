@@ -17,12 +17,12 @@ arguments and logic are the same except that "on" can take more values to
 produce a wider variety of results:
 
 on                    output (Volts)
-\---                   ------
- \0                       0
- \1                     0.625
- \2                      1.25
- \3                      2.5
- \4                        5
+---                   ------
+ 0                       0
+ 1                     0.625
+ 2                      1.25
+ 3                      2.5
+ 4                        5
 
 The calibration terminal is pin 17 on the USB-1608FS.
 

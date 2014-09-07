@@ -28,7 +28,7 @@ drawn with a length of (1-hFraction) \* windowWidth.
 The default of 0.25 should be ok for at least CrystalEyes goggles
 
 'lineColor' intensity of the color channels for drawing the line in range
-zero to one: Default is [1,1,1] = max red, green and blue --\> A white
+zero to one: Default is [1,1,1] = max red, green and blue --> A white
 sync line. A setting of [0,0,1] = red off, green off, blue max would
 create a classic blue sync line. However, some CrystalEyes stereoenablers
 had problems detecting the signal this way, so we default to all-white.

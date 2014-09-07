@@ -18,8 +18,8 @@ the routine to ignore peaks lower than
 noiseLevel\*maxValue where maxValue is the
 largest measurement in the spectrum.
 
-\1/6/96      dhb     Wrote it.
-\5/17/99   dhb   Added  noiseLevel parameter.
+1/6/96      dhb     Wrote it.
+5/17/99   dhb   Added  noiseLevel parameter.
 
 
 <div class="code_header" style="text-align:right;">

@@ -19,8 +19,8 @@ and Boynton.
 
 See also DKLToConeInc, ComputeDKL\_M, [DKLDemo](/docs/DKLDemo).
 
-\8/30/96 dhb  Converted this from script.
-\10/5/12   dhb  Comment specifying coordinate system convention.
+8/30/96 dhb  Converted this from script.
+10/5/12   dhb  Comment specifying coordinate system convention.
 
 
 <div class="code_header" style="text-align:right;">

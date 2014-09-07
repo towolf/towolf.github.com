@@ -25,7 +25,7 @@ entries sum to 1.  This seems as if it is what we want to
 get answers consistent with what we get when we don't
 incorporate wavelength blurring.
 
-\7/11/03  dhb  A few comments added.
+7/11/03  dhb  A few comments added.
 
 
 <div class="code_header" style="text-align:right;">

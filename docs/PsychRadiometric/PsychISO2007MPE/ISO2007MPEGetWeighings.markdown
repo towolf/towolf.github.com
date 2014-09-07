@@ -21,7 +21,7 @@ and responsibility in PsychISO2007MPE/Contents.m (type "help PsychISO2007MPE"
 at the Matlab prompt.
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-\6/25/13  dhb  Wrote it.
+6/25/13  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

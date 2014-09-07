@@ -30,11 +30,11 @@ length(params) == 4
   m = params(4)
   response = Rmax\*[contrast^n]/[contrast^m + sigma^m]
 
-\8/1/05    dhb, pr     Wrote from FitLightnessOrient version
-\8/2/07    dhb         Rewrote to allow several different forms depending
+8/1/05    dhb, pr     Wrote from FitLightnessOrient version
+8/2/07    dhb         Rewrote to allow several different forms depending
                       on length of params.
-\12/5/10   dhb         Expanded comment.  Error check on input length
-\9/23/13   dhb         Fix BAD bug.  This wasn't computing what the comments said it was.
+12/5/10   dhb         Expanded comment.  Error check on input length
+9/23/13   dhb         Fix BAD bug.  This wasn't computing what the comments said it was.
                       Not sure when that crept in.  The contrast in the numerator was
                       being divided by sigma before being raised to the power n.  No idea why.
 

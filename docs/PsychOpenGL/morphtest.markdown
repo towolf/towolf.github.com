@@ -12,10 +12,10 @@ Pass a path to a folder with .obj OBJ files, and a path to the texture image,
 e.g.,
 morphtest('/my/path/to/the/objfiles/myobjfiles\*.obj', 'mytexture.png');
 
-\--\> Will load all .obj files starting with name myobjfiles in the folder
+--> Will load all .obj files starting with name myobjfiles in the folder
 /my/path/to/the/objfiles/ and the PNG texture image 'mytexture.png'.
 
-All OBJ files \*must\* have a matching format, so they are morpheable. --\>
+All OBJ files \*must\* have a matching format, so they are morpheable. -->
 Same number of vertices, texcoords, normals, same polygon index lists
 (topology).
 

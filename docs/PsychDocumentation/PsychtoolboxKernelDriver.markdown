@@ -64,7 +64,7 @@ why this driver is an \*experimental\* feature and why you need to have
 administrator privileges to install and load the driver the first time.
 
 How to install (one time setup):
-\--------------------------------
+--------------------------------
 
 OSX versions older than 10.8 "Mountain Lion" and 32-Bit operating system
 kernels are no longer supported.
@@ -93,7 +93,7 @@ In a terminal type:
 sudo kextload /System/Library/Extensions/PsychtoolboxKernelDriver.kext
 
 How to upgrade with a more recent version:
-\------------------------------------------
+------------------------------------------
 
 # You can unload and delete the driver before a driver upgrade via:
 

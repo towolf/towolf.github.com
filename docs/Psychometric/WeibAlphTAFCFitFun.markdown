@@ -8,7 +8,7 @@ encoding: UTF-8
 
 [f,g] = WeibAlphTAFCFitFun(x,,beta,level,nCorrect,nError)
 
-\8/26/94     dhb     Wrote it.
+8/26/94     dhb     Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

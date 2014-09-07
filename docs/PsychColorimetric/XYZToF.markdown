@@ -11,7 +11,7 @@ F = XYZToF(XYZ,white)
 Compute the F function ratio from XYZ.
 This is used in Lab calculations.
 
-\10/10/93    dhb   Converted from CAP C code.
+10/10/93    dhb   Converted from CAP C code.
 
 
 <div class="code_header" style="text-align:right;">

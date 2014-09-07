@@ -16,9 +16,9 @@ I am responding to your e-mails of March 19, concerning FPRINTF.
 
 \> in my first message (below) i noted that
 \>
-\> \>fprintf('"%s" hit at time %.3f s\\n','5%',1)
-\> \>
-\> \>produces no output at all.
+\> >fprintf('"%s" hit at time %.3f s\\n','5%',1)
+\> >
+\> >produces no output at all.
 \>
 \> I now discover that FPRINTF created a file called '"%s" hit
 \> at time %.3f s\\n' on my disk, and stored a '5' in it each

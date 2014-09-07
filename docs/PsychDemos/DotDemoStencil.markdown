@@ -27,7 +27,7 @@ manipulate if you want.
 
 Note: Some versions of MacOS/X have defective dot drawing due to an
 operating system bug. If you happen to have such a system (e.g., OS/X
-\10.6.3 with NVidia Geforce-7xxx hardware) then read "help ScreenDrawDots"
+10\.6.3 with NVidia Geforce-7xxx hardware) then read "help ScreenDrawDots"
 for a workaround.
 
 

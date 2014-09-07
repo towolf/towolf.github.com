@@ -18,7 +18,7 @@ B - linear model for spectral power distributions
  (number-of-wavelengths by n-dimension)
 
 History:
-\30/11/07  Change call to non-existent SPDToLinWgts.m into call to
+30/11/07  Change call to non-existent SPDToLinWgts.m into call to
           FindModelWeights.m, as suggested by Mickey Rowe.         (MK)
 
 

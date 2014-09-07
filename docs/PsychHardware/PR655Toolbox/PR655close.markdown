@@ -10,7 +10,7 @@ PR655close
 
 Exit PR655 Remote Mode, [Close](/docs/Close) serial port, Reset serial global.
 
-\01/16/09    tbc   Adapted from PR650Toolbox for use with PR655
+01/16/09    tbc   Adapted from PR650Toolbox for use with PR655
 
 
 

@@ -20,7 +20,7 @@ memory buffer inside a C Mex-file or C++ Oct-file and
 pass the image data as a memory pointer to Psychtoolbox
 to update or build a Psychtoolbox OpenGL texture from it.
 
-\--\> Injection of images into PTB.
+--> Injection of images into PTB.
 
 The demo will display a simple colorful thingy,
 created in C code and injected as PTB texture.

@@ -37,8 +37,8 @@ accommodate the added port.
 
 BitNumber can be a vector so that you can read multiple bits at once.
 
-\12/xx/07 mpr scavenged code from DaqDIn and converted it to this.
-\1/11/08  mpr  swept through attempting to improve consistency across daq
+12/xx/07 mpr scavenged code from DaqDIn and converted it to this.
+1/11/08  mpr  swept through attempting to improve consistency across daq
                   functions
 
 

@@ -14,7 +14,7 @@ to initialize Psychtoolbox GPU computing support:
 PsychImaging('AddTask', 'General', 'UseGPGPUCompute', 'GPUmat');
 
 Supported 'cmd' commands:
-\-------------------------
+-------------------------
 
 if cmd is zero, then convert an OpenGL object of type glObjType,
 referenced by handle inObj into a GPU object and return it in outObj. If

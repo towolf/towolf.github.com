@@ -51,7 +51,7 @@ RGBA separately.
 'kernel2' == 1D kernel for 2nd pass in separable convolution test.
 
 'imgsize' == Either size of the random noise test image (default =
-\512x512), or a Matlab image matrix to test on.
+512x512), or a Matlab image matrix to test on.
 
 'shadertype' == Vector of mode ids: Tests all modes in the vector. By
 default all shadertypes are tested ie shadertype = [0 1 2 3]. PTB

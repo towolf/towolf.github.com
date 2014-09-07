@@ -53,7 +53,7 @@ element of "clut", i.e. clut(1), will be loaded into hardware entry
 it will be 8 bits, which is the default value. If you set it to
 some other value, the range of allowable entries scales accordingly.
 Thus if you use a 10-bit CLUT, then each entry should be between 0 and
-\1023, etc.
+1023, etc.
 
 # GRAPHICS CARDS WITH MORE-THAN-8-BIT DACS:
 

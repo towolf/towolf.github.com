@@ -47,24 +47,24 @@ Linux allows for display and handling of multiple mouse cursors if your
 X-Server is of version 1.7 or later.
 
 If provided, the optional "type" argument changes the cursor shape to:
-  \0: Arrow
-  \1: I Beam
-  \2: Cross
-  \3: Plus
-  \4: Watch
-  \5: Arrow
-\128: P
-\300: Beachball 1/4
-\301: Beachball 2/4
-\302: Beachball 3/4
-\303: Beachball 4/4
-\400: fat arrow
-\401: fat I Beam
+  0: Arrow
+  1: I Beam
+  2: Cross
+  3: Plus
+  4: Watch
+  5: Arrow
+128: P
+300: Beachball 1/4
+301: Beachball 2/4
+302: Beachball 3/4
+303: Beachball 4/4
+400: fat arrow
+401: fat I Beam
 Type 0 (and 5 for backward compatibility) is predefined as the standard
 arrow cursor. The rest return whatever Apple's GetCursor(type) finds in
 the  System or Matlab's resource forks. If nothing is found, the type is
 reset to 0. The fat arrow and I beam are copied from the "Fat Cursors v
-\1.2" control panel created by Robert Abatecola, 5106 Forest Glen Drive,
+1\.2" control panel created by Robert Abatecola, 5106 Forest Glen Drive,
 San Jose, CA 95129.
 ----
 

@@ -30,7 +30,7 @@ source - source tristimulus vectors
 dest - destination tristimulus vectors
  (n\_chromacy by n\_lights)
 
-\8/2/94      dhb     Fixed bug in optional arg handling.
+8/2/94      dhb     Fixed bug in optional arg handling.
 
 
 <div class="code_header" style="text-align:right;">

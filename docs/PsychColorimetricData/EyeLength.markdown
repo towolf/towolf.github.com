@@ -43,13 +43,13 @@ encoding: UTF-8
  will be returned.  Useful for passing arbitrary numbers through
  routines that rely on this function.
 
- \7/15/03  dhb  Wrote it.
- \2/27/13  dhb  Added 17 mm option
- \3/1/13   dhb  Changed '17' to 'Gulstrand'
+ 7/15/03  dhb  Wrote it.
+ 2/27/13  dhb  Added 17 mm option
+ 3/1/13   dhb  Changed '17' to 'Gulstrand'
           dhb  Added option of passing a number as a string.
- \4/12/13  dhb  Fix bug introduced in previous update, which may have
+ 4/12/13  dhb  Fix bug introduced in previous update, which may have
                been Matlab version dependent.
- \8/9/13   dhb  A few more comments.
+ 8/9/13   dhb  A few more comments.
 
 
 <div class="code_header" style="text-align:right;">

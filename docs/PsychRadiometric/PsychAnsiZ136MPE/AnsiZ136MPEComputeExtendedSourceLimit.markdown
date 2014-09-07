@@ -24,8 +24,8 @@ Set CONELIMITFLAG to false (default true) to skip the asterisked
 alternative computation for the photochemical limit
 desribed in Table 5 (see comments in code).
 
-\2/20/13  dhb  Wrote it.
-\3/2/13   dhb  Make limiting cone angle computation controllable.
+2/20/13  dhb  Wrote it.
+3/2/13   dhb  Make limiting cone angle computation controllable.
 
 
 <div class="code_header" style="text-align:right;">

@@ -21,7 +21,7 @@ sf - Optional scalefactor, by which the image is scaled in size.
 
 # method - Select deinterlace method:
 
-\0 = None. 1 = Replacement of lines, 2 = Averaging of lines.
+0 = None. 1 = Replacement of lines, 2 = Averaging of lines.
 
 See the shader sources under Psychtoolbox/PsychOpenGL/PsychGLSLShaders
 for proper definition of the operations.

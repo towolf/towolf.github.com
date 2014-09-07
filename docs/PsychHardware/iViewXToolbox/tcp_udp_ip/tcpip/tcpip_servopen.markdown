@@ -17,7 +17,7 @@ TCPIP\_SERVOPEN opens a blocking TCPIP server socket.
    port   is the port number of the socket you wish to open.
 
    fid      is the retuned handle to the socket, if successful,
-            \-1 if unsuccessful.
+            -1 if unsuccessful.
 
  This function is obsolete.  It has been replaced with TCPIP\_SERVSOCKET
  and TCPIP\_LISTEN.  It is only included for backward compatibility.

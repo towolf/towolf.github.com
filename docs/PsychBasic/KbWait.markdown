@@ -49,8 +49,8 @@ via:
  KbWait([], 2);
 
 If you would set 'forWhat' to 3 then it would wait for releasing the key
-after pressing it againg, ie. waitForAllKeysReleased -\> waitForKeypress
-\-\> waitForAllKeysReleased -\> Return [secs, keyCode] of the key press.
+after pressing it againg, ie. waitForAllKeysReleased -> waitForKeypress
+-> waitForAllKeysReleased -> Return [secs, keyCode] of the key press.
 
 
 # OSX and Linux

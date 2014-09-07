@@ -42,11 +42,11 @@ function GetTicks to read the system tick count.
 
 See also: GetTicks, GetSecs, WaitSecs.
 
-\6/14/95 dhb  Added to help.
-\1/29/97 dhb  More comments.
-\3/15/97 dgp  Expanded comments.
-\3/15/99 xmz  Put in conditional for Windows.
-\2/12/04 awi  Added the OS X case.  Fixed the Windows case so that it
+6/14/95 dhb  Added to help.
+1/29/97 dhb  More comments.
+3/15/97 dgp  Expanded comments.
+3/15/99 xmz  Put in conditional for Windows.
+2/12/04 awi  Added the OS X case.  Fixed the Windows case so that it
              waits an integer number of ticks.  Simplified platform test
              expressions.  Added test for unfamiliar platform.  Added OS X
              section to comments.

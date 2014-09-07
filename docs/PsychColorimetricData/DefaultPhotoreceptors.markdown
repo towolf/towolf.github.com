@@ -25,15 +25,15 @@ NOTES: Should probably update the parameters for LivingHumanFovea so that
 they produce the Stockman-Sharpe fundamentals.  This should be pretty
 straightforward, now that all the pieces are implemented as via ComputeCIEConeFundamentals.
 
-\7/25/03  dhb  Wrote it.
-\12/04/07 dhb  Added dog parameters
-\8/14/11  dhb  Added fieldSizeDegrees and ageInYears fields to photoreceptors for LivingHumanFovea case.
+7/25/03  dhb  Wrote it.
+12/04/07 dhb  Added dog parameters
+8/14/11  dhb  Added fieldSizeDegrees and ageInYears fields to photoreceptors for LivingHumanFovea case.
               These defaults match the CIE standard.
-\4/20/12  dhb  Add LivingHumanMelanopsin
-\5/10/12  dhb  Changed name for LivingHumanMelanopsin to postpend Tsujimura2010
-\8/12/13  dhb  Change field order to make printouts look nicer.
-\11/13/13 dhb  Add 'LivingHumanRod' and 'LivingHumanMelanopsin' options.
-\5/26/14  dhb  Add pupilDimater.value = [] to fix FillInPhotoreceptors.
+4/20/12  dhb  Add LivingHumanMelanopsin
+5/10/12  dhb  Changed name for LivingHumanMelanopsin to postpend Tsujimura2010
+8/12/13  dhb  Change field order to make printouts look nicer.
+11/13/13 dhb  Add 'LivingHumanRod' and 'LivingHumanMelanopsin' options.
+5/26/14  dhb  Add pupilDimater.value = [] to fix FillInPhotoreceptors.
 
 
 <div class="code_header" style="text-align:right;">

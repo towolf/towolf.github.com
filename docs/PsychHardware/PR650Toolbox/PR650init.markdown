@@ -15,7 +15,7 @@ Returns whatever character is sent by colorimeter
 handshaking is disabled.  To enable handshaking, set this value to 1 or
 true.
 
-\11/26/07    mpr   added timeout if nothing is returned within 10 seconds.
+11/26/07    mpr   added timeout if nothing is returned within 10 seconds.
 
 In my experience, calling this function directly leads to poor performance
 (usually no communication is ever established).  You should find the function

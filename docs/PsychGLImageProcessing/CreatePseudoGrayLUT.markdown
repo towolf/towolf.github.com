@@ -14,7 +14,7 @@ formatter of the Psychtoolbox imaging pipeline. This is a helper function
 for PsychImaging(), usually not directly called by user code.
 
 This will setup the pipeline for output of luminance images with about
-\1786 different levels of perceived luminance on a standard 8 bits per
+1786 different levels of perceived luminance on a standard 8 bits per
 color channel RGB framebuffer of a standard graphics card.
 
 # Usage:
@@ -53,7 +53,7 @@ framebuffer driver. See "help PsychImaging" for an overview and usage.
 The LUT encoding used here is based solely on the algorithm described at
 this webpage by Richard W. Franzen:
 
-<http://r0k.us/graphics/pseudoGrey.html\>
+<http://r0k.us/graphics/pseudoGrey.html>
 
 The webpage refers to multiple different sources of this type of
 algorithm, apparently the principle was described by multiple independent

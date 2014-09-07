@@ -24,7 +24,7 @@ block (scalar) - enable (1, default) or disable (0) blocking writes
 Outputs:
 Refer to [IOPort](/docs/IOPort) Write?
 
-\11/29/12    zlb   Wrote it.
+11/29/12    zlb   Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

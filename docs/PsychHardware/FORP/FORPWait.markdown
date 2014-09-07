@@ -48,13 +48,13 @@ time (EventTime) of the status check.
           Visual Processing Lab
           Universitaets - Augenklinik Magdeburg
           Leipziger Strasse 44
-          \39120 Magdeburg
+          39120 Magdeburg
           Tel:    0049 (0)391 67 21723
           Email:  vincentdhs@gmx.de
 
 
-   \09/10/06   fs   Wrote it.
-   \19/10/06   fs   Added some further improvements suggested by Mario
+   09/10/06   fs   Wrote it.
+   19/10/06   fs   Added some further improvements suggested by Mario
                    Kleiner.
 
 

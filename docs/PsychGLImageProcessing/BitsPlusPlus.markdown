@@ -62,7 +62,7 @@ value, whereas 'data' must be a a 248 element row vector of bytes.
 Consult your Bits++ manual for explanation of the meaning of the values.
 
 xpos and ypos are optional: By default, the T-Lock code is drawn into the
-\3rd pixel row of the output image, so it can't collide with a potential
+3rd pixel row of the output image, so it can't collide with a potential
 T-Lock code for CLUT updates.
 
 The DIO command will become effective during the next flip command. The
@@ -99,7 +99,7 @@ graphics hardware will be loaded with an identity gamma table, so the
 T-Lock system of Bits++ works and Bits++ can accept commmands embedded
 into the stimulus images. Psychtoolbox will automatically embed a T-Lock
 control line into the top line of the display screen, which encodes the
-\256 entry, 14 bit per color channel CLUT to use for Bits++ display mode.
+256 entry, 14 bit per color channel CLUT to use for Bits++ display mode.
 You can change the Bits++ CLUT at any time via the standard PTB
 [Screen](/docs/Screen)('LoadNormalizedGammaTable', win, newclut, 2); command. The
 'newclut' will get uploaded to the Bits++ at the next invocation of
@@ -117,9 +117,9 @@ This mode works on any OpenGL graphics hardware.
 
 This will open an onscreen window on Bits++ screen 'screenid' for display
 of pure luminance (grayscale) images. The framebuffer has a resolution of
-\32 bit floating point precision by default: This means that pixel luminance
+32 bit floating point precision by default: This means that pixel luminance
 values have to be specified as floating point numbers between 0.0 and
-\1.0. 0.0 maps to black (Output intensity 0 on Bits++ device). 1.0 maps to
+1\.0. 0.0 maps to black (Output intensity 0 on Bits++ device). 1.0 maps to
 white (Maximum output intensity 16383 on Bits++ device). The intensity
 range between 0.0 and 1.0 is internally represented and processed by
 Psychtoolbox with a resolution 23 bits, i.e. over 8 million levels of
@@ -135,7 +135,7 @@ overlay plane of Bits++ gets enabled and an additional overlay window is
 created for drawing the image for that overlay plane.
 
 [overlaywin, overlaywinRect] = BitsPlusPlus('GetOverlayWindow', win);
-\- Will return the handle to the 'overlaywin'dow associated with the
+- Will return the handle to the 'overlaywin'dow associated with the
 onscreen luminance window:
 
   'overlayWin' is the handle to the overlay window associated with the
@@ -169,8 +169,8 @@ of 14 bit per color component 42bpp color images. The framebuffer has
 a resolution of 32 bit floating point precision for each color component
 by default: This means that (Red, Green, Blue) color pixel component
 values have to be specified as floating point numbers between 0.0 and
-\1.0. 0.0 maps to minimum output intensity on Bits++ device for a channel.
-\1.0 maps to maximum output intensity 16383 on Bits++ device for a channel.
+1\.0. 0.0 maps to minimum output intensity on Bits++ device for a channel.
+1\.0 maps to maximum output intensity 16383 on Bits++ device for a channel.
 The color intensity range between 0.0 and 1.0 is internally represented and
 processed by Psychtoolbox with an effective resolution of about 23 bits,
 i.e. over 8 million levels of color per color channel. The Bits++ can resolve
@@ -196,7 +196,7 @@ mode = BitsPlusPlus('GetColorConversionMode', win);
 # Notes for both Mono++ and Color++ mode:
 
 In Mono++ and Color++ mode, PTB expects color values in the range 0.0 to
-\1.0 instead of the (otherwise usual) range 0 to 255. The range 0.0-1.0
+1\.0 instead of the (otherwise usual) range 0 to 255. The range 0.0-1.0
 is a more natural fit for high dynamic range/precision output devices than
 the 0-255 range with its strong ties to 8 bpc output devices. 0-1 is also
 the "natural" native color range of OpenGL, so colors in this range can
@@ -213,7 +213,7 @@ any images delivered by the Quicktime movie playback engine or the video
 capture engine. If you want to provide high dynamic range, high color
 depths images, please specify them as Matlab double matrices to
 [Screen](/docs/Screen)('MakeTexture') and set the optional flag 'floatprecision' to 1 or
-\2, i.e., hdrtex = [Screen](/docs/Screen)('MakeTexture', win, myHDRImage, [], [], 2);
+2, i.e., hdrtex = [Screen](/docs/Screen)('MakeTexture', win, myHDRImage, [], [], 2);
 
 Psychtoolbox will represent such images with an internal precision of 10
 bits + 1 bit sign if you choose the 'floatprecision' flag to be 1. If you
@@ -236,7 +236,7 @@ alpha-blending on older/other hardware then specify the optional flag
 effective accuracy of the framebuffer to 10 bit precision, but allow for
 fast alpha-blending. 10 Bit precision are 4 bits less than the 14 bits
 that Bits++ can provide, but it will be possible to use the extra 14-10 =
-\4 bits for gamma correction of the display by employing a gamma
+4 bits for gamma correction of the display by employing a gamma
 correction shader.
 
 # Gamma- and color correction:
@@ -258,7 +258,7 @@ and NVidia Geforce-7800 hardware as well.
 All Bits++ modes supported by this function should work Plug & Play,
 requiring no changes to your stimulus code other than mentioned here to
 take full advantage of all functionality of Psychtoolbox just as with standard
-\8 bpc displays at the higher 14 bpc quality of Bits++. If you find this
+8 bpc displays at the higher 14 bpc quality of Bits++. If you find this
 not to be the case then it's either an omission in our documentation
 or a bug - Please report it.
 
@@ -281,7 +281,7 @@ serial port for communication.
 
 
 rc = BitsPlusPlus('OpenBits#' [, portSpec]);
-\-- Open a serial port control connection to a connected Bits# device.
+-- Open a serial port control connection to a connected Bits# device.
 The 'portSpec' parameter is optional and defines the name of the serial
 port(-device file) to use for the connection. If omitted, the name will
 be taken from a configuration file, or auto-detected. This function must
@@ -292,30 +292,30 @@ increment a reference count of clients to the device.
 
 
 rc = BitsPlusPlus('[Close](/docs/Close)');
-\-- Decrement reference count to a Bits# device, close the serial connection
+-- Decrement reference count to a Bits# device, close the serial connection
 to it once the count drops to zero, ie., as soon as nobody is using the
 connection anymore.
 
 
 rc = BitsPlusPlus('ResetOnWindowClose');
-\-- Like '[Close](/docs/Close)', but switch display back to Bits++ video mode first, as
+-- Like '[Close](/docs/Close)', but switch display back to Bits++ video mode first, as
 that mode is "GUI friendly". Usually automatically called from [Screen](/docs/Screen)()
 when the Bits# stimulation onscreen window gets closed, at least if you
 used PsychImaging() to control the device.
 
 
 rc = BitsPlusPlus('CheckGPUSanity', window, xoffset [, injectFault=0]);
-\-- Perform online-test of GPU identity gamma tables and DVI-D display
+-- Perform online-test of GPU identity gamma tables and DVI-D display
 encoders. Try to correct problems with wrong identity gamma tables and at
 least detect problems with (spatio-)temporal display dithering. Returns
-rc == 0 on full success, rc \> 0 on failure.
+rc == 0 on full success, rc > 0 on failure.
 If the optional 'injectFault' parameter is set to 1, then an intentionally
 perturbed gamma table is loaded into the gpu to test how well the gamma table
 tweaking code is able to recover from wrong tables.
 
 
 pixels = BitsPlusPlus('GetVideoLine', nrPixels, scanline);
-\-- Return the first (left-most) 'nrPixels' pixels in video scanline
+-- Return the first (left-most) 'nrPixels' pixels in video scanline
 'scanline' of the video display driven by a Bits# device. 'pixels' is
 a uint8 matrix with three rows for red, green and blue pixel color values,
 and 'nrPixels' columns, the three elements of each column encoding the
@@ -326,23 +326,23 @@ received over the DVI-D link.
 
 
 BitsPlusPlus('SwitchToBits++');
-\-- Switch Bits# to Bits++ mode.
+-- Switch Bits# to Bits++ mode.
 
 
 BitsPlusPlus('SwitchToMono++');
-\-- Switch Bits# to Mono++ mode.
+-- Switch Bits# to Mono++ mode.
 
 
 BitsPlusPlus('SwitchToColor++');
-\-- Switch Bits# to Color++ mode.
+-- Switch Bits# to Color++ mode.
 
 
 BitsPlusPlus('SwitchToStatusScreen');
-\-- Switch Bits# to Status screen display.
+-- Switch Bits# to Status screen display.
 
 
 BitsPlusPlus('MassStorageMode');
-\-- Switch Bits# to MassStorageMode. This will forcefully close allow
+-- Switch Bits# to MassStorageMode. This will forcefully close allow
 client connections to the device, close the USB serial port connection
 and close the driver. The Bits# will report into USB mass storage mode,
 where it can get accessed like a USB flash drive, e.g., to edit configuration

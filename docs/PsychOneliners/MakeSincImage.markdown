@@ -15,8 +15,8 @@ The sinc function has cut-off frequency freq
 The image has dimensions nRowPixels by nColPixels.
 If nColPixels is omitted, a square image is returned.
 
-\8/15/94     dhb     Added optional column pixels argument.
-\10/28/98    dhb     Change to call Matlab sinc rather than my Sinc.
+8/15/94     dhb     Added optional column pixels argument.
+10/28/98    dhb     Change to call Matlab sinc rather than my Sinc.
 
 
 <div class="code_header" style="text-align:right;">

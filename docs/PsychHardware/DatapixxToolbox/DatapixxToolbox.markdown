@@ -20,9 +20,9 @@ See http://www.vpixx.com/datasheets/ds\_datapixx.pdf for more info.
     \* Receives DVI input from laptop or PC
     \* Transmits dual synchronized VGA outputs with 16-bit video DACs
     \* 16 channels of 16-bit analog inputs simultaneously sampled at up to
-      \200 kHz per channel.
+      200 kHz per channel.
     \* 4 channels of 16-bit analog outputs simultaneously updated at up to
-      \1 MHz per channel.
+      1 MHz per channel.
     \* Stereo audio inputs/outputs, sampled at up to 96 kHz.
     \* 24 TTL inputs with timetagged transitions.
     \* 24 TTL outputs

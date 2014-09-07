@@ -22,7 +22,7 @@ see Luc Devroye. Non-Uniform Random Variate Generation. New York:
 Springer-Verlag, 1986. Chapter 2
 (http://cg.scs.carleton.ca/~luc/chapter\_two.pdf)
 compile following in latex to see full derivation:
-\----
+----
 \\documentclass[12pt,a4paper]{minimal}
 \\usepackage{amsmath}        % math
 
@@ -53,7 +53,7 @@ with
 for the linear distribution between \\(z\_1\\) and \\(z\_2\\).
 
 \\end{document}
-\----
+----
 
 
 <div class="code_header" style="text-align:right;">

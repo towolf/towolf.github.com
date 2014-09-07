@@ -10,7 +10,7 @@ encoding: UTF-8
 
 Returns the rect's width and height.
 
-\10/10/2000 fwc wrote it based on PsychToolbox RectHeight/RectWidth
+10/10/2000 fwc wrote it based on PsychToolbox RectHeight/RectWidth
 
 
 <div class="code_header" style="text-align:right;">

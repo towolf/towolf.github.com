@@ -48,12 +48,12 @@ displayed first after flip, left- or right. However this is a software
 trick which needs calibration. To test if the trick works on your setup,
 do the following:
 
-\1. Wait until color of the display settles to either red or green.
-\2. If its green, press the 'g' key, if its red, press the 'r' key.
-\3. After a short period, the display should settle to a nice green,
+1\. Wait until color of the display settles to either red or green.
+2\. If its green, press the 'g' key, if its red, press the 'r' key.
+3\. After a short period, the display should settle to a nice green,
 indicating that the trick works, and PTB should write 'GREEN' to the
 Matlab window.
-\4. If the display doesn't stabilize to green, but at least the output of
+4\. If the display doesn't stabilize to green, but at least the output of
 the Matlab window corresponds with your percept (GREEN for green, RED for
 red) then that means that your system has very noisy timing.
 

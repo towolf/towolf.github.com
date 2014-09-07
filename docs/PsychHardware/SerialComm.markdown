@@ -9,7 +9,7 @@ encoding: UTF-8
 SerialComm -- Serial port interface for OSX
 
 CAUTION: SerialComm() is deprecated! Not supported on Linux, Windows or
-\64-Bit versions of Psychtoolbox for OSX, totally unsupported by us. Use
+64-Bit versions of Psychtoolbox for OSX, totally unsupported by us. Use
 [IOPort](/docs/IOPort)() instead as a future-proof, much more capable cross-platform
 solution.
 

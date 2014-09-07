@@ -49,10 +49,10 @@ encoding: UTF-8
  The fieldSizeDegrees argument is ignored for sources other than
  CIE.
 
- \7/11/03  dhb  Wrote it.
- \8/12/11  dhb  Added CIE source, and allow passing of fieldSizeDegrees.
- \4/20/12  dhb  Add Tsujimura's estimate of melanopsin optical density in human.
- \12/16/12 dhb, ms Add Alpern's rod estimates from CVRL table.
+ 7/11/03  dhb  Wrote it.
+ 8/12/11  dhb  Added CIE source, and allow passing of fieldSizeDegrees.
+ 4/20/12  dhb  Add Tsujimura's estimate of melanopsin optical density in human.
+ 12/16/12 dhb, ms Add Alpern's rod estimates from CVRL table.
 
 
 <div class="code_header" style="text-align:right;">

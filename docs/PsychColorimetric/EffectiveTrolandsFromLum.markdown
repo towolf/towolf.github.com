@@ -29,8 +29,8 @@ encoding: UTF-8
 
  The agreement between the two methods is not spectacular.  See PupilDiameterTest.
 
- \5/8/99  dhb  Wrote it.
- \7/11/03 dhb  More general method naming.
+ 5/8/99  dhb  Wrote it.
+ 7/11/03 dhb  More general method naming.
 
 
 <div class="code_header" style="text-align:right;">

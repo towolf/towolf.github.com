@@ -26,7 +26,7 @@ libraries and config files into this folder and you should be ready
 to use your display with PTB.
 
 Dependencies on DLL libraries and other files on M$-Windows:
-\------------------------------------------------------------
+------------------------------------------------------------
 
 You must have the following libraries somewhere in your systems
 library search path, either by putting them into the subfolder

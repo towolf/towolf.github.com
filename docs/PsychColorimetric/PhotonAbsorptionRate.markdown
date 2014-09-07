@@ -26,12 +26,12 @@ encoding: UTF-8
    absorptanceSpectra: probability an incident quantum will be absorbed.
    collectingDiameter (um^2)
 
- \05/06/03   lyin Wrote it
- \06/12/03   lyin Change the way variable being passed.
- \06/26/03  dhb  Change computation of area to pi\*r^2 rather than pi\*d^2!
- \06/26/03  dhb  Change to expect absorptanceSpectra and collectingDiameter in rows.
- \7/08/03   dhb  Cosmetic.
- \7/09/03   dhb  Take input in quantal units.
+ 05/06/03   lyin Wrote it
+ 06/12/03   lyin Change the way variable being passed.
+ 06/26/03  dhb  Change computation of area to pi\*r^2 rather than pi\*d^2!
+ 06/26/03  dhb  Change to expect absorptanceSpectra and collectingDiameter in rows.
+ 7/08/03   dhb  Cosmetic.
+ 7/09/03   dhb  Take input in quantal units.
 
 
 <div class="code_header" style="text-align:right;">

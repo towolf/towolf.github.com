@@ -13,7 +13,7 @@ uniformly spaced from about -1 to 1 of Nyquist frequency (see
 FREQSPACE). fLow and fHigh are the radial cut-off frequencies on this
 scale. The filter has gain 1 in the frequency interval [fLow,fHigh], and
 gain 0 outside it. Add EPS to create complementary filters that add to
-\1, e.g.
+1, e.g.
     Bandpass2(n,0,f)+Bandpass2(n,f+eps,1)==Bandpass2(n,0,1)
 For circular symmetry make fHigh<=1. Setting fLow=0 and fHigh=Inf will
 produce an all-pass filter. Here's a typical use, to produce bandpass

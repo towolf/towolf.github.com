@@ -11,7 +11,7 @@ QuestTest.m
 Created by hacking a copy of QuestDemo.m, in order to
 do some simulations for Beau Watson.
 
-\128 repetitions of each condition
+128 repetitions of each condition
 Quest assumes LogWeibull psychometric function with parameters:
 beta = {1.5, 2., 2.5, 3., 3.5, 4., 4.5, 5., 5.5} (in separate conditions)
 gamma = 0.03
@@ -52,7 +52,7 @@ method. Percept Psychophys, 33 (2), 113-20.
 
 Copyright (c) 1996-1997 Denis G. Pelli
 
-\6/24/97  dgp    wrote it, based on QuestDemo.m
+6/24/97  dgp    wrote it, based on QuestDemo.m
 
 
 <div class="code_header" style="text-align:right;">

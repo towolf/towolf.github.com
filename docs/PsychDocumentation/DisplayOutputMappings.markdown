@@ -30,8 +30,8 @@ hardware, operating system and display setup, the wiring can change
 dynamically.
 
 You can find more technical details at the following links if you are
-interested: <http://www.botchco.com/agd5f/?p=51\> for AMD/ATI hardware,
-and <http://virtuousgeek.org/blog/index.php/jbarnes/2011/01/\> for Intel
+interested: <http://www.botchco.com/agd5f/?p=51> for AMD/ATI hardware,
+and <http://virtuousgeek.org/blog/index.php/jbarnes/2011/01/> for Intel
 hardware.
 
 
@@ -46,10 +46,10 @@ given display, causing the kind of malfunctions, warnings and errors
 messages that brought you to this help text. To fix such problems you
 need to help [Screen](/docs/Screen)() in one of multiple different ways:
 
-\1. On MS-Windows, try to update your graphics driver in the hope that
+1\. On MS-Windows, try to update your graphics driver in the hope that
    this fixes the problem. Don't forget to reboot!
 
-\2. If this doesn't help, or if you are on Linux or OS/X, try to replug
+2\. If this doesn't help, or if you are on Linux or OS/X, try to replug
    the displays into different video output connectors on your computer.
    E.g., on a single monitor setup, plug the monitor into the other video
    output connector. On a dual-display setup, exchange which monitor is
@@ -57,7 +57,7 @@ need to help [Screen](/docs/Screen)() in one of multiple different ways:
    match the expectations of [Screen](/docs/Screen)(). Don't forget to restart Matlab or
    Octave after the change.
 
-\3. If 2. doesn't help or is infeasible or problematic, you can also tell
+3\. If 2. doesn't help or is infeasible or problematic, you can also tell
    [Screen](/docs/Screen)() about the true wiring by adding the command
    [Screen](/docs/Screen)('[Preference](/docs/Preference)', 'ScreenToHead', screen, head, crtc[, rank]); to the
    top of your script, before other [Screen](/docs/Screen)() commmands:
@@ -78,7 +78,7 @@ need to help [Screen](/docs/Screen)() in one of multiple different ways:
    'rank' parameter as well on multi-display setups with multiple
    monitors per Psychtoolbox screen.
 
-\4. If you have a multi-GPU setup, ie., multiple graphics cards installed
+4\. If you have a multi-GPU setup, ie., multiple graphics cards installed
    and active at the same time, then [Screen](/docs/Screen)() low-level functions may not
    work. More precisely, they will not work at all on MS-Windows. On
    Apple OS/X or on Linux you can make them work on exactly one GPU, the

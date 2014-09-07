@@ -12,7 +12,7 @@ Purpose: Measure output of calibration pin to provide calibration of the
           input "AnalogChannel" on the device "DeviceID".
 
 History:  1/10/08   mpr   decided to calibrate good times come on!
-          \3/5/08    mpr   fixed bug exposed when preference file doesn't exist
+          3/5/08    mpr   fixed bug exposed when preference file doesn't exist
 
 This function was written for the USB-1608FS.  It could be easily modified for
 a 1208FS, but since there are only two levels of the output on that device it
@@ -27,7 +27,7 @@ Default channel is 0, and if no argument is passed for DeviceID, DaqFind will
 be run to see if you have only one device.  -- mpr
 
 To calibrate a channel, connect the appropriate pin(s) to pin 17.  For channel
-\0, you want pin 1 to pin 17, for channel 1, pin 3 to pin 17, for channel 2,
+0, you want pin 1 to pin 17, for channel 1, pin 3 to pin 17, for channel 2,
 pin 5 to... you probably see the pattern...
 
 

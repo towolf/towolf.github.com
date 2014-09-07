@@ -31,7 +31,7 @@ texture using [Screen](/docs/Screen)('MakeTexture'), then provides this texture 
 standard OpenGL compatible texture using [Screen](/docs/Screen)('GetOpenGLTexture').
 This standard texture is applied to a sphere using standard OpenGL commands
 and finally the sphere is drawn as a rotating object in a simple animation
-loop. --\> You'll see a rotating earth.
+loop. --> You'll see a rotating earth.
 
 Stop the demo by pressing any key and it will finish.
 

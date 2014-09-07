@@ -12,7 +12,7 @@ Convert XYZ (10 degree) to OSA Ljg coordinates.  Formulae
 derived from MacAdam (1974, JOSA, 64, pp. 1691-1702).  Note that
 MacAdam's formulae are in error for the case Y0 less than 30.  The
 correct formulae may be deduced by examing Semelroth's (JOSA, 1970, 16,
-\1685-1689) Eqn. 3, from which MacAdam's incomplete Eqn. 1 is derived.
+1685-1689) Eqn. 3, from which MacAdam's incomplete Eqn. 1 is derived.
 
 Note that the above problem is propogated into the formulae
 reported in Wyszecki and Stiles, 2cd edition.  In addition, W+S
@@ -30,8 +30,8 @@ The output of this routine was verified against the tabulated
 values in W+S, Table I(6.6.4).  These are republished from
 MacAdam (1978, JOSA, 68, 121-130).  See TestOSAUCS.
 
-\3/27/01  dhb  Wrote it.
-\7/14/10  dhb  Added comment that the formulae in my chapter have a typo.
+3/27/01  dhb  Wrote it.
+7/14/10  dhb  Added comment that the formulae in my chapter have a typo.
               The code here is and was correct.
 
 

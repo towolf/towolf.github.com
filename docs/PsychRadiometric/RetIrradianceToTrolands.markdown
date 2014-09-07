@@ -20,8 +20,8 @@ Input variables: irradianceWatts - retinal irradiance in watts/um2-wlinterval.
                  species, source - passed directly to EyeLength to determine length of eye in mm.
                     These values inherit the default behaviors of EyeLength.
 
-\07/18/03  dhb  Wrote it.
-\04/09/12  dhb  Debug.  This was apparently never quite finished.
+07/18/03  dhb  Wrote it.
+04/09/12  dhb  Debug.  This was apparently never quite finished.
                Improve comments.
 
 

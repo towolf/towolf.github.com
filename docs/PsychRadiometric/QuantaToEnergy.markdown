@@ -19,8 +19,8 @@ passed as the columns of the matrix quanta.  The
 wavelengths corresponding to each row are passed in
 the column vector wls.
 
-\7/29/96  dhb  Added comment.
-\8/16/96  dhb, abp  Modified interface.
+7/29/96  dhb  Added comment.
+8/16/96  dhb, abp  Modified interface.
 
 
 <div class="code_header" style="text-align:right;">

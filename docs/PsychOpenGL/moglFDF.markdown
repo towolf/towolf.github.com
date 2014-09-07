@@ -15,7 +15,7 @@ behaviour, although not identical in implementation - the algorithm
 proposed by Jedediah M. Singer and David L. Sheinberg in their
 Journal of Vision paper "A method for the real-time rendering of
 formless dot field structure-from-motion stimuli" (Journal of Vision, 8,
-\1-8)
+1-8)
 
 This algorithm takes the idea of the above mentioned paper and pushes it
 one step further by moving nearly all stimulus computation onto the GPU.
@@ -55,9 +55,9 @@ Subcommands, their syntax & meaning:
 \====================================
 
 [oldflag, oldgain] = moglFDF('DebugFlag', flag [, debugGain]);
-\- Set debug flag to value 'flag'. Default is zero. Non-zero values enable
+- Set debug flag to value 'flag'. Default is zero. Non-zero values enable
 different visualizations that may aid debugging non-working setups.
-\1 = Show silhouette buffer, 2 = Show trackbuffer, 3 = Show random noise
+1 = Show silhouette buffer, 2 = Show trackbuffer, 3 = Show random noise
 sampling texture, 4 = Show sampleBuffer, 5 = Show FGDots buffer. A
 setting of -1 shows the real rendered image, instead of the random dot
 visualization. A value of -2 disables any kind of textual warnings.
@@ -69,7 +69,7 @@ outside the standard displayable range between zero and one.
 
 
 context = moglFDF('CreateContext', window, rect, texCoordMin, texCoordMax, texResolution, maxFGDots, maxBGDots, dotLifetime [,zThreshold=Off] [,BGSilhouetteAcceptanceProbability=0.0]);
-\- Create a "rendercontext" for a single 3D object. Returns a 'context'
+- Create a "rendercontext" for a single 3D object. Returns a 'context'
 handle to it which needs to be passed in to all other functions as
 reference. All following parameters are required and don't have any
 defaults:
@@ -110,7 +110,7 @@ cycles. Each dot is replace by a new random sample after that many
 invocations of the 'Update' function.
 
 'zThreshold' Optional zThreshold for occlusion test: By default, it is
-\10.0 ie. occlusion test disabled. A value between 0.0 and 1.0 will enable
+10\.0 ie. occlusion test disabled. A value between 0.0 and 1.0 will enable
 occlusion testing -- Dots that would correspond to occluded surfaces are
 not drawn. Small numbers (close to zero) make the test more sensitive but
 can cause artifacts due to internal numeric roundoff errors. Bigger
@@ -134,7 +134,7 @@ maxFGDots = (1 - BGSilhouetteAcceptanceProbability) \* maxBGDots;
 
 
 context = moglFDF('SetRenderCallback', context, callbackEvalString);
-\- Define the 'eval' string for this context to be used as rendercallback.
+- Define the 'eval' string for this context to be used as rendercallback.
 Pass in a Matlab command string (for evaluation via eval() function in the
 Workspace of the calling function). This string is called/executed during
 each 'Update' cycle. It has to contain the code that performs the actual
@@ -148,7 +148,7 @@ it would be a waste of computation time.
 
 
 context = moglFDF('ReinitContext', context, rect, texCoordMin, texCoordMax, texResolution, maxFGDots, maxBGDots, dotLifetime [,zThreshold=Off] [,BGSilhouetteAcceptanceProbability=0.0]);
-\- Reinitialize an already existing context with new stimulus parameters.
+- Reinitialize an already existing context with new stimulus parameters.
 The parameters are identical to the ones in 'CreateContext', except for
 the first one: You don't pass a windowhandle of a parent window, as this
 stays the same for the reinitialized context. Instead you pass the handle
@@ -161,11 +161,11 @@ than a full destroy & recreate operation.
 
 
 context = moglFDF('DestroyContext', context);
-\- Destroy a processing context, release all of its ressources.
+- Destroy a processing context, release all of its ressources.
 
 
 context = moglFDF('ResetState', context);
-\- Reset processing contexts state to initial state, just as if it was
+- Reset processing contexts state to initial state, just as if it was
 just created. Useful at start of a new trial. Another way to start a new
 trial, but with a full distribution already initialized, is to use the
 moglFDF('Update') call with the 'instantOn' flag set to 1 for the first
@@ -173,7 +173,7 @@ iteration of your stimulus loop, instead of the default of zero.
 
 
 context = moglFDF('SetColorTexture', context, textureId, textureTarget);
-\- Assign a regular color texture map with handle 'textureId' and texture
+- Assign a regular color texture map with handle 'textureId' and texture
 mapping target 'textureTarget' to 'context'. This will enable assignment
 of colors to drawn 2D dots (in moglFDF('Render',...);) and fetch the
 relevant per-dot colors from the assigned texture map 'textureId'.
@@ -183,7 +183,7 @@ Texture mapping is disabled by default, i.e. at context creation time.
 
 
 context = moglFDF('SetDrawShader', context, fgShaderId [, bgShaderId] [, needSprites]);
-\- Assign a GLSL shader with handle 'fgShaderId' during 2D drawing of
+- Assign a GLSL shader with handle 'fgShaderId' during 2D drawing of
 foreground dots in moglFDF('Render',...); Passing a 'fgShaderId' which is
 empty or negative disables shading. Shading is disabled by default.
 
@@ -202,7 +202,7 @@ anti-aliased dots in conjunction with fragment shaders.
 
 
 context = moglFDF('Update', context [, instantOn=0]);
-\- Perform an 'update' cycle for given context. A new "3D frame" is rendered
+- Perform an 'update' cycle for given context. A new "3D frame" is rendered
 via the rendercallback function, then analysed, resampled etc. to create
 a new complete distribution of 2D random dots, ready for drawing or
 readback. If the optional 'instantOn' flag is provided and non-zero, then
@@ -213,7 +213,7 @@ work.
 
 
 context = moglFDF('Render', context [, targetWindow] [, drawSpec=[1,1]]);
-\- Render current 2D random dot cloud (as defined by processing of last
+- Render current 2D random dot cloud (as defined by processing of last
 'Update' call) quickly and efficiently into window 'targetWindow'.
 'targetWindow' can be any onscreen- or offscreen window and is allowed to
 change at each invocation of 'Render'. By default, the 'window' from the

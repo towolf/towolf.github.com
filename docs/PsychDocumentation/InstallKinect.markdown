@@ -9,25 +9,25 @@ encoding: UTF-8
 InstallKinect - Kinect driver installation instructions.
 
 MS-Windows:
-\-----------
+-----------
 
 Psychtoolbox on Windows currently only supports the original XBOX-360 Kinect,
 not the more recent versions of "Kinect for Windows". Use GNU/Linux if you want
 to use those.
 
-\1. Unzip the file Psychtoolbox/PsychContributed/Kinect-v16-WindowsDrivers.zip
+1\. Unzip the file Psychtoolbox/PsychContributed/Kinect-v16-WindowsDrivers.zip
    into a temporary folder, e.g., C:\\tmp\\KinectDrivers.
 
-\2. Plug in your Kinect box into a USB port via the interface cable.
+2\. Plug in your Kinect box into a USB port via the interface cable.
 
-\3. The Windows hardware setup assistant will start, tell you about new
+3\. The Windows hardware setup assistant will start, tell you about new
    detected hardware and ask you for drivers. Say "No" to the
    "automatically search for drivers" option, but select to "provide your
    own drivers". In the next tab, select "browse for drivers", and then
    select the temporary folder with the unzipped file (from step 1) as
    driver folder. Press ok.
 
-\4. The driver will be installed from the zip file, the device manager
+4\. The driver will be installed from the zip file, the device manager
    will notifiy you of the new device, then prompt you for installation
    of another device. Repeat the same procedure from step 3 until no more
    devices need to be installed. This procedure will repeat three to four
@@ -35,13 +35,13 @@ to use those.
    multiple separate devices (Video camera, Audio soundcard and
    Kinect motor).
 
-\5. The setup assistant will tell you that your new device is fully
+5\. The setup assistant will tell you that your new device is fully
    operational. Quit the assistant.
 
-\6. Unplug the Kinect, wait a few seconds, plug it in again, just to be
+6\. Unplug the Kinect, wait a few seconds, plug it in again, just to be
    sure it is correctly detected.
 
-\7. Now you can start Matlab or Octave and use the Kinect! Try KinectDemo
+7\. Now you can start Matlab or Octave and use the Kinect! Try KinectDemo
    and Kinect3DDemo for a start, then delve into your own Kinect adventures.
 
 The current Kinect low level drivers are still early prototypes, so
@@ -49,14 +49,14 @@ expect occassional bugs or weird behaviour.
 
 
 GNU/Linux:
-\----------
+----------
 
 If you use the Psychtoolbox distribution provided by the NeuroDebian
 project (http://neuro.debian.net) there's nothing to do. It should "just
 work(tm)", well almost: Skip to step 2. Otherwise the following step 1
 is required:
 
-\1. If you have Ubuntu Linux 10.04 LTS or later installed, open a terminal
+1\. If you have Ubuntu Linux 10.04 LTS or later installed, open a terminal
 window and type this sequence of commands, providing your administrator
 password as requested. (Same procedure for Debian 4.0 or later)
 
@@ -65,7 +65,7 @@ password as requested. (Same procedure for Debian 4.0 or later)
    b) sudo apt-get update
    c) sudo apt-get install freenect
    d) sudo adduser YOURNAME video
-      \--\> (YOURNAME) is your user login name!
+      --> (YOURNAME) is your user login name!
    e) Log out and Log in again.
 
 For non-Debian or non-Ubuntu Linux distributions, you'll need to install
@@ -75,7 +75,7 @@ Windows, instead of only the "original" XBOX-360 kinect, then you will need
 libfreenect version 0.2 or later. Using version 0.2 or later of libfreenect
 will also allow you to skip the following setup step 2:
 
-\2. Kinect is now useable from within Matlab or Octave. Well almost.
+2\. Kinect is now useable from within Matlab or Octave. Well almost.
 Systems with Linux kernel version 3.0 or later can use the video camera
 and microphones of the Kinect as regular sound and video devices, e.g.,
 for use by the Psychtoolbox videocapture and recording functions or other
@@ -90,11 +90,11 @@ user. This is most simply done by executing this function InstallKinect,
 and blindly entering your password while logged in as a user with
 administrator rights (as the script calls the sudo command).
 
-\3. After this procedure, the Kinect should be fully useable by Psychtoolbox.
+3\. After this procedure, the Kinect should be fully useable by Psychtoolbox.
 
 
 Mac OS/X:
-\---------
+---------
 
 See the OS/X section at http://openkinect.org/wiki/Getting\_Started
 You will need libfreenect version 0.1.2 or compatible for this to work.
@@ -117,7 +117,7 @@ requirements.
 
 
 # CAVEATS:
-\--------
+--------
 
 This is still early prototype software, expect bugs, bumps and hickups.
 

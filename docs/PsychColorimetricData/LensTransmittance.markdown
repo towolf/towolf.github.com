@@ -31,16 +31,16 @@ between 3 and 7 doesn't appear to be part of the standard but
 I coded it in anyway.
 
 
-\7/8/03  dhb  Made this a separate function.
-\7/11/03 dhb  Species arg, change name.
-\7/23/03 dhb  Add Stockman estimate.
-\7/26/03 dhb  Extend functions, rather than zero truncate.
-\8/12/11 dhb  Start to write CIE version.  Return lensDensity too.
+7/8/03  dhb  Made this a separate function.
+7/11/03 dhb  Species arg, change name.
+7/23/03 dhb  Add Stockman estimate.
+7/26/03 dhb  Extend functions, rather than zero truncate.
+8/12/11 dhb  Start to write CIE version.  Return lensDensity too.
         dhb  Finish. Add pupil size.
-\8/13/11 dhb  Linearly extrapolate read functions outside of range.
-\9/17/12 dhb  Return density for 'None' case as well.
-\8/9/13  dhb  More consistent returning of density for 'None' case.
-\8/11/13 dhb  Try to make dimensions of returned density match those of returned transmittance.
+8/13/11 dhb  Linearly extrapolate read functions outside of range.
+9/17/12 dhb  Return density for 'None' case as well.
+8/9/13  dhb  More consistent returning of density for 'None' case.
+8/11/13 dhb  Try to make dimensions of returned density match those of returned transmittance.
 
 
 <div class="code_header" style="text-align:right;">

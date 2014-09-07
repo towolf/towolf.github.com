@@ -30,10 +30,10 @@ of the details of visual setup.
 
 
 Commands and their syntax:
-\--------------------------
+--------------------------
 
 oldmode = PsychDataPixx('SetDummyMode' [, mode]);
-\- Switch driver into dummy mode if 'mode' is set to 1. In dummy mode, the
+- Switch driver into dummy mode if 'mode' is set to 1. In dummy mode, the
 code mostly operates without a DataPixx device connected. This is useful
 for basic debugging of code without access to the device. The simulated
 device returns more or less meaningful values, good enough for initial
@@ -44,7 +44,7 @@ You must call this command before any other command for proper operation!
 
 
 PsychDataPixx('Open');
-\- Open a connection to the device, with default settings. If the device
+- Open a connection to the device, with default settings. If the device
 is already open then this will do almost nothing, otherwise the
 connection is opened.
 
@@ -52,7 +52,7 @@ You must call this function before all other remaining commands!
 
 
 PsychDataPixx('[Close](/docs/Close)');
-\- [Close](/docs/Close) a connection to the device. Multiple virtual connections can be
+- [Close](/docs/Close) a connection to the device. Multiple virtual connections can be
 simultaneously open. If this function call closes the last virtual
 connection, then the real physical connection to the device is closed and
 the driver is reset.
@@ -67,21 +67,21 @@ PsychDataPixx() commands will be invalid after a '[Close](/docs/Close)' call!
 
 
 status = PsychDataPixx('GetStatus' [,newstatus]);
-\- Retrieve a struct 'status' with the complete driver internal state.
+- Retrieve a struct 'status' with the complete driver internal state.
 Optionally assign new state 'newstatus' to driver. Only assign a new
 state if you \*really\* know what you're doing!
 
 
 oldmode = PsychDataPixx('LogOnsetTimestamps', mode);
-\- Return current timestamp acquisition mode as optional return argument
+- Return current timestamp acquisition mode as optional return argument
 'oldmode'. Set a new mode, according to argument 'mode'. 'mode' can
 be one of:
 
-\0 = Disable all timestamp acquisition and logging.
-\1 = Log a visual stimulus onset timestamp for the next [Screen](/docs/Screen)('[Flip](/docs/Flip)') or
+0 = Disable all timestamp acquisition and logging.
+1 = Log a visual stimulus onset timestamp for the next [Screen](/docs/Screen)('[Flip](/docs/Flip)') or
     [Screen](/docs/Screen)('AsyncFlipBegin') command after this function call, then stop
     logging again. This is a one-shot timestamp function.
-\2 = Log all [Screen](/docs/Screen)('[Flip](/docs/Flip)') and [Screen](/docs/Screen)('AsyncFlipBegin') visual stimulus
+2 = Log all [Screen](/docs/Screen)('[Flip](/docs/Flip)') and [Screen](/docs/Screen)('AsyncFlipBegin') visual stimulus
     onset timestamps until this function is called again with a 'mode'
     setting of 1 or 0.
 
@@ -94,7 +94,7 @@ the following timestamp related commands.
 
 
 [boxTime, getsecsTime, flipCount, currentFlipcount] = PsychDataPixx('GetLastOnsetTimestamp');
-\- Retrieve visual stimulus onset timestamps related to last logged
+- Retrieve visual stimulus onset timestamps related to last logged
 "[Flip](/docs/Flip)". This call will only return valid values after a [Flip](/docs/Flip) command is
 finished, ie., after a successfull call to [Screen](/docs/Screen)('[Flip](/docs/Flip)') or
 [Screen](/docs/Screen)('AsyncFlipCheckEnd') or [Screen](/docs/Screen)('AsyncFlipEnd'), and only if
@@ -120,7 +120,7 @@ high-precision remapping of timestamps.
 
 
 [getsecs, boxsecs, confidence] = PsychDataPixx('GetPreciseTime');
-\- Query both the DataPixx clock and GetSecs clock and compute which GetSecs
+- Query both the DataPixx clock and GetSecs clock and compute which GetSecs
 time 'getsecs' corresponds to which Datapixx time 'boxsecs' and how
 reliable this correspondence is in 'confidence'. 'confidence' is the
 margin of error between both timestamps.
@@ -130,7 +130,7 @@ The function is automatically called once at device open time.
 
 
 log = PsychDataPixx('GetTimestampLog' [, remapPrecise = 0]);
-\- Fetch the full log of all acquired visual stimulus onset timestamps
+- Fetch the full log of all acquired visual stimulus onset timestamps
 into the variable 'log'. 'log' is a 3-by-n matrix for the n timestamps,
 one column encodes one stimulus onset, aka one logged invocation of
 [Screen](/docs/Screen)('[Flip](/docs/Flip)') et al.
@@ -143,17 +143,17 @@ If the optional parameter 'remapPrecise' is set to 1, then an expensive
 calibration procedure is used to compute very precise GetSecs()
 timestamps for row 2 of the returned matrix, otherwise a cheap but
 inaccurate remapping is performed. The expensive procedure can take up to
-\1 second, but is highly recommended for precise timestamps. See
+1 second, but is highly recommended for precise timestamps. See
 explanation of 'BoxsecsToGetsecs' function below for more details. You'll
 typically call this function only at the end of an experiment session.
 
 
 PsychDataPixx('ClearTimestampLog');
-\- Clear the log with all currently acquired timestamps.
+- Clear the log with all currently acquired timestamps.
 
 
 tgetsecs = PsychDataPixx('FastBoxsecsToGetsecs', t);
-\- Map given timestamp 't' in Datapixx clock time to Psychtoolbox GetSecs
+- Map given timestamp 't' in Datapixx clock time to Psychtoolbox GetSecs
 time and return it in 'tgetsecs'. This mapping is only precise if you
 call PsychDataPixx('GetPreciseTime'); frequently. For a more accurate
 remapping use the following PsychDataPixx('BoxsecsToGetsecs', t);
@@ -161,7 +161,7 @@ instead, which is more time consuming to execute though.
 
 
 [tgetsecs, sd, ratio] = PsychDataPixx('BoxsecsToGetsecs', t);
-\- Perform remapping of a vector of Datapixx timestamps 't', ie.,
+- Perform remapping of a vector of Datapixx timestamps 't', ie.,
 timestamps expressed in Datapixx clock time, into Psychtoolbox GetSecs
 timestamps 'tgetsecs'. Return measures of accuracy of remapping.
 
@@ -179,7 +179,7 @@ Datapixx clock.
 
 
 PsychDataPixx('RequestPsyncedUpdate');
-\- Request an update of the DataPixx register block in sync with the next
+- Request an update of the DataPixx register block in sync with the next
 visual stimulus onset as triggered by [Screen](/docs/Screen)('[Flip](/docs/Flip)') or
 [Screen](/docs/Screen)('AsyncFlipBegin'). This will emit the neccessary PSYNC pixel
 sequence at next flip and tell the device to apply all pending settings
@@ -187,12 +187,12 @@ on reception of that PSYNC token.
 
 
 count = PsychDataPixx('FlipCount');
-\- Return "serial number" of the last executed visual stimulus update via
+- Return "serial number" of the last executed visual stimulus update via
 one of the [Screen](/docs/Screen) "[Flip](/docs/Flip)" commands.
 
 
 PsychDataPixx('ExecuteAtFlipCount', targetFlipCount, commandString);
-\- Request execution of 'commandString' via eval() function in sync with
+- Request execution of 'commandString' via eval() function in sync with
 the [Screen](/docs/Screen)('[Flip](/docs/Flip)') or [Screen](/docs/Screen)('AsyncFlipBegin') command which will
 cause the stimulus onset with "serial number" 'targetFlipCount'. You can
 ask for the current "serial number" by calling current = PsychDataPixx('FlipCount');
@@ -214,20 +214,20 @@ synchronize their operation and schedules to visual stimulus updates.
 
 
 PsychDataPixx('LoadIdentityClut', win);
-\- Load an identity CLUT into the device at next stimulus onset, ie., next
+- Load an identity CLUT into the device at next stimulus onset, ie., next
 '[Flip](/docs/Flip)' command for window 'win'. This is a pure convenience function for
 that common case. Normally you'd use [Screen](/docs/Screen)('LoadNormalizedGammaTable', win, clut, 2);
 to upload a new 'clut' table at next '[Flip](/docs/Flip)' command execution.
 
 
 oldverbosity = PsychDataPixx('Verbosity' [,verbosity]);
-\- Retrieve and optionally set a new level of 'verbosity' for driver debug
+- Retrieve and optionally set a new level of 'verbosity' for driver debug
 output. verbosity can be 0 for no output, 1 for only errors, 2 for
 additionally warnings, 3 for additional info, 4 for very verbose output.
 
 
 oldtimeout = PsychDataPixx('PsyncTimeoutFrames' [, timeoutFrames]);
-\-- Query and/or set timeout (in video refresh cycles) for recognition of
+-- Query and/or set timeout (in video refresh cycles) for recognition of
 PSYNC codes by the device. By default, the timeout is set to the
 equivalent of 5 minutes, which means: If the device is instructed to wait
 for a PSYNC marker token in the video stream, but doesn't receive the
@@ -247,79 +247,79 @@ details).
 
 
 PsychDataPixx('SetVideoMode', mode);
-\-- Switch DPixx device immediately into video processing mode 'mode'.
+-- Switch DPixx device immediately into video processing mode 'mode'.
 Type "Datapixx SetVideoMode?" for a list of available 'mode' settings and
 explanation of their purpose and behaviour.
 
 
 PsychDataPixx('SetVideoHorizontalSplit', mode);
-\-- Switch DPixx device immediately into video split mode 'mode'.
+-- Switch DPixx device immediately into video split mode 'mode'.
 Type "Datapixx SetVideoHorizontalSplit?" for a list of available 'mode'
 settings and explanation of their purpose and behaviour.
 
 
 PsychDataPixx('SetVideoVerticalStereo', mode);
-\-- Switch DPixx device immediately into vertical stereo video mode 'mode'.
+-- Switch DPixx device immediately into vertical stereo video mode 'mode'.
 Type "Datapixx SetVideoVerticalStereo?" for a list of available 'mode'
 settings and explanation of their purpose and behaviour.
 
 
 PsychDataPixx('EnableVideoScanningBacklight');
-\-- Enable ViewPixx panels scanning backlight.
+-- Enable ViewPixx panels scanning backlight.
 
 
 PsychDataPixx('DisableVideoScanningBacklight');
-\-- Disable ViewPixx panels scanning backlight.
+-- Disable ViewPixx panels scanning backlight.
 
 
 PsychDataPixx('EnableVideoStereoBlueline');
-\-- Enable detection and handling of blue-line stereo sync lines by the
+-- Enable detection and handling of blue-line stereo sync lines by the
 DataPixx.
 
 
 PsychDataPixx('DisableVideoStereoBlueline');
-\-- Disable detection and handling of blue-line stereo sync lines by the
+-- Disable detection and handling of blue-line stereo sync lines by the
 DataPixx.
 
 
 Internal commands: NOT FOR USE BY PURE MORTALS!
 
 PsychDataPixx('PerformPostWindowOpenSetup');
-\-- Called by PsychImaging('OpenWindow') after opening a window on the
+-- Called by PsychImaging('OpenWindow') after opening a window on the
 device. Performs all low-level setup for use of DataPixx.
 
 
 rc = PsychDataPixx('CheckGPUSanity', window, xoffset);
-\-- Perform online-test of GPU identity gamma tables and DVI-D display
+-- Perform online-test of GPU identity gamma tables and DVI-D display
 encoders. Try to correct problems with wrong identity gamma tables and at
 least detect problems with (spatio-)temporal display dithering. Returns
-rc == 0 on full success, rc \> 0 on failure.
+rc == 0 on full success, rc > 0 on failure.
 
 
 PsychDataPixx(-1);
-\-- PTB callback: Request immediate emission of a PSYNC'ed RegWrRd command
+-- PTB callback: Request immediate emission of a PSYNC'ed RegWrRd command
 to driver if a PSYNC is pending. Otherwise noop.
 
 
 PsychDataPixx(0);
-\-- PTB callback at '[Flip](/docs/Flip)' time: Do whatever DPixx related work is
+-- PTB callback at '[Flip](/docs/Flip)' time: Do whatever DPixx related work is
 pending for next '[Flip](/docs/Flip)', e.g., DPixx clut updates, writing of PSYNC pixel
 sequences, preparation of logging of timestamps etc.
 
 
 PsychDataPixx(1, clut);
-\-- Callback for PTB imaging pipeline: Ultrafast upload of given 'clut'
+-- Callback for PTB imaging pipeline: Ultrafast upload of given 'clut'
 into the device at next bufferswap.
 
 
 PsychDataPixx(2);
-\-- Callback for PTB imaging pipeline after successfull finish of a
+-- Callback for PTB imaging pipeline after successfull finish of a
 bufferswap. Do whatever needs to be done, e.g., incrementing the
 swapcounter and logging of timestamps.
 
 
 PsychDataPixx(3);
-\-- Callback at time of closing the DataPixx onscreen window: Perform
+-- Callback at time of closing the DataPixx onscreen window: Perform
 whatever actions are needed at shutdown, e.g., restoring identity clut on
 device, restoring default video mode and settings, closing device
 connection, cleanup of data structures etc.

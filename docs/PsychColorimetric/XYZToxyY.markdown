@@ -11,7 +11,7 @@ encoding: UTF-8
 Compute chromaticity and luminance from
 from tristimulus values.
 
-\8/24/09  dhb  Speed it up vastly for large arrays.
+8/24/09  dhb  Speed it up vastly for large arrays.
 
 
 <div class="code_header" style="text-align:right;">

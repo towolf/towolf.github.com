@@ -27,7 +27,7 @@ source - source tristimulus vectors
 dest - destination tristimulus vectors
  (n\_chromacy by n\_lights)
 
-\8/2/94      dhb     Fixed variable name bug.
+8/2/94      dhb     Fixed variable name bug.
 
 
 <div class="code_header" style="text-align:right;">

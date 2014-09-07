@@ -16,7 +16,7 @@ at the Matlab prompt.
 
 Compute time T2, ANSI Z136.1-2007, Table 6, p. 76
 
-\2/20/13  dhb  Wrote it.
+2/20/13  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

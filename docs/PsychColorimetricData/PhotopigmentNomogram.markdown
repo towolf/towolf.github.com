@@ -16,8 +16,8 @@ nomograms.  This is basically a wrapper routine.
   Lamb
   StockmanSharpe
 
-\7/11/03  dhb  Wrote it.
-\7/16/03  dhb  Add StockmanSharpe.
+7/11/03  dhb  Wrote it.
+7/16/03  dhb  Add StockmanSharpe.
 
 
 <div class="code_header" style="text-align:right;">

@@ -15,7 +15,7 @@ passed. So, if radiance is in Watts/[cm2-sr] then distance needs to be in cm and
 
 See also: RadianceAndDegrees2ToCornIrradiance, CornIrradianceAndDegrees2ToRadiance
 
-\2/20/13  dhb  Wrote it.
+2/20/13  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

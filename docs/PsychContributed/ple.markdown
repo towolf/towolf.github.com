@@ -25,7 +25,7 @@ the original public domain implementation of ple.m by Malcolm Wood (the MathWork
 
 The original file can be downloaded from Matlab Central at:
 http://www.mathworks.com/matlabcentral/fileexchange/loadFile.do?objectId=
-\9525&objectType=file
+9525&objectType=file
 
 Thanks to David Fencsik for pointing us to this useful file and Malcolm
 Wood for writing it.

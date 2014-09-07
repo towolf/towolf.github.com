@@ -13,7 +13,7 @@ Display an animated grating using the new [Screen](/docs/Screen)('DrawTexture') 
 In Psychtoolbox-3 [Screen](/docs/Screen)('DrawTexture') replaces [Screen](/docs/Screen)('CopyWindow').
 
 This demo illustrates on how to emulate the old [Screen](/docs/Screen)('WaitBlanking'...)
-behaviour: If you set waitframes \> 1 then the screen is only updated
+behaviour: If you set waitframes > 1 then the screen is only updated
 every waitframes'th monitor refresh interval.
 
 # Optional parameters:

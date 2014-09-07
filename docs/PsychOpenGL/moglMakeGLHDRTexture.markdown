@@ -28,7 +28,7 @@ range (0.0 - 1.0) maps to (minimum intensity - maximum intensity).
 If 'halffloat' is set to 1 (default is 0), then the texture is created as
 half-precision floating point texture, ie 16 bpc floats. This saves
 memory and bandwidth and allows for floating point filtering on Geforce
-\6000 and 7000 series.
+6000 and 7000 series.
 
 If you want to create a pure 2D texture and use it with Psychtoolbox'
 standard [Screen](/docs/Screen)() drawing command, then call moglMakeHDRTexture() instead.

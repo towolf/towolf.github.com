@@ -14,7 +14,7 @@ of threshold.
 
 This computation is mostly useful for testing.
 
-\8/25/94     dhb, ccc        Wrote it.
+8/25/94     dhb, ccc        Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

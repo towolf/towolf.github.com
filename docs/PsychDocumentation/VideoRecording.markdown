@@ -14,17 +14,17 @@ available on all operating systems and can record both video and sound.
 The DC1394 engine is available on Linux and OSX and can currently only
 record video, but no simultaneous audio.
 
-\- Check VideoRecordingDemo for regular video recording via [GStreamer](/docs/GStreamer)! On
+- Check VideoRecordingDemo for regular video recording via [GStreamer](/docs/GStreamer)! On
   both MacOSX and MS-Windows, one often needs to pass special settings or
   codec types for video recording and especially combined video + audio
   recording to work. That demo illustrates at least one set of settings
   which were shown to work on OSX and Windows in December 2013.
 
-\- Check VideoDVCamCaptureDemo for video recording from DV cameras. These
+- Check VideoDVCamCaptureDemo for video recording from DV cameras. These
   cameras seem to need special treatment on all systems, but especially
   on MS-Windows and the demo shows how to do that.
 
-\- Check VideoMultiCameraCaptureDemo for video capture and recording from
+- Check VideoMultiCameraCaptureDemo for video capture and recording from
   multiple professional class IIDC/DCAM compliant firewire and USB cameras
   on Linux and OSX via the DC1394 engine.
 
@@ -126,7 +126,7 @@ average video bitrate of 1000 kilobits/sec.
 # The following high level parameters are supported:
 
 Video encoding settings:
-\------------------------
+------------------------
 
 Interlaced=0/1 - Tell codec if input video material is interlaced. This
                  allows to optimize encoding further for smaller file size
@@ -137,7 +137,7 @@ Keyframe=x     - Set the maximum keyframe interval to at most 'x' frames.
                  keyframe granularity. E.g., a keyframe setting of 10 would
                  mean that one can only move forward/backward or address a
                  specific target video frame with a stepsize or accuracy of
-                 \10 frames. Lower numbers mean better navigation accuracy,
+                 10 frames. Lower numbers mean better navigation accuracy,
                  with 1 providing frame accurate positioning, and possibly
                  higher quality, but bigger video file sizes and potentially
                  higher computational load. If omitted, the codec selects
@@ -161,14 +161,14 @@ Videoquality=x - A value between 0.0 and 1.0 to select target video quality
                  cope.
 
 Audio encoding settings:
-\------------------------
+------------------------
 
 Audioquality=x - See Videoquality, this time for the audio encoding.
 
 Audiobitrate=x kb/s  - See Videobitrate, this time for the audio encoding.
 
 Multiplexer / File format settings:
-\-----------------------------------
+-----------------------------------
 
 Timeresolution=x - How fine should time be resolved in the recorded footage?
                    A value of x means to divide 1 second into x units, i.e.,
@@ -176,7 +176,7 @@ Timeresolution=x - How fine should time be resolved in the recorded footage?
                    influences file size, accuracy of time based navigation in
                    the video, possibly the accuracy of returned movie presentation
                    timestamps and of audio-video sync. If omitted, defaults to
-                   \1/1000 th second aka 1 msec granularity.
+                   1/1000 th second aka 1 msec granularity.
 
 Faststart=0/1    - If set to 1, optimize recorded files for a fast load and start
                    of playback in players. This is usually what you want, so it is
@@ -189,7 +189,7 @@ Bigfiles=0/1     - If set to 1, allow recording of movie files with a size great
 
 
 Specifying low-level settings:
-\------------------------------
+------------------------------
 
 For more control you can also specify the various codec types and their
 low level settings in the syntax of the "gst-launch" [GStreamer](/docs/GStreamer) command

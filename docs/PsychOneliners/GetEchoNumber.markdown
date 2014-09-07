@@ -8,8 +8,8 @@ encoding: UTF-8
 
 number = GetEchoNumber(window, msg, x, y [, textColor][, bgColor][, deviceIndex][, untilTime=inf][, KbCheck args...])
 
-Get a number typed at the keyboard. Entry is terminated by <return\> or
-<enter\>. Typed characters are displayed on the screen. Useful for i/o in
+Get a number typed at the keyboard. Entry is terminated by <return> or
+<enter>. Typed characters are displayed on the screen. Useful for i/o in
 a [Screen](/docs/Screen) window. Equivalent to "number = str2num(GetEchoString(...))".
 
 Returns the empty matrix if no number is entered. Returns a column vector

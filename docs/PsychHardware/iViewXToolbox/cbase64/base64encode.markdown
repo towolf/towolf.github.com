@@ -25,7 +25,7 @@ BASE64ENCODE Perform base64 encoding on a string.
    printable character.
 
    Examples
-   \--------
+   --------
 
    If you want to encode a large file, you should encode it in chunks that are
    a multiple of 57 bytes.  This ensures that the base64 lines line up and

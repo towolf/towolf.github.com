@@ -14,7 +14,7 @@ with e.g., n different "shifts" and the function will return n copies of
 oldRect, each shifted by one of the shift values in x and y.
 
 Alternatively you can give a single scalar x,y shift value, but apply it
-to a whole matrix of rects 'oldRect' --\> Apply a common offset to a large
+to a whole matrix of rects 'oldRect' --> Apply a common offset to a large
 number of rects simultaneously.
 
 Also see PsychRects.

@@ -8,7 +8,7 @@ encoding: UTF-8
 
 [err,con] = FitGammaWeibFun(x,values,measurements)
 
-\10/3/93   dhb   Created
+10/3/93   dhb   Created
 
 
 <div class="code_header" style="text-align:right;">

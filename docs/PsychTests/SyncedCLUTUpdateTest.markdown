@@ -21,7 +21,7 @@ This test allows to perceptually check correctness of this mechanism. In a loop
 it shows two alternating stimuli: A gray-level ramp of range 0-255, displayed
 with a hardware lut of \*half\* intensity range 0-0.5. Then, after next retrace, a
 gray-level ramp of \*half\* range 0-128 with a hardware lut of \*full\* intensity range
-\0-1.0. If update of the visual stimulus (the graylevel ramp) and of the corresponding
+0-1.0. If update of the visual stimulus (the graylevel ramp) and of the corresponding
 clut happens synchronously at the same vertical retrace during the '[Flip](/docs/Flip)' command,
 as expected, then the half intensity stim + full intensity lut or full intensity stim +
 half intensity lut should cancel each other out, resulting in the perception of a

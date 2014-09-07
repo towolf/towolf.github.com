@@ -51,7 +51,7 @@ specialFlags = 0: Setting this optional parameter will enable some
 special properties of the created OpenGL context. You can add the
 following values to setup such a special configuration:
 
-   + 2  == Enable and attach an OpenGL accumulation buffer, with
+   \+ 2  == Enable and attach an OpenGL accumulation buffer, with
    requested 16 bits resolution per color component, i.e., R16G16B16A16.
    The system may decide to allocate an accumulation buffer with more or
    less than the preferred 16 bpc, or it may decide not to allocate an
@@ -62,7 +62,7 @@ following values to setup such a special configuration:
    and floating point resolution offscreen windows on modern graphics
    cards, or by direct low-level use of framebuffer objects.
 
-   \-\> This flag is needed to make the glAccum() command work.
+   -> This flag is needed to make the glAccum() command work.
 
 
 

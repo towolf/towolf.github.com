@@ -17,7 +17,7 @@ encoding: UTF-8
    'JuddVos'
    'Scotopic'
 
- \7/29/03   dhb  Wrote it.
+ 7/29/03   dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

@@ -23,7 +23,7 @@ not generalize, and I haven't worried about
 the roundoff errors.  Certainly OK for basic
 use.
 
-\2/13/05     dhb     Wrote it.
+2/13/05     dhb     Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

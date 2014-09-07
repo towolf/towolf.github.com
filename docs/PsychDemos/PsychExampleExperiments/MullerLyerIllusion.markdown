@@ -53,7 +53,7 @@ Written by N. Ruh, 15/02/2008.
   function of its dimensions: Theory and data. Perception & Psychophysics 21:489 503
 
 History:
-\3/3/2008  Included in Psychtoolbox (MK).
+3/3/2008  Included in Psychtoolbox (MK).
 
 
 <div class="code_header" style="text-align:right;">

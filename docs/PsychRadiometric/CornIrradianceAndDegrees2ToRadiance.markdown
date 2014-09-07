@@ -21,7 +21,7 @@ these turn out to cancel out under the small angle approximation.
 
 See also: RadianceAndDistanceAreaToCornIrradiance, RadianceAndDegrees2ToCornIrradiance
 
-\2/22/13  dhb  Wrote it.
+2/22/13  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">
