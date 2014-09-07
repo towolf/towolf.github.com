@@ -6,10 +6,10 @@ categories:
 encoding: UTF-8
 ---
 
-spd = PR650parsespdstr(readStr,S)  
+spd = PR650parsespdstr(readStr,S)
 
-Parse the spectral power distribution string  
-returned by the PR650.  
+Parse the spectral power distribution string
+returned by the PR650.
 
 
 <div class="code_header" style="text-align:right;">

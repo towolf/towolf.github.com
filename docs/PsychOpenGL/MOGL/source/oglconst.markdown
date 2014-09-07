@@ -6,10 +6,10 @@ categories:
 encoding: UTF-8
 ---
 
-OGLCONST  Collect GL, GLU, and AGL constants from C header files, and  
-          store them in oglconst.mat  
+OGLCONST  Collect GL, GLU, and AGL constants from C header files, and
+          store them in oglconst.mat
 
-usage:  oglconst  
+usage:  oglconst
 
 
 <div class="code_header" style="text-align:right;">

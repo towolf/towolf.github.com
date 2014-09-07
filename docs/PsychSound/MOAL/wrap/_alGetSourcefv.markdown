@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alGetSourcefv  Interface to OpenAL function alGetSourcefv  
+alGetSourcefv  Interface to OpenAL function alGetSourcefv
 
-usage:  values = alGetSourcefv( sid, param )  
+usage:  values = alGetSourcefv( sid, param )
 
-C function:  void alGetSourcefv(ALuint sid, ALenum param, ALfloat\* values)  
+C function:  void alGetSourcefv(ALuint sid, ALenum param, ALfloat\* values)
 
 
 <div class="code_header" style="text-align:right;">

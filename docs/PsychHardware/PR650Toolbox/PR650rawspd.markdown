@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-readStr = PR650rawspd(timeout)  
+readStr = PR650rawspd(timeout)
 
-Measure spd and return string.  
+Measure spd and return string.
 
 
 <div class="code_header" style="text-align:right;">

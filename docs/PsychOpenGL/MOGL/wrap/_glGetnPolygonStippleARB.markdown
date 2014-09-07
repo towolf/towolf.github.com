@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetnPolygonStippleARB  Interface to OpenGL function glGetnPolygonStippleARB  
+glGetnPolygonStippleARB  Interface to OpenGL function glGetnPolygonStippleARB
 
-usage:  pattern = glGetnPolygonStippleARB( bufSize )  
+usage:  pattern = glGetnPolygonStippleARB( bufSize )
 
-C function:  void glGetnPolygonStippleARB(GLsizei bufSize, GLubyte\* pattern)  
+C function:  void glGetnPolygonStippleARB(GLsizei bufSize, GLubyte\* pattern)
 
 
 <div class="code_header" style="text-align:right;">

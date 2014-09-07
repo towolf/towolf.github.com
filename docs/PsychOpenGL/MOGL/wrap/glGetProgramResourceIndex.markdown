@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetProgramResourceIndex  Interface to OpenGL function glGetProgramResourceIndex  
+glGetProgramResourceIndex  Interface to OpenGL function glGetProgramResourceIndex
 
-usage:  r = glGetProgramResourceIndex( program, programInterface, name )  
+usage:  r = glGetProgramResourceIndex( program, programInterface, name )
 
-C function:  GLuint glGetProgramResourceIndex(GLuint program, GLenum programInterface, const GLchar\* name)  
+C function:  GLuint glGetProgramResourceIndex(GLuint program, GLenum programInterface, const GLchar\* name)
 
 
 <div class="code_header" style="text-align:right;">

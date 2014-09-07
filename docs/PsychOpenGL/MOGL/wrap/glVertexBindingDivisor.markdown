@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glVertexBindingDivisor  Interface to OpenGL function glVertexBindingDivisor  
+glVertexBindingDivisor  Interface to OpenGL function glVertexBindingDivisor
 
-usage:  glVertexBindingDivisor( bindingindex, divisor )  
+usage:  glVertexBindingDivisor( bindingindex, divisor )
 
-C function:  void glVertexBindingDivisor(GLuint bindingindex, GLuint divisor)  
+C function:  void glVertexBindingDivisor(GLuint bindingindex, GLuint divisor)
 
 
 <div class="code_header" style="text-align:right;">

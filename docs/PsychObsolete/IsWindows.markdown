@@ -6,16 +6,16 @@ categories:
 encoding: UTF-8
 ---
 
-function resultFlag = IsWindows  
+function resultFlag = IsWindows
 
-OBSOLETE: please use IsWin instead.  
+OBSOLETE: please use IsWin instead.
 
-OSX, OS9: Returns true if the operating system is Windows.  Shorthand for:  
-streq(computer,'PCWIN')  
+OSX, OS9: Returns true if the operating system is Windows.  Shorthand for:
+streq(computer,'PCWIN')
 
-WIN: Does not yet exist in Windows.  
+WIN: Does not yet exist in Windows.
 
-See also: IsOS9, IsOSX, IsWin  
+See also: IsOS9, IsOSX, IsWin
 
 
 <div class="code_header" style="text-align:right;">

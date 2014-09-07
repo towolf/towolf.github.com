@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-Returns the value for horizontal axes in the extreme right position.  
+Returns the value for horizontal axes in the extreme right position.
 
 
 

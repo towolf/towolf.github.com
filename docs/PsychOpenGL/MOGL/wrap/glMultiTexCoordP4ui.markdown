@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glMultiTexCoordP4ui  Interface to OpenGL function glMultiTexCoordP4ui  
+glMultiTexCoordP4ui  Interface to OpenGL function glMultiTexCoordP4ui
 
-usage:  glMultiTexCoordP4ui( texture, type, coords )  
+usage:  glMultiTexCoordP4ui( texture, type, coords )
 
-C function:  void glMultiTexCoordP4ui(GLenum texture, GLenum type, GLuint coords)  
+C function:  void glMultiTexCoordP4ui(GLenum texture, GLenum type, GLuint coords)
 
 
 <div class="code_header" style="text-align:right;">

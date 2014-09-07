@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-cal =  CalibrateAmbDrvr(cal,USERPROMPT,whichMeterType,blankOtherScreen)  
+cal =  CalibrateAmbDrvr(cal,USERPROMPT,whichMeterType,blankOtherScreen)
 
-This script does the work for monitor ambient calibration.  
+This script does the work for monitor ambient calibration.
 
 
 <div class="code_header" style="text-align:right;">

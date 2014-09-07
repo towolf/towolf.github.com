@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glViewportIndexedfv  Interface to OpenGL function glViewportIndexedfv  
+glViewportIndexedfv  Interface to OpenGL function glViewportIndexedfv
 
-usage:  glViewportIndexedfv( index, v )  
+usage:  glViewportIndexedfv( index, v )
 
-C function:  void glViewportIndexedfv(GLuint index, const GLfloat\* v)  
+C function:  void glViewportIndexedfv(GLuint index, const GLfloat\* v)
 
 
 <div class="code_header" style="text-align:right;">

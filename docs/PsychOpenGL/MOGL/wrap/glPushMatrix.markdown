@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glPushMatrix  Interface to OpenGL function glPushMatrix  
+glPushMatrix  Interface to OpenGL function glPushMatrix
 
-usage:  glPushMatrix  
+usage:  glPushMatrix
 
-C function:  void glPushMatrix(void)  
+C function:  void glPushMatrix(void)
 
 
 <div class="code_header" style="text-align:right;">

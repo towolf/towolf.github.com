@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glSeparableFilter2D  Interface to OpenGL function glSeparableFilter2D  
+glSeparableFilter2D  Interface to OpenGL function glSeparableFilter2D
 
-usage:  glSeparableFilter2D( target, internalformat, width, height, format, type, row, column )  
+usage:  glSeparableFilter2D( target, internalformat, width, height, format, type, row, column )
 
-C function:  void glSeparableFilter2D(GLenum target, GLenum internalformat, GLsizei width, GLsizei height, GLenum format, GLenum type, const GLvoid\* row, const GLvoid\* column)  
+C function:  void glSeparableFilter2D(GLenum target, GLenum internalformat, GLsizei width, GLsizei height, GLenum format, GLenum type, const GLvoid\* row, const GLvoid\* column)
 
 
 <div class="code_header" style="text-align:right;">

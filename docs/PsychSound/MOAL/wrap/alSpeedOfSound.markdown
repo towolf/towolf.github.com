@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alSpeedOfSound  Interface to OpenAL function alSpeedOfSound  
+alSpeedOfSound  Interface to OpenAL function alSpeedOfSound
 
-usage:  alSpeedOfSound( value )  
+usage:  alSpeedOfSound( value )
 
-C function:  void alSpeedOfSound(ALfloat value)  
+C function:  void alSpeedOfSound(ALfloat value)
 
 
 <div class="code_header" style="text-align:right;">

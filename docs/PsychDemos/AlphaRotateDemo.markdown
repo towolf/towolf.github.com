@@ -6,29 +6,29 @@ categories:
 encoding: UTF-8
 ---
 
-AlphaRotateDemo(numFrames, ifis)  
+AlphaRotateDemo(numFrames, ifis)
 
-numFrames Number of grating textures to use for the drifting grating...  
+numFrames Number of grating textures to use for the drifting grating...
 
-ifis = Number of monitor refreshes to wait between drawing single  
-textures...  
+ifis = Number of monitor refreshes to wait between drawing single
+textures...
 
 
-# OS X  
+# OS X
 
-Display a rotating grating using the new [Screen](/docs/Screen)('DrawTexture') command.  
-In the OS X Psychtoolbox [Screen](/docs/Screen)('DrawTexture') replaces  
-[Screen](/docs/Screen)('CopyWindow').  
+Display a rotating grating using the new [Screen](/docs/Screen)('DrawTexture') command.
+In the OS X Psychtoolbox [Screen](/docs/Screen)('DrawTexture') replaces
+[Screen](/docs/Screen)('CopyWindow').
 
-This illustrates an application of Alpha blending by masking the rotating  
-grating with a gaussian transparency mask.  
+This illustrates an application of Alpha blending by masking the rotating
+grating with a gaussian transparency mask.
 
-In each frame, first the grating is drawn. Then a texture acting as a  
-transparency mask is drawn "over" the grating, masking out selected  
-parts of the grating.  
-----  
+In each frame, first the grating is drawn. Then a texture acting as a
+transparency mask is drawn "over" the grating, masking out selected
+parts of the grating.
+----
 
-see also: PsychDemos, MovieDemo  
+see also: PsychDemos, MovieDemo
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,20 +6,20 @@ categories:
 encoding: UTF-8
 ---
 
-rgbImage = MonoImageToSRGB(monoImage,xy,[SCALE])  
+rgbImage = MonoImageToSRGB(monoImage,xy,[SCALE])
 
-Take a single plane image in and convert to an sRGB standard  
-color image out.  The chromaticity of the output image will  
-be at the specify CIE x,y chromaticity value.  
+Take a single plane image in and convert to an sRGB standard
+color image out.  The chromaticity of the output image will
+be at the specify CIE x,y chromaticity value.
 
-Result is a uint8 image scaled into range [0,255].  
+Result is a uint8 image scaled into range [0,255].
 
-The value of SCALE is passed on to SRGBGammaCorrect, and  
-there determines whether autoscaling is applied to the image.  
+The value of SCALE is passed on to SRGBGammaCorrect, and
+there determines whether autoscaling is applied to the image.
 
-See MonoImageToSRGBTest.  
+See MonoImageToSRGBTest.
 
-6/15/11  dhb, ms  Wrote it.  
+6/15/11  dhb, ms  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

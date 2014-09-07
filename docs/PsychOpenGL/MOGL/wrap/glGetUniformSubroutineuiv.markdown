@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetUniformSubroutineuiv  Interface to OpenGL function glGetUniformSubroutineuiv  
+glGetUniformSubroutineuiv  Interface to OpenGL function glGetUniformSubroutineuiv
 
-usage:  params = glGetUniformSubroutineuiv( shadertype, location )  
+usage:  params = glGetUniformSubroutineuiv( shadertype, location )
 
-C function:  void glGetUniformSubroutineuiv(GLenum shadertype, GLint location, GLuint\* params)  
+C function:  void glGetUniformSubroutineuiv(GLenum shadertype, GLint location, GLuint\* params)
 
 
 <div class="code_header" style="text-align:right;">

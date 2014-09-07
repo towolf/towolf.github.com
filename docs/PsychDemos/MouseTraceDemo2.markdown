@@ -6,21 +6,21 @@ categories:
 encoding: UTF-8
 ---
 
-MouseTraceDemo2  
-----  
+MouseTraceDemo2
+----
 
-Draw a curve with the mouse. Same as MouseTraceDemo, but asks  
-[Screen](/docs/Screen)('[Flip](/docs/Flip)') to not clear the framebuffer after flip. This way,  
-we don't need to redraw the whole mousetrace in each frame.  
-----  
+Draw a curve with the mouse. Same as MouseTraceDemo, but asks
+[Screen](/docs/Screen)('[Flip](/docs/Flip)') to not clear the framebuffer after flip. This way,
+we don't need to redraw the whole mousetrace in each frame.
+----
 
-See also: PsychDemos, MouseTraceDemo, GetMouse.  
+See also: PsychDemos, MouseTraceDemo, GetMouse.
 
-# HISTORY  
+# HISTORY
 
-4/23/05  mk       Derived from MouseTraceDemoOSX: Uses new "Don't clear" mode of [Flip](/docs/Flip).  
-                  to avoid redrawing the whole past mousetrace after each  
-                  [Flip](/docs/Flip) --\> Faster.  
+4/23/05  mk       Derived from MouseTraceDemoOSX: Uses new "Don't clear" mode of [Flip](/docs/Flip).
+                  to avoid redrawing the whole past mousetrace after each
+                  [Flip](/docs/Flip) --\> Faster.
 
 
 <div class="code_header" style="text-align:right;">

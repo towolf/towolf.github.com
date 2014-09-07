@@ -6,34 +6,34 @@ categories:
 encoding: UTF-8
 ---
 
-KbDemo  
-Shows how to detect when the user has pressed a key.  
-See KbCheck, KbName, KbWait, GetChar, CharAvail.  
+KbDemo
+Shows how to detect when the user has pressed a key.
+See KbCheck, KbName, KbWait, GetChar, CharAvail.
 
-The KbXXX functions are low-level and go after the state of the keyboard.  
-The GetChar/CharAvail interface pulls characters out of the event queue.  
-The advantage of the KbXXX functions is that if you can sit and wait on  
-characters in a tight loop, you'll get less of a lag.  But if the key  
-goes up and down in between when your code checks the keyboard state, you'll  
-miss it.  
+The KbXXX functions are low-level and go after the state of the keyboard.
+The GetChar/CharAvail interface pulls characters out of the event queue.
+The advantage of the KbXXX functions is that if you can sit and wait on
+characters in a tight loop, you'll get less of a lag.  But if the key
+goes up and down in between when your code checks the keyboard state, you'll
+miss it.
 
-The advantage of GetChar/CharAvail is that they may be used  
-asychronously - the OS will pick up the character whether your code  
-is looking for it when it comes.  
+The advantage of GetChar/CharAvail is that they may be used
+asychronously - the OS will pick up the character whether your code
+is looking for it when it comes.
 
-This demo works fine the with Keyspan Digital Media Remote:  
-http://www.keyspan.com/products/usb/remote/  
-However, the Digital Media Remote is sluggish (max alternating key rate of 2 Hz),  
-suggesting that it may not be well suited for measuring reaction time.  
+This demo works fine the with Keyspan Digital Media Remote:
+http://www.keyspan.com/products/usb/remote/
+However, the Digital Media Remote is sluggish (max alternating key rate of 2 Hz),
+suggesting that it may not be well suited for measuring reaction time.
 
-Normally, characters typed creep through and appear in the command window or  
-file being edited, depending on which has focus. You can prevent Matlab  
-from receiving typed characters by calling ListenChar(2); at the  
-beginning of you script and calling ListenChar(0); at the end of your  
-script. Caution: Make sure to always call ListenChar(0) at normal exit and in all  
-error handling routines, otherwise Matlab will be left with a dead  
-keyboard and you'll be unable to type any commands into the Matlab  
-window! Pressing CTRL+C will reenable the keyboard in such a case.  
+Normally, characters typed creep through and appear in the command window or
+file being edited, depending on which has focus. You can prevent Matlab
+from receiving typed characters by calling ListenChar(2); at the
+beginning of you script and calling ListenChar(0); at the end of your
+script. Caution: Make sure to always call ListenChar(0) at normal exit and in all
+error handling routines, otherwise Matlab will be left with a dead
+keyboard and you'll be unable to type any commands into the Matlab
+window! Pressing CTRL+C will reenable the keyboard in such a case.
 
 
 <div class="code_header" style="text-align:right;">

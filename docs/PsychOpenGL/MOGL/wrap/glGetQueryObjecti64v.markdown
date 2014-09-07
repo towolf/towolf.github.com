@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetQueryObjecti64v  Interface to OpenGL function glGetQueryObjecti64v  
+glGetQueryObjecti64v  Interface to OpenGL function glGetQueryObjecti64v
 
-usage:  params = glGetQueryObjecti64v( id, pname )  
+usage:  params = glGetQueryObjecti64v( id, pname )
 
-C function:  void glGetQueryObjecti64v(GLuint id, GLenum pname, GLint64\* params)  
+C function:  void glGetQueryObjecti64v(GLuint id, GLenum pname, GLint64\* params)
 
 
 <div class="code_header" style="text-align:right;">

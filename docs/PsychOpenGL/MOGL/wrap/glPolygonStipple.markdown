@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glPolygonStipple  Interface to OpenGL function glPolygonStipple  
+glPolygonStipple  Interface to OpenGL function glPolygonStipple
 
-usage:  glPolygonStipple( mask )  
+usage:  glPolygonStipple( mask )
 
-C function:  void glPolygonStipple(const GLubyte\* mask)  
+C function:  void glPolygonStipple(const GLubyte\* mask)
 
 
 <div class="code_header" style="text-align:right;">

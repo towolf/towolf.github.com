@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-glmPackPixels  Pack an image for writing to the screen with glmPutPixels  
+glmPackPixels  Pack an image for writing to the screen with glmPutPixels
 
-usage:  packim = glmPackPixels( im )  
+usage:  packim = glmPackPixels( im )
 
 
 <div class="code_header" style="text-align:right;">

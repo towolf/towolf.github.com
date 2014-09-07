@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-draw calibration point  
+draw calibration point
 
 
 <div class="code_header" style="text-align:right;">

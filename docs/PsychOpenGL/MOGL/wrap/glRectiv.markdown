@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glRectiv  Interface to OpenGL function glRectiv  
+glRectiv  Interface to OpenGL function glRectiv
 
-usage:  glRectiv( v1, v2 )  
+usage:  glRectiv( v1, v2 )
 
-C function:  void glRectiv(const GLint\* v1, const GLint\* v2)  
+C function:  void glRectiv(const GLint\* v1, const GLint\* v2)
 
 
 <div class="code_header" style="text-align:right;">

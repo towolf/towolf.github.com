@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glLogicOp  Interface to OpenGL function glLogicOp  
+glLogicOp  Interface to OpenGL function glLogicOp
 
-usage:  glLogicOp( opcode )  
+usage:  glLogicOp( opcode )
 
-C function:  void glLogicOp(GLenum opcode)  
+C function:  void glLogicOp(GLenum opcode)
 
 
 <div class="code_header" style="text-align:right;">

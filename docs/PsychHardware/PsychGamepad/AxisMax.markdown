@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-Returns the maximum value for axes.  
+Returns the maximum value for axes.
 
 
 

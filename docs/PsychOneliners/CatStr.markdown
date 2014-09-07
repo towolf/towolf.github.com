@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-string=CatStr(stringArray)  
-The supplied array or cell array of strings is concatenated, to make one string.  
-This function is used by [Rush](/docs/Rush).mex.  
+string=CatStr(stringArray)
+The supplied array or cell array of strings is concatenated, to make one string.
+This function is used by [Rush](/docs/Rush).mex.
 
-Denis Pelli 16 July 1998  
+Denis Pelli 16 July 1998
 
 
 <div class="code_header" style="text-align:right;">

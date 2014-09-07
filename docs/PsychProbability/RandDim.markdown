@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-mat = RandDim(in,dim)  
-randomizes dimension DIM of matrix IN  
-IN can have any number of dimensions  
+mat = RandDim(in,dim)
+randomizes dimension DIM of matrix IN
+IN can have any number of dimensions
 
-DN 2008 Wrote it  
+DN 2008 Wrote it
 
 
 <div class="code_header" style="text-align:right;">

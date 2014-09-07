@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-Force GetSecs and WaitSecs into memory to avoid latency later on:  
+Force GetSecs and WaitSecs into memory to avoid latency later on:
 
 
 <div class="code_header" style="text-align:right;">

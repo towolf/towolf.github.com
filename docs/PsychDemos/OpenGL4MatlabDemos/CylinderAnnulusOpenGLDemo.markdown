@@ -6,48 +6,48 @@ categories:
 encoding: UTF-8
 ---
 
-CylinderAnnulusOpenGLDemo([patternType=0][, multiSample=0])  
+CylinderAnnulusOpenGLDemo([patternType=0][, multiSample=0])
 
-This demo demonstrates use of OpenGL commands in a Matlab script to  
-map a 2D image onto a 3D cylindrical surface.  
+This demo demonstrates use of OpenGL commands in a Matlab script to
+map a 2D image onto a 3D cylindrical surface.
 
-It loads a JPEG image of the earths surface from the filesystem, using  
-Matlabs imread() function, then converts the image into a Psychtoolbox  
-texture using [Screen](/docs/Screen)('MakeTexture'), then provides this texture as a  
-standard OpenGL compatible texture using [Screen](/docs/Screen)('GetOpenGLTexture').  
-This standard texture is applied to a cylinder using standard OpenGL commands  
-and finally the cylinder is drawn as a rotating object in a simple animation  
-loop. --\> You'll see a rotating cylinder.  
+It loads a JPEG image of the earths surface from the filesystem, using
+Matlabs imread() function, then converts the image into a Psychtoolbox
+texture using [Screen](/docs/Screen)('MakeTexture'), then provides this texture as a
+standard OpenGL compatible texture using [Screen](/docs/Screen)('GetOpenGLTexture').
+This standard texture is applied to a cylinder using standard OpenGL commands
+and finally the cylinder is drawn as a rotating object in a simple animation
+loop. --\> You'll see a rotating cylinder.
 
-Stop the demo by pressing any key and it will finish.  
+Stop the demo by pressing any key and it will finish.
 
-The optional parameter 'multiSample' allows to enable anti-aliased  
-drawing with 'multiSample' samples per pixel on hardware that supports  
-this.  
+The optional parameter 'multiSample' allows to enable anti-aliased
+drawing with 'multiSample' samples per pixel on hardware that supports
+this.
 
-The optional parameter 'patternType' allows (if set to non-zero  
-value) to apply a specific pattern to the spinning cylinder, instead of  
-a "earth surface texture image". This demonstrates algorithmic texture  
-generation and the use of trilinear mipmap filtering to improve image  
-quality for high frequency edges and such...  
+The optional parameter 'patternType' allows (if set to non-zero
+value) to apply a specific pattern to the spinning cylinder, instead of
+a "earth surface texture image". This demonstrates algorithmic texture
+generation and the use of trilinear mipmap filtering to improve image
+quality for high frequency edges and such...
 
-0 = Jpeg image of earth surface.  
-1 = Checkerboard pattern.  
-2 = Simple vertical annulus.  
+0 = Jpeg image of earth surface.
+1 = Checkerboard pattern.
+2 = Simple vertical annulus.
 
-The OpenGL Red Book is a great introduction and reference for OpenGL  
-programming. Release 1.0 is available online, later releases can be  
-purchased in any good book store:  
+The OpenGL Red Book is a great introduction and reference for OpenGL
+programming. Release 1.0 is available online, later releases can be
+purchased in any good book store:
 
-http://www.opengl.org/documentation/red\_book\_1.0/  
+http://www.opengl.org/documentation/red\_book\_1.0/
 
-# For more infos, code samples, tutorials, online documentation, go to:  
+# For more infos, code samples, tutorials, online documentation, go to:
 
-http://www.opengl.org  
+http://www.opengl.org
 
-The earth surface JPEG-image is taken from the Linux/KDE application  
-kdeworldclock. kdeworldclock and its components are licensed under  
-GPL.  
+The earth surface JPEG-image is taken from the Linux/KDE application
+kdeworldclock. kdeworldclock and its components are licensed under
+GPL.
 
 
 <div class="code_header" style="text-align:right;">

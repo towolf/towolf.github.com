@@ -6,16 +6,16 @@ categories:
 encoding: UTF-8
 ---
 
-fig = CalibratePlotGamma(cal,[fig])  
+fig = CalibratePlotGamma(cal,[fig])
 
-Make a diagnostic plot of the gamma data and fits in the  
-calibration structure.  
+Make a diagnostic plot of the gamma data and fits in the
+calibration structure.
 
-Can pass figure handle. Returns figure handle.  
+Can pass figure handle. Returns figure handle.
 
-See also CalibratePlotSpectra, CalibratePlotAmbient.  
+See also CalibratePlotSpectra, CalibratePlotAmbient.
 
-6/5/10  dhb  Wrote it.  
+6/5/10  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

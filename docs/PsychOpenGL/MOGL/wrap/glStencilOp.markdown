@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glStencilOp  Interface to OpenGL function glStencilOp  
+glStencilOp  Interface to OpenGL function glStencilOp
 
-usage:  glStencilOp( fail, zfail, zpass )  
+usage:  glStencilOp( fail, zfail, zpass )
 
-C function:  void glStencilOp(GLenum fail, GLenum zfail, GLenum zpass)  
+C function:  void glStencilOp(GLenum fail, GLenum zfail, GLenum zpass)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glNormal3iv  Interface to OpenGL function glNormal3iv  
+glNormal3iv  Interface to OpenGL function glNormal3iv
 
-usage:  glNormal3iv( v )  
+usage:  glNormal3iv( v )
 
-C function:  void glNormal3iv(const GLint\* v)  
+C function:  void glNormal3iv(const GLint\* v)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glMatrixMode  Interface to OpenGL function glMatrixMode  
+glMatrixMode  Interface to OpenGL function glMatrixMode
 
-usage:  glMatrixMode( mode )  
+usage:  glMatrixMode( mode )
 
-C function:  void glMatrixMode(GLenum mode)  
+C function:  void glMatrixMode(GLenum mode)
 
 
 <div class="code_header" style="text-align:right;">

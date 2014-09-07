@@ -7,28 +7,28 @@ encoding: UTF-8
 ---
 
 
-dot motion demo using SCREEN('DrawDots') subfunction  
+dot motion demo using SCREEN('DrawDots') subfunction
 
-Usage: DotDemoStencil([showSprites = 0][, waitframes = 1]);  
+Usage: DotDemoStencil([showSprites = 0][, waitframes = 1]);
 
-The optional parameter 'showSprites' when set to a non-zero value, will  
-draw little smiley textures instead of dots, demonstrating  
-sprite-drawing. A zero setting, or omitting the setting, will draw dots.  
+The optional parameter 'showSprites' when set to a non-zero value, will
+draw little smiley textures instead of dots, demonstrating
+sprite-drawing. A zero setting, or omitting the setting, will draw dots.
 
-'waitframes' Number of video refresh intervals to show each image before  
-updating the dot field. Defaults to 1 if omitted.  
+'waitframes' Number of video refresh intervals to show each image before
+updating the dot field. Defaults to 1 if omitted.
 
-You can exit the demo by any keypress or mouse button press. It will also  
-exit by itself after 1000 redraws.  
+You can exit the demo by any keypress or mouse button press. It will also
+exit by itself after 1000 redraws.
 
-The top of the demo code contains tons of parameters to tweak and  
-manipulate if you want.  
+The top of the demo code contains tons of parameters to tweak and
+manipulate if you want.
 
 
-Note: Some versions of MacOS/X have defective dot drawing due to an  
-operating system bug. If you happen to have such a system (e.g., OS/X  
-10\.6.3 with NVidia Geforce-7xxx hardware) then read "help ScreenDrawDots"  
-for a workaround.  
+Note: Some versions of MacOS/X have defective dot drawing due to an
+operating system bug. If you happen to have such a system (e.g., OS/X
+10\.6.3 with NVidia Geforce-7xxx hardware) then read "help ScreenDrawDots"
+for a workaround.
 
 
 

@@ -6,16 +6,16 @@ categories:
 encoding: UTF-8
 ---
 
-PR650setsyncfreq(syncFreq)  
+PR650setsyncfreq(syncFreq)
 
-Set sync frequency for source.  
-  Passing 0 means don't use sync mode.  
-  Passing 1 means use last sync measurement.  
+Set sync frequency for source.
+  Passing 0 means don't use sync mode.
+  Passing 1 means use last sync measurement.
 
-See also PR650getsyncfreq  
+See also PR650getsyncfreq
 
-8/20/10  Change error message to match command sent by this routine.  
-8/26/10  Better usage comment at top.  
+8/20/10  Change error message to match command sent by this routine.
+8/26/10  Better usage comment at top.
 
 
 <div class="code_header" style="text-align:right;">

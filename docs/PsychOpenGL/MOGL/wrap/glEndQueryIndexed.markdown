@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glEndQueryIndexed  Interface to OpenGL function glEndQueryIndexed  
+glEndQueryIndexed  Interface to OpenGL function glEndQueryIndexed
 
-usage:  glEndQueryIndexed( target, index )  
+usage:  glEndQueryIndexed( target, index )
 
-C function:  void glEndQueryIndexed(GLenum target, GLuint index)  
+C function:  void glEndQueryIndexed(GLenum target, GLuint index)
 
 
 <div class="code_header" style="text-align:right;">

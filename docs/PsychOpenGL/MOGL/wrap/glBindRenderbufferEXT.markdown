@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glBindRenderbufferEXT  Interface to OpenGL function glBindRenderbufferEXT  
+glBindRenderbufferEXT  Interface to OpenGL function glBindRenderbufferEXT
 
-usage:  glBindRenderbufferEXT( target, renderbuffer )  
+usage:  glBindRenderbufferEXT( target, renderbuffer )
 
-C function:  void glBindRenderbufferEXT(GLenum target, GLuint renderbuffer)  
+C function:  void glBindRenderbufferEXT(GLenum target, GLuint renderbuffer)
 
 
 <div class="code_header" style="text-align:right;">

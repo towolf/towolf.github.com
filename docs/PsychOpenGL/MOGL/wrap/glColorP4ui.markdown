@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glColorP4ui  Interface to OpenGL function glColorP4ui  
+glColorP4ui  Interface to OpenGL function glColorP4ui
 
-usage:  glColorP4ui( type, color )  
+usage:  glColorP4ui( type, color )
 
-C function:  void glColorP4ui(GLenum type, GLuint color)  
+C function:  void glColorP4ui(GLenum type, GLuint color)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,13 +6,13 @@ categories:
 encoding: UTF-8
 ---
 
-   [x,y] = RectCenterd(rect);  
+   [x,y] = RectCenterd(rect);
 
-    RectCenterd returns the x,y point at the center of a rect. It does the  
-    same as RectCenter, just without rounding the result to integer  
-    coordinates.  
+    RectCenterd returns the x,y point at the center of a rect. It does the
+    same as RectCenter, just without rounding the result to integer
+    coordinates.
 
-    See also PsychRects, CenterRectOnPoint.  
+    See also PsychRects, CenterRectOnPoint.
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glEvalCoord1f  Interface to OpenGL function glEvalCoord1f  
+glEvalCoord1f  Interface to OpenGL function glEvalCoord1f
 
-usage:  glEvalCoord1f( u )  
+usage:  glEvalCoord1f( u )
 
-C function:  void glEvalCoord1f(GLfloat u)  
+C function:  void glEvalCoord1f(GLfloat u)
 
 
 <div class="code_header" style="text-align:right;">

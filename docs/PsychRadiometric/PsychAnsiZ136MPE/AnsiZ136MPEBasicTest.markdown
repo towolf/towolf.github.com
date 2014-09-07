@@ -6,18 +6,18 @@ categories:
 encoding: UTF-8
 ---
 
-AnsiZ136MPEBasicTest  
+AnsiZ136MPEBasicTest
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*  
-IMPORTANT: Before using the AnsiZ136 routines, please see the notes on usage  
-and responsibility in PsychAnsiZ136MPE/Contents.m (type "help PsychAnsiZ136MPE"  
-at the Matlab prompt.  
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*  
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+IMPORTANT: Before using the AnsiZ136 routines, please see the notes on usage
+and responsibility in PsychAnsiZ136MPE/Contents.m (type "help PsychAnsiZ136MPE"
+at the Matlab prompt.
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-Test code for our implementation of ANSI Z136.1-2007. Reproduces many figures from the  
-standard.  
+Test code for our implementation of ANSI Z136.1-2007. Reproduces many figures from the
+standard.
 
-2/22/13  dhb  Wrote it.  
+2/22/13  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

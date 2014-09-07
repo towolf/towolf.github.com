@@ -6,39 +6,39 @@ categories:
 encoding: UTF-8
 ---
 
-tonset = PredictVisualOnsetForTime(window, when [, refreshinterval])  
+tonset = PredictVisualOnsetForTime(window, when [, refreshinterval])
 
-Map a specific requested 'when' visual onset time, as you would pass it as  
-'when' parameter to [Screen](/docs/Screen)('[Flip](/docs/Flip)', window, when); to the estimated onset  
-time of the "flipped" stimulus.  
+Map a specific requested 'when' visual onset time, as you would pass it as
+'when' parameter to [Screen](/docs/Screen)('[Flip](/docs/Flip)', window, when); to the estimated onset
+time of the "flipped" stimulus.
 
-By default, the refresh interval from [Screen](/docs/Screen)('GetFlipInterval', window);  
-is used for calculation, but you can provide an optional  
-'refreshinterval' to override this choice.  
+By default, the refresh interval from [Screen](/docs/Screen)('GetFlipInterval', window);
+is used for calculation, but you can provide an optional
+'refreshinterval' to override this choice.
 
-This function predicts the real onset time of your "flipped" stimulus,  
-taking into account that [Screen](/docs/Screen)('[Flip](/docs/Flip)') will not show your stimulus at  
-exactly the requested 'when' time, but it will synchronize stimulus onset  
-to the display refresh cycle of your monitor, ie, it will wait for onset  
-of the closest vertical blanking interval equal or later than 'when'.  
+This function predicts the real onset time of your "flipped" stimulus,
+taking into account that [Screen](/docs/Screen)('[Flip](/docs/Flip)') will not show your stimulus at
+exactly the requested 'when' time, but it will synchronize stimulus onset
+to the display refresh cycle of your monitor, ie, it will wait for onset
+of the closest vertical blanking interval equal or later than 'when'.
 
-You can use the predicted 'tonset' to synchronize other modalities to  
-visual stimulus onset. E.g., our sound driver PsychPortAudio can accept  
-such a time as sound onset deadline in order to synch sound onset with  
-visual stimulus onset...  
+You can use the predicted 'tonset' to synchronize other modalities to
+visual stimulus onset. E.g., our sound driver PsychPortAudio can accept
+such a time as sound onset deadline in order to synch sound onset with
+visual stimulus onset...
 
-Of course if your stimulus is too complex to be finished with drawing  
-until 'when' then [Screen](/docs/Screen)('[Flip](/docs/Flip)') will miss the deadline and this  
-prediction will be wrong.  
+Of course if your stimulus is too complex to be finished with drawing
+until 'when' then [Screen](/docs/Screen)('[Flip](/docs/Flip)') will miss the deadline and this
+prediction will be wrong.
 
-# Accuracy of prediction:  
+# Accuracy of prediction:
 
-On systems that support timing via beamposition queries, the prediction  
-should be accurate to better than 200 microseconds. On systems without  
-beamposition queries, the prediction may be off by up to a millisecond  
-worst case. On such systems we can't determine and correct for the  
-duration of the vertical blanking interval, so the prediction will be a  
-bit too early.  
+On systems that support timing via beamposition queries, the prediction
+should be accurate to better than 200 microseconds. On systems without
+beamposition queries, the prediction may be off by up to a millisecond
+worst case. On such systems we can't determine and correct for the
+duration of the vertical blanking interval, so the prediction will be a
+bit too early.
 
 
 <div class="code_header" style="text-align:right;">

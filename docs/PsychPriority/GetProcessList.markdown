@@ -6,23 +6,23 @@ categories:
 encoding: UTF-8
 ---
 
-processStructList=GetProcessList  
+processStructList=GetProcessList
 
-# OS X  
+# OS X
 
-Return an array of structures describing processes running on the system.  
-GetProcessList ultimately relies on the Unix ps command.  
+Return an array of structures describing processes running on the system.
+GetProcessList ultimately relies on the Unix ps command.
 
-# OS 9  
+# OS 9
 
-GetProcessList does not exist in OS 9.  
+GetProcessList does not exist in OS 9.
 
-# WINDOWS  
+# WINDOWS
 
-GetProcessList does not exist in Windows.  
-----  
+GetProcessList does not exist in Windows.
+----
 
-see also: GetProcessDescriptorFromCommandName, GetRawProcessList  
+see also: GetProcessDescriptorFromCommandName, GetRawProcessList
 
 
 <div class="code_header" style="text-align:right;">

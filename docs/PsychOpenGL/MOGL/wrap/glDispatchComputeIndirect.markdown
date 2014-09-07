@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glDispatchComputeIndirect  Interface to OpenGL function glDispatchComputeIndirect  
+glDispatchComputeIndirect  Interface to OpenGL function glDispatchComputeIndirect
 
-usage:  glDispatchComputeIndirect( ptr )  
+usage:  glDispatchComputeIndirect( ptr )
 
-C function:  void glDispatchComputeIndirect(GLint ptr)  
+C function:  void glDispatchComputeIndirect(GLint ptr)
 
 
 <div class="code_header" style="text-align:right;">

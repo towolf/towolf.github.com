@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetTexEnviv  Interface to OpenGL function glGetTexEnviv  
+glGetTexEnviv  Interface to OpenGL function glGetTexEnviv
 
-usage:  params = glGetTexEnviv( target, pname )  
+usage:  params = glGetTexEnviv( target, pname )
 
-C function:  void glGetTexEnviv(GLenum target, GLenum pname, GLint\* params)  
+C function:  void glGetTexEnviv(GLenum target, GLenum pname, GLint\* params)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glIsEnabled  Interface to OpenGL function glIsEnabled  
+glIsEnabled  Interface to OpenGL function glIsEnabled
 
-usage:  r = glIsEnabled( cap )  
+usage:  r = glIsEnabled( cap )
 
-C function:  GLboolean glIsEnabled(GLenum cap)  
+C function:  GLboolean glIsEnabled(GLenum cap)
 
 
 <div class="code_header" style="text-align:right;">

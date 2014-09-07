@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glutWireTorus  Interface to OpenGL function glutWireTorus  
+glutWireTorus  Interface to OpenGL function glutWireTorus
 
-usage:  glutWireTorus( innerRadius, outerRadius, sides, rings )  
+usage:  glutWireTorus( innerRadius, outerRadius, sides, rings )
 
-C function:  void glutWireTorus(GLdouble innerRadius, GLdouble outerRadius, GLint sides, GLint rings)  
+C function:  void glutWireTorus(GLdouble innerRadius, GLdouble outerRadius, GLint sides, GLint rings)
 
 
 <div class="code_header" style="text-align:right;">

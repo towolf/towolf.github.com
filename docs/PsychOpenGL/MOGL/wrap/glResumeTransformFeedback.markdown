@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glResumeTransformFeedback  Interface to OpenGL function glResumeTransformFeedback  
+glResumeTransformFeedback  Interface to OpenGL function glResumeTransformFeedback
 
-usage:  glResumeTransformFeedback  
+usage:  glResumeTransformFeedback
 
-C function:  void glResumeTransformFeedback(void)  
+C function:  void glResumeTransformFeedback(void)
 
 
 <div class="code_header" style="text-align:right;">

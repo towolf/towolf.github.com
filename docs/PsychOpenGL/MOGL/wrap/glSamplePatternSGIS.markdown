@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glSamplePatternSGIS  Interface to OpenGL function glSamplePatternSGIS  
+glSamplePatternSGIS  Interface to OpenGL function glSamplePatternSGIS
 
-usage:  glSamplePatternSGIS( arg1 )  
+usage:  glSamplePatternSGIS( arg1 )
 
-C function:  void glSamplePatternSGIS(GLenum)  
+C function:  void glSamplePatternSGIS(GLenum)
 
 
 <div class="code_header" style="text-align:right;">

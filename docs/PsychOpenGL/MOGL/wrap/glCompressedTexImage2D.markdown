@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glCompressedTexImage2D  Interface to OpenGL function glCompressedTexImage2D  
+glCompressedTexImage2D  Interface to OpenGL function glCompressedTexImage2D
 
-usage:  glCompressedTexImage2D( target, level, internalformat, width, height, border, imageSize, data )  
+usage:  glCompressedTexImage2D( target, level, internalformat, width, height, border, imageSize, data )
 
-C function:  void glCompressedTexImage2D(GLenum target, GLint level, GLenum internalformat, GLsizei width, GLsizei height, GLint border, GLsizei imageSize, const GLvoid\* data)  
+C function:  void glCompressedTexImage2D(GLenum target, GLint level, GLenum internalformat, GLsizei width, GLsizei height, GLint border, GLsizei imageSize, const GLvoid\* data)
 
 
 <div class="code_header" style="text-align:right;">

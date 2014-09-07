@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glVertex4d  Interface to OpenGL function glVertex4d  
+glVertex4d  Interface to OpenGL function glVertex4d
 
-usage:  glVertex4d( x, y, z, w )  
+usage:  glVertex4d( x, y, z, w )
 
-C function:  void glVertex4d(GLdouble x, GLdouble y, GLdouble z, GLdouble w)  
+C function:  void glVertex4d(GLdouble x, GLdouble y, GLdouble z, GLdouble w)
 
 
 <div class="code_header" style="text-align:right;">

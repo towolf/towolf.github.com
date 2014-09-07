@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alIsEnabled  Interface to OpenAL function alIsEnabled  
+alIsEnabled  Interface to OpenAL function alIsEnabled
 
-usage:  r = alIsEnabled( capability )  
+usage:  r = alIsEnabled( capability )
 
-C function:  ALboolean alIsEnabled(ALenum capability)  
+C function:  ALboolean alIsEnabled(ALenum capability)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetShaderSource  Interface to OpenGL function glGetShaderSource  
+glGetShaderSource  Interface to OpenGL function glGetShaderSource
 
-usage:  [ length, source ] = glGetShaderSource( shader, bufSize )  
+usage:  [ length, source ] = glGetShaderSource( shader, bufSize )
 
-C function:  void glGetShaderSource(GLuint shader, GLsizei bufSize, GLsizei\* length, GLchar\* source)  
+C function:  void glGetShaderSource(GLuint shader, GLsizei bufSize, GLsizei\* length, GLchar\* source)
 
 
 <div class="code_header" style="text-align:right;">

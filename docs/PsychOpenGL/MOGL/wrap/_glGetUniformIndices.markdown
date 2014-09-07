@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetUniformIndices  Interface to OpenGL function glGetUniformIndices  
+glGetUniformIndices  Interface to OpenGL function glGetUniformIndices
 
-usage:  uniformIndices = glGetUniformIndices( program, uniformCount, const )  
+usage:  uniformIndices = glGetUniformIndices( program, uniformCount, const )
 
-C function:  void glGetUniformIndices(GLuint program, GLsizei uniformCount, const GLchar\* const, GLuint\* uniformIndices)  
+C function:  void glGetUniformIndices(GLuint program, GLsizei uniformCount, const GLchar\* const, GLuint\* uniformIndices)
 
 
 <div class="code_header" style="text-align:right;">

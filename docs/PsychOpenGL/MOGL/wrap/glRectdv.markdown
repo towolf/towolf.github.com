@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glRectdv  Interface to OpenGL function glRectdv  
+glRectdv  Interface to OpenGL function glRectdv
 
-usage:  glRectdv( v1, v2 )  
+usage:  glRectdv( v1, v2 )
 
-C function:  void glRectdv(const GLdouble\* v1, const GLdouble\* v2)  
+C function:  void glRectdv(const GLdouble\* v1, const GLdouble\* v2)
 
 
 <div class="code_header" style="text-align:right;">

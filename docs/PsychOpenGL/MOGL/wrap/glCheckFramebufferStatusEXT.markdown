@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glCheckFramebufferStatusEXT  Interface to OpenGL function glCheckFramebufferStatusEXT  
+glCheckFramebufferStatusEXT  Interface to OpenGL function glCheckFramebufferStatusEXT
 
-usage:  r = glCheckFramebufferStatusEXT( target )  
+usage:  r = glCheckFramebufferStatusEXT( target )
 
-C function:  GLenum glCheckFramebufferStatusEXT(GLenum target)  
+C function:  GLenum glCheckFramebufferStatusEXT(GLenum target)
 
 
 <div class="code_header" style="text-align:right;">

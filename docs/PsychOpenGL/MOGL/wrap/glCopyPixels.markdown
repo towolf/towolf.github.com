@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glCopyPixels  Interface to OpenGL function glCopyPixels  
+glCopyPixels  Interface to OpenGL function glCopyPixels
 
-usage:  glCopyPixels( x, y, width, height, type )  
+usage:  glCopyPixels( x, y, width, height, type )
 
-C function:  void glCopyPixels(GLint x, GLint y, GLsizei width, GLsizei height, GLenum type)  
+C function:  void glCopyPixels(GLint x, GLint y, GLsizei width, GLsizei height, GLenum type)
 
 
 <div class="code_header" style="text-align:right;">

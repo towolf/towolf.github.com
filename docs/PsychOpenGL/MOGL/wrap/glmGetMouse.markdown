@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-glmGetMouse  Get mouse cursor position and button state  
+glmGetMouse  Get mouse cursor position and button state
 
-usage:  [ xy, b ] = glmGetMouse  
+usage:  [ xy, b ] = glmGetMouse
 
 
 <div class="code_header" style="text-align:right;">

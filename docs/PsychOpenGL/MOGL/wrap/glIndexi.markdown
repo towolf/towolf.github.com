@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glIndexi  Interface to OpenGL function glIndexi  
+glIndexi  Interface to OpenGL function glIndexi
 
-usage:  glIndexi( c )  
+usage:  glIndexi( c )
 
-C function:  void glIndexi(GLint c)  
+C function:  void glIndexi(GLint c)
 
 
 <div class="code_header" style="text-align:right;">

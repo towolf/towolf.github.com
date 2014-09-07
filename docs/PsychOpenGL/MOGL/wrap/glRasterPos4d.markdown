@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glRasterPos4d  Interface to OpenGL function glRasterPos4d  
+glRasterPos4d  Interface to OpenGL function glRasterPos4d
 
-usage:  glRasterPos4d( x, y, z, w )  
+usage:  glRasterPos4d( x, y, z, w )
 
-C function:  void glRasterPos4d(GLdouble x, GLdouble y, GLdouble z, GLdouble w)  
+C function:  void glRasterPos4d(GLdouble x, GLdouble y, GLdouble z, GLdouble w)
 
 
 <div class="code_header" style="text-align:right;">

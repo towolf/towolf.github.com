@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glDrawElements  Interface to OpenGL function glDrawElements  
+glDrawElements  Interface to OpenGL function glDrawElements
 
-usage:  glDrawElements( mode, count, type, indices )  
+usage:  glDrawElements( mode, count, type, indices )
 
-C function:  void glDrawElements(GLenum mode, GLsizei count, GLenum type, const GLvoid\* indices)  
+C function:  void glDrawElements(GLenum mode, GLsizei count, GLenum type, const GLvoid\* indices)
 
 
 <div class="code_header" style="text-align:right;">

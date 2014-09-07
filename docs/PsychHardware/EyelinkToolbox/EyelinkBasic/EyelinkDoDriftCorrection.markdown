@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-DO PRE-TRIAL DRIFT CORRECTION \*/  
-We repeat if ESC key pressed to do setup. \*/  
-Setup might also have erased any pre-drawn graphics. \*/  
+DO PRE-TRIAL DRIFT CORRECTION \*/
+We repeat if ESC key pressed to do setup. \*/
+Setup might also have erased any pre-drawn graphics. \*/
 
 
 <div class="code_header" style="text-align:right;">

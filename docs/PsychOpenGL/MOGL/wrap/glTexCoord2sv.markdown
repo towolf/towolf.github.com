@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glTexCoord2sv  Interface to OpenGL function glTexCoord2sv  
+glTexCoord2sv  Interface to OpenGL function glTexCoord2sv
 
-usage:  glTexCoord2sv( v )  
+usage:  glTexCoord2sv( v )
 
-C function:  void glTexCoord2sv(const GLshort\* v)  
+C function:  void glTexCoord2sv(const GLshort\* v)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetUniformiv  Interface to OpenGL function glGetUniformiv  
+glGetUniformiv  Interface to OpenGL function glGetUniformiv
 
-usage:  params = glGetUniformiv( program, location )  
+usage:  params = glGetUniformiv( program, location )
 
-C function:  void glGetUniformiv(GLuint program, GLint location, GLint\* params)  
+C function:  void glGetUniformiv(GLuint program, GLint location, GLint\* params)
 
 
 <div class="code_header" style="text-align:right;">

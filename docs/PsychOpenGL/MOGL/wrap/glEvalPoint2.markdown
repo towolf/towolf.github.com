@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glEvalPoint2  Interface to OpenGL function glEvalPoint2  
+glEvalPoint2  Interface to OpenGL function glEvalPoint2
 
-usage:  glEvalPoint2( i, j )  
+usage:  glEvalPoint2( i, j )
 
-C function:  void glEvalPoint2(GLint i, GLint j)  
+C function:  void glEvalPoint2(GLint i, GLint j)
 
 
 <div class="code_header" style="text-align:right;">

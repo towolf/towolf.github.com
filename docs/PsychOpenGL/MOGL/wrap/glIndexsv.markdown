@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glIndexsv  Interface to OpenGL function glIndexsv  
+glIndexsv  Interface to OpenGL function glIndexsv
 
-usage:  glIndexsv( c )  
+usage:  glIndexsv( c )
 
-C function:  void glIndexsv(const GLshort\* c)  
+C function:  void glIndexsv(const GLshort\* c)
 
 
 <div class="code_header" style="text-align:right;">

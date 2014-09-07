@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-gluGetString  Interface to gluGetString  
+gluGetString  Interface to gluGetString
 
-usage:  r = gluGetString( name )  
+usage:  r = gluGetString( name )
 
-C function:  const GLubyte \* gluGetString (GLenum name)  
+C function:  const GLubyte \* gluGetString (GLenum name)
 
 
 <div class="code_header" style="text-align:right;">

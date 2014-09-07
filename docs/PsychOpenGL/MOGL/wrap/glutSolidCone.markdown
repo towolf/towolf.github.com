@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glutSolidCone  Interface to OpenGL function glutSolidCone  
+glutSolidCone  Interface to OpenGL function glutSolidCone
 
-usage:  glutSolidCone( base, height, slices, stacks )  
+usage:  glutSolidCone( base, height, slices, stacks )
 
-C function:  void glutSolidCone(GLdouble base, GLdouble height, GLint slices, GLint stacks)  
+C function:  void glutSolidCone(GLdouble base, GLdouble height, GLint slices, GLint stacks)
 
 
 <div class="code_header" style="text-align:right;">

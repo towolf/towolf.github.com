@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-wrapper function for in and outgoing udp connections  
+wrapper function for in and outgoing udp connections
 
 
 <div class="code_header" style="text-align:right;">

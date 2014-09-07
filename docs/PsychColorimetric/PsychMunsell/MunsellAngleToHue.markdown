@@ -6,13 +6,13 @@ categories:
 encoding: UTF-8
 ---
 
-[H1,H2] = MunsellAngleToHue(angle)  
+[H1,H2] = MunsellAngleToHue(angle)
 
-Invert MunsellHueToAngle.  
+Invert MunsellHueToAngle.
 
-See also: MunsellHueToAngle  
+See also: MunsellHueToAngle
 
-dhb, ijk  Wrote it.  
+dhb, ijk  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

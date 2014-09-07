@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-gluBeginTrim  Interface to OpenGL function gluBeginTrim  
+gluBeginTrim  Interface to OpenGL function gluBeginTrim
 
-usage:  gluBeginTrim( nurb )  
+usage:  gluBeginTrim( nurb )
 
-C function:  void gluBeginTrim(GLUnurbs\* nurb)  
+C function:  void gluBeginTrim(GLUnurbs\* nurb)
 
 
 <div class="code_header" style="text-align:right;">

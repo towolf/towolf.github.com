@@ -6,10 +6,10 @@ categories:
 encoding: UTF-8
 ---
 
-[rect,dh,dv] = CenterRect(rect,fixedRect)  
+[rect,dh,dv] = CenterRect(rect,fixedRect)
 
-Center the first rect in the second by adding an integer offset.  
-Also see PsychRects.  
+Center the first rect in the second by adding an integer offset.
+Also see PsychRects.
 
 
 <div class="code_header" style="text-align:right;">

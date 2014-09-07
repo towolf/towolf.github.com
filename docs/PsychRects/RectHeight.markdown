@@ -6,10 +6,10 @@ categories:
 encoding: UTF-8
 ---
 
-height = RectHeight(rect)  
+height = RectHeight(rect)
 
-Returns the rect's height.  
-Also see PsychRects.  
+Returns the rect's height.
+Also see PsychRects.
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,10 +6,10 @@ categories:
 encoding: UTF-8
 ---
 
-PR650close  
+PR650close
 
-[Close](/docs/Close) serial port used to talk to colorimeter.  Reset  
-serial global.  
+[Close](/docs/Close) serial port used to talk to colorimeter.  Reset
+serial global.
 
 
 

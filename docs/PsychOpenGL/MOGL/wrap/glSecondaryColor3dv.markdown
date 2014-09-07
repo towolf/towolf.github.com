@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glSecondaryColor3dv  Interface to OpenGL function glSecondaryColor3dv  
+glSecondaryColor3dv  Interface to OpenGL function glSecondaryColor3dv
 
-usage:  glSecondaryColor3dv( v )  
+usage:  glSecondaryColor3dv( v )
 
-C function:  void glSecondaryColor3dv(const GLdouble\* v)  
+C function:  void glSecondaryColor3dv(const GLdouble\* v)
 
 
 <div class="code_header" style="text-align:right;">

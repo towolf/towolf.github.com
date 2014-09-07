@@ -6,55 +6,55 @@ categories:
 encoding: UTF-8
 ---
 
-InitializeMatlabOpenAL([debuglevel] [,snddevicename] [, openal\_c\_style])  
+InitializeMatlabOpenAL([debuglevel] [,snddevicename] [, openal\_c\_style])
 
-InitializeMatlabOpenAL -- Initialize the OpenAL for Matlab wrapper 'moal'.  
+InitializeMatlabOpenAL -- Initialize the OpenAL for Matlab wrapper 'moal'.
 
-Call this function at the beginning of your experiment script if you intend  
-to use low-level OpenAL sound commands in your script as provided by our  
-moalcore extension.  
+Call this function at the beginning of your experiment script if you intend
+to use low-level OpenAL sound commands in your script as provided by our
+moalcore extension.
 
-This will check if moal is properly installed and upload all required  
-OpenAL constants into your Matlab workspace. It will also set up  
-Psychtoolbox for interfacing with external OpenAL code.  
+This will check if moal is properly installed and upload all required
+OpenAL constants into your Matlab workspace. It will also set up
+Psychtoolbox for interfacing with external OpenAL code.
 
-MacOS/X users do not need to take any measures, OpenAL comes installed on  
-Tiger (10.4) by default. The same is true for modern GNU/Linux distributions.  
+MacOS/X users do not need to take any measures, OpenAL comes installed on
+Tiger (10.4) by default. The same is true for modern GNU/Linux distributions.
 
-Users of Microsoft Windows need to download and install the freely available  
-OpenAL runtime for Windows. Follow the links to the runtime for Windows in  
-the 'Downloads' section of the OpenAL homepage:  
+Users of Microsoft Windows need to download and install the freely available
+OpenAL runtime for Windows. Follow the links to the runtime for Windows in
+the 'Downloads' section of the OpenAL homepage:
 
-http://www.openal.org  
+http://www.openal.org
 
-Options: All options are optional.  
+Options: All options are optional.
 
-debuglevel = 0 to 3: Setting debuglevel == 0 will disable debug-output.  
-A level of 1 will cause MOAL to output error messages and abort your  
-scripts execution if it detects any OpenAL error. A level of 2 provides  
-additional information that may help you to optimize your code. level 3  
-means to be very verbose  
+debuglevel = 0 to 3: Setting debuglevel == 0 will disable debug-output.
+A level of 1 will cause MOAL to output error messages and abort your
+scripts execution if it detects any OpenAL error. A level of 2 provides
+additional information that may help you to optimize your code. level 3
+means to be very verbose
 
-snddevicename: Optional. Request a specific sound output device by  
-its name. If left out, or if an invalid name is given, OpenAL will  
-select a default output device - the most capable and most efficient  
-device in your system.  
+snddevicename: Optional. Request a specific sound output device by
+its name. If left out, or if an invalid name is given, OpenAL will
+select a default output device - the most capable and most efficient
+device in your system.
 
-openal\_c\_style = 0 / 1: Optional. If left out or set to zero, all  
-constants will be loaded in structs in order to avoid cluttering the  
-Matlab workspace too much. You'll have to replace all AL\_xxx calls by  
-AL.xxx calls, e.g., AL\_TRUE becomes AL.TRUE .  
-If set to one, then all constants will additionally be provided in standard  
-C-Style syntax, aka AL\_TRUE, but this only works in the main function, not  
-in subroutines.  
+openal\_c\_style = 0 / 1: Optional. If left out or set to zero, all
+constants will be loaded in structs in order to avoid cluttering the
+Matlab workspace too much. You'll have to replace all AL\_xxx calls by
+AL.xxx calls, e.g., AL\_TRUE becomes AL.TRUE .
+If set to one, then all constants will additionally be provided in standard
+C-Style syntax, aka AL\_TRUE, but this only works in the main function, not
+in subroutines.
 
-The 'OpenAL for Matlab' low level wrapper moal was implemented by Mario  
-Kleiner, trivially derived from our MOGL Matlab for OpenGL wrapper, which  
-was developed and contributed to Psychtoolbox under GPL license by  
-Prof. Richard F. Murray, University of York, Canada and Mario Kleiner.  
+The 'OpenAL for Matlab' low level wrapper moal was implemented by Mario
+Kleiner, trivially derived from our MOGL Matlab for OpenGL wrapper, which
+was developed and contributed to Psychtoolbox under GPL license by
+Prof. Richard F. Murray, University of York, Canada and Mario Kleiner.
 
-MOAL is now licensed under the more permissive MIT license since 2011.  
-Relicensing with permission of Richard Murray.  
+MOAL is now licensed under the more permissive MIT license since 2011.
+Relicensing with permission of Richard Murray.
 
 
 <div class="code_header" style="text-align:right;">

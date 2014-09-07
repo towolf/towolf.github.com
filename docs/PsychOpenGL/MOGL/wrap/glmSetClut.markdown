@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-glmSetClut  Open a screen in the mogl interface  
+glmSetClut  Open a screen in the mogl interface
 
-usage:  glmSetClut( clut )  
+usage:  glmSetClut( clut )
 
 
 <div class="code_header" style="text-align:right;">

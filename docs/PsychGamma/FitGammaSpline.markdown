@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-[fit\_out,x,err] = FitGammaSpline(values\_in,measurements,values\_out)  
+[fit\_out,x,err] = FitGammaSpline(values\_in,measurements,values\_out)
 
-Cubic spline through gamma data  
+Cubic spline through gamma data
 
-7/18/94     dhb     Wrote it.  
+7/18/94     dhb     Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

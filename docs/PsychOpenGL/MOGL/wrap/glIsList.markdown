@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glIsList  Interface to OpenGL function glIsList  
+glIsList  Interface to OpenGL function glIsList
 
-usage:  r = glIsList( list )  
+usage:  r = glIsList( list )
 
-C function:  GLboolean glIsList(GLuint list)  
+C function:  GLboolean glIsList(GLuint list)
 
 
 <div class="code_header" style="text-align:right;">

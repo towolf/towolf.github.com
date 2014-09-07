@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glHint  Interface to OpenGL function glHint  
+glHint  Interface to OpenGL function glHint
 
-usage:  glHint( target, mode )  
+usage:  glHint( target, mode )
 
-C function:  void glHint(GLenum target, GLenum mode)  
+C function:  void glHint(GLenum target, GLenum mode)
 
 
 <div class="code_header" style="text-align:right;">

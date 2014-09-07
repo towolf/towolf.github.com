@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glEndList  Interface to OpenGL function glEndList  
+glEndList  Interface to OpenGL function glEndList
 
-usage:  glEndList  
+usage:  glEndList
 
-C function:  void glEndList(void)  
+C function:  void glEndList(void)
 
 
 <div class="code_header" style="text-align:right;">

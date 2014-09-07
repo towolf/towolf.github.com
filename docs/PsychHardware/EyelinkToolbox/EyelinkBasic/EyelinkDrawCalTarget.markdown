@@ -6,13 +6,13 @@ categories:
 encoding: UTF-8
 ---
 
- draw simple calibration target  
+ draw simple calibration target
 
- USAGE: rect=EyelinkDrawCalTarget(el, x, y)  
+ USAGE: rect=EyelinkDrawCalTarget(el, x, y)
 
-        el: eyelink default values  
-        x,y: position at which it should be drawn  
-        rect:  
+        el: eyelink default values
+        x,y: position at which it should be drawn
+        rect:
 
 
 <div class="code_header" style="text-align:right;">

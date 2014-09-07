@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glColor3bv  Interface to OpenGL function glColor3bv  
+glColor3bv  Interface to OpenGL function glColor3bv
 
-usage:  glColor3bv( v )  
+usage:  glColor3bv( v )
 
-C function:  void glColor3bv(const GLbyte\* v)  
+C function:  void glColor3bv(const GLbyte\* v)
 
 
 <div class="code_header" style="text-align:right;">

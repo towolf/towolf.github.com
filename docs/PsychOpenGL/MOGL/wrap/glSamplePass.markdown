@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glSamplePass  Interface to OpenGL function glSamplePass  
+glSamplePass  Interface to OpenGL function glSamplePass
 
-usage:  glSamplePass( pass )  
+usage:  glSamplePass( pass )
 
-C function:  void glSamplePass(GLenum pass)  
+C function:  void glSamplePass(GLenum pass)
 
 
 <div class="code_header" style="text-align:right;">

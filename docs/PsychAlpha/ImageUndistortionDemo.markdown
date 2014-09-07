@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-ImageUndistortionDemo(calibfilename [, imagefilename])  
+ImageUndistortionDemo(calibfilename [, imagefilename])
 
-Very sketchy demo.  
+Very sketchy demo.
 
 
 <div class="code_header" style="text-align:right;">

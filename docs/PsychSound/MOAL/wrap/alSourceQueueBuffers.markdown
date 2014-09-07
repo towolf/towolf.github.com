@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alSourceQueueBuffers  Interface to OpenAL function alSourceQueueBuffers  
+alSourceQueueBuffers  Interface to OpenAL function alSourceQueueBuffers
 
-usage:  alSourceQueueBuffers( sid, numEntries, bids )  
+usage:  alSourceQueueBuffers( sid, numEntries, bids )
 
-C function:  void alSourceQueueBuffers(ALuint sid, ALsizei numEntries, const ALuint\* bids)  
+C function:  void alSourceQueueBuffers(ALuint sid, ALsizei numEntries, const ALuint\* bids)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,45 +6,45 @@ categories:
 encoding: UTF-8
 ---
 
-FDFDemo(dotDensity, dotLifetime) - Demo of "formless dot field" stimulus  
-via moglFDF.  
+FDFDemo(dotDensity, dotLifetime) - Demo of "formless dot field" stimulus
+via moglFDF.
 
-This demo generates a simple "formless dot field" random dot motion  
-stimulus to create "structure from motion" percept by use of the moglFDF  
-function for formless dot field rendering. See "help moglFDF" for more  
-details.  
+This demo generates a simple "formless dot field" random dot motion
+stimulus to create "structure from motion" percept by use of the moglFDF
+function for formless dot field rendering. See "help moglFDF" for more
+details.
 
-The demo shows a simple spinning 3D sphere, rendered as random dot  
-stimulus.  
+The demo shows a simple spinning 3D sphere, rendered as random dot
+stimulus.
 
-# The following optional parameters can be provided to FDFDemo:  
+# The following optional parameters can be provided to FDFDemo:
 
-dotDensity = Number of dots to use for both, the background- and  
-             foreground distribution. Defaults to 10000.  
+dotDensity = Number of dots to use for both, the background- and
+             foreground distribution. Defaults to 10000.
 
-dotLifetime = Lifetime of dots in frames. Defaults to 10 frames.  
+dotLifetime = Lifetime of dots in frames. Defaults to 10 frames.
 
 
-# Control keys:  
+# Control keys:
 
-ESCape key finishes the demo.  
+ESCape key finishes the demo.
 
-SPACE key toggles between a slowly rotating sphere and a static sphere.  
+SPACE key toggles between a slowly rotating sphere and a static sphere.
 
-'d' toggles the display between the formless dot field stimulus and some  
-debug visualization.  
+'d' toggles the display between the formless dot field stimulus and some
+debug visualization.
 
-'t' toggles drawing of foreground dots in the colors defined by the  
-texture map of the drawn object.  
+'t' toggles drawing of foreground dots in the colors defined by the
+texture map of the drawn object.
 
-'r' resets the distribution to empty, then incrementally recreates it.  
+'r' resets the distribution to empty, then incrementally recreates it.
 
-'h' resets the distribution to a completely new random one.  
+'h' resets the distribution to a completely new random one.
 
-Arrow left/right control the density of dots, the 'dotDensity' paramter  
-in decrements/increments of 5%.  
+Arrow left/right control the density of dots, the 'dotDensity' paramter
+in decrements/increments of 5%.
 
-Arrow up-/down controls the 'dotLifetime' in steps of +/- 1.  
+Arrow up-/down controls the 'dotLifetime' in steps of +/- 1.
 
 
 

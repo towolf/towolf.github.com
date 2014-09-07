@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alDopplerFactor  Interface to OpenAL function alDopplerFactor  
+alDopplerFactor  Interface to OpenAL function alDopplerFactor
 
-usage:  alDopplerFactor( value )  
+usage:  alDopplerFactor( value )
 
-C function:  void alDopplerFactor(ALfloat value)  
+C function:  void alDopplerFactor(ALfloat value)
 
 
 <div class="code_header" style="text-align:right;">

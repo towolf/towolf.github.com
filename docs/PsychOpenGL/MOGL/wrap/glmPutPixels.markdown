@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-glmPutPixels  Draw packed pixels to the screen  
+glmPutPixels  Draw packed pixels to the screen
 
-usage:  glmPutPixels( pixels )  
+usage:  glmPutPixels( pixels )
 
 
 <div class="code_header" style="text-align:right;">

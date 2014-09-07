@@ -6,8 +6,8 @@ categories:
 encoding: UTF-8
 ---
 
-[Flip](/docs/Flip) at next retrace, but don't do anything to buffers, we'll  
-overwrite anyway:  
+[Flip](/docs/Flip) at next retrace, but don't do anything to buffers, we'll
+overwrite anyway:
 
 
 <div class="code_header" style="text-align:right;">

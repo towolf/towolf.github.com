@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-GratingDemo  
+GratingDemo
 
-Displays a stationary grating.  See also DriftDemo, DriftDemo2, DriftDemo3 and DriftWaitDemo.  
+Displays a stationary grating.  See also DriftDemo, DriftDemo2, DriftDemo3 and DriftWaitDemo.
 
 
 <div class="code_header" style="text-align:right;">

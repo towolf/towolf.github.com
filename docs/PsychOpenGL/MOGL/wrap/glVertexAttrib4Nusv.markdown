@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glVertexAttrib4Nusv  Interface to OpenGL function glVertexAttrib4Nusv  
+glVertexAttrib4Nusv  Interface to OpenGL function glVertexAttrib4Nusv
 
-usage:  glVertexAttrib4Nusv( index, v )  
+usage:  glVertexAttrib4Nusv( index, v )
 
-C function:  void glVertexAttrib4Nusv(GLuint index, const GLushort\* v)  
+C function:  void glVertexAttrib4Nusv(GLuint index, const GLushort\* v)
 
 
 <div class="code_header" style="text-align:right;">

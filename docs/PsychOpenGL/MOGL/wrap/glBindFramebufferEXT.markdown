@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glBindFramebufferEXT  Interface to OpenGL function glBindFramebufferEXT  
+glBindFramebufferEXT  Interface to OpenGL function glBindFramebufferEXT
 
-usage:  glBindFramebufferEXT( target, framebuffer )  
+usage:  glBindFramebufferEXT( target, framebuffer )
 
-C function:  void glBindFramebufferEXT(GLenum target, GLuint framebuffer)  
+C function:  void glBindFramebufferEXT(GLenum target, GLuint framebuffer)
 
 
 <div class="code_header" style="text-align:right;">

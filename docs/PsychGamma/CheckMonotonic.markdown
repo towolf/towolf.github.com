@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-bool = CheckMonotonic(vector)  
+bool = CheckMonotonic(vector)
 
-Check whether the passed vector is monotonically non-decreasing.  
+Check whether the passed vector is monotonically non-decreasing.
 
-Return 1 if so, 0 if not.  
+Return 1 if so, 0 if not.
 
 
 <div class="code_header" style="text-align:right;">

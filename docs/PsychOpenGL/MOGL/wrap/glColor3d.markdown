@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glColor3d  Interface to OpenGL function glColor3d  
+glColor3d  Interface to OpenGL function glColor3d
 
-usage:  glColor3d( red, green, blue )  
+usage:  glColor3d( red, green, blue )
 
-C function:  void glColor3d(GLdouble red, GLdouble green, GLdouble blue)  
+C function:  void glColor3d(GLdouble red, GLdouble green, GLdouble blue)
 
 
 <div class="code_header" style="text-align:right;">

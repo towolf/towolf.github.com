@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glDisable  Interface to OpenGL function glDisable  
+glDisable  Interface to OpenGL function glDisable
 
-usage:  glDisable( cap )  
+usage:  glDisable( cap )
 
-C function:  void glDisable(GLenum cap)  
+C function:  void glDisable(GLenum cap)
 
 
 <div class="code_header" style="text-align:right;">

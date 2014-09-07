@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glDepthRange  Interface to OpenGL function glDepthRange  
+glDepthRange  Interface to OpenGL function glDepthRange
 
-usage:  glDepthRange( zNear, zFar )  
+usage:  glDepthRange( zNear, zFar )
 
-C function:  void glDepthRange(GLclampd zNear, GLclampd zFar)  
+C function:  void glDepthRange(GLclampd zNear, GLclampd zFar)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetPixelMapuiv  Interface to OpenGL function glGetPixelMapuiv  
+glGetPixelMapuiv  Interface to OpenGL function glGetPixelMapuiv
 
-usage:  values = glGetPixelMapuiv( map )  
+usage:  values = glGetPixelMapuiv( map )
 
-C function:  void glGetPixelMapuiv(GLenum map, GLuint\* values)  
+C function:  void glGetPixelMapuiv(GLenum map, GLuint\* values)
 
 
 <div class="code_header" style="text-align:right;">

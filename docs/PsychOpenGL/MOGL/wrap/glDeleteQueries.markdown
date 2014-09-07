@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glDeleteQueries  Interface to OpenGL function glDeleteQueries  
+glDeleteQueries  Interface to OpenGL function glDeleteQueries
 
-usage:  glDeleteQueries( n, ids )  
+usage:  glDeleteQueries( n, ids )
 
-C function:  void glDeleteQueries(GLsizei n, const GLuint\* ids)  
+C function:  void glDeleteQueries(GLsizei n, const GLuint\* ids)
 
 
 <div class="code_header" style="text-align:right;">

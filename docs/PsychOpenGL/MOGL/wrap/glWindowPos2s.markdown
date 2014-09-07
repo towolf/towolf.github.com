@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glWindowPos2s  Interface to OpenGL function glWindowPos2s  
+glWindowPos2s  Interface to OpenGL function glWindowPos2s
 
-usage:  glWindowPos2s( x, y )  
+usage:  glWindowPos2s( x, y )
 
-C function:  void glWindowPos2s(GLshort x, GLshort y)  
+C function:  void glWindowPos2s(GLshort x, GLshort y)
 
 
 <div class="code_header" style="text-align:right;">

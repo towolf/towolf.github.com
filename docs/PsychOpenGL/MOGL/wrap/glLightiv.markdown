@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glLightiv  Interface to OpenGL function glLightiv  
+glLightiv  Interface to OpenGL function glLightiv
 
-usage:  glLightiv( light, pname, params )  
+usage:  glLightiv( light, pname, params )
 
-C function:  void glLightiv(GLenum light, GLenum pname, const GLint\* params)  
+C function:  void glLightiv(GLenum light, GLenum pname, const GLint\* params)
 
 
 <div class="code_header" style="text-align:right;">

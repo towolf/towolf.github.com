@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glFogCoordfv  Interface to OpenGL function glFogCoordfv  
+glFogCoordfv  Interface to OpenGL function glFogCoordfv
 
-usage:  glFogCoordfv( coord )  
+usage:  glFogCoordfv( coord )
 
-C function:  void glFogCoordfv(const GLfloat\* coord)  
+C function:  void glFogCoordfv(const GLfloat\* coord)
 
 
 <div class="code_header" style="text-align:right;">

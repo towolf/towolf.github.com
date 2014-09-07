@@ -6,8 +6,8 @@ categories:
 encoding: UTF-8
 ---
 
-EyelinkToolbox:EyelinkTests  
-Non-exhaustive tests of eyelink toolbox functions  
+EyelinkToolbox:EyelinkTests
+Non-exhaustive tests of eyelink toolbox functions
 
 
 

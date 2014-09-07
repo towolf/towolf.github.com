@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-x = NormalDraw(ndraws,u,var)  
+x = NormalDraw(ndraws,u,var)
 
-Generate ndraws from a N(u,var) distribution.  
+Generate ndraws from a N(u,var) distribution.
 
 
 <div class="code_header" style="text-align:right;">

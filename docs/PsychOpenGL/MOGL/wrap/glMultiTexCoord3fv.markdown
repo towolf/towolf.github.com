@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glMultiTexCoord3fv  Interface to OpenGL function glMultiTexCoord3fv  
+glMultiTexCoord3fv  Interface to OpenGL function glMultiTexCoord3fv
 
-usage:  glMultiTexCoord3fv( target, v )  
+usage:  glMultiTexCoord3fv( target, v )
 
-C function:  void glMultiTexCoord3fv(GLenum target, const GLfloat\* v)  
+C function:  void glMultiTexCoord3fv(GLenum target, const GLfloat\* v)
 
 
 <div class="code_header" style="text-align:right;">

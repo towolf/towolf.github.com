@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-This shows you how to register a callback m-file that can display the tracker's eye image in PTB  
+This shows you how to register a callback m-file that can display the tracker's eye image in PTB
 
 
 <div class="code_header" style="text-align:right;">

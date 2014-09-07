@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alGetDoublev  Interface to OpenAL function alGetDoublev  
+alGetDoublev  Interface to OpenAL function alGetDoublev
 
-usage:  data = alGetDoublev( param )  
+usage:  data = alGetDoublev( param )
 
-C function:  void alGetDoublev(ALenum param, ALdouble\* data)  
+C function:  void alGetDoublev(ALenum param, ALdouble\* data)
 
 
 <div class="code_header" style="text-align:right;">

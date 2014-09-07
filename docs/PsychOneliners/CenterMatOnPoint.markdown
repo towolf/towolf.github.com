@@ -6,13 +6,13 @@ categories:
 encoding: UTF-8
 ---
 
-[xinds yinds] = CenterMatOnPoint(mat,x,y)  
+[xinds yinds] = CenterMatOnPoint(mat,x,y)
 
-returns indices to center matrix on a point  
+returns indices to center matrix on a point
 
-if no point is provided, relative indices are computed  
+if no point is provided, relative indices are computed
 
-DN 2008  
+DN 2008
 
 
 <div class="code_header" style="text-align:right;">

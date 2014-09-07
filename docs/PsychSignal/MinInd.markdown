@@ -6,10 +6,10 @@ categories:
 encoding: UTF-8
 ---
 
-[m,inds] = MinInd(mat)  
-returns minimum of an N-D matrix and the indices at which this minimum  
-occurs  
-indices are returned in a [#mins x ndims] matrix  
+[m,inds] = MinInd(mat)
+returns minimum of an N-D matrix and the indices at which this minimum
+occurs
+indices are returned in a [#mins x ndims] matrix
 
 
 <div class="code_header" style="text-align:right;">

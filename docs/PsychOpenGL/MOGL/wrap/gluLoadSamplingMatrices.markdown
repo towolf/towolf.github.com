@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-gluLoadSamplingMatrices  Interface to OpenGL function gluLoadSamplingMatrices  
+gluLoadSamplingMatrices  Interface to OpenGL function gluLoadSamplingMatrices
 
-usage:  gluLoadSamplingMatrices( nurb, model, perspective, view )  
+usage:  gluLoadSamplingMatrices( nurb, model, perspective, view )
 
-C function:  void gluLoadSamplingMatrices(GLUnurbs\* nurb, const GLfloat\* model, const GLfloat\* perspective, const GLint\* view)  
+C function:  void gluLoadSamplingMatrices(GLUnurbs\* nurb, const GLfloat\* model, const GLfloat\* perspective, const GLint\* view)
 
 
 <div class="code_header" style="text-align:right;">

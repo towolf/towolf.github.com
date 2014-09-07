@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-Returns the minimum value for axes.  
+Returns the minimum value for axes.
 
 
 

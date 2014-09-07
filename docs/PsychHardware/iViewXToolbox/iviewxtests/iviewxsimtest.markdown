@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-iviewx simulator test  
+iviewx simulator test
 
 
 <div class="code_header" style="text-align:right;">

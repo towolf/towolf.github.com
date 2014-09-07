@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-HelloAlphaDemo -- Minimal demonstration of alpha blending.  
+HelloAlphaDemo -- Minimal demonstration of alpha blending.
 
-Derived from code written by Peter Scarfe.  
+Derived from code written by Peter Scarfe.
 
 
 

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glInvalidateTexSubImage  Interface to OpenGL function glInvalidateTexSubImage  
+glInvalidateTexSubImage  Interface to OpenGL function glInvalidateTexSubImage
 
-usage:  glInvalidateTexSubImage( texture, level, xoffset, yoffset, zoffset, width, height, depth )  
+usage:  glInvalidateTexSubImage( texture, level, xoffset, yoffset, zoffset, width, height, depth )
 
-C function:  void glInvalidateTexSubImage(GLuint texture, GLint level, GLint xoffset, GLint yoffset, GLint zoffset, GLsizei width, GLsizei height, GLsizei depth)  
+C function:  void glInvalidateTexSubImage(GLuint texture, GLint level, GLint xoffset, GLint yoffset, GLint zoffset, GLsizei width, GLsizei height, GLsizei depth)
 
 
 <div class="code_header" style="text-align:right;">

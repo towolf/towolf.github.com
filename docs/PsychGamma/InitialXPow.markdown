@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-x = InitialXPow  
+x = InitialXPow
 
-Initial values for power function fit.  
+Initial values for power function fit.
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glBindImageTexture  Interface to OpenGL function glBindImageTexture  
+glBindImageTexture  Interface to OpenGL function glBindImageTexture
 
-usage:  glBindImageTexture( unit, texture, level, layered, layer, access, format )  
+usage:  glBindImageTexture( unit, texture, level, layered, layer, access, format )
 
-C function:  void glBindImageTexture(GLuint unit, GLuint texture, GLint level, GLboolean layered, GLint layer, GLenum access, GLenum format)  
+C function:  void glBindImageTexture(GLuint unit, GLuint texture, GLint level, GLboolean layered, GLint layer, GLenum access, GLenum format)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glScissorIndexed  Interface to OpenGL function glScissorIndexed  
+glScissorIndexed  Interface to OpenGL function glScissorIndexed
 
-usage:  glScissorIndexed( index, left, bottom, width, height )  
+usage:  glScissorIndexed( index, left, bottom, width, height )
 
-C function:  void glScissorIndexed(GLuint index, GLint left, GLint bottom, GLsizei width, GLsizei height)  
+C function:  void glScissorIndexed(GLuint index, GLint left, GLint bottom, GLsizei width, GLsizei height)
 
 
 <div class="code_header" style="text-align:right;">

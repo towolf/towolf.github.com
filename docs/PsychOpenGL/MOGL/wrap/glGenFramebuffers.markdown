@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGenFramebuffers  Interface to OpenGL function glGenFramebuffers  
+glGenFramebuffers  Interface to OpenGL function glGenFramebuffers
 
-usage:  framebuffers = glGenFramebuffers( n )  
+usage:  framebuffers = glGenFramebuffers( n )
 
-C function:  void glGenFramebuffers(GLsizei n, GLuint\* framebuffers)  
+C function:  void glGenFramebuffers(GLsizei n, GLuint\* framebuffers)
 
 
 <div class="code_header" style="text-align:right;">

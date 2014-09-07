@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glRasterPos3dv  Interface to OpenGL function glRasterPos3dv  
+glRasterPos3dv  Interface to OpenGL function glRasterPos3dv
 
-usage:  glRasterPos3dv( v )  
+usage:  glRasterPos3dv( v )
 
-C function:  void glRasterPos3dv(const GLdouble\* v)  
+C function:  void glRasterPos3dv(const GLdouble\* v)
 
 
 <div class="code_header" style="text-align:right;">

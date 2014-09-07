@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glClearColor  Interface to OpenGL function glClearColor  
+glClearColor  Interface to OpenGL function glClearColor
 
-usage:  glClearColor( red, green, blue, alpha )  
+usage:  glClearColor( red, green, blue, alpha )
 
-C function:  void glClearColor(GLclampf red, GLclampf green, GLclampf blue, GLclampf alpha)  
+C function:  void glClearColor(GLclampf red, GLclampf green, GLclampf blue, GLclampf alpha)
 
 
 <div class="code_header" style="text-align:right;">

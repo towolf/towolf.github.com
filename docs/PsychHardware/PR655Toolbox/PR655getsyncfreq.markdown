@@ -6,12 +6,12 @@ categories:
 encoding: UTF-8
 ---
 
-syncFreq = PR655getsyncfreq  
+syncFreq = PR655getsyncfreq
 
-Measure sync frequency for source.  Returns  
-empty if can't sync.  
+Measure sync frequency for source.  Returns
+empty if can't sync.
 
-01/16/09    tbc   Adapted from PR650Toolbox for use with PR655  
+01/16/09    tbc   Adapted from PR650Toolbox for use with PR655
 
 
 

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glDepthRangeArrayv  Interface to OpenGL function glDepthRangeArrayv  
+glDepthRangeArrayv  Interface to OpenGL function glDepthRangeArrayv
 
-usage:  glDepthRangeArrayv( first, count, v )  
+usage:  glDepthRangeArrayv( first, count, v )
 
-C function:  void glDepthRangeArrayv(GLuint first, GLsizei count, const GLdouble\* v)  
+C function:  void glDepthRangeArrayv(GLuint first, GLsizei count, const GLdouble\* v)
 
 
 <div class="code_header" style="text-align:right;">

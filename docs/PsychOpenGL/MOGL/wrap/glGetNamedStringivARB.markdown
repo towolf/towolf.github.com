@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetNamedStringivARB  Interface to OpenGL function glGetNamedStringivARB  
+glGetNamedStringivARB  Interface to OpenGL function glGetNamedStringivARB
 
-usage:  params = glGetNamedStringivARB( namelen, name, pname )  
+usage:  params = glGetNamedStringivARB( namelen, name, pname )
 
-C function:  void glGetNamedStringivARB(GLint namelen, const GLchar\* name, GLenum pname, GLint\* params)  
+C function:  void glGetNamedStringivARB(GLint namelen, const GLchar\* name, GLenum pname, GLint\* params)
 
 
 <div class="code_header" style="text-align:right;">

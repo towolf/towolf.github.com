@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glDeleteSync  Interface to OpenGL function glDeleteSync  
+glDeleteSync  Interface to OpenGL function glDeleteSync
 
-usage:  glDeleteSync( sync )  
+usage:  glDeleteSync( sync )
 
-C function:  void glDeleteSync(GLsync sync)  
+C function:  void glDeleteSync(GLsync sync)
 
 
 <div class="code_header" style="text-align:right;">

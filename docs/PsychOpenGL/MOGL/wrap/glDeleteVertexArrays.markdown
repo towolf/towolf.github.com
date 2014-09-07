@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glDeleteVertexArrays  Interface to OpenGL function glDeleteVertexArrays  
+glDeleteVertexArrays  Interface to OpenGL function glDeleteVertexArrays
 
-usage:  glDeleteVertexArrays( n, arrays )  
+usage:  glDeleteVertexArrays( n, arrays )
 
-C function:  void glDeleteVertexArrays(GLsizei n, const GLuint\* arrays)  
+C function:  void glDeleteVertexArrays(GLsizei n, const GLuint\* arrays)
 
 
 <div class="code_header" style="text-align:right;">

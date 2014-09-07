@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-SpiralTextureDemo  
+SpiralTextureDemo
 
 
 <div class="code_header" style="text-align:right;">

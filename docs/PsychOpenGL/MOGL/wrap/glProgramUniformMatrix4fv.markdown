@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glProgramUniformMatrix4fv  Interface to OpenGL function glProgramUniformMatrix4fv  
+glProgramUniformMatrix4fv  Interface to OpenGL function glProgramUniformMatrix4fv
 
-usage:  glProgramUniformMatrix4fv( program, location, count, transpose, value )  
+usage:  glProgramUniformMatrix4fv( program, location, count, transpose, value )
 
-C function:  void glProgramUniformMatrix4fv(GLuint program, GLint location, GLsizei count, GLboolean transpose, const GLfloat\* value)  
+C function:  void glProgramUniformMatrix4fv(GLuint program, GLint location, GLsizei count, GLboolean transpose, const GLfloat\* value)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-gluDisk  Interface to OpenGL function gluDisk  
+gluDisk  Interface to OpenGL function gluDisk
 
-usage:  gluDisk( quad, inner, outer, slices, loops )  
+usage:  gluDisk( quad, inner, outer, slices, loops )
 
-C function:  void gluDisk(GLUquadric\* quad, GLdouble inner, GLdouble outer, GLint slices, GLint loops)  
+C function:  void gluDisk(GLUquadric\* quad, GLdouble inner, GLdouble outer, GLint slices, GLint loops)
 
 
 <div class="code_header" style="text-align:right;">

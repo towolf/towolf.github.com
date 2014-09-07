@@ -6,10 +6,10 @@ categories:
 encoding: UTF-8
 ---
 
-pid=GetPID  
+pid=GetPID
 
-Return the process ID of the MATLAB process.  GetPID calls the POSIX  
-function "getpid".  
+Return the process ID of the MATLAB process.  GetPID calls the POSIX
+function "getpid".
 
 
 

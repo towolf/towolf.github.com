@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glNormalPointer  Interface to glNormalPointer  
+glNormalPointer  Interface to glNormalPointer
 
-usage:  glNormalPointer( type, stride, pointer )  
+usage:  glNormalPointer( type, stride, pointer )
 
-C function:  void glNormalPointer(GLenum type, GLsizei stride, const GLvoid\* pointer)  
+C function:  void glNormalPointer(GLenum type, GLsizei stride, const GLvoid\* pointer)
 
 
 <div class="code_header" style="text-align:right;">

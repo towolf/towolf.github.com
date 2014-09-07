@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glCallList  Interface to OpenGL function glCallList  
+glCallList  Interface to OpenGL function glCallList
 
-usage:  glCallList( list )  
+usage:  glCallList( list )
 
-C function:  void glCallList(GLuint list)  
+C function:  void glCallList(GLuint list)
 
 
 <div class="code_header" style="text-align:right;">

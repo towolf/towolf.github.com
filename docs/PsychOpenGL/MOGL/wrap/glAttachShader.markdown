@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glAttachShader  Interface to OpenGL function glAttachShader  
+glAttachShader  Interface to OpenGL function glAttachShader
 
-usage:  glAttachShader( program, shader )  
+usage:  glAttachShader( program, shader )
 
-C function:  void glAttachShader(GLuint program, GLuint shader)  
+C function:  void glAttachShader(GLuint program, GLuint shader)
 
 
 <div class="code_header" style="text-align:right;">

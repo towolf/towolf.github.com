@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alDistanceModel  Interface to OpenAL function alDistanceModel  
+alDistanceModel  Interface to OpenAL function alDistanceModel
 
-usage:  alDistanceModel( distanceModel )  
+usage:  alDistanceModel( distanceModel )
 
-C function:  void alDistanceModel(ALenum distanceModel)  
+C function:  void alDistanceModel(ALenum distanceModel)
 
 
 <div class="code_header" style="text-align:right;">

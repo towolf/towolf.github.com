@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glLoadMatrixf  Interface to OpenGL function glLoadMatrixf  
+glLoadMatrixf  Interface to OpenGL function glLoadMatrixf
 
-usage:  glLoadMatrixf( m )  
+usage:  glLoadMatrixf( m )
 
-C function:  void glLoadMatrixf(const GLfloat\* m)  
+C function:  void glLoadMatrixf(const GLfloat\* m)
 
 
 <div class="code_header" style="text-align:right;">

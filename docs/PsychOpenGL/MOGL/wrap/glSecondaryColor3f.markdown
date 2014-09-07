@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glSecondaryColor3f  Interface to OpenGL function glSecondaryColor3f  
+glSecondaryColor3f  Interface to OpenGL function glSecondaryColor3f
 
-usage:  glSecondaryColor3f( red, green, blue )  
+usage:  glSecondaryColor3f( red, green, blue )
 
-C function:  void glSecondaryColor3f(GLfloat red, GLfloat green, GLfloat blue)  
+C function:  void glSecondaryColor3f(GLfloat red, GLfloat green, GLfloat blue)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,12 +6,12 @@ categories:
 encoding: UTF-8
 ---
 
-newRect = CenterRectOnPoint(rect,x,y)  
+newRect = CenterRectOnPoint(rect,x,y)
 
-CenterRectOnPoint offsets the rect to center it around an x and y position.  
-The center of the rect is reported by RectCenter.  
+CenterRectOnPoint offsets the rect to center it around an x and y position.
+The center of the rect is reported by RectCenter.
 
-See also PsychRects, RectCenter  
+See also PsychRects, RectCenter
 
 
 <div class="code_header" style="text-align:right;">

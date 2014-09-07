@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glListBase  Interface to OpenGL function glListBase  
+glListBase  Interface to OpenGL function glListBase
 
-usage:  glListBase( base )  
+usage:  glListBase( base )
 
-C function:  void glListBase(GLuint base)  
+C function:  void glListBase(GLuint base)
 
 
 <div class="code_header" style="text-align:right;">

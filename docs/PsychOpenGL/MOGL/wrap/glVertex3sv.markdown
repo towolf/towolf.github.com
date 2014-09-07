@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glVertex3sv  Interface to OpenGL function glVertex3sv  
+glVertex3sv  Interface to OpenGL function glVertex3sv
 
-usage:  glVertex3sv( v )  
+usage:  glVertex3sv( v )
 
-C function:  void glVertex3sv(const GLshort\* v)  
+C function:  void glVertex3sv(const GLshort\* v)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glMinSampleShadingARB  Interface to OpenGL function glMinSampleShadingARB  
+glMinSampleShadingARB  Interface to OpenGL function glMinSampleShadingARB
 
-usage:  glMinSampleShadingARB( value )  
+usage:  glMinSampleShadingARB( value )
 
-C function:  void glMinSampleShadingARB(GLfloat value)  
+C function:  void glMinSampleShadingARB(GLfloat value)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alSourceiv  Interface to OpenAL function alSourceiv  
+alSourceiv  Interface to OpenAL function alSourceiv
 
-usage:  alSourceiv( sid, param, values )  
+usage:  alSourceiv( sid, param, values )
 
-C function:  void alSourceiv(ALuint sid, ALenum param, const ALint\* values)  
+C function:  void alSourceiv(ALuint sid, ALenum param, const ALint\* values)
 
 
 <div class="code_header" style="text-align:right;">

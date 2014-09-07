@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glTexBufferRange  Interface to OpenGL function glTexBufferRange  
+glTexBufferRange  Interface to OpenGL function glTexBufferRange
 
-usage:  glTexBufferRange( target, internalformat, buffer, ptr, ptr )  
+usage:  glTexBufferRange( target, internalformat, buffer, ptr, ptr )
 
-C function:  void glTexBufferRange(GLenum target, GLenum internalformat, GLuint buffer, GLint ptr, GLsizei ptr)  
+C function:  void glTexBufferRange(GLenum target, GLenum internalformat, GLuint buffer, GLint ptr, GLsizei ptr)
 
 
 <div class="code_header" style="text-align:right;">

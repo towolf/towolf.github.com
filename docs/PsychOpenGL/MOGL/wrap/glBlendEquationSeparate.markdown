@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glBlendEquationSeparate  Interface to OpenGL function glBlendEquationSeparate  
+glBlendEquationSeparate  Interface to OpenGL function glBlendEquationSeparate
 
-usage:  glBlendEquationSeparate( modeRGB, modeAlpha )  
+usage:  glBlendEquationSeparate( modeRGB, modeAlpha )
 
-C function:  void glBlendEquationSeparate(GLenum modeRGB, GLenum modeAlpha)  
+C function:  void glBlendEquationSeparate(GLenum modeRGB, GLenum modeAlpha)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glUniform1iv  Interface to OpenGL function glUniform1iv  
+glUniform1iv  Interface to OpenGL function glUniform1iv
 
-usage:  glUniform1iv( location, count, value )  
+usage:  glUniform1iv( location, count, value )
 
-C function:  void glUniform1iv(GLint location, GLsizei count, const GLint\* value)  
+C function:  void glUniform1iv(GLint location, GLsizei count, const GLint\* value)
 
 
 <div class="code_header" style="text-align:right;">

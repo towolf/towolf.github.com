@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-[f,g] = WeibYNFitFun(x,level,nYes,nNo)  
+[f,g] = WeibYNFitFun(x,level,nYes,nNo)
 
 
 

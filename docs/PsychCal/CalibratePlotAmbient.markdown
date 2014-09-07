@@ -6,15 +6,15 @@ categories:
 encoding: UTF-8
 ---
 
-fig = CalibratePlotAmbient(cal,[fig])  
+fig = CalibratePlotAmbient(cal,[fig])
 
-Make a diagnostic plot of the ambient spectral data  
+Make a diagnostic plot of the ambient spectral data
 
-Can pass figure handle. Returns figure handle.  
+Can pass figure handle. Returns figure handle.
 
-See also CalibratePlotGamma, CalibratePlotSpectra.  
+See also CalibratePlotGamma, CalibratePlotSpectra.
 
-6/5/10  dhb  Wrote it.  
+6/5/10  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

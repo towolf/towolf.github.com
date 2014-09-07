@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alSourcePausev  Interface to OpenAL function alSourcePausev  
+alSourcePausev  Interface to OpenAL function alSourcePausev
 
-usage:  alSourcePausev( ns, sids )  
+usage:  alSourcePausev( ns, sids )
 
-C function:  void alSourcePausev(ALsizei ns, const ALuint\* sids)  
+C function:  void alSourcePausev(ALsizei ns, const ALuint\* sids)
 
 
 <div class="code_header" style="text-align:right;">

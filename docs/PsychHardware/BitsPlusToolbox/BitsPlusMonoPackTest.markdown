@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-BitsPlusMonoPackTest  
+BitsPlusMonoPackTest
 
-Very simple test program to exercise the BitsPlusPackMonoImage routine.  
+Very simple test program to exercise the BitsPlusPackMonoImage routine.
 
-3/4/07  dhb  Wrote it  
+3/4/07  dhb  Wrote it
 
 
 <div class="code_header" style="text-align:right;">

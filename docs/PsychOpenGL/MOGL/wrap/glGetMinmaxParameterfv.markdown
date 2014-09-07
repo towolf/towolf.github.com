@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetMinmaxParameterfv  Interface to OpenGL function glGetMinmaxParameterfv  
+glGetMinmaxParameterfv  Interface to OpenGL function glGetMinmaxParameterfv
 
-usage:  params = glGetMinmaxParameterfv( target, pname )  
+usage:  params = glGetMinmaxParameterfv( target, pname )
 
-C function:  void glGetMinmaxParameterfv(GLenum target, GLenum pname, GLfloat\* params)  
+C function:  void glGetMinmaxParameterfv(GLenum target, GLenum pname, GLfloat\* params)
 
 
 <div class="code_header" style="text-align:right;">

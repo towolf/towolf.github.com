@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glDrawElementsIndirect  Interface to OpenGL function glDrawElementsIndirect  
+glDrawElementsIndirect  Interface to OpenGL function glDrawElementsIndirect
 
-usage:  glDrawElementsIndirect( mode, type, indirect )  
+usage:  glDrawElementsIndirect( mode, type, indirect )
 
-C function:  void glDrawElementsIndirect(GLenum mode, GLenum type, const GLvoid\* indirect)  
+C function:  void glDrawElementsIndirect(GLenum mode, GLenum type, const GLvoid\* indirect)
 
 
 <div class="code_header" style="text-align:right;">

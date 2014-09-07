@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glIsBuffer  Interface to OpenGL function glIsBuffer  
+glIsBuffer  Interface to OpenGL function glIsBuffer
 
-usage:  r = glIsBuffer( buffer )  
+usage:  r = glIsBuffer( buffer )
 
-C function:  GLboolean glIsBuffer(GLuint buffer)  
+C function:  GLboolean glIsBuffer(GLuint buffer)
 
 
 <div class="code_header" style="text-align:right;">

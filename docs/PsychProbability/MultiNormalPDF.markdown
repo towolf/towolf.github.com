@@ -6,15 +6,15 @@ categories:
 encoding: UTF-8
 ---
 
-prob = NormalPDF(x,u,K)  
+prob = NormalPDF(x,u,K)
 
-Computes the p(x) according to N(u,K). Vectors x and u should be column  
-vectors.  
+Computes the p(x) according to N(u,K). Vectors x and u should be column
+vectors.
 
-Formula taken from Duda and Hart, page 23.  
+Formula taken from Duda and Hart, page 23.
 
-Does not work properly if K is singular. Does not check for dimensional  
-correctness.  
+Does not work properly if K is singular. Does not check for dimensional
+correctness.
 
 
 <div class="code_header" style="text-align:right;">

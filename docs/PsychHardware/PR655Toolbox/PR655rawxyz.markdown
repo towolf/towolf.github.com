@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-readStr = PR655rawxyz(timeout)  
+readStr = PR655rawxyz(timeout)
 
-Make a raw XYZ measurement.  
+Make a raw XYZ measurement.
 
-01/16/09    tbc   Adapted from PR650Toolbox for use with PR655  
+01/16/09    tbc   Adapted from PR650Toolbox for use with PR655
 
 
 

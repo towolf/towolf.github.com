@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glLinkProgram  Interface to OpenGL function glLinkProgram  
+glLinkProgram  Interface to OpenGL function glLinkProgram
 
-usage:  glLinkProgram( program )  
+usage:  glLinkProgram( program )
 
-C function:  void glLinkProgram(GLuint program)  
+C function:  void glLinkProgram(GLuint program)
 
 
 <div class="code_header" style="text-align:right;">

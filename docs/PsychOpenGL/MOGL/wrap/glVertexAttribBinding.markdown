@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glVertexAttribBinding  Interface to OpenGL function glVertexAttribBinding  
+glVertexAttribBinding  Interface to OpenGL function glVertexAttribBinding
 
-usage:  glVertexAttribBinding( attribindex, bindingindex )  
+usage:  glVertexAttribBinding( attribindex, bindingindex )
 
-C function:  void glVertexAttribBinding(GLuint attribindex, GLuint bindingindex)  
+C function:  void glVertexAttribBinding(GLuint attribindex, GLuint bindingindex)
 
 
 <div class="code_header" style="text-align:right;">

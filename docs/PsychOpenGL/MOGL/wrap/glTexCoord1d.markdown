@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glTexCoord1d  Interface to OpenGL function glTexCoord1d  
+glTexCoord1d  Interface to OpenGL function glTexCoord1d
 
-usage:  glTexCoord1d( s )  
+usage:  glTexCoord1d( s )
 
-C function:  void glTexCoord1d(GLdouble s)  
+C function:  void glTexCoord1d(GLdouble s)
 
 
 <div class="code_header" style="text-align:right;">

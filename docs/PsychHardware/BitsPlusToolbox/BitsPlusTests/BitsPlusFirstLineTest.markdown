@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-BitsPlusFirstLIneTest  
+BitsPlusFirstLIneTest
 
-Test first-line interface for bitsplus clut.  
+Test first-line interface for bitsplus clut.
 
 
 <div class="code_header" style="text-align:right;">

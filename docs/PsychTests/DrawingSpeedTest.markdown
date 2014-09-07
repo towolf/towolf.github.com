@@ -6,32 +6,32 @@ categories:
 encoding: UTF-8
 ---
 
-DrawingSpeedTest([n=800][,primitivetype=0][,mode=0][,gpumeasure=0])  
+DrawingSpeedTest([n=800][,primitivetype=0][,mode=0][,gpumeasure=0])
 
-Tests batch-drawing performance of some [Screen](/docs/Screen) functions. Batch drawing  
-is a way to submit multiple primitives, e.g., Filled Rects, at once. This  
-way the Matlab call overhead and some internal setup overhead is saved  
-and drawing should be significantly faster than when issuing single  
-drawing commands in a loop.  
+Tests batch-drawing performance of some [Screen](/docs/Screen) functions. Batch drawing
+is a way to submit multiple primitives, e.g., Filled Rects, at once. This
+way the Matlab call overhead and some internal setup overhead is saved
+and drawing should be significantly faster than when issuing single
+drawing commands in a loop.
 
-This currently only tests filled rects and framed rects as well as filled  
-ovals. It also provides a way to test drawing by texture mapping.  
-Dots and Lines are nicely demonstrated by DotDemo and LinesDemo.  
+This currently only tests filled rects and framed rects as well as filled
+ovals. It also provides a way to test drawing by texture mapping.
+Dots and Lines are nicely demonstrated by DotDemo and LinesDemo.
 
-The optional parameter n allows to specifiy the number of primitives to  
-draw each frame, default is 800. The test loop will draw 1000 identical  
-frames and measure the time needed.  
+The optional parameter n allows to specifiy the number of primitives to
+draw each frame, default is 800. The test loop will draw 1000 identical
+frames and measure the time needed.
 
-'primitivetype' type of primitive: 0 = filled rects, 1 = framed rects, 2  
-\= filled ovals, 3 = framed ovals.  
+'primitivetype' type of primitive: 0 = filled rects, 1 = framed rects, 2
+\= filled ovals, 3 = framed ovals.
 
-'mode' type of drawing: 0 = One by one submission (slowest), 1 = batch  
-submission, 2 = texture mapping for drawing, 3 = texture mapping with  
-batch submission of textures.  
+'mode' type of drawing: 0 = One by one submission (slowest), 1 = batch
+submission, 2 = texture mapping for drawing, 3 = texture mapping with
+batch submission of textures.
 
-'gpumeasure' measurement type: 0 = Only on cpu. 1 = Measure exact  
-execution time of drawing commands on GPU's that support this feature.  
-Plot result at end of run.  
+'gpumeasure' measurement type: 0 = Only on cpu. 1 = Measure exact
+execution time of drawing commands on GPU's that support this feature.
+Plot result at end of run.
 
 
 

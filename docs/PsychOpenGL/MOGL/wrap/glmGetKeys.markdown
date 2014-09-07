@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-glmGetKeys  Get a code indicating what keys are pressed  
+glmGetKeys  Get a code indicating what keys are pressed
 
-usage:  keycode = glmGetKeys  
+usage:  keycode = glmGetKeys
 
 
 <div class="code_header" style="text-align:right;">

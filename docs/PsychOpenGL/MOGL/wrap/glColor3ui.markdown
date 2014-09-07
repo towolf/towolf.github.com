@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glColor3ui  Interface to OpenGL function glColor3ui  
+glColor3ui  Interface to OpenGL function glColor3ui
 
-usage:  glColor3ui( red, green, blue )  
+usage:  glColor3ui( red, green, blue )
 
-C function:  void glColor3ui(GLuint red, GLuint green, GLuint blue)  
+C function:  void glColor3ui(GLuint red, GLuint green, GLuint blue)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glValidateProgramPipeline  Interface to OpenGL function glValidateProgramPipeline  
+glValidateProgramPipeline  Interface to OpenGL function glValidateProgramPipeline
 
-usage:  glValidateProgramPipeline( pipeline )  
+usage:  glValidateProgramPipeline( pipeline )
 
-C function:  void glValidateProgramPipeline(GLuint pipeline)  
+C function:  void glValidateProgramPipeline(GLuint pipeline)
 
 
 <div class="code_header" style="text-align:right;">

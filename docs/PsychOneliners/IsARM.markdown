@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-resultFlag = IsARM  
+resultFlag = IsARM
 
-Returns true if the processor architecture is ARM.  
+Returns true if the processor architecture is ARM.
 
 
 <div class="code_header" style="text-align:right;">

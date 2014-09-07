@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glutWireTeapot  Interface to OpenGL function glutWireTeapot  
+glutWireTeapot  Interface to OpenGL function glutWireTeapot
 
-usage:  glutWireTeapot( size )  
+usage:  glutWireTeapot( size )
 
-C function:  void glutWireTeapot(GLdouble size)  
+C function:  void glutWireTeapot(GLdouble size)
 
 
 <div class="code_header" style="text-align:right;">

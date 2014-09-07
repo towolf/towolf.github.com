@@ -6,10 +6,10 @@ categories:
 encoding: UTF-8
 ---
 
-find that also does higher dims for output like [x,y,x,t] = findfull(4-D)  
-(unlimited of course)  
+find that also does higher dims for output like [x,y,x,t] = findfull(4-D)
+(unlimited of course)
 
-steal from MinInd, and then edit MinInd and MaxInd  
+steal from MinInd, and then edit MinInd and MaxInd
 
 
 <div class="code_header" style="text-align:right;">

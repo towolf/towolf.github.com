@@ -6,12 +6,12 @@ categories:
 encoding: UTF-8
 ---
 
- tickPeriod = GetTicksTick  
+ tickPeriod = GetTicksTick
 
- Return the period of the GetTicks clock. The period is always 1/60.15  
- seconds by definition.  
+ Return the period of the GetTicks clock. The period is always 1/60.15
+ seconds by definition.
 
-SEE ALSO: GetTicks, GetSecs, GetSecsTick, GetBusTicks, GetBusTicksTick.  
+SEE ALSO: GetTicks, GetSecs, GetSecsTick, GetBusTicks, GetBusTicksTick.
 
 
 <div class="code_header" style="text-align:right;">

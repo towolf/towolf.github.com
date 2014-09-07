@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glDeleteTransformFeedbacks  Interface to OpenGL function glDeleteTransformFeedbacks  
+glDeleteTransformFeedbacks  Interface to OpenGL function glDeleteTransformFeedbacks
 
-usage:  glDeleteTransformFeedbacks( n, ids )  
+usage:  glDeleteTransformFeedbacks( n, ids )
 
-C function:  void glDeleteTransformFeedbacks(GLsizei n, const GLuint\* ids)  
+C function:  void glDeleteTransformFeedbacks(GLsizei n, const GLuint\* ids)
 
 
 <div class="code_header" style="text-align:right;">

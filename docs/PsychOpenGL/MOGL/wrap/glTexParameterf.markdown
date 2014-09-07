@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glTexParameterf  Interface to OpenGL function glTexParameterf  
+glTexParameterf  Interface to OpenGL function glTexParameterf
 
-usage:  glTexParameterf( target, pname, param )  
+usage:  glTexParameterf( target, pname, param )
 
-C function:  void glTexParameterf(GLenum target, GLenum pname, GLfloat param)  
+C function:  void glTexParameterf(GLenum target, GLenum pname, GLfloat param)
 
 
 <div class="code_header" style="text-align:right;">

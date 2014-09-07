@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetProgramPipelineInfoLog  Interface to OpenGL function glGetProgramPipelineInfoLog  
+glGetProgramPipelineInfoLog  Interface to OpenGL function glGetProgramPipelineInfoLog
 
-usage:  [ length, infoLog ] = glGetProgramPipelineInfoLog( pipeline, bufSize )  
+usage:  [ length, infoLog ] = glGetProgramPipelineInfoLog( pipeline, bufSize )
 
-C function:  void glGetProgramPipelineInfoLog(GLuint pipeline, GLsizei bufSize, GLsizei\* length, GLchar\* infoLog)  
+C function:  void glGetProgramPipelineInfoLog(GLuint pipeline, GLsizei bufSize, GLsizei\* length, GLchar\* infoLog)
 
 
 <div class="code_header" style="text-align:right;">

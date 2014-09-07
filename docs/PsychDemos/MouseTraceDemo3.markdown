@@ -6,16 +6,16 @@ categories:
 encoding: UTF-8
 ---
 
-MouseTraceDemo3  
+MouseTraceDemo3
 
-Allow multiple people to draw simultaneously by use of multiple  
-mice or other pointing devices, utilizing Multi-Pointer-X on Linux.  
+Allow multiple people to draw simultaneously by use of multiple
+mice or other pointing devices, utilizing Multi-Pointer-X on Linux.
 
-See also: PsychDemos, MouseTraceDemo, GetMouse.  
+See also: PsychDemos, MouseTraceDemo, GetMouse.
 
-# HISTORY  
+# HISTORY
 
-7/30/11  mk       Derived from MouseTraceDemo2.  
+7/30/11  mk       Derived from MouseTraceDemo2.
 
 
 

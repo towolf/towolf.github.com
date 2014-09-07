@@ -6,17 +6,17 @@ categories:
 encoding: UTF-8
 ---
 
-PR670rawspd - Takes an spd measurement and returns the results.  
+PR670rawspd - Takes an spd measurement and returns the results.
 
-Syntax:  
-readStr = PR655rawspd(timeout)  
+Syntax:
+readStr = PR655rawspd(timeout)
 
-Input:  
-timeout (scalar) - Timeout period in seconds.  
+Input:
+timeout (scalar) - Timeout period in seconds.
 
-Output:  
-readStr (1xN char) - The raw character array resulting from a  
-    measurement.  
+Output:
+readStr (1xN char) - The raw character array resulting from a
+    measurement.
 
 
 <div class="code_header" style="text-align:right;">

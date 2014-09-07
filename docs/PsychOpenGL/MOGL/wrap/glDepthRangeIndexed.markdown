@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glDepthRangeIndexed  Interface to OpenGL function glDepthRangeIndexed  
+glDepthRangeIndexed  Interface to OpenGL function glDepthRangeIndexed
 
-usage:  glDepthRangeIndexed( index, n, f )  
+usage:  glDepthRangeIndexed( index, n, f )
 
-C function:  void glDepthRangeIndexed(GLuint index, GLdouble n, GLdouble f)  
+C function:  void glDepthRangeIndexed(GLuint index, GLdouble n, GLdouble f)
 
 
 <div class="code_header" style="text-align:right;">

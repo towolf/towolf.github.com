@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetCompressedTexImage  Interface to OpenGL function glGetCompressedTexImage  
+glGetCompressedTexImage  Interface to OpenGL function glGetCompressedTexImage
 
-usage:  img = glGetCompressedTexImage( target, lod )  
+usage:  img = glGetCompressedTexImage( target, lod )
 
-C function:  void glGetCompressedTexImage(GLenum target, GLint lod, GLvoid\* img)  
+C function:  void glGetCompressedTexImage(GLenum target, GLint lod, GLvoid\* img)
 
 
 <div class="code_header" style="text-align:right;">

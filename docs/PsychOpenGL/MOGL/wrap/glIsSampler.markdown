@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glIsSampler  Interface to OpenGL function glIsSampler  
+glIsSampler  Interface to OpenGL function glIsSampler
 
-usage:  r = glIsSampler( sampler )  
+usage:  r = glIsSampler( sampler )
 
-C function:  GLboolean glIsSampler(GLuint sampler)  
+C function:  GLboolean glIsSampler(GLuint sampler)
 
 
 <div class="code_header" style="text-align:right;">

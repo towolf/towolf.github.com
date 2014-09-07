@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-Open  udpsocket and bind udp port adress to it.  
+Open  udpsocket and bind udp port adress to it.
 
 
 <div class="code_header" style="text-align:right;">

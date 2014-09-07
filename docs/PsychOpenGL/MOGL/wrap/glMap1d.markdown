@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glMap1d  Interface to OpenGL function glMap1d  
+glMap1d  Interface to OpenGL function glMap1d
 
-usage:  glMap1d( target, u1, u2, stride, order, points )  
+usage:  glMap1d( target, u1, u2, stride, order, points )
 
-C function:  void glMap1d(GLenum target, GLdouble u1, GLdouble u2, GLint stride, GLint order, const GLdouble\* points)  
+C function:  void glMap1d(GLenum target, GLdouble u1, GLdouble u2, GLint stride, GLint order, const GLdouble\* points)
 
 
 <div class="code_header" style="text-align:right;">

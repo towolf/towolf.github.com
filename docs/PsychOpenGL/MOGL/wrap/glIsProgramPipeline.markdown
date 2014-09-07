@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glIsProgramPipeline  Interface to OpenGL function glIsProgramPipeline  
+glIsProgramPipeline  Interface to OpenGL function glIsProgramPipeline
 
-usage:  r = glIsProgramPipeline( pipeline )  
+usage:  r = glIsProgramPipeline( pipeline )
 
-C function:  GLboolean glIsProgramPipeline(GLuint pipeline)  
+C function:  GLboolean glIsProgramPipeline(GLuint pipeline)
 
 
 <div class="code_header" style="text-align:right;">

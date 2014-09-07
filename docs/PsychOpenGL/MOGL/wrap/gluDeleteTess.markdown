@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-gluDeleteTess  Interface to OpenGL function gluDeleteTess  
+gluDeleteTess  Interface to OpenGL function gluDeleteTess
 
-usage:  gluDeleteTess( tess )  
+usage:  gluDeleteTess( tess )
 
-C function:  void gluDeleteTess(GLUtesselator\* tess)  
+C function:  void gluDeleteTess(GLUtesselator\* tess)
 
 
 <div class="code_header" style="text-align:right;">

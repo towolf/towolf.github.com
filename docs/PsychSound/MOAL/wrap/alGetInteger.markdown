@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alGetInteger  Interface to OpenAL function alGetInteger  
+alGetInteger  Interface to OpenAL function alGetInteger
 
-usage:  r = alGetInteger( param )  
+usage:  r = alGetInteger( param )
 
-C function:  int alGetInteger(ALenum param)  
+C function:  int alGetInteger(ALenum param)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,42 +6,42 @@ categories:
 encoding: UTF-8
 ---
 
-timebaseFrequencyHz = MachAbsoluteTimeClockFrequency  
+timebaseFrequencyHz = MachAbsoluteTimeClockFrequency
 
-# OS X  
+# OS X
 
-Return the frequency of the Mach Kernel "absolute timebase clock".  The  
-frequency depends your  hardware, both the model of CPU and a system  
-hardware clock.  
+Return the frequency of the Mach Kernel "absolute timebase clock".  The
+frequency depends your  hardware, both the model of CPU and a system
+hardware clock.
 
-Mach Kernel functions which assign real-time "Time constraint priority"  
-status to threads give parameters in Mach time base units. The counter which  
-clocks time allocated to your thread counts time in these units.  Use the  
-absolute timebase clock frequency returned by MachAbsoluteTimeClockFrequency to convert  
-seconds into absolute timebase units which you pass to functions which  
-set which set priority:  
+Mach Kernel functions which assign real-time "Time constraint priority"
+status to threads give parameters in Mach time base units. The counter which
+clocks time allocated to your thread counts time in these units.  Use the
+absolute timebase clock frequency returned by MachAbsoluteTimeClockFrequency to convert
+seconds into absolute timebase units which you pass to functions which
+set which set priority:
 
-  time\_interval\_in\_mach\_units=  
-       time\_interval\_in\_seconds \* timebaseFrequencyHz;  
+  time\_interval\_in\_mach\_units=
+       time\_interval\_in\_seconds \* timebaseFrequencyHz;
 
-For more information on the Mach absolute time clock see Apple Technical  
-Q&A 1398:  
+For more information on the Mach absolute time clock see Apple Technical
+Q&A 1398:
 
- http://developer.apple.com/qa/qa2004/qa1398.html  
+ http://developer.apple.com/qa/qa2004/qa1398.html
 
-# OS 9  
+# OS 9
 
-MachAbsoluteTimeClockFrequency is not provided on OS 9 because the Mach  
-time base is a feature of only the OS X Mach Kernel.  
+MachAbsoluteTimeClockFrequency is not provided on OS 9 because the Mach
+time base is a feature of only the OS X Mach Kernel.
 
 
-# WINDOWS  
+# WINDOWS
 
-MachAbsoluteTimeClockFrequency is not provided on Windows because the  
-Mach time base is a feature of only the OS X Mach Kernel.  
-----  
+MachAbsoluteTimeClockFrequency is not provided on Windows because the
+Mach time base is a feature of only the OS X Mach Kernel.
+----
 
-see also: [Priority](/docs/Priority)  
+see also: [Priority](/docs/Priority)
 
 
 <div class="code_header" style="text-align:right;">

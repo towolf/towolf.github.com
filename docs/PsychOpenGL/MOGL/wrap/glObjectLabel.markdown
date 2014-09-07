@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glObjectLabel  Interface to OpenGL function glObjectLabel  
+glObjectLabel  Interface to OpenGL function glObjectLabel
 
-usage:  glObjectLabel( identifier, name, length, label )  
+usage:  glObjectLabel( identifier, name, length, label )
 
-C function:  void glObjectLabel(GLenum identifier, GLuint name, GLsizei length, const GLchar\* label)  
+C function:  void glObjectLabel(GLenum identifier, GLuint name, GLsizei length, const GLchar\* label)
 
 
 <div class="code_header" style="text-align:right;">

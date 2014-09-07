@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glAlphaFunc  Interface to OpenGL function glAlphaFunc  
+glAlphaFunc  Interface to OpenGL function glAlphaFunc
 
-usage:  glAlphaFunc( func, ref )  
+usage:  glAlphaFunc( func, ref )
 
-C function:  void glAlphaFunc(GLenum func, GLclampf ref)  
+C function:  void glAlphaFunc(GLenum func, GLclampf ref)
 
 
 <div class="code_header" style="text-align:right;">

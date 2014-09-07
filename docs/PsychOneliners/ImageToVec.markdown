@@ -6,15 +6,15 @@ categories:
 encoding: UTF-8
 ---
 
-[vec,nRows,nCols] = ImageToVec(image)  
+[vec,nRows,nCols] = ImageToVec(image)
 
-Take an image in matrix format and convert  
-it to vector format.  
+Take an image in matrix format and convert
+it to vector format.
 
-Also see VecToImage.  
+Also see VecToImage.
 
-8/13/94     dhb     Added image size return  
-6/13/12      dn     No need for reshape call  
+8/13/94     dhb     Added image size return
+6/13/12      dn     No need for reshape call
 
 
 <div class="code_header" style="text-align:right;">

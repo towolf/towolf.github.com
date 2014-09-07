@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-gluNewTess  Interface to OpenGL function gluNewTess  
+gluNewTess  Interface to OpenGL function gluNewTess
 
-usage:  r = gluNewTess  
+usage:  r = gluNewTess
 
-C function:  GLUtesselator\* gluNewTess(void)  
+C function:  GLUtesselator\* gluNewTess(void)
 
 
 <div class="code_header" style="text-align:right;">

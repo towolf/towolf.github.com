@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glFogfv  Interface to OpenGL function glFogfv  
+glFogfv  Interface to OpenGL function glFogfv
 
-usage:  glFogfv( pname, params )  
+usage:  glFogfv( pname, params )
 
-C function:  void glFogfv(GLenum pname, const GLfloat\* params)  
+C function:  void glFogfv(GLenum pname, const GLfloat\* params)
 
 
 <div class="code_header" style="text-align:right;">

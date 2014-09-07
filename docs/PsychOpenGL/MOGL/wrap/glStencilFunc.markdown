@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glStencilFunc  Interface to OpenGL function glStencilFunc  
+glStencilFunc  Interface to OpenGL function glStencilFunc
 
-usage:  glStencilFunc( func, ref, mask )  
+usage:  glStencilFunc( func, ref, mask )
 
-C function:  void glStencilFunc(GLenum func, GLint ref, GLuint mask)  
+C function:  void glStencilFunc(GLenum func, GLint ref, GLuint mask)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glFramebufferTexture2D  Interface to OpenGL function glFramebufferTexture2D  
+glFramebufferTexture2D  Interface to OpenGL function glFramebufferTexture2D
 
-usage:  glFramebufferTexture2D( target, attachment, textarget, texture, level )  
+usage:  glFramebufferTexture2D( target, attachment, textarget, texture, level )
 
-C function:  void glFramebufferTexture2D(GLenum target, GLenum attachment, GLenum textarget, GLuint texture, GLint level)  
+C function:  void glFramebufferTexture2D(GLenum target, GLenum attachment, GLenum textarget, GLuint texture, GLint level)
 
 
 <div class="code_header" style="text-align:right;">

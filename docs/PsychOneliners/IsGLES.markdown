@@ -6,8 +6,8 @@ categories:
 encoding: UTF-8
 ---
 
-Returns 1 if active rendering api is OpenGL-ES,  
-0 otherwise.  
+Returns 1 if active rendering api is OpenGL-ES,
+0 otherwise.
 
 
 <div class="code_header" style="text-align:right;">

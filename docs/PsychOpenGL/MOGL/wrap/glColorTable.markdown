@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glColorTable  Interface to OpenGL function glColorTable  
+glColorTable  Interface to OpenGL function glColorTable
 
-usage:  glColorTable( target, internalformat, width, format, type, table )  
+usage:  glColorTable( target, internalformat, width, format, type, table )
 
-C function:  void glColorTable(GLenum target, GLenum internalformat, GLsizei width, GLenum format, GLenum type, const GLvoid\* table)  
+C function:  void glColorTable(GLenum target, GLenum internalformat, GLsizei width, GLenum format, GLenum type, const GLvoid\* table)
 
 
 <div class="code_header" style="text-align:right;">

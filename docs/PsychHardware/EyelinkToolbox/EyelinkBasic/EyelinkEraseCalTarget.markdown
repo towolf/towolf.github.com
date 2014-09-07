@@ -6,12 +6,12 @@ categories:
 encoding: UTF-8
 ---
 
- erase calibration target  
+ erase calibration target
 
- USAGE: erasecaltarget(el, rect)  
+ USAGE: erasecaltarget(el, rect)
 
-        el: eyelink default values  
-        rect: rect that will be filled with background colour  
+        el: eyelink default values
+        rect: rect that will be filled with background colour
 
 
 <div class="code_header" style="text-align:right;">

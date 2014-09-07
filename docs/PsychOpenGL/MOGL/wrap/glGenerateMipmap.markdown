@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGenerateMipmap  Interface to OpenGL function glGenerateMipmap  
+glGenerateMipmap  Interface to OpenGL function glGenerateMipmap
 
-usage:  glGenerateMipmap( target )  
+usage:  glGenerateMipmap( target )
 
-C function:  void glGenerateMipmap(GLenum target)  
+C function:  void glGenerateMipmap(GLenum target)
 
 
 <div class="code_header" style="text-align:right;">

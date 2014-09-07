@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glTextureView  Interface to OpenGL function glTextureView  
+glTextureView  Interface to OpenGL function glTextureView
 
-usage:  glTextureView( texture, target, origtexture, internalformat, minlevel, numlevels, minlayer, numlayers )  
+usage:  glTextureView( texture, target, origtexture, internalformat, minlevel, numlevels, minlayer, numlayers )
 
-C function:  void glTextureView(GLuint texture, GLenum target, GLuint origtexture, GLenum internalformat, GLuint minlevel, GLuint numlevels, GLuint minlayer, GLuint numlayers)  
+C function:  void glTextureView(GLuint texture, GLenum target, GLuint origtexture, GLenum internalformat, GLuint minlevel, GLuint numlevels, GLuint minlayer, GLuint numlayers)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alGetListeneriv  Interface to OpenAL function alGetListeneriv  
+alGetListeneriv  Interface to OpenAL function alGetListeneriv
 
-usage:  values = alGetListeneriv( param )  
+usage:  values = alGetListeneriv( param )
 
-C function:  void alGetListeneriv(ALenum param, ALint\* values)  
+C function:  void alGetListeneriv(ALenum param, ALint\* values)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,8 +6,8 @@ categories:
 encoding: UTF-8
 ---
 
-Short MATLAB example program that uses the Eyelink and Psychophysics  
-Toolboxes to create a real-time gaze-dependent display.  
+Short MATLAB example program that uses the Eyelink and Psychophysics
+Toolboxes to create a real-time gaze-dependent display.
 
 
 <div class="code_header" style="text-align:right;">

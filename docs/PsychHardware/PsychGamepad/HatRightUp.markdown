@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-result = HatRightUp  
-Return a constant for hat right and up position.  To read a hat position, use:  
-JOYSTICK(joystickNumber,'GetHat',hatNumber).  
+result = HatRightUp
+Return a constant for hat right and up position.  To read a hat position, use:
+JOYSTICK(joystickNumber,'GetHat',hatNumber).
 
 
 <div class="code_header" style="text-align:right;">

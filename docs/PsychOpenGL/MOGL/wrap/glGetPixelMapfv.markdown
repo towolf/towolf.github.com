@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetPixelMapfv  Interface to OpenGL function glGetPixelMapfv  
+glGetPixelMapfv  Interface to OpenGL function glGetPixelMapfv
 
-usage:  values = glGetPixelMapfv( map )  
+usage:  values = glGetPixelMapfv( map )
 
-C function:  void glGetPixelMapfv(GLenum map, GLfloat\* values)  
+C function:  void glGetPixelMapfv(GLenum map, GLfloat\* values)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,18 +6,18 @@ categories:
 encoding: UTF-8
 ---
 
-----  
+----
 
-Demo implemetation of detecting eye in fixation window on display  
-computer through samples from the tracker  
+Demo implemetation of detecting eye in fixation window on display
+computer through samples from the tracker
 
-stimulus: A fixation dot  
+stimulus: A fixation dot
 
-This task demonstrates stimuli presentation with Eyelink and Data Viewer  
-integration.  
+This task demonstrates stimuli presentation with Eyelink and Data Viewer
+integration.
 
-press space to end experiment  
-----  
+press space to end experiment
+----
 
 
 <div class="code_header" style="text-align:right;">

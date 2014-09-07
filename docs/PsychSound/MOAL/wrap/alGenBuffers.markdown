@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alGenBuffers  Interface to OpenAL function alGenBuffers  
+alGenBuffers  Interface to OpenAL function alGenBuffers
 
-usage:  buffers = alGenBuffers( n )  
+usage:  buffers = alGenBuffers( n )
 
-C function:  void alGenBuffers(ALsizei n, ALuint\* buffers)  
+C function:  void alGenBuffers(ALsizei n, ALuint\* buffers)
 
 
 <div class="code_header" style="text-align:right;">

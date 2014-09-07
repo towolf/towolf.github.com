@@ -6,12 +6,12 @@ categories:
 encoding: UTF-8
 ---
 
-sumImage=AlphaSum(image1, image2)  
+sumImage=AlphaSum(image1, image2)
 
-Return the sum of two images combined with alpha blending as would  
-[Screen](/docs/Screen).  
+Return the sum of two images combined with alpha blending as would
+[Screen](/docs/Screen).
 
-see also: AlphaSourceProduct, AlphaDestinationProduct, PsychAlphaBlending  
+see also: AlphaSourceProduct, AlphaDestinationProduct, PsychAlphaBlending
 
 
 <div class="code_header" style="text-align:right;">

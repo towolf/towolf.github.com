@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-rc = alcASASetListener(property, data);  
+rc = alcASASetListener(property, data);
 
-Interface to function ALEnum alcAsaSetListener(ALuint property, (ALvoid\*) data, ALuint size);  
+Interface to function ALEnum alcAsaSetListener(ALuint property, (ALvoid\*) data, ALuint size);
 
 
 <div class="code_header" style="text-align:right;">

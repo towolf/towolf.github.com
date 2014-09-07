@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-glmGetConst  Load OpenGL constants as globally defined variables  
+glmGetConst  Load OpenGL constants as globally defined variables
 
-usage:  glmGetConst  
+usage:  glmGetConst
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-gluGetTessProperty  Interface to OpenGL function gluGetTessProperty  
+gluGetTessProperty  Interface to OpenGL function gluGetTessProperty
 
-usage:  data = gluGetTessProperty( tess, which )  
+usage:  data = gluGetTessProperty( tess, which )
 
-C function:  void gluGetTessProperty(GLUtesselator\* tess, GLenum which, GLdouble\* data)  
+C function:  void gluGetTessProperty(GLUtesselator\* tess, GLenum which, GLdouble\* data)
 
 
 <div class="code_header" style="text-align:right;">

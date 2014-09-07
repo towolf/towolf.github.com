@@ -6,10 +6,10 @@ categories:
 encoding: UTF-8
 ---
 
-xLeft = rect(RectLeft)  
+xLeft = rect(RectLeft)
 
-RectLeft returns the rect index of xLeft.  
-Also see PsychRects.  
+RectLeft returns the rect index of xLeft.
+Also see PsychRects.
 
 
 <div class="code_header" style="text-align:right;">

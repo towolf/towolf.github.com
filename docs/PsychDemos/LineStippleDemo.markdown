@@ -6,15 +6,15 @@ categories:
 encoding: UTF-8
 ---
 
-LineStippleDemo  
+LineStippleDemo
 
-Demostrate dashed and dotted lines in using [Screen](/docs/Screen) commands "LineStipple"  
-and "DrawLine".  
+Demostrate dashed and dotted lines in using [Screen](/docs/Screen) commands "LineStipple"
+and "DrawLine".
 
 
-# HISTORY  
-  11/19/06  dhb  Remove OSX from name.  No info present about who wrote  
-                 in the first place.  
+# HISTORY
+  11/19/06  dhb  Remove OSX from name.  No info present about who wrote
+                 in the first place.
 
 
 <div class="code_header" style="text-align:right;">

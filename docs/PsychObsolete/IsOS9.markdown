@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-resultFlag = IsOS9  
+resultFlag = IsOS9
 
-Returns true if the operating system is Mac OS 9.  
+Returns true if the operating system is Mac OS 9.
 
-See also: IsOSX, IsWin, IsLinux, [OSName](/docs/OSName), computer  
+See also: IsOSX, IsWin, IsLinux, [OSName](/docs/OSName), computer
 
 
 <div class="code_header" style="text-align:right;">

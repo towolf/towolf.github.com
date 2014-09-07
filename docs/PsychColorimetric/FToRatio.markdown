@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-ratio = FToRatio(F)  
+ratio = FToRatio(F)
 
-This is related to Lab calculations.  
+This is related to Lab calculations.
 
-10/10/93    dhb   Converted from CAP C code.  
+10/10/93    dhb   Converted from CAP C code.
 
 
 <div class="code_header" style="text-align:right;">

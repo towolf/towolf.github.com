@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glVertexAttrib2fv  Interface to OpenGL function glVertexAttrib2fv  
+glVertexAttrib2fv  Interface to OpenGL function glVertexAttrib2fv
 
-usage:  glVertexAttrib2fv( index, v )  
+usage:  glVertexAttrib2fv( index, v )
 
-C function:  void glVertexAttrib2fv(GLuint index, const GLfloat\* v)  
+C function:  void glVertexAttrib2fv(GLuint index, const GLfloat\* v)
 
 
 <div class="code_header" style="text-align:right;">

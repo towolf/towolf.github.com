@@ -6,8 +6,8 @@ categories:
 encoding: UTF-8
 ---
 
-USAGE: [x,y] = WindowCenter(window)  
-Returns a window's center point.  
+USAGE: [x,y] = WindowCenter(window)
+Returns a window's center point.
 
 
 <div class="code_header" style="text-align:right;">

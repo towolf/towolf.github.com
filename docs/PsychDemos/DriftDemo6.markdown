@@ -6,50 +6,50 @@ categories:
 encoding: UTF-8
 ---
 
-function DriftDemo6(angle, cyclespersecond, f)  
-----  
+function DriftDemo6(angle, cyclespersecond, f)
+----
 
-This demo demonstrates how to use [Screen](/docs/Screen)('DrawTexture') in combination  
-with GLSL texture draw shaders to efficiently combine two drifting  
-gratings with each other.  
+This demo demonstrates how to use [Screen](/docs/Screen)('DrawTexture') in combination
+with GLSL texture draw shaders to efficiently combine two drifting
+gratings with each other.
 
-The demo shows a drifting sine grating through a circular aperture. The  
-drifting grating is surrounded by an annulus (a ring) that shows a second  
-drifting grating with a different orientation.  
+The demo shows a drifting sine grating through a circular aperture. The
+drifting grating is surrounded by an annulus (a ring) that shows a second
+drifting grating with a different orientation.
 
-The demo ends after a key press or after 60 seconds have elapsed.  
+The demo ends after a key press or after 60 seconds have elapsed.
 
-The demo needs modern graphics hardware with shading support, otherwise  
-it will abort.  
+The demo needs modern graphics hardware with shading support, otherwise
+it will abort.
 
-Compared to previous demos, we apply the aperture to the grating texture  
-while drawing the grating texture, ie. in a single drawing pass, instead  
-of applying it in a 2nd pass after the grating has been drawn already.  
-This is simpler and faster than the dual-pass method. For this, we store  
-the grating pattern in the luminance channel of a single texture, and the  
-alpha-mask in the alpha channel of \*the same texture\*. During drawing, we  
-apply a special texture filter shader (created via  
-MakeTextureDrawShader()). This shader allows to treat the alpha channel  
-separate from the luminance or rgb channels of a texture: It applies the  
-alpha channel "as is", but applies some shift to the luminance or rgb  
-channels of the texture.  
+Compared to previous demos, we apply the aperture to the grating texture
+while drawing the grating texture, ie. in a single drawing pass, instead
+of applying it in a 2nd pass after the grating has been drawn already.
+This is simpler and faster than the dual-pass method. For this, we store
+the grating pattern in the luminance channel of a single texture, and the
+alpha-mask in the alpha channel of \*the same texture\*. During drawing, we
+apply a special texture filter shader (created via
+MakeTextureDrawShader()). This shader allows to treat the alpha channel
+separate from the luminance or rgb channels of a texture: It applies the
+alpha channel "as is", but applies some shift to the luminance or rgb
+channels of the texture.
 
-The procedure is repeated with a 2nd masked texture to create two  
-different drifting gratings, superimposed to each other.  
+The procedure is repeated with a 2nd masked texture to create two
+different drifting gratings, superimposed to each other.
 
-Please note that the same effect can be achieved by clever alpha blending  
-on older hardware, e.g., see DriftDemo5. The point of this demo is to  
-demonstrate how to use GLSL shaders for more efficient ways of  
-manipulating textures during drawing.  
+Please note that the same effect can be achieved by clever alpha blending
+on older hardware, e.g., see DriftDemo5. The point of this demo is to
+demonstrate how to use GLSL shaders for more efficient ways of
+manipulating textures during drawing.
 
-# Parameters:  
+# Parameters:
 
-angle = Angle of the gratings with respect to the vertical direction.  
-cyclespersecond = Speed of gratings in cycles per second.  
-f = Frequency of gratings in cycles per pixel.  
-----  
+angle = Angle of the gratings with respect to the vertical direction.
+cyclespersecond = Speed of gratings in cycles per second.
+f = Frequency of gratings in cycles per pixel.
+----
 
-see also: PsychDemos, MovieDemo  
+see also: PsychDemos, MovieDemo
 
 
 <div class="code_header" style="text-align:right;">

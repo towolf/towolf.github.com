@@ -6,12 +6,12 @@ categories:
 encoding: UTF-8
 ---
 
-[t,p]=QuestMode(q)  
+[t,p]=QuestMode(q)
 
-"t" is the mode threshold estimate  
-"p" is the value of the (unnormalized) pdf at t.  
+"t" is the mode threshold estimate
+"p" is the value of the (unnormalized) pdf at t.
 
-See Quest.  
+See Quest.
 
 
 <div class="code_header" style="text-align:right;">

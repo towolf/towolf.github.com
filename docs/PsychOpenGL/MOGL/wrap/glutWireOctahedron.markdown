@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glutWireOctahedron  Interface to OpenGL function glutWireOctahedron  
+glutWireOctahedron  Interface to OpenGL function glutWireOctahedron
 
-usage:  glutWireOctahedron  
+usage:  glutWireOctahedron
 
-C function:  void glutWireOctahedron(void)  
+C function:  void glutWireOctahedron(void)
 
 
 <div class="code_header" style="text-align:right;">

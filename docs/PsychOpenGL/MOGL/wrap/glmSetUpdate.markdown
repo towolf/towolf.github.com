@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-glmSetUpdate  Set or check status of UNIX update process  
+glmSetUpdate  Set or check status of UNIX update process
 
-usage:  nproc = glmSetUpdate( newstate )  
+usage:  nproc = glmSetUpdate( newstate )
 
 
 <div class="code_header" style="text-align:right;">

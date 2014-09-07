@@ -6,8 +6,8 @@ categories:
 encoding: UTF-8
 ---
 
-memcpyCudaOpenGL(6, 1); % Be verbose.  
-memcpyCudaOpenGL(5, 50); % Use 50 slots in LRU cache.  
+memcpyCudaOpenGL(6, 1); % Be verbose.
+memcpyCudaOpenGL(5, 50); % Use 50 slots in LRU cache.
 
 
 <div class="code_header" style="text-align:right;">

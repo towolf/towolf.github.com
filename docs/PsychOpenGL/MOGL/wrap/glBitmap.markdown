@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glBitmap  Interface to OpenGL function glBitmap  
+glBitmap  Interface to OpenGL function glBitmap
 
-usage:  glBitmap( width, height, xorig, yorig, xmove, ymove, bitmap )  
+usage:  glBitmap( width, height, xorig, yorig, xmove, ymove, bitmap )
 
-C function:  void glBitmap(GLsizei width, GLsizei height, GLfloat xorig, GLfloat yorig, GLfloat xmove, GLfloat ymove, const GLubyte\* bitmap)  
+C function:  void glBitmap(GLsizei width, GLsizei height, GLfloat xorig, GLfloat yorig, GLfloat xmove, GLfloat ymove, const GLubyte\* bitmap)
 
 
 <div class="code_header" style="text-align:right;">

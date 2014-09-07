@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glVertexAttrib4Nubv  Interface to OpenGL function glVertexAttrib4Nubv  
+glVertexAttrib4Nubv  Interface to OpenGL function glVertexAttrib4Nubv
 
-usage:  glVertexAttrib4Nubv( index, v )  
+usage:  glVertexAttrib4Nubv( index, v )
 
-C function:  void glVertexAttrib4Nubv(GLuint index, const GLubyte\* v)  
+C function:  void glVertexAttrib4Nubv(GLuint index, const GLubyte\* v)
 
 
 <div class="code_header" style="text-align:right;">

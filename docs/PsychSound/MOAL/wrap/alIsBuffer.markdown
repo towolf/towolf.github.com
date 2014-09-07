@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alIsBuffer  Interface to OpenAL function alIsBuffer  
+alIsBuffer  Interface to OpenAL function alIsBuffer
 
-usage:  r = alIsBuffer( bid )  
+usage:  r = alIsBuffer( bid )
 
-C function:  ALboolean alIsBuffer(ALuint bid)  
+C function:  ALboolean alIsBuffer(ALuint bid)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glPolygonMode  Interface to OpenGL function glPolygonMode  
+glPolygonMode  Interface to OpenGL function glPolygonMode
 
-usage:  glPolygonMode( face, mode )  
+usage:  glPolygonMode( face, mode )
 
-C function:  void glPolygonMode(GLenum face, GLenum mode)  
+C function:  void glPolygonMode(GLenum face, GLenum mode)
 
 
 <div class="code_header" style="text-align:right;">

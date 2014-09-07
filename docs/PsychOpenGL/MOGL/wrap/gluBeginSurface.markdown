@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-gluBeginSurface  Interface to OpenGL function gluBeginSurface  
+gluBeginSurface  Interface to OpenGL function gluBeginSurface
 
-usage:  gluBeginSurface( nurb )  
+usage:  gluBeginSurface( nurb )
 
-C function:  void gluBeginSurface(GLUnurbs\* nurb)  
+C function:  void gluBeginSurface(GLUnurbs\* nurb)
 
 
 <div class="code_header" style="text-align:right;">

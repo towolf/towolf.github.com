@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glCreateShader  Interface to OpenGL function glCreateShader  
+glCreateShader  Interface to OpenGL function glCreateShader
 
-usage:  r = glCreateShader( type )  
+usage:  r = glCreateShader( type )
 
-C function:  GLuint glCreateShader(GLenum type)  
+C function:  GLuint glCreateShader(GLenum type)
 
 
 <div class="code_header" style="text-align:right;">

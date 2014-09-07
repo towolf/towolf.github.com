@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glEnd  Interface to OpenGL function glEnd  
+glEnd  Interface to OpenGL function glEnd
 
-usage:  glEnd  
+usage:  glEnd
 
-C function:  void glEnd(void)  
+C function:  void glEnd(void)
 
 
 <div class="code_header" style="text-align:right;">

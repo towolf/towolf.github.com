@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-glmGetScreenInfo  Get information about the screen  
+glmGetScreenInfo  Get information about the screen
 
-usage:  [ screensize, fps, bitsperpixel ] = glmGetScreenInfo  
+usage:  [ screensize, fps, bitsperpixel ] = glmGetScreenInfo
 
 
 <div class="code_header" style="text-align:right;">

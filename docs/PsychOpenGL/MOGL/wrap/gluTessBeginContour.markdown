@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-gluTessBeginContour  Interface to OpenGL function gluTessBeginContour  
+gluTessBeginContour  Interface to OpenGL function gluTessBeginContour
 
-usage:  gluTessBeginContour( tess )  
+usage:  gluTessBeginContour( tess )
 
-C function:  void gluTessBeginContour(GLUtesselator\* tess)  
+C function:  void gluTessBeginContour(GLUtesselator\* tess)
 
 
 <div class="code_header" style="text-align:right;">

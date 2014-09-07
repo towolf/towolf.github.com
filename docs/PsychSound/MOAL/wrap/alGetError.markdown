@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alGetError  Interface to OpenAL function alGetError  
+alGetError  Interface to OpenAL function alGetError
 
-usage:  r = alGetError  
+usage:  r = alGetError
 
-C function:  ALenum alGetError(void)  
+C function:  ALenum alGetError(void)
 
 
 <div class="code_header" style="text-align:right;">

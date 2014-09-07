@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glColorTableParameteriv  Interface to OpenGL function glColorTableParameteriv  
+glColorTableParameteriv  Interface to OpenGL function glColorTableParameteriv
 
-usage:  glColorTableParameteriv( target, pname, params )  
+usage:  glColorTableParameteriv( target, pname, params )
 
-C function:  void glColorTableParameteriv(GLenum target, GLenum pname, const GLint\* params)  
+C function:  void glColorTableParameteriv(GLenum target, GLenum pname, const GLint\* params)
 
 
 <div class="code_header" style="text-align:right;">

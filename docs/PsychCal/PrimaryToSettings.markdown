@@ -6,12 +6,12 @@ categories:
 encoding: UTF-8
 ---
 
-[settings, badIndex] = PrimaryToSettings(cal, primary)  
+[settings, badIndex] = PrimaryToSettings(cal, primary)
 
-Convert from primary color space coordinates to device  
-setting coordinates.  
+Convert from primary color space coordinates to device
+setting coordinates.
 
-This depends on the standard calibration globals.  
+This depends on the standard calibration globals.
 
 
 <div class="code_header" style="text-align:right;">

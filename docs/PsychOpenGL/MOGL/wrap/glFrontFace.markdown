@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glFrontFace  Interface to OpenGL function glFrontFace  
+glFrontFace  Interface to OpenGL function glFrontFace
 
-usage:  glFrontFace( mode )  
+usage:  glFrontFace( mode )
 
-C function:  void glFrontFace(GLenum mode)  
+C function:  void glFrontFace(GLenum mode)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,17 +6,17 @@ categories:
 encoding: UTF-8
 ---
 
-degs = RetinalMMToDegrees(mm,eyeLengthMM)  
+degs = RetinalMMToDegrees(mm,eyeLengthMM)
 
-Convert extent in mm of retina in the fovea to degrees  
-of visual angle.  
+Convert extent in mm of retina in the fovea to degrees
+of visual angle.
 
-This is implemented as the simple trigonometric formula,  
-and is most valid for small angles around the fovea.  
+This is implemented as the simple trigonometric formula,
+and is most valid for small angles around the fovea.
 
-See also: DegreesToRetinalMM, EyeLength.  
+See also: DegreesToRetinalMM, EyeLength.
 
-7/15/03  dhb  Wrote it.  
+7/15/03  dhb  Wrote it.
 
 
 <div class="code_header" style="text-align:right;">

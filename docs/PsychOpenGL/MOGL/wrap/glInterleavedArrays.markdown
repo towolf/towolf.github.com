@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glInterleavedArrays  Interface to OpenGL function glInterleavedArrays  
+glInterleavedArrays  Interface to OpenGL function glInterleavedArrays
 
-usage:  glInterleavedArrays( format, stride, pointer )  
+usage:  glInterleavedArrays( format, stride, pointer )
 
-C function:  void glInterleavedArrays(GLenum format, GLsizei stride, const GLvoid\* pointer)  
+C function:  void glInterleavedArrays(GLenum format, GLsizei stride, const GLvoid\* pointer)
 
 
 <div class="code_header" style="text-align:right;">

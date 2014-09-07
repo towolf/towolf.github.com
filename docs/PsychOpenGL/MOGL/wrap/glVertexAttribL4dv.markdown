@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glVertexAttribL4dv  Interface to OpenGL function glVertexAttribL4dv  
+glVertexAttribL4dv  Interface to OpenGL function glVertexAttribL4dv
 
-usage:  glVertexAttribL4dv( index, v )  
+usage:  glVertexAttribL4dv( index, v )
 
-C function:  void glVertexAttribL4dv(GLuint index, const GLdouble\* v)  
+C function:  void glVertexAttribL4dv(GLuint index, const GLdouble\* v)
 
 
 <div class="code_header" style="text-align:right;">

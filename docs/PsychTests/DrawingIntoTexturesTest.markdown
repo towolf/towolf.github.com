@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-Open window, with or without imaging pipeline:  
+Open window, with or without imaging pipeline:
 
 
 <div class="code_header" style="text-align:right;">

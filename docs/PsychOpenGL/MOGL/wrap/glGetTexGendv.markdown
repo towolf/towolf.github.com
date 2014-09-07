@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetTexGendv  Interface to OpenGL function glGetTexGendv  
+glGetTexGendv  Interface to OpenGL function glGetTexGendv
 
-usage:  params = glGetTexGendv( coord, pname )  
+usage:  params = glGetTexGendv( coord, pname )
 
-C function:  void glGetTexGendv(GLenum coord, GLenum pname, GLdouble\* params)  
+C function:  void glGetTexGendv(GLenum coord, GLenum pname, GLdouble\* params)
 
 
 <div class="code_header" style="text-align:right;">

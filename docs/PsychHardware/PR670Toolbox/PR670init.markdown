@@ -6,21 +6,21 @@ categories:
 encoding: UTF-8
 ---
 
-PR670init - Initialize the serial port to talk to the PR-670.  
+PR670init - Initialize the serial port to talk to the PR-670.
 
-Syntax:  
-retval = PR670init  
-retval = PR670init(portNumber)  
+Syntax:
+retval = PR670init
+retval = PR670init(portNumber)
 
-Description:  
-Initializes the serial port for talking to colorimeter. Returns whatever  
-character is sent by colorimeter  
+Description:
+Initializes the serial port for talking to colorimeter. Returns whatever
+character is sent by colorimeter
 
-Input:  
-portNumber (1xN char) - Name of the serial port to use.  
+Input:
+portNumber (1xN char) - Name of the serial port to use.
 
-Output:  
-retval (1xN char) - Character data returned from the PR-670.  
+Output:
+retval (1xN char) - Character data returned from the PR-670.
 
 
 <div class="code_header" style="text-align:right;">

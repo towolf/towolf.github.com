@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetTexLevelParameterfv  Interface to OpenGL function glGetTexLevelParameterfv  
+glGetTexLevelParameterfv  Interface to OpenGL function glGetTexLevelParameterfv
 
-usage:  params = glGetTexLevelParameterfv( target, level, pname )  
+usage:  params = glGetTexLevelParameterfv( target, level, pname )
 
-C function:  void glGetTexLevelParameterfv(GLenum target, GLint level, GLenum pname, GLfloat\* params)  
+C function:  void glGetTexLevelParameterfv(GLenum target, GLint level, GLenum pname, GLfloat\* params)
 
 
 <div class="code_header" style="text-align:right;">

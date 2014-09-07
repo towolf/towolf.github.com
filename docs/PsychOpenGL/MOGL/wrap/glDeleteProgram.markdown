@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glDeleteProgram  Interface to OpenGL function glDeleteProgram  
+glDeleteProgram  Interface to OpenGL function glDeleteProgram
 
-usage:  glDeleteProgram( program )  
+usage:  glDeleteProgram( program )
 
-C function:  void glDeleteProgram(GLuint program)  
+C function:  void glDeleteProgram(GLuint program)
 
 
 <div class="code_header" style="text-align:right;">

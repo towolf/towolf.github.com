@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alListeneri  Interface to OpenAL function alListeneri  
+alListeneri  Interface to OpenAL function alListeneri
 
-usage:  alListeneri( param, value )  
+usage:  alListeneri( param, value )
 
-C function:  void alListeneri(ALenum param, ALint value)  
+C function:  void alListeneri(ALenum param, ALint value)
 
 
 <div class="code_header" style="text-align:right;">

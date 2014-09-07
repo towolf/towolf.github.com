@@ -6,12 +6,12 @@ categories:
 encoding: UTF-8
 ---
 
-JavaClockTest  
+JavaClockTest
 
-Test for divergence between the java.lang.System.currentTimeMillis() and  
-GetSecs clocks.  
+Test for divergence between the java.lang.System.currentTimeMillis() and
+GetSecs clocks.
 
-see also: CalibrateJavaClock, JavaTimeToGetSecs, GetChar  
+see also: CalibrateJavaClock, JavaTimeToGetSecs, GetChar
 
 
 <div class="code_header" style="text-align:right;">

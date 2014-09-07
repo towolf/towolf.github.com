@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glProgramParameteri  Interface to OpenGL function glProgramParameteri  
+glProgramParameteri  Interface to OpenGL function glProgramParameteri
 
-usage:  glProgramParameteri( program, pname, value )  
+usage:  glProgramParameteri( program, pname, value )
 
-C function:  void glProgramParameteri(GLuint program, GLenum pname, GLint value)  
+C function:  void glProgramParameteri(GLuint program, GLenum pname, GLint value)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glClearDepth  Interface to OpenGL function glClearDepth  
+glClearDepth  Interface to OpenGL function glClearDepth
 
-usage:  glClearDepth( depth )  
+usage:  glClearDepth( depth )
 
-C function:  void glClearDepth(GLclampd depth)  
+C function:  void glClearDepth(GLclampd depth)
 
 
 <div class="code_header" style="text-align:right;">

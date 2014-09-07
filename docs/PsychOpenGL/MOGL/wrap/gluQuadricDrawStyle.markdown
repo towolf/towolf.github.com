@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-gluQuadricDrawStyle  Interface to OpenGL function gluQuadricDrawStyle  
+gluQuadricDrawStyle  Interface to OpenGL function gluQuadricDrawStyle
 
-usage:  gluQuadricDrawStyle( quad, draw )  
+usage:  gluQuadricDrawStyle( quad, draw )
 
-C function:  void gluQuadricDrawStyle(GLUquadric\* quad, GLenum draw)  
+C function:  void gluQuadricDrawStyle(GLUquadric\* quad, GLenum draw)
 
 
 <div class="code_header" style="text-align:right;">

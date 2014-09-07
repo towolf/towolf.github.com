@@ -6,14 +6,14 @@ categories:
 encoding: UTF-8
 ---
 
-TextBugTest  
+TextBugTest
 
-Tests for the text bug where using textures before drawing texts causes  
-'DrawText' not to work.  Reported by lots of people.  
+Tests for the text bug where using textures before drawing texts causes
+'DrawText' not to work.  Reported by lots of people.
 
-TextBugTest tests both text before textures and textures before text.  
+TextBugTest tests both text before textures and textures before text.
 
-[Screen](/docs/Screen) should now pass this test.  
+[Screen](/docs/Screen) should now pass this test.
 
 
 <div class="code_header" style="text-align:right;">

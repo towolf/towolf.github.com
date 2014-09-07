@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-alDisable  Interface to OpenAL function alDisable  
+alDisable  Interface to OpenAL function alDisable
 
-usage:  alDisable( capability )  
+usage:  alDisable( capability )
 
-C function:  void alDisable(ALenum capability)  
+C function:  void alDisable(ALenum capability)
 
 
 <div class="code_header" style="text-align:right;">

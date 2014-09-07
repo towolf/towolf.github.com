@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glInvalidateSubFramebuffer  Interface to OpenGL function glInvalidateSubFramebuffer  
+glInvalidateSubFramebuffer  Interface to OpenGL function glInvalidateSubFramebuffer
 
-usage:  glInvalidateSubFramebuffer( target, numAttachments, attachments, x, y, width, height )  
+usage:  glInvalidateSubFramebuffer( target, numAttachments, attachments, x, y, width, height )
 
-C function:  void glInvalidateSubFramebuffer(GLenum target, GLsizei numAttachments, const GLenum\* attachments, GLint x, GLint y, GLsizei width, GLsizei height)  
+C function:  void glInvalidateSubFramebuffer(GLenum target, GLsizei numAttachments, const GLenum\* attachments, GLint x, GLint y, GLsizei width, GLsizei height)
 
 
 <div class="code_header" style="text-align:right;">

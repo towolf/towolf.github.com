@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glProgramUniform2i  Interface to OpenGL function glProgramUniform2i  
+glProgramUniform2i  Interface to OpenGL function glProgramUniform2i
 
-usage:  glProgramUniform2i( program, location, v0, v1 )  
+usage:  glProgramUniform2i( program, location, v0, v1 )
 
-C function:  void glProgramUniform2i(GLuint program, GLint location, GLint v0, GLint v1)  
+C function:  void glProgramUniform2i(GLuint program, GLint location, GLint v0, GLint v1)
 
 
 <div class="code_header" style="text-align:right;">

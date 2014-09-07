@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glGetUniformLocation  Interface to OpenGL function glGetUniformLocation  
+glGetUniformLocation  Interface to OpenGL function glGetUniformLocation
 
-usage:  r = glGetUniformLocation( program, name )  
+usage:  r = glGetUniformLocation( program, name )
 
-C function:  GLint glGetUniformLocation(GLuint program, const GLchar\* name)  
+C function:  GLint glGetUniformLocation(GLuint program, const GLchar\* name)
 
 
 <div class="code_header" style="text-align:right;">

@@ -6,11 +6,11 @@ categories:
 encoding: UTF-8
 ---
 
-glMultMatrixd  Interface to OpenGL function glMultMatrixd  
+glMultMatrixd  Interface to OpenGL function glMultMatrixd
 
-usage:  glMultMatrixd( m )  
+usage:  glMultMatrixd( m )
 
-C function:  void glMultMatrixd(const GLdouble\* m)  
+C function:  void glMultMatrixd(const GLdouble\* m)
 
 
 <div class="code_header" style="text-align:right;">

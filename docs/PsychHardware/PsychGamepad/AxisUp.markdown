@@ -6,7 +6,7 @@ categories:
 encoding: UTF-8
 ---
 
-Returns a constant for axes in the extreme up position  
+Returns a constant for axes in the extreme up position
 
 
 

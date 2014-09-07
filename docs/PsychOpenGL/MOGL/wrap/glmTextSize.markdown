@@ -6,9 +6,9 @@ categories:
 encoding: UTF-8
 ---
 
-glmTextSize  Calculate the width and height of a string  
+glmTextSize  Calculate the width and height of a string
 
-usage:  xy = glmTextSize( string )  
+usage:  xy = glmTextSize( string )
 
 
 <div class="code_header" style="text-align:right;">
