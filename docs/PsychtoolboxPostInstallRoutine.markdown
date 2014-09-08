@@ -8,6 +8,7 @@ encoding: UTF-8
 
 PsychtoolboxPostInstallRoutine(isUpdate [, flavor])
 
+
 Psychtoolbox post installation routine. You should not call this
 function directly! This routine is called by DownloadPsychtoolbox,
 or UpdatePsychtoolbox after a successfull download/update of
