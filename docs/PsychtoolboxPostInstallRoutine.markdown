@@ -22,10 +22,10 @@ important info to the user, whatever...
 
 # Currently the routine performs the following tasks:
 
-1\. Clean up the Matlab/Octave path to Psychtoolbox: Remove unneeded .svn subfolders.
-2\. Contact the Psychtoolbox server to perform online registration of this
+1. Clean up the Matlab/Octave path to Psychtoolbox: Remove unneeded .svn subfolders.
+2. Contact the Psychtoolbox server to perform online registration of this
    working copy of Psychtoolbox.
-3\. Add the PsychJava subfolder to the static Matlab class-path if neccessary.
+3. Add the PsychJava subfolder to the static Matlab class-path if neccessary.
    This enables the Java-based GetChar support on Matlab.
-4\. Add the PsychStartup.m routine to Matlab's startup.m file on Windows.
-5\. Perform post-installation checks and basic troubleshooting.
+4. Add the PsychStartup.m routine to Matlab's startup.m file on Windows.
+5. Perform post-installation checks and basic troubleshooting.
